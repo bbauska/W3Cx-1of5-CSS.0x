@@ -1,8 +1,14 @@
 # CSS.0x-W3Cx
-W3Cx: CSS.0x CSS Basics
+####W3Cx: CSS.0x CSS Basics
 
 ##Course outline
 
+# Module 0: Course information
+
+####- Welcome to "CSS Basics"
+####- Course outline, grading and due dates
+####- Course practical information
+####- Course tools
 
 #Module 1: Getting started with CSS
 
@@ -45,10 +51,10 @@ W3Cx: CSS.0x CSS Basics
 
 #Module 5: Designing your Web site for your audience
 
-###Introduction
+####Introduction
 ####The basics of design
 ####Designing your Web site to your audience
-####Historical Web design trends
+###Historical Web design trends
 ####Current Web design trends
 ####Project 5 - Apply good design
 ####5.7 Conclusion and final exam
