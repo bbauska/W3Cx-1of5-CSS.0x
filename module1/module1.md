@@ -12,7 +12,7 @@ Stands for "Cascading Style Sheets". A style sheet language for describing how t
 
 Sample CSS document:
 
-`body {
+```[CSS]body {
    background-color: #d0e4fe;
 }
 h1 {
@@ -30,7 +30,7 @@ Stands for "HyperText Markup Language", and it is the primary document format on
 
 Sample HTML document:
 
-`<!DOCTYPE html>
+```[HTML5]<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
