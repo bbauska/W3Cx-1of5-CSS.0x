@@ -71,3 +71,112 @@ Stands for "Hypertext Transfer Protocol". It is a protocol managed by the W3C to
 HTTPS
 
 Stands for "Hypertext Transfer Protocol Secure". It  is the secure version of HTTP, the protocol over which data is sent between your browser and the Web site that you are connected to. It means all communications between your browser and the Web site are encrypted. Some examples of sites that use HTTPS include the W3C and Microsoft Web sites: https://www.microsoft.com/ - https://www.w3.org/
+
+# Module 1: Getting started with CSS   1.2 What is CSS?   Activity 1.2 and discussion
+
+# Activity 1.2 - The Web before CSS
+
+Now it's your turn to do some exploration! For this activity, your job is to find examples of Web sites before and after CSS.
+
+A great place to start is at archive.org (aka, the "WayBack machine") which stores copies of web pages throughout history. You can search for some of your favorite websites and see if they have stored copies older than 1996. You should find that any Web page made before 1996 will look very different than Web sites we typically see today. When you find a real retro gem, please share it in this week's discussion (see below).
+
+Here's one of my personal favorite vintage sites (which is still live!): http://www.warnerbros.com/archive/spacejam/movie/jam.htm
+
+# Module 1: Getting started with CSS   1.3 Why CSS is important   Separating content from presentation
+
+# Separating content from presentation
+
+Up until now, we have been discussing CSS's role within a Web site as the "presentation" component, but what is that and why is it so important?
+
+From the history of CSS, we learned why CSS came about, but the short answer is simply because HTML was never designed to describe the way a Web page was supposed to look. When we use HTML for what it was intended to do, describe content, it leaves space for CSS to properly control a page's visuals. This makes it very easy to update or add content without having to even touch the style. 
+
+Some benefits of CSS:
+
+CSS has a host of specialized tools to give you powerful control over the look and feel of your Web site, much more powerful than the tools provided by HTML.
+Designers can style many HTML pages with a single CSS document for a consistent look and feel across an entire Web page and less code to maintain.
+Separation of content and presentation makes Web site maintenance much simpler as you can address updates in isolation.
+Over time more and more devices have become internet-capable, and now there are so many different orientations in which your user can view your content. With CSS, you can specifically cater the style to each device to ensure an optimal experience.
+Some users have specific presentation needs based on personal or technological limitations or preferences. Separating content from presentation allows these users the option to control how they view content.
+Before CSS visual elements were almost always achieved with static images, which can have a big affect on network performance. CSS provides an optimized way to style your page so it can load complex visuals quickly. 
+External resources:
+
+CSS design principles
+Effective Use of Style Sheets (updated regularly since 1997!)
+Repurposing of content
+
+# Module 1: Getting started with CSS   1.3 Why CSS is important   Meet CSS Zen Garden
+
+# Meet CSS Zen Garden
+ 
+These videos will introduce you to a web project titled "CSS Zen Garden". You can explore the project here: http://www.csszengarden.com/
+
+Here is a bit about the project in their own words:
+
+"CSS Zen Garden is a demonstration of what can be accomplished through CSS-based design. Littering a dark and dreary road lay the past relics of browser-specific tags, incompatible DOMs, broken CSS support, and abandoned browsers. We must clear the mind of the past. Web enlightenment has been achieved thanks to the tireless efforts of folk like the W3C, WASP, and the major browser creators. There is a continuing need to show the power of CSS. The Zen Garden aims to excite, inspire, and encourage participation".
+- Dave Shea, Creator of CSS Zen Garden
+
+Video: Meet CSS Zen Garden
+ 
+## View source and browser tools
+
+In the above demo, you saw me using what is called the "developer tool" within my Edge Web browser to inspect and real-time change the style of a page's CSS. You can actually right click on any site and choose to look at the code that creates it. This feature exists in both Chrome and Firefox. Here is what I see when I right click on a Web page in my browser.
+
+Right click menu in Edge Web browser
+
+As you can see, in this right click menu, there are two options: "Inspect element" and "View source". When you select view source, you can see the HTML and CSS powering that Web page. Here is what it looks like when I view the source of W3C's Web site:
+
+Edge Web browser with view source window open
+
+You can see a window that popped up from the bottom with all the HTML code for that site. Other Web browsers might pop this up in a separate window. 
+
+You can also get more specific and look at individual HTML elements with the "Inspect element" option. Here is what it looks like in Edge when I inspect a specific title:
+
+Edge inspect element view highlighting a specific title
+
+As you can see, not only is the element highlighted on the page, but this also highlights the HTML code and shows you the CSS for that element on the right-hand side. In the video above, you can see me use this view to change the CSS and HTML real-time, which can be a very convenient way to play around with your designs.
+
+As you work in your own sites you might want to use both of these features of your browser to understand what is happening in your own code, or in Web pages you find on the internet.
+
+
+# Module 1: Getting started with CSS   1.3 Why CSS is important   Activity 1.3 and discussion
+
+## Activity 1.3 - CSS Zen Garden critique
+
+Now that you’ve gotten a good idea of what CSS Zen Garden is, take a closer look. Go to http://www.mezzoblue.com/zengarden/alldesigns/ and look through the different CSS Zen Garden designs for inspiration. Which is your favorite design? Pick one design and share your critiques with the discussion. 
+
+For your chosen design, please answer the following questions:
+
+What made this design stand out to you?
+What do you like best about this design?
+What is one thing you don't like about this design?
+
+# Module 1: Getting started with CSS   1.4 Project - your first CSS   "Hello beautiful world"
+
+Video: "Hello beautiful world" Intro
+ 
+
+
+Here is the HTML part:
+```[html5]
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p>
+            Hello Beautiful World
+        </p>
+    </body>
+</html>
+```
+... and the CSS file (style.css) is below:
+```[CSS]
+      p {
+        color: blue;
+        font-family:Helvetica;
+      }
+... and here is the "output":
+```
+Blue Helvetica text "Hello Beautiful World" in a browser window
