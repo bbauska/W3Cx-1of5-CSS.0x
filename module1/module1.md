@@ -12,7 +12,7 @@ Stands for "Cascading Style Sheets". A style sheet language for describing how t
 
 Sample CSS document:
 
-body {
+`body {
    background-color: #d0e4fe;
 }
 h1 {
@@ -22,7 +22,7 @@ h1 {
 p {
    font-family: "Times New Roman";
    font-size: 20px;
-}
+}`
 
 HTML • /eɪʧ-ti-ɛm-ɛl/ • noun 
 
@@ -30,7 +30,7 @@ Stands for "HyperText Markup Language", and it is the primary document format on
 
 Sample HTML document:
 
-<!DOCTYPE html>
+`<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -39,7 +39,7 @@ Sample HTML document:
     <body>
         <p> This is an HTML document </p>
     </body>
-</html>
+</html>`
 
 Web page • /wɛb peɪʤ/ • noun 
 
