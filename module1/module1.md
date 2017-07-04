@@ -22,7 +22,7 @@ h1 {
 p {
    font-family: "Times New Roman";
    font-size: 20px;
-}`
+}```
 
 HTML • /eɪʧ-ti-ɛm-ɛl/ • noun 
 
@@ -39,7 +39,7 @@ Sample HTML document:
     <body>
         <p> This is an HTML document </p>
     </body>
-</html>`
+</html>```
 
 Web page • /wɛb peɪʤ/ • noun 
 
