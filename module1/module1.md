@@ -264,3 +264,4 @@ Learn the anatomy of a CSS "rule"
 Discover the concept of a property
 Get to know selectors and how you can directly attach them to HTML tags
 Finally, for your module project, you'll get a get a chance to build the CSS for an HTML page from scratch
+
