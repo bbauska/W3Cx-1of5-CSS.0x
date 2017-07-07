@@ -336,3 +336,225 @@ p {
     font-size: 2em;
 }
 ```
+
+# Module 2: Building CSS rules   2.3 Building a CSS rule   Constructing your CSS rules
+
+# Constructing your CSS rules
+
+Here is an example CSS "rule":
+```[html]
+p {
+    color: blue;
+}
+```
+
+This rule tells the browser to make all text within a paragraph tag blue. A CSS rule is broken into two parts: the selector and the property
+
+css anatomy
+
+Selector
+
+This is the portion of the rule before the first open curly brace ( "{" character). This is what tells the browser what HTML tags this rule applies to. Often, you'll just see a selector that matches an HTML tag, like in this instance- our selector is just "p". However, as we get further into this course, you'll find that there are many ways to target specific HTML elements and many different ways to structure selectors so that you are targeting exactly the part of your site you want to style.
+
+Property
+
+This is the portion of the rule between the two curly braces. This is what tells the browser how to style the HTML tag that has been selected. This can be as many lines of code as you choose, each of which has two parts- the property and the value you want that property to be. For our example, "color" is the property and "blue" is the value, but we could also have had a value of "black" or "#FFFFFF" (which is HEX code for white). Each property line is constructed so:
+
+property anatomy
+
+The style for your page will consist of a list of many CSS rules put together. As we move through this course we will help you build up these rules to style your entire page.
+
+# Module 2: Building CSS rules   2.3 Building a CSS rule   Activity 2.3 - Building your first CSS rule set
+
+# Activity 2.3 - Building your first CSS rule set
+ Bookmark this page
+Activity 2.3 - Building your first CSS rule set
+
+Now that you have a basic understanding of how to put the pieces of a CSS rule together, let's do some practice. Here is some HTML for a page you will style:
+```[html]
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>My HTML page</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <h1>My H1 header</h1>
+      <p> This is a block of text to represent a paragraph that you will want to style. This might be an explanation of of the list that follows, it is all contained within a single paragraph tag.
+      </p>
+      <ul>
+         <li>This is list item 1</li>
+         <li>Item 2 in the list</li>
+         <li>The third item in the list</li>
+         <li>Item 4 completes the list</li>
+      </ul>
+   </body>
+</html>
+```
+HTML in Code Pen
+
+Your goal is to get this HTML to look like the following image in the browser:
+
+CodePen resulting image (Activity 2.3)
+
+To do so, you will need to write 4 CSS Rules. You will need to use the following 4 selectors:
+
+body
+h1
+p
+ul
+And you will need the following properties:
+
+background-color: silver;
+background-color: purple;
+color: white;
+color: fuchsia; 
+Now it's up to you to combine these selectors and properties into 4 rules to achieve the final style. 
+
+# Module 2: Building CSS rules   2.4 Attaching CSS to HTML using selectors   What is a selector?
+
+# What is a selector?
+
+In unit 2.3, we defined a CSS selector as the portion of the CSS rule that tells the browser on which HTML element to apply the defined style.
+
+When your HTML is simple, the selectors can be simple as well. The most basic selectors simply mirror the HTML tag. For example "p" attaches to all <p> tags, "img" will attach to all <img> tags and so on. As you can imagine, there will often be times when you don't want every single HTML element of a particular type to have identical style. In Module 3, we'll discuss a variety of ways to use selectors to attach to specific HTML elements. 
+
+In unit 2.2, we briefly mentioned the fact that properties apply to the entire hierarchy of HTML elements to which they are attached. This means that you will have to be very careful which selectors you choose to use in combination with your chosen style. When choosing your selector you might want to keep the following aspects of an HTML element in mind:
+
+How many of these HTML elements are on my page? Do I want this style to apply to every one of these elements?
+What are this HTML element's children, and do I want this style to apply to them as well?
+Is this element a block element or an inline element, and does this style make sense in that context?
+It is possible to independently target every HTML element on the page using selectors, but for this module we are going to stick to basics and only use selectors that match the HTML tag name. For example, here are some example selectors we'll use in this module:
+
+```[css]
+a {
+ /* style for a tags */
+}
+This would affect the style of all link tags on the page.
+
+p {
+ /* style for p tags */
+}
+```
+This would affect the style of all paragraph tags on the page and the style of elements contained within the paragraph tag. 
+```[css]
+body {
+ /* style for all elements in the body */
+}
+```
+This would apply style to the body tag as well as allow the elements inside the body tag to inherit certain styles applied here. 
+
+Here is a Code Pen that demonstrates how styles apply to different selectors.
+
+HTML code:
+```[html]
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My HTML page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Title</h1>
+        <p>In unit 2.3, we defined a CSS selector as the portion of the CSS rule that tells the browser on which HTML element to apply the defined style.
+            <a href="http://www.microsoft.com">Click Here!</a>
+        </p>
+        <ul>
+            <li>When your HTML is simple, the selectors can be simple as well</li>
+            <li>he most basic selectors simply mirror the HTML tag</li>
+            <li>For example "p" attaches to all tags, "img" will attach to all tags and so on</li>
+            <li>As you can imagine, there will often be times</li>
+            <li>when you don't want every single HTML element of a particular type to have identical style</li>
+        </ul>
+        <p>           
+In Module 3, we'll discuss a variety of ways to use selectors to attach to specific HTML elements. 
+In unit 2.2, we briefly mentioned the fact that properties apply to the entire hierarchy of HTML elements to which they are attached. This means that you will have to be very careful which selectors you choose to use in combination with your chosen style 
+ <br />
+<a href="http://www.w3.org">Check this out</a>
+It is possible to independently target every HTML element on the page using selectors, but for this module we are going to stick to basics and only use selectors that match the HTML tag name. For example, here are some example selectors we'll use in this module:
+        </p>
+        <ol>
+            <li>This would affect the style of all link tags on the page</li>
+            <li>This would affect the style of all paragraph tags on the page</li>
+            <li>and the style of elements contained within the paragraph tag</li>
+            <li>This would apply style to the body tag</li>
+            <li>as well as allow the elements inside the body tag to inherit certain styles applied here. </li>
+        </ol>
+    </body>
+</html>
+```
+CSS code:
+```[css]
+body {
+    color: red; /* every element inherits this except those with more specific style */
+}
+ul {
+    color: blue;/* li elements inherit this color */
+}
+p {
+    font-style: italic; /* this even the a tags inherit within the paragraphs */
+}
+li {
+    text-decoration: line-through; /* applies to all li elements, in both ul and ol tags */
+}
+```
+
+# Module 2: Building CSS rules   2.4 Attaching CSS to HTML using selectors   Inheriting style
+
+# Inheriting style
+
+Part of the reason a well structured HTML document is so important is because HTML elements inherit stylistic properties. 
+
+Let's say we have an HTML document (see the corresponding Code Pen). 
+```[html]
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My HTML page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1> Title </h1>
+            <h2> sub title </h2>
+        </header>
+        <section>
+            <p> This is my paragraph text </p>
+            <ul>
+                <li> list item 1 </li>
+                <li> list item 2 </li>
+                <li> list item 3 </li>
+            </ul>
+        </section>
+    </body>
+</html>
+```
+You can see it's basic structure from the way I have formatted the tags with tabbing, but here is a more visual representation of the hierarchy of tags. Tags that contain other tags are parents, and the tags inside of them are their children in the following tree representation:
+
+HTML inheritance structure
+
+Through inheritance, CSS property values set on one element will be transferred down the tree to that element's children. In this example, every element gets the same font because we applied it to the body tag. Since the body element is a common parent for all visible elements is a convenient selector for when you want to set stylistic rules for the entire document.
+
+Then, we applied different styles at different levels of the tree so that the "li" or list element tag ends up with three different styles (font, underline and green) without us actually applying any style directly to that tag. 
+```[css]
+body {
+   font-family: "Century Gothic", sans-serif;
+}
+header {
+   font-style: italic;
+}
+section {
+   text-decoration: underline;
+}
+ul {
+   color: green;
+}
+```
+Not every property is inherited, but many are. The CSS specification tell you, for each property, whether it is inheritable. It's a good idea to keep in mind the structure of your HTML document when choosing your selectors so you can use inheritance to your advantage by applying styles to the top most element and save yourself extra CSS code.
+
+Output:
+
+CodePen image snapshot (Inheriting style)
