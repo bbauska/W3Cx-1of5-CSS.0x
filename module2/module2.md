@@ -558,3 +558,339 @@ Not every property is inherited, but many are. The CSS specification tell you, f
 Output:
 
 CodePen image snapshot (Inheriting style)
+
+# Module 2: Building CSS rules   2.4 Attaching CSS to HTML using selectors   Combining multiple selectors
+
+# Combining multiple selectors
+
+You can imagine that multiple HTML elements on your page will have similar style. If you write a separate CSS rule with the same properties for each of these elements, your CSS file can get very large and hard to manage. When designing CSS, the authors wanted to help make it as easy as possible to write and edit style sheets "by hand", so there are a number of features that help keep your styles succinct.
+
+For example, what if you want to change the font that is consistent across many elements? You would have to change it in many places. Instead, you can combine multiple selectors on the same rule like so:
+```[css]
+p, ul, ol {
+   color: blue;
+   background-color: pink;
+}
+```
+The comma means that each of these elements should have the same, duplicated style. No need to have repeated style! Of course, you could simply apply this style to an element that contains all of these, say the body element, but not all properties are inherited so using the comma is a direct way to apply consistent style across multiple categories of HTML elements. 
+
+Here is a Code Pen that explores using the comma to combine selectors.
+
+HTML code:
+```[html]
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My HTML page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Title 1</h1>
+        <h2>Title 2</h2>
+        <ul>
+            <li>art of the reason a well structured HTML document is so important</li>
+            <li>is because HTML elements inherit stylistic properties</li>
+            <li>You can see it's basic structure from the way I have formatted the tags with tabbing</li>
+        </ul>
+        <h3>Title 3</h3>
+        <ol>
+            <li>but here is a more visual representation of the hierarchy of tags</li>
+            <li>Tags that contain other tags are parents</li>
+            <li>and the tags inside of them are their children in the following tree representation</li>
+        </ol>
+    </body>
+</html>
+```
+CSS code:
+```[css]
+body {
+    color: #660099;
+}
+ 
+h1,h2,h3 {
+    font-family: Impact, sans-serif;
+}
+ 
+ul,ol {
+    font-family: helvetica, sans-serif;
+}
+ 
+h2,ul {
+    font-style: italic;
+}
+ 
+h3,ol {
+    text-decoration: underline;
+}
+```
+Output:
+
+Output from multiple selectors code example
+
+# Module 2: Building CSS rules   2.4 Attaching CSS to HTML using selectors   Activity 2.4 - Apply your own selectors
+ 
+# Activity 2.4 - Apply your own selectors
+
+Now it's your turn to practice with some selectors of your own. 
+
+Let's say you have the following HTML and CSS (see the Code Pen with Code Stub), or see below:
+
+
+HTML code:
+```[html]
+c
+```
+CSS code:
+```[css]
+/*selector here*/  {
+    background-color: #ccffcc;
+    color: #336600;
+}
+ 
+/*selector here*/  {
+    background-color: #336600;
+    color: #ccffcc;
+}
+ 
+/*selector here*/  {
+    border: 3px solid;
+}
+ 
+/*selector here*/  {
+    background-color: #ffff99;
+}
+ 
+/*selector here*/  {
+    text-decoration: underline;
+}
+
+```
+As you can see, there is HTML and some CSS rules, but the rules are missing their selectors. 
+You will need to figure out which selectors belong on top of each of the 5 rules so that your final site looks exactly like this:
+
+Final result after you apply your own selectors
+
+HINT: Some of the rules require multiple comma separated selectors.
+
+#  Module 2: Building CSS rules   2.5 Applying styles using CSS properties   What is a property?
+
+# What is a property?
+
+In unit 2.3, we briefly introduced you to "properties", the part of the CSS rule that tells the browser how to style specific aspects of the selected HTML element.
+
+There is a huge array of different aspects you can style: color, font, size, spacing and much more! You can find the complete list of CSS properties at the W3C's official site here, or check out Meiert's list here.
+
+Every property has its own collection of possible values. Some require text input, some specific keywords, some numerical input, etc.
+
+Here are some examples of properties that each accept a different style of value:
+```[css]
+body {
+    background-color: purple; /* key word */
+    color: #FFFFFF; /* HEX code */
+    width: 60%; /* percentage */
+    font-size: 20pt; /* numerical value */
+}
+```
+CodePen of above style
+
+Make sure to look up what the available values are before using a property, because if the browser doesn't understand your value it will typically just skip applying any style. This is where programs like Visual Studio Code come in handy because as you type out the property, the program will automatically suggest possible values for you like so:
+
+property suggestions
+
+Sometimes the easiest way to learn about different properties is to explore the style on one of your favorite Web sites. You can use your browser tool to inspect an HTML element. Here is an example of inspecting a title:
+
+browser tool
+
+If you are not sure how to do this, please refer to the demo in unit 1.3 to see this in action while inspecting CSS Zen Garden designs. 
+
+As you can see, the browser tools display the value of the properties, and if you click into that space it will even give you some of the different value options and you can even change them and watch the Web site update dynamically. 
+
+# Module 2: Building CSS rules   2.5 Applying styles using CSS properties   Color properties
+
+# Color properties
+
+Color is one of the first things you'll want to explore when designing your Web site. Thankfully, CSS provides a wide array of tools for you to control the color of different HTML elements. There are basic color properties:
+
+color
+
+This property sets the foreground color of an element's text content. By default, all text content will be set to black. If you set the color on one HTML element it will be inherited by all HTML elements within that. For example, if you set the color property on the body tag to blue, all text on your web page will be changed to blue, unless that text has a more specific color property that will override it. 
+
+Documentation
+
+background-color
+
+This property sets the background color of an element. This color then represents the exact space the element takes up, which is always a rectangular area. The default value is 'transparent' which means whatever is behind the element will shine through. Note that background-color is one example of a property that is not inherited, so you will have to directly set the background-color on each element. To set the overall color of your page, apply a background color to the body tag, and since all other element's background colors will be transparent by default, it will appear as if everything has that same background color. 
+
+Documentation
+
+color as a value
+
+These color properties take in a color as their value, and there are three different ways you can define that color: keyword, a HEX code or an rgb value.
+
+keyword
+
+Probably the simplest and least flexible way to set colors is using a keyword. A keyword is one of the predefined colors like "blue" or "green". 
+```[css]
+body {
+   background-color: teal; 
+}
+```
+There are 16 predefined colors based on keywords: aqua, black, blue, fuchsia,gray, green, lime, maroon, navy, olive, purple, red, silver, teal, yellow, white and orange. You can read more about these keyword colors here
+
+HEX
+
+A HEX code is a 6 character code to represent the color, giving you a lot more options. The 6 characters of the code are broken into 3 sets of 2, where each set of 2 represents the amount of either red, green or blue that makes up the color. These sets are hexadecimal numbers, which means that each ranges between 00 to FF where 00 means no color and FF means all of that color. Thus #000000 represents pure black and #FFFFFF represents pure white.
+
+When using a hex code in CSS you must put a hash character in front of the 6 characters like so:
+```[css]
+body {
+   background-color: #00CC00; /* green */
+}
+```
+decimal
+
+You can also specify colors using rgb in decimal form like so:
+```[css]
+body {
+   background-color: rgb(0,204,0); /*same green as above*/
+}
+```
+This will give you the same range as HEX values. This method is a less common, but it's up to you which method of specifying colors you prefer. 
+
+Documentation
+
+Here are some of the colors you can use, and the three different ways you can set their value in the color or color-background property:
+
+color swatches
+
+You can see these color properties in action using all three approaches to setting the value in this CodePen.
+
+Other resources:
+
+color paletteWe will discuss how to pick a good color palette for your site in Module 5, but in the mean time here is a good wiki article from the W3C discussing the general use of colors on the Web.
+More color units are described in the CSS3 specification.
+
+# Module 2: Building CSS rules   2.5 Applying styles using CSS properties   Font properties
+
+# Font properties
+
+Font is an extremely important part of how you communicate content to your user. As you are likely aware there are many different aspects to font, and with CSS you can explicitly style each aspect. Here is a quick reference for what the fonts look like with different properties.
+
+font-family
+```[css]
+p {
+   font-family: Helvetica, Verdana, sans-serif;
+}
+```
+This property sets the font face. There are a collection of Web safe fonts that generally each browser has agreed to support, but there is an infinite number of different fonts. The problem is they might not all look the way you want them to on different browsers.
+
+That is why this property "font-family" allows a list of fonts in the order of your preference. This comma-separated list orders your font preference from left to right. In our above example, our first choice is Helvetica, if the browser doesn't support that it will move to the next on the list, Verdana, and if it still doesn't support that it will just pick any sans-serif font it does support. You should always end your font family with fonts that are likely to be supported by the browser, this way I am guaranteed to have control over the font-family.
+
+Something to keep in mind: some fonts have names with multiple words like "Times New Roman" or "Century Gothic". When using these fonts you'll need to surround the entire name with quotes so the browser understands that is a single font name like so:
+```[css]
+p {
+   font-family: "Times New Roman", "New Century Schoolbook", serif;
+}
+```
+Documentation
+
+font-size
+```[css]
+h1 {
+   font-size: 2.5em;
+}
+```
+Font-size sets the overall scale of your text. You can use a lot of different units to set the font size. Some of these units you are probably familiar with if you have used text editors before such as pt size or you can use px size. However, these methods are not advised because they are static and will not adapt based on screen size. 
+
+The ideal way to set text size is to use "em". Em is a way to set your text size based on the system settings of the device in which you are viewing that font. This becomes especially important for users who have special font preferences due to accessibility requirements. To use em do not set font-size on the body tag, but instead set the size for each element in relation to the user's default. For example, 1em is the default, 2em is twice as big, 0.5em is half as big etc. Here are some more font sizing tips and tricks.
+
+Documentation
+
+font-weight
+```[css]
+p {
+font-weight: bold;
+}
+```
+The weight of a font is the thickness of the letters. You can set this property using keywords with which you might be familiar: bold, normal or lighter. You can also set this property more specifically using numerical values 100, 200, 300, 400, 500, 600, 700, 800 or 900. Normal is represented as 400, whereas bold is 700.
+
+Note that few fonts have settings for all values. If the value is not available, the browser will use the nearest available one. For example, if 800 is not available but 700 is, then the browser will display 700. You can try out different fonts in this code pen to see how they look at each weight setting.
+
+Documentation
+
+font-style
+```[css]
+p {
+   font-style: italic;
+}
+```
+The font style property adjusts the angle of the letters in relation to the horizontal plane. Italic forms are generally cursive in nature while oblique faces are typically sloped versions of the regular face.
+
+Documentation
+
+text-decoration
+```[css]
+p {
+   text-decoration: underline;
+}
+```
+Text-decoration adds a line across your text. You can set this line to be underneath your text, underline, through your text, line-through, or on top, overline. 
+
+Documentation
+
+Example:
+
+Here is a CodePen exploring each of these styles.
+
+HTML code:
+```[html]
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My HTML page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Main title</h1>
+        <h2>Sub title</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacinia consequat nibh, non commodo neque maximus semper. Vivamus non ultricies massa, vel convallis nunc. Aenean tempus risus at orci faucibus, eget hendrerit elit sodales. Quisque imperdiet diam nibh, ut semper enim dapibus et. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean in feugiat neque. Nunc eget libero mauris. Maecenas condimentum luctus nulla.
+Nulla a sem orci. Cras eget neque viverra, condimentum nulla et, tincidunt libero. In sit amet quam purus. Aliquam erat volutpat. Sed hendrerit urna quis sapien mattis dictum. Etiam vehicula tortor eu libero finibus dapibus. Mauris nunc neque, sodales nec est sed, gravida convallis sem. Nam vulputate sed est sed eleifend. Quisque sodales elit at ornare vulputate.
+Morbi quis metus tortor. Cras dapibus nisl urna, et pretium risus rutrum at. Maecenas a sollicitudin elit. Ut suscipit neque ligula. Nam aliquam massa in pretium ullamcorper. Sed id nisl et mauris maximus suscipit. Suspendisse potenti. Nulla interdum, magna eu facilisis aliquam, tellus nulla luctus nisi, eu cursus magna sapien sed mi.
+        </p>
+    </body>
+</html>
+```
+CSS code:
+```[css]
+body {
+    font-family: Helvetica, Verdana, sans-serif;
+    font-size: 12pt;
+}
+h1 {
+    font-size: 3em;
+    font-style: italic;
+}
+h2 {
+    font-size: 2em;
+    text-decoration: underline;
+}
+p {
+    font-weight: bold;
+}
+```
+Output:
+
+CodePen resulting image (Font properties)
+
+External resources:
+
+There are even more ways to adjust text appearance and you can read more about them here: 
+
+CSS Fonts Module Level 3
+CSS Text Decoration Module Level 3
+
+
+
