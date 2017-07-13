@@ -1,0 +1,33 @@
+body {
+    background-color: #ffff99;
+    font-family: Helvetica; 
+}
+ 
+h1 {
+     color:#ff6600;
+     font-family: Helvetica;
+    border: 10px #ff6600 solid ;
+ 
+}
+ 
+ 
+h2 {
+    color: #ffff99 ;
+    background-color: #ff6600;
+ 
+}
+ 
+ol {
+ background-color: #ffcc00;
+}
+ 
+li {
+    color: #ffff99;
+    
+ 
+}
+ 
+p {
+    border:10px #ffcc00 dotted;
+ 
+}

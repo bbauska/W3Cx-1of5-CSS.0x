@@ -1006,3 +1006,244 @@ CodePen resulting image (Spacing properties)
 
 In this code pen, you can see that I used background color to illustrate where there was padding and where there was margin. An element's background color extends over its padding but not over its margin. 
 
+# Module 2: Building CSS rules   2.5 Applying styles using CSS properties   Activity 2.5 - Adding your own properties
+
+# Activity 2.5 - Adding your own properties
+
+Now that you have a few properties in your CSS toolbox, let's practice using them. 
+
+Here is some HTML and CSS, but as you can see the CSS rules have selectors but no properties. See this Code Pen of Code Stub.
+
+HTML code:
+```[html]
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My HTML page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Adding Properties</h1>
+        <h2>Using Colors, Fonts and Spacing</h2>
+        <p>          
+        There is a huge array of different aspects you can style: color, font, size, spacing and much more! For a complete list of official CSS properties look here: https://www.w3.org/Style/CSS/all-properties#list or http://meiert.com/en/indices/css-properties/
+        </p>
+        <ol>
+            <li>Make sure to look up what the available values are before using a property</li>
+            <li>because if the browser doesn't understand your value it will typically just skip applying any style</li>
+            <li>This is where programs like Visual Studio Code come in handy</li>
+            <li>because as you type out the property the program will automatically suggest possible values for you </li>
+            <li>Sometimes the easiest way to learn about different properties is to explore the style on one of your favorite websites</li>
+        </ol>
+        <p>     
+If you aren't sure how to do this refer to the demo in unit 1.3 to see this in action while inspecting CSS Zen Garden designs. As you can see, the browser tools display the value of the properties, and if you click into that space it will even give you some of the different value options and you can even change them and watch the Web site update dynamically.
+        </p>
+    </body>
+</html>
+```
+CSS code:
+
+```[html]
+body {
+ 
+}
+ 
+h1 {
+ 
+}
+ 
+ 
+h2 {
+ 
+}
+ 
+ol {
+ 
+}
+ 
+li {
+ 
+}
+ 
+p {
+ 
+}
+```
+As you can see, these CSS rules have selectors, but no properties. For this activity, it is up to you to add the correct properties and set their values appropriately to achieve this final style:
+
+Final image of web site with proper CSS properties applied
+
+Here are the color HEX code used above:
+
+light yellow: #ffff99
+medium yellow: #ffcc00
+orange: #ff6600
+Here are the fonts used above:
+
+Helvetica
+Impact
+Courier New
+
+# Module 2: Building CSS rules   2.6 Style studies   Style studies
+
+# How to use style studies
+
+In each unit, we will have a section like this one where we profile specific aspects of Web sites and the various ways you can use CSS to style them. This is intended to give you practical examples of how to apply the CSS you are developing along the way. 
+
+Each style study will discuss the different concerns of styling a given element and three sample styles.
+
+# Module 2: Building CSS rules   2.6 Style studies   Titles
+
+# Titles
+
+There are a couple different categories of text on a Web page: titles, body text, links, captions, etc.
+
+You'll want to style each of these differently to help your user understand the proper context for your text. One of the most important categories of text to stand out are your titles. 
+
+There are different aspects of text you can alter to make it stand out. 
+
+size 
+font
+capitalization
+color
+emphasis
+weight
+However, you should only alter a few of these following aspects at a time to prevent your titles from being too distracting. The below is an example of using too many different aspects of font for emphasis:
+
+Image of too busy title
+```[css]
+#busyTitle h1{
+    font-size: 2em;
+    font-family: Impact
+    color: yellow;
+    background-color: gray;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bold;
+    text-decoration: underlinel;
+}
+```
+Title 1
+
+This title uses soft clean colors based on print media, so we chose a serif font. We also increased the size and color to help the title appear more prominent than the body text. 
+
+title 1
+```[css]
+#design1 {
+    background-color: #F4F4F4;
+    font-family: "Lucidia Sans Unicode", sans-serif;
+}
+ 
+#design1 h1 {
+    color: #C0B283;
+    font-size: 4em;
+    font-weight: 700;
+    font-family: Garamond;
+    width: 300px;
+}
+ 
+#design1 p {
+    color: #373737;
+    font-size: 1.2em;
+}
+```
+Title 2
+
+This design is intended to look futuristic, so it only uses sans-serif, thin font with high contrast colors.
+
+title 2
+```[css]
+#design2 {
+    font-family: Century Gothic, sans-serif;
+    background-color: #0E0B16;
+}
+ 
+#design2 h1 {
+    font-weight: 400;
+    font-size: 2.3em;
+    color: #A239CA;
+    font-style: italic;
+}
+ 
+#design2 p {
+    color: #E7DFDD;
+}
+```
+Title 3
+
+This design is based on pastel primary colors and uses color as a highlight against the default white background. We have achieved the separation between title and body text by setting its background color separately and giving it a bottom border. 
+
+title 3
+```[css]
+#design3 {
+    color: #DF744A;
+    font-family: Arial, sans-serif;
+}
+ 
+#design3 h1 {
+    background-color: #BFD8D2;
+    text-align: center;
+    font-size: 4em;
+    font-weight: 100;
+    padding: 30px;
+    border-bottom: 5px #DCB239 solid;
+    font-family: Helvetica, sans-serif;
+}
+ 
+#design3 p {
+    background-color: #FEDCD2;
+    padding: 50px;
+}
+```
+Here is a code pen of all the above examples of different title designs for you to play around with.
+
+# Module 2: Building CSS rules   2.7 Project 2 - About me page   Module 2 project - About me page
+
+# Module 2 project - About me page
+
+Now that you have played around with applying selectors and properties, you have the tools to make a much more sophisticated Web page than "Hello Your World". 
+
+For your module project, you are going to create a page describing yourself using your favorite colors. Your Web page must have the following content:
+
+an h1 title with your name
+an h2 title with your favorite quote
+a paragraph describing your favorite hobbies
+an ordered list of your favorite foods
+an unordered list of your favorite websites, including links to them
+And in addition, you must employ the following styles:
+
+3 different font colors
+2 different background colors
+a serif font
+a sans-serif font
+italic text
+bold text
+1 border
+extra margin between the edge of the screen and your content
+extra padding around your list items
+For example, here is what my page looks like:
+
+CodePen resulting image (Module 2 project)
+
+Note: you are welcome to look up other styles and apply them however you like as long as you at least have the above requirements met.
+
+We've set up a discussion forum below, in case you want to share your work!
+
+Discusión
+Tema: Module 2 / Project - About me page
+
+#  Module 2: Building CSS rules   2.8 Conclusion and exercises   After Module 2 you should be able to...
+
+# After this module you should be able to...
+
+understand the how HTML and CSS work together to create Web content
+describe what the different parts of a CSS rule are
+employ basic selectors and combine them using the comma
+apply properties that style color, font and spacing
+In module 3, you will then learn:
+
+classes, IDs
+contextual selectors
+pseudo classes
+
