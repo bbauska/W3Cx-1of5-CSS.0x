@@ -225,3 +225,232 @@ Do you think that violation is a problem in this design?
 How you you improve the design overall? 
 Discusión
 Tema: Module 5 / Activity 5.2 - Breaking design guidelines
+
+# Curso   Module 5: Designing your Web site for your audience   5.3 Designing for your audience   Intro to Web accessibility
+
+# Intro to Web accessibility
+ Añadido a marcadores
+What is Web accessibility?
+
+The power of the Web is in its universality.
+Access by everyone regardless of disability is an essential aspect.
+Tim Berners-Lee, W3C Director and inventor of the World Wide Web
+
+WAI Web page displayed on a laptop's screen
+
+The Web has become an essential aspect of our daily lives, and everyone should have access to this technology. Web accessibility focuses on ensuring equivalent access for people with disabilities. It is increasingly important to many organizations and governments from around the world, and has many business benefits. Access to information, including on the Web, is also recognized by the UN Convention on the Rights of Persons with Disabilities (CRPD).
+
+Who is impacted?
+
+Web accessibility addresses all disabilities, including hearing, learning and cognitive, neurological, physical, speech, and visual disabilities. Some examples of Web accessibility features include:
+
+Captions on audio and multimedia content for people who are hard of hearing;
+Clear and consistent layout for people with learning and cognitive disabilities;
+Keyboard support for people with physical disabilities and do not use a mouse;
+Text alternatives for people with visual disabilities and using screen readers;
+Web accessibility benefits people with and without disabilities
+
+Web accessibility features also benefit many more users, such as:
+
+People with temporary situational limitations, such as a broken arm;
+People using mobile devices, televisions, and other access channels;
+People using older computers, with low bandwidth, and other limitations;
+People who are new to computers, to the Web, or to your own website;
+People who are not fluent in the language of your particular website;
+The Web is an increasingly important resource in many aspects of life: education, employment, government, commerce, health care, recreation, and more. When Web pages, Web technologies, Web tools, or Web applications are badly designed, they can create barriers that exclude people from using the Web. More information is available in the W3C Accessibility overview.
+
+First steps in Web accessibility
+
+There are many simple Web accessibility improvements that you can implement and check right away, even when you are new to this topic. Two example excerpts are provided below on this page but you can find more tips and information from W3C/WAI:
+
+Tips for Getting Started with Web Accessibility
+Easy Checks - A First Review of Web Accessibility
+Example 1: page title
+
+Good page titles are particularly important for orientation — to help people know where they are and move between pages open in their browser. The first thing screen readers say when the user goes to a different Web page is the page title. In the Web page markup, they are the <title> within the <head>.
+
+Check #1: There is a title that adequately and briefly describes the content of a page, and that it distinguishes the page from other Web pages.
+
+Example:
+```[html]
+<head>
+...
+   <title>Web Accessibility Initiative (WAI) - home page</title>
+...
+</head>
+```
+
+Example 2: image text alternatives ("ALT TEXT")
+
+Text alternatives ("alt text") are a primary way of making visual information accessible, because they can be rendered through any sensory modality (for example, visual, auditory or tactile) to match the needs of the user. Providing text alternatives allows the information to be rendered in a variety of ways by a variety of user agents. For example, a person who cannot see a picture can have the text alternative read aloud using synthesized speech.
+
+Check #2: Every image has alt with appropriate alternative text.
+
+Example: See the W3C logo below. It contains a link that points to the W3C Web site. The text alternative is going to be a brief description of the link target.
+
+W3C web site
+```[html]
+<a href="http://w3.org">
+   <img src="images/w3c_home.png" width="72" height="48" alt="W3C Web site">
+</a>
+```
+
+# Curso   Module 5: Designing your Web site for your audience   5.3 Designing for your audience   Inclusive design
+
+# Inclusive design
+ Bookmark this page
+Inclusive design
+
+As you are designing your site, it is critical that you keep in mind the range of users who might be viewing your page. There are some simple design choices you can make to ensure that your web page is as inclusive as possible.
+
+Typically a good approach is to keep your designs on the simpler side. Not only is this in line with current trends, but when there are fewer elements and styles, it is easier for everyone to consume the information you are trying to convey.
+
+color-blind
+
+When a user is color-blind, it typically means there is a category of colors that are difficult for them to distinguish between. So, by picking diverse colors that contrast well, you can ensure that these users can still read your page. To do this:
+
+Pick a base color (example: blue).
+Choose one or two shades of the same color (example: pastel blue, navy blue) as supplementary colors. Make sure these colors contrast with the base color, meaning that if one was placed on top of the other, it is still legible. Also, if you are choosing multiple supplementary colors, try to pick one from the yellows group (warmer colors) and one from the blues group (cooler colors). This way, a color-blind user is likely to only have difficulty seeing one of these, not both.
+Select an accent color that is a totally different color from the previously chosen colors.
+Even with a carefully chosen palette, it might still be difficult for a user to distinguish between colors. In addition to using color to indicate something, you'll also want to use shape. For example, if you have two buttons, one that is green for "agree" and one that is red for "disagree", it can be almost impossible for some users to decide which to click! In this case, you'll want to make sure they are both clearly labeled, or the shapes of the buttons are distinctly different.
+
+Thankfully, The Paciello Group has created a tool you can download to check if your chosen colors provide enough contrast for color blind users. You can find out more about this free tool here: https://www.paciellogroup.com/resources/contrastanalyser/
+
+low-vision
+
+It is extremely common (as many as 20% of users over 45) for a user to have difficulty reading small text. These users often will have their Web browser set to magnify text to a size that is more comfortable for them, which can make all your carefully designed layouts look very different. These users will typically do one of two things:
+
+zoom in on the entire page: you can test to see what this experience will be like with your own Web browser, typically with the "ctrl+" shortcut.
+use a text-only zoom: to see what it looks like, you might want to test your layout with larger fonts, like 24pt or 32pt, to make sure your layout can grow to accommodate the overflow text. Also, note that long lines of text (over 50 characters wide) can be especially difficult to scroll through to read.
+In general, you will want to make sure your font size is at least 1em. By using em you can let the text size grow based on the user's browser settings. 
+
+External resources
+
+Tips on designing for Web accessibility - on W3C's WAI Web site: https://www.w3.org/WAI/gettingstarted/tips/designing
+Color contrast: https://www.w3.org/WAI/eval/preliminary.html#contrast
+
+# Curso   Module 5: Designing your Web site for your audience   5.3 Designing for your audience   What is internationalization?
+
+# What is internationalization?
+ Bookmark this page
+What is internationalization?
+
+Access to the Web for all has been a fundamental concern and goal of the W3C since the beginning. It is easy to overlook the needs of people from cultures different to your own, or who use different languages or writing systems, but you have to ensure that any content or application that you design or develop is ready to support the international features that they will need.
+
+'Internationalization' is sometimes abbreviated to 'i18n' in English, because there are 18 characters between the 'i' and the 'n'.W3C Internationalization Activity logo
+
+The W3C Internationalization Activity works with W3C working groups and liaises with other organizations to make it possible to use Web technologies with different languages, scripts, and cultures.
+
+People who use non-Latin writing systems or use the Latin script for certain languages, often have specific typographic needs that differ from text in, say, English. As you learn more about CSS, you will find that it provides many features to support those needs.
+
+Whereas HTML markup provides structure for the content of your page, CSS bring the expressive power to make the page look the way a person from particular culture would expect.
+
+Examples
+
+Here are some examples of things that can be done with CSS.
+
+It is already possible to make text run vertically in CSS for languages such as Chinese, Japanese, Korean and Mongolian. For more information see Styling vertical Chinese, Japanese, Korean and Mongolian text.
+
+Vertically set Mongolian text.
+
+You can also style counters for lists or chapter headings and such like according to local preferences. Here we see lists using Georgian and Japanese labels.
+
+Georgian counter styles. Japanese counter styles.
+
+When you want to justify text so that the lines are straight on both sides of your column, different strategies are used for different scripts. Most Western typography puts an emphasis on adjusting inter-word spaces, but Chinese doesn't use spaces between words, so you generally do inter-character spacing. In text written using the arabic script it is common to stretch the baseline that joins letters, or use other techniques to balance the line.
+
+Arabic justification.
+
+Some scripts allow words to be hyphenated in order to improve the visual effect of a paragraph, but note that the way in which words are hyphenated depends on the language. (And in arabic script, the CSS specification requires that both parts of the word retain their joining line during hyphenation.)
+
+Text decoration and text style features can vary in applicability from script to script. For example, Japanese characters are fairly complicated so, rather than italicise their text for emphasis, which can make it harder to read at small sizes, they have a tradition of placing special marks alongside the emphasised text (see the middle line of the Japanese example below). Also, it may be important to avoid underlines running over descenders in some scripts, since it can obscure important marks attached to a base character, so CSS allows you to skip 'ink' as shown in the Burmese example below.
+
+Emphasis in Japanese. Skipping descenders in Burmese.
+
+These are just a few examples. There are many more.
+
+CSS & Language
+
+An important point to bear in mind is that for many of these features to work as expected, you need to declare the language of the content. For example:
+
+Hyphenation won't work unless the content is labelled for language. This is because the way that hyphenation works, and the dictionaries it uses, are language-specific.
+If you want to convert Turkish or Azeri text to uppercase or vice versa, you will get incorrect results unless the browser knows that the text is in that language, because they have a dotted i and a non-dotted ı which do case conversion differently from European languages.
+If text wraps to a new line, by default it does so differently dependent on whether you are dealing with Chinese or Japanese.
+And we could continue...
+Therefore, you should always ensure that the correct language is specified in the lang attribute on the html tag, to indicate the default language of the page. And if you have passages in another language inside the page, you should put a lang attribute on markup that surrounds them, too.
+
+Localization
+
+In addition, CSS provides tremendous help if you have to translate content from one language to another. Being able to change a single line in a style sheet to appy a change to all the pages being translated, rather than having to edit every page, saves a massive amount of time. However, this works best when you keep the distinction between semantics (markup) and presentation (styling) clear.
+
+Don't use CSS to apply direction for bidirectional or right-to-left scripts, such as content in Arabic, Hebrew, Persian, Urdu, Divehi, etc. Use HTML markup instead.
+
+Internationalization quick tips
+
+Language: Always declare the default language of your page using the lang attribute on the html tag, and indicate internal language changes.
+Localizable styling: Use CSS styling for the presentational aspects of your page. So that it's easy to adapt content to suit the typographic needs of the audience, keep a clear separation between styling and semantic content, and don't use 'presentational' markup.
+Use international features: Use the international features provided by CSS to make your pages look natural to your audience. The more you use such features, and the more you request them, the better browsers will support them.
+Check your colors and styles: Be sensitive to local preferences of your audience for things such as color, but also use of white space, two-dimensional vs. uni-directional display of information, etc.
+Use start and end: Using these values, where possible, rather than left and right makes it easier to convert content between languages that use right-to-left and lef-to-right scripts.
+
+# Curso   Module 5: Designing your Web site for your audience   5.3 Designing for your audience   Activity 5.3 and discussion
+
+# Activity 5.3 and discussion
+ Bookmark this page
+Activity 5.3 - Accessibility guidelines
+
+For this section, your task is to go out and find a Web page that has one of the following issues:
+
+A page that does not have a title set in its header
+A page that has images without alt-text
+A page with a color scheme makes it difficult for color-blind users to use
+A page with a layout that breaks on text-only zoom
+Once you've found an example of any of the above, post it on the discussion below, and answer the following questions:
+
+Which of the above 4 accessibility guidelines does this page break? More than one?
+Because of this violation what part of the Web page becomes inaccessible and to which group of users?
+Discusión
+Tema: Module 5 / Activity 5.3 - Accessibility guidelines
+
+# Curso   Module 5: Designing your Web site for your audience   5.4 Historical Web design trends   The history of Web design
+
+# The history of Web design
+ Bookmark this page
+Video: the history of Web design
+
+The way Web pages look has changed a lot over the years, mostly because the technology has
+come a really long way. But as Web sites change, we can look at them as a brief history of
+the development of technology and also the development of design.
+Let's take a look at Web sites in the very early 90’s. There, after CSS was invented, were
+a lot of crazy graphics a lot of marquees a lot of moving text, mostly because we were
+all so excited to that we had this new tool and we could do so many fun things with it.
+I know I am guilty of having lots of cursors with dragging gifs behind them and marqueed
+titles, but slowly after all the designers had too much fun, we realized that when you
+make your Web page really busy, its really hard to get your user to focus on exactly
+what you want them focus on. So those things went out of style.
+We then moved into the HTML ‘tabled’ era.
+That's where people were using tables to structure their Web page.
+Which makes sense because an HTML table is essentially just a backbone and you can put
+all of your information in it.
+The problem is, it was a really rigid backbone, and it didn't let you really grow or shrink
+your Web page, and so as we got more screens involved and more Web browsers and more users,
+we needed to grow out of such a rigid backbone and let us just organize our Web site using
+relative positioning like we've learned in this course.
+Then there was the ‘flash’ era,
+where everything was animated, and we had these huge loading screens and download times
+and everything looked really nice, and then it really only worked for desktop machines.
+And now that we're getting more into a mobile-first world we don't have the data to download these
+giant flash sort of Web sites.
+So, thanks to CSS3, we now have animations built into CSS, so we can have a little bit of interactivity,
+but in a much lower impact on our data usage.
+These design trends still pop up every now and then, so it's not necessarily a bad thing
+to use an HTML table, especially if you want to display a table.
+And it's not necessarily a bad thing to use Flash, but you just have a whole lot more
+tools at your disposal.
+So, it's really fun to go and look back at historical Web sites, and pay attention to what
+they were using, but why they were using it, and wonder if maybe now there's a better technology.
+
+
+# Curso   Module 5: Designing your Web site for your audience   5.4 Historical Web design trends   Moving pieces
+
+# 
