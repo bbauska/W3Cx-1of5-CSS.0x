@@ -30,7 +30,7 @@ Numerous studies have been done to determine exactly how important Web design is
 # Curso   Module 5: Designing your Web site for your audience   5.1 Introduction   CSS best practices
 
 # CSS best practices
- Bookmark this page
+
 CSS best practices
 
 You will find below an excerpt of CSS best practices (see the full slide set) that were written by  Elika J. Etemad (also known as fantasai). Elika is an expert on the W3C CSS Working Group (since 2004!) and a longtime contributor to the Mozilla Project. In addition to editing many of the CSS3 specifications, she’s worked on layout engine testing and development for Gecko and managing the CSS test suites at W3C.
@@ -74,10 +74,6 @@ Testing
 Testing imageTest without CSS: turn off CSS, and if the page makes no sense, fix your markup.
 Test in multiple environments:
 
-Resize the window
-Zoom the text
-Try a mobile browser
-Navigate by keyboard
 Test in multiple browsers: remember that just testing in Chrome does not work for everyone!  ;)
 Adaptability
 
