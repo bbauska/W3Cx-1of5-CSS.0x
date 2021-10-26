@@ -18,7 +18,7 @@
 #### Project 1 - Your first CSS
 #### Conclusion and exercises
 
-# Module 2: Building CSS rules
+# [Module 2: Building CSS rules]((https://github.com/bbauska/CSS.0x-W3Cx/blob/master/module2/module2.md)
 
 #### Introduction to Module 2
 #### HTML review
@@ -29,7 +29,7 @@
 #### Project 2 - About me page
 #### Conclusion and exercises
 
-# Module 3: Specific HTML targeting with CSS selectors
+# [Module 3: Specific HTML targeting with CSS selectors](https://github.com/bbauska/CSS.0x-W3Cx/blob/master/module3/module3.md)
 
 #### Introduction to Module 3
 #### Using HTML classes and IDs
@@ -39,7 +39,7 @@
 #### Project 3 - My profile
 #### Conclusion and exercises
 
-# Module 4: Layout and positioning
+# [Module 4: Layout and positioning](https://github.com/bbauska/CSS.0x-W3Cx/blob/master/module4/module4.md)
 
 #### Introduction to Module 4
 #### The basics of layout
@@ -49,7 +49,7 @@
 #### Project 4 - My resume
 #### Conclusion and exercises
 
-# Module 5: Designing your Web site for your audience
+# [Module 5: Designing your Web site for your audience]((https://github.com/bbauska/CSS.0x-W3Cx/blob/master/module5/module5.md)
  
 #### Introduction
 #### The basics of design
