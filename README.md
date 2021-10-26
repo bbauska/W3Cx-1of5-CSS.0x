@@ -10,7 +10,7 @@
 #### - Course practical information
 #### - Course tools
 
-# [Module 1: Getting started with CSS](module1/Module1.md)
+# [Module 1: Getting started with CSS](https://github.com/bbauska/CSS.0x-W3Cx/blob/master/module1/module1.md)
 
 #### Introduction to Module 1
 #### What is CSS?
