@@ -10,7 +10,7 @@
 #### - Course practical information
 #### - Course tools
 
-# [Module 1: Getting started with CSS](Module1/Module1.md)
+# [Module 1: Getting started with CSS](module1/Module1.md)
 
 #### Introduction to Module 1
 #### What is CSS?
