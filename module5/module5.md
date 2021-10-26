@@ -1,8 +1,8 @@
 
-# Curso   Module 5: Designing your Web site for your audience   5.1 Introduction   Welcome to Module 5
+# Curso   Module 5: Designing your Web site for your audience   5.1 Introduction
 
 # Welcome to Module 5
- Añadido a marcadores
+Añadido a marcadores
 Video: welcome to Module 5
  
 In this module, we'll...
@@ -13,7 +13,7 @@ Introduce you to features to help internationalize your page and make it easier 
 Discuss the lessons learned from historical Web design trends and give you the new tech we use instead
 Meet the newest fashions in Web design to help you give your Web pages a modern look and feel
 
-# Curso   Module 5: Designing your Web site for your audience   5.1 Introduction   The importance of design
+# Curso   Module 5: Designing your Web site for your audience   5.1 Introduction
 
 # The importance of design
  Bookmark this page
@@ -103,11 +103,11 @@ Don't rely on proprietary extensions
 Don't use experimental features in production or commit to keeping up-to-date.
 Provide fallbacks / use @supports.
 
-# Curso   Module 5: Designing your Web site for your audience   5.1 Introduction   The W3C CSS WG
+# Curso   Module 5: Designing your Web site for your audience   5.1 Introduction
 
 # The W3C CSS WG
- Bookmark this page
-The W3C CSS Working Group
+
+ The W3C CSS Working Group
 
 The CSS Working Group (Cascading Style Sheets Working Group) is a working group created by the W3C in 1997 to tackle issues that had not been addressed with CSS level 1. The number of members reaches 125 in April 2017!
 
@@ -115,11 +115,11 @@ CSS groupe TPAC
 The CSS WG meeting in Lisbon, November 2016. The working group is co-chaired by Rossen Atanassov and Alan Stearns. (Photo credit: Marie-Claire Forgue)
 The CSS WG members are working on a whole range of specifications, but their core document is CSS snapshot 2017. This document collects together into one definition all the specs that together form the current state of Cascading Style Sheets (CSS) as of 2017. The primary audience is CSS implementers, not CSS authors, as this definition includes modules by specification stability, not Web browser adoption rate.
 
-# Curso   Module 5: Designing your Web site for your audience   5.2 The basics of design   Applying basic design principals
+# Curso   Module 5: Designing your Web site for your audience   5.2 The basics of design
 
 # Applying basic design principals
- Bookmark this page
-Applying basic design principals
+
+ Applying basic design principals
 
 Often it's hard to pull apart the pieces of a design that are "good" or "bad", most of that is subjective. Instead, it's better to think of individual pieces of a design as "effective" or "ineffective" according to the demographic and the task they are trying to achieve. 
 
@@ -160,10 +160,10 @@ External resource
 
 Here is the W3C documentation for all of CSS's font properties: CSS Fonts Module Level 3.
 
-# Curso   Module 5: Designing your Web site for your audience   5.2 The basics of design   Color
+# Curso   Module 5: Designing your Web site for your audience   5.2 The basics of design
 
 # Color
- Bookmark this page
+
 Color
 
 One of the most important design decisions you can make is your Web site's color palette. You should choose a palette before you begin designing to keep a cohesive visual identity. A common mistake it to use too many colors on a page. As you are starting out, it is best to limit yourself to just a few colors per page.
@@ -191,10 +191,10 @@ External resource
 
 Here is a good article that goes into detail about color theory.
 
-# Curso   Module 5: Designing your Web site for your audience   5.2 The basics of design   White space
+# Curso   Module 5: Designing your Web site for your audience   5.2 The basics of design
 
 # White space
- Bookmark this page
+
 White space
 
 It can be difficult to strike a good balance of white space. The most common mistake beginner Web designers make is to not leave enough white space or empty space between HTML elements. 
@@ -203,10 +203,10 @@ You will want to make liberal use of paddings and margins to make sure that your
 
 Good balance between content and white space prevents your user from becoming fatigued while looking at your site. For example, when lines of text are very long, it is difficult to read without losing track of where you are. It is also fatiguing when the lines of text are too short because the user has to read vertically too much. There is considerable research on the topic, but a good rule of thumb is to limit lines of text to 50-75 characters wide. 
 
-# Curso   Module 5: Designing your Web site for your audience   5.2 The basics of design   Activity 5.2 and discussion
+# Curso   Module 5: Designing your Web site for your audience   5.2 The basics of design
 
 # Activity 5.2 and discussion
- Bookmark this page
+
 Activity 5.2 - Breaking design guidelines
 
 For this activity, you'll need to find a Web site that violates one of the following design guidelines:
@@ -222,10 +222,10 @@ How you you improve the design overall?
 Discusión
 Tema: Module 5 / Activity 5.2 - Breaking design guidelines
 
-# Curso   Module 5: Designing your Web site for your audience   5.3 Designing for your audience   Intro to Web accessibility
+# Curso   Module 5: Designing your Web site for your audience   5.3 Designing for your audience
 
 # Intro to Web accessibility
- Añadido a marcadores
+Añadido a marcadores
 What is Web accessibility?
 
 The power of the Web is in its universality.
@@ -291,7 +291,7 @@ W3C web site
 </a>
 ```
 
-# Curso   Module 5: Designing your Web site for your audience   5.3 Designing for your audience   Inclusive design
+# Curso   Module 5: Designing your Web site for your audience   5.3 Designing for your audience
 
 # Inclusive design
  Bookmark this page
@@ -325,7 +325,7 @@ External resources
 Tips on designing for Web accessibility - on W3C's WAI Web site: https://www.w3.org/WAI/gettingstarted/tips/designing
 Color contrast: https://www.w3.org/WAI/eval/preliminary.html#contrast
 
-# Curso   Module 5: Designing your Web site for your audience   5.3 Designing for your audience   What is internationalization?
+# Curso   Module 5: Designing your Web site for your audience   5.3 Designing for your audience
 
 # What is internationalization?
  Bookmark this page
@@ -389,10 +389,10 @@ Use international features: Use the international features provided by CSS to ma
 Check your colors and styles: Be sensitive to local preferences of your audience for things such as color, but also use of white space, two-dimensional vs. uni-directional display of information, etc.
 Use start and end: Using these values, where possible, rather than left and right makes it easier to convert content between languages that use right-to-left and lef-to-right scripts.
 
-# Curso   Module 5: Designing your Web site for your audience   5.3 Designing for your audience   Activity 5.3 and discussion
+# Curso   Module 5: Designing your Web site for your audience   5.3 Designing for your audience
 
 # Activity 5.3 and discussion
- Bookmark this page
+
 Activity 5.3 - Accessibility guidelines
 
 For this section, your task is to go out and find a Web page that has one of the following issues:
@@ -408,10 +408,10 @@ Because of this violation what part of the Web page becomes inaccessible and to 
 Discusión
 Tema: Module 5 / Activity 5.3 - Accessibility guidelines
 
-# Curso   Module 5: Designing your Web site for your audience   5.4 Historical Web design trends   The history of Web design
+# Curso   Module 5: Designing your Web site for your audience   5.4 Historical Web design trends
 
 # The history of Web design
- Bookmark this page
+
 Video: the history of Web design
 
 The way Web pages look has changed a lot over the years, mostly because the technology has
