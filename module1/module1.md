@@ -72,7 +72,7 @@ HTTPS
 
 Stands for "Hypertext Transfer Protocol Secure". It  is the secure version of HTTP, the protocol over which data is sent between your browser and the Web site that you are connected to. It means all communications between your browser and the Web site are encrypted. Some examples of sites that use HTTPS include the W3C and Microsoft Web sites: https://www.microsoft.com/ - https://www.w3.org/
 
-# Module 1: Getting started with CSS   1.2 What is CSS?   Activity 1.2 and discussion
+# Module 1: Getting started with CSS   1.2 What is CSS?
 
 # Activity 1.2 - The Web before CSS
 
@@ -104,7 +104,7 @@ CSS design principles
 Effective Use of Style Sheets (updated regularly since 1997!)
 Repurposing of content
 
-# Module 1: Getting started with CSS   1.3 Why CSS is important   Meet CSS Zen Garden
+# Module 1: Getting started with CSS   1.3 Why CSS is important
 
 # Meet CSS Zen Garden
  
@@ -136,7 +136,6 @@ Edge inspect element view highlighting a specific title
 As you can see, not only is the element highlighted on the page, but this also highlights the HTML code and shows you the CSS for that element on the right-hand side. In the video above, you can see me use this view to change the CSS and HTML real-time, which can be a very convenient way to play around with your designs.
 
 As you work in your own sites you might want to use both of these features of your browser to understand what is happening in your own code, or in Web pages you find on the internet.
-
 
 # Module 1: Getting started with CSS   1.3 Why CSS is important   Activity 1.3 and discussion
 
@@ -203,7 +202,7 @@ Image of Visual Studio Code Comments
 
 Generally, it is a good idea to put a comment at the top of each CSS rule, or at the very least at the top of sets of rules that apply to a single category or section of your Web page. 
 
-# Module 1: Getting started with CSS   1.4 Project - your first CSS   Module 1 project - Hello your world
+# Module 1: Getting started with CSS   1.4 Project - your first CSS
 
 # Module 1 project - Hello your world
 
