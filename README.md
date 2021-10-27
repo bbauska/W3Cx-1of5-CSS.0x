@@ -1,4 +1,5 @@
-# CSS.0x-1of5-W3Cx
+# W3Cx-1of5-CSS.0x - CSS Basics
+
 #### W3Cx: CSS.0x CSS Basics
 
 ## Course outline
