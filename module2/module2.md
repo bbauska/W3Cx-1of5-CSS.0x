@@ -1,18 +1,18 @@
-# Module 2: Building CSS rules   2.1 Introduction   Welcome to Module 2
+# Module 2: Building CSS rules   2.1 Introduction
 
-# Video: Welcome to Module 2
+# Welcome to Module 2
  
 In this module, we will...
 
-Review the basics of HTML
-Introduce you to the anatomy of a CSS "rule"
-Introduce you to the concept of a property and give you a set of properties to get started
-Introduce you to selectors and how you can directly attach them to HTML tags
-Finally, for your module project, you'll get a get a chance to build the CSS for an HTML page from scratch
+> - Review the basics of HTML
+> - Introduce you to the anatomy of a CSS "rule"
+> - Introduce you to the concept of a property and give you a set of properties to get started
+> - Introduce you to selectors and how you can directly attach them to HTML tags
+> - Finally, for your module project, you'll get a get a chance to build the CSS for an HTML page from scratch
 
 # Module 2: Building CSS rules   2.2 HTML review   HTML to get you started
 
-# Video: What is HTML?
+# What is HTML?
 
 HTML 101
 
@@ -51,7 +51,7 @@ There are other types of tags that are called "self-closing", meaning they don't
 ```
 As you can see these types of tags rely on "attributes", these are added modifiers on the tag that have their own values. In the above example, we use the src attribute to set the source for the image. You will also see attributes on the start tags of tag pairs and they can include a wide variety of added functionality for a tag.
 
-# Module 2: Building CSS rules   2.2 HTML review   Common HTML tags
+# Module 2: Building CSS rules   2.2 HTML review
 
 # Common HTML tags
 
@@ -1237,13 +1237,14 @@ Tema: Module 2 / Project - About me page
 
 # After this module you should be able to...
 
-understand the how HTML and CSS work together to create Web content
-describe what the different parts of a CSS rule are
-employ basic selectors and combine them using the comma
-apply properties that style color, font and spacing
+- understand the how HTML and CSS work together to create Web content
+- describe what the different parts of a CSS rule are
+- employ basic selectors and combine them using the comma
+- apply properties that style color, font and spacing
+
 In module 3, you will then learn:
 
-classes, IDs
-contextual selectors
-pseudo classes
+- classes, IDs
+- contextual selectors
+- pseudo classes
 
