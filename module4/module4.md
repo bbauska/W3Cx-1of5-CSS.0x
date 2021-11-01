@@ -1,23 +1,18 @@
-#  Module 4: Layout and positioning   4.1 Introduction   Welcome to Module 4
+#  Module 4: Layout and positioning   4.1 Introduction
 
 # Welcome to Module 4
- Añadido a marcadores
-Video: Welcome to Module 4
- 
 
 In this module, you will learn:
 
-How to use padding and margin to position elements relative to each other and the window
-How to use alignment to control how your content sits within its HTML element
-How to use the float property to let multiple HTML elements share horizontal space
-How to use relative positioning to design your page so that it maintains its layout regardless of screen size
+> How to use padding and margin to position elements relative to each other and the window
+> How to use alignment to control how your content sits within its HTML element
+> How to use the float property to let multiple HTML elements share horizontal space
+> How to use relative positioning to design your page so that it maintains its layout regardless of screen size
 
-#  Module 4: Layout and positioning   4.1 Introduction   Meet the box model
+#  Module 4: Layout and positioning   4.1 Introduction
 
 # Meet the box model
- Bookmark this page
-Video: meet the Box Model
- 
+
 The Box Model
 
 The Box Model is how Web browsers see individual HTML elements. Each element is comprised of 4 areas: the element, the padding, the border and the margin.
@@ -35,11 +30,9 @@ External resource:
 
 Box model definition in the W3C's CSS2.1 specification: https://www.w3.org/TR/CSS2/box.html
 
-# Module 4: Layout and positioning   4.2 The basics of layout   The alignment property
+# Module 4: Layout and positioning   4.2 The basics of layout
 
 # The alignment property
- Bookmark this page
-The alignment property
 
 One of the simplest ways to align content is to use the direct text-align property. This can help you set the alignment of text or inline content within the context of their containing HTML element.
 
@@ -85,7 +78,7 @@ Also, note that CSS will in the future provide better support for justification 
 
 Once you finish this course, look out for these and other international features of CSS as you explore its features further.
 
-# Module 4: Layout and positioning   4.2 The basics of layout   Element width and height
+# Module 4: Layout and positioning   4.2 The basics of layout
 
 # Element width and height
  
@@ -130,7 +123,7 @@ dynamic width and high output narrow example
 
 Here, you can see that the elements have resized accordingly, but have hit the limits of their min and max constraints. This is why using percentages for width and height are so important, it helps you write code that works for all screen sizes. 
 
-# Module 4: Layout and positioning   4.2 The basics of layout   Padding and margin
+# Module 4: Layout and positioning   4.2 The basics of layout
 
 # Positioning with padding and margin
 
@@ -167,7 +160,7 @@ External resources:
 A W3C CSS tip: CSS centering things, on different ways to center your content.
 A "CSS Tricks" article on What you should know about collapsing margins
 
-# Curso   Module 4: Layout and positioning   4.2 The basics of layout   Activity 4.2 and discussion
+# Curso   Module 4: Layout and positioning   4.2 The basics of layout
 
 # Activity 4.2- Practice with alignment
 
@@ -311,7 +304,7 @@ div {
 
 Result of float example code
 
-# Curso   Module 4: Layout and positioning   4.3 Floating elements   Activity 4.3 and discussion
+# Module 4: Layout and positioning   4.3 Floating elements
 
 # Activity 4.3 and discussion
 
@@ -411,11 +404,9 @@ Use the discussion below to share your experiences.
 Discusión
 Tema: Module 4 / Activity 4.3 - Practice with float
 
-# Curso   Module 4: Layout and positioning   4.4 Relative positioning   Meet relative positioning
+# Module 4: Layout and positioning   4.4 Relative positioning
 
 # Meet relative positioning
- Bookmark this page
-Video: meet relative positioning
  
 The position property
 
@@ -514,11 +505,10 @@ h3 {
 
 Relative postioning - overlap
 
-# Curso   Module 4: Layout and positioning   4.4 Relative positioning   Activity 4.4 and discussion
+# Module 4: Layout and positioning   4.4 Relative positioning
 
 # Activity 4.4 and discussion
  
- Bookmark this page
 Activity 4.4 - Practice with relative positioning
 
 For this activity, we are going to focus on using relative positioning to adjust how items sit on the page.
@@ -537,11 +527,9 @@ Use the discussion below to share your experiences.
 Discusión
 Tema: Module 4 / Activity 4.4 - Practice with relative positioning
 
-# Curso   Module 4: Layout and positioning   4.5 Style studies   Menus
+# Module 4: Layout and positioning   4.5 Style studies
 
 # Menus
- Bookmark this page
-Menus
 
 One of the most important aspects of any Web site is the navigation menu. Over time, top level navigation has become fairly standardized so your user will be looking for some key elements that help them find their way around your site:
 
@@ -567,11 +555,9 @@ This third design employs hover as a way to expose secondary links. This lets yo
 
 menu 3 design
 
-# Curso   Module 4: Layout and positioning   4.5 Style studies   Footers
+# Module 4: Layout and positioning   4.5 Style studies
 
 # Footers
- Bookmark this page
-Footers
 
 The footer of your page is typically the last thing your user will see, so it's important that you provide them any essential information. Typically, you will see footers that just contain contact info, but often they can also include navigation links, search bars or other calls to action.
 
