@@ -251,12 +251,12 @@ HINT: Is your favorite color not working? Not all color names are recognized by 
 
 # Module 1: Getting started with CSS   1.5 Conclusion and exercises   Module learnings
 
-# After this module, you should feel comfortable…
+### After this module, you should feel comfortable…
    * Explaining what CSS is, and why is it important,
    * Opening HTML and CSS files in your chosen code editor,
    * Using browser tools to inspect the source of a Web page you wrote.
    
-In next module, you will:
+### In next module, you will:
    * Review the basics of HTML,
    * Learn the anatomy of a CSS "rule",
    * Discover the concept of a property,
