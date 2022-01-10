@@ -55,7 +55,7 @@
 #### Conclusion and exercises
 
 <!-- # [Module 5: Designing your Web site for your audience](https://github.com/bbauska/CSS.0x-W3Cx/blob/master/modules/module5.md) --->
-# [Module 5: Designing your Wev site for your audience](https://github.com/bbauska/W3Cx-3of5-CSS.0x/blob/master/modules/module5.md)
+# [Module 5: Designing your Web site for your audience](https://github.com/bbauska/W3Cx-3of5-CSS.0x/blob/master/modules/module5.md)
 
 #### Introduction to Module 5
 #### The basics of design
