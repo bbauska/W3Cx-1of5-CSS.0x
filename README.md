@@ -14,11 +14,11 @@
 <!--  # [Module 1: Getting started with CSS](https://github.com/bbauska/CSS.0x-W3Cx/blob/master/module1/module1.md) --->
 # [Module 1: Getting started with CSS](https://github.com/bbauska/W3Cx-1of5-CSS.0x/blob/master/modules/module1.md)
 
-#### Introduction to Module 1
-#### What is CSS?
-#### Why CSS is important
-#### Project 1 - Your first CSS
-#### Conclusion and exercises
+> #### 1.1 Introduction to Module 1
+> #### 1.2 What is CSS?
+> #### 1.3 Why CSS is important
+> #### 1.4 Project 1 - Your first CSS
+> #### 1.5 Conclusion and exercises
 
 <!-- # [Module 2: Building CSS rules](https://github.com/bbauska/CSS.0x-W3Cx/blob/master/module2/module2.md)  --->
 # [Module 2: Building CSS rules](https://github.com/bbauska/W3Cx-1of5-CSS.0x/blob/master/modules/module2.md)
