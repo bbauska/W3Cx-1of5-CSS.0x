@@ -6,10 +6,10 @@
 
 # Course information
 
-#### - Welcome to "CSS Basics"
-#### - Course outline, grading and due dates
-#### - Course practical information
-#### - Course tools
+  #### - Welcome to "CSS Basics"
+  #### - Course outline
+  #### - Course practical information
+  #### - Course tools
 
 <!--  # [Module 1: Getting started with CSS](https://github.com/bbauska/CSS.0x-W3Cx/blob/master/module1/module1.md) --->
 # [Module 1: Getting started with CSS](https://github.com/bbauska/W3Cx-1of5-CSS.0x/blob/master/modules/module1.md)
