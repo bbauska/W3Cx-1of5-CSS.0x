@@ -4,7 +4,7 @@
 
 ## Course outline
 
-# Module 0: Course information
+# Course information
 
 #### - Welcome to "CSS Basics"
 #### - Course outline, grading and due dates
