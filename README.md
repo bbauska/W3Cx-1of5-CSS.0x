@@ -12,7 +12,7 @@
 ##### - Course tools
 
 <!--  # [Module 1: Getting started with CSS](https://github.com/bbauska/CSS.0x-W3Cx/blob/master/module1/module1.md) --->
-# [Module 1: Getting started with CSS](https://github.com/bbauska/W3Cx-1of5-CSS.0x/blob/master/modules/module1.md)
+## [Module 1: Getting started with CSS](https://github.com/bbauska/W3Cx-1of5-CSS.0x/blob/master/modules/module1.md)
 
 > ##### 1.1 Introduction to Module 1
 > ##### 1.2 What is CSS?
@@ -21,7 +21,7 @@
 > ##### 1.5 Conclusion and exercises
 
 <!-- # [Module 2: Building CSS rules](https://github.com/bbauska/CSS.0x-W3Cx/blob/master/module2/module2.md)  --->
-# [Module 2: Building CSS rules](https://github.com/bbauska/W3Cx-1of5-CSS.0x/blob/master/modules/module2.md)
+## [Module 2: Building CSS rules](https://github.com/bbauska/W3Cx-1of5-CSS.0x/blob/master/modules/module2.md)
 
 > ##### 2.1 Introduction to Module 2
 > ##### 2.2 HTML review
@@ -33,7 +33,7 @@
 > ##### 2.8 Conclusion and exercises
 
 <!-- # [Module 3: Specific HTML targeting with CSS selectors](https://github.com/bbauska/CSS.0x-W3Cx/blob/master/module3/module3.md) --->
-# [Module 3: Specific HTML targeting with CSS selectors](https://github.com/bbauska/W3Cx-1of5-CSS.0x/blob/master/modules/module3.md)
+## [Module 3: Specific HTML targeting with CSS selectors](https://github.com/bbauska/W3Cx-1of5-CSS.0x/blob/master/modules/module3.md)
 
 > ##### 3.1 Introduction to Module 3
 > ##### 3.2 Using HTML classes and IDs
@@ -44,7 +44,7 @@
 > ##### 3.7 Conclusion and exercises
 
 <!-- # [Module 4: Layout and positioning](https://github.com/bbauska/CSS.0x-W3Cx/blob/master/module4/module4.md) --->
-# [Module 4: Layout and positioning](https://github.com/bbauska/W3Cx-1of5-CSS.0x/blob/master/modules/module4.md)
+## [Module 4: Layout and positioning](https://github.com/bbauska/W3Cx-1of5-CSS.0x/blob/master/modules/module4.md)
 
 > ##### 4.1 Introduction to Module 4
 > ##### 4.2 The basics of layout
@@ -55,7 +55,7 @@
 > ##### 4.7 Conclusion and exercises
 
 <!-- # [Module 5: Designing your Web site for your audience](https://github.com/bbauska/CSS.0x-W3Cx/blob/master/modules/module5.md) --->
-# [Module 5: Designing your Web site for your audience](https://github.com/bbauska/W3Cx-1of5-CSS.0x/blob/master/modules/module5.md)
+## [Module 5: Designing your Web site for your audience](https://github.com/bbauska/W3Cx-1of5-CSS.0x/blob/master/modules/module5.md)
 
 > ##### 5.1 Introduction to Module 5
 > ##### 5.2 The basics of design
