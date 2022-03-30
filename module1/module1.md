@@ -1,6 +1,6 @@
-# Module 1: Getting started with CSS  
+<h1>Module 1: Getting started with CSS</h1>
 
-# Definitions
+<h2>Definitions</h2>
 
 CSS, or Cascading Style Sheets, is a style sheet language used to describe the way an HTML or XML document should look to a user. CSS is where you specifiy the color, size, spacing, font and other visual aspects of the content that you create in your markup language document.
 
@@ -72,9 +72,11 @@ HTTPS
 
 Stands for "Hypertext Transfer Protocol Secure". It  is the secure version of HTTP, the protocol over which data is sent between your browser and the Web site that you are connected to. It means all communications between your browser and the Web site are encrypted. Some examples of sites that use HTTPS include the W3C and Microsoft Web sites: https://www.microsoft.com/ - https://www.w3.org/
 
-# Module 1: Getting started with CSS   1.2 What is CSS?
+<h1>Module 1: Getting started with CSS</h1>
 
-# Activity 1.2 - The Web before CSS
+<h2>1.2 What is CSS?</h2>
+
+<h3>Activity 1.2 - The Web before CSS</h3>
 
 Now it's your turn to do some exploration! For this activity, your job is to find examples of Web sites before and after CSS.
 
@@ -82,9 +84,9 @@ A great place to start is at archive.org (aka, the "WayBack machine") which stor
 
 Here's one of my personal favorite vintage sites (which is still live!): http://www.warnerbros.com/archive/spacejam/movie/jam.htm
 
-# Module 1: Getting started with CSS   1.3 Why CSS is important   Separating content from presentation
+<h2>1.3 Why CSS is important</h2>
 
-# Separating content from presentation
+<h2>Separating content from presentation</h2>
 
 Up until now, we have been discussing CSS's role within a Web site as the "presentation" component, but what is that and why is it so important?
 
@@ -104,9 +106,7 @@ CSS design principles
 Effective Use of Style Sheets (updated regularly since 1997!)
 Repurposing of content
 
-# Module 1: Getting started with CSS   1.3 Why CSS is important
-
-# Meet CSS Zen Garden
+<h2>Meet CSS Zen Garden</h2>
  
 These videos will introduce you to a web project titled "CSS Zen Garden". You can explore the project here: http://www.csszengarden.com/
 
@@ -117,7 +117,7 @@ Here is a bit about the project in their own words:
 
 Video: Meet CSS Zen Garden
  
-## View source and browser tools
+<h2>View source and browser tools</h2>
 
 In the above demo, you saw me using what is called the "developer tool" within my Edge Web browser to inspect and real-time change the style of a page's CSS. You can actually right click on any site and choose to look at the code that creates it. This feature exists in both Chrome and Firefox. Here is what I see when I right click on a Web page in my browser.
 
@@ -137,9 +137,7 @@ As you can see, not only is the element highlighted on the page, but this also h
 
 As you work in your own sites you might want to use both of these features of your browser to understand what is happening in your own code, or in Web pages you find on the internet.
 
-# Module 1: Getting started with CSS   1.3 Why CSS is important   Activity 1.3 and discussion
-
-## Activity 1.3 - CSS Zen Garden critique
+<h2>Activity 1.3 - CSS Zen Garden critique</h2>
 
 Now that you’ve gotten a good idea of what CSS Zen Garden is, take a closer look. Go to http://www.mezzoblue.com/zengarden/alldesigns/ and look through the different CSS Zen Garden designs for inspiration. Which is your favorite design? Pick one design and share your critiques with the discussion. 
 
@@ -149,7 +147,7 @@ What made this design stand out to you?
 What do you like best about this design?
 What is one thing you don't like about this design?
 
-# Module 1: Getting started with CSS   1.4 Project - your first CSS   "Hello beautiful world"
+<h2>1.4 Project - your first CSS   "Hello beautiful world"</h2>
 
 Video: "Hello beautiful world" Intro
  
@@ -180,9 +178,7 @@ Here is the HTML part:
 ```
 Blue Helvetica text "Hello Beautiful World" in a browser window
 
-# Module 1: Getting started with CSS   1.4 Project - your first CSS   Comments
-
-## Comments
+<h2>Comments</h2>
 
 As you write your CSS, you might end up with a pretty large document that can be hard to manage, or you might find yourself working on a team and having to read CSS someone else has written. In these cases, it helps to leave "notes" for the humans that read the file. 
 
@@ -202,9 +198,7 @@ Image of Visual Studio Code Comments
 
 Generally, it is a good idea to put a comment at the top of each CSS rule, or at the very least at the top of sets of rules that apply to a single category or section of your Web page. 
 
-# Module 1: Getting started with CSS   1.4 Project - your first CSS
-
-# Module 1 project - Hello your world
+<h2>Module 1 project - Hello your world</h2>
 
 It's finally time to write your own CSS! Open your code editor of choice and save the following code as a new HTML document.
 
@@ -249,14 +243,14 @@ An image of Hello Kasey in green text
 
 HINT: Is your favorite color not working? Not all color names are recognized by CSS. Sometimes the best way is to use HEX. We'll talk in more detail about colors in the next module, but here is a list of colors you can use: Extended color keywords
 
-# Module 1: Getting started with CSS   1.5 Conclusion and exercises   Module learnings
+<h2>Module 1: Getting started with CSS   1.5 Conclusion and exercises   Module learnings</h2>
 
-### After this module, you should feel comfortable…
+<h2>After this module, you should feel comfortable…</h2>
    * Explaining what CSS is, and why is it important,
    * Opening HTML and CSS files in your chosen code editor,
    * Using browser tools to inspect the source of a Web page you wrote.
    
-### In next module, you will:
+<h2>In next module, you will:</h2>
    * Review the basics of HTML,
    * Learn the anatomy of a CSS "rule",
    * Discover the concept of a property,
