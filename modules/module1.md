@@ -183,23 +183,23 @@ The following is the CSS for Zen Garden
 	* The column effect is a CSS gradient instead of a background image.
 	  By forcing a sharp transition at 66%, we can simulate columns. The way
 	  Chrome rounds gradient values causes the columns to jump unexpectedly when
-      the window is resized, which means that using an equal padding or width
-      value doesn't align the way you think it would. That forced a bit of
-      extra contortion to get the header and body columns perfectly lined up.
+      	  the window is resized, which means that using an equal padding or width
+	  value doesn't align the way you think it would. That forced a bit of
+          extra contortion to get the header and body columns perfectly lined up.
 
 	* Various sidebar H3s were hidden with display:none; This was a design
 	  decision. Their inclusion seemed extraneous. Same goes for HTML/CSS
-      download links at low screen sizes, presumably that screen is a phone
-      and can't download the files anyway.
+          download links at low screen sizes, presumably that screen is a phone
+          and can't download the files anyway.
 
 	* The sidebar positioning style is (necessarily) quite a mess on wider
-      windows, especially the resource list. When flexbox is a bit closer to
-      usable, maybe I'll take another crack at fixing that up.
+          windows, especially the resource list. When flexbox is a bit closer to
+          usable, maybe I'll take another crack at fixing that up.
 
 	* A more logical place for the design list to appear in the mobile
 	  version would have been up closer to the top, possibly disclosed with a
-      menu toggle of some kind. Not something that's easily doable with CSS
-      alone, if you don't want to rely on hovers.
+          menu toggle of some kind. Not something that's easily doable with CSS
+          alone, if you don't want to rely on hovers.
 
 	* The medium- and low-res versions don't differ that much; I may still push
 	  the tablet layout a bit further, it doesn't quite feel right.
