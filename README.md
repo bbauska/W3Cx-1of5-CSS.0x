@@ -5,9 +5,9 @@
 <!----------------------------------- W3Cx-1of5-CSS logo ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="/images/image-w3cx-1of5.png?raw=true"
-	width="50%" 
-    alt="W3Cx CSS3 1 of 5 logo"</>
+<img src="/images/w3cx-1of5.png?raw=true"
+   width="50%" 
+   alt="W3Cx CSS3 1 of 5 logo"</>
 </p>
 ## Course outline
 
