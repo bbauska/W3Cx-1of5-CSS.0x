@@ -9,9 +9,10 @@
    width="50%" 
    alt="W3Cx CSS3 1 of 5 logo"</>
 </p>
-## Course outline
 
-## Course information
+<h2 id="outline">Course outline</h2>
+
+<h2 id="info">Course information</h2>
 
 ##### - Welcome to "CSS Basics"
 ##### - Course outline
