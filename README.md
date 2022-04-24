@@ -1,23 +1,23 @@
 # W3Cx-1of5-CSS.0x - CSS Basics
 
-#### W3Cx: CSS Basics
+<h4>W3Cx: CSS Basics</h4>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- W3Cx-1of5-CSS logo ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="/images/w3cx-1of5.png?raw=true"
-   width="50%" 
-   alt="W3Cx CSS3 1 of 5 logo"</>
+   width="50%"
+   alt="W3Cx CSS3 1 of 5 logo" />
 </p>
 
 <h2 id="outline">Course outline</h2>
 
 <h2 id="info">Course information</h2>
 
-##### - Welcome to "CSS Basics"
-##### - Course outline
-##### - Course practical information
-##### - Course tools
+<h5> - Welcome to "CSS Basics"</h5>
+<h5> - Course outline</h5>
+<h5> - Course practical information</h5>
+<h5> - Course tools</h5>
 
 <!--  # [Module 1: Getting started with CSS](https://github.com/bbauska/CSS.0x-W3Cx/blob/master/module1/module1.md) --->
 ## [Module 1: Getting started with CSS](https://github.com/bbauska/W3Cx-1of5-CSS.0x/blob/master/modules/module1.md)
