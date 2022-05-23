@@ -11,9 +11,7 @@ CSS • /si-ɛs-ɛs/ • noun
 Stands for "Cascading Style Sheets". A style sheet language for describing how to display an HTML document.
 
 Sample CSS document:
-
 ```[css] 
-
 body {
    background-color: #d0e4fe;
 }
@@ -25,15 +23,11 @@ p {
    font-family: "Times New Roman";
    font-size: 20px;
 }
-
 ```
-
 HTML • /eɪʧ-ti-ɛm-ɛl/ • noun 
-
 Stands for "HyperText Markup Language", and it is the primary document format on the Web. It is a standardized system for tagging content on a web page so that a web browser knows how to present it properly to the viewer. It is a standardized way to describe a document's structure and the roles of the different parts of that document. 
 
 Sample HTML document:
-
 ```[html5] 
 
 <!DOCTYPE html>
@@ -46,7 +40,6 @@ Sample HTML document:
         <p> This is an HTML document </p>
     </body>
 </html>
-
 ```
 
 Web page • /wɛb peɪʤ/ • noun 
@@ -64,11 +57,11 @@ Web browser • /wɛb ˈbraʊzər/ • noun
 A software application for retrieving, presenting and traversing information resources on the World Wide Web.
 examples: edge, chrome, Firefox, internet explorer, safari, opera
 
-HTTP
+<h4>HTTP</h4>
 
 Stands for "Hypertext Transfer Protocol". It is a protocol managed by the W3C to dictate the manner in which Web pages share data on the World Wide Web. You might recognize this from the start of many Web addresses.
 
-HTTPS
+<h4>HTTPS</h4>
 
 Stands for "Hypertext Transfer Protocol Secure". It  is the secure version of HTTP, the protocol over which data is sent between your browser and the Web site that you are connected to. It means all communications between your browser and the Web site are encrypted. Some examples of sites that use HTTPS include the W3C and Microsoft Web sites: https://www.microsoft.com/ - https://www.w3.org/
 
@@ -92,7 +85,7 @@ Up until now, we have been discussing CSS's role within a Web site as the "prese
 
 From the history of CSS, we learned why CSS came about, but the short answer is simply because HTML was never designed to describe the way a Web page was supposed to look. When we use HTML for what it was intended to do, describe content, it leaves space for CSS to properly control a page's visuals. This makes it very easy to update or add content without having to even touch the style. 
 
-Some benefits of CSS:
+<h4>Some benefits of CSS:</h4>
 
 CSS has a host of specialized tools to give you powerful control over the look and feel of your Web site, much more powerful than the tools provided by HTML.
 Designers can style many HTML pages with a single CSS document for a consistent look and feel across an entire Web page and less code to maintain.
@@ -150,8 +143,6 @@ What is one thing you don't like about this design?
 <h2>1.4 Project - your first CSS   "Hello beautiful world"</h2>
 
 Video: "Hello beautiful world" Intro
- 
-
 
 Here is the HTML part:
 ```[html5]
@@ -178,7 +169,7 @@ Here is the HTML part:
 ```
 Blue Helvetica text "Hello Beautiful World" in a browser window
 
-<h2>Comments</h2>
+<h3>Comments</h3>
 
 As you write your CSS, you might end up with a pretty large document that can be hard to manage, or you might find yourself working on a team and having to read CSS someone else has written. In these cases, it helps to leave "notes" for the humans that read the file. 
 
@@ -246,14 +237,18 @@ HINT: Is your favorite color not working? Not all color names are recognized by 
 <h2>Module 1: Getting started with CSS   1.5 Conclusion and exercises   Module learnings</h2>
 
 <h2>After this module, you should feel comfortable…</h2>
-   * Explaining what CSS is, and why is it important,
-   * Opening HTML and CSS files in your chosen code editor,
-   * Using browser tools to inspect the source of a Web page you wrote.
-   
+<ul>
+<li>Explaining what CSS is, and why is it important,</li><br/>
+<li>Opening HTML and CSS files in your chosen code editor,</li><br/>
+<li>Using browser tools to inspect the source of a Web page you wrote.</li>
+</ul>
+
 <h2>In next module, you will:</h2>
-   * Review the basics of HTML,
-   * Learn the anatomy of a CSS "rule",
-   * Discover the concept of a property,
-   * Get to know selectors and how you can directly attach them to HTML tags,
-   * Finally, for your module project, you'll get a get a chance to build the CSS for an HTML page from scratch.
+<ul>
+   <li>Review the basics of HTML,</li><br/>
+   <li>Learn the anatomy of a CSS "rule",</li><br/>
+   <li>Discover the concept of a property,</li><br/>
+   <li>Get to know selectors and how you can directly attach them to HTML tags,</li><br/>
+   <li>Finally, for your module project, you'll get a get a chance to build the CSS for an HTML page from scratch.</li>
+   </ul>
 
