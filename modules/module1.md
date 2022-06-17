@@ -11,7 +11,8 @@ Most often you will see CSS used alongside HTML to describe the way a Web page l
 Stands for "Cascading Style Sheets". A style sheet language for describing how to display an HTML document.
 </p>
 Sample CSS document:
-```[css] 
+
+```[css]
 body {
    background-color: #d0e4fe;
 }
