@@ -458,6 +458,7 @@ Look at the corresponding some HTML and CSS:
 
 
 Look at the CSS code:
+
 ```[css]
 body {
     background-color: #F8EEE7;
@@ -481,6 +482,7 @@ p {
     border: 2px dashed black;
 }
 ```
+
 As you can see, there are a lot of repeat CSS rules. For this activity, you cannot change any of the HTML (meaning you cannot add any IDs), but you'll need to change the CSS to make some of the rules more specific so that you achieve this final result:
 
 Cascading order final solution no interaction
@@ -510,12 +512,14 @@ Sizing
 It's important to format and size your image before uploading it to your site, because while you can use CSS to resize it, the browser will download the full image even if you've chosen to display it smaller than it is. 
 
 You can resize images using the width or height properties of CSS like so:
+
 ```[css]
 img {
     width: 100px;
     height: 100px;
 }
 ```
+
 In Module 4, we will discuss width and height in detail, but for the purpose of images, know that if you only set one of these two properties the image will scale according to its original dimensions. If you set both width and height, CSS will stretch your image to fit whatever you specify. 
 
 Spacing
@@ -623,16 +627,15 @@ Tema: Module 3 / Project - My profile
 
 # After this module you should know how to...
 
-Specifically style any single element on a page using IDs
-Group HTML elements with similar style using classes
-Employ pseudo classes to make HTML elements more dynamic
-Scope CSS rules using contextual selection
-Build CSS rule sets with intention leveraging the cascading nature of CSS to manage conflicting rules
+- Specifically style any single element on a page using IDs
+- Group HTML elements with similar style using classes
+- Employ pseudo classes to make HTML elements more dynamic
+- Scope CSS rules using contextual selection
+- Build CSS rule sets with intention leveraging the cascading nature of CSS to manage conflicting rules
+
 In the next module,  you will:
 
-Learn about layout and positioning with CSS
-Understand the box model
-Explore relative positioning
-Learn about the flow property
-
-
+- Learn about layout and positioning with CSS
+- Understand the box model
+- Explore relative positioning
+- Learn about the flow property
