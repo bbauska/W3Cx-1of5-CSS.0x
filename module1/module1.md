@@ -87,17 +87,18 @@ From the history of CSS, we learned why CSS came about, but the short answer is 
 
 <h4>Some benefits of CSS:</h4>
 
-CSS has a host of specialized tools to give you powerful control over the look and feel of your Web site, much more powerful than the tools provided by HTML.
-Designers can style many HTML pages with a single CSS document for a consistent look and feel across an entire Web page and less code to maintain.
-Separation of content and presentation makes Web site maintenance much simpler as you can address updates in isolation.
-Over time more and more devices have become internet-capable, and now there are so many different orientations in which your user can view your content. With CSS, you can specifically cater the style to each device to ensure an optimal experience.
-Some users have specific presentation needs based on personal or technological limitations or preferences. Separating content from presentation allows these users the option to control how they view content.
-Before CSS visual elements were almost always achieved with static images, which can have a big affect on network performance. CSS provides an optimized way to style your page so it can load complex visuals quickly. 
-External resources:
+- CSS has a host of specialized tools to give you powerful control over the look and feel of your Web site, much more powerful than the tools provided by HTML.
+- Designers can style many HTML pages with a single CSS document for a consistent look and feel across an entire Web page and less code to maintain.
+- Separation of content and presentation makes Web site maintenance much simpler as you can address updates in isolation.
+- Over time more and more devices have become internet-capable, and now there are so many different orientations in which your user can view your content. With CSS, you can specifically cater the style to each device to ensure an optimal experience.
+- Some users have specific presentation needs based on personal or technological limitations or preferences. Separating content from presentation allows these users the option to control how they view content.
+- Before CSS visual elements were almost always achieved with static images, which can have a big affect on network performance. CSS provides an optimized way to style your page so it can load complex visuals quickly. 
 
-CSS design principles
-Effective Use of Style Sheets (updated regularly since 1997!)
-Repurposing of content
+<h4>External resources:</h4>
+
+- CSS design principles
+- Effective Use of Style Sheets (updated regularly since 1997!)
+- Repurposing of content
 
 <h2>Meet CSS Zen Garden</h2>
  
@@ -108,7 +109,7 @@ Here is a bit about the project in their own words:
 "CSS Zen Garden is a demonstration of what can be accomplished through CSS-based design. Littering a dark and dreary road lay the past relics of browser-specific tags, incompatible DOMs, broken CSS support, and abandoned browsers. We must clear the mind of the past. Web enlightenment has been achieved thanks to the tireless efforts of folk like the W3C, WASP, and the major browser creators. There is a continuing need to show the power of CSS. The Zen Garden aims to excite, inspire, and encourage participation".
 - Dave Shea, Creator of CSS Zen Garden
 
-Video: Meet CSS Zen Garden
+<h4>Video: Meet CSS Zen Garden</h4>
  
 <h2>View source and browser tools</h2>
 
@@ -145,6 +146,7 @@ What is one thing you don't like about this design?
 Video: "Hello beautiful world" Intro
 
 Here is the HTML part:
+
 ```[html5]
 <!DOCTYPE html>
 <html lang="en">
@@ -167,6 +169,7 @@ Here is the HTML part:
       }
 ... and here is the "output":
 ```
+
 Blue Helvetica text "Hello Beautiful World" in a browser window
 
 <h3>Comments</h3>
@@ -194,6 +197,7 @@ Generally, it is a good idea to put a comment at the top of each CSS rule, or at
 It's finally time to write your own CSS! Open your code editor of choice and save the following code as a new HTML document.
 
 Remember: to do this, you will need to give it a .html file extension when you are saving it. For example, you could call it index.html
+
 ```[html]
 <!DOCTYPE html>
 <html lang="en">
@@ -213,11 +217,13 @@ Once you have your HTML document view it in a Web browser. It should look like t
 An image of Hello Beautiful World in a web browser with black text
 
 Now it’s time to add some CSS. Here is the CSS we wrote in the "Hello Beautiful World" demo. Make a new file with this css and save it with a .css file extension. For example, you can call it styles.css
+
 ```[css]
 p {
     color: blue;
 }
 ```
+
 This won’t change the look of your HTML until you link the two files with this HTML tag.
 
 To do this:
