@@ -12,11 +12,10 @@ In this module, we'll learn:
 # Module 3: Specific HTML element targeting with CSS selectors   3.1 Introduction   The power of selectors
 
 # The power of selectors
- Bookmark this page
 Video: the power of selectors
- 
 
 Code mentioned in above video
+
 ```[css]
 p {
     color: white;
@@ -51,17 +50,21 @@ Classes and IDs are "attribute selectors". This means that you can attach style 
 Classes
 
 Classes are an HTML attribute that specifies a name for a group of elements on the page. You can apply the class name to as many elements as you like, even if they are of different HTML tag types. You can use the class name with a period in front as the selector like so:
+
 ```[html]
 <p class="className">The intro paragraph</p>
 ```
+
 Class names must be single words, but you can include digits and dashes as long as the name begins with a letter. Note that names are case sensitive. 
 
 To apply a CSS rule to a class you use the class name preceeded by a period (".") like in the code below:
+
 ```[css]
 .className {
     color: blue;
 }
 ```
+
 Documentation
 
 IDs
@@ -70,17 +73,20 @@ An ID is an HTML attribute that specifies a name or unique identifier for a part
 
 <p id="MyFirstId"> This is an extra special paragraph </p>
 ID names have the same rules as class names: start with a letter, can include numbers and dashes, no spaces. The way to create a selector for an ID is also similar to how you create a selector for a class, except you replace the period with a hash symbol ("#") like in the code below:
+
 ```[css]
 #MyFirstId {
     color: blue;
 }
 ```
+
 Documentation
 
 Example
 
 
 HTML code:
+
 ```[html]
 <!DOCTYPE html>
 <html lang="en">
@@ -99,8 +105,10 @@ HTML code:
         </p>
         <p class="even">
 ```   
+
 Class names must be single words, but you can include digits and dashes as long as the name begins with a letter. Note that names are case sensitive. 
 To apply a CSS rule to a class you use the class name preceeded by a period (".") like in the code below:
+
 ```[html]
         </p>
         <p class="odd">
@@ -112,7 +120,9 @@ To apply a CSS rule to a class you use the class name preceeded by a period ("."
     </body>
 </html>
 ```
+
 CSS code:
+
 ```[css]
 #intro {
     color: green;
@@ -132,6 +142,7 @@ Sample Classes and IDs output
 # Activity 3.2 - Add your own classes and ids
 
 Here is some HTML and CSS. As you can see it's not too interesting, because not all of the styles are applied to the HTML.
+
 ```[css]
 body {
    background-color: #00ccff;
@@ -158,6 +169,7 @@ p,h2 {
    color: gray;
 }
 ```
+
 In this activity, your job is to add the HTML id and class attributes to the correct elements so that you get a final result that looks like this:
 
 Apply Classes and IDs final image
@@ -169,7 +181,7 @@ Mostrar Discusión
 # Module 3: Specific HTML element targeting with CSS selectors   3.3 CSS pseudo-classes   Meet CSS pseudo-classes
 
 # Meet CSS pseudo-classes
- Bookmark this page
+
 Video: CSS pseudo-classes
  
 CSS pseudo-classes
@@ -177,6 +189,7 @@ CSS pseudo-classes
 Pseudo-classes are a way to select HTML elements based on their state as opposed to their HTML structure. You can read more about pseudo-classes here.
 
 Pseudo-classes must always be applied to an existing selector. Their "flag character" is the colon (":"), as you can see used in the below examples. Here are some of the most popular pseudo-classes.
+
 ```[css]
 :link and :visited
 
@@ -186,10 +199,10 @@ a:visited {
 }
 ```
 
-
 These pseudo classes are the ones you are probably most familiar with. Even on this page you've probably noticed that links have different style than paragraph text. The <a> tag by default sets the text color to blue with an underline, but have you ever seen a purple link? This is the "visited" pseudo-class that applies a different style to links that the user has already clicked. The opposite of visited is "link" which is a link a user has not yet clicked. These two states are mutually exclusive, meaning a link cannot be both at the same time.
 
 Documentation
+
 ```[css]
 :hover
 
@@ -199,20 +212,24 @@ li:hover {
 ```
 The hover pseudo-class is applied when the user points at an object but doesn't activate it, most commonly when they let their mouse cursor lay on top of an element without clicking. Some form factors don't support this, such as touch devices or pen surfaces. This is a really good way to encourage a user to click a link and you will often see it used in navigation bars. 
 ```[css]
+
 :focus
 
 input:focus {
    background-color: blue;
 }
+
 ```
 The focus pseudo class is when a user has chosen to begin interacting with an element, often when the click into a form input such that the input is then ready to accept keyboard input.
 ```[css]
+
 :active
 
 p:active {
    color: red;
 }
 ```
+
 The active pseudo-class applies when an element is activated. This happens in the time between when the user clicks their mouse and they release it.
 
 Documentation
@@ -224,6 +241,7 @@ Documentation
 Now it's your turn to try out some pseudo classes. Here is a Web page.
 
 See the Pen Practice with Pseudoclasses
+
 ```[html]
 body {
    background-color: #006666;
@@ -299,6 +317,7 @@ Video: contextual selectors
  Contextual selectors
 
 When you use two selectors separated by a space on a rule, you scope the rule to the elements that correspond to the selector on the right that are INSIDE the elements that correspond to the selector on the left. Let's say we have the following HTML:
+
 ```[html]
 <!DOCTYPE html>
 <html lang="en">
@@ -317,15 +336,16 @@ When you use two selectors separated by a space on a rule, you scope the rule to
     </body>
 </html>
 ```
+
 If we applied the following CSS rule then the images INSIDE the paragraph would be set to a width of 100px, but that rule would not apply to the images outside the paragraph. 
 
 ```[css]
-
 p img {
     width: 100px;
 }
 
 ```
+
 Below is a diagram of the given HTML with the two imgs that will styled by the above rule are indicated by the red arrows. 
 
 Diagram pointing out which img tags will be styled
@@ -347,6 +367,7 @@ For practice, we are going to learn how to better scope CSS without the crutch o
 
 
 Look carefully at the CSS code:
+
 ```[css]
 body {
     font-family: Tahoma, sans-serif;
@@ -441,6 +462,7 @@ section:hover section:hover section:hover {
    color: yellow;
 }
 ```
+
 Cascading order demo
 
 Things to observe about the above:
@@ -633,9 +655,9 @@ Tema: Module 3 / Project - My profile
 - Scope CSS rules using contextual selection
 - Build CSS rule sets with intention leveraging the cascading nature of CSS to manage conflicting rules
 
-In the next module,  you will:
+# In the next module,  you will:
 
 - Learn about layout and positioning with CSS
-- Understand the box model
+- Understand the box model 
 - Explore relative positioning
 - Learn about the flow property
