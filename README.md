@@ -58,7 +58,7 @@ Thank you for joining this course, where you will learn how to take your Web pag
 
 -   The first set of lessons are available in **\"Module 1: Getting started with CSS\"**, where we show different examples of the amazing things you can do with CSS. This module includes a cameo of Bert Bos, co-inventor of CSS.
 
-![illustration of a CSS property](images/media/image2.png){width="4.0in" height="0.942674978127734in"}
+![illustration of a CSS property](images/image002.png){width="4.0in" height="0.942674978127734in"}
 
 -   In **Module 2**, we will first review HTML and then learn how to build CSS rules with some basic properties that adjust your HTML document\'s color, font or spacing. 
 
