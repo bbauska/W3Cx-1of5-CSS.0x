@@ -1,6 +1,6 @@
 Welcome to the CSS Basics course!
 
-![CSS Basics course visual](images/media/image1.png){width="5.0in" height="2.8in"}
+![CSS Basics course visual](/images/image001.png){width="5.0in" height="2.8in"}
 
 VK7JG-NPHTM-C97JM-9MPGT-3V66T (default product key w10pro)
 
