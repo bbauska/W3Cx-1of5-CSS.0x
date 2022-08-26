@@ -1,6 +1,6 @@
 # Welcome to the CSS Basics course!
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 01. css basics course visual (01) ---------------------------------->
+<!------------------------------ 01. css basics course visual (01) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image001.png?raw=true"
@@ -60,11 +60,25 @@ Thank you for joining this course, where you will learn how to take your Web pag
 
 -   The first set of lessons are available in **\"Module 1: Getting started with CSS\"**, where we show different examples of the amazing things you can do with CSS. This module includes a cameo of Bert Bos, co-inventor of CSS.
 
-![illustration of a CSS property](images/image002.png){width="4.0in" height="0.942674978127734in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 02. illustration of a css property (xx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image002.png?raw=true"
+   width="40%"
+   alt="Illustration of a CSS Property." />
+</p>
 
 -   In **Module 2**, we will first review HTML and then learn how to build CSS rules with some basic properties that adjust your HTML document\'s color, font or spacing. 
 
-![diagram of the structure of an HTML page](images/media/image3.png){width="5.0in" height="3.7654319772528435in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 03. css basics course visual (xx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image003.png?raw=true"
+   width="50%"
+   alt="Diagram of the structure of an HTML page." />
+</p>
 
 -   In **Module 3**, we are going to build slightly more complex Web pages using contextual selectors, IDs, classes and pseudo-classes. The idea is to combine some selectors together into one or more CSS rules. And thanks to the \"cascading\" part of *Cascading Style Sheets*, it won\'t be a problem to have multiple CSS rules competing for importance. Even with multiple rules that apply to the same HTML tag, the browser will know how to make it look!
 
@@ -80,6 +94,14 @@ Thank you for joining this course, where you will learn how to take your Web pag
 
 W3C provides a [W3Cx Verified Certificate for this course](https://ecommerce.edx.org/basket/add/?sku=35F2C9C) that lets you demonstrate to employers, colleagues, and professional organizations that you successfully completed a course that increased your mastery of CSS. This certificate can be used to highlight newly acquired skills on your resume or [LinkedIn profile](https://support.edx.org/hc/en-us/articles/206501938-How-can-I-add-my-certificate-to-my-LinkedIn-profile-).
 
+<!------------------------------------------------------------------------------------------------>
+<!-------------------- 05. a sample of a verified certificate from edx (xx) ---------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image005.png?raw=true"
+   width="20%"
+   alt="A sample of a verified certificate from edx." />
+</p>
 ![A sample of a Verified Certificate from edX](images/media/image5.png){width="2.6041666666666665in" height="1.7708333333333333in"}
 
 Once you have a passing score (70% or higher), your certificate will be automatically generated and accessible from your progress page. Please write to <billing@edx.org> if you encounter an issue with the payment of your certificate.
