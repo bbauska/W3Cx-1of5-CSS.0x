@@ -82,7 +82,14 @@ Thank you for joining this course, where you will learn how to take your Web pag
 
 -   In **Module 3**, we are going to build slightly more complex Web pages using contextual selectors, IDs, classes and pseudo-classes. The idea is to combine some selectors together into one or more CSS rules. And thanks to the \"cascading\" part of *Cascading Style Sheets*, it won\'t be a problem to have multiple CSS rules competing for importance. Even with multiple rules that apply to the same HTML tag, the browser will know how to make it look!
 
-![Image of the CSS box model](images/media/image4.png){width="5.0in" height="3.103448162729659in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 04. image of the css box model (xx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image004.png?raw=true"
+   width="50%"
+   alt="Image of the CSS box model." />
+</p>
 
 -   **Module 4** is about layout and positioning using CSS. You will start by understanding the box model - the foundation of layout on the Web.
 
@@ -110,7 +117,14 @@ W3Cx, as non-profit, relies on verified certificates to help fund future W3Cx co
 
  \"Front-End Web Developer\" Professional Certificate
 
-![FEWD Certificate image](images/media/image6.png){width="1.5833333333333333in" height="1.5625in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 06. image of fewd certificate (xx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image006.png?raw=true"
+   width="15%"
+   alt="FEWD certificate image." />
+</p>
 
 This CSS Basics course is part of the [Front-End Web Developer\" (FEWD) Professional Certificate](https://www.edx.org/professional-certificate/w3cx-front-end-web-developer) program. To get this FEWD certificate, you will need to successfully pass all 5 courses that compose that program. Find out more on [w3cx.org](https://w3cx.org/)!
 
