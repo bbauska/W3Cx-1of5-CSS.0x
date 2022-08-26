@@ -1,10 +1,12 @@
-Welcome to the CSS Basics course!
-
-![CSS Basics course visual](/images/image001.png){width="5.0in" height="2.8in"}
-
-VK7JG-NPHTM-C97JM-9MPGT-3V66T (default product key w10pro)
-
-FMQ78-8TNG8-MVV3P-M6F34-F6YP6
+# Welcome to the CSS Basics course!
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 01. css basics course visual (01) ---------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image001.png?raw=true"
+   width="50%"
+   alt="CSS Basics course visual." />
+</p>
 
 There are 3 methods;
 
