@@ -106,10 +106,9 @@ W3C provides a [W3Cx Verified Certificate for this course](https://ecommerce.ed
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image005.png?raw=true"
-   width="20%"
+   width="25%"
    alt="A sample of a verified certificate from edx." />
 </p>
-![A sample of a Verified Certificate from edX](images/media/image5.png){width="2.6041666666666665in" height="1.7708333333333333in"}
 
 Once you have a passing score (70% or higher), your certificate will be automatically generated and accessible from your progress page. Please write to <billing@edx.org> if you encounter an issue with the payment of your certificate.
 
@@ -348,11 +347,25 @@ We are then providing references to the browser support of HTML5 features presen
 
 [Can I Use](https://caniuse.com/) provides up-to-date tables for support of front-end Web technologies on desktop and mobile Web browsers. Below is a snapshot of what information is given by CanIUse when searching for \"CSS3 colors\".
 
-![Example of a CanIUse browser support table (using CSS3 colors)](images/media/image12.png){width="5.041666666666667in" height="2.1666666666666665in"}
+<!------------------------------------------------------------------------------------------------>
+<!----------- 12. example of a caniuse browser support table (using css3 colors) (xx) ------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image012.png?raw=true"
+   width="50%"
+   alt="Example of a CanIUse browser support table (using CSS3 colors)." />
+</p>
 
 ### MDN Web Docs
 
-![Logo of MDN Web Docs](images/media/image13.png){width="3.2395833333333335in" height="1.0208333333333333in"}
+<!------------------------------------------------------------------------------------------------>
+<!-------------------------------- 13. logo of mdn web docs (xx) --------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image013.png?raw=true"
+   width="30%"
+   alt="Logo of MDN Web Docs." />
+</p>
 
 To help developers make these decisions consciously rather than accidentally, [MDN Web Docs](https://developer.mozilla.org/) provides browser compatibility tables in its documentation pages, so that when looking up a feature you're considering for your project, you know exactly which browsers will support it.
 
@@ -362,7 +375,7 @@ To help developers make these decisions consciously rather than accidentally, [
 
 -   [Caniuse and MDN compatibility data collaboration](https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/)
 
-## 1.1.1 Welcome to Module 1
+<h3 id="ch1-1-1">1.1.1 Welcome to Module 1</h3>
 
 Hi! Welcome to the world of CSS or Cascading Style Sheets.
 
@@ -372,7 +385,7 @@ We\'re going to cover the Web before CSS, and how it came about. Show you awesom
 
 And then finally by the end of the module you write your own first piece of CSS.
 
-## 1.1.2 Module 1 outline
+<h3 id="ch1-1-2">1.1.2 Module 1 outline</h3>
 
 ### In this module, we will:
 
@@ -384,15 +397,29 @@ And then finally by the end of the module you write your own first piece of CSS.
 
 4.  Help you write your first CSS styles
 
-## 1.2.1 What is W3C?
+<h3 id="ch1-2-1">1.2.1 What is W3C?</h3>
 
-### ![W3C logo](images/media/image14.png){width="5.822916666666667in" height="0.9583333333333334in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 14. w3c logo (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image014.png?raw=true"
+   width="58%"
+   alt="W3C logo." />
+</p>
 
 ### As steward of global Web standards, W3C\'s mission is to safeguard the openness, accessibility, and freedom of the World Wide Web from a technical perspective.
 
 W3C\'s primary activity is to develop protocols and guidelines that ensure long-term growth for the Web. The widely adopted Web standards define key parts of what actually makes the World Wide Web work.
 
-![Tim Berners-Lee at his desk in CERN, 1994](images/media/image15.jpeg){width="2.5416666666666665in" height="2.5416666666666665in"}
+<!------------------------------------------------------------------------------------------------>
+<!--------------------- 15. tim berners-lee at his desk in CERN, 1994 (xxx) ---------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image015.jpeg?raw=true"
+   width="25%"
+   alt="Tim Berners-Lee at his desk in CERN, 1994." />
+</p>
 
 Tim Berners-Lee at his desk in CERN, 1994
 
@@ -406,13 +433,20 @@ In April 1995, [Inria](https://www.inria.fr/) became the first European W3C ho
 
 ### Sir Tim Berners-Lee named recipient of the ACM A.M. Turing Award
 
-![Picture of Sir Tim Berners-Lee](images/media/image16.jpeg){width="1.8645833333333333in" height="1.2395833333333333in"}![ACM Turing Award logo](images/media/image17.png){width="3.9895833333333335in" height="1.2291666666666667in"}
+<!------------------------------------------------------------------------------------------------>
+<!--------------------------- 16. picture of sr tim berners-lee (xxx) ---------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image016.jpeg?raw=true"
+   width="18%"
+   alt="Picture of Sir Tim Berners-Lee." />
+</p>
 
 On 4 April 2017, the ACM, the Association for Computing Machinery, named Sir Tim Berners-Lee, inventor of the Web and Director of the World Wide Web Consortium, as the recipient of the 2016 [ACM A.M. Turing Award](https://amturing.acm.org/). The Turing award is recognized as the highest distinction in Computer Science and is often referred to as the "Nobel Prize of Computing".
 
 Sir Tim is being given this award for inventing the World Wide Web, the first Web browser, and the fundamental protocols and algorithms allowing the Web to scale. The Web is considered one of the most influential computing innovations in history.
 
-## 1.2.2 The Web is amazing!
+<h3 id="ch1-2-2">1.2.2 The Web is amazing!</h3>
 
 The Web is an application of the Internet. The Web is the most popular way of accessing the Internet, but other applications of the Internet are [e-mail ](https://en.wikipedia.org/wiki/Email)and [ftp](https://en.wikipedia.org/wiki/File_Transfer_Protocol) for example. One analogy equates the Internet to a road network where the Web is a car, the email is a bicycle, etc.  Read [this article](https://www.lifewire.com/difference-between-the-internet-and-the-web-2483335) for more details about the difference between Internet and the Web.
 
@@ -458,7 +492,7 @@ Please help us shape the next era.
 
 Join our efforts to build an open web platform for the future.
 
-## 1.2.3 The invention of CSS
+<h3 id="ch1-2-3">1.2.3 The invention of CSS</h3>
 
 Before CSS, the appearance of a Web page was dictated by HTML, which had very few visual styling tools, meaning most Web pages looked simple.
 
@@ -466,7 +500,14 @@ Let\'s take the example of the MSN Web site. MSN is the web portal and related 
 
 In 1996, see how it looked like (or check it [online](https://web.archive.org/web/19961022175327/http:/msn.com/)):
 
-![Image of msn.com from 1996](images/media/image18.png){width="4.0in" height="5.74496719160105in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 18. image of msn.com from 1996 (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image018.png?raw=true"
+   width="40%"
+   alt="Image of MSN.COM from 1996." />
+</p>
 
 For a fun time, warp check out an [archived version of that link above](https://web.archive.org/web/19961026005907/http:/msn.com/tutorial/default.html) for anyone \"new to the internet\". See how this [MSN Web site](https://www.msn.com/)  (made with lots of CSS) looks like now!
 
@@ -488,7 +529,14 @@ For a fun time, warp check out an [archived version of that link above](https:/
 
 In the video below, you will hear from Bert Bos, the co-creator of CSS, about how he and Håkon Lie developed CSS.
 
-### ![](images/media/image19.png){width="4.0in" height="2.7608562992125982in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 19.  (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image019.png?raw=true"
+   width="40%"
+   alt="." />
+</p>
 
 ### Video: The history of CSS, by Bert Bos, co-inventor of CSS
 
@@ -550,71 +598,50 @@ We must have done something right.
 
 I\'m especially happy that despite all the things we added to CSS over the years, the style sheets that that people made with CSS in 1996 are still valid and still work the same.
 
-## 1.2.4 Definitions
+<h3 id="ch1-2-4">1.2.4 Definitions</h3>
 
 CSS, or **C**ascading **S**tyle Sheets, is a style sheet language used to describe the way an HTML or XML document should look to a user. CSS is where you specify the color, size, spacing, font and other visual aspects of the content that you create in your markup language document.
 
 Most often you will see CSS used alongside HTML to describe the way a Web page looks and feels. You can have a Web page without CSS, but it would be very difficult to make it look the way you want with just HTML. This is why almost every Web page is a combination of HTML and CSS.
 
-**CSS** • /si-ɛs-ɛs/ • *noun *
+<b>CSS</b> • /si-ɛs-ɛs/ • <i>noun</i>
 
 Stands for \"**C**ascading **S**tyle **S**heets\". A style sheet language for describing how to display an HTML document.
 
-### Sample CSS document:
+<h4>Sample CSS document:</h4>
 
+```
 1.  body {
-
 2.     background-color: #d0e4fe;
-
 3.  }
-
-```{=html}
-<!-- -->
-```
 4.  h1 {
-
 5.     color: orange;
-
 6.     text-align: center;
-
 7.  }
-
-```{=html}
-<!-- -->
-```
 8.  p {
-
 9.     font-family: \"Times New Roman\";
-
 10.    font-size: 20px;
-
 11. }
+```
 
 **HTML** • /eɪʧ-ti-ɛm-ɛl/ • *noun *
 
 Stands for \"**H**yper**T**ext **M**arkup **L**anguage\", and it is the primary document format on the Web. It is a standardized system for tagging content on a web page so that a web browser knows how to present it properly to the viewer. It is a standardized way to describe a document\'s structure and the roles of the different parts of that document. 
 
-### Sample HTML document:
+<h4>Sample HTML document:</h4>
 
-### \<!DOCTYPE html\>
-
-> \<html lang=\"en\"\>
->
->      \<head\>
->
->         \<meta charset=\"utf-8\"\>
->
->        \<title\>My HTML page\</title\>
->
->     \</head\>
->
->     \<body\>
->
->         \<p\> This is an HTML document \</p\>
->
->     \</body\>
->
-> \</html\>
+```
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+        <meta charset="utf-8">
+       <title>My HTML page</title>
+    </head>
+    <body>
+        <p> This is an HTML document </p>
+    </body>
+</html>
+```
 
 **Web page** • /wɛb peɪʤ/ • *noun *
 
@@ -646,13 +673,13 @@ Stands for \"**H**yper**t**ext **T**ransfer **P**rotocol\". It is a protocol m
 
 Stands for \"**H**yper**t**ext **T**ransfer **P**rotocol **S**ecure\". It  is the secure version of **HTTP**, the protocol over which data is sent between your browser and the Web site that you are connected to. It means all communications between your browser and the Web site are encrypted. A vast majority of Web site are now served by [https](https://en.wikipedia.org/wiki/HTTPS).
 
-## 1.2.5 Activity - The Web before CSS
+<h3 id="ch1-2-5">1.2.5 Activity - The Web before CSS</h3>
 
 Now it\'s your turn to do some exploration! For this activity, your job is to find examples of Web sites before and after CSS.
 
 A great place to start is at [archive.org](https://archive.org/) (aka, the \"WayBack machine\") which stores copies of web pages throughout history. You can search for some of your favorite websites and see if they have stored copies older than 1996. You should find that any Web page made before 1996 will look very different than Web sites we typically see today. When you find a real retro gem, please share it in this week\'s discussion (see below).
 
-## 1.3.1 Separating content from presentation
+<h3 id="ch1-3-1">1.3.1 Separating content from presentation</h3>
 
 Up until now, we have been discussing CSS\'s role within a Web site as the \"presentation\" component, but what is that and why is it so important?
 
@@ -765,13 +792,27 @@ In the above demo, you saw me using what is called the \"developer tool\" within
 
 Here is what it looks like when I view the source of [W3C\'s Web site](https://www.w3.org/) (snapshot taken in Sept. 2016):
 
-![Edge Web browser with view source window open](images/media/image20.png){width="5.0in" height="3.125in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 20. edge web browser with view source window open (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image020.png?raw=true"
+   width="50%"
+   alt="Edge Web browser with view source window open." />
+</p>
 
 You can see a window that popped up from the bottom with all the HTML code for that site. Other Web browsers might pop this up in a separate window. 
 
 You can also get more specific and look at individual HTML elements with the \"Inspect element\" option. Here is what it looks like in Edge when I inspect a specific title:
 
-![Edge inspect element view highlighting a specific title](images/media/image21.png){width="5.0in" height="3.1223293963254592in"}
+<!------------------------------------------------------------------------------------------------>
+<!-------------- 20. edge inspect element view highlighting a specific title (xxx) --------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image020.png?raw=true"
+   width="50%"
+   alt="Edge inspect element view highlighting a specific title." />
+</p>
 
 As you can see, not only is the element highlighted on the page, but this also highlights the HTML code and shows you the CSS for that element on the right-hand side. In the video above, you can see me use this view to change the CSS and HTML real-time, which can be a very convenient way to play around with your designs.
 
@@ -933,6 +974,14 @@ Here is the HTML part:
 
 \... and here is the \"output\":
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 19.  (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image019.png?raw=true"
+   width="40%"
+   alt="." />
+</p>
 ![Blue Helvetica text \"Hello Beautiful World\" in a browser window](images/media/image22.png){width="2.8854166666666665in" height="1.5729166666666667in"}
 
 ## 1.4.2 Comments
@@ -951,6 +1000,14 @@ To add comments to your CSS file, you need to surround any text you want the com
 
 As you can see, you can put as much text between the open and close symbols as you need, you can even have multiple lines. If you are working in an editor like Visual Studio code, you will notice that when you turn text into a comment, it turns green to indicate that the computer ignores that code.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 19.  (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image019.png?raw=true"
+   width="40%"
+   alt="." />
+</p>
 ![Image of Visual Studio Code Comments](images/media/image23.png){width="4.572916666666667in" height="1.375in"}
 
 Generally, it is a good idea to put a comment at the top of each CSS rule, or at the very least at the top of sets of rules that apply to a single category or section of your Web page. 
@@ -985,6 +1042,14 @@ It\'s finally time to write your own CSS! Open your code editor of choice and sa
 
 Once you have your HTML document view it in a Web browser. It should look like this:
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 19.  (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image019.png?raw=true"
+   width="40%"
+   alt="." />
+</p>
 ![An image of Hello Beautiful World in a web browser with black text](images/media/image24.png){width="4.40625in" height="1.7604166666666667in"}
 
 Now it's time to add some CSS. Here is the CSS we wrote in the \"Hello Beautiful World\" demo. Make a new file with this css and save it with a .css file extension. For example, you can call it styles.css
@@ -1009,6 +1074,14 @@ This won't change the look of your HTML until you link the two files with this H
 
 Now change the HTML and CSS files so that it says "Hello \<your name\>, welcome to my first CSS Web page" in your favorite color! Here's what mine looks like:
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 19.  (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image025.png?raw=true"
+   width="40%"
+   alt="." />
+</p>
 ![An image of Hello Kasey in green text](images/media/image25.png){width="3.6666666666666665in" height="1.8125in"}
 
 **HINT**: Is your favorite color not working? Not all color names are recognized by CSS. Sometimes the best way is to use HEX. We\'ll talk in more detail about colors in the next module, but here is a list of colors you can use: [extended color keywords](https://www.w3.org/TR/css-color/#color-keywords) (from W3C\'s specification) or [color keywords](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value) (from MDN\'s documentation).
@@ -1153,7 +1226,14 @@ Here is a sample HTML doc:
 
 Tags can be nested inside of other tags. This creates a parent/child relationship between HTML elements and forms the overall structure of your HTML document into a tree. This structure has a big effect on your CSS as styles are typically inherited from parent to child. We will take a closer look at style inheritance later in this unit. 
 
-![The minimal structure of an HTML5 document](images/media/image26.png){width="5.0in" height="3.4588670166229223in"}
+<!------------------------------------------------------------------------------------------------>
+<!-------------------- 26. the minimal structure of an html5 document (xxx) ---------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image026.png?raw=true"
+   width="50%"
+   alt="The minimal structure of an HTML5 document." />
+</p>
 
 There are other types of tags that are called \"self-closing\", meaning they don\'t come in an open/close pair. Typically, self-closing tags insert content into your page as opposed to surround content. They look like this:
 
@@ -3000,59 +3080,35 @@ Here is a [CodePen exploring padding, border and margin](https://codepen.io/tec
 
 ### CSS code:
 
+```
 1.  body {
-
 2.      background-color: #99ffff;
-
 3.      margin-top: 20px;
-
 4.      margin-left: 70px;
-
 5.  }
-
 6.  h1 {
-
 7.      background-color: #ff6699;
-
 8.      border-bottom: 20px #ff0066 solid;
-
 9.      margin-bottom: 10px;
-
 10.     padding: 5px;
-
 11. }
-
 12. ul {
-
 13.     background-color: #ff9933;
-
 14.     border-left: 5px black dashed;
-
 15.     margin: 50px;
-
 16. }
-
 17. li {
-
 18.     background-color: #ffcc66;
-
 19.     margin: 10px;
-
 20.     padding: 10px;
-
 21. }
-
 22. p {
-
 23.     background-color: #ccff99;
-
 24.     border: 10px white double;
-
 25.     padding: 0px;
-
 26.     margin: 0px;
-
 27. }
+```
 
 ## 2.5.5 Activity - Adding your own properties
 
@@ -3060,109 +3116,72 @@ Now that you have a few properties in your CSS toolbox, let\'s practice using th
 
 Here is some HTML and CSS, but as you can see the CSS rules have selectors but no properties. Check also the corresponding [Codepen](https://codepen.io/w3devcampus/pen/WNozNxK):
 
-![](images/media/image43.png){width="6.9375in" height="2.2006944444444443in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 43.  (xx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image043.png?raw=true"
+   width="70%"
+   alt="." />
+</p>
 
 HTML code:
 
 1.  \<!DOCTYPE html\>
-
 2.  \<html lang=\"en\"\>
-
 3.      \<head\>
-
 4.          \<meta charset=\"utf-8\"\>
-
 5.          \<title\>My HTML page\</title\>
-
 6.          \<link rel=\"stylesheet\" href=\"style.css\"\>
-
 7.      \</head\>
-
 8.      \<body\>
-
 9.          \<h1\>Adding Properties\</h1\>
-
 10.         \<h2\>Using Colors, Fonts and Spacing\</h2\>
-
 11.         \<p\>          
-
 12. There is a huge array of different aspects you can style: color, font, size, spacing and much more! For a complete list of official CSS properties, please check: https://www.w3.org/Style/CSS/all-properties#list or https://meiert.com/en/indices/css-properties/
-
 13.         \</p\>
-
 14.         \<ol\>
-
 15.             \<li\>Make sure to look up what the available values are before using a property\</li\>
-
 16.             \<li\>because if the browser doesn\'t understand your value it will typically just skip applying any style\</li\>
-
 17.             \<li\>This is where programs like Visual Studio Code come in handy\</li\>
-
 18.             \<li\>because as you type out the property the program will automatically suggest possible values for you \</li\>
-
 19.             \<li\>Sometimes the easiest way to learn about different properties is to explore the style on one of your favorite websites\</li\>
-
 20.         \</ol\>
-
 21.         \<p\>     
-
 22. If you aren\'t sure how to do this refer to the demo in unit 1.3 to see this in action while inspecting CSS Zen Garden designs. As you can see, the browser tools display the value of the properties, and if you click into that space it will even give you some of the different value options and you can even change them and watch the Web site update dynamically.
-
 23.         \</p\>
-
 24.     \</body\>
-
 25. \</html\>
+```
 
 CSS code:
 
+```
 1.  body {
-
 2.   
-
 3.  }
-
 4.   
-
 5.  h1 {
-
 6.   
-
 7.  }
-
 8.   
-
 9.   
-
 10. h2 {
-
 11.  
-
 12. }
-
 13.  
-
 14. ol {
-
 15.  
-
 16. }
-
 17.  
-
 18. li {
-
 19.  
-
 20. }
-
 21.  
-
 22. p {
-
 23.  
-
 24. }
+```
 
 These CSS rules have selectors, but no properties. For this activity, it is up to you to add the correct properties and set their values appropriately to achieve this final style:
 
@@ -3201,166 +3220,143 @@ There are a couple different categories of text on a Web page: titles, body text
 You\'ll want to style each of these differently to help your user understand the proper context for your text. One of the most important categories of text to stand out are your titles. 
 
 There are different aspects of text you can alter to make it stand out. 
-
--   size 
-
--   font
-
--   capitalization
-
--   color
-
--   emphasis
-
--   weight
+<ul>
+<li>size</li>
+<li>font<M/li>
+<li>capitalization</li>
+<li>color</li>
+<li>emphasis</li>
+<li>weight</li>
+</ul>
 
 However, you should only alter a few of these following aspects at a time to prevent your titles from being too distracting. The below is an example of using too many different aspects of font for emphasis:
 
-![](images/media/image45.png){width="6.9375in" height="2.1930555555555555in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 45.  (xx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image045.png?raw=true"
+   width="70%"
+   alt="." />
+</p>
 
 ### CSS code:
 
+```
 1.  #busyTitle h1{
-
 2.      font-size: 2em;
-
 3.      font-family: Impact;
-
 4.      color: yellow;
-
 5.      background-color: gray;
-
 6.      font-style: italic;
-
 7.      font-variant: small-caps;
-
 8.      font-weight: bold;
-
 9.      text-decoration: underline;
-
 10. }
+```
 
 ### Title 1
 
 This title uses soft clean colors based on print media, so we chose a serif font. We also increased the size and color to help the title appear more prominent than the body text. 
 
-![](images/media/image46.png){width="6.9375in" height="2.2006944444444443in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 46.  (xx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image046.png?raw=true"
+   width="70%"
+   alt="." />
+</p>
 
 ### CSS code:
 
+```
 1.  #design1 {
-
 2.      background-color: #F4F4F4;
-
 3.      font-family: \"Lucida Sans Unicode\", sans-serif;
-
 4.  }
-
 5.   
-
 6.  #design1 h1 {
-
 7.      color: #C0B283;
-
 8.      font-size: 4em;
-
 9.      font-weight: 700;
-
 10.     font-family: Garamond;
-
 11.     width: 300px;
-
 12. }
-
 13.  
-
 14. #design1 p {
-
 15.     color: #373737;
-
 16.     font-size: 1.2em;
-
 17. }
+```
 
 ### Title 2
 
 This design is intended to look futuristic, so it only uses sans-serif, thin font with high contrast colors.
 
-![](images/media/image47.png){width="6.9375in" height="2.186111111111111in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 47.  (xx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image047.png?raw=true"
+   width="70%"
+   alt="." />
+</p>
 
 ### CSS code:
 
+```
 1.  #design2 {
-
 2.      font-family: Century Gothic, sans-serif;
-
 3.      background-color: #0E0B16;
-
 4.  }
-
 5.   
-
 6.  #design2 h1 {
-
 7.      font-weight: 400;
-
 8.      font-size: 2.3em;
-
 9.      color: #A239CA;
-
 10.     font-style: italic;
-
 11. }
-
 12.  
-
 13. #design2 p {
-
 14.     color: #E7DFDD;
-
 15. }
+```
 
 ### Title 3
 
 This design is based on pastel primary colors and uses color as a highlight against the default white background. We have achieved the separation between title and body text by setting its background color separately and giving it a bottom border. 
 
-![](images/media/image48.png){width="6.9375in" height="2.2006944444444443in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 48.  (xx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image048.png?raw=true"
+   width="70%"
+   alt="." />
+</p>
 
 ### CSS code:
 
+```
 1.  #design3 {
-
 2.  color: #DF744A;
-
 3.  font-family: Arial, sans-serif;
-
 4.  }
-
 5.  #design3 h1 {
-
 6.  background-color: #BFD8D2;
-
 7.  text-align: center;
-
 8.  font-size: 4em;
-
 9.  font-weight: 100;
-
 10. padding: 30px;
-
 11. border-bottom: 5px #DCB239 solid;
-
 12. font-family: Helvetica, sans-serif;
-
 13. }
-
 14. #design3 p {
-
 15. background-color: #FEDCD2;
-
 16. padding: 50px;
-
 17. }
+```
 
 [Here is a CodePen of all the above examples of different title designs for you to play around with](https://codepen.io/w3devcampus/pen/LYWRVvP).
 
@@ -3374,7 +3370,14 @@ Typically your user will expect your button to be wider than it is tall, to acco
 
 Here is an example of a button where it\'s not immediately clear that it is actually a button (\"click here\"). 
 
-![](images/media/image49.png){width="6.9375in" height="1.9520833333333334in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 49.  (xx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image049.png?raw=true"
+   width="70%"
+   alt="." />
+</p>
 
 More examples of buttons are described below.
 
@@ -3386,99 +3389,83 @@ This design is a pretty traditional button where it has a distinct background-co
 
 ### CSS code:
 
+```
 #design1 {
-
     background-color: #94618E;
-
     color: #F8EEE7;
-
     font-family: Corbel;
-
 }
-
 #design1 button {
-
     background-color: #F4DECB;
-
     padding: 10px 25px;
-
     border: 5px solid #F8EEE7;
-
     color: #49274A;
-
     font-weight: bold;
-
     font-size: 1.2em;
-
  }
+```
 
 ### Button 2
 
 This is a more modern button design where there is no distinct border, but just a flat color background. You\'ll note the poor accessibility of the text and button (for example, no sufficient contrast between foreground and background - find out more in these [tips for designing](https://www.w3.org/WAI/tips/designing/)).
 
-![](images/media/image51.png){width="6.9375in" height="1.9152777777777779in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 51.  (xx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image051.png?raw=true"
+   width="70%"
+   alt="." />
+</p>
 
 ### CSS Code:
 
+```
 #design2 {
-
     background-color: #D9D9D9;
-
     color: white;
-
     font-family: \"Century Gothic\", sans-serif;
-
 }
-
 #design2 button {
-
     background-color: #4484CE;
-
     border: 0px;
-
     color: white;
-
     padding: 10px 50px;
-
     font-family: Impact, sans-serif;
-
     font-size: 1.3em;
-
 }
+```
 
 ### Button 3
 
 This is a big graphic button that uses border-radius to give the button rounded corners.
 
-![](images/media/image52.png){width="6.9375in" height="1.929861111111111in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 52.  (xx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image052.png?raw=true"
+   width="70%"
+   alt="." />
+</p>
 
 CSS code:
 
+```
 1.  #design3 {
-
 2.      font-family: Impact, sans-serif;
-
 3.      font-size: 2em;
-
 4.  }
-
 5.   
-
 6.  #design3 button {
-
 7.      font-family: Impact, sans-serif;
-
 8.      font-weight: 100;
-
 9.      background-color: white;
-
 10.     border: 7px #EC576B solid;
-
 11.     border-radius: 20px;
-
 12.     font-size: 0.8em;
-
 13. }
+```
 
 In summary, here are [three different ways to style buttons you can play around with](https://codepen.io/techie4good/pen/ORXzoo?editors=1100#0).
 
@@ -10021,13 +10008,17 @@ For this activity, go out and find what you think is the best-designed Web page!
 
 discussion posted about 20 hours ago by [**AllaPetr**](https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2020/discussion/forum/users/2254953)
 
-<https://www.joshwcomeau.com/> I just discovered this web page among the comments below. I think this is one of the most attractive and balanced websites I have seen. I like the choice of colors because it is both simple and warm. Sometimes web pages can feel cold and not welcoming. This one\'s doesn\'t. I also love the attention to details shown by the use of animations in the logo. It adds the extra little something that makes it very appealing. The one thing I would use in my own web page is the animated logo combined with the neat and minimalist design of the page. Yes, I think it is accessible.
+<https://www.joshwcomeau.com/> I just discovered this web page among the comments below. I think this is one of the most attractive and balanced websites I have seen. 
+I like the choice of colors because it is both simple and warm. Sometimes web pages can feel cold and not welcoming. This one\'s doesn\'t. I also love the 
+attention to details shown by the use of animations in the logo. It adds the extra little something that makes it very appealing. The one thing I would use in my own 
+web page is the animated logo combined with the neat and minimalist design of the page. Yes, I think it is accessible.
 
 #### Apple
 
 discussion posted a day ago by [**LauraLucie**](https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2020/discussion/forum/users/42009473)
 
-[https://www.apple.com](https://www.apple.com/) For me they are doing the best - as one of the first, they simplified their website, as much as their products. I would love to have my website as simply and clean designed.
+[https://www.apple.com](https://www.apple.com/) For me they are doing the best - as one of the first, they simplified their website, as much as their products. 
+I would love to have my website as simply and clean designed.
 
 #### Helpful website for all here
 
@@ -10065,9 +10056,9 @@ discussion posted about a month ago by [**MattN77**](https://courses.edx.org/
 
 -   There are many keyboard focusable points so the keyboard can be used without a mouse, color contrast is rated in many spots that are good, there is enough white space so information is not cluttered. The site seems to be organized very well, so it is easy to navigate logically. The screen reader I used seemed to work well with this site. The site seemed to adjust easily to screen zoom. Images also have alt text for screen readers.
 
-### activity
+<h4>Activity</h4>
 
-discussion posted about a month ago by [**Naenae3**](https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2020/discussion/forum/users/24574149)
+Discussion posted about a month ago by <a href="https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2020/discussion/forum/users/24574149">Naenae3</a>
 
 <https://www.squarespace.com/>
 
@@ -10078,11 +10069,11 @@ I like this webpage because of the smooth design of the different panels. I like
 ![W3Cx FEWD program image](images/media/image6.png){width="2.0083333333333333in" height="1.9833333333333334in"}
 
 Hopefully at this point you feel comfortable with all the basics of CSS, but, as mentioned throughout this course, there is still a lot more to learn. Here are some courses we recommend you check out next as part of the [W3C \"Front-End Web Developer\" Professional Certificate](https://www.edx.org/professional-certificate/w3cx-front-end-web-developer) program:
+<ul>
+<li>HTML5 & CSS Fundamentals</li>
+<li>HTML5 Coding Essentials and Best Practices</li>
+<li>HTML5 Apps and Games</li>
+<li>JavaScript Introduction</li>
+</ul>
 
--   HTML5 & CSS Fundamentals
-
--   HTML5 Coding Essentials and Best Practices
-
--   HTML5 Apps and Games
-
--   JavaScript Introduction
+<h2>Last Updated: 8.27.2022 9:18pm</h2>
