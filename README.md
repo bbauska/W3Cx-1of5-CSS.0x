@@ -9129,21 +9129,65 @@ Here are some examples of things that can be done with CSS.
 
 -   It is already possible to make text run vertically in CSS for languages such as Chinese, Japanese, Korean and Mongolian. For more information see[ Styling vertical Chinese, Japanese, Korean and Mongolian text](https://www.w3.org/International/articles/vertical-text/).
 
-![Vertically set Mongolian text.](images/media/image109.png){width="2.4583333333333335in" height="3.55in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 109. vertically set mongolian text (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image109.png?raw=true"
+   width="25%"
+   alt="Vertically set Mongolian text." />
+</p>
 
 -   You can also style counters for lists or chapter headings and such like according to local preferences. Here we see lists using Georgian and Japanese labels.
 
-![Georgian counter styles.](images/media/image110.png){width="1.7166666666666666in" height="2.1416666666666666in"} ![Japanese counter styles.](images/media/image111.png){width="1.9583333333333333in" height="2.55in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 110. georgian counter styles (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image110.png?raw=true"
+   width="17%"
+   alt="Georgian counter styles." />
+</p>
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 111. japanese counter styles (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image110.png?raw=true"
+   width="19%"
+   alt="Georgian counter styles." />
+</p>
 
 -   When you want to justify text so that the lines are straight on both sides of your column, different strategies are used for different scripts. Most Western typography puts an emphasis on adjusting inter-word spaces, but Chinese doesn\'t use spaces between words, so you generally do *inter-character* spacing. In text written using the arabic script it is common to stretch the baseline that joins letters, or use other techniques to balance the line.
 
-![Arabic justification.](images/media/image112.png){width="3.575in" height="1.25in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 112. arabic justification (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image112.png?raw=true"
+   width="35%"
+   alt="Arabic justification." />
+</p>
 
 Some scripts allow words to be hyphenated in order to improve the visual effect of a paragraph, but note that the way in which words are hyphenated depends on the language. (And in arabic script, the CSS specification requires that both parts of the word retain their joining line during hyphenation.)
 
 -   Text decoration and text style features can vary in applicability from script to script. For example, Japanese characters are fairly complicated so, rather than italicise their text for emphasis, which can make it harder to read at small sizes, they have a tradition of placing special marks alongside the emphasised text (see the middle line of the Japanese example below). Also, it may be important to avoid underlines running over descenders in some scripts, since it can obscure important marks attached to a base character, so CSS allows you to skip \'ink\' as shown in the Burmese example below.
 
-![Emphasis in Japanese.](images/media/image113.png){width="1.1583333333333334in" height="3.1083333333333334in"} ![Skipping descenders in Burmese.](images/media/image114.png){width="1.7166666666666666in" height="0.5916666666666667in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 113. emphasis in japanese (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image113.png?raw=true"
+   width="15%"
+   alt="Emphasis in Japanese." />
+</p>
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 114. skipping descenders in burmese (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image114.png?raw=true"
+   width="17%"
+   alt="Skipping descenders in Burmese." />
+</p>
 
 These are just a few examples. There are many more.
 
@@ -9363,7 +9407,14 @@ In the past, Web sites were comprised of many separate pages that you would navi
 
 This can be accomplished with something called \"internal links\". This is where you load the entire page as one long site and the links at the top simply jump to different locations within the site. To do this, you need to give the section you want to jump to an id, and then you use the id selector as the href setting on the anchor tag. 
 
-![](images/media/image115.png){width="5.0in" height="3.287286745406824in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 115.  (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image115.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
 <h4>CSS</h4>
 
@@ -9489,7 +9540,14 @@ Web layout is always constrained by the limitations of CSS, but future trends wi
 
 Since the summer of 2017, the major browsers support this module of CSS, which provides the beginnings of something professional designers have long been waiting for: [a design grid](https://en.wikipedia.org/wiki/Grid_(graphic_design)).
 
-![CSS flexbox and grid layout differences](images/media/image116.png){width="2.9583333333333335in" height="1.8666666666666667in"}
+<!------------------------------------------------------------------------------------------------>
+<!--------------------- 117. css flexbox and grid layout differences (xxx) ----------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image116.png?raw=true"
+   width="29%"
+   alt="CSS flexbox and grid layout differences." />
+</p>
 
 It\'s been a few years now that the CSS Flexbox module gives advanced control over alignment and spacing of elements on a line or in a stack. The Grid module now allows alignment in two dimensions: to elements on the same line and to elements in the same column.
 
@@ -9510,8 +9568,14 @@ Despite the similarities in concept and syntax, Flexbox and Grid are not competi
 CSS Grid is a CSS module that defines a two-dimensional grid-based layout system, optimized for user interface design. In the grid layout model, the children of an element (the 'grid container') can be positioned into arbitrary slots in a predefined flexible or fixed-size layout grid.
 
 If that sounds a bit too abstract, here is another way of looking at it. The idea behind the Grid module is that you split the [box](https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2020/jump_to_id/61920cda43ca49cca2fcf26e763bbe16) that makes up an element into many individual 'slots', arranged in a matrix, and separated from each other by (invisible) horizontal and vertical lines. You do that with a property called \'grid\', which contains the desired number of rows and columns and/or their sizes. Each child element goes into a slot, so that they end up aligned as in a table. But you have full control over which slot they go into, you can change their order, they can span more than one row or column, and you can leave some slots empty.
-
-![](images/media/image117.png){width="4.85in" height="2.3583333333333334in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 117. grid module (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image117.png?raw=true"
+   width="48%"
+   alt="Grid module." />
+</p>
 
 The Grid module provides several different ways to define such a grid and to place the child elements. Too many, in fact, to present here.
 
@@ -9630,7 +9694,14 @@ I like this webpage because of the smooth design of the different panels. I like
 
 ## Continue your studies
 
-![W3Cx FEWD program image](images/media/image6.png){width="2.0083333333333333in" height="1.9833333333333334in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 6. w3cx fewd program image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image006.png?raw=true"
+   width="20%"
+   alt="W3Cx FEWD program image." />
+</p>
 
 Hopefully at this point you feel comfortable with all the basics of CSS, but, as mentioned throughout this course, there is still a lot more to learn. Here are some courses we recommend you check out next as part of the [W3C \"Front-End Web Developer\" Professional Certificate](https://www.edx.org/professional-certificate/w3cx-front-end-web-developer) program:
 <ul>
@@ -9640,4 +9711,4 @@ Hopefully at this point you feel comfortable with all the basics of CSS, but, as
 <li>JavaScript Introduction</li>
 </ul>
 
-<h2>Last Updated: 8.27.2022 9:18pm</h2>
+<h2>Last Updated: 9.18.2022 11:52pm</h2>
