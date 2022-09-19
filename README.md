@@ -2369,49 +2369,30 @@ Part of the reason a well structured HTML document is so important is because HT
 
 Let\'s say we have an HTML document (see the corresponding [Code Pen](https://codepen.io/techie4good/pen/mAVVkY?editors=1100#0)):
 
-1.  \<!DOCTYPE html\>
-
-2.  \<html lang=\"en\"\>
-
-3.      \<head\>
-
-4.          \<meta charset=\"utf-8\"\>
-
-5.          \<title\>My HTML page\</title\>
-
-6.          \<link rel=\"stylesheet\" href=\"style.css\"\>
-
-7.      \</head\>
-
-8.      \<body\>
-
-9.          \<header\>
-
-10.             \<h1\> Title \</h1\>
-
-11.             \<h2\> sub title \</h2\>
-
-12.         \</header\>
-
-13.         \<section\>
-
-14.             \<p\> This is my paragraph text \</p\>
-
-15.             \<ul\>
-
-16.                 \<li\> list item 1 \</li\>
-
-17.                 \<li\> list item 2 \</li\>
-
-18.                 \<li\> list item 3 \</li\>
-
-19.             \</ul\>
-
-20.         \</section\>
-
-21.     \</body\>
-
-22. \</html\>
+```
+1.  <!DOCTYPE html>
+2.  <html lang="en">
+3.      <head\>
+4.          <meta charset="utf-8">
+5.          <title>My HTML page</title>
+6.          <link rel="stylesheet" href="style.css">
+7.      </head>
+8.      <body>
+9.          <header>
+10.             <h1> Title </h1>
+11.             <h2> sub title </h2>
+12.         </header>
+13.         <section>
+14.             <p> This is my paragraph text </p>
+15.             <ul>
+16.                 <li> list item 1 </li>
+17.                 <li> list item 2 </li>
+18.                 <li> list item 3 </li>
+19.             </ul>
+20.         </section>
+21.     </body>
+22. </html>
+```
 
 This is basic structure from the way I have formatted the tags with tabbing, but here is a more visual representation of the hierarchy of tags. Tags that contain other tags are parents, and the tags inside of them are their children in the following tree representation:
 
@@ -2422,27 +2403,16 @@ Through inheritance, CSS property values set on one element will be transferred 
 Then, we applied different styles at different levels of the tree so that the \"li\" or list element tag ends up with three different styles (font, underline and green) without us actually applying any style directly to that tag. 
 
 > body {
->
 >    font-family: \"Century Gothic\", sans-serif;
->
 > }
->
 > header {
->
 >    font-style: italic;
->
 > }
->
 > section {
->
 >    text-decoration: underline;
->
 > }
->
 > ul {
->
 >    color: green;
->
 > }
 
 Not every property is inherited, but many are. The CSS specification tell you, for each property, whether it is inheritable. It\'s a good idea to keep in mind the structure of your HTML document when choosing your selectors so you can use inheritance to your advantage by applying styles to the top most element and save yourself extra CSS code.
@@ -2451,71 +2421,45 @@ Not every property is inherited, but many are. The CSS specification tell you, f
 
 ### HTML
 
-\<html lang=\"en\"\>
-
-\<head\>
-
-\<meta charset=\"utf-8\"\>
-
-\<link rel=\"stylesheet\" href=\"style.css\"\>
-
-\</head\>
-
-\<body\>
-
-\<header\>
-
-\<h1\> Title \</h1\>
-
-\<h2\> sub title \</h2\>
-
-\</header\>
-
-\<section\>
-
-\<p\> This is my paragraph text \</p\>
-
-\<ul\>
-
-\<li\> list item 1 \</li\>
-
-\<li\> list item 2 \</li\>
-
-\<li\> list item 3 \</li\>
-
-\</ul\>
-
-\</section\>
-
-\</body\>
-
-\</html\>
+```
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1> Title </h1>
+<h2> sub title </h2>
+</header>
+<section>
+<p> This is my paragraph text \</p\>
+<ul>
+<li> list item 1 </li>
+<li> list item 2 </li>
+<li> list item 3 </li>
+</ul>
+</section>
+</body>
+</html>
+```
 
 ### CSS
 
+```
 > body {
->
 > font-family: \"Century Gothic\", sans-serif;
->
 > }
->
 > header {
->
 > font-style: italic;
->
 > }
->
 > section {
->
 > text-decoration: underline;
->
 > }
->
 > ul {
->
 > color: green;
->
 > }
+```
 
 ## 2.4.3 Combining multiple selectors
 
@@ -2539,87 +2483,53 @@ Here is a [CodePen](https://codepen.io/w3devcampus/pen/PVJLEm) that explores u
 
 ### CSS code:
 
+```
 > body {
->
 >     color: #660099;
->
 > }
->
 >  
->
 > h1,h2,h3 {
->
 >     font-family: Impact, sans-serif;
->
 > }
->
 >  
->
 > ul,ol {
->
 >     font-family: helvetica, sans-serif;
->
 > }
->
 >  
->
 > h2,ul {
->
 >     font-style: italic;
->
 > }
->
 >  
->
 > h3,ol {
->
 >     text-decoration: underline;
->
 > }
+```
 
 ### HTML
 
-> \<html lang=\"en\"\>
->
-> \<head\>
->
-> \<meta charset=\"utf-8\"\>
->
-> \<link rel=\"stylesheet\" href=\"style.css\"\>
->
-> \</head\>
->
-> \<body\>
->
-> \<h1\>Title 1\</h1\>
->
-> \<h2\>Title 2\</h2\>
->
-> \<ul\>
->
-> \<li\>Part of the reason a well structured HTML document is so important\</li\>
->
-> \<li\>is because HTML elements inherit stylistic properties\</li\>
->
-> \<li\>You can see it\'s basic structure from the way I have formatted the tags with tabbing\</li\>
->
-> \</ul\>
->
-> \<h3\>Title 3\</h3\>
->
-> \<ol\>
->
-> \<li\>but here is a more visual representation of the hierarchy of tags\</li\>
->
-> \<li\>Tags that contain other tags are parents\</li\>
->
-> \<li\>and the tags inside of them are their children in the following tree representation\</li\>
->
-> \</ol\>
->
-> \</body\>
->
-> \</html\>
+```
+> <html lang="en">
+> <head>
+> <meta charset="utf-8">
+> <link rel="stylesheet" href="style.css">
+> </head>
+> <body>
+> <h1>Title 1</h1>
+> <h2>Title 2</h2>
+> <ul>
+> <li>Part of the reason a well structured HTML document is so important</li>
+> <li>is because HTML elements inherit stylistic properties</li>
+> <li>You can see it\'s basic structure from the way I have formatted the tags with tabbing</li>
+> </ul>
+> <h3>Title 3</h3>
+> <ol>
+> <li>but here is a more visual representation of the hierarchy of tags</li>
+> <li>Tags that contain other tags are parents</li>
+> <li>and the tags inside of them are their children in the following tree representation</li>
+> </ol>
+> </body>
+> </html>
+```
 
 ## 2.4.4 Activity - Apply your own selectors
 
@@ -2629,25 +2539,18 @@ Let\'s say you have the following [CodePen](http://codepen.io/w3devcampus/pen/R
 
 ### HTML code:
 
-> \<!DOCTYPE html\>
->
+```
+> <!DOCTYPE html\>
 > \<html lang=\"en\"\>
->
 >     \<head\>
->
 >         \<meta charset=\"utf-8\"\>
->
 >         \<title\>My HTML page\</title\>
->
 >         \<link rel=\"stylesheet\" href=\"style.css\"\>
->
 >     \</head\>
->
 >     \<body\>
->
 >         \<h1\>Main Title\</h1\>
->
 >         \<p\>          
+```
 
 In unit 2.3, we defined a CSS selector as the portion of the CSS rule that tells the browser on which HTML element to apply the defined style. 
 
@@ -2655,79 +2558,49 @@ When your HTML is simple, the selectors can be simple as well. The most basic se
 
 In unit 2.2, we briefly mentioned the fact that properties apply to the entire hierarchy of HTML elements to which they are attached. This means that you will have to be very careful which selectors you choose to use in combination with your chosen style. When choosing your selector you might want to keep the following aspects of an HTML element in mind
 
-            \</p\>
-
-            \<h2\>Sub Title 1\</h2\>
-
-            \<ul\>
-
-                \<li\>How many of these HTML elements are on my page?\</li\>
-
-                \<li\>Do I want this style to apply to every one of these elements?\</li\>
-
-                \<li\>What are this HTML element\'s children\</li\>
-
-            \</ul\>
-
-            \<h2\>Sub Title 2\</h2\>
-
-            \<ol\>
-
-                \<li\>and do I want this style to apply to them as well?\</li\>
-
-                \<li\>Is this element a block element or an inline element\</li\>
-
-                \<li\>and does this style make sense in that context?\</li\>
-
-            \</ol\>
-
-    \</body\>
-
-\</html\>
+```
+            </p>
+            <h2>Sub Title 1</h2>
+            <ul>
+                <li>How many of these HTML elements are on my page?</li>
+                <li>Do I want this style to apply to every one of these elements?</li>
+                <li>What are this HTML element's children</li>
+            </ul>
+            <h2>Sub Title 2</h2>
+            <ol>
+                <li>and do I want this style to apply to them as well?</li>
+                <li>Is this element a block element or an inline element</li>
+                <li>and does this style make sense in that context?</li>
+            </ol>
+    </body>
+</html>
+```
 
 ### CSS code:
 
-> /\*selector here\*/  {
->
+```
+> /*selector here*/  {
 >     background-color: #ccffcc;
->
 >     color: #336600;
->
 > }
->
 >  
->
-> /\*selector here\*/  {
->
+> /*selector here*/  {
 >     background-color: #336600;
->
 >     color: #ccffcc;
->
 > }
->
 >  
->
-> /\*selector here\*/  {
->
+> /*selector here*/  {
 >     border: 3px solid;
->
 > }
->
 >  
->
-> /\*selector here\*/  {
->
+> /*selector here*/  {
 >     background-color: #ffff99;
->
 > }
->
 >  
->
-> /\*selector here\*/  {
->
+> /*selector here*/  {
 >     text-decoration: underline;
->
 > }
+```
 
 Note that there are HTML and some CSS rules, but the rules are missing their selectors.\
 You will need to figure out which selectors belong on top of each of the 5 rules so that your final site looks exactly like this:
@@ -2744,17 +2617,14 @@ There is a huge array of different aspects you can style: color, font, size, spa
 
 Here are some examples of properties that each accept a different style of value:
 
+```
 1.  body {
-
 2.      background-color: purple; /\* key word \*/
-
 3.      color: #FFFFFF; /\* HEX code \*/
-
 4.      width: 60%; /\* percentage \*/
-
 5.      font-size: 20pt; /\* numerical value \*/
-
 6.  }
+```
 
 The above style is put into action in the [following CodePen](https://codepen.io/techie4good/pen/bwbLJP):
 
@@ -2798,11 +2668,11 @@ These color properties take in a color as their value, and there are three diffe
 
 Probably the simplest and least flexible way to set colors is using a keyword. A keyword is one of the predefined colors like \"blue\" or \"green\". 
 
+```
 1.  body {
-
 2.     background-color: teal; 
-
 3.  }
+```
 
 The list of color keywords is: aqua, black, blue, fuchsia, gray, green, lime, maroon, navy, olive, orange, purple, red, silver, teal, white, and yellow. You can read more about these keyword colors [here.](https://www.w3.org/TR/CSS22/syndata.html#value-def-color)
 
@@ -2812,21 +2682,21 @@ A HEX code is a 6 character code to represent the color, giving you a lot more o
 
 When using a hex code in CSS you must put a hash character in front of the 6 characters like so:
 
+```
 1.  body {
-
 2.     background-color: #00CC00; /\* green \*/
-
 3.  }
+```
 
 #### decimal
 
 You can also specify colors using rgb in decimal form like so:
 
+```
 1.  body {
-
 2.     background-color: rgb(0,204,0); /\*same green as above\*/
-
 3.  }
+```
 
 This will give you the same range as HEX values. This method is a less common, but it\'s up to you which method of specifying colors you prefer.
 
@@ -2863,11 +2733,11 @@ Font is an extremely important part of how you communicate content to your user.
 
 Since not all fonts are available on all computers (there are thousands of fonts, and most are not free), CSS provides a system of *fallbacks*. You list the font that you want first, then any fonts that might fill in for the first if it is unavailable, and you should end the list with a *generic font,* of which are: **[serif](https://www.w3.org/TR/css-fonts/#serif-def), [sans-serif](https://www.w3.org/TR/css-fonts/#sans-serif-def), [monospace](https://www.w3.org/TR/css-fonts/#monospace-def), [cursive](https://www.w3.org/TR/css-fonts/#cursive-def)** and **[fantasy](https://www.w3.org/TR/css-fonts/#fantasy-def). **
 
+```
 1.  p {
-
 2.     font-family: Helvetica, Verdana, sans-serif;
-
 3.  }
+```
 
 This property sets the font face. There is a collection of Web safe fonts that generally each browser has agreed to support, but there are an unlimited number of different fonts. The problem is they might not all look the way you want them to on different browsers.
 
@@ -2877,21 +2747,21 @@ See this [quick reference](https://www.w3.org/Style/Examples/007/fonts) listin
 
 Something to keep in mind: some fonts have names with multiple words like \"Times New Roman\" or \"Century Gothic\". When using these fonts you\'ll need to surround the entire name with quotes so the browser understands that is a single font name like so:
 
+```
 1.  p {
-
 2.     font-family: \"Times New Roman\", \"New Century Schoolbook\", serif;
-
 3.  }
+```
 
 ### font-size
 
 \[[*Documentation*](https://www.w3.org/TR/css-fonts-4/#font-size-prop)\]
 
+```
 1.  h1 {
-
 2.     font-size: 2.5em;
-
 3.  }
+```
 
 CSS offers a number of different units for expressing length. Font-size sets the overall scale of your text. You can use a lot of different units to set the font size. Some of these units you are probably familiar with if you have used text editors before such as pt size or you can use px size. However, these methods are not advised because they are static and will not adapt based on screen size. It\'s better to use relative units, such as em, instead.
 
@@ -2911,11 +2781,11 @@ Another great resource is this article on [font sizing tips and tricks](https:/
 
 \[[*Documentation*](https://www.w3.org/TR/css-fonts-4/#font-weight-prop)\]
 
+```
 1.  p {
-
 2.  font-weight: bold;
-
 3.  }
+```
 
 The weight of a font is the thickness of the letters. You can set this property using keywords with which you might be familiar: bold, normal or lighter. You can also set this property more specifically using numerical values 100, 200, 300, 400, 500, 600, 700, 800 or 900. Normal is represented as 400, whereas bold is 700.
 
@@ -2925,11 +2795,11 @@ Note that few fonts have settings for all values. If the value is not available,
 
 \[[*Documentation*](https://www.w3.org/TR/css-fonts-4/#font-style-prop)\]
 
+```
 1.  p {
-
 2.     font-style: italic;
-
 3.  }
+```
 
 The font style property adjusts the angle of the letters in relation to the horizontal plane. Italic forms are generally cursive in nature while oblique faces are typically sloped versions of the regular face.
 
@@ -2937,11 +2807,11 @@ The font style property adjusts the angle of the letters in relation to the hori
 
 \[[*Documentation*](https://www.w3.org/TR/css-text-decor-3/#text-decoration-property)\]
 
+```
 1.  p {
-
 2.     text-decoration: underline;
-
 3.  }
+```
 
 Text-decoration adds a line across your text. You can set this line to be underneath your text, underline, through your text, line-through, or on top, overline.
 
@@ -2953,71 +2823,45 @@ Here is a [CodePen exploring each of these styles](https://codepen.io/w3devcamp
 
 ### HTML code:
 
+```
 1.  \<!DOCTYPE html\>
-
 2.  \<html lang=\"en\"\>
-
 3.      \<head\>
-
 4.          \<meta charset=\"utf-8\"\>
-
 5.          \<title\>My HTML page\</title\>
-
 6.          \<link rel=\"stylesheet\" href=\"style.css\"\>
-
 7.      \</head\>
-
 8.      \<body\>
-
 9.          \<h1\>Main title\</h1\>
-
 10.         \<h2\>Sub title\</h2\>
-
 11.         \<p\>
-
 12.             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacinia consequat nibh, non commodo neque maximus semper. Vivamus non ultricies massa, vel convallis nunc. Aenean tempus risus at orci faucibus, eget hendrerit elit sodales. Quisque imperdiet diam nibh, ut semper enim dapibus et. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean in feugiat neque. Nunc eget libero mauris. Maecenas condimentum luctus nulla.
-
 13. 
-
 14. Nulla a sem orci. Cras eget neque viverra, condimentum nulla et, tincidunt libero. In sit amet quam purus. Aliquam erat volutpat. Sed hendrerit urna quis sapien mattis dictum. Etiam vehicula tortor eu libero finibus dapibus. Mauris nunc neque, sodales nec est sed, gravida convallis sem. Nam vulputate sed est sed eleifend. Quisque sodales elit at ornare vulputate.
-
 15.         \</p\>
-
 16.     \</body\>
-
 17. \</html\>
+```
 
 ### CSS code:
 
+```
 1.  body {
-
 2.      font-family: Helvetica, Verdana, sans-serif;
-
 3.      font-size: 12pt;
-
 4.  }
-
 5.  h1 {
-
 6.      font-size: 3em;
-
 7.      font-style: italic;
-
 8.  }
-
 9.  h2 {
-
 10.     font-size: 2em;
-
 11.     text-decoration: underline;
-
 12. }
-
 13. p {
-
 14.     font-weight: bold;
-
 15. }
+```
 
 ### Resources
 
@@ -3049,11 +2893,11 @@ The above image is called the \"box model\", which we will get into more detail 
 
 \[[*Documentation*](https://www.w3.org/TR/CSS2/box.html#propdef-padding-top)\]
 
+```
 1.  p {
-
 2.     padding: 20px;
-
 3.  }
+```
 
 \"Padding\" is the white space that sits closest to an HTML element. Many elements already have a default padding defined. For example, ul elements by default are indented to the left a bit because they have a left padding.
 
@@ -3063,11 +2907,11 @@ You can set the padding on an element\'s four sides independently using padding
 
 \[[*Documentation*](https://www.w3.org/TR/css3-background/#borders)\]
 
+```
 1.  p {
-
 2.     border: 1px black solid;
-
 3.  }
+```
 
 The \"border\" is the area outside the padding of an HTML element. By default, borders are set to be empty, but you can set their width, color, pattern, even an image! Like padding, you can even adjust the four sides of a border independent of one another using border-top, border-right, border-bottom or border-left. You can also adjust the different aspects of a border with border-width, border-color, and border-style. In the above example, I collapsed all of these properties into a single simple property and value set.
 
@@ -3075,11 +2919,11 @@ The \"border\" is the area outside the padding of an HTML element. By default, b
 
 \[[*Documentation*](https://www.w3.org/TR/CSS2/box.html#propdef-margin)\]
 
+```
 1.  p {
-
 2.     margin-bottom: 50px;
-
 3.  }
+```
 
 An HTML element\'s \"margin\" is the white space that sits outside the border. Margins of HTML elements interact with one another on the page to determine how they are arranged on the page. A lot of elements have default margins applied.
 
@@ -3138,8 +2982,9 @@ Here is some HTML and CSS, but as you can see the CSS rules have selectors but n
    alt="." />
 </p>
 
-HTML code:
+### HTML code:
 
+```
 1.  \<!DOCTYPE html\>
 2.  \<html lang=\"en\"\>
 3.      \<head\>
@@ -3167,7 +3012,7 @@ HTML code:
 25. \</html\>
 ```
 
-CSS code:
+### CSS code:
 
 ```
 1.  body {
@@ -3620,39 +3465,25 @@ So, learning to properly select your HTML elements through CSS is crucially impo
 
 The CSS code mentioned in above video:
 
+```
 p {
-
     color: white;
-
     background-color: midnightblue;
-
     font-size: large;
-
 }
-
 .middle {
-
     color: darkviolet;
-
     background-color: lightgray;
-
     padding-left: 120px;
-
     padding-right: 120px;
-
     font-size: large;
-
 }
-
 #bottom {
-
     background-color: transparent;
-
     color: black;
-
     font-family: \'Franklin Gothic Medium\';
-
 }
+```
 
 ## 3.2.1 Classes and IDs
 
@@ -3694,17 +3525,19 @@ A class is an HTML attribute that specifies a name for a group of elements on th
 
 You can use the class name as the selector, like so:
 
-\<p class=\"className\"\>The intro paragraph\</p\>
+```
+<p class="className">The intro paragraph</p>
+```
 
 Class names must be single words, but you can include digits and dashes as long as the name begins with a letter. Note that names are case sensitive. 
 
 To apply a CSS rule to a class, you must precede its name by a period (\".\"), like in the code below:
 
+```
 1.  .className {
-
 2.      color: blue;
-
 3.  }
+```
 
 #### IDs
 
@@ -3712,15 +3545,17 @@ To apply a CSS rule to a class, you must precede its name by a period (\".\"), l
 
 An ID is an HTML attribute that specifies a name or unique identifier for a particular HTML element. They are like classes with a very important distinction: the value of the ID attribute must be unique throughout the document. This lets you target a single HTML element for styling. You set the id of an HTML element like so:
 
-1.  \<p id=\"MyFirstId\"\> This is an extra special paragraph \</p\>
+```
+1.  <p id="MyFirstId"> This is an extra special paragraph </p>
+```
 
 ID names have the same rules as class names: start with a letter, can include numbers and dashes, no spaces. The way to create a selector for an ID is also similar to how you create a selector for a class, except you replace the period with a hash symbol (\"#\") like in the code below:
 
+```
 1.  #MyFirstId {
-
 2.      color: blue;
-
 3.  }
+```
 
 ### Example
 
@@ -3728,129 +3563,79 @@ ID names have the same rules as class names: start with a letter, can include nu
 
 ### HTML code:
 
-\<!DOCTYPE html\>
-
-\<html lang=\"en\"\>
-
-    \<head\>
-
-        \<meta charset=\"utf-8\"\>
-
-        \<title\>Classes and IDs\</title\>
-
-        \<link rel=\"stylesheet\" href=\"style.css\"\>
-
-    \</head\>
-
-    \<body\>
-
-        \<h1\>Classes and IDs\</h1\>
-
-        \<p id=\"intro\"\>
-
-            Classes and IDs are \"attribute selectors\". This means that you can attach style to HTML elements based on that element\'s attributes. This empowers you to apply different style to items of the same HTML type.
-
-        \</p\>
-
-        \<p class=\"odd\"\>
-
+```
+<!DOCTYPE html>
+<html lang="en">
+    <head\>
+        <meta charset="utf-8">
+        <title>Classes and IDs</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Classes and IDs</h1>
+        <p id="intro">
+            Classes and IDs are "attribute selectors". This means that you can attach style to HTML elements based on that element's attributes. This empowers you to apply different style to items of the same HTML type.
+        </p>
+        <p class="odd">
             Classes are an HTML attribute that specifies a name for a group of elements on the page. You can apply the class name to as many elements as you like, even if they are of different HTML tag types. You can use the class name with a period in front as the selector.
-
-        \</p\>
-
-        \<p class=\"even\"\>
-
+        </p>
+        <p class="even">
             Class names must be single words, but you can include digits and dashes as long as the name begins with a letter. Note that names are case sensitive.
-
-        \</p\>
-
-        \<p class=\"odd\"\>
-
+        </p>
+        <p class="odd">
             An ID is an HTML attribute that specifies a name or unique identifier for a particular HTML element. They are like classes with a very important distinction: the value of the ID attribute must be unique throughout the document. This lets you target a single HTML element for styling.
-
-        \</p\>
-
-        \<p class=\"even\"\>
-
-            ID names have the same rules as class names: start with a letter, can include numbers and dashes, no spaces. The way to create a selector for an ID is also similar to how you create a selector for a class, except you replace the period with a hash symbol (\"#\").
-
-        \</p\>
-
-    \</body\>
-
-\</html\>
+        </p>
+        <p class="even">
+            ID names have the same rules as class names: start with a letter, can include numbers and dashes, no spaces. The way to create a selector for an ID is also similar to how you create a selector for a class, except you replace the period with a hash symbol ("#").
+        </p>
+    </body>
+</html>
+```
 
 ### CSS code:
 
+```
 #intro {
-
     color: green;
-
 }
-
 .odd {
-
     color: blue;
-
 }
-
 .even {
-
     color: red;
-
 }
+```
 
 ## 3.2.2 Activity - Add your own classes and ids
 
 **Here is some CSS code:**
 
+```
 body {
-
    background-color: #00ccff;
-
    color: white;
-
    font-family: Helvetica, sans-serif;
-
    margin: 35px 25px 0px 25px;
-
 }
-
 p,h2 {
-
    padding: 10px;
-
 }
-
 .topSection{
-
    background-color: #3300cc;
-
    color: #cccccc;
-
 }
-
 .bottomSection {
-
    background-color: #cccccc;
-
    color: #3300cc;
-
 }
-
 #importantItem {
-
    text-decoration: underline;
-
    color: #99ff99;
-
 }
-
 #unimportantItem {
-
    color: gray;
-
 }
+```
 
 As you can note, it\'s not too interesting because not all of the styles are applied to the HTML as shown in the pen below:
 
@@ -3881,13 +3666,12 @@ Here are some of the most popular pseudo-classes.
 
 \[[Documentation](https://www.w3.org/TR/CSS22/selector.html#link-pseudo-classes)\]
 
+```
 1.  a:visited {
-
 2.     color: gray;
-
 3.     font-style: italic;
-
 4.  }
+```
 
 These pseudo classes are the ones you are probably most familiar with. Even on this page you\'ve probably noticed that [links have different style](http://www.edx.org/) than paragraph text. The \<a\> tag by default sets the text color to blue with an underline, but have you ever seen a purple link? This is the \"visited\" pseudo-class that applies a different style to links that the user has already clicked. The opposite of visited is \"link\" which is a link a user has not yet clicked. These two states are mutually exclusive, meaning a link cannot be both at the same time.
 
@@ -3897,26 +3681,24 @@ These pseudo classes are the ones you are probably most familiar with. Even on t
 
 The hover pseudo-class is applied when the user points at an object but doesn\'t activate it, most commonly when they let their mouse cursor lay on top of an element without clicking. Some form factors don\'t support this, such as touch devices or pen surfaces. This is a really good way to encourage a user to click a link and you will often see it used in navigation bars.
 
+```
 1.  li:hover {
-
 2.     background-color: yellow;
-
 3.  }
+```
 
 The focus pseudo class applies when a user has chosen to begin interacting with an element, such as when they click into a form input field so that the input field is then ready to accept keyboard input.
 
+```
 1.  input:focus {
-
 2.     background-color: blue;
-
 3.  }
+```
 
 The active pseudo-class applies when an element is activated. This happens in the time between when the user clicks their mouse and they release it.
 
 1.  p:active {
-
 2.     color: red;
-
 3.  }
 
 You can read more about pseudo-classes in this [MDN \"Pseudo-classes\"](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) document.
@@ -3930,90 +3712,49 @@ You can read more about pseudo-classes in this [MDN \"Pseudo-classes\"](https:/
 Now it\'s your turn to try out some pseudo classes. Here is a Web page (see the CodePen [Practice with Pseudoclasses](https://codepen.io/techie4good/pen/rraNJr/)) and the CSS code:
 
 1.  body {
-
 2.     background-color: #006666;
-
 3.     color: white;
-
 4.  }
-
 5.  h1 {
-
 6.     text-decoration: underline;
-
 7.  }
-
 8.  input {
-
 9.     border: 3px white solid;
-
 10. }
-
 11. input {
-
 12.    border: 3px yellow solid;
-
 13. }
-
 14. input {
-
 15.    background-color: yellow;
-
 16.    border: 3px yellow solid;
-
 17. }
-
 18. button {
-
 19.    background-color: white;
-
 20.    color: #006666;
-
 21.    border: 3px white solid;
-
 22. }
-
 23. button {
-
 24.    background-color: #006666;
-
 25.    color: white;
-
 26. }
-
 27. button {
-
 28.    background-color: #33cc99;
-
 29. }
-
 30. li {
-
 31.    background-color: white;
-
 32.    color: #006666;
-
 33. }
-
 34. li {
-
 35.    background-color: #33cc99;
-
 36.    color: white;
-
 37. }
-
 38. a {
-
 39.    color: white;
-
 40. }
-
 41. a {
-
 42.    color: #33cc99;
-
 43. }
+```
 
 If you look at the CSS for this page you\'ll notice there are multiple CSS rules with the same selectors. That is because some of these rules need to have pseudo classes applied.
 
@@ -4053,45 +3794,32 @@ Now, let\'s take a look at how you can order all the selectors you have in your 
 
 When you use two selectors separated by a space on a rule, you scope the rule to the elements that correspond to the selector on the right that are INSIDE the elements that correspond to the selector on the left. Let\'s say we have the following HTML:
 
-> \<!DOCTYPE html\>
->
+```
+> <!DOCTYPE html\>
 > \<html lang=\"en\"\>
->
 >     \<head\>
->
 >         \<meta charset=\"utf-8\"\>
->
 >     \</head\>
->
 >     \<body\>
->
 >         \<img src=\"images/pic1.jpg\" alt=\"pic 1\" /\>
->
 >         \<p\>
->
 >             This is my paragraph full of useful information
->
 >             \<img src=\"images/pic2.jpg\" alt=\"pic 2\" /\>
->
 >             Since there is text around these images, they should be styled a little differently.
->
 >             \<img src=\"images/pic3.jpg\" alt=\"pic 3\" /\>
->
 >         \</p\>
->
 >         \<img src=\"images/pic4.jpg\" alt=\"pic 4\" /\>
->
 >     \</body\>
->
 > \</html\>
+```
 
 If we applied the following CSS rule then the images INSIDE the paragraph would be set to a width of 100px, but that rule would not apply to the images outside the paragraph. 
 
+```
 p img {
-
 width: 100px;
-
 }
+```
 
 Below is a diagram of the given HTML with the two imgs that will be styled by the above rule are indicated by the red arrows. 
 
@@ -4111,73 +3839,42 @@ For practice, we are going to learn how to better scope CSS without the crutch o
 
 **Look carefully at the CSS code:**
 
+```
 1.  body {
-
 2.      font-family: Tahoma, sans-serif;
-
 3.  }
-
 4.  header, article, footer {
-
 5.      border: 10px #E9B000 solid;
-
 6.      margin: 30px;
-
 7.  }
-
 8.  h1 {
-
 9.      color: #E86E80;
-
 10. }
-
 11. h1 {
-
 12.     background-color: #E86E80;
-
 13.     color: #FFFFFF;
-
 14. }
-
 15. p {
-
 16.     background-color: #008F95;
-
 17.     color: #FFFFFF;
-
 18. }
-
 19. p {
-
 20.     background-color: #FFFFFF;
-
 21.     color: #008F95;
-
 22. }
-
 23.  
-
 24. ol {
-
 25.     background-color: #E24E43;
-
 26.     color: #FFFFFF;
-
 27. }
-
 28. ol {
-
 29.     background-color: #FFFFFF;
-
 30.     color: #E24E43;
-
 31. }
-
 32. ol {
-
 33.     border: 5px solid #E24E43;
-
 34. }
+```
 
 So, there are CSS rules with duplicate selectors. You\'ll need to add some extra selectors to the existing CSS rules so that instead of duplicate rules, you have rules that address different instances of the HTML elements based on the structure of the HTML.
 
@@ -4241,47 +3938,29 @@ Look at the corresponding HTML and CSS, where code showing how Cascading order a
 
 ![](images/media/image65.png){width="6.9375in" height="2.9819444444444443in"}
 
+```
 1.  section {
-
 2.     color: red;
-
 3.  }
-
 4.  section section {
-
 5.     color: orange;
-
 6.  }
-
 7.  section section section {
-
 8.     color: green;
-
 9.  }
-
 10. #section {
-
 11.    color: blue;
-
 12. }
-
 13. section:hover {
-
 14.    color: purple;
-
 15. }
-
 16. section:hover section:hover {
-
 17.    color: pink;
-
 18. }
-
 19. section:hover section:hover section:hover {
-
 20.    color: yellow;
-
 21. }
+```
 
 **Things to observe about the above:**
 
@@ -4299,47 +3978,29 @@ Cascading order can be difficult to manage.
 
 **\... and specifically, its CSS code:**
 
+```
 1.  body {
-
 2.      background-color: #F8EEE7;
-
 3.  }
-
 4.  p {
-
 5.      background-color: #F4DECB;
-
 6.  }
-
 7.  p {
-
 8.      background-color: #94618E;
-
 9.      color: #F8EEE7;
-
 10. }
-
 11. p {
-
 12.     background-color: #49274A;
-
 13. }
-
 14. p {
-
 15.     background-color: #FFFFFF;
-
 16.     color: #49274A;
-
 17. }
-
 18. p {
-
 19.     background-color: #B4DBC0 !important;
-
 20.     border: 2px dashed black;
-
 21. }
+```
 
 Note that there are a lot of repeat CSS rules. For this activity, you cannot change any of the HTML (meaning you cannot add any IDs), but you\'ll need to change the CSS to make some of the rules more specific so that you achieve this final result:
 
@@ -4347,47 +4008,29 @@ Note that there are a lot of repeat CSS rules. For this activity, you cannot cha
 
 The image below shows when you hover \"paragraph 4\". The same hover should apply to ALL p tags.
 
+```
 body {
-
 background-color: #F8EEE7;
-
 }
-
 p {
-
 background-color: #F4DECB;
-
 }
-
 section p {
-
 background-color: #94618E;
-
 color: #F8EEE7;
-
 }
-
 article p {
-
 background-color: #49274A;
-
 }
-
 #specific {
-
 background-color: #FFFFFF;
-
 color: #49274A;
-
 }
-
 p:hover {
-
 background-color: #B4DBC0 !important;
-
 border: 2px dashed black;
-
 }
+```
 
 ![cascading style practice with hover](images/media/image68.png){width="5.0in" height="3.7062062554680666in"}
 
@@ -4409,13 +4052,12 @@ It\'s important to format and size your image before uploading it to your site, 
 
 You can resize images using the width or height properties of CSS like so:
 
+```
 1.  img {
-
 2.  width: 100px;
-
 3.  height: 100px;
-
 4.  }
+```
 
 In Module 4, we will discuss width and height in detail, but for the purpose of images, know that if you only set one of these two properties the image will scale according to its original dimensions. If you set both width and height, CSS will stretch your image to fit whatever you specify. 
 
@@ -4542,87 +4184,53 @@ This design is an example of an image gallery design. This gives all the images 
 
 ### HTML
 
-\<!DOCTYPE html\>
-
-\<!\--It\'s a best practice to always declare DOCTYPE!\--\>
-
-\<html lang=\"en\"\>
-
-\<head\>
-
-\<meta charset=\"utf-8\"\>
-
-\</head\>
-
-\<body\>
-
-\<div id=\"images2\"\>
-
-\<p\>
-
+```
+<!DOCTYPE html>
+<!--It's a best practice to always declare DOCTYPE!-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+<div id="images2">
+<p>
 Here is a group of images in a grid, similar to how you would want to display them in a gallery. You can see how important it is to add proper white space around the images. In this case we have added padding, a border as well as margin to give the images a nice flow. There is also a good spacing between the images and the text.
-
-\</p\>
-
-\<img src=\"https://www.w3.org/comm/assets/graphics/w3cx-accessibility-intro.jpg\" alt=\"man and woman looking at a computer screen\" /\>
-
-\<img src=\"https://www.w3.org/WAI/content-images/wai-std-gl-overview/specs.png\" alt=\"illustration showing the WAI guidelines for the different components, detailed description at https://www.w3.org/WAI/intro/components-desc.html#guide\" /\>
-
-\<img src=\"https://www.w3.org/WAI/images/WCAG21/small-1024x512@1x.png\" alt=\"WCAG 2.1\" /\>
-
-\<img src=\"https://www.w3.org/International/questions/qa-indic-graphemes-data/jhilli_codepoints.png\" alt=\"Code points that make up the Bengali word \'jhilli\'.\" /\>
-
-\<img src=\"https://www.w3.org/International/logos/mlw-notext-500-white.png\" alt=\"logo of the W3C Internationalization Activity\" /\>
-
-\<img src=\"https://www.w3.org/TR/2020/WD-simple-ruby-20200609/img/fig06.svg\" alt=\"Example of horizontal ruby\" /\>
-
-\</div\>
-
-\</body\>
-
-\</html\>
-
+</p>
+<img src="https://www.w3.org/comm/assets/graphics/w3cx-accessibility-intro.jpg" alt="man and woman looking at a computer screen" />
+<img src="https://www.w3.org/WAI/content-images/wai-std-gl-overview/specs.png" alt="illustration showing the WAI guidelines for the different components, detailed description at https://www.w3.org/WAI/intro/components-desc.html#guide" />
+<img src="https://www.w3.org/WAI/images/WCAG21/small-1024x512@1x.png" alt="WCAG 2.1" />
+<img src="https://www.w3.org/International/questions/qa-indic-graphemes-data/jhilli_codepoints.png\" alt=\"Code points that make up the Bengali word 'jhilli'." />
+<img src="https://www.w3.org/International/logos/mlw-notext-500-white.png" alt="logo of the W3C Internationalization Activity" />
+<img src="https://www.w3.org/TR/2020/WD-simple-ruby-20200609/img/fig06.svg" alt="Example of horizontal ruby" />
+</div>
+</body>
+</html>
+```
+   
 ### CSS
 
+```
 div {
-
 margin-bottom: 50px;
-
 }
-
 #images2 {
-
 width: 750px;
-
 background-color: #E9E9E9;
-
 padding: 30px;
-
 font-family: Arial;
-
 }
-
 #images2 p {
-
 background-color: #99D3DF;
-
 padding: 20px 30px;
-
 }
-
 #images2 img {
-
 width: 200px;
-
 padding: 10px;
-
 border: 2px #88BBD6 solid;
-
 margin: 5px;
-
 background-color: white;
-
 }
+```
 
 ##### Images 3
 
@@ -4632,37 +4240,23 @@ This design demonstrates the use of an image both as a background and as a link.
 
 ##### HTML
 
-\<!DOCTYPE html\>
-
-\<!\--It\'s a best practice to always declare DOCTYPE!\--\>
-
-\<html lang=\"en\"\>
-
-\<head\>
-
-\<meta charset=\"utf-8\"\>
-
-\</head\>
-
-\<body\>
-
-\<div id=\"images3\"\>
-
-\<p\> Here is some body text that is now on top of an image because it is set as the background. When using an image as a background try to pick an image that is not overly busy, this can make your text or other images difficult to read when placed on top of.
-
-\</p\>
-
-\<div id=\"navBox\"\>
-
-\<div id=\"clickHere\"\> \<a href=\"https://www.w3.org\"\>Click The Image\</a\> \</div\>
-
-\<a href=\"www.w3.org\"\>\<img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Font_Awesome_5\_solid_arrow-circle-right.svg/512px-Font_Awesome_5\_solid_arrow-circle-right.svg.png\" width=\"80\" alt=\"A solid-weight icon from Font Awesome, a free web icon font\" /\>\</a\>
-
+```
+<!DOCTYPE html>
+<!--It's a best practice to always declare DOCTYPE!-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+<div id="images3">
+<p> Here is some body text that is now on top of an image because it is set as the background. When using an image as a background try to pick an image that is not overly busy, this can make your text or other images difficult to read when placed on top of.
+</p>
+<div id="navBox">
+<div id="clickHere"> <a href=\"https://www.w3.org">Click The Image</a> </div>
+<a href="www.w3.org">\<img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Font_Awesome_5\_solid_arrow-circle-right.svg/512px-Font_Awesome_5\_solid_arrow-circle-right.svg.png\" width=\"80\" alt=\"A solid-weight icon from Font Awesome, a free web icon font\" /\>\</a\>
 \</div\>
-
-\</div\>
-
-\</body\>
+</div\>
+</body\>
 
 \</html\>
 
