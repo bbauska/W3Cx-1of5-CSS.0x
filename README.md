@@ -716,14 +716,11 @@ From the history of CSS, we learned why CSS came about, but the short answer is 
 
 -   [CSS design principles](https://www.w3.org/TR/CSS22/intro.html#design-principles)
 
-```{=html}
-<!-- -->
-```
 -   [Effective Use of Style Sheets](https://www.nngroup.com/articles/effective-use-of-style-sheets/) (updated regularly since 1997!)
 
 -   [Repurposing of content](https://www.w3.org/People/Bos/DesignGuide/repurposing)
 
-## 1.3.2 Meet CSS Zen Garden
+<h3 id="ch1-3-2">1.3.2 Meet CSS Zen Garden</h3>
 
 In 2003, [Dave Shea](http://daveshea.com/projects/zen/) began a legendary project called [CSS Zen Garden](http://www.csszengarden.com/) that provided a demonstration of \"what can be accomplished through CSS-based design\", until submissions stopped in 2013.
 
@@ -831,7 +828,7 @@ As you can see, not only is the element highlighted on the page, but this also h
 
 As you work in your own sites, you might want to use both of these features of your browser to understand what is happening in your own code, or in Web pages you find on the Web.
 
-## 1.3.3 Activity - CSS Zen Garden critique
+<h3 id="ch1-3-3">1.3.3 Activity - CSS Zen Garden critique</h3>
 
 Now that you've gotten a good idea of what CSS Zen Garden is, take a closer look. Please browse some of the designs, starting from \"[Garments](http://www.csszengarden.com/220/) (note that the link to \"all designs\" is now broken\...). Look through the different CSS Zen Garden designs for inspiration. Which is your favorite design? Pick one design and share your critiques with the discussion. 
 
@@ -843,7 +840,7 @@ For your chosen design, please answer the following questions:
 
 -   What is one thing you don\'t like about this design?
 
-## 1.4.1 Hello beautiful world
+<h3 id="ch1-4-1">1.4.1 Hello beautiful world</h3>
 
 Now that you have plenty of context, it\'s time to dive in.
 
@@ -949,41 +946,31 @@ If I add in this extra rule, I can hit save, and now when I refresh, I can see t
 
 Here is the [code](https://codepen.io/techie4good/pen/oxQaVN) we wrote in this demo.
 
-Here is the HTML part:
+<h4>Here is the HTML part:</h4>
 
-1.  \<!DOCTYPE html\>
-
-2.  \<html lang=\"en\"\>
-
-3.      \<head\>
-
-4.          \<meta charset=\"utf-8\"\>
-
-5.          \<link rel=\"stylesheet\" href=\"style.css\"\>
-
-6.      \</head\>
-
-7.      \<body\>
-
-8.          \<p\>
-
+```
+1.  <!DOCTYPE html>
+2.  <html lang="en">
+3.      <head>
+4.          <meta charset="utf-8">
+5.          <link rel="stylesheet" href="style.css">
+6.      </head>
+7.      <body>
+8.          <p>
 9.              Hello Beautiful World
-
-10.         \</p\>
-
-11.     \</body\>
-
-12. \</html\>
+10.         </p>
+11.     </body>
+12. </html>
+```
 
 \... and the CSS file (style.css) is below:
 
+```
 1.        p {
-
 2.          color: blue;
-
 3.          font-family:Helvetica;
-
 4.        }
+```
 
 \... and here is the \"output\":
 
@@ -995,9 +982,16 @@ Here is the HTML part:
    width="40%"
    alt="." />
 </p>
-![Blue Helvetica text \"Hello Beautiful World\" in a browser window](images/media/image22.png){width="2.8854166666666665in" height="1.5729166666666667in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 22. blue helvetica text (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image022.png?raw=true"
+   width="29%"
+   alt="Blue Helvetica text." />
+</p>
 
-## 1.4.2 Comments
+<h3 id="ch1-4-2">1.4.2 Comments</h3>
 
 As you write your CSS, you might end up with a pretty large document that can be hard to manage, or you might find yourself working on a team and having to read CSS someone else has written. In these cases, it helps to leave \"notes\" for the humans that read the file. 
 
@@ -1005,73 +999,67 @@ There is a way to leave notes that the Web browser will ignore when it is readin
 
 To add comments to your CSS file, you need to surround any text you want the computer to ignore with a set of *slashes* and *asterisks* like so:
 
-> **/\*** those two symbols start my comment block
+```
+> **/*** those two symbols start my comment block
 >
 >  I can have more comment text here
 >
-> and the following two symbols end my comment **\*/**
+> and the following two symbols end my comment ***/**
+```
 
 As you can see, you can put as much text between the open and close symbols as you need, you can even have multiple lines. If you are working in an editor like Visual Studio code, you will notice that when you turn text into a comment, it turns green to indicate that the computer ignores that code.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 19.  (xxx) ------------------------------->
+<!------------------------------ 23. image of visual studio code comments (xxx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image019.png?raw=true"
-   width="40%"
-   alt="." />
+<img src="./images/image023.png?raw=true"
+   width="45%"
+   alt="Image of visual studio code comments." />
 </p>
-![Image of Visual Studio Code Comments](images/media/image23.png){width="4.572916666666667in" height="1.375in"}
 
 Generally, it is a good idea to put a comment at the top of each CSS rule, or at the very least at the top of sets of rules that apply to a single category or section of your Web page. 
 
-## 1.4.3 Module 1 project - Hello your world
+<h3 id="ch-1-4-3">1.4.3 Module 1 project - Hello your world</h3>
 
 It\'s finally time to write your own CSS! Open your code editor of choice and save the following code as a new HTML document.
 
 *Remember*: to do this, you will need to give it a .html file extension when you are saving it. For example, you could call it index.html
 
+```
 > \<!DOCTYPE html\>
->
 > \<html lang=\"en\"\>
->
 >    \<head\>
->
 >       \<meta charset=\"utf-8\"\>
->
 >    \</head\>
->
 >    \<body\>
->
 >       \<p\>
->
 >          Hello Beautiful World
->
 >       \</p\>
->
 >    \</body\>
->
 > \</html\>
+```
 
 Once you have your HTML document view it in a Web browser. It should look like this:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 19.  (xxx) ------------------------------->
+<!----------- 24. An image of Hello Beautiful World in a web browser with black text (xxx) ------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image019.png?raw=true"
-   width="40%"
-   alt="." />
+<img src="./images/image024.png?raw=true"
+   width="44%"
+   alt="An image of Hello Beautiful World in a web browser with black text." />
 </p>
-![An image of Hello Beautiful World in a web browser with black text](images/media/image24.png){width="4.40625in" height="1.7604166666666667in"}
 
 Now it's time to add some CSS. Here is the CSS we wrote in the \"Hello Beautiful World\" demo. Make a new file with this css and save it with a .css file extension. For example, you can call it styles.css
 
+```
 > p {
 >
 >     color: blue;
 >
 > }
+```
 
 This won't change the look of your HTML until you link the two files with this HTML tag.
 
@@ -1088,14 +1076,13 @@ This won't change the look of your HTML until you link the two files with this H
 Now change the HTML and CSS files so that it says "Hello \<your name\>, welcome to my first CSS Web page" in your favorite color! Here's what mine looks like:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 19.  (xxx) ------------------------------->
+<!----------------------- 25. an image of hello kasey in green text (xxx) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image025.png?raw=true"
-   width="40%"
-   alt="." />
+   width="36%"
+   alt="An image of Hello Kasey in green text." />
 </p>
-![An image of Hello Kasey in green text](images/media/image25.png){width="3.6666666666666665in" height="1.8125in"}
 
 **HINT**: Is your favorite color not working? Not all color names are recognized by CSS. Sometimes the best way is to use HEX. We\'ll talk in more detail about colors in the next module, but here is a list of colors you can use: [extended color keywords](https://www.w3.org/TR/css-color/#color-keywords) (from W3C\'s specification) or [color keywords](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value) (from MDN\'s documentation).
 
@@ -1121,7 +1108,7 @@ In next module, you will:
 
 -   Finally, for your module project, you\'ll get a get a chance to build the CSS for an HTML page from scratch
 
-## 2.1.1 Welcome to Module 2
+<h3 id="ch2-1-1">2.1.1 Welcome to Module 2</h3>
 
 In this module, we\'re going to focus on building out your CSS toolbox.
 
@@ -1137,7 +1124,7 @@ The property is the part that helps control the look and feel: the font, the col
 
 And then finally, at the end of the module, you get to write your first CSS style specifically for a given HTML Web site.
 
-## 2.1.2 Module 2 outline
+<h3 id="ch2-1-2">2.1.2 Module 2 outline</h3>
 
 ### In this module, we will:
 
@@ -1151,7 +1138,7 @@ And then finally, at the end of the module, you get to write your first CSS styl
 
 5.  Finally, for your module project, you\'ll get a get a chance to build the CSS for an HTML page from scratch
 
-## 2.2.1 HTML to get you started
+<h3 id="ch2-2-1">2.2.1 HTML to get you started</h3>
 
 In this course, we\'re talking about CSS.
 
@@ -1203,37 +1190,29 @@ In this course, we\'re just talking about CSS, but if you\'re not familiar with 
 
 HTML (**H**yper **T**ext **M**arkup **L**anguage) documents are made up of content and tags. These tags describe the content so that the web browser understands the structure of the page. HTML tags typically come in pairs, an opening tag before and a closing tag after content like so:
 
-1.  \<tagname\>
-
+```
+1.  <tagname>
 2.      My content
-
-3.  \</tagname\>
+3.  </tagname>
+```
 
 When these three pieces are combined (start tag, content, and end tag), you have what is called an HTML **element**. 
 
 Here is a sample HTML doc:
 
-1.  \<!DOCTYPE html\> \<!\-- Doctype declares the document to be HTML 5 type\--\>
-
-2.  \<html lang=\"en\"\> \<!\--All your HTML content must be within this tag\--\>
-
-3.      \<head\> \<!\--Anything in the header provides information about the document, no content here\--\>
-
-4.          \<meta charset=\"utf-8\"\>
-
-5.          \<title\>Page Title\</title\> \<!\--This text will show up on the tab of the browser for this page\--\>
-
-6.      \</head\> \<!\--end for the header section\--\>
-
-7.      \<body\> \<!\--start tag for the body section, this is where to put all your content to be displayed\--\>
-
-8.          \<h1\>My First Heading\</h1\> \<!\--content in a h1 tag is a "heading" of the top level\--\>
-
-9.          \<p\>My first paragraph.\</p\> \<!\--content in a p tag is normal or "paragraph" level text\--\>
-
-10.     \</body\>
-
-11. \</html\>
+```
+1.  <!DOCTYPE html> <!-- Doctype declares the document to be HTML 5 type-->
+2.  <html lang="en"> <!--All your HTML content must be within this tag-->
+3.      <head> <!--Anything in the header provides information about the document, no content here-->
+4.          <meta charset="utf-8">
+5.          <title\>Page Title</title> <!--This text will show up on the tab of the browser for this page-->
+6.      </head> <!--end for the header section--\>
+7.      <body> <!--start tag for the body section, this is where to put all your content to be displayed-->
+8.          <h1>My First Heading</h1> <!--content in a h1 tag is a "heading" of the top level-->
+9.          <p>My first paragraph.</p> <!--content in a p tag is normal or "paragraph" level text-->
+10.     </body>
+11. </html>
+```
 
 *\*NOTE: In the code above, the red text contained within the \<!\-- and \--\> start and end sequences are comments. Each of them is explaining each tag.*
 
@@ -1270,20 +1249,14 @@ You\'ll notice in the below code that we set the language to English (\<html lan
 
 It is important that you take care to use the lang attribute to indicate the actual language of text in your page because many CSS features will function differently, depending on what language is declared here.
 
-1.  \<!DOCTYPE html\>
-
-```{=html}
-<!-- -->
 ```
-1.  \<html lang=\"en\"\>
-
-2.     \<body\>
-
-3.        \<p\> Hello World\</p\>
-
-4.     \</body\>
-
-5.  \</html\>
+1.  \<!DOCTYPE html\>
+2.  \<html lang=\"en\"\>
+3.     \<body\>
+4.        \<p\> Hello World\</p\>
+5.     \</body\>
+6.  \</html\>
+```
 
 ### \<head\>
 
@@ -1293,25 +1266,18 @@ This is the element that contains all the metadata for your site, such as your l
 
 Note that this is where you will also set the charset to \"utf-8\" (\<meta charset=\"utf-8\"\>). This shows that you saved the markup using the UTF-8 character encoding, which has many characters outside English, so it should be able to display characters not in the English alphabet.
 
+```
 1.  \<!DOCTYPE html\>
-
 2.  \<html lang=\"en\"\>
-
 3.      \<head\>
-
 4.          \<meta charset=\"utf-8\"\>
-
 5.          \<title\>My First Page\</title\>
-
 6.      \</head\>
-
 7.      \<body\>
-
 8.          \<p\> Hello World\</p\>
-
 9.      \</body\>
-
 10. \</html\>
+```
 
 ### \<body\>
 
@@ -1319,27 +1285,19 @@ Note that this is where you will also set the charset to \"utf-8\" (\<meta chars
 
 The section element that contains all the visible content for your site like your text, images, links etc. There should only be one body tag per document and it should come after the head tag.
 
+```
 1.  \<!DOCTYPE html\>
-
 2.  \<html lang=\"en\"\>
-
 3.      \<head\>
-
 4.          \<meta charset=\"utf-8\"\>
-
 5.          \<title\>My First Page\</title\>
-
 6.          \<link rel=\"stylesheet\" href=\"styles.css\"\>
-
 7.      \</head\>
-
 8.      \<body\>
-
 9.          \<p\> Hello World\</p\>
-
 10.     \</body\>
-
 11. \</html\>
+```
 
 ### \<p\>
 
@@ -1347,11 +1305,11 @@ The section element that contains all the visible content for your site like you
 
 \"p\" stands for \"paragraph\" which is a block of text that is physically separated from adjacent blocks through blank lines. This is the most basic way to group text content.
 
+```
 1.  \<p\>
-
 2.     This is my introductory paragraph to my Web page! This text will wrap around in a single block and then after the paragraph is done there will be a line of white space.
-
 3.  \</p\>
+```
 
 ### \<a\>
 
@@ -1375,15 +1333,13 @@ This tag will insert an image based on the source you provide via the \"src\" at
 
 The UL tag creates an \"**u**nordered **l**ist\" element, meaning a collection of elements in which the order is meaningless. This is a tag that sets the framework for you to add list elements inside it. You will want to add your elements within the ul tag each surrounded your content with **l**ist **i**tem or \"\<li\>\" tags like in the below example.
 
+```
 1.  \<ul\>
-
 2.     \<li\>This is one element in the list\</li\>
-
 3.     \<li\>One of the elements\</li\>
-
 4.     \<li\>Another element\</li\>
-
 5.  *\</ul\>*
+```
 
 ### \<ol\>
 
@@ -1391,15 +1347,13 @@ The UL tag creates an \"**u**nordered **l**ist\" element, meaning a collection 
 
 The OL tag works exactly like the UL tag, except that the list element order matters. OL stands for \"**o**rdered **l**ist\" and by default, the list element items are displayed with a number preceding them.
 
+```
 1.  \<ol\>
-
 2.     \<li\>This is the first element\</li\>
-
 3.     \<li\>The second element\</li\>
-
 4.     \<li\>Finally, this is the third element\</li\>
-
 5.  \</ol\>
+```
 
 ### \<br /\>
 
@@ -1407,15 +1361,13 @@ The OL tag works exactly like the UL tag, except that the list element order mat
 
 The br element is a self-closing tag that inserts a line break. This is most evident when placed in a block of text as it essentially represents a carriage return or hitting the \"enter\" key. 
 
+```
 1.  \<p\>
-
 2.     this is my text.
-
 3.     \<br /\>
-
 4.     this text will appear on the next line down.
-
 5.  \</p\>
+```
 
 ### \<header\>
 
@@ -1423,17 +1375,14 @@ The br element is a self-closing tag that inserts a line break. This is most evi
 
 The header tag is one of the section elements, it\'s role is to group other HTML elements according to their role on their page. The header element contains all the introductory content on the page typically a title and tagline or navigational elements. 
 
+```
 1.  \<body\>
-
 2.     \<header\>
-
 3.        \<h1\> Welcome to my page!\</h1\>
-
 4.        \<h2\> My very first web page\</h2\>
-
 5.     \</header\>
-
 6.  \</body\>
+```
 
 ### \<section\>
 
@@ -1441,21 +1390,16 @@ The header tag is one of the section elements, it\'s role is to group other HTM
 
 Another sectioning element, the \"section\" tag is a general-purpose grouping element. It most often should include a header tag at the top. This typically will come after a header tag and before a footer tag.
 
+```
 1.  \<body\>
-
 2.     \<header\>
-
 3.        \<h1\> My Page \</h1\>
-
 4.     \</header\>
-
 5.     \<section\>
-
 6.        \<h2\> My Blog \</h2\>
-
 7.     \</section\>
-
 8.  \</body\>
+```
 
 ### \<footer\>
 
@@ -1463,31 +1407,21 @@ Another sectioning element, the \"section\" tag is a general-purpose grouping el
 
 Another sectioning element, the \"footer\" tag is supposed to organize the final content on the page such as the credits or contact info. 
 
+```
 1.  \<body\>
-
 2.     \<header\>
-
 3.        \<h1\>My Page\</h1\>
-
 4.     \</header\>
-
 5.     \<section\>
-
 6.        \<h2\>My Blog\</h2\>
-
 7.     \</section\>
-
 8.     \<footer\>
-
 9.        \<p\>
-
 10.          copyright 2016
-
 11.       \</p\>
-
 12.    \</footer\>
-
 13. \</body\>
+```
 
 ### \<div\>
 
@@ -1630,41 +1564,34 @@ In this course, we\'re just talking about CSS, but if you\'re not familiar with 
 
 HTML (**H**yper **T**ext **M**arkup **L**anguage) documents are made up of content and tags. These tags describe the content so that the web browser understands the structure of the page. HTML tags typically come in pairs, an opening tag before and a closing tag after content like so:
 
+```
 1.  \<tagname\>
-
 2.      My content
-
 3.  \</tagname\>
+```
 
 When these three pieces are combined (start tag, content, and end tag), you have what is called an HTML **element**. 
 
+```
 1.  Here is a s\<!DOCTYPE html\> \<!\-- Doctype declares the document to be HTML 5 type\--\>
-
 2.  \<html lang=\"en\"\> \<!\--All your HTML content must be within this tag\--\>
-
 3.      \<head\> \<!\--Anything in the header provides information about the document, no content here\--\>
-
 4.          \<meta charset=\"utf-8\"\>
-
 5.          \<title\>Page Title\</title\> \<!\--This text will show up on the tab of the browser for this page\--\>
-
 6.      \</head\> \<!\--end for the header section\--\>
-
 7.      \<body\> \<!\--start tag for the body section, this is where to put all your content to be displayed\--\>
-
 8.          \<h1\>My First Heading\</h1\> \<!\--content in a h1 tag is a "heading" of the top level\--\>
-
 9.          \<p\>My first paragraph.\</p\> \<!\--content in a p tag is normal or "paragraph" level text\--\>
-
 10.     \</body\>
-
 11. \</html\>
+```
 
 Sample HTML doc:
 
 *\*NOTE: In the code above, the red text contained within the \<!\-- and \--\> start and end sequences are comments. Each of them is explaining each tag.*
 
 Tags can be nested inside of other tags. This creates a parent/child relationship between HTML elements and forms the overall structure of your HTML document into a tree. This structure has a big affect on your CSS as styles are typically inherited from parent to child. We will take a closer look at style inheritance later in this unit. 
+
 
 ![The minimal structure of an HTML5 document](images/media/image26.png){width="4.0in" height="2.7670942694663165in"}
 
@@ -1690,17 +1617,14 @@ You\'ll notice in the below code that we set the language to English (\<html lan
 
 It is important that you take care to use the lang attribute to indicate the actual language of text in your page because many CSS features will function differently, depending on what language is declared here.
 
+```
 1.  \<!DOCTYPE html\>
-
 2.  \<html lang=\"en\"\>
-
 3.  \<body\>
-
 4.  \<p\> Hello World\</p\>
-
 5.  \</body\>
-
 6.  \</html\>
+```
 
 ### \<head\>
 
@@ -1710,25 +1634,18 @@ This is the element that contains all the metadata for your site, such as your l
 
 Note that this is where you will also set the charset to \"utf-8\" (\<meta charset=\"utf-8\"\>). This shows that you saved the markup using the UTF-8 character encoding, which has many characters outside English, so it should be able to display characters not in the English alphabet.
 
+```
 1.  \<!DOCTYPE html\>
-
 2.  \<html lang=\"en\"\>
-
 3.      \<head\>
-
 4.          \<meta charset=\"utf-8\"\>
-
 5.          \<title\>My First Page\</title\>
-
 6.      \</head\>
-
 7.      \<body\>
-
 8.          \<p\> Hello World\</p\>
-
 9.      \</body\>
-
 10. \</html\>
+```
 
 ### \<body\>
 
@@ -1736,27 +1653,19 @@ Note that this is where you will also set the charset to \"utf-8\" (\<meta chars
 
 The section element that contains all the visible content for your site like your text, images, links etc. There should only be one body tag per document and it should come after the head tag.
 
+```
 1.  \<!DOCTYPE html\>
-
 2.  \<html lang=\"en\"\>
-
 3.      \<head\>
-
 4.          \<meta charset=\"utf-8\"\>
-
 5.          \<title\>My First Page\</title\>
-
 6.          \<link rel=\"stylesheet\" href=\"styles.css\"\>
-
 7.      \</head\>
-
 8.      \<body\>
-
 9.          \<p\> Hello World\</p\>
-
 10.     \</body\>
-
 11. \</html\>
+```
 
 ### \<p\>
 
@@ -1764,11 +1673,11 @@ The section element that contains all the visible content for your site like you
 
 \"p\" stands for \"paragraph\" which is a block of text that is physically separated from adjacent blocks through blank lines. This is the most basic way to group text content.
 
+```
 1.  \<p\>
-
 2.     This is my introductory paragraph to my Web page! This text will wrap around in a single block and then after the paragraph is done there will be a line of white space.
-
 3.  \</p\>
+```
 
 ### \<a\>
 
@@ -1792,15 +1701,13 @@ This tag will insert an image based on the source you provide via the \"src\" at
 
 The UL tag creates an \"**u**nordered **l**ist\" element, meaning a collection of elements in which the order is meaningless. This is a tag that sets the framework for you to add list elements inside it. You will want to add your elements within the ul tag each surrounded your content with **l**ist **i**tem or \"\<li\>\" tags like in the below example.
 
+```
 1.  \<ul\>
-
 2.     \<li\>This is one element in the list\</li\>
-
 3.     \<li\>One of the elements\</li\>
-
 4.     \<li\>Another element\</li\>
-
 5.  *\</ul\>*
+```
 
 ### \<ol\>
 
@@ -1808,15 +1715,13 @@ The UL tag creates an \"**u**nordered **l**ist\" element, meaning a collection 
 
 The OL tag works exactly like the UL tag, except that the list element order matters. OL stands for \"**o**rdered **l**ist\" and by default, the list element items are displayed with a number preceding them.
 
+```
 1.  \<ol\>
-
 2.     \<li\>This is the first element\</li\>
-
 3.     \<li\>The second element\</li\>
-
 4.     \<li\>Finally, this is the third element\</li\>
-
 5.  \</ol\>
+```
 
 ### \<br /\>
 
@@ -1824,15 +1729,13 @@ The OL tag works exactly like the UL tag, except that the list element order mat
 
 The br element is a self-closing tag that inserts a line break. This is most evident when placed in a block of text as it essentially represents a carriage return or hitting the \"enter\" key. 
 
+```
 1.  \<p\>
-
 2.     this is my text.
-
 3.     \<br /\>
-
 4.     this text will appear on the next line down.
-
 5.  \</p\>
+```
 
 ### \<header\>
 
@@ -1840,17 +1743,14 @@ The br element is a self-closing tag that inserts a line break. This is most evi
 
 The header tag is one of the section elements, it\'s role is to group other HTML elements according to their role on their page. The header element contains all the introductory content on the page typically a title and tagline or navigational elements. 
 
+```
 1.  \<body\>
-
 2.     \<header\>
-
 3.        \<h1\> Welcome to my page!\</h1\>
-
 4.        \<h2\> My very first web page\</h2\>
-
 5.     \</header\>
-
 6.  \</body\>
+```
 
 ### \<section\>
 
@@ -1858,21 +1758,16 @@ The header tag is one of the section elements, it\'s role is to group other HTM
 
 Another sectioning element, the \"section\" tag is a general-purpose grouping element. It most often should include a header tag at the top. This typically will come after a header tag and before a footer tag.
 
+```
 1.  \<body\>
-
 2.     \<header\>
-
 3.        \<h1\> My Page \</h1\>
-
 4.     \</header\>
-
 5.     \<section\>
-
 6.        \<h2\> My Blog \</h2\>
-
 7.     \</section\>
-
 8.  \</body\>
+```
 
 ### \<footer\>
 
@@ -1880,31 +1775,21 @@ Another sectioning element, the \"section\" tag is a general-purpose grouping el
 
 Another sectioning element, the \"footer\" tag is supposed to organize the final content on the page such as the credits or contact info. 
 
-1.  \<body\>
-
-2.     \<header\>
-
-3.        \<h1\>My Page\</h1\>
-
-4.     \</header\>
-
-5.     \<section\>
-
-6.        \<h2\>My Blog\</h2\>
-
-7.     \</section\>
-
-8.     \<footer\>
-
-9.        \<p\>
-
+```
+1.  <body>
+2.     <header>
+3.        <h1>My Page</h1>
+4.     <header>
+5.     <section>
+6.        <h2>My Blog</h2>
+7.     </section>
+8.     <footer>
+9.        <p>
 10.          copyright 2016
-
-11.       \</p\>
-
-12.    \</footer\>
-
-13. \</body\>
+11.       </p>
+12.    </footer>
+13. </body>
+```
 
 ### \<div\>
 
@@ -3481,11 +3366,11 @@ p {
 #bottom {
     background-color: transparent;
     color: black;
-    font-family: \'Franklin Gothic Medium\';
+    font-family: 'Franklin Gothic Medium';
 }
 ```
 
-## 3.2.1 Classes and IDs
+<h3 id="ch3-2-1">3.2.1 Classes and IDs</h3>
 
 Often, a single page will have a whole bunch of the same html tag, but that doesn\'t necessarily mean you want each tag of that type to look exactly the same.
 
@@ -6570,159 +6455,111 @@ Note that position is not an inherited property so you will have to apply it ind
 
 ##### Example 1:
 
-![](images/media/image92.png){width="5.0in" height="3.6236231408573927in"}
+<!------------------------------------------------------------------------------------------------>
+<!-------------------- 92.  (xxx) ---------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image092.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
 ##### HTML
 
+```
 \<!DOCTYPE html\>
-
 \<!\--It\'s a best practice to always declare DOCTYPE!\--\>
-
 \<html lang=\"en\"\>
-
 \<head\>
-
 \<title\>Relative Positioning\</title\>
-
 \<meta charset=\"utf-8\"\>
-
 \</head\>
-
 \<body\>
-
 \<h1\>a shifted header relative to body\</h1\>
-
 \<section\>
-
 \<h2\>shifted header relative to section\</h2\>
-
 \</section\>
-
 \<footer\>
-
 \<h3\>a shifted header in a shifted footer\</h3\>
-
 \</footer\>
-
 \</body\>
-
 \</html\>
+```
 
 ##### CSS
 
+```
 h1 {
-
 background-color: red;
-
 width: 300px;
-
 position: relative;
-
 left: 150px;
-
 }
-
 section {
-
 background-color: orange;
-
 height: 100px;
-
 }
-
 h2 {
-
 position: relative;
-
 top: 20px;
-
 }
-
 footer {
-
 background-color: yellow;
-
 height: 200px;
-
 width: 300px;
-
 position: relative;
-
 left: 50px;
-
 top: 50px;
-
 }
-
 h3 {
-
 position: relative;
-
 top: 50px;
-
 left: 10px;
-
 }
+```
 
 ### Example 2:
 
-### ![](images/media/image93.png){width="5.0in" height="3.6236231408573927in"}
+<!------------------------------------------------------------------------------------------------>
+<!-------------------- 93.  (xxx) ---------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image093.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
 Note that relative positioning can make elements overlap - check the following CSS code as a second example:
 
+```
 h1 {
-
 background-color: red;
-
 width: 300px;
-
 position: relative;
-
 left: 150px;
-
 }
-
 section {
-
 background-color: orange;
-
 height: 100px;
-
 }
-
 h2 {
-
 position: relative;
-
 top: 20px;
-
 }
-
 footer {
-
 background-color: yellow;
-
 height: 200px;
-
 width: 300px;
-
 position: relative;
-
 left: 50px;
-
 top: -50px;
-
 }
-
 h3 {
-
 position: relative;
-
 top: 50px;
-
 left: 10px;
-
 }
+```
 
 ## 4.4.2 Activity - Practice with relative positioning
 
@@ -6734,110 +6571,68 @@ Here is [some HTML and CSS:](https://codepen.io/techie4good/pen/KgwRwg)
 
 ##### CSS
 
+```
 body {
-
 background-color: #EFEFEF;
-
 color: #A9A9A9;
-
 font-family: \"Book Antiqua\", serif;
-
 }
-
 h1 {
-
 color: #FF3B3F;
-
 }
-
 h2 {
-
 }
-
 div {
-
 background-color: #CAEBF2;
-
 width: 80%;
-
 }
-
 h3 {
-
 color: #FF3B3F;
-
 }
-
 p {
-
 width: 90%;
-
 }
+```
 
 Your task is to add CSS so that you achieve this final layout:\
+
 ![Relative positioning activity output](images/media/image95.png){width="6.9375in" height="1.7673611111111112in"}
 
 You can do this with padding and margins, but limit yourself to only add position, top and left properties. Try resizing your browser window, and if you\'ve implemented everything correctly all the elements will stay in the same position relative to one another. 
 
 ##### CSS
 
+```
 body {
-
 background-color: #EFEFEF;
-
 color: #A9A9A9;
-
 font-family: \"Book Antiqua\", serif;
-
 width: 950px
-
 }
-
 h1 {
-
 color: #FF3B3F;
-
 height: 25px
-
 }
-
 h2 {
-
 postiion: relative;
-
 margin-left: 45px;
-
 height: 25px
-
 }
-
 div {
-
 background-color: #CAEBF2;
-
 width: 80%;
-
 position: relative;
-
 left: 80px
-
 }
-
 h3 {
-
 color: #FF3B3F;
-
 padding-left: 10px;
-
 }
-
 p {
-
 width: 90%;
-
 padding-left: 25px;
-
 }
+```
 
 ## 4.5.1 Menus
 
