@@ -4127,9 +4127,16 @@ color: white;
 
 This design shows some of the basics in properly incorporating images. It uses the colors from the image in the design of the overall page to help the image look as if it belongs. It also uses padding to give the image a \"polaroid-style\" border.
 
-![](images/media/image70.png){width="5.0in" height="2.187688101487314in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 70.  (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image070.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
-### CSS
+<h4>CSS</h4>
 
 ```
 div {
@@ -4156,7 +4163,7 @@ background-color: white;
 }
 ```
 
-### HTML
+<h4>HTML</h4>
 
 ```
 !DOCTYPE html>
@@ -4180,9 +4187,16 @@ One thing that can make a website look cohesive is to choose images that match t
 
 This design is an example of an image gallery design. This gives all the images the same size and alignment while including plenty of white space to help the page not look too overwhelming despite having multiple photos. 
 
-![](images/image071.png){width="5.0in" height="3.5460465879265093in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 71.  (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image071.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
-### HTML
+<h4>HTML</h4>
 
 ```
 <!DOCTYPE html>
@@ -4207,7 +4221,7 @@ Here is a group of images in a grid, similar to how you would want to display th
 </html>
 ```
    
-### CSS
+<h4>CSS</h4>
 
 ```
 div {
@@ -4236,9 +4250,16 @@ background-color: white;
 
 This design demonstrates the use of an image both as a background and as a link. When using images as design elements, it is best to use simple images to let your content still be easily consumable.
 
-![](images/media/image72.png){width="5.0in" height="5.009939851268592in"}
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ 72.  (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image072.png?raw=true"
+   width="50%"
+   alt="." />
+</p>
 
-##### HTML
+<h4>HTML</h4>
 
 ```
 <!DOCTYPE html>
@@ -4252,67 +4273,43 @@ This design demonstrates the use of an image both as a background and as a link.
 <p> Here is some body text that is now on top of an image because it is set as the background. When using an image as a background try to pick an image that is not overly busy, this can make your text or other images difficult to read when placed on top of.
 </p>
 <div id="navBox">
-<div id="clickHere"> <a href=\"https://www.w3.org">Click The Image</a> </div>
-<a href="www.w3.org">\<img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Font_Awesome_5\_solid_arrow-circle-right.svg/512px-Font_Awesome_5\_solid_arrow-circle-right.svg.png\" width=\"80\" alt=\"A solid-weight icon from Font Awesome, a free web icon font\" /\>\</a\>
-\</div\>
-</div\>
-</body\>
+<div id="clickHere"> <a href="https://www.w3.org">Click The Image</a> </div>
+<a href="www.w3.org"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Font_Awesome_5\_solid_arrow-circle-right.svg/512px-Font_Awesome_5\_solid_arrow-circle-right.svg.png" width="80" alt="A solid-weight icon from Font Awesome, a free web icon font" /></a>
+</div>
+</div>
+</body>
+</html>
+```
 
-\</html\>
+<h4>CSS</h4>
 
-##### CSS
-
+```
 div {
-
 margin-bottom: 50px;
-
 }
-
 #images3 {
-
 background-image: url(\'https://upload.wikimedia.org/wikipedia/commons/4/45/Big_Cumulonimbus.JPG\');
-
 background-repeat: no-repeat;
-
 height: 500px;
-
 width: 500px;
-
 }
-
 #images3 p, #clickHere {
-
 color: white;
-
 font-family: Tahoma;
-
 padding: 40px;
-
 }
-
 #navBox {
-
 width: 220px;
-
 margin-left: 30px;
-
 }
-
 #clickHere {
-
 float: right;
-
 padding: 30px 0px;
-
 }
-
 #clickHere a {
-
 color: white;
-
 }
-
-## 
+```
 
 ## 3.5.2 Forms
 
@@ -7094,155 +7091,88 @@ This third design employs hover as a way to expose secondary links. This lets yo
 
 ![](images/media/image99.png){width="6.9375in" height="2.55625in"}
 
-CSS
+<h4>CSS</h4>
 
+```
 div {
-
 clear: both;
-
 margin-bottom: 50px;
-
 padding: 30px;
-
 font-family: Arial;
-
 }
-
 ul {
-
 list-style: none;
-
 height: 50px;
-
 }
-
 a {
-
 text-decoration: none;
-
 }
-
 #menu3 {
-
 background-color: #D9D9D9;
-
 }
-
 #menu3 ul {
-
 background-color: #4484CE;
-
 }
-
 #menu3 li {
-
 float: right;
-
 padding: 15px 30px;
-
 }
-
 #menu3 li:hover {
-
 background-color: #F9CF00;
-
 }
-
 #menu3 li:hover a {
-
 color: #4484CE;
-
 }
-
 #menu3 a {
-
 color: #F9CF00;
-
 font-size: 1.3em;
-
 }
-
 #menu3 .subitems {
-
 background-color: #F9CF00;
-
 width: 100%;
-
 padding: 0px;
-
 display: none;
-
 }
-
 #menu3 .subitems li {
-
 width: 100%;
-
 margin: 0px;
-
 padding: 0px;
-
 float: none;
-
 color: #4484CE;
-
 }
-
 #menu3 #about:hover .subitems {
-
 display: block;
-
 }
+```
 
-HTML
+<h4>HTML</h4>
 
-\<!DOCTYPE html\>
-
-\<!\--It\'s a best practice to always declare DOCTYPE!\--\>
-
-\<html lang=\"en\"\>
-
-\<head\>
-
-\<title\>Style studies: menu 3\</title\>
-
-\<meta charset=\"utf-8\"\>
-
-\</head\>
-
-\<body\>
-
-\<div id=\"menu3\"\>
-
-\<ul\>
-
-\<li class=\"currentPage\"\>\<a href=\"\"\>Home\</a\>\</li\>
-
-\<li id=\"about\"\>
-
-\<a href=\"\"\>About\</a\>
-
-\<ul class=\"subitems\"\>
-
-\<li\>subitem 1\</li\>
-
-\<li\>subitem 2\</li\>
-
-\</ul\>
-
-\</li\>
-
-\<li\>\<a href=\"\"\>Blog\</a\>\</li\>
-
-\<li\>\<a href=\"\"\>Contact\</a\>\</li\>
-
-\</ul\>
-
-\</div\>
-
-\</body\>
-
-\</html\>
+```
+<!DOCTYPE html>
+<!--It's a best practice to always declare DOCTYPE!-->
+<html lang="en">
+<head>
+<title>Style studies: menu 3</title>
+<meta charset="utf-8">
+</head>
+<body>
+<div id="menu3">
+<ul>
+<li class="currentPage"><a href="">Home</a></li>
+<li id="about">
+<a href="">About</a>
+<ul class="subitems">
+<li>subitem 1</li>
+<li>subitem 2</li>
+</ul>
+</li>
+<li><a href="">Blog</a></li>
+<li><a href="">Contact</a></li>
+</ul>
+</div>
+</body>
+</html>
+```
 
 ## 4.5.2 Footers
 
@@ -7252,301 +7182,161 @@ You will want your footer to flow with your overall page design, but to be disti
 
 ![](images/media/image100.png){width="6.9375in" height="3.5479166666666666in"}
 
-CSS
+<h4>CSS</h4>
 
+```
 div {
-
 font-family: Arial;
-
 }
-
 #footer1 {
-
 background-color: #F4F4F4;
-
 height: 150px;
-
 margin-bottom: 50px;
-
 }
-
 #footer1 section{
-
 height: 60%;
-
 color: #373737;
-
 width: 85%;
-
 margin-left: auto;
-
 margin-right: auto;
-
 }
-
 #footer1 footer {
-
 background-color: #C0B283;
-
 color: #DCD0C0;
-
 height: 40%;
-
 text-align: center;
-
 padding: 15px;
-
 }
-
 #footer1 footer a {
-
 color: #373737;
-
 padding: 5px 20px;
-
 }
-
 #footer1 footer a:hover {
-
 color: #F4F4F4;
-
 }
-
 #footer2 {
-
 background-color: #0E0B16;
-
 color: #FFFFFF;
-
 height: 350px;
-
 margin-bottom: 50px;
-
 }
-
 #footer2 section {
-
 width: 85%;
-
 margin-left: auto;
-
 margin-right: auto;
-
 padding-bottom: 30px;
-
 }
-
 #footer2 footer {
-
 width: 75%;
-
 margin-left: auto;
-
 margin-right: auto;
-
 color: #FFFFFF;
-
 border-top: 1px #A239CA solid;
-
 }
-
 #footer2 ul {
-
 float: left;
-
 width: 30%;
-
 list-style: none;
-
 padding: 0px;
-
 }
-
 #footer2 li {
-
 padding: 5px;
-
 }
-
 #footer2 .topLevel {
-
 font-size: 1.2em;
-
 font-variant: small-caps;
-
 }
-
 #footer3 {
-
 height: 200px;
-
 background-color: #F4DECB;
-
 }
-
 #footer3 section {
-
 width: 70%;
-
 margin-left: auto;
-
 margin-right: auto;
-
 background-color: #94618E;
-
 color: #F8EEE7;
-
 padding: 30px;
-
 margin-bottom: 30px;
-
 }
-
 #footer3 footer {
-
 width: 70%;
-
 margin-left: auto;
-
 margin-right: auto;
-
 background-color: #49274A;
-
 color: #94618E;
-
 padding: 5px 30px;
-
 text-align: center;
-
 }
-
 #footer3 a {
-
 color: #FFFFFF;
-
 }
-
 #footer3 a:hover {
-
 color: #F4DECB;
-
 }
+```
 
-HTML
+<h4>HTML</h4>
 
-\<!DOCTYPE html\>
-
-\<!\--It\'s a best practice to always declare DOCTYPE!\--\>
-
-\<html lang=\"en\"\>
-
-\<head\>
-
-\<title\>Style studies: footers\</title\>
-
-\<meta charset=\"utf-8\"\>
-
-\</head\>
-
-\<body\>
-
-\<div id=\"footer1\"\>
-
-\<section\>
-
+```
+<!DOCTYPE html>
+<!--It's a best practice to always declare DOCTYPE!-->
+<html lang="en">
+<head>
+<title>Style studies: footers</title>
+<meta charset="utf-8">
+</head>
+<body>
+<div id="footer1">
+<section>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-\</section\>
-
-\<footer\>
-
-\<div class=\"contacts\"\>
-
-\<a href=\"\"\>email\</a\>
-
-\<a href=\"\"\>twitter\</a\>
-
-\<a href=\"\"\>instagram\</a\>
-
-\<a href=\"\"\>facebook\</a\>
-
-\</div\>
-
-\<p\>design and code by me\</p\>
-
-\</footer\>
-
-\</div\>
-
-\<div id=\"footer2\"\>
-
-\<section\>
-
+</section>
+<footer>
+<div class="contacts">
+<a href="">email</a>
+<a href="">twitter</a>
+<a href="">instagram</a>
+<a href="">facebook</a>
+</div>
+<p>design and code by me</p>
+</footer>
+</div>
+<div id="footer2">
+<section>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-\</section\>
-
-\<footer\>
-
-\<ul class=\"navCat\"\>
-
-\<li class=\"topLevel\"\>About\</li\>
-
-\<li\>About Us\</li\>
-
-\<li\>Our Story\</li\>
-
-\<li\>FAQ\</li\>
-
-\</ul\>
-
-\<ul class=\"navCat\"\>
-
-\<li class=\"topLevel\"\>Services\</li\>
-
-\<li\>Custom Orders\</li\>
-
-\<li\>Wholesale\</li\>
-
-\</ul\>
-
-\<ul class=\"navCat\"\>
-
-\<li class=\"topLevel\"\>Contact\</li\>
-
-\<li\>Customer Service\</li\>
-
-\<li\>Careers\</li\>
-
-\<li\>Community\</li\>
-
-\<li\>Social Media\</li\>
-
-\</ul\>
-
-\</footer\>
-
-\</div\>
-
-\<div id=\"footer3\"\>
-
-\<section\>
-
+</section>
+<footer>
+<ul class="navCat">
+<li class="topLevel">About</li>
+<li>About Us</li>
+<li>Our Story</li>
+<li>FAQ</li>
+</ul>
+<ul class="navCat">
+<li class="topLevel">Services</li>
+<li>Custom Orders</li>
+<li>Wholesale</li>
+</ul>
+<ul class="navCat">
+<li class="topLevel">Contact</li>
+<li>Customer Service</li>
+<li>Careers</li>
+<li>Community</li>
+<li>Social Media</li>
+</ul>
+</footer>
+</div>
+<div id="footer3">
+<section>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-\</section\>
-
-\<footer\>
-
-Please \<a href=\"#\"\>contact us\</a\> if you have any questions
-
-\</footer\>
-
-\</div\>
-
-\</body\>
-
-\</html\>
+</section>
+<footer>
+Please <a href="#">contact us</a> if you have any questions
+</footer>
+</div>
+</body>
+</html>
+```
 
 ##### Footer 1
 
@@ -7556,113 +7346,66 @@ This is a basic footer that uses background color to help it stand out from the 
 
 ##### CSS
 
+```
 div {
-
 font-family: Arial;
-
 }
-
 #footer1 {
-
 background-color: #F4F4F4;
-
 height: 150px;
-
 margin-bottom: 50px;
-
 }
-
 #footer1 section{
-
 height: 60%;
-
 color: #373737;
-
 width: 85%;
-
 margin-left: auto;
-
 margin-right: auto;
-
 }
-
 #footer1 footer {
-
 background-color: #C0B283;
-
 color: #DCD0C0;
-
 height: 40%;
-
 text-align: center;
-
 padding: 15px;
-
 }
-
 #footer1 footer a {
-
 color: #373737;
-
 padding: 5px 20px;
-
 }
-
 #footer1 footer a:hover {
-
 color: #F4F4F4;
-
 }
+```
 
 ##### HTML
 
+```
 \<!DOCTYPE html\>
-
 \<!\--It\'s a best practice to always declare DOCTYPE!\--\>
-
 \<html lang=\"en\"\>
-
 \<head\>
-
 \<title\>Style studies: footer 1\</title\>
-
 \<meta charset=\"utf-8\"\>
-
 \</head\>
-
 \<body\>
-
 \<div id=\"footer1\"\>
-
 \<section\>
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
 \</section\>
-
 \<footer\>
-
 \<div class=\"contacts\"\>
-
 \<a href=\"\"\>email\</a\>
-
 \<a href=\"\"\>twitter\</a\>
-
 \<a href=\"\"\>instagram\</a\>
-
 \<a href=\"\"\>facebook\</a\>
-
 \</div\>
-
 \<p\>design and code by me\</p\>
-
 \</footer\>
-
 \</div\>
-
 \</body\>
-
 \</html\>
+```
 
 ##### Footer 2
 
@@ -7670,149 +7413,85 @@ This footer provides navigation links. Because the footer is at the bottom of th
 
 ![](images/media/image102.png){width="6.9375in" height="2.311111111111111in"}
 
-CSS
+<h4>CSS</h4>
 
+```
 div {
-
 font-family: Arial;
-
 }
-
 #footer2 {
-
 background-color: #0E0B16;
-
 color: #FFFFFF;
-
 height: 350px;
-
 margin-bottom: 50px;
-
 }
-
 #footer2 section {
-
 width: 85%;
-
 margin-left: auto;
-
 margin-right: auto;
-
 padding-bottom: 30px;
-
 }
-
 #footer2 footer {
-
 width: 75%;
-
 margin-left: auto;
-
 margin-right: auto;
-
 color: #FFFFFF;
-
 border-top: 1px #A239CA solid;
-
 }
-
 #footer2 ul {
-
 float: left;
-
 width: 30%;
-
 list-style: none;
-
 padding: 0px;
-
 }
-
 #footer2 li {
-
 padding: 5px;
-
 }
-
 #footer2 .topLevel {
-
 font-size: 1.2em;
-
 font-variant: small-caps;
-
 }
+```
 
-HTML
+<h4>HTML</h4>
 
+```
 \<!DOCTYPE html\>
-
 \<!\--It\'s a best practice to always declare DOCTYPE!\--\>
-
 \<html lang=\"en\"\>
-
 \<head\>
-
 \<title\>Style studies: footer 2\</title\>
-
 \<meta charset=\"utf-8\"\>
-
 \</head\>
-
 \<body\>
-
 \<div id=\"footer2\"\>
-
 \<section\>
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-\</section\>
-
-\<footer\>
-
-\<ul class=\"navCat\"\>
-
-\<li class=\"topLevel\"\>About\</li\>
-
-\<li\>About Us\</li\>
-
-\<li\>Our Story\</li\>
-
-\<li\>FAQ\</li\>
-
-\</ul\>
-
-\<ul class=\"navCat\"\>
-
-\<li class=\"topLevel\"\>Services\</li\>
-
-\<li\>Custom Orders\</li\>
-
-\<li\>Wholesale\</li\>
-
-\</ul\>
-
-\<ul class=\"navCat\"\>
-
-\<li class=\"topLevel\"\>Contact\</li\>
-
-\<li\>Customer Service\</li\>
-
-\<li\>Careers\</li\>
-
-\<li\>Community\</li\>
-
-\<li\>Social Media\</li\>
-
-\</ul\>
-
-\</footer\>
-
-\</div\>
-
-\</body\>
-
-\</html\>
+</section>
+<footer>
+<ul class="navCat\">
+<li class="topLevel">About</li>
+<li>About Us</li>
+<li>Our Story</li>
+<li>FAQ</li>
+</ul>
+<ul class="navCat">
+<li class="topLevel">Services</li>
+<li>Custom Orders</li>
+<li>Wholesale</li>
+</ul>
+<ul class="navCat">
+<li class="topLevel">Contact</li>
+<li>Customer Service</li>
+<li>Careers</li>
+<li>Community</li>
+<li>Social Media\</li>
+</ul>
+</footer>
+</div>
+</body>
+</html>
+```
 
 ##### Footer 3
 
@@ -7822,72 +7501,44 @@ This final design flows with the overall structure of the page, but limits the c
 
 ##### CSS
 
+```
 div {
-
 font-family: Arial;
-
 }
-
 #footer3 {
-
 height: 200px;
-
 background-color: #F4DECB;
-
 }
-
 #footer3 section {
-
 width: 70%;
-
 margin-left: auto;
-
 margin-right: auto;
-
 background-color: #94618E;
-
 color: #F8EEE7;
-
 padding: 30px;
-
 margin-bottom: 30px;
-
 }
-
 #footer3 footer {
-
 width: 70%;
-
 margin-left: auto;
-
 margin-right: auto;
-
 background-color: #49274A;
-
 color: #94618E;
-
 padding: 5px 30px;
-
 text-align: center;
-
 }
-
 #footer3 a {
-
 color: #FFFFFF;
-
 }
-
 #footer3 a:hover {
-
 color: #F4DECB;
-
 }
+```
 
 ##### HTML
 
+```
 \<!DOCTYPE html\>
-
 \<!\--It\'s a best practice to always declare DOCTYPE!\--\>
 
 \<html lang=\"en\"\>
