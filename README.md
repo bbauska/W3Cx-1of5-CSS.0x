@@ -4430,55 +4430,43 @@ As you can see, there are a lot of things to consider, and if you do not plan yo
 
 ##### HTML
 
-\<!DOCTYPE html\>
-
-\<!\--It\'s a best practice to always declare DOCTYPE!\--\>
-
+```
+<!DOCTYPE html>
+<!--It's a best practice to always declare DOCTYPE!-->
 \<html lang=\"en\"\>
-
 \<head\>
-
 \<meta charset=\"utf-8\"\>
-
 \</head\>
-
 \<body\>
-
 \<div id=\"badImg\"\>
-
 \<p\>
+```
 
 Here is an image that is unformatted, so the surrounding text directly touches it.
 
-\<img src=\"https://www.w3c.fr/wp-content/uploads/2016/12/26420235490_7ae150d467_b.jpg\" width=\"300\" alt=\"rows of people sitting in a theatre and wearing virtual reality devices\" /\>
+<img src="https://www.w3c.fr/wp-content/uploads/2016/12/26420235490_7ae150d467_b.jpg" width="300" alt="rows of people sitting in a theatre and wearing virtual reality devices" />
 
 It also doesn\'t integrate well with the text content, so it does not flow with your other content.
 
-\</p\>
+```
+</p>
+</div>
+</body>
+</html>
+```
 
-\</div\>
+#### CSS
 
-\</body\>
-
-\</html\>
-
-##### CSS
-
+```
 div {
-
 margin-bottom: 50px;
-
 }
-
 #badImg {
-
 background-color: gray;
-
 padding: 10px;
-
 color: white;
-
 }
+```
 
 ### Images 1
 
@@ -4488,87 +4476,56 @@ This design shows some of the basics in properly incorporating images. It uses t
 
 ### CSS
 
+```
 div {
-
 margin-bottom: 50px;
-
 }
-
 #images1 {
-
 background-color: #A4D555;
-
 padding: 50px;
-
 width: 750px;
-
 }
-
 #images1 p {
-
 background-color: #02558B;
-
 font-family: \"Century Gothic\";
-
 font-size: 1.2em;
-
 color: white;
-
 width: 350px;
-
 padding: 30px;
-
 float: right;
-
 }
-
 #images1 img {
-
 width: 250px;
-
 padding: 15px 15px 50px 15px;
-
 background-color: white;
-
 }
+```
 
 ### HTML
 
-!DOCTYPE html\>
-
-\<!\--It\'s a best practice to always declare DOCTYPE!\--\>
-
-\<html lang=\"en\"\>
-
-\<head\>
-
-\<meta charset=\"utf-8\"\>
-
-\</head\>
-
-\<body\>
-
-\<div id=\"images1\"\>
-
-\<p\>
-
+```
+!DOCTYPE html>
+<!--It's a best practice to always declare DOCTYPE!-->
+<html lang=\"en\"\>
+<head\>
+<meta charset=\"utf-8\"\>
+</head\>
+<body\>
+<div id=\"images1\"\>
+<p\>
 One thing that can make a website look cohesive is to choose images that match the design\'s existing color palette. Sometimes this can be difficult if you have a lot of content images with lots of colors, but whenever possible try to match images to the colors surrounding it.
-
-\</p\>
-
-\<img src=\"https://www.w3.org/blog/wp-content/uploads/2021/03/group_calendar-768x627.png\" alt=\"snapshot of the Dataset Exchange Working Group Calendar\" /\>
-
-\</div\>
-
-\</body\>
-
-\</html\>
+</p>
+<img src="https://www.w3.org/blog/wp-content/uploads/2021/03/group_calendar-768x627.png" alt="snapshot of the Dataset Exchange Working Group Calendar" />
+</div>
+</body>
+</html>
+```
 
 ### Images 2
 
 This design is an example of an image gallery design. This gives all the images the same size and alignment while including plenty of white space to help the page not look too overwhelming despite having multiple photos. 
 
-![](images/media/image71.png){width="5.0in" height="3.5460465879265093in"}
+![](images/image071.png){width="5.0in" height="3.5460465879265093in"}
 
 ### HTML
 
