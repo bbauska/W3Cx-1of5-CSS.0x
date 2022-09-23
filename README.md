@@ -10,8 +10,7 @@
    width="35%"
    alt="W3C logo" />
 </p>
-
-# Welcome to the CSS Basics course!
+<h1 align="center" width="100%">Welcome to the CSS Basics course!</h1>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 01. css basics course visual (01) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -9157,4 +9156,4 @@ Hopefully at this point you feel comfortable with all the basics of CSS, but, as
 <li>JavaScript Introduction</li>
 </ul>
 
-<h2>Last Updated: 9.18.2022 11:52pm</h2>
+<h2>Last Updated: 9.21.2022 9:31pm</h2>
