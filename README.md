@@ -999,17 +999,15 @@ There is a way to leave notes that the Web browser will ignore when it is readin
 To add comments to your CSS file, you need to surround any text you want the computer to ignore with a set of *slashes* and *asterisks* like so:
 
 ```
-> **/*** those two symbols start my comment block
->
->  I can have more comment text here
->
-> and the following two symbols end my comment ***/**
+/ those two symbols start my comment block
+I can have more comment text here
+and the following two symbols end my comment /
 ```
 
 As you can see, you can put as much text between the open and close symbols as you need, you can even have multiple lines. If you are working in an editor like Visual Studio code, you will notice that when you turn text into a comment, it turns green to indicate that the computer ignores that code.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 23. image of visual studio code comments (xxx) ------------------------------->
+<!----------------------- 23. image of visual studio code comments (xxx) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image023.png?raw=true"
@@ -1428,17 +1426,15 @@ Another sectioning element, the \"footer\" tag is supposed to organize the final
 
 The div element is a generic element to hold content. It is considered a last resort, for when no other element is suitable but is often used to collect together large portions of a site that contain multiple different types of content. 
 
-1.  \<div\>
+```
+1.  <div>
+2.     <h1> Title for Content </h1>
+3.     <img src="images/contentImage.jpg" />
+4.     <p> This is a paragraph explaining this section of content associated with the above image and title </p>
+5.  </div>
+```
 
-2.     \<h1\> Title for Content \</h1\>
-
-3.     \<img src=\"images/contentImage.jpg\" /\>
-
-4.     \<p\> This is a paragraph explaining this section of content associated with the above image and title \</p\>
-
-5.  \</div\>
-
-## 2.2.3 Next steps - learn more HTML
+<h3 id="ch2-2-3">2.2.3 Next steps - learn more HTML</h3>
 
 Note that, as this CSS Introduction course focuses on CSS, we will always provide you with the complete HTML for whatever content you will be asked to style. However, to become proficient in Web development, you are going to need a good handle on HTML. You can start by looking into some of these links:
 
@@ -1462,6 +1458,14 @@ You can find the validator here: <https://validator.w3.org/>
 
 You can pass any URL on the Web into the validator, and it will tell you how the HTML for that page stacks up against Web Standards. If you pass in https://www.w3.org (the W3C\'s homepage), you see the following:
 
+<!------------------------------------------------------------------------------------------------>
+<!-------------------- 27. html validator output for w3.org (xxx) ---------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image027.png?raw=true"
+   width="50%"
+   alt="HTML validator output for w3.org." />
+</p>
 ![HTML validator output for w3.org](images/media/image27.png){width="5.0in" height="2.9286931321084864in"}
 
 If you start to try out other URLs, you might find this is a very rare result ;)\
@@ -1469,6 +1473,14 @@ Try passing in your favorite Web address and see what comes up. For example, If 
 
 One of the more common errors is using an HTML tag that is considered obsolete. Often the error points you to this wiki page \"[Use CSS instead](https://wiki.whatwg.org/wiki/Presentational_elements_and_attributes)\".
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![Image of obsolete HTML error](images/media/image28.png){width="5.0in" height="0.7846412948381453in"}
 
 For this activity, please try out some of your favorite Web addresses in this validator and see what happens. Find a page that has one of these types of errors and answer the following questions in the discussion board:
@@ -1591,7 +1603,14 @@ Sample HTML doc:
 
 Tags can be nested inside of other tags. This creates a parent/child relationship between HTML elements and forms the overall structure of your HTML document into a tree. This structure has a big affect on your CSS as styles are typically inherited from parent to child. We will take a closer look at style inheritance later in this unit. 
 
-
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![The minimal structure of an HTML5 document](images/media/image26.png){width="4.0in" height="2.7670942694663165in"}
 
 There are other types of tags that are called \"self-closing\", meaning they don\'t come in an open/close pair. Typically self-closing tags insert content into your page as opposed to surround content. They look like this:
@@ -1830,6 +1849,14 @@ You can find the validator here: <https://validator.w3.org/>
 
 You can pass any URL on the Web into the validator, and it will tell you how the HTML for that page stacks up against Web Standards. If you pass in https://www.w3.org (the W3C\'s homepage), you see the following:
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![HTML validator output for w3.org](images/media/image27.png){width="6.135416666666667in" height="3.59375in"}
 
 If you start to try out other URLs, you might find this is a very rare result ;)\
@@ -1837,6 +1864,14 @@ Try passing in your favorite Web address and see what comes up. For example, If 
 
 One of the more common errors is using an HTML tag that is considered obsolete. Often the error points you to this wiki page \"[Use CSS instead](https://wiki.whatwg.org/wiki/Presentational_elements_and_attributes)\".
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![Image of obsolete HTML error](images/media/image28.png){width="6.239583333333333in" height="0.9791666666666666in"}
 
 For this activity, please try out some of your favorite Web addresses in this validator and see what happens. Find a page that has one of these types of errors and answer the following questions in the discussion board:
@@ -2029,6 +2064,14 @@ Here is an example CSS \"rule\":
 
 This rule tells the browser to make all text within a paragraph tag blue. A CSS rule is broken into two parts: the selector and the property
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![css anatomy](images/media/image29.png){width="6.5in" height="1.7055555555555555in"}
 
 ### Selector
@@ -2039,6 +2082,14 @@ This is the portion of the rule before the first open curly brace ( \"{\" charac
 
 This is the portion of the rule between the two curly braces. This is what tells the browser how to style the HTML tag that has been selected. This can be as many lines of code as you choose, each of which has two parts- the property and the value you want that property to be. For our example, \"color\" is the property and \"blue\" is the value, but we could also have had a value of \"black\" or \"#FFFFFF\" (which is HEX code for white). Each property line is constructed so:
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![property anatomy](images/media/image2.png){width="6.5in" height="1.5333333333333334in"}
 
 The style for your page will consist of a list of many CSS rules put together. As we move through this course we will help you build up these rules to style your entire page.
@@ -2089,6 +2140,14 @@ Now that you have a basic understanding of how to put the pieces of a CSS rule t
 
 Your goal is to get this HTML to look like the following image in the browser:
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![CodePen resulting image (Activity 2.3)](images/media/image30.png){width="6.5in" height="1.707638888888889in"}
 
 To do so, you will need to write 4 CSS Rules. You will need to use the following 4 selectors:
@@ -2153,6 +2212,14 @@ This would affect the style of all paragraph tags on the page and the style of e
 
 This would apply style to the body tag as well as allow the elements inside the body tag to inherit certain styles applied here (check the [related CodePen online](https://codepen.io/techie4good/pen/pEzLrd)). 
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![](images/media/image31.png){width="6.5in" height="2.0590277777777777in"}
 
 ### HTML
@@ -2263,6 +2330,14 @@ Let\'s say we have an HTML document (see the corresponding [Code Pen](https://c
 
 This is basic structure from the way I have formatted the tags with tabbing, but here is a more visual representation of the hierarchy of tags. Tags that contain other tags are parents, and the tags inside of them are their children in the following tree representation:
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![HTML inheritance structure](images/media/image32.png){width="4.0in" height="2.7363298337707787in"}
 
 Through inheritance, CSS property values set on one element will be transferred down the tree to that element\'s children. In this example, every element gets the same font because we applied it to the body tag. Since the body element is a common parent for all visible elements is a convenient selector for when you want to set stylistic rules for the entire document.
@@ -2286,6 +2361,14 @@ ul {
 
 Not every property is inherited, but many are. The CSS specification tell you, for each property, whether it is inheritable. It\'s a good idea to keep in mind the structure of your HTML document when choosing your selectors so you can use inheritance to your advantage by applying styles to the top most element and save yourself extra CSS code.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![](images/media/image33.png){width="6.9375in" height="2.1979166666666665in"}
 
 ### HTML
@@ -2347,6 +2430,14 @@ The comma means that each of these elements should have the same, duplicated sty
 
 Here is a [CodePen](https://codepen.io/w3devcampus/pen/PVJLEm) that explores using the comma to combine selectors.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![](images/media/image34.png){width="6.9375in" height="2.2222222222222223in"}
 
 ### CSS code:
@@ -2473,6 +2564,14 @@ In unit 2.2, we briefly mentioned the fact that properties apply to the entire h
 Note that there are HTML and some CSS rules, but the rules are missing their selectors.\
 You will need to figure out which selectors belong on top of each of the 5 rules so that your final site looks exactly like this:
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![Final result after you apply your own selectors](images/media/image35.png){width="5.0in" height="3.0115102799650044in"}
 
 **HINT**: Some of the rules require multiple comma separated selectors.
@@ -2496,14 +2595,38 @@ Here are some examples of properties that each accept a different style of value
 
 The above style is put into action in the [following CodePen](https://codepen.io/techie4good/pen/bwbLJP):
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![](images/media/image36.png){width="6.9375in" height="2.2020833333333334in"}
 
 Make sure to look up what the available values are before using a property, because if the browser doesn\'t understand your value it will typically just skip applying any style. This is where programs like Visual Studio Code come in handy because as you type out the property, the program will automatically suggest possible values.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![](images/media/image37.png){width="5.885416666666667in" height="3.15625in"}
 
 Sometimes the easiest way to learn about different properties is to explore the style on one of your favorite Web sites. You can use your browser tool to inspect an HTML element. Here is an example of inspecting a title:
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![](images/media/image38.png){width="6.9375in" height="2.4409722222222223in"}
 
 If you are not sure how to do this, please refer to the demo in unit 1.3 to see this in action while inspecting CSS Zen Garden designs. 
@@ -2582,6 +2705,14 @@ You can see these color properties in action using all three approaches to setti
 
 ### Other resources:
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![color palette](images/media/image39.jpeg){width="2.6041666666666665in" height="1.9791666666666667in"}
 
 -   We will discuss how to pick a good color palette for your site in Module 5, but in the meantime, [here is a good wiki article from the W3C](https://www.w3.org/wiki/Colour_theory) discussing the general use of colors on the Web.
@@ -2687,6 +2818,14 @@ Text-decoration adds a line across your text. You can set this line to be undern
 
 Here is a [CodePen exploring each of these styles](https://codepen.io/w3devcampus/pen/ExNExxq).
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![](images/media/image40.png){width="6.9375in" height="1.9548611111111112in"}
 
 ### HTML code:
@@ -2753,6 +2892,14 @@ For now, we\'ll use pixels because that is easier to learn. However, ultimately 
 
 When you view an element in your browser tools you can see the white space around it represented like so:
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![margin padding border](images/media/image41.png){width="4.239583333333333in" height="2.625in"}
 
 The above image is called the \"box model\", which we will get into more detail about in Module 4. For now, you can see that the space around the content is broken into three distinct regions. 
@@ -2801,6 +2948,14 @@ For example, the body tag typically has a margin that causes any content to not 
 
 Here is a [CodePen exploring padding, border and margin](https://codepen.io/techie4good/pen/vXBRJP).
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![](images/media/image42.png){width="6.9375in" height="2.1708333333333334in"}
 
 ### CSS code:
@@ -3547,10 +3702,26 @@ p,h2 {
 
 As you can note, it\'s not too interesting because not all of the styles are applied to the HTML as shown in the pen below:
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![](images/media/image55.png){width="6.9375in" height="2.609027777777778in"}
 
 In this activity, your job is to add the HTML id and class attributes to the correct elements so that you get a final result that looks like this:
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![](images/media/image56.png){width="6.9375in" height="6.547916666666667in"}
 
 ## 3.3.1 CSS pseudo-classes
@@ -4052,6 +4223,14 @@ border: 2px dashed black;
 }
 ```
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![cascading style practice with hover](images/media/image68.png){width="5.0in" height="3.7062062554680666in"}
 
 ## 3.5.1 Images
@@ -5372,71 +5551,54 @@ Setting width and height with percentages will save you work because your design
 
 For example, images will get \"pixelated\" if you let them grow too large, and they can look really distorted. Thankfully, you can set max and min width and heights. This way, you can set a range for your image to grow and shrink where you know it will still look good. 
 
+```
 1.  img {
-
 2.     width: 100%;
-
 3.     max-width: 1024px;
-
 4.  }
+```
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![](images/media/image82.png){width="5.0in" height="2.5355358705161857in"}
 
 ##### HTML
 
-\<!DOCTYPE html\>
-
-\<!\--It\'s a best practice to always declare DOCTYPE!\--\>
-
-\<html lang=\"en\"\>
-
-\<head\>
-
-\<title\>Dynamic width and height\</title\>
-
-\<meta charset=\"utf-8\"\>
-
-\</head\>
-
-\<body\>
-
-\<p id=\"width50\"\>
-
+```
+<!DOCTYPE html>
+<!--It's a best practice to always declare DOCTYPE!-->
+<html lang="en">
+<head>
+<title>Dynamic width and height</title>
+<meta charset="utf-8">
+</head>
+<body>
+<p id="width50">
 width 50%, no min or max
-
-\</p\>
-
-\<p id=\"width80max\"\>
-
+</p>
+<p id="width80max">
 width 80%, max of 1000px
-
-\</p\>
-
-\<p id=\"width30min\"\>
-
+</p>
+<p id="width30min">
 width 30%, min of 200px
-
-\</p\>
-
-\<p class=\"heightSet\"\>
-
+</p>
+<p class="heightSet">
 the height is set to 25%, but there is no effect
-
-\</p\>
-
-\<div id=\"containingBlock\"\>
-
-\<p class=\"heightSet\"\>
-
-this height is also set to 25%, and since it\'s within a div containing block who has a set height of 500px this p will resize in relation to that.
-
-\</p\>
-
-\</div\>
-
-\</body\>
-
-\</html\>
+</p>
+<div id="containingBlock">
+<p class="heightSet">
+this height is also set to 25%, and since it's within a div containing block who has a set height of 500px this p will resize in relation to that.
+</p>
+</div>
+</body>
+</html>
+```
 
 ##### CSS
 
@@ -5504,61 +5666,49 @@ Once you have set the width for your element, you can then set margins as a way 
 
 Note however, that this only works for block HTML elements like paragraphs, divs and headers. If you want to use this to position an inline element, such as img or a, you will need to tell CSS to treat them as block elements by setting display: block;
 
+```
 1.  img {
-
 2.     display: block;
-
 3.     width: 200px;
-
 4.     margin-left: auto;
-
 5.     margin-right: auto;
-
 6.  }
+```
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![](images/media/image83.png){width="5.0in" height="2.5355358705161857in"}
 
 ### HTML
 
+```
 \<!DOCTYPE html\>
-
 \<!\--It\'s a best practice to always declare DOCTYPE!\--\>
-
 \<html lang=\"en\"\>
-
 \<head\>
-
 \<meta charset=\"utf-8\"\>
-
 \</head\>
-
 \<body\>
-
 \<h1\>this is a centered header\</h1\>
-
 \<p\>
-
 \<a href=\"www.microsoft.com\"\>centered link within a p\</a\>
-
 \</p\>
-
 \<section\>
-
 here is text in a centered section on top of the inner div
-
 \<div\>
-
 centered div text within a centered div
-
 \</div\>
-
 and here is text in a centered section below the inner div
-
 \</section\>
-
 \</body\>
-
 \</html\>
+```
 
 ### CSS
 
@@ -5591,10 +5741,26 @@ margin: 0 auto;
 
 Here is what the above code looks like in a wide window:
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![centered elements with margin wide example](images/media/image84.png){width="5.0in" height="0.7362357830271216in"}
 
 Now, if you resize the window, the elements remain centered no matter what. Here is the above code in a narrow window:
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![dynamically centered elements narrow example](images/media/image85.png){width="3.125in" height="2.216666666666667in"}
 
 ### External resources:
@@ -5607,6 +5773,14 @@ Now, if you resize the window, the elements remain centered no matter what. Here
 
 For this activity, you are going to practice some of the basic alignment properties you\'ve learned in this unit.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![](images/media/image86.png){width="5.0in" height="1.7497944006999124in"}
 
 ### Here is some HTML and CSS:
@@ -5750,12 +5924,20 @@ Once you have some elements floating things can get a little messy. Its easy for
 
 \[*[Documentation](https://www.w3.org/TR/CSS22/visuren.html#propdef-clear)\]*
 
+```
 1.  p {
-
 2.     clear: both;
-
 3.  }
+```
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![](images/media/image89.png){width="6.9375in" height="2.845833333333333in"}
 
 ```
@@ -5843,6 +6025,14 @@ One of the toughest parts of layouts with CSS is figuring out which elements to 
 
 ### Here is [some HTML and CSS](https://codepen.io/techie4good/pen/xEbWrp):
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![](images/media/image90.png){width="5.0in" height="3.5855894575678042in"}
 
 ##### HTML
@@ -5928,6 +6118,14 @@ margin: 20px;
 As you can see the layout is pretty messy. Your job in this activity is to decide which elements deserve a float property (such as the navigation!). The main focus of the task is about understanding floats, but as before, try to ensure your page also works well when the window is resized.\
 You might also need to adjust some widths, margins and paddings to get everything looking like the final image below:
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![](images/media/image91.png){width="5.0in" height="2.5605610236220473in"}
 
 **HINT**: Pay close attention to the IDs applied to the HTML elements
@@ -6199,12 +6397,20 @@ left: 10px;
 }
 ```
 
-## 4.4.2 Activity - Practice with relative positioning
+<h3 id="ch4-4-2">4.4.2 Activity - Practice with relative positioning</h3>
 
 For this activity, we are going to focus on using relative positioning to adjust how items sit on the page.
 
 Here is [some HTML and CSS:](https://codepen.io/techie4good/pen/KgwRwg)
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![](images/media/image94.png){width="5.0in" height="3.1431430446194226in"}
 
 ##### CSS
@@ -6234,6 +6440,14 @@ width: 90%;
 
 Your task is to add CSS so that you achieve this final layout:\
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![Relative positioning activity output](images/media/image95.png){width="6.9375in" height="1.7673611111111112in"}
 
 You can do this with padding and margins, but limit yourself to only add position, top and left properties. Try resizing your browser window, and if you\'ve implemented everything correctly all the elements will stay in the same position relative to one another. 
@@ -6282,8 +6496,24 @@ One of the most important aspects of any Web site is the navigation menu. Over 
 
 -   A special style indicating the link for the page you are currently on
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![](images/media/image96.png){width="5.0in" height="2.6156157042869643in"}
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![](images/media/image97.png){width="5.0in" height="1.183183508311461in"}
 
 ### Menu 1
@@ -6331,6 +6561,14 @@ color: #0E0B16;
 
 This menu design uses a vertical arrangement but still floats the overall menu object so it can sit level with your content. You can also see a tabbed format here where the page you are currently viewing directly connects to the menu item representing it. 
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![](images/media/image98.png){width="6.9375in" height="2.548611111111111in"}
 
 ##### CSS
@@ -6423,6 +6661,14 @@ padding: 30px;
 
 This third design employs hover as a way to expose secondary links. This lets you leave the top level clean and simple but gives the user the power of more specific options when they interact with your header.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![](images/media/image99.png){width="6.9375in" height="2.55625in"}
 
 <h4>CSS</h4>
@@ -6514,6 +6760,14 @@ The footer of your page is typically the last thing your user will see, so it\'s
 
 You will want your footer to flow with your overall page design, but to be distinct from your content.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![](images/media/image100.png){width="6.9375in" height="3.5479166666666666in"}
 
 <h4>CSS</h4>
@@ -6676,6 +6930,14 @@ Please <a href="#">contact us</a> if you have any questions
 
 This is a basic footer that uses background color to help it stand out from the rest of the content. It contains contact links and a subtle reference to the designer of the page.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![](images/media/image101.png){width="6.9375in" height="1.2013888888888888in"}
 
 ##### CSS
@@ -6745,6 +7007,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 This footer provides navigation links. Because the footer is at the bottom of the page, you can get away with more links being exposed because limiting area isn\'t as important as in the top level header.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![](images/media/image102.png){width="6.9375in" height="2.311111111111111in"}
 
 <h4>CSS</h4>
@@ -6831,6 +7101,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 This final design flows with the overall structure of the page, but limits the content to a single simple contact link.
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
 ![](images/media/image103.png){width="6.9375in" height="2.311111111111111in"}
 
 ##### CSS
@@ -8419,3 +8697,13 @@ Hopefully at this point you feel comfortable with all the basics of CSS, but, as
 </ul>
 
 <h2>Last Updated: 9.21.2022 9:31pm</h2>
+<!--------
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image.png?raw=true"
+   width="###%"
+   alt="." />
+</p>
+--------->
