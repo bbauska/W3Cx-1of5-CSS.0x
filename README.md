@@ -242,17 +242,23 @@ Professional Certificate programs are series of courses designed by industry lea
    alt="Banner image for the FEWD professional certificate program." />
 </p>
 
-W3C has designed a [\"Front-End Web Developer\" (FEWD) Professional Certificate](https://www.edx.org/professional-certificate/w3cx-front-end-web-developer) where you will learn all of the necessary skills needed to build interactive and responsive user experiences on the Web. This program will deepen your knowledge of the 3 foundational languages that power the Web: HTML5, CSS and JavaScript. The W3C FEWD program is composed of 5 courses:
-
-1.  This course: CSS Basics (W3Cx-1of5-CSS Basics)
-
-2.  HTML5 and CSS Fundamentals (W3Cx-2of5-HTML5 and CSS3 Fundamentals)
-
-3.  HTML5 Coding Essentials and Best Practices (W3Cx-3of5-HTML5 Coding Essentials and Best Practices)
-
-4.  HTML5 Apps and Games (W3Cx-4of5-HTML5 Apps and Games)
-
-5.  JavaScript Introduction (W3Cx-5of5-JavaScript Introduction)
+<!------------------------------------------------------------------------------------------------>
+W3C has designed a <a href="https://www.edx.org/professional-certificate/w3cx-front-end-web-developer" target="_blank">"Front-End Web Developer" (FEWD) Professional
+Certificate</a> where you will learn all of the necessary skills needed to build interactive
+and responsive user experiences on the Web. This program will deepen
+your knowledge of the 3 foundational languages that power the Web:
+HTML5, CSS and JavaScript. The W3C FEWD program is composed of 5
+courses:
+<ol type="1">
+   <li><b>This course: <a href="https://github.com/bbauska/W3Cx-1of5-CSS.0x" target="_blank">CSS Basics</a> - introductory level</b>,<br/>&nbsp;</li>
+   <li><a href="https://github.com/bbauska/W3Cx-2of5-HTML5.0x" target="_blank">HTML5 and CSS Fundamentals</a> - introductory level,</b><br/>&nbsp;</li>
+   <li><a href="https://github.com/bbauska/W3Cx-3of5-HTML5.1x" target="_blank">HTML5 Coding Essentials and Best Practices</a> - intermediate level,<br/>&nbsp;</li>
+   <li><a href="https://github.com/bbauska/W3Cx-4of5-HTML5.2x" target="_blank">HTML5 Apps and Games</a> - advanced
+    level,<br/>&nbsp;</li>
+   <li><a href="https://github.com/bbauska/W3Cx-5of5-JS.0x" target="_blank">JavaScript Introduction</a> -
+    introductory level.</li>
+</ol>
+<!------------------------------------------------------------------------------------------------>
 
 To get a W3C FEWD professional certificate, you must successfully pass and receive a Verified Certificate in the five courses above. Note that the [dashboard link to Front-End Web Developer Program](https://courses.edx.org/dashboard/programs/98b7344e-cd44-4a99-9542-09dfdb11d31b/) displays upgrade links to all of the courses in the program AND offer the option to \"upgrade all remaining courses\" in bulk.
 
@@ -1140,7 +1146,7 @@ And then finally, at the end of the module, you get to write your first CSS styl
 
 5.  Finally, for your module project, you\'ll get a get a chance to build the CSS for an HTML page from scratch
 
-<h3 id="ch2-2-1">2.2.1 HTML to get you started</h3>
+<h3 id="ch2-2">2.2.1 HTML to get you started</h3>
 
 In this course, we\'re talking about CSS.
 
@@ -1193,9 +1199,9 @@ In this course, we\'re just talking about CSS, but if you\'re not familiar with 
 HTML (**H**yper **T**ext **M**arkup **L**anguage) documents are made up of content and tags. These tags describe the content so that the web browser understands the structure of the page. HTML tags typically come in pairs, an opening tag before and a closing tag after content like so:
 
 ```
-1.  <tagname>
-2.      My content
-3.  </tagname>
+<tagname>
+    My content
+</tagname>
 ```
 
 When these three pieces are combined (start tag, content, and end tag), you have what is called an HTML **element**. 
@@ -1203,20 +1209,20 @@ When these three pieces are combined (start tag, content, and end tag), you have
 Here is a sample HTML doc:
 
 ```
-1.  <!DOCTYPE html> <!-- Doctype declares the document to be HTML 5 type-->
-2.  <html lang="en"> <!--All your HTML content must be within this tag-->
-3.      <head> <!--Anything in the header provides information about the document, no content here-->
-4.          <meta charset="utf-8">
-5.          <title\>Page Title</title> <!--This text will show up on the tab of the browser for this page-->
-6.      </head> <!--end for the header section--\>
-7.      <body> <!--start tag for the body section, this is where to put all your content to be displayed-->
-8.          <h1>My First Heading</h1> <!--content in a h1 tag is a "heading" of the top level-->
-9.          <p>My first paragraph.</p> <!--content in a p tag is normal or "paragraph" level text-->
-10.     </body>
-11. </html>
+<!DOCTYPE html> <!-- Doctype declares the document to be HTML 5 type-->
+<html lang="en"> <!--All your HTML content must be within this tag-->
+   <head> <!--Anything in the header provides information about the document, no content here-->
+      <meta charset="utf-8">
+      <title\>Page Title</title> <!--This text will show up on the tab of the browser for this page-->
+   </head> <!--end for the header section--\>
+   <body> <!--start tag for the body section, this is where to put all your content to be displayed-->
+      <h1>My First Heading</h1> <!--content in a h1 tag is a "heading" of the top level-->
+      <p>My first paragraph.</p> <!--content in a p tag is normal or "paragraph" level text-->
+   </body>
+</html>
 ```
 
-*\*NOTE: In the code above, the red text contained within the \<!\-- and \--\> start and end sequences are comments. Each of them is explaining each tag.*
+*\*NOTE: In the code above, the text contained within the \<!\-- and \--\> start and end sequences are comments. Each of them is explaining each tag.*
 
 Tags can be nested inside of other tags. This creates a parent/child relationship between HTML elements and forms the overall structure of your HTML document into a tree. This structure has a big effect on your CSS as styles are typically inherited from parent to child. We will take a closer look at style inheritance later in this unit. 
 
@@ -1235,7 +1241,7 @@ There are other types of tags that are called \"self-closing\", meaning they don
 
 These types of tags rely on \"attributes\", these are added modifiers on the tag that have their own values. In the above example, we use the src attribute to set the source for the image.
 
-## 2.2.2 Common HTML tags
+<h3 id="ch2-2-2">2.2.2 Common HTML tags</h3>
 
 There are many HTML tags to choose from depending on what elements you want to structure on your page. You can always check what are the [current defined HTML tags](https://www.w3.org/TR/html52/).
 
@@ -1252,12 +1258,12 @@ You\'ll notice in the below code that we set the language to English (\<html lan
 It is important that you take care to use the lang attribute to indicate the actual language of text in your page because many CSS features will function differently, depending on what language is declared here.
 
 ```
-1.  \<!DOCTYPE html\>
-2.  \<html lang=\"en\"\>
-3.     \<body\>
-4.        \<p\> Hello World\</p\>
-5.     \</body\>
-6.  \</html\>
+<!DOCTYPE html>
+<html lang="en">
+   <body>
+      <p> Hello World</p>
+   </body>
+</html>
 ```
 
 ### \<head\>
@@ -1269,16 +1275,16 @@ This is the element that contains all the metadata for your site, such as your l
 Note that this is where you will also set the charset to \"utf-8\" (\<meta charset=\"utf-8\"\>). This shows that you saved the markup using the UTF-8 character encoding, which has many characters outside English, so it should be able to display characters not in the English alphabet.
 
 ```
-1.  \<!DOCTYPE html\>
-2.  \<html lang=\"en\"\>
-3.      \<head\>
-4.          \<meta charset=\"utf-8\"\>
-5.          \<title\>My First Page\</title\>
-6.      \</head\>
-7.      \<body\>
-8.          \<p\> Hello World\</p\>
-9.      \</body\>
-10. \</html\>
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>My First Page</title>
+   </head>
+   <body>
+      <p> Hello World</p>
+   </body>
+</html>
 ```
 
 ### \<body\>
@@ -1288,17 +1294,17 @@ Note that this is where you will also set the charset to \"utf-8\" (\<meta chars
 The section element that contains all the visible content for your site like your text, images, links etc. There should only be one body tag per document and it should come after the head tag.
 
 ```
-1.  \<!DOCTYPE html\>
-2.  \<html lang=\"en\"\>
-3.      \<head\>
-4.          \<meta charset=\"utf-8\"\>
-5.          \<title\>My First Page\</title\>
-6.          \<link rel=\"stylesheet\" href=\"styles.css\"\>
-7.      \</head\>
-8.      \<body\>
-9.          \<p\> Hello World\</p\>
-10.     \</body\>
-11. \</html\>
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>My First Page</title>
+      <link rel="stylesheet" href="styles.css">
+   </head>
+   <body>
+      <p> Hello World</p>
+   </body>
+</html>
 ```
 
 ### \<p\>
@@ -1308,9 +1314,9 @@ The section element that contains all the visible content for your site like you
 \"p\" stands for \"paragraph\" which is a block of text that is physically separated from adjacent blocks through blank lines. This is the most basic way to group text content.
 
 ```
-1.  \<p\>
-2.     This is my introductory paragraph to my Web page! This text will wrap around in a single block and then after the paragraph is done there will be a line of white space.
-3.  \</p\>
+<p>
+   This is my introductory paragraph to my Web page! This text will wrap around in a single block and then after the paragraph is done there will be a line of white space.
+</p>
 ```
 
 ### \<a\>
@@ -1319,7 +1325,9 @@ The section element that contains all the visible content for your site like you
 
 By surrounding text with an \<a\> tag you turn it into a hyperlink. You will want to use the \"href\" attribute to indicate to which target the link should take the user when clicked. The default style of the a tag is to turn the text blue and underlined, and then change the color to purple after you have clicked the link. You can adjust all these styles with CSS.
 
-1.  \<a href=\"https://www.microsoft.com\"\>Microsoft Main Page\</a\>
+```
+<a href="https://www.microsoft.com">Microsoft Main Page</a>
+```
 
 ### \<img /\>
 
@@ -1327,7 +1335,9 @@ By surrounding text with an \<a\> tag you turn it into a hyperlink. You will w
 
 This tag will insert an image based on the source you provide via the \"src\" attribute. If the source is inaccessible, you can also specify \"fall back\" options via the \"alt\" attribute. You will **always** want to specify the \"alt\" attribute with a short phrase describing the image. This text is what will be read aloud if your user is using a screen reader, or will be displayed if the user\'s browser will not load images. Note that this is an example of a \"self-closing\" tag meaning there is no closing tag, you just end the opening tag with a forward slash. 
 
-1.  \<img src=\"images/proPic.jpg\" alt=\"a headshot of the instructor\" /\>
+```
+<img src="images/proPic.jpg" alt="a headshot of the instructor" />
+```
 
 ### \<ul\> 
 
@@ -1336,11 +1346,11 @@ This tag will insert an image based on the source you provide via the \"src\" at
 The UL tag creates an \"**u**nordered **l**ist\" element, meaning a collection of elements in which the order is meaningless. This is a tag that sets the framework for you to add list elements inside it. You will want to add your elements within the ul tag each surrounded your content with **l**ist **i**tem or \"\<li\>\" tags like in the below example.
 
 ```
-1.  \<ul\>
-2.     \<li\>This is one element in the list\</li\>
-3.     \<li\>One of the elements\</li\>
-4.     \<li\>Another element\</li\>
-5.  *\</ul\>*
+<ul>
+   <li>This is one element in the list</li>
+   <li>One of the elements</li>
+   <li>Another element</li>
+*</ul>*
 ```
 
 ### \<ol\>
@@ -1350,11 +1360,11 @@ The UL tag creates an \"**u**nordered **l**ist\" element, meaning a collection 
 The OL tag works exactly like the UL tag, except that the list element order matters. OL stands for \"**o**rdered **l**ist\" and by default, the list element items are displayed with a number preceding them.
 
 ```
-1.  \<ol\>
-2.     \<li\>This is the first element\</li\>
-3.     \<li\>The second element\</li\>
-4.     \<li\>Finally, this is the third element\</li\>
-5.  \</ol\>
+<ol>
+   <li>This is the first element</li>
+   <li>The second element</li>
+   <li>Finally, this is the third element</li>
+</ol>
 ```
 
 ### \<br /\>
@@ -1364,11 +1374,11 @@ The OL tag works exactly like the UL tag, except that the list element order mat
 The br element is a self-closing tag that inserts a line break. This is most evident when placed in a block of text as it essentially represents a carriage return or hitting the \"enter\" key. 
 
 ```
-1.  \<p\>
-2.     this is my text.
-3.     \<br /\>
-4.     this text will appear on the next line down.
-5.  \</p\>
+<p>
+   this is my text.
+   <br />
+   this text will appear on the next line down.
+</p>
 ```
 
 ### \<header\>
@@ -1378,12 +1388,12 @@ The br element is a self-closing tag that inserts a line break. This is most evi
 The header tag is one of the section elements, it\'s role is to group other HTML elements according to their role on their page. The header element contains all the introductory content on the page typically a title and tagline or navigational elements. 
 
 ```
-1.  \<body\>
-2.     \<header\>
-3.        \<h1\> Welcome to my page!\</h1\>
-4.        \<h2\> My very first web page\</h2\>
-5.     \</header\>
-6.  \</body\>
+\<body\>
+   \<header\>
+      \<h1\> Welcome to my page!\</h1\>
+      \<h2\> My very first web page\</h2\>
+   \</header\>
+\</body\>
 ```
 
 ### \<section\>
@@ -1393,14 +1403,14 @@ The header tag is one of the section elements, it\'s role is to group other HTM
 Another sectioning element, the \"section\" tag is a general-purpose grouping element. It most often should include a header tag at the top. This typically will come after a header tag and before a footer tag.
 
 ```
-1.  \<body\>
-2.     \<header\>
-3.        \<h1\> My Page \</h1\>
-4.     \</header\>
-5.     \<section\>
-6.        \<h2\> My Blog \</h2\>
-7.     \</section\>
-8.  \</body\>
+\<body\>
+   \<header\>
+      \<h1\> My Page \</h1\>
+   \</header\>
+   \<section\>
+      \<h2\> My Blog \</h2\>
+   \</section\>
+\</body\>
 ```
 
 ### \<footer\>
@@ -1410,19 +1420,19 @@ Another sectioning element, the \"section\" tag is a general-purpose grouping el
 Another sectioning element, the \"footer\" tag is supposed to organize the final content on the page such as the credits or contact info. 
 
 ```
-1.  \<body\>
-2.     \<header\>
-3.        \<h1\>My Page\</h1\>
-4.     \</header\>
-5.     \<section\>
-6.        \<h2\>My Blog\</h2\>
-7.     \</section\>
-8.     \<footer\>
-9.        \<p\>
-10.          copyright 2016
-11.       \</p\>
-12.    \</footer\>
-13. \</body\>
+\<body\>
+   \<header\>
+      \<h1\>My Page\</h1\>
+   \</header\>
+   \<section\>
+      \<h2\>My Blog\</h2\>
+   \</section\>
+   \<footer\>
+      \<p\>
+         copyright 2016
+      \</p\>
+   \</footer\>
+\</body\>
 ```
 
 ### \<div\>
@@ -1432,11 +1442,11 @@ Another sectioning element, the \"footer\" tag is supposed to organize the final
 The div element is a generic element to hold content. It is considered a last resort, for when no other element is suitable but is often used to collect together large portions of a site that contain multiple different types of content. 
 
 ```
-1.  <div>
-2.     <h1> Title for Content </h1>
-3.     <img src="images/contentImage.jpg" />
-4.     <p> This is a paragraph explaining this section of content associated with the above image and title </p>
-5.  </div>
+<div>
+   <h1> Title for Content </h1>
+   <img src="images/contentImage.jpg" />
+   <p> This is a paragraph explaining this section of content associated with the above image and title </p>
+</div>
 ```
 
 <h3 id="ch2-2-3">2.2.3 Next steps - learn more HTML</h3>
@@ -1455,7 +1465,7 @@ Or of you are looking for more in-depth training, we suggest you check out one 
 
 -   [HTML5 Apps and Games](https://www.edx.org/course/html5-apps-and-games) (advanced level)
 
-## 2.2.4 Activity - Practice with HTML validator
+<h3 id="ch2-2-4">2.2.4 Activity - Practice with HTML validator</h3>
 
 HTML has been available to the public since 1991, but since then a lot has changed. One of the ways to make sure your HTML is well structured and up to date is to use the W3C HTML Validator. As you are developing your pages, it\'s a good idea to regularly check if your HTML is written according to W3C standards.
 
@@ -1496,7 +1506,7 @@ For this activity, please try out some of your favorite Web addresses in this va
 
 -   What HTML attribute does it use when it should use CSS instead?
 
-## 2.3.1 The anatomy of a CSS rule
+<h3 id="ch2-3-1">2.3.1 The anatomy of a CSS rule</h3>
 
 In this module, we\'re going to focus on building out your CSS toolbox.
 
@@ -1514,7 +1524,7 @@ the font, the color,... things like that and then we\'ll meet the selector, the 
 
 And then finally, at the end of the module, you get to write your first CSS style specifically for a given HTML Web site.
 
-## 2.1.2 Module 2 outline
+<h3 id="ch2-1-2">2.1.2 Module 2 outline</h3>
 
 ### In this module, we will:
 
@@ -1528,7 +1538,7 @@ And then finally, at the end of the module, you get to write your first CSS styl
 
 5.  Finally, for your module project, you\'ll get a get a chance to build the CSS for an HTML page from scratch
 
-## 2.2.1 HTML to get you started
+<h3 id="ch2-2-1">2.2.1 HTML to get you started</h3>
 
 In this course, we\'re talking about CSS.
 
@@ -1767,12 +1777,12 @@ The br element is a self-closing tag that inserts a line break. This is most evi
 The header tag is one of the section elements, it\'s role is to group other HTML elements according to their role on their page. The header element contains all the introductory content on the page typically a title and tagline or navigational elements. 
 
 ```
-1.  \<body\>
-2.     \<header\>
-3.        \<h1\> Welcome to my page!\</h1\>
-4.        \<h2\> My very first web page\</h2\>
-5.     \</header\>
-6.  \</body\>
+<body>
+   <header>
+      <h1> Welcome to my page!</h1>
+      <h2> My very first web page</h2>
+   </header>
+</body>
 ```
 
 ### \<section\>
@@ -1782,14 +1792,14 @@ The header tag is one of the section elements, it\'s role is to group other HTM
 Another sectioning element, the \"section\" tag is a general-purpose grouping element. It most often should include a header tag at the top. This typically will come after a header tag and before a footer tag.
 
 ```
-1.  \<body\>
-2.     \<header\>
-3.        \<h1\> My Page \</h1\>
-4.     \</header\>
-5.     \<section\>
-6.        \<h2\> My Blog \</h2\>
-7.     \</section\>
-8.  \</body\>
+<body>
+   <header>
+      <h1> My Page </h1>
+   </header>
+   <section>
+      <h2> My Blog </h2>
+   </section>
+</body>
 ```
 
 ### \<footer\>
@@ -1799,19 +1809,19 @@ Another sectioning element, the \"section\" tag is a general-purpose grouping el
 Another sectioning element, the \"footer\" tag is supposed to organize the final content on the page such as the credits or contact info. 
 
 ```
-1.  <body>
-2.     <header>
-3.        <h1>My Page</h1>
-4.     <header>
-5.     <section>
-6.        <h2>My Blog</h2>
-7.     </section>
-8.     <footer>
-9.        <p>
-10.          copyright 2016
-11.       </p>
-12.    </footer>
-13. </body>
+<body>
+   <header>
+      <h1>My Page</h1>
+   </header>
+   <section>
+      <h2>My Blog</h2>
+   </section>
+   <footer>
+      <p>
+         copyright 2016
+      </p>
+   </footer>
+</body>
 ```
 
 ### \<div\>
@@ -1820,17 +1830,15 @@ Another sectioning element, the \"footer\" tag is supposed to organize the final
 
 The div element is a generic element to hold content. It is considered a last resort, for when no other element is suitable but is often used to collect together large portions of a site that contain multiple different types of content. 
 
-1.  \<div\>
+```
+<div>
+   <h1> Title for Content </h1>
+      <img src="images/contentImage.jpg" />
+   <p> This is a paragraph explaining this section of content associated with the above image and title </p>
+</div\>
+```
 
-2.     \<h1\> Title for Content \</h1\>
-
-3.     \<img src=\"images/contentImage.jpg\" /\>
-
-4.     \<p\> This is a paragraph explaining this section of content associated with the above image and title \</p\>
-
-5.  \</div\>
-
-## 2.2.3 Next steps - learn more HTML
+<h3 id="ch2-2-3">2.2.3 Next steps - learn more HTML<h3>
 
 Note that, as this CSS Introduction course focuses on CSS, we will always provide you with the complete HTML for whatever content you will be asked to style. However, to become proficient in Web development, you are going to need a good handle on HTML. You can start by looking into some of these links:
 
