@@ -8696,7 +8696,7 @@ Hopefully at this point you feel comfortable with all the basics of CSS, but, as
 <li>JavaScript Introduction</li>
 </ul>
 
-<h2>Last Updated: 9.21.2022 9:31pm</h2>
+<h2>Last Updated: 9.24.2022 11:39am</h2>
 <!--------
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ xx.  image (xxx) ------------------------------->
