@@ -848,7 +848,7 @@ As you work in your own sites, you might want to use both of these features of y
 
 <h3 id="ch1-3-3">1.3.3 Activity - CSS Zen Garden critique</h3>
 
-Now that you've gotten a good idea of what CSS Zen Garden is, take a closer look. Please browse some of the designs, starting from \"[Garments](http://www.csszengarden.com/220/) (note that the link to \"all designs\" is now broken\...). Look through the different CSS Zen Garden designs for inspiration. Which is your favorite design? Pick one design and share your critiques with the discussion. 
+Now that you've gotten a good idea of what CSS Zen Garden is, take a closer look. Please browse some of the designs, starting from \"[Garments]\"(http://www.csszengarden.com/220/) (note that the link to \"all designs\" is now broken\...). Look through the different CSS Zen Garden designs for inspiration. Which is your favorite design? Pick one design and share your critiques with the discussion. 
 
 For your chosen design, please answer the following questions:
 
@@ -981,7 +981,7 @@ Here is the [code](https://codepen.io/techie4good/pen/oxQaVN) we wrote in this
 </html>
 ```
 
-<h4>\... and the CSS file (style.css) is below:</h4>
+<h4>... and the CSS file (style.css) is:</h4>
 
 ```
 p {
@@ -1051,7 +1051,7 @@ It\'s finally time to write your own CSS! Open your code editor of choice and sa
 Once you have your HTML document view it in a Web browser. It should look like this:
 
 <!------------------------------------------------------------------------------------------------>
-<!----------- 23. An image of Hello Beautiful World in a web browser with black text (xxx) ------->
+<!--------- 23. An image of Hello Beautiful World in a web browser with black text (36) ---------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image023.png?raw=true"
@@ -1077,7 +1077,9 @@ This won't change the look of your HTML until you link the two files with this H
 
 -   add the linking code to the HTML header (that means after the \<head\> tag and before the \</head\> tag). If your css is called \"styles.css\", here is what it would look like:
 
-> \<link rel=\"stylesheet\" href=\"styles.css\"\>
+```
+<link rel="stylesheet" href="styles.css">
+```
 
 Now change the HTML and CSS files so that it says "Hello \<your name\>, welcome to my first CSS Web page" in your favorite color! Here's what mine looks like:
 
