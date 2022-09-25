@@ -20,6 +20,61 @@
    alt="CSS Basics course visual." />
 </p>
 
+## [Table of Contents](#table-of-contents)
+
+## [**About W3C and the Web**](#cha)
+>### - [**About W3C and the Web**](#cha-1)
+>### - [**Why accessibility is important**](#cha-2)
+>### - [**Why internationalization is important**](#cha-3)
+
+## [**Course information**](#chb)
+>### * [**Welcome to "CSS Basics"**](#chb-1)
+>### * [**Course practical information**](#chb-2)
+>### * [**Course tools**](#chb-3)
+
+## [**Module 1: Getting started with CSS**](#ch1)
+>### - [**1.1 Introduction to Module 1**](#ch1-1)
+>### - [**1.2 What is CSS?**](#ch1-2)
+>### - [**1.3 Why CSS is important**](#ch1-3)
+>### - [**1.4 Project 1 - Your first CSS**](#ch1-4)
+>### - [**1.5 Conclusion and exercises**](#ch1-5)
+
+## [**Module 2: Building CSS rules**](#ch2)
+>### - [**2.1 Introduction to Module 2**](#ch2-1)
+>### - [**2.2 HTML review**](#ch2-2)
+>### - [**2.3 Building a CSS rule**](#ch2-3)
+>### - [**2.4 Attaching CSS to HTML using selectors**](#ch2-4)
+>### - [**2.5 Applying styles using CSS properties**](#ch2-5)
+>### - [**2.6 Style studies**](#ch2-6)
+>### - [**2.7 Project 2 - About me page**](#ch2-7)
+>### - [**2.8 Conclusion and exercises**](#ch2-8)
+
+## [**Module 3: Specific HTML element targeting with CSS selectors**](#ch3)
+>### - [**3.1 Introduction to Module 3**](#ch3-1)
+>### - [**3.2 Using HTML classes and IDs**](#ch3-2)
+>### - [**3.3 CSS pseudo-classes**](#ch3-3)
+>### - [**3.4 Combining selectors**](#ch3-4)
+>### - [**3.5 Style studies**](#ch3-5)
+>### - [**3.6 Project 3 - My profile**](#ch3-6)
+>### - [**3.7 Conclusion and exercise**](#ch3-7)
+
+## [**Module 4: Layout and positioning**](#ch4)
+>### - [**4.1 Introduction to Module 4**](#ch4-1)
+>### - [**4.2 The basics of layout**](#ch4-2)
+>### - [**4.3 Floating elements**](#ch4-3)
+>### - [**4.4 Relative positioning**](#ch4-4)
+>### - [**4.5 Style studies**](#ch4-5)
+>### - [**4.6 Project 4 - My resume**](#ch4-6)
+>### - [**4.7 Conclusion and exercises**](#ch4-7)
+
+## [**Module 5: Designing your Web site for your audience**](#ch5)
+>### - [**5.1 Introduction to Module 5**](#ch5-1)
+>### - [**5.2 The basics of design**](#ch5-2)
+>### - [**5.3 Designing for your audience**](#ch5-3)
+>### - [**5.4 Historical Web design trends**](#ch5-4)
+>### - [**5.5 Current Web design trends**](#ch5-5)
+>### - [**5.6 Conclusion and final exam**](#ch5-6)
+
 There are 3 methods;
 
 1\) HTML & CSS in the same file\
@@ -59,8 +114,7 @@ Html file: index.html \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--\
 \<p\>Peter is a good man\</p\>\
 \</body\>\
 \</html\>\
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--\
-CSS file: style.css \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--\
+CSS file: style.css
 p\
 {color:green;}
 
@@ -173,61 +227,6 @@ This course is designed for anyone, no prerequisites required.
 -   Best practices in Web design
 
 Have fun!
-
-## [Table of Contents](#table-of-contents)
-
-## [**About W3C and the Web**](#cha)
->### - [**About W3C and the Web**](#cha-1)
->### - [**Why accessibility is important**](#cha-2)
->### - [**Why internationalization is important**](#cha-3)
-
-## [**Course information**](#chb)
->### * [**Welcome to "CSS Basics"**](#chb-1)
->### * [**Course practical information**](#chb-2)
->### * [**Course tools**](#chb-3)
-
-## [**Module 1: Getting started with CSS**](#ch1)
->### - [**1.1 Introduction to Module 1**](#ch1-1)
->### - [**1.2 What is CSS?**](#ch1-2)
->### - [**1.3 Why CSS is important**](#ch1-3)
->### - [**1.4 Project 1 - Your first CSS**](#ch1-4)
->### - [**1.5 Conclusion and exercises**](#ch1-5)
-
-## [**Module 2: Building CSS rules**](#ch2)
->### - [**2.1 Introduction to Module 2**](#ch2-1)
->### - [**2.2 HTML review**](#ch2-2)
->### - [**2.3 Building a CSS rule**](#ch2-3)
->### - [**2.4 Attaching CSS to HTML using selectors**](#ch2-4)
->### - [**2.5 Applying styles using CSS properties**](#ch2-5)
->### - [**2.6 Style studies**](#ch2-6)
->### - [**2.7 Project 2 - About me page**](#ch2-7)
->### - [**2.8 Conclusion and exercises**](#ch2-8)
-
-## [**Module 3: Specific HTML element targeting with CSS selectors**](#ch3)
->### - [**3.1 Introduction to Module 3**](#ch3-1)
->### - [**3.2 Using HTML classes and IDs**](#ch3-2)
->### - [**3.3 CSS pseudo-classes**](#ch3-3)
->### - [**3.4 Combining selectors**](#ch3-4)
->### - [**3.5 Style studies**](#ch3-5)
->### - [**3.6 Project 3 - My profile**](#ch3-6)
->### - [**3.7 Conclusion and exercise**](#ch3-7)
-
-## [**Module 4: Layout and positioning**](#ch4)
->### - [**4.1 Introduction to Module 4**](#ch4-1)
->### - [**4.2 The basics of layout**](#ch4-2)
->### - [**4.3 Floating elements**](#ch4-3)
->### - [**4.4 Relative positioning**](#ch4-4)
->### - [**4.5 Style studies**](#ch4-5)
->### - [**4.6 Project 4 - My resume**](#ch4-6)
->### - [**4.7 Conclusion and exercises**](#ch4-7)
-
-## [**Module 5: Designing your Web site for your audience**](#ch5)
->### - [**5.1 Introduction to Module 5**](#ch5-1)
->### - [**5.2 The basics of design**](#ch5-2)
->### - [**5.3 Designing for your audience**](#ch5-3)
->### - [**5.4 Historical Web design trends**](#ch5-4)
->### - [**5.5 Current Web design trends**](#ch5-5)
->### - [**5.6 Conclusion and final exam**](#ch5-6)
 
 ## W3C \"Front-End Web Developer\" professional certificate
 
