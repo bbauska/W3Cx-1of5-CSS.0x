@@ -216,7 +216,7 @@ Have fun!
 >### - [**4.1 Introduction to Module 4**](#ch4-1)
 >### - [**4.2 The basics of layout**](#ch4-2)
 >### - [**4.3 Floating elements**](#ch4-3)
->### - [**4.4 Relative positioning**(#ch4-4)
+>### - [**4.4 Relative positioning**](#ch4-4)
 >### - [**4.5 Style studies**](#ch4-5)
 >### - [**4.6 Project 4 - My resume**](#ch4-6)
 >### - [**4.7 Conclusion and exercises**](#ch4-7)
@@ -279,7 +279,7 @@ One caveat, you need to make sure that whatever editor you choose will save to a
    alt="Visual studio code logo." />
 </p>
 
-For my demos, I will be using a software program called [Visual Studio Code](https://code.visualstudio.com/)[ (]{.underline}VS Code). You can download it for free, and for any operating system.
+For my demos, I will be using a software program called [Visual Studio Code](https://code.visualstudio.com/). You can download it for free, and for any operating system.
 
 VS Code supports a large array of different Web technologies, but for this course we will be using it to develop our HTML and CSS. It also includes a feature called *intellisense* which you might have used in other code editors. It will suggest code for you to use, highlight keywords and a lot of other cool features you\'ll see me use throughout the course.
 
@@ -292,7 +292,7 @@ VS Code supports a large array of different Web technologies, but for this cours
    alt="Codepen logo." />
 </p>
 
-In this course, we\'ll also use [[Codepen]{.underline}](https://www.codepen.io/).\
+In this course, we\'ll also use [[Codepen]](https://www.codepen.io/).\
 Codepen incorporates editors and a preview service into a single Web application. This is a great service to get you started quickly as it doesn\'t require you to download anything and you can access the service, along with your saved projects from any Web browser.
 
 Other than these two there are plenty of different programs you can use.
@@ -317,7 +317,7 @@ Here are a few possibilities for Web editors:
 
 ## W3C validators
 
-The W3C develops and hosts [[free]{.underline}** **and** **[open source]{.underline}** **tools](https://w3c.github.io/developers/) used every day by **millions of Web developers and Web designers**. All the tools listed below are Web-based, and are available as downloadable sources or as free services on the [W3C Developers tools ](https://w3c.github.io/developers/tools/)site.
+The W3C develops and hosts [[free]** **and** **[open source]** **tools](https://w3c.github.io/developers/) used every day by **millions of Web developers and Web designers**. All the tools listed below are Web-based, and are available as downloadable sources or as free services on the [W3C Developers tools ](https://w3c.github.io/developers/tools/)site.
 
 ### W3C Validator
 
@@ -1469,7 +1469,7 @@ Or of you are looking for more in-depth training, we suggest you check out one 
 
 -   [HTML5 & CSS Fundamentals](https://www.edx.org/course/html5-and-css-fundamentals)[ ]{.underline}(beginner level)
 
--   [HTML5 Coding Essentials and Best Practices](https://www.edx.org/course/html5-coding-essentials-and-best-practices)[ ]{.underline}(intermediate level)
+-   [HTML5 Coding Essentials and Best Practices](https://www.edx.org/course/html5-coding-essentials-and-best-practices)[ ](intermediate level)
 
 -   [HTML5 Apps and Games](https://www.edx.org/course/html5-apps-and-games) (advanced level)
 
@@ -2082,14 +2082,14 @@ This is the portion of the rule before the first open curly brace ( \"{\" charac
 This is the portion of the rule between the two curly braces. This is what tells the browser how to style the HTML tag that has been selected. This can be as many lines of code as you choose, each of which has two parts- the property and the value you want that property to be. For our example, \"color\" is the property and \"blue\" is the value, but we could also have had a value of \"black\" or \"#FFFFFF\" (which is HEX code for white). Each property line is constructed so:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 30. property anatomy (xxx) ------------------------------->
+<!------------------------------ 28. property anatomy (xxx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image030.png?raw=true"
-   width="###%"
+<img src="./images/image028.png?raw=true"
+   width="65%"
    alt="." />
 </p>
-![property anatomy](images/media/image2.png){width="6.5in" height="1.5333333333333334in"}
+<!--- ![property anatomy](images/media/image2.png){width="6.5in" height="1.5333333333333334in"} --->
 
 The style for your page will consist of a list of many CSS rules put together. As we move through this course we will help you build up these rules to style your entire page.
 
@@ -2124,14 +2124,14 @@ Now that you have a basic understanding of how to put the pieces of a CSS rule t
 Your goal is to get this HTML to look like the following image in the browser:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 30. codepen resulting image (activity 2.3) (xxx) ------------------------------->
+<!----------------------- 29. codepen resulting image (activity 2.3) (65) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
+<img src="./images/image029.png?raw=true"
    width="65%"
    alt="CodePen resulting image (Activity 2.3)." />
 </p>
-![CodePen resulting image (Activity 2.3)](images/media/image30.png){width="6.5in" height="1.707638888888889in"}
+<!--- ![CodePen resulting image (Activity 2.3)](images/media/image30.png){width="6.5in" height="1.707638888888889in"} --->
 
 To do so, you will need to write 4 CSS Rules. You will need to use the following 4 selectors:
 
@@ -2172,38 +2172,38 @@ In unit 2.2, we briefly mentioned the fact that properties apply to the entire h
 It is possible to independently target every HTML element on the page using selectors, but for this module we are going to stick to basics and only use selectors that match the HTML tag name. For example, here are some example selectors we\'ll use in this module:
 
 ```
-1.  a {
-2.   /* style for a tags */
-3.  }
+a {
+/* style for a tags */
+}
 ```
 
 This would affect the style of all link tags on the page.
 
 ```
-1.  p {
-2.   /* style for p tags */
-3.  }
+p {
+/* style for p tags */
+}
 ```
 
 This would affect the style of all paragraph tags on the page and the style of elements contained within the paragraph tag. 
 
 ```
-1.  body {
-2.   /* style for all elements in the body */
-3.  }
+body {
+/* style for all elements in the body */
+}
 ```
 
 This would apply style to the body tag as well as allow the elements inside the body tag to inherit certain styles applied here (check the [related CodePen online](https://codepen.io/techie4good/pen/pEzLrd)). 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 31.  image (xxx) ------------------------------->
+<!------------------------------ 30. (xx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image031.png?raw=true"
+<img src="./images/image030.png?raw=true"
    width="###%"
    alt="." />
 </p>
-![](images/media/image31.png){width="6.5in" height="2.0590277777777777in"}
+<!--- {width="6.5in" height="2.0590277777777777in"} --->
 
 ### HTML
 
@@ -2301,10 +2301,10 @@ Let\'s say we have an HTML document (see the corresponding [Code Pen](https://c
 This is basic structure from the way I have formatted the tags with tabbing, but here is a more visual representation of the hierarchy of tags. Tags that contain other tags are parents, and the tags inside of them are their children in the following tree representation:
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 32. html inheritance structure (xxx) ------------------------------>
+<!---------------------------- 31. html inheritance structure (70) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image032.png?raw=true"
+<img src="./images/image031.png?raw=true"
    width="40%"
    alt="HTML Inheritance Structure." />
 </p>
@@ -2334,12 +2334,12 @@ ul {
 Not every property is inherited, but many are. The CSS specification tell you, for each property, whether it is inheritable. It\'s a good idea to keep in mind the structure of your HTML document when choosing your selectors so you can use inheritance to your advantage by applying styles to the top most element and save yourself extra CSS code.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 33.  image (xxx) ------------------------------->
+<!------------------------------ 32. inheritance example image (71) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image033.png?raw=true"
+<img src="./images/image032.png?raw=true"
    width="70%"
-   alt="." />
+   alt="Example using inheritance." />
 </p>
 
 ### HTML
@@ -2402,16 +2402,16 @@ The comma means that each of these elements should have the same, duplicated sty
 Here is a [CodePen](https://codepen.io/w3devcampus/pen/PVJLEm) that explores using the comma to combine selectors.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!----------------------------- 33. comma to combine selectors (73) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
+<img src="./images/image033.png?raw=true"
+   width="70%"
    alt="." />
 </p>
-![](images/media/image34.png){width="6.9375in" height="2.2222222222222223in"}
+<!--- {width="6.9375in" height="2.2222222222222223in"} --->
 
-### CSS code:
+<h4>CSS code:</h4>
 
 ```
 body {
@@ -2461,7 +2461,7 @@ h3,ol {
 </html>
 ```
 
-## 2.4.4 Activity - Apply your own selectors
+<h3 id="ch2-4-4">2.4.4 Activity - Apply your own selectors</h3>
 
 Now it\'s your turn to practice with some selectors of your own. 
 
@@ -2532,14 +2532,14 @@ Note that there are HTML and some CSS rules, but the rules are missing their sel
 You will need to figure out which selectors belong on top of each of the 5 rules so that your final site looks exactly like this:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!---------------- 34. Final result after you apply your own selector image (76) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
-   alt="." />
+<img src="./images/image034.png?raw=true"
+   width="50%"
+   alt="Final result after you apply your own selector." />
 </p>
-![Final result after you apply your own selectors](images/media/image35.png){width="5.0in" height="3.0115102799650044in"}
+<!-- {width="5.0in" height="3.0115102799650044in"} -->
 
 **HINT**: Some of the rules require multiple comma separated selectors.
 
@@ -2552,49 +2552,49 @@ There is a huge array of different aspects you can style: color, font, size, spa
 Here are some examples of properties that each accept a different style of value:
 
 ```
-1.  body {
-2.      background-color: purple; /* key word */
-3.      color: #FFFFFF; /* HEX code */
-4.      width: 60%; /* percentage */
-5.      font-size: 20pt; /* numerical value */
-6.  }
+body {
+    background-color: purple; /* key word */
+    color: #FFFFFF; /* HEX code */
+    width: 60%; /* percentage */
+    font-size: 20pt; /* numerical value */
+}
 ```
 
 The above style is put into action in the [following CodePen](https://codepen.io/techie4good/pen/bwbLJP):
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------ 35. sample with different property values (77) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
+<img src="./images/image035.png?raw=true"
+   width="70%"
    alt="." />
 </p>
-![](images/media/image36.png){width="6.9375in" height="2.2020833333333334in"}
+<!--- (width="6.9375in" height="2.2020833333333334in"} --->
 
 Make sure to look up what the available values are before using a property, because if the browser doesn\'t understand your value it will typically just skip applying any style. This is where programs like Visual Studio Code come in handy because as you type out the property, the program will automatically suggest possible values.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------ 36. color options (77) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
+<img src="./images/image036.png?raw=true"
+   width="60%"
    alt="." />
 </p>
-![](images/media/image37.png){width="5.885416666666667in" height="3.15625in"}
+<!--- {width="5.885416666666667in" height="3.15625in"} --->
 
 Sometimes the easiest way to learn about different properties is to explore the style on one of your favorite Web sites. You can use your browser tool to inspect an HTML element. Here is an example of inspecting a title:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------ 37. dom explorer (78) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
+<img src="./images/image037.png?raw=true"
+   width="70%"
    alt="." />
 </p>
-![](images/media/image38.png){width="6.9375in" height="2.4409722222222223in"}
+<!--- {width="6.9375in" height="2.4409722222222223in"} --->
 
 If you are not sure how to do this, please refer to the demo in unit 1.3 to see this in action while inspecting CSS Zen Garden designs. 
 
@@ -2673,14 +2673,14 @@ You can see these color properties in action using all three approaches to setti
 ### Other resources:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------ 38. color palette (80) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
-   alt="." />
+<img src="./images/image038.png?raw=true"
+   width="25%"
+   alt="Color palette." />
 </p>
-![color palette](images/media/image39.jpeg){width="2.6041666666666665in" height="1.9791666666666667in"}
+<!--- ![color palette](images/media/image39.jpeg){width="2.6041666666666665in" height="1.9791666666666667in"} --->
 
 -   We will discuss how to pick a good color palette for your site in Module 5, but in the meantime, [here is a good wiki article from the W3C](https://www.w3.org/wiki/Colour_theory) discussing the general use of colors on the Web.
 
@@ -2695,9 +2695,7 @@ Font is an extremely important part of how you communicate content to your user.
 \[[*Documentation*](https://www.w3.org/TR/css-fonts-4/#font-family-prop)\]
 
 Since not all fonts are available on all computers (there are thousands of fonts, and most are not free), CSS provides a system of *fallbacks*. You list the font that you want first, then any fonts that might fill in for the first if it is unavailable, and you should end the list with a *generic font,* of which are: 
-
-```
-**[serif](https://www.w3.org/TR/css-fonts/#serif-def), [sans-serif](https://www.w3.org/TR/css-fonts/#sans-serif-def), [monospace](https://www.w3.org/TR/css-fonts/#monospace-def), [cursive](https://www.w3.org/TR/css-fonts/#cursive-def)** and **[fantasy](https://www.w3.org/TR/css-fonts/#fantasy-def). **
+**[serif](https://www.w3.org/TR/css-fonts/#serif-def), [sans-serif](https://www.w3.org/TR/css-fonts/#sans-serif-def), [monospace](https://www.w3.org/TR/css-fonts/#monospace-def), [cursive](https://www.w3.org/TR/css-fonts/#cursive-def)** and **[fantasy](https://www.w3.org/TR/css-fonts/#fantasy-def).**
 
 ```
 p {
@@ -2786,14 +2784,14 @@ Text-decoration adds a line across your text. You can set this line to be undern
 Here is a [CodePen exploring each of these styles](https://codepen.io/w3devcampus/pen/ExNExxq).
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------ 39.  (84) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
+<img src="./images/image039.png?raw=true"
+   width="70%"
    alt="." />
 </p>
-![](images/media/image40.png){width="6.9375in" height="1.9548611111111112in"}
+<!--- (width="6.9375in" height="1.9548611111111112in"} --->
 
 ### HTML code:
 
@@ -2860,14 +2858,14 @@ For now, we\'ll use pixels because that is easier to learn. However, ultimately 
 When you view an element in your browser tools you can see the white space around it represented like so:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------ 40. margin padding border (86) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
-   alt="." />
+<img src="./images/image040.png?raw=true"
+   width="40%"
+   alt="Margin padding border." />
 </p>
-![margin padding border](images/media/image41.png){width="4.239583333333333in" height="2.625in"}
+<!--- {width="4.239583333333333in" height="2.625in"} --->
 
 The above image is called the \"box model\", which we will get into more detail about in Module 4. For now, you can see that the space around the content is broken into three distinct regions. 
 
@@ -2916,14 +2914,14 @@ For example, the body tag typically has a margin that causes any content to not 
 Here is a [CodePen exploring padding, border and margin](https://codepen.io/techie4good/pen/vXBRJP).
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------ 41.  image (88) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
+<img src="./images/image041.png?raw=true"
+   width="70%"
    alt="." />
 </p>
-![](images/media/image42.png){width="6.9375in" height="2.1708333333333334in"}
+<!--- ![](images/media/image42.png){width="6.9375in" height="2.1708333333333334in"} --->
 
 ### CSS code:
 
@@ -2964,10 +2962,10 @@ Now that you have a few properties in your CSS toolbox, let\'s practice using th
 Here is some HTML and CSS, but as you can see the CSS rules have selectors but no properties. Check also the corresponding [Codepen](https://codepen.io/w3devcampus/pen/WNozNxK):
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 43.  (xx) ------------------------------->
+<!------------------------------ 42.  (89) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image043.png?raw=true"
+<img src="./images/image042.png?raw=true"
    width="70%"
    alt="." />
 </p>
@@ -3034,10 +3032,10 @@ Here is some HTML and CSS, but as you can see the CSS rules have selectors but n
 These CSS rules have selectors, but no properties. For this activity, it is up to you to add the correct properties and set their values appropriately to achieve this final style:
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 44.  (xx) ---------------------------->
+<!---------------------------- 43. adding properties (91) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image044.png?raw=true"
+<img src="./images/image043.png?raw=true"
    width="40%"
    alt="Final image of web site with proper CSS properties applied." />
 </p>
@@ -4346,21 +4344,21 @@ background-color: white;
 !DOCTYPE html>
 <!--It's a best practice to always declare DOCTYPE!-->
 <html lang="en">
-<head>
-<meta charset="utf-8">
-</head>
-<body>
-<div id="images1">
-<p>
-One thing that can make a website look cohesive is to choose images that match the design's existing color palette. Sometimes this can be difficult if you have a lot of content images with lots of colors, but whenever possible try to match images to the colors surrounding it.
-</p>
-<img src="https://www.w3.org/blog/wp-content/uploads/2021/03/group_calendar-768x627.png" alt="snapshot of the Dataset Exchange Working Group Calendar" />
-</div>
-</body>
+   <head>
+      <meta charset="utf-8">
+   </head>
+   <body>
+      <div id="images1">
+         <p>
+         One thing that can make a website look cohesive is to choose images that match the design's existing color palette. Sometimes this can be difficult if you have a lot of content images with lots of colors, but whenever possible try to match images to the colors surrounding it.
+         </p>
+         <img src="https://www.w3.org/blog/wp-content/uploads/2021/03/group_calendar-768x627.png" alt="snapshot of the Dataset    Exchange Working Group Calendar" />
+      </div>
+   </body>
 </html>
 ```
 
-### Images 2
+<h4>Images 2</h4>
 
 This design is an example of an image gallery design. This gives all the images the same size and alignment while including plenty of white space to help the page not look too overwhelming despite having multiple photos. 
 
@@ -4379,22 +4377,22 @@ This design is an example of an image gallery design. This gives all the images 
 <!DOCTYPE html>
 <!--It's a best practice to always declare DOCTYPE!-->
 <html lang="en">
-<head>
-<meta charset="utf-8">
-</head>
-<body>
-<div id="images2">
-<p>
-Here is a group of images in a grid, similar to how you would want to display them in a gallery. You can see how important it is to add proper white space around the images. In this case we have added padding, a border as well as margin to give the images a nice flow. There is also a good spacing between the images and the text.
-</p>
-<img src="https://www.w3.org/comm/assets/graphics/w3cx-accessibility-intro.jpg" alt="man and woman looking at a computer screen" />
-<img src="https://www.w3.org/WAI/content-images/wai-std-gl-overview/specs.png" alt="illustration showing the WAI guidelines for the different components, detailed description at https://www.w3.org/WAI/intro/components-desc.html#guide" />
-<img src="https://www.w3.org/WAI/images/WCAG21/small-1024x512@1x.png" alt="WCAG 2.1" />
-<img src="https://www.w3.org/International/questions/qa-indic-graphemes-data/jhilli_codepoints.png" alt="Code points that make up the Bengali word 'jhilli'." />
-<img src="https://www.w3.org/International/logos/mlw-notext-500-white.png" alt="logo of the W3C Internationalization Activity" />
-<img src="https://www.w3.org/TR/2020/WD-simple-ruby-20200609/img/fig06.svg" alt="Example of horizontal ruby" />
-</div>
-</body>
+   <head>
+      <meta charset="utf-8">
+   </head>
+   <body>
+      <div id="images2">
+		  <p>
+		  Here is a group of images in a grid, similar to how you would want to display them in a gallery. You can see how important it is to add proper white space around the images. In this case we have added padding, a border as well as margin to give the images a nice flow. There is also a good spacing between the images and the text.
+		  </p>
+		  <img src="https://www.w3.org/comm/assets/graphics/w3cx-accessibility-intro.jpg" alt="man and woman looking at a computer screen" />
+		  <img src="https://www.w3.org/WAI/content-images/wai-std-gl-overview/specs.png" alt="illustration showing the WAI guidelines for the different components, detailed description at https://www.w3.org/WAI/intro/components-desc.html#guide" />
+		  <img src="https://www.w3.org/WAI/images/WCAG21/small-1024x512@1x.png" alt="WCAG 2.1" />
+		  <img src="https://www.w3.org/International/questions/qa-indic-graphemes-data/jhilli_codepoints.png" alt="Code points that make up the Bengali word 'jhilli'." />
+		  <img src="https://www.w3.org/International/logos/mlw-notext-500-white.png" alt="logo of the W3C Internationalization Activity" />
+		  <img src="https://www.w3.org/TR/2020/WD-simple-ruby-20200609/img/fig06.svg" alt="Example of horizontal ruby" />
+      </div>
+   </body>
 </html>
 ```
    
@@ -4518,7 +4516,7 @@ Forms can be a surprisingly tricky element to style because you are asking for a
 {width="3.7604166666666665in" height="1.84375in"}
 ---------->
 
-HTML
+<h4>HTML</h4>
 
 ```
 <!DOCTYPE html>
@@ -4580,7 +4578,7 @@ The first form design uses basic layout to give each input element a clear label
 {width="5.0in" height="3.136142825896763in"}
 ----------->
 
-##### **HTML**
+<h4>HTML</h4>
 
 ```
 <!DOCTYPE html>
@@ -5128,7 +5126,7 @@ The Margin sits between The Border and the rest of the page.
 
 But be careful when two Margins meet the bigger one wins.
 
-## 4.1.4 The Box Model
+<h3>4.1.4 The Box Model</h3>
 
 ### The Box Model
 
