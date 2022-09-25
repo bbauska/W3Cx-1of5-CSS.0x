@@ -1114,6 +1114,8 @@ In next module, you will:
 
 -   Finally, for your module project, you\'ll get a get a chance to build the CSS for an HTML page from scratch
 
+<!-------------------------------- chapter 2-1-1 ------------------------------->
+
 <h3 id="ch2-1-1">2.1.1 Welcome to Module 2</h3>
 
 In this module, we\'re going to focus on building out your CSS toolbox.
@@ -1130,6 +1132,8 @@ The property is the part that helps control the look and feel: the font, the col
 
 And then finally, at the end of the module, you get to write your first CSS style specifically for a given HTML Web site.
 
+<!-------------------------------- chapter 2-1-2 ------------------------------->
+
 <h3 id="ch2-1-2">2.1.2 Module 2 outline</h3>
 
 ### In this module, we will:
@@ -1144,7 +1148,8 @@ And then finally, at the end of the module, you get to write your first CSS styl
 
 5.  Finally, for your module project, you\'ll get a get a chance to build the CSS for an HTML page from scratch
 
-<h3 id="ch2-2">2.2.1 HTML to get you started</h3>
+<!-------------------------------- chapter 2-2-2 ------------------------------->
+<h3 id="ch2-2-1">2.2.1 HTML to get you started</h3>
 
 In this course, we\'re talking about CSS.
 
@@ -1240,6 +1245,115 @@ There are other types of tags that are called \"self-closing\", meaning they don
 ```
 
 These types of tags rely on \"attributes\", these are added modifiers on the tag that have their own values. In the above example, we use the src attribute to set the source for the image.
+
+
+<!---------------------------- next ----------------------->
+
+
+
+<h3 id="ch2-2-1">2.2.1 HTML to get you started</h3>
+
+In this course, we\'re talking about CSS.
+
+But CSS is only one aspect of a Web page.
+
+And actually, you can\'t have CSS unless you have something to attach it to you.
+
+In this case, that\'s HTML. HTML stands for Hyper Text Markup Language, and really the key is that M for markup.
+
+What this means is that HTML is a way of tagging your existing content, so that the browser or screen readers or search engines know exactly what that content is.
+
+For example, you might want the browser to know, this is a title or this is the button or this is an image, that way it knows how to display it.
+
+But the problem is that HTML does a really bad job with style.
+
+That\'s where CSS comes in. Once you\'ve tagged all of your content as a specific type, you can use CSS to attach to that HTML.
+
+In this course, we\'re always going give you the HTML but let\'s take a look at some sample code, so you know what it\'s looks like.
+
+Here is just some basic text content.
+
+I\'ve got some titles and I\'ve got a couple paragraphs.
+
+I want the browser to know: this text is a little more important than the rest of the text, say a title, so that I can display it differently using my CSS.
+
+I\'m going to tell the browser this is the title by using something called the tag.
+
+It starts with an angle bracket and then it has a name, and then another angle bracket on the other side.
+
+And then, I put that in front of the content, and then I also have to add a closing tag at the end of the content.
+
+Here, I\'ve used the h1 tag for my title that stands for header 1. It means this is a very important title.
+
+I can also use the p, or paragraph tag, to tell the browser: this is a block of body text.
+
+Not only can use HTML to categorize existing text content, but you can use it to insert new elements into your page.
+
+Elements like images or videos, buttons, drop-downs, all of that can be inserted with special HTML tags.
+
+For example, here\'s the text so that you can add an image.
+
+Now that you\'ve seen what HTML looks like, it will make more sense when we start writing the CSS that corresponds to it.
+
+Because the HTML has to come first.
+
+In this course, we\'re just talking about CSS, but if you\'re not familiar with HTML I really encourage you to look online, and learn a bit more because a well-structured HTML document is going to make your CSS a lot nicer.
+
+### HTML 101
+
+HTML (**H**yper **T**ext **M**arkup **L**anguage) documents are made up of content and tags. These tags describe the content so that the web browser understands the structure of the page. HTML tags typically come in pairs, an opening tag before and a closing tag after content like so:
+
+```
+<tagname>
+    My content
+</tagname>
+```
+
+When these three pieces are combined (start tag, content, and end tag), you have what is called an HTML **element**. 
+
+Here is a \<!DOCTYPE html\> <!-- Doctype declares the document to be HTML 5 type-->
+
+```
+
+<html lang="en"> <!--All your HTML content must be within this tag-->
+    <head> <!--Anything in the header provides information about the document, no content here-->
+        <meta charset="utf-8">
+        <title>Page Title</title> <!--This text will show up on the tab of the browser for this page-->
+    </head> <!--end for the header section-->
+    <body> <!--start tag for the body section, this is where to put all your content to be displayed-->
+        <h1>My First Heading</h1> <!--content in a h1 tag is a "heading" of the top level-->
+        <p>My first paragraph.</p> <!--content in a p tag is normal or "paragraph" level text-->
+    </body>
+</html>
+```
+
+Sample HTML doc:
+
+*\*NOTE: In the code above, the red text contained within the \<!\-- and \--\> start and end sequences are comments. Each of them is explaining each tag.*
+
+Tags can be nested inside of other tags. This creates a parent/child relationship between HTML elements and forms the overall structure of your HTML document into a tree. This structure has a big affect on your CSS as styles are typically inherited from parent to child. We will take a closer look at style inheritance later in this unit. 
+
+<!------------------------------------------------------------------------------------------------>
+<!---------------------- 25. minimal structure of an html5 document (xxx) ------------------------>
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image025.png?raw=true"
+   width="40%"
+   alt="The minimum structure of an html5 document." />
+</p>
+<!---------
+{width="4.0in" height="2.7670942694663165in"}
+--------->
+
+There are other types of tags that are called \"self-closing\", meaning they don\'t come in an open/close pair. Typically self-closing tags insert content into your page as opposed to surround content. They look like this:
+
+```
+<img src="images/pic1.png" alt="pic1" />
+```
+
+These types of tags rely on \"attributes\", these are added modifiers on the tag that have their own values. In the above example, we use the src attribute to set the source for the image.
+
+<!--------------------------------------------------------------------->
 
 <h3 id="ch2-2-2">2.2.2 Common HTML tags</h3>
 
@@ -1449,6 +1563,8 @@ The div element is a generic element to hold content. It is considered a last re
 </div>
 ```
 
+<!-------------------------------- chapter 2-2-3 ------------------------------->
+
 <h3 id="ch2-2-3">2.2.3 Next steps - learn more HTML</h3>
 
 Note that, as this CSS Introduction course focuses on CSS, we will always provide you with the complete HTML for whatever content you will be asked to style. However, to become proficient in Web development, you are going to need a good handle on HTML. You can start by looking into some of these links:
@@ -1504,6 +1620,7 @@ For this activity, please try out some of your favorite Web addresses in this va
 
 -   What HTML attribute does it use when it should use CSS instead?
 
+<!-------------------------------- chapter 2-3-1 ------------------------------->
 <h3 id="ch2-3-1">2.3.1 The anatomy of a CSS rule</h3>
 
 In this module, we\'re going to focus on building out your CSS toolbox.
@@ -1522,524 +1639,12 @@ the font, the color,... things like that and then we\'ll meet the selector, the 
 
 And then finally, at the end of the module, you get to write your first CSS style specifically for a given HTML Web site.
 
-<h3 id="ch2-1-2">2.1.2 Module 2 outline</h3>
 
-### In this module, we will:
-
-1.  Review the basics of HTML
-
-2.  Introduce you to the anatomy of a CSS \"rule\"
-
-3.  Introduce you to the concept of a property and give you a set of properties to get started
-
-4.  Introduce you to selectors and how you can directly attach them to HTML tags
-
-5.  Finally, for your module project, you\'ll get a get a chance to build the CSS for an HTML page from scratch
-
-<h3 id="ch2-2-1">2.2.1 HTML to get you started</h3>
-
-In this course, we\'re talking about CSS.
-
-But CSS is only one aspect of a Web page.
-
-And actually, you can\'t have CSS unless you have something to attach it to you.
-
-In this case, that\'s HTML. HTML stands for Hyper Text Markup Language, and really the key is that M for markup.
-
-What this means is that HTML is a way of tagging your existing content, so that the browser or screen readers or search engines know exactly what that content is.
-
-For example, you might want the browser to know, this is a title or this is the button or this is an image, that way it knows how to display it.
-
-But the problem is that HTML does a really bad job with style.
-
-That\'s where CSS comes in. Once you\'ve tagged all of your content as a specific type, you can use CSS to attach to that HTML.
-
-In this course, we\'re always going give you the HTML but let\'s take a look at some sample code, so you know what it\'s looks like.
-
-Here is just some basic text content.
-
-I\'ve got some titles and I\'ve got a couple paragraphs.
-
-I want the browser to know: this text is a little more important than the rest of the text, say a title, so that I can display it differently using my CSS.
-
-I\'m going to tell the browser this is the title by using something called the tag.
-
-It starts with an angle bracket and then it has a name, and then another angle bracket on the other side.
-
-And then, I put that in front of the content, and then I also have to add a closing tag at the end of the content.
-
-Here, I\'ve used the h1 tag for my title that stands for header 1. It means this is a very important title.
-
-I can also use the p, or paragraph tag, to tell the browser: this is a block of body text.
-
-Not only can use HTML to categorize existing text content, but you can use it to insert new elements into your page.
-
-Elements like images or videos, buttons, drop-downs, all of that can be inserted with special HTML tags.
-
-For example, here\'s the text so that you can add an image.
-
-Now that you\'ve seen what HTML looks like, it will make more sense when we start writing the CSS that corresponds to it.
-
-Because the HTML has to come first.
-
-In this course, we\'re just talking about CSS, but if you\'re not familiar with HTML I really encourage you to look online, and learn a bit more because a well-structured HTML document is going to make your CSS a lot nicer.
-
-### HTML 101
-
-HTML (**H**yper **T**ext **M**arkup **L**anguage) documents are made up of content and tags. These tags describe the content so that the web browser understands the structure of the page. HTML tags typically come in pairs, an opening tag before and a closing tag after content like so:
-
-```
-<tagname>
-    My content
-</tagname>
-```
-
-When these three pieces are combined (start tag, content, and end tag), you have what is called an HTML **element**. 
-
-Here is a \<!DOCTYPE html\> <!-- Doctype declares the document to be HTML 5 type-->
-
-```
-
-<html lang="en"> <!--All your HTML content must be within this tag-->
-    <head> <!--Anything in the header provides information about the document, no content here-->
-        <meta charset="utf-8">
-        <title>Page Title</title> <!--This text will show up on the tab of the browser for this page-->
-    </head> <!--end for the header section-->
-    <body> <!--start tag for the body section, this is where to put all your content to be displayed-->
-        <h1>My First Heading</h1> <!--content in a h1 tag is a "heading" of the top level-->
-        <p>My first paragraph.</p> <!--content in a p tag is normal or "paragraph" level text-->
-    </body>
-</html>
-```
-
-Sample HTML doc:
-
-*\*NOTE: In the code above, the red text contained within the \<!\-- and \--\> start and end sequences are comments. Each of them is explaining each tag.*
-
-Tags can be nested inside of other tags. This creates a parent/child relationship between HTML elements and forms the overall structure of your HTML document into a tree. This structure has a big affect on your CSS as styles are typically inherited from parent to child. We will take a closer look at style inheritance later in this unit. 
-
-<!------------------------------------------------------------------------------------------------>
-<!---------------------- 25. minimal structure of an html5 document (xxx) ------------------------>
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image025.png?raw=true"
-   width="40%"
-   alt="The minimum structure of an html5 document." />
-</p>
-<!---------
-{width="4.0in" height="2.7670942694663165in"}
---------->
-
-There are other types of tags that are called \"self-closing\", meaning they don\'t come in an open/close pair. Typically self-closing tags insert content into your page as opposed to surround content. They look like this:
-
-```
-<img src="images/pic1.png" alt="pic1" />
-```
-
-These types of tags rely on \"attributes\", these are added modifiers on the tag that have their own values. In the above example, we use the src attribute to set the source for the image.
-
-<h3 id="ch2-2-2">2.2.2 Common HTML tags</h3>
-
-There are many HTML tags to choose from depending on what elements you want to structure on your page. You can always check what are the [current defined HTML tags](https://www.w3.org/TR/html52/).
-
-Here is a short list of some of the most common HTML tags, ones you\'ll see us use throughout this course.
-
-### \<html\>
-
-\[[*Documentation*](https://www.w3.org/TR/html52/semantics.html#the-html-element)\]
-
-The root element of a document is \<html\>, and this is the first tag you\'ll need in your document (after the DOCTYPE, of course!). All your other HTML tags should go inside this one, meaning all HTML documents should start with \<html\> at the top and end with \</html\> at the bottom.
-
-You\'ll notice in the below code that we set the language to English (\<html lang=\"en\"\>) . You can [set another language](https://www.w3.org/International/tutorials/language-decl/#Slide0140) of the text in your page using language attributes (see also [this resource](https://www.w3.org/International/questions/qa-html-language-declarations)).
-
-It is important that you take care to use the lang attribute to indicate the actual language of text in your page because many CSS features will function differently, depending on what language is declared here.
-
-```
-<!DOCTYPE html>
-<html lang="en">
-   <body>
-      <p> Hello World</p>
-   </body>
-</html>
-```
-
-### \<head\>
-
-\[[*Documentation*](https://www.w3.org/TR/html52/document-metadata.html#the-head-element)\]
-
-This is the element that contains all the metadata for your site, such as your link to your CSS, the page\'s title and links to other files. This should be the first tag in your document, and there should only be one per document.
-
-Note that this is where you will also set the charset to \"utf-8\" (\<meta charset=\"utf-8\"\>). This shows that you saved the markup using the UTF-8 character encoding, which has many characters outside English, so it should be able to display characters not in the English alphabet.
-
-```
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>My First Page</title>
-    </head>
-    <body>
-        <p> Hello World</p>
-    </body>
-</html>
-```
-
-### \<body\>
-
-\[[*Documentation*](https://www.w3.org/TR/html52/sections.html#the-body-element)\]
-
-The section element that contains all the visible content for your site like your text, images, links etc. There should only be one body tag per document and it should come after the head tag.
-
-```
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <title>My First Page</title>
-      <link rel="stylesheet" href="styles.css">
-   </head>
-   <body>
-      <p> Hello World</p>
-   </body>
-</html>
-```
-
-### \<p\>
-
-\[[*Documentation*](https://www.w3.org/TR/html52/grouping-content.html#the-p-element)\]
-
-\"p\" stands for \"paragraph\" which is a block of text that is physically separated from adjacent blocks through blank lines. This is the most basic way to group text content.
-
-```
-<p>
-   This is my introductory paragraph to my Web page! This text will wrap around in a single block and then after the paragraph is done there will be a line of white space.
-</p>
-```
-
-### \<a\>
-
-\[[*Documentation*](https://www.w3.org/TR/html52/textlevel-semantics.html#the-a-element)\]
-
-By surrounding text with an \<a\> tag you turn it into a hyperlink. You will want to use the \"href\" attribute to indicate to which target the link should take the user when clicked. The default style of the a tag is to turn the text blue and underlined, and then change the color to purple after you have clicked the link. You can adjust all these styles with CSS.
-
-```
-<a href="https://www.microsoft.com">Microsoft Main Page</a>
-```
-
-### \<img /\>
-
-\[[*Documentation*](https://www.w3.org/TR/html52/semantics-embedded-content.html#the-img-element)\]
-
-This tag will insert an image based on the source you provide via the \"src\" attribute. If the source is inaccessible, you can also specify \"fall back\" options via the \"alt\" attribute. You will **always** want to specify the \"alt\" attribute with a short phrase describing the image. This text is what will be read aloud if your user is using a screen reader, or will be displayed if the user\'s browser will not load images. Note that this is an example of a \"self-closing\" tag meaning there is no closing tag, you just end the opening tag with a forward slash. 
-
-```
-<img src="images/proPic.jpg" alt="a headshot of the instructor" />
-```
-
-### \<ul\> 
-
-\[[*Documentation*](https://www.w3.org/TR/html52/grouping-content.html#the-ul-element)\]
-
-The UL tag creates an \"**u**nordered **l**ist\" element, meaning a collection of elements in which the order is meaningless. This is a tag that sets the framework for you to add list elements inside it. You will want to add your elements within the ul tag each surrounded your content with **l**ist **i**tem or \"\<li\>\" tags like in the below example.
-
-```
-<ul>
-   <li>This is one element in the list</li>
-   <li>One of the elements</li>
-   <li>Another element</li>
-</ul>
-```
-
-### \<ol\>
-
-\[[*Documentation*](https://www.w3.org/TR/html52/grouping-content.html#the-ol-element)\]
-
-The OL tag works exactly like the UL tag, except that the list element order matters. OL stands for \"**o**rdered **l**ist\" and by default, the list element items are displayed with a number preceding them.
-
-```
-<ol>
-   <li>This is the first element</li>
-   <li>The second element</li>
-   <li>Finally, this is the third element</li>
-</ol>
-```
-
-### \<br /\>
-
-\[[*Documentation*](https://www.w3.org/TR/html52/textlevel-semantics.html#the-br-element)\]
-
-The br element is a self-closing tag that inserts a line break. This is most evident when placed in a block of text as it essentially represents a carriage return or hitting the \"enter\" key. 
-
-```
-<p>
-   this is my text.
-   <br />
-   this text will appear on the next line down.
-</p>
-```
-
-### \<header\>
-
-\[[*Documentation*](https://www.w3.org/TR/html52/sections.html#the-header-element)\]
-
-The header tag is one of the section elements, it\'s role is to group other HTML elements according to their role on their page. The header element contains all the introductory content on the page typically a title and tagline or navigational elements. 
-
-```
-<body>
-   <header>
-      <h1> Welcome to my page!</h1>
-      <h2> My very first web page</h2>
-   </header>
-</body>
-```
-
-### \<section\>
-
-\[[*Documentation*](https://www.w3.org/TR/html52/sections.html#the-section-element)\]
-
-Another sectioning element, the \"section\" tag is a general-purpose grouping element. It most often should include a header tag at the top. This typically will come after a header tag and before a footer tag.
-
-```
-<body>
-   <header>
-      <h1> My Page </h1>
-   </header>
-   <section>
-      <h2> My Blog </h2>
-   </section>
-</body>
-```
-
-### \<footer\>
-
-\[[*Documentation*](https://www.w3.org/TR/html52/sections.html#the-footer-element)\]
-
-Another sectioning element, the \"footer\" tag is supposed to organize the final content on the page such as the credits or contact info. 
-
-```
-<body>
-   <header>
-      <h1>My Page</h1>
-   </header>
-   <section>
-      <h2>My Blog</h2>
-   </section>
-   <footer>
-      <p>
-         copyright 2016
-      </p>
-   </footer>
-</body>
-```
-
-### \<div\>
-
-\[[*Documentation*](https://www.w3.org/TR/html52/grouping-content.html#the-div-element)\]
-
-The div element is a generic element to hold content. It is considered a last resort, for when no other element is suitable but is often used to collect together large portions of a site that contain multiple different types of content. 
-
-```
-<div>
-   <h1> Title for Content </h1>
-      <img src="images/contentImage.jpg" />
-   <p> This is a paragraph explaining this section of content associated with the above image and title </p>
-</div\>
-```
-
-<h3 id="ch2-2-3">2.2.3 Next steps - learn more HTML<h3>
-
-Note that, as this CSS Introduction course focuses on CSS, we will always provide you with the complete HTML for whatever content you will be asked to style. However, to become proficient in Web development, you are going to need a good handle on HTML. You can start by looking into some of these links:
-
--   [A quick introduction to HTML](https://www.w3.org/TR/html52/introduction.html#a-quick-introduction-to-html) (from W3C)
-
--   [Structuring the Web with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML) (from MDN)
-
-Or of you are looking for more in-depth training, we suggest you check out one of these other W3Cx courses to better understand how to structure your pages with HTML and more:
-
--   [HTML5 & CSS Fundamentals](https://www.edx.org/course/html5-and-css-fundamentals) (beginner level)
-
--   [HTML5 Coding Essentials and Best Practices](https://www.edx.org/course/html5-coding-essentials-and-best-practices) (intermediate level)
-
--   [HTML5 Apps and Games](https://www.edx.org/course/html5-apps-and-games) (advanced level)
-
-<h3 id="ch2-2-4">2.2.4 Activity - Practice with HTML validator</h3>
-
-HTML has been available to the public since 1991, but since then a lot has changed. One of the ways to make sure your HTML is well structured and up to date is to use the W3C HTML Validator. As you are developing your pages, it\'s a good idea to regularly check if your HTML is written according to W3C standards.
-
-You can find the validator here: <https://validator.w3.org/>
-
-You can pass any URL on the Web into the validator, and it will tell you how the HTML for that page stacks up against Web Standards. If you pass in https://www.w3.org (the W3C\'s homepage), you see the following:
-
-<!------------------------------------------------------------------------------------------------>
-<!------------------------- 26. html validator output for w3.org (xxx) --------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image026.png?raw=true"
-   width="60%"
-   alt="HTML validator output for w3.org." />
-</p>
-<!---------
-{width="6.135416666666667in" height="3.59375in"}
----------->
-
-If you start to try out other URLs, you might find this is a very rare result ;)\
-Try passing in your favorite Web address and see what comes up. For example, If you pass in https://www.microsoft.com/en-us/, you get 567 warnings and errors! 
-
-One of the more common errors is using an HTML tag that is considered obsolete. Often the error points you to this wiki page \"[Use CSS instead](https://wiki.whatwg.org/wiki/Presentational_elements_and_attributes)\".
-
-<!------------------------------------------------------------------------------------------------>
-<!--------------------------- 27. image of obsolete html error (xxx) ----------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image027.png?raw=true"
-   width="60%"
-   alt="Image of obsolete html error." />
-</p>
-<!-------
-{width="6.239583333333333in" height="0.9791666666666666in"}
--------->
-
-For this activity, please try out some of your favorite Web addresses in this validator and see what happens. Find a page that has one of these types of errors and answer the following questions in the discussion board:
-
--   What URL gave you errors?
-
--   How many warnings and errors does this site have?
-
--   What HTML attribute does it use when it should use CSS instead?
-
-<h3 id="ch2-3-1"2.3.1 The anatomy of a CSS rule</h3>
-
-Now that you have HTML, let\'s talk about how to build CSS rules that are attached to it.
-
-This is a CSS rule. As you can see, it\'s broken into two pieces.
-
-The property and the selector, and they\'re separated by these things called curly braces.
-
-The selector is the part that sits above the curly brace.
-
-It\'s the piece that tells the browser what HTML element to attach this style to.
-
-The property is the part inside the curly braces, and that\'s where you define the style of your HTML element.
-
-Things like fonts, colors, spacing, etc.
-
-Now that we know what a CSS rule looks like, let\'s take a look at different examples and how you can start building your own.
-
-Here\'s a basic HTML page I wrote.
-
-If we take a closer look by viewing source, we can see that it\'s actually only 3 HTML tags.
-
-A header one tag, which is this text right here; an image tag; and a paragraph tag, that holds this text down here.
-
-But it\'s got a lot more style than we\'ve seen before.
-
-Let\'s take a closer look at this h1 tag. If I click here, you\'ll see the style that\'s attached to it over here in this panel.
-
-See how the selector h1 matches the tag h1.
-
-That\'s why I\'m telling the style: I wanted to apply this text.
-
-I can add a background color \-- color or some sizing some space around it, and I even get some extra style that I added to the body tag, to this tag, because then it applies to all of my other tags.
-
-This is the code in Visual Studio Code.
-
-Here is my full HTML file and here\'s my full CSS style. You can start to see the pattern of CSS rules.
-
-A selector followed by an open curly brace, there\'s a closed curly brace and then a bunch of stuff in the middle.
-
-The stuff in the middle is the properties. For example, the body tag right now, has a background color property set and it set to the value of this nice seafoam green color. It\'s also got a text align property with a value center, a font family property with the value Arial, so on and so forth.
-
-Now, let\'s write our first CSS tag... but we got to have some HTML to attach it to.
-
-Let\'s add an h2 tag. After I welcome them to my Web site, I\'m going to tell them
-
-how glad I am there. I\'m going to save this HTML and see how it looks without any style. As you can see, it\'s already in the center and it\'s already got the right font, because, if I inspect it, it\'s already inheriting Arial and the text align center from the body.
-
-But, if I go back to Visual Studio, I can add some more specific style.
-
-Let\'s add it right here under h1, and we\'re going to follow that pattern.
-
-I\'m going to hit Enter, so it comes after the closing curly brace. I\'m going to add the selector, which is h2, because I want the style to apply to h2. I\'m going to open curly brace and then Visual Studio will automatically add a closing curly brace for me.
-
-I\'ll hit Enter so I have some space, and now let\'s change the color of the text. How about I want to make this the opposite of the h1 tag. See how when I hit color and hit space, Visual Studio Code shows me all the colors that I have already used. Which is perfect, because yeah I think I want this to be the same color as the h1 background color.
-
-I\'m going to hit a semicolon after the value, and I\'m going to save it, and now my text is that color.
-
-But it looks really harsh on that seafoam green.
-
-So, let\'s add a background color.
-
-I can add as many properties within the CSS rule as I want.
-
-They just all have to be between the curly braces so that it knows to apply them to the h2 tag.
-
-I\'m going to hit Enter. I\'m going to add background color as a new property, give me some quotation marks, but I don\'t need them, and then I hit Enter again and it\'s going to give me the selection of colors.
-
-I\'m going to make this the light color for this background.
-
-I\'m going to hit Enter, it gives me a little preview of the color, I\'m going to hit a semicolon.
-
-Now, I have a new rule that follows the same pattern as before.
-
-Selector, open curly brace, property, value, semicolon, repeat until you hit a closing curly brace. Hit Save.
-
-Let\'s see how it looks. Much better!
-
-[Here\'s the code from the video in a Code Pen for you to play around with](https://codepen.io/techie4good/pen/JXwWvr)
-
-The HTML code is shown below:
-
-```
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <title>My HTML page</title>
-      <link rel="stylesheet" href="style.css">
-   </head>
-   <body>
-      <h1> Welcome to my first CSS Website</h1>
-      <h2> I'm glad you're here</h2>
-      <img src="designer.png" alt="designer"/>
-      <p>
-      	This is my first site using CSS, or Cascading Style Sheets. I'm still learning and I have a long way to go, 
-		but doesn't it still look nice?
-		It's amazing what a difference just some colors and fonts can make!
-      </p>
-   </body>
-</html>
-```
-
-<h4>And the attached CSS file (style.css):</h4>
-
-```
-body {
-   background-color: #83AF9B;
-   text-align: center;
-   font-family: Arial;
-   padding: 0;
-   margin: 0;
-}
-h1 {
-   background-color: #FE4365;
-   color: #F9CDAD;
-   font-size: 8em;
-   padding: 50px;
-}
-h2 {
-   color: #FE4365;
-   background-color: #F9CDAD;
-}
-img {
-   height: 250px;
-}
-p {
-   background-color: #FC9D9A;
-   color: white;
-   padding: 50px;
-   font-size: 2em;
-}
-```
+<!---------------------------------------------------------------------->
+<!---------------------------------------------------------------------->
+<!---------------------------------------------------------------------->
+<!---------------------------------------------------------------------->
+<!---------------------------------------------------------------------->
 
 <h3 id="ch2-3-2">2.3.2 Constructing your CSS rules</h3>
 
