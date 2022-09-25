@@ -2200,12 +2200,12 @@ This would apply style to the body tag as well as allow the elements inside the 
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image030.png?raw=true"
-   width="###%"
+   width="65%"
    alt="." />
 </p>
 <!--- {width="6.5in" height="2.0590277777777777in"} --->
 
-### HTML
+<h4>HTML</h4>
 
 ```
 <html lang="en">
@@ -2342,7 +2342,7 @@ Not every property is inherited, but many are. The CSS specification tell you, f
    alt="Example using inheritance." />
 </p>
 
-### HTML
+<h4>HTML</h4>
 
 ```
 <html lang="en">
@@ -2367,7 +2367,7 @@ Not every property is inherited, but many are. The CSS specification tell you, f
 </html>
 ```
 
-### CSS
+<h4>CSS</h4>
 
 ```
 body {
@@ -2384,17 +2384,17 @@ color: green;
 }
 ```
 
-## 2.4.3 Combining multiple selectors
+<h3 id="ch2-4-3">2.4.3 Combining multiple selectors</h3>
 
 You can imagine that multiple HTML elements on your page will have similar style. If you write a separate CSS rule with the same properties for each of these elements, your CSS file can get very large and hard to manage. When designing CSS, the authors wanted to help make it as easy as possible to write and edit style sheets \"by hand\", so there are a number of features that help keep your styles succinct.
 
 For example, what if you want to change the font that is consistent across many elements? You would have to change it in many places. Instead, you can combine multiple selectors on the same rule like so:
 
 ```
-1.  p, ul, ol {
-2.     color: blue;
-3.     background-color: pink;
-4.  }
+p, ul, ol {
+   color: blue;
+   background-color: pink;
+}
 ```
 
 The comma means that each of these elements should have the same, duplicated style. No need to have repeated style! Of course, you could simply apply this style to an element that contains all of these, say the body element, but not all properties are inherited so using the comma is a direct way to apply consistent style across multiple categories of HTML elements.
@@ -2407,7 +2407,7 @@ Here is a [CodePen](https://codepen.io/w3devcampus/pen/PVJLEm) that explores u
 <p align="center" width="100%">
 <img src="./images/image033.png?raw=true"
    width="70%"
-   alt="." />
+   alt="Example using comma to combine selector." />
 </p>
 <!--- {width="6.9375in" height="2.2222222222222223in"} --->
 
@@ -2467,7 +2467,7 @@ Now it\'s your turn to practice with some selectors of your own. 
 
 Let\'s say you have the following [CodePen](http://codepen.io/w3devcampus/pen/RoKLKE/):
 
-### HTML code:
+<h4>HTML code:</h4>
 
 ```
 <!DOCTYPE html>
@@ -2506,7 +2506,7 @@ In unit 2.2, we briefly mentioned the fact that properties apply to the entire h
 </html>
 ```
 
-### CSS code:
+<h4>CSS code:</h4>
 
 ```
 /*selector here*/  {
@@ -2568,7 +2568,7 @@ The above style is put into action in the [following CodePen](https://codepen.i
 <p align="center" width="100%">
 <img src="./images/image035.png?raw=true"
    width="70%"
-   alt="." />
+   alt="Examples of properties that each accept a different style of value." />
 </p>
 <!--- (width="6.9375in" height="2.2020833333333334in"} --->
 
@@ -2580,7 +2580,7 @@ Make sure to look up what the available values are before using a property, beca
 <p align="center" width="100%">
 <img src="./images/image036.png?raw=true"
    width="60%"
-   alt="." />
+   alt="Color options." />
 </p>
 <!--- {width="5.885416666666667in" height="3.15625in"} --->
 
@@ -2592,7 +2592,7 @@ Sometimes the easiest way to learn about different properties is to explore the 
 <p align="center" width="100%">
 <img src="./images/image037.png?raw=true"
    width="70%"
-   alt="." />
+   alt="Browser tool to inspect an HTML element." />
 </p>
 <!--- {width="6.9375in" height="2.4409722222222223in"} --->
 
@@ -2784,12 +2784,12 @@ Text-decoration adds a line across your text. You can set this line to be undern
 Here is a [CodePen exploring each of these styles](https://codepen.io/w3devcampus/pen/ExNExxq).
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 39.  (84) ------------------------------->
+<!------------------------------ 39. text-decoratoin example (84) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image039.png?raw=true"
    width="70%"
-   alt="." />
+   alt="Example using text-decoration." />
 </p>
 <!--- (width="6.9375in" height="1.9548611111111112in"} --->
 
@@ -2858,7 +2858,7 @@ For now, we\'ll use pixels because that is easier to learn. However, ultimately 
 When you view an element in your browser tools you can see the white space around it represented like so:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 40. margin padding border (86) ------------------------------->
+<!------------------------------- 40. margin padding border (86) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image040.png?raw=true"
@@ -2914,16 +2914,16 @@ For example, the body tag typically has a margin that causes any content to not 
 Here is a [CodePen exploring padding, border and margin](https://codepen.io/techie4good/pen/vXBRJP).
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 41.  image (88) ------------------------------->
+<!---------------------- 41. Example using padding, border and margin (88) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image041.png?raw=true"
    width="70%"
-   alt="." />
+   alt="Example using padding, border and margin." />
 </p>
 <!--- ![](images/media/image42.png){width="6.9375in" height="2.1708333333333334in"} --->
 
-### CSS code:
+<h4>CSS code:</h4>
 
 ```
 body {
@@ -2962,15 +2962,15 @@ Now that you have a few properties in your CSS toolbox, let\'s practice using th
 Here is some HTML and CSS, but as you can see the CSS rules have selectors but no properties. Check also the corresponding [Codepen](https://codepen.io/w3devcampus/pen/WNozNxK):
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 42.  (89) ------------------------------->
+<!--------------------- 42. Example using selectors but no properties (88) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image042.png?raw=true"
    width="70%"
-   alt="." />
+   alt="Example using selectors but no properties." />
 </p>
 
-### HTML code:
+<h4>HTML code:</h4>
 
 ```
 1.  <!DOCTYPE html>
@@ -3032,7 +3032,7 @@ Here is some HTML and CSS, but as you can see the CSS rules have selectors but n
 These CSS rules have selectors, but no properties. For this activity, it is up to you to add the correct properties and set their values appropriately to achieve this final style:
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 43. adding properties (91) ---------------------------->
+<!---------------------------------- 43. adding properties (91) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image043.png?raw=true"
@@ -3088,12 +3088,12 @@ There are different aspects of text you can alter to make it stand out. 
 However, you should only alter a few of these following aspects at a time to prevent your titles from being too distracting. The below is an example of using too many different aspects of font for emphasis:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 45.  (xx) ------------------------------->
+<!----------- 44. example using too many different aspects of font for emphasis (93) ------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image045.png?raw=true"
+<img src="./images/image044.png?raw=true"
    width="70%"
-   alt="." />
+   alt="Example using too many different aspects of font for emphasis." />
 </p>
 
 ### CSS code:
@@ -3116,15 +3116,15 @@ However, you should only alter a few of these following aspects at a time to pre
 This title uses soft clean colors based on print media, so we chose a serif font. We also increased the size and color to help the title appear more prominent than the body text. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 46.  (xx) ------------------------------->
+<!--------------------------- 45. example using soft clean colors (94) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image046.png?raw=true"
+<img src="./images/image045.png?raw=true"
    width="70%"
-   alt="." />
+   alt="Example using solft clean colors and make title more prominent in size." />
 </p>
 
-### CSS code:
+<h4>CSS code:</h4>
 
 ```
 1.  #design1 {
@@ -3151,15 +3151,15 @@ This title uses soft clean colors based on print media, so we chose a serif font
 This design is intended to look futuristic, so it only uses sans-serif, thin font with high contrast colors.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 47.  (xx) ------------------------------->
+<!----------------------------- 46. example looking futuristic (95) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image047.png?raw=true"
+<img src="./images/image046.png?raw=true"
    width="70%"
-   alt="." />
+   alt="Futuristic example." />
 </p>
 
-### CSS code:
+<h4>CSS code:</h4>
 
 ```
 #design2 {
@@ -3184,15 +3184,15 @@ This design is intended to look futuristic, so it only uses sans-serif, thin fon
 This design is based on pastel primary colors and uses color as a highlight against the default white background. We have achieved the separation between title and body text by setting its background color separately and giving it a bottom border. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 48.  (xx) ------------------------------->
+<!-------------------------------- 48. example using pastel (96) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image048.png?raw=true"
    width="70%"
-   alt="." />
+   alt="Pastel example." />
 </p>
 
-### CSS code:
+<h4>CSS code:</h4>
 
 ```
 #design3 {
@@ -3227,12 +3227,12 @@ Typically your user will expect your button to be wider than it is tall, to acco
 Here is an example of a button where it\'s not immediately clear that it is actually a button (\"click here\"). 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 49.  (xx) ------------------------------->
+<!----------------------------------- 48. button example (97) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image049.png?raw=true"
+<img src="./images/image048.png?raw=true"
    width="70%"
-   alt="." />
+   alt="Button semi-hidden in plain sight." />
 </p>
 
 More examples of buttons are described below.
@@ -3242,12 +3242,12 @@ More examples of buttons are described below.
 This design is a pretty traditional button where it has a distinct background-color and border-color to help it stand out from both the background and the body text.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 50.  (xx) ------------------------------->
+<!--------------------------------- 49. traditional button (97) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image050.png?raw=true"
+<img src="./images/image049.png?raw=true"
    width="70%"
-   alt="." />
+   alt="Traditional button." />
 </p>
 <!------------
 {width="6.9375in" height="1.9083333333333334in"}
@@ -3276,15 +3276,15 @@ This design is a pretty traditional button where it has a distinct background-co
 This is a more modern button design where there is no distinct border, but just a flat color background. You\'ll note the poor accessibility of the text and button (for example, no sufficient contrast between foreground and background - find out more in these [tips for designing](https://www.w3.org/WAI/tips/designing/)).
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 51.  (xx) ------------------------------->
+<!------------------------------------ 50. modern button (98) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image051.png?raw=true"
+<img src="./images/image050.png?raw=true"
    width="70%"
-   alt="." />
+   alt="Modern button." />
 </p>
 
-### CSS Code:
+<h4>CSS Code:</h4>
 
 ```
 #design2 {
@@ -3307,12 +3307,12 @@ This is a more modern button design where there is no distinct border, but just 
 This is a big graphic button that uses border-radius to give the button rounded corners.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 52.  (xx) ------------------------------->
+<!----------------------- 51. big graphic button using border-radius (99) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image052.png?raw=true"
+<img src="./images/image051.png?raw=true"
    width="70%"
-   alt="." />
+   alt="Big graphic button using border-radius." />
 </p>
 
 <h4>CSS code:</h4>
@@ -3394,11 +3394,11 @@ And in addition, you must employ the following styles:
 For example, here is what my page looks like:
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 53.  (xx) ---------------------------->
+<!---------------------------- 52. Example image module 2 project (101) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image053.png?raw=true"
-   width="40%"
+<img src="./images/image052.png?raw=true"
+   width="70%"
    alt="Codepen resulting image (Module 2 project)." />
 </p>
 <!----------
@@ -3409,7 +3409,7 @@ Note that you are welcome to look up other styles and apply them however you lik
 
 Remember that if you want to post an assignment without personal information of yours in, feel free to change the content of the assignment to anything you like, so long as you incorporate the required code features. For example, you could instead create a profile page for an imagined character, or a brief biography of someone you admire.
 
-## Module 2 learnings
+<h3>Module 2 learnings</h3>
 
 ### After this module you should be able to\...
 
@@ -3437,7 +3437,7 @@ At this point, we\'ve seen basic selectors, but we\'re starting to have a slight
 
 We're going to need a lot more tools than just the HTML tag name.
 
-So, in this module, we\'re going to talk about classes and IDs, pseudo-classes, contextual selectors, and then how you combine all these selectors together and understand the Cascading part of Cascading style sheets.
+In this module, we\'re going to talk about classes and IDs, pseudo-classes, contextual selectors, and then how you combine all these selectors together and understand the Cascading part of Cascading style sheets.
 
 <h3 id="ch3-1-2">3.1.2 Module 3 outline</h3>
 
@@ -3578,12 +3578,12 @@ ID names have the same rules as class names: start with a letter, can include nu
 ### Example
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 54.  (xx) ---------------------------->
+<!------------------------------- 53. classes and id example (106) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image054.png?raw=true"
+<img src="./images/image053.png?raw=true"
    width="40%"
-   alt="." />
+   alt="Classes and id example." />
 </p>
 <!----------
 {width="6.9375in" height="2.609027777777778in"}
@@ -3620,7 +3620,7 @@ ID names have the same rules as class names: start with a letter, can include nu
 </html>
 ```
 
-### CSS code:
+<h4>CSS code:</h4>
 
 ```
 #intro {
@@ -3668,26 +3668,26 @@ p,h2 {
 As you can note, it\'s not too interesting because not all of the styles are applied to the HTML as shown in the pen below:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 55.  image (xxx) ------------------------------->
+<!---------------------------- 54. more class and id examples (109) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image055.png?raw=true"
+<img src="./images/image054.png?raw=true"
    width="70%"
-   alt="." />
+   alt="More examples of class and id." />
 </p>
-![](images/media/image55.png){width="6.9375in" height="2.609027777777778in"}
+<!--- ![](images/media/image55.png){width="6.9375in" height="2.609027777777778in"} --->
 
 In this activity, your job is to add the HTML id and class attributes to the correct elements so that you get a final result that looks like this:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 56.  image (xxx) ------------------------------->
+<!--------------------------------- 55. welcome to my page (110) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image056.png?raw=true"
+<img src="./images/image055.png?raw=true"
    width="70%"
-   alt="." />
+   alt="Third example using class and id." />
 </p>
-![](images/media/image56.png){width="6.9375in" height="6.547916666666667in"}
+<!--- ![](images/media/image56.png){width="6.9375in" height="6.547916666666667in"} --->
 
 <h3 id="ch3-3-1">3.3.1 CSS pseudo-classes</h3>
 
@@ -3752,12 +3752,12 @@ You can read more about pseudo-classes in this [MDN \"Pseudo-classes\"](https:/
 ### Example
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 57. (xx) ------------------------------->
+<!---------------------------------- 56. pseudo-classes (112) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image057.png?raw=true"
+<img src="./images/image056.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Pseudo-classes example." />
 </p>
 <!-----------
 {width="6.9375in" height="3.0243055555555554in"}
@@ -3836,12 +3836,12 @@ Please add pseudo-classes to the existing rules so that:
 The resulting output should look like this when the user has not interacted with the page in any way:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 58. (xx) ------------------------------->
+<!---------------------------- 57. resulting my page in green (116) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image058.png?raw=true"
-   width="50%"
-   alt="Diagram pointing out which img tags will be styled." />
+<img src="./images/image057.png?raw=true"
+   width="70%"
+   alt="Resulting 'my page' in green." />
 </p>
 <!-------------
 {width="6.9375in" height="4.472222222222222in"}
@@ -3891,10 +3891,10 @@ width: 100px;
 Below is a diagram of the given HTML with the two imgs that will be styled by the above rule are indicated by the red arrows. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 59. (xx) ------------------------------->
+<!------------------- 58. diagram pointing out which img tags will be styled(xx) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image059.png?raw=true"
+<img src="./images/image058.png?raw=true"
    width="50%"
    alt="Diagram pointing out which img tags will be styled." />
 </p>
@@ -3907,10 +3907,10 @@ As your web pages get more complex, contextual selectors become more important, 
 Pay attention to the styles of the paragraphs and lists in the following example:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 60. (xx) ------------------------------->
+<!------------------------------ 59. (xx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image060.png?raw=true"
+<img src="./images/image059.png?raw=true"
    width="50%"
    alt="Contextual selectors result part 1." />
 </p>
@@ -3923,10 +3923,10 @@ Pay attention to the styles of the paragraphs and lists in the following example
 For practice, we are going to learn how to better scope CSS without the crutch of classes and IDs. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 61. (xx) ------------------------------->
+<!------------------------------ 60. (xx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image061.png?raw=true"
+<img src="./images/image060.png?raw=true"
    width="50%"
    alt="Contextual selectors result part 1." />
 </p>
