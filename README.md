@@ -658,7 +658,7 @@ h1 {
    text-align: center;
 }
 p {
-   font-family: \"Times New Roman\";
+   font-family: "Times New Roman";
    font-size: 20px;
  }
 ```
@@ -989,13 +989,13 @@ Here is the [code](https://codepen.io/techie4good/pen/oxQaVN) we wrote in this
 </html>
 ```
 
-\... and the CSS file (style.css) is below:
+<h4>\... and the CSS file (style.css) is below:</h4>
 
 ```
-      p {
-        color: blue;
-        font-family:Helvetica;
-      }
+p {
+  color: blue;
+  font-family:Helvetica;
+}
 ```
 
 \... and here is the \"output\":
@@ -1998,26 +1998,27 @@ Let\'s see how it looks. Much better!
 The HTML code is shown below:
 
 ```
-1.  <!DOCTYPE html>
-2.  <html lang="en">
-3.      <head>
-4.          <meta charset="utf-8">
-5.          <title>My HTML page</title>
-6.          <link rel="stylesheet" href="style.css">
-7.      </head>
-8.      <body>
-9.          <h1> Welcome to my first CSS Website</h1>
-10.         <h2> I'm glad you're here</h2>
-11.         <img src="designer.png" alt="designer"/>
-12.         <p>
-13.             This is my first site using CSS, or Cascading Style Sheets. I'm still learning and I have a long way to go, but doesn't it still look nice?
-14. It's amazing what a difference just some colors and fonts can make!
-15.         </p>
-16.     </body>
-17. </html>
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>My HTML page</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <h1> Welcome to my first CSS Website</h1>
+      <h2> I'm glad you're here</h2>
+      <img src="designer.png" alt="designer"/>
+      <p>
+      	This is my first site using CSS, or Cascading Style Sheets. I'm still learning and I have a long way to go, 
+		but doesn't it still look nice?
+		It's amazing what a difference just some colors and fonts can make!
+      </p>
+   </body>
+</html>
 ```
 
-And the attached CSS file (style.css):
+<h4>And the attached CSS file (style.css):</h4>
 
 ```
 body {
@@ -2097,25 +2098,25 @@ The style for your page will consist of a list of many CSS rules put together. A
 Now that you have a basic understanding of how to put the pieces of a CSS rule together, let\'s do some practice. Here is some HTML for a page you will style:
 
 ```
-1.  \<!DOCTYPE html\>
-2.  \<html lang=\"en\"\>
-3.     \<head\>
-4.        \<meta charset=\"utf-8\"\>
-5.        \<title\>My HTML page\</title\>
-6.        \<link rel=\"stylesheet\" href=\"style.css\"\>
-7.     \</head\>
-8.     \<body\>
-9.        \<h1\>My H1 header\</h1\>
-10.       \<p\> This is a block of text to represent a paragraph that you will want to style. This might be an explanation of the list that follows, it is all contained within a single paragraph tag.
-11.       \</p\>
-12.       \<ul\>
-13.          \<li\>This is list item 1\</li\>
-14.          \<li\>Item 2 in the list\</li\>
-15.          \<li\>The third item in the list\</li\>
-16.          \<li\>Item 4 completes the list\</li\>
-17.       \</ul\>
-18.    \</body\>
-19. \</html\>
+1.  <!DOCTYPE html>
+2.  <html lang="en">
+3.     <head>
+4.        <meta charset="utf-8">
+5.        <title>My HTML page</title>
+6.        <link rel="stylesheet" href="style.css">
+7.     </head>
+8.     <body>
+9.        <h1>My H1 header</h1>
+10.       <p> This is a block of text to represent a paragraph that you will want to style. This might be an explanation of the list that follows, it is all contained within a single paragraph tag.
+11.       </p>
+12.       <ul>
+13.          <li>This is list item 1</li>
+14.          <li>Item 2 in the list</li>
+15.          <li>The third item in the list</li>
+16.          <li>Item 4 completes the list</li>
+17.       </ul>
+18.    </body>
+19. </html>
 ```
 
 [HTML in Code Pen](https://codepen.io/w3devcampus/pen/zovzwE)
@@ -2172,7 +2173,7 @@ It is possible to independently target every HTML element on the page using sele
 
 ```
 1.  a {
-2.   /\* style for a tags \*/
+2.   /* style for a tags */
 3.  }
 ```
 
@@ -2180,7 +2181,7 @@ This would affect the style of all link tags on the page.
 
 ```
 1.  p {
-2.   /\* style for p tags \*/
+2.   /* style for p tags */
 3.  }
 ```
 
@@ -2317,7 +2318,7 @@ Then, we applied different styles at different levels of the tree so that the \"
 
 ```
 body {
-   font-family: \"Century Gothic\", sans-serif;
+   font-family: "Century Gothic", sans-serif;
 }
 header {
    font-style: italic;
@@ -2355,7 +2356,7 @@ Not every property is inherited, but many are. The CSS specification tell you, f
 <h2> sub title </h2>
 </header>
 <section>
-<p> This is my paragraph text \</p\>
+<p> This is my paragraph text </p>
 <ul>
 <li> list item 1 </li>
 <li> list item 2 </li>
@@ -2369,18 +2370,18 @@ Not every property is inherited, but many are. The CSS specification tell you, f
 ### CSS
 
 ```
-> body {
-> font-family: \"Century Gothic\", sans-serif;
-> }
-> header {
-> font-style: italic;
-> }
-> section {
-> text-decoration: underline;
-> }
-> ul {
-> color: green;
-> }
+body {
+font-family: "Century Gothic", sans-serif;
+}
+header {
+font-style: italic;
+}
+section {
+text-decoration: underline;
+}
+ul {
+color: green;
+}
 ```
 
 ## 2.4.3 Combining multiple selectors
@@ -2413,28 +2414,28 @@ Here is a [CodePen](https://codepen.io/w3devcampus/pen/PVJLEm) that explores u
 ### CSS code:
 
 ```
-> body {
->     color: #660099;
-> }
->  
-> h1,h2,h3 {
->     font-family: Impact, sans-serif;
-> }
->  
-> ul,ol {
->     font-family: helvetica, sans-serif;
-> }
->  
-> h2,ul {
->     font-style: italic;
-> }
->  
-> h3,ol {
->     text-decoration: underline;
-> }
+body {
+    color: #660099;
+}
+ 
+h1,h2,h3 {
+    font-family: Impact, sans-serif;
+}
+ 
+ul,ol {
+    font-family: helvetica, sans-serif;
+}
+ 
+h2,ul {
+    font-style: italic;
+}
+ 
+h3,ol {
+    text-decoration: underline;
+}
 ```
 
-### HTML
+<h4>HTML</h4>
 
 ```
 <html lang="en">
@@ -2448,7 +2449,7 @@ Here is a [CodePen](https://codepen.io/w3devcampus/pen/PVJLEm) that explores u
       <ul>
          <li>Part of the reason a well structured HTML document is so important</li>
          <li>is because HTML elements inherit stylistic properties</li>
-         <li>You can see it\'s basic structure from the way I have formatted the tags with tabbing</li>
+         <li>You can see it's basic structure from the way I have formatted the tags with tabbing</li>
       </ul>
       <h3>Title 3</h3>
       <ol>
@@ -2542,7 +2543,7 @@ You will need to figure out which selectors belong on top of each of the 5 rules
 
 **HINT**: Some of the rules require multiple comma separated selectors.
 
-## 2.5.1 What is a property?
+<h3 id="ch2-5-1">2.5.1 What is a property?</h3>
 
 In unit 2.3, we briefly introduced you to \"properties\", the part of the CSS rule that tells the browser how to style specific aspects of the selected HTML element.
 
@@ -2552,10 +2553,10 @@ Here are some examples of properties that each accept a different style of value
 
 ```
 1.  body {
-2.      background-color: purple; /\* key word \*/
-3.      color: #FFFFFF; /\* HEX code \*/
-4.      width: 60%; /\* percentage \*/
-5.      font-size: 20pt; /\* numerical value \*/
+2.      background-color: purple; /* key word */
+3.      color: #FFFFFF; /* HEX code */
+4.      width: 60%; /* percentage */
+5.      font-size: 20pt; /* numerical value */
 6.  }
 ```
 
@@ -2651,7 +2652,7 @@ You can also specify colors using rgb in decimal form like so:
 
 ```
 body {
-   background-color: rgb(0,204,0); /\*same green as above\*/
+   background-color: rgb(0,204,0); /*same green as above*/
 }
 ```
 
@@ -5306,7 +5307,7 @@ You may have noticed that the text-align property sets the content\'s alignment 
 {width="5.0in" height="2.5355358705161857in"}
 ------------->
 
-##### HTML
+<h4>HTML</h4>
 
 ```
 <!DOCTYPE html>
@@ -5328,7 +5329,7 @@ You may have noticed that the text-align property sets the content\'s alignment 
 </html>
 ```
 
-##### CSS
+<h4>CSS</h4>
 
 ```
 h1 {
@@ -5367,11 +5368,11 @@ Also, note that CSS will in the future provide better support for justification 
 
 Once you finish this course, look out for these and other international features of CSS as you explore its features further.
 
-## 4.2.2 Element width and height
+<h3 id="ch4-2-2">4.2.2 Element width and height</h3>
 
 Until now we\'ve let the browser decide how big the element is, but you can actually adjust its width and height manually.
 
-### width and height
+<h4>width and height</h4>
 
 \[*Documentation*: [the width property](https://www.w3.org/TR/CSS22/visudet.html#the-width-property) and [the height property](https://www.w3.org/TR/CSS22/visudet.html#the-height-property)\]
 
@@ -5406,13 +5407,15 @@ img {
 <!------------------------------ xx.  image (xxx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
+<img src="./images/image082.png?raw=true"
+   width="50%"
    alt="." />
 </p>
-![](images/media/image82.png){width="5.0in" height="2.5355358705161857in"}
+<!-------
+{width="5.0in" height="2.5355358705161857in"}
+-------->
 
-##### HTML
+<h4>HTML</h4>
 
 ```
 <!DOCTYPE html>
@@ -5444,7 +5447,7 @@ this height is also set to 25%, and since it's within a div containing block who
 </html>
 ```
 
-##### CSS
+<h4>CSS</h4>
 
 ```
 #width50 {
@@ -5474,7 +5477,7 @@ When you view the above example, the paragraphs will dynamically resize based on
 
 You will note that the elements have resized accordingly, but have hit the limits of their min and max constraints. This is why using percentages for width and height are so important, it helps you write code that works for all screen sizes.
 
-## 4.2.3 Padding and margin
+<h3 id="ch4-2-3">4.2.3 Padding and margin</h3>
 
 Whenever possible, it is ideal to position your elements by adjusting their padding and margins. Sometimes this isn\'t enough to get the element exactly where you\'d like it to be, so to achieve this we\'ll learn more tools later in this module. Regardless, you\'ll almost always want some padding and margin around your element so it\'s best to adjust these before progressing onto more complicated positioning methods.
 
@@ -5500,16 +5503,18 @@ img {
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------ 83.  image (xxx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
+<img src="./images/image083.png?raw=true"
+   width="50%"
    alt="." />
 </p>
-![](images/media/image83.png){width="5.0in" height="2.5355358705161857in"}
+<!------
+{width="5.0in" height="2.5355358705161857in"}
+------->
 
-### HTML
+<h4>HTML</h4>
 
 ```
 <!DOCTYPE html>
@@ -5534,7 +5539,7 @@ img {
 </html>
 ```
 
-### CSS
+<h4>CSS</h4>
 
 ```
 h1 {
@@ -5571,9 +5576,11 @@ Here is what the above code looks like in a wide window:
 <p align="center" width="100%">
 <img src="./images/image084.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Centered elements with margin wide example." />
 </p>
-![centered elements with margin wide example](images/media/image84.png){width="5.0in" height="0.7362357830271216in"}
+<!------
+{width="5.0in" height="0.7362357830271216in"}
+-------->
 
 Now, if you resize the window, the elements remain centered no matter what. Here is the above code in a narrow window:
 
@@ -5581,12 +5588,11 @@ Now, if you resize the window, the elements remain centered no matter what. Here
 <!------------------------------ 85.  image (xxx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
+<img src="./images/image085.png?raw=true"
    width="30%"
    alt="Dynamically centered element narrow example." />
 </p>
 <!-------
-![dynamically centered elements narrow example](images/media/image85.png)
 {width="3.125in" height="2.216666666666667in"}
 -------->
 
@@ -5608,11 +5614,13 @@ For this activity, you are going to practice some of the basic alignment propert
    width="50%"
    alt="." />
 </p>
-![](images/media/image86.png){width="5.0in" height="1.7497944006999124in"}
+<!-------
+{width="5.0in" height="1.7497944006999124in"}
+-------->
 
 ### Here is some HTML and CSS:
 
-### HTML
+<h4>HTML</h4>
 
 ```
 <!DOCTYPE html>
@@ -5647,8 +5655,9 @@ thank you and please visit again soon!
 </html>
 ```
 
-##### **CSS**
+<h4>CSS</h4>
 
+```
 body {
 font-family: Tahoma;
 }
@@ -5696,9 +5705,11 @@ The resulted HTML and CSS codes produce a Web page where elements are not very w
    width="50%"
    alt="Practice with alignment after picture." />
 </p>
-![Practice with alignment after picture](images/media/image87.png){width="6.9375in" height="3.9625in"}
+<!---------
+{width="6.9375in" height="3.9625in"}
+---------->
 
-### To do this you will need to:
+<h4>To do this you will need to:</h4>
 
 -   remove the margin at the very edges of the page so the header and footer touch the edges of the page.
 
@@ -5757,7 +5768,9 @@ Elements underneath a floating object will automatically wrap themselves around 
    width="55%"
    alt="Example of floating img and surrounding text." />
 </p>
-![example of floating img and surrounding text](images/media/image88.png){width="5.533333333333333in" height="3.5083333333333333in"}
+<!---------
+{width="5.533333333333333in" height="3.5083333333333333in"}
+---------->
 
 You\'ll often want to set the width of a floating object so that you have tighter control over the space that object occupies. Remember that, by default, block HTML elements occupy the entire width of the page, even if there isn\'t actual content that extends that far. In this case, you\'ll want to set the width so that your element\'s size more accurately represents its content and you don\'t have unnecessary white space. 
 
@@ -5781,7 +5794,9 @@ p {
    width="70%"
    alt="." />
 </p>
-![](images/media/image89.png){width="6.9375in" height="2.845833333333333in"}
+<!---------
+{width="6.9375in" height="2.845833333333333in"}
+--------->
 
 ```
 <!DOCTYPE html>
@@ -5864,9 +5879,11 @@ One of the toughest parts of layouts with CSS is figuring out which elements to 
    width="50%"
    alt="." />
 </p>
-![](images/media/image90.png){width="5.0in" height="3.5855894575678042in"}
+<!-------
+{width="5.0in" height="3.5855894575678042in"}
+-------->
 
-##### HTML
+<h4>HTML</h4>
 
 ```
 <!DOCTYPE html>
@@ -5956,7 +5973,9 @@ You might also need to adjust some widths, margins and paddings to get everythin
    width="50%"
    alt="." />
 </p>
-![](images/media/image91.png){width="5.0in" height="2.5605610236220473in"}
+<!-------
+{width="5.0in" height="2.5605610236220473in"}
+-------->
 
 **HINT**: Pay close attention to the IDs applied to the HTML elements
 
@@ -6238,12 +6257,14 @@ Here is [some HTML and CSS:](https://codepen.io/techie4good/pen/KgwRwg)
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image094.png?raw=true"
-   width="###%"
+   width="50%"
    alt="." />
 </p>
-![](images/media/image94.png){width="5.0in" height="3.1431430446194226in"}
+<!------
+{width="5.0in" height="3.1431430446194226in"}
+------->
 
-##### CSS
+<h4>CSS</h4>
 
 ```
 body {
@@ -6271,18 +6292,20 @@ width: 90%;
 Your task is to add CSS so that you achieve this final layout:\
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 95. relative positioning activity output (xxx) ------------------------------->
+<!----------------------- 95. relative positioning activity output (xx) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image095.png?raw=true"
    width="70%"
    alt="Relative positioning activity output." />
 </p>
-![Relative positioning activity output](images/media/image95.png){width="6.9375in" height="1.7673611111111112in"}
+<!--------
+{width="6.9375in" height="1.7673611111111112in"}
+--------->
 
 You can do this with padding and margins, but limit yourself to only add position, top and left properties. Try resizing your browser window, and if you\'ve implemented everything correctly all the elements will stay in the same position relative to one another. 
 
-##### CSS
+<h4>CSS</h4>
 
 ```
 body {
@@ -6327,30 +6350,34 @@ One of the most important aspects of any Web site is the navigation menu. Over 
 -   A special style indicating the link for the page you are currently on
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------ 95.  image (xxx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
+<img src="./images/image095.png?raw=true"
+   width="50%"
    alt="." />
 </p>
-![](images/media/image96.png){width="5.0in" height="2.6156157042869643in"}
+<!-------
+(width="5.0in" height="2.6156157042869643in"}
+-------->
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 97.  image (xxx) ------------------------------->
+<!------------------------------ 96. footing image (xxx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
+<img src="./images/image096.png?raw=true"
+   width="50%"
    alt="." />
 </p>
-![](images/media/image97.png){width="5.0in" height="1.183183508311461in"}
+<!---------
+{width="5.0in" height="1.183183508311461in"}
+---------->
 
-### Menu 1
+<h4>Menu 1</h4>
 
 This is a very basic menu design. It floats the list elements to the left and gives them each a simple hover property (underline) and a new background color for the link representing the page you are currently viewing.
 
-##### CSS
+<h4>CSS</h4>
 
 ```
 div {
@@ -6387,21 +6414,23 @@ color: #0E0B16;
 }
 ```
 
-### Menu 2
+<h4>Menu 2</h4>
 
 This menu design uses a vertical arrangement but still floats the overall menu object so it can sit level with your content. You can also see a tabbed format here where the page you are currently viewing directly connects to the menu item representing it. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 98.  image (xxx) ------------------------------->
+<!------------------------------ 98.  (xxx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image098.png?raw=true"
    width="70%"
    alt="." />
 </p>
-![](images/media/image98.png){width="6.9375in" height="2.548611111111111in"}
+<!--------
+{width="6.9375in" height="2.548611111111111in"}
+--------->
 
-##### CSS
+<h4>CSS</h4>
 
 ```
 div {
@@ -6459,7 +6488,7 @@ padding: 30px;
 }
 ```
 
-##### HTML
+<h4>HTML</h4>
 
 ```
 <!DOCTYPE html>
@@ -6492,14 +6521,16 @@ padding: 30px;
 This third design employs hover as a way to expose secondary links. This lets you leave the top level clean and simple but gives the user the power of more specific options when they interact with your header.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------ 99.  (xxx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
+<img src="./images/image099.png?raw=true"
+   width="70%"
    alt="." />
 </p>
-![](images/media/image99.png){width="6.9375in" height="2.55625in"}
+<!-------
+{width="6.9375in" height="2.55625in"}
+-------->
 
 <h4>CSS</h4>
 
@@ -6591,14 +6622,16 @@ The footer of your page is typically the last thing your user will see, so it\'s
 You will want your footer to flow with your overall page design, but to be distinct from your content.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------ 100.  image (xxx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
+<img src="./images/image100.png?raw=true"
+   width="70%"
    alt="." />
 </p>
-![](images/media/image100.png){width="6.9375in" height="3.5479166666666666in"}
+<!-------
+{width="6.9375in" height="3.5479166666666666in"}
+-------->
 
 <h4>CSS</h4>
 
@@ -6756,21 +6789,23 @@ Please <a href="#">contact us</a> if you have any questions
 </html>
 ```
 
-##### Footer 1
+<h4>Footer 1</h4>
 
 This is a basic footer that uses background color to help it stand out from the rest of the content. It contains contact links and a subtle reference to the designer of the page.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!----------------------- 101. basic footing with background color (xxx) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
-   alt="." />
+<img src="./images/image101.png?raw=true"
+   width="70%"
+   alt="Basic Footing with Background Color." />
 </p>
-![](images/media/image101.png){width="6.9375in" height="1.2013888888888888in"}
+<!---------
+{width="6.9375in" height="1.2013888888888888in"}
+---------->
 
-##### CSS
+<h4>CSS</h4>
 
 ```
 div {
@@ -6804,7 +6839,7 @@ color: #F4F4F4;
 }
 ```
 
-##### HTML
+<h4>HTML</h4>
 
 ```
 <!DOCTYPE html>
@@ -6932,7 +6967,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 This final design flows with the overall structure of the page, but limits the content to a single simple contact link.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!--------------------------- 103. kasey champion resume example (xxx) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image.png?raw=true"
@@ -6941,7 +6976,7 @@ This final design flows with the overall structure of the page, but limits the c
 </p>
 ![](images/media/image103.png){width="6.9375in" height="2.311111111111111in"}
 
-##### CSS
+<h4>CSS</h4>
 
 ```
 div {
@@ -6977,45 +7012,30 @@ color: #F4DECB;
 }
 ```
 
-##### HTML
+<h4>HTML</h4>
 
 ```
 <!DOCTYPE html>
 <!--It's a best practice to always declare DOCTYPE!-->
-
 <html lang="en">
-
 <head>
-
 <title>Style studies: footer 3</title>
-
 <meta charset="utf-8">
-
 </head>
-
 <body>
-
 <div id="footer3">
-
 <section>
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
 </section>
-
 <footer>
-
 Please <a href="#">contact us</a> if you have any questions
-
 </footer>
-
 </div>
-
 </body>
-
 </html>
+```
 
-## 4.6.1 When to use what?
+<h3 id="ch4-6-1">4.6.1 When to use what?</h3>
 
 Now that we are at the end of Module 4, you have a long list of different ways to move HTML elements around your page using CSS. With so many tools come choices, as you can now accomplish the same task multiple ways. Here are some guidelines on how to decide when to use which tool, in the order in which you should use them when positioning an element.
 
@@ -7711,7 +7731,7 @@ For a consistent look and feel your users will recognize, you will want to limit
 When getting into design, it\'s a good idea to brush up on the basics of color theory, but just in case here\'s a short refresher. This is the color wheel:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 39. (xx) ------------------------------->
+<!------------------------------ 39.  (xx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image039.jpeg?raw=true"
