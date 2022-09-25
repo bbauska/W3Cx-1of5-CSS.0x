@@ -240,7 +240,7 @@ An image of Hello Kasey in green text
 
 HINT: Is your favorite color not working? Not all color names are recognized by CSS. Sometimes the best way is to use HEX. We'll talk in more detail about colors in the next module, but here is a list of colors you can use: Extended color keywords
 
-<h2>Module 1: Getting started with CSS   1.5 Conclusion and exercises   Module learnings</h2>
+<h2>1.5 Conclusion and exercises   Module learnings</h2>
 
 <h2>After this module, you should feel comfortable…</h2>
 <ul>
