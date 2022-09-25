@@ -127,7 +127,7 @@ Thank you for joining this course, where you will learn how to take your Web pag
 -   The first set of lessons are available in **\"Module 1: Getting started with CSS\"**, where we show different examples of the amazing things you can do with CSS. This module includes a cameo of Bert Bos, co-inventor of CSS.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 02. illustration of a css property (03) ------------------------------->
+<!--------------------------- 02. illustration of a css property (03) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image002.png?raw=true"
@@ -457,20 +457,13 @@ In April 1995, [Inria](https://www.inria.fr/) became the first European W3C ho
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------- 16. picture of sr tim berners-lee (17) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<!-------
-<p align="center" width="100%">
-<img src="./images/image016.jpeg?raw=true"
-   width="18%"
-   alt="Picture of Sir Tim Berners-Lee." />
-</p>
--------->
 <p align="center">
   <img alt="Picture of Sir Tim Berners-Lee" src="./images/image016.jpeg?raw=true" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
   <img alt="Turing award" src="./images/image017.png?raw=true"45%">
 </p>
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 17. turing award (17) ------------------------------------->
+<!----------------------------------- 17. turing award (17) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <!---------
 <p align="center" width="100%">
@@ -536,10 +529,10 @@ Before CSS, the appearance of a Web page was dictated by HTML, which had very fe
 
 Let\'s take the example of the MSN Web site. MSN is the web portal and related collection of Internet services and apps for Windows and mobile devices, provided by Microsoft and launched on August 24 1995, the same release date as Windows 95.
 
-In 1996, see how it looked like (or check it [online](https://web.archive.org/web/19961022175327/http:/msn.com/)):
+In 1996, see what it looked like (or check it [online](https://web.archive.org/web/19961022175327/http:/msn.com/)):
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 17. image of msn.com from 1996 (xxx) ------------------------------->
+<!----------------------------- 18. image of msn.com from 1996 (19) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image018.png?raw=true"
@@ -568,12 +561,12 @@ For a fun time, warp check out an [archived version of that link above](https:/
 In the video below, you will hear from Bert Bos, the co-creator of CSS, about how he and Håkon Lie developed CSS.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 18.  (xxx) ------------------------------->
+<!---------------------------------- 18b. css intro logo (20) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image018.png?raw=true"
+<img src="./images/image018b.png?raw=true"
    width="40%"
-   alt="." />
+   alt="CSS Intro logo." />
 </p>
 
 ### Video: The history of CSS, by Bert Bos, co-inventor of CSS
@@ -828,7 +821,7 @@ In the above demo, you saw me using what is called the \"developer tool\" within
 Here is what it looks like when I view the source of [W3C\'s Web site](https://www.w3.org/) (snapshot taken in Sept. 2016):
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------- 19. edge web browser with view source window open (30) --------------------->
+<!------------------- 19. edge web browser with view source window open (29) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image019.png?raw=true"
@@ -982,7 +975,7 @@ Here is the [code](https://codepen.io/techie4good/pen/oxQaVN) we wrote in this
     </head>
     <body>
         <p>
-            Hello Beautiful World
+            hello beautiful world
         </p>
     </body>
 </html>
@@ -1000,12 +993,12 @@ p {
 \... and here is the \"output\":
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 21. blue helvetica text (xxx) --------------------------------->
+<!------------------ 21. 'hello beautiful world' in blue helvetica text (34) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image021.png?raw=true"
    width="29%"
-   alt="Blue Helvetica text." />
+   alt="'Hello Beautiful World' in blue helvetica text." />
 </p>
 
 <h3 id="ch1-4-2">1.4.2 Comments</h3>
@@ -1017,20 +1010,20 @@ There is a way to leave notes that the Web browser will ignore when it is readin
 To add comments to your CSS file, you need to surround any text you want the computer to ignore with a set of *slashes* and *asterisks* like so:
 
 ```
-/ those two symbols start my comment block
+/* those two symbols start my comment block
 I can have more comment text here
-and the following two symbols end my comment /
+and the following two symbols end my comment */
 ```
 
 As you can see, you can put as much text between the open and close symbols as you need, you can even have multiple lines. If you are working in an editor like Visual Studio code, you will notice that when you turn text into a comment, it turns green to indicate that the computer ignores that code.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- 22. image of visual studio code comments (xxx) ------------------------->
+<!-------------------- 22. comments in green (visual studio/notepad++) (35) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image022.png?raw=true"
    width="45%"
-   alt="Image of visual studio code comments." />
+   alt="Comments in green with visual studio and notepad++." />
 </p>
 
 Generally, it is a good idea to put a comment at the top of each CSS rule, or at the very least at the top of sets of rules that apply to a single category or section of your Web page. 
@@ -7953,7 +7946,7 @@ Here are some examples of things that can be done with CSS.
 -   You can also style counters for lists or chapter headings and such like according to local preferences. Here we see lists using Georgian and Japanese labels.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 110. georgian counter styles (xxx) ------------------------------->
+<!------------------------------ 109. georgian counter styles (xxx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image110.png?raw=true"
@@ -7961,7 +7954,7 @@ Here are some examples of things that can be done with CSS.
    alt="Georgian counter styles." />
 </p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 111. japanese counter styles (xxx) ------------------------------->
+<!------------------------------ 110. japanese counter styles (xxx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image110.png?raw=true"
@@ -7972,10 +7965,10 @@ Here are some examples of things that can be done with CSS.
 -   When you want to justify text so that the lines are straight on both sides of your column, different strategies are used for different scripts. Most Western typography puts an emphasis on adjusting inter-word spaces, but Chinese doesn\'t use spaces between words, so you generally do *inter-character* spacing. In text written using the arabic script it is common to stretch the baseline that joins letters, or use other techniques to balance the line.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 112. arabic justification (xxx) ------------------------------->
+<!------------------------------ 111. arabic justification (xxx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image112.png?raw=true"
+<img src="./images/image111.png?raw=true"
    width="35%"
    alt="Arabic justification." />
 </p>
@@ -7985,18 +7978,18 @@ Some scripts allow words to be hyphenated in order to improve the visual effect 
 -   Text decoration and text style features can vary in applicability from script to script. For example, Japanese characters are fairly complicated so, rather than italicise their text for emphasis, which can make it harder to read at small sizes, they have a tradition of placing special marks alongside the emphasised text (see the middle line of the Japanese example below). Also, it may be important to avoid underlines running over descenders in some scripts, since it can obscure important marks attached to a base character, so CSS allows you to skip \'ink\' as shown in the Burmese example below.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 113. emphasis in japanese (xxx) ------------------------------->
+<!------------------------------ 112. emphasis (in japanese) (228) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image113.png?raw=true"
+<img src="./images/image112.png?raw=true"
    width="15%"
    alt="Emphasis in Japanese." />
 </p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 114. skipping descenders in burmese (xxx) ------------------------------->
+<!------------------------- 113. skipping descenders (in burmese) (228) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image114.png?raw=true"
+<img src="./images/image113.png?raw=true"
    width="17%"
    alt="Skipping descenders in Burmese." />
 </p>
@@ -8220,12 +8213,12 @@ In the past, Web sites were comprised of many separate pages that you would navi
 This can be accomplished with something called \"internal links\". This is where you load the entire page as one long site and the links at the top simply jump to different locations within the site. To do this, you need to give the section you want to jump to an id, and then you use the id selector as the href setting on the anchor tag. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 115.  (xxx) ------------------------------->
+<!------------------------------ 114. sample 'internal link' (237) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image115.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Sample 'internal link'." />
 </p>
 
 <h4>CSS</h4>
@@ -8353,10 +8346,10 @@ Web layout is always constrained by the limitations of CSS, but future trends wi
 Since the summer of 2017, the major browsers support this module of CSS, which provides the beginnings of something professional designers have long been waiting for: [a design grid](https://en.wikipedia.org/wiki/Grid_(graphic_design)).
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- 117. css flexbox and grid layout differences (xxx) ----------------------->
+<!--------------------- 115. css flexbox and grid layout differences (245) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image116.png?raw=true"
+<img src="./images/image115.png?raw=true"
    width="29%"
    alt="CSS flexbox and grid layout differences." />
 </p>
@@ -8381,10 +8374,10 @@ CSS Grid is a CSS module that defines a two-dimensional grid-based layout syste
 
 If that sounds a bit too abstract, here is another way of looking at it. The idea behind the Grid module is that you split the [box](https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2020/jump_to_id/61920cda43ca49cca2fcf26e763bbe16) that makes up an element into many individual 'slots', arranged in a matrix, and separated from each other by (invisible) horizontal and vertical lines. You do that with a property called \'grid\', which contains the desired number of rows and columns and/or their sizes. Each child element goes into a slot, so that they end up aligned as in a table. But you have full control over which slot they go into, you can change their order, they can span more than one row or column, and you can leave some slots empty.
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 117. grid module (xxx) ------------------------------->
+<!----------------------------------- 116. grid module (245) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image117.png?raw=true"
+<img src="./images/image116.png?raw=true"
    width="48%"
    alt="Grid module." />
 </p>
@@ -8436,12 +8429,12 @@ For this activity, go out and find what you think is the best-designed Web page!
 3.  Is this Web page accessible?
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 118.  (xxx) ---------------------------->
+<!------------------------ 117. students sample web page shortcuts (247) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image118.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Sample web pages from students." />
 </p>
 
 #### A wonderful web page
@@ -8523,7 +8516,7 @@ Hopefully at this point you feel comfortable with all the basics of CSS, but, as
    <li>JavaScript Introduction</li>
 </ol>
 
-<h2>Last Updated: 9.25.2022 12:34am</h2>
+<h2>Last Updated: 9.25.2022 11:24am</h2>
 <!--------
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ xx.  image (xxx) ------------------------------->
