@@ -73,7 +73,7 @@ Thank you for joining this course, where you will learn how to take your Web pag
 -   The first set of lessons are available in **\"Module 1: Getting started with CSS\"**, where we show different examples of the amazing things you can do with CSS. This module includes a cameo of Bert Bos, co-inventor of CSS.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 02. illustration of a css property (xx) ------------------------------->
+<!------------------------------ 02. illustration of a css property (03) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image002.png?raw=true"
@@ -84,7 +84,7 @@ Thank you for joining this course, where you will learn how to take your Web pag
 -   In **Module 2**, we will first review HTML and then learn how to build CSS rules with some basic properties that adjust your HTML document\'s color, font or spacing. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 03. css basics course visual (xx) ------------------------------->
+<!------------------------------ 03. css basics course visual (03) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image003.png?raw=true"
@@ -95,7 +95,7 @@ Thank you for joining this course, where you will learn how to take your Web pag
 -   In **Module 3**, we are going to build slightly more complex Web pages using contextual selectors, IDs, classes and pseudo-classes. The idea is to combine some selectors together into one or more CSS rules. And thanks to the \"cascading\" part of *Cascading Style Sheets*, it won\'t be a problem to have multiple CSS rules competing for importance. Even with multiple rules that apply to the same HTML tag, the browser will know how to make it look!
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 04. image of the css box model (xx) ------------------------------->
+<!---------------------------- 04. image of the css box model (04) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image004.png?raw=true"
@@ -114,7 +114,7 @@ Thank you for joining this course, where you will learn how to take your Web pag
 W3C provides a [W3Cx Verified Certificate for this course](https://ecommerce.edx.org/basket/add/?sku=35F2C9C) that lets you demonstrate to employers, colleagues, and professional organizations that you successfully completed a course that increased your mastery of CSS. This certificate can be used to highlight newly acquired skills on your resume or [LinkedIn profile](https://support.edx.org/hc/en-us/articles/206501938-How-can-I-add-my-certificate-to-my-LinkedIn-profile-).
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- 05. a sample of a verified certificate from edx (xx) ---------------------->
+<!-------------------- 05. a sample of a verified certificate from edx (05) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image005.png?raw=true"
@@ -129,7 +129,7 @@ W3Cx, as non-profit, relies on verified certificates to help fund future W3Cx co
  \"Front-End Web Developer\" Professional Certificate
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 06. image of fewd certificate (xx) ------------------------------->
+<!------------------------------ 06. image of fewd certificate (05) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image006.png?raw=true"
@@ -152,7 +152,7 @@ We sincerely hope that you will enjoy this W3Cx course.
 \- The W3Cx team
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 07. css basics course visual (xx) ------------------------------->
+<!------------------------------ 07. css basics course visual (06) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image007.png?raw=true"
@@ -234,7 +234,7 @@ Have fun!
 Professional Certificate programs are series of courses designed by industry leaders and/or top universities to build and enhance critical professional skills needed to succeed in today\'s most in-demand fields.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------- 08. Banner image for the FEWD professional certificate program (xx) -------------->
+<!------------- 08. Banner image for the FEWD professional certificate program (09) -------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image008.png?raw=true"
@@ -271,7 +271,7 @@ While any text editor, like NotePad or TextEdit, can be used to create Web pages
 One caveat, you need to make sure that whatever editor you choose will save to a \"plain text\" format (\".txt\"). Some editors will save to other formats by default (.rtf, .doc, etc.) so you need to make sure you save your source code as plain text.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- 09. visual studio code logo (xx) ------------------------------->
+<!------------------------------- 09. visual studio code logo (10) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image009.png?raw=true"
@@ -284,7 +284,7 @@ For my demos, I will be using a software program called [Visual Studio Code](ht
 VS Code supports a large array of different Web technologies, but for this course we will be using it to develop our HTML and CSS. It also includes a feature called *intellisense* which you might have used in other code editors. It will suggest code for you to use, highlight keywords and a lot of other cool features you\'ll see me use throughout the course.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------ 10. codepen logo (xx) ------------------------------------->
+<!------------------------------------ 10. codepen logo (10) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image010.png?raw=true"
@@ -344,7 +344,7 @@ The [W3C Link Checker](https://validator.w3.org/checklink) looks for issues in
 The [W3C cheatsheet](https://www.w3.org/2009/cheatsheet/) provides quick access to useful information from a variety of specifications published by W3C. It aims at giving in a very compact and mobile-friendly format a compilation of useful knowledge extracted from W3C specifications, completed by summaries of guidelines developed at W3C, in particular Web accessibility guidelines, the Mobile Web Best Practices, and a number of internationalization tips.
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 11. w3c cheatsheet snapshot image (xx) ---------------------------->
+<!---------------------------- 11. w3c cheatsheet snapshot image (13) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image011.png?raw=true"
@@ -371,7 +371,7 @@ We are then providing references to the browser support of HTML5 features presen
 [Can I Use](https://caniuse.com/) provides up-to-date tables for support of front-end Web technologies on desktop and mobile Web browsers. Below is a snapshot of what information is given by CanIUse when searching for \"CSS3 colors\".
 
 <!------------------------------------------------------------------------------------------------>
-<!----------- 12. example of a caniuse browser support table (using css3 colors) (xx) ------------>
+<!----------- 12. example of a caniuse browser support table (using css3 colors) (14) ------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image012.png?raw=true"
@@ -382,7 +382,7 @@ We are then providing references to the browser support of HTML5 features presen
 ### MDN Web Docs
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 13. logo of mdn web docs (xx) --------------------------------->
+<!-------------------------------- 13. logo of mdn web docs (14) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image013.png?raw=true"
@@ -423,7 +423,7 @@ And then finally by the end of the module you write your own first piece of CSS.
 <h3 id="ch1-2-1">1.2.1 What is W3C?</h3>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 14. w3c logo (xxx) ------------------------------->
+<!-------------------------------------- 14. w3c logo (15) --------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image014.png?raw=true"
@@ -436,7 +436,7 @@ And then finally by the end of the module you write your own first piece of CSS.
 W3C\'s primary activity is to develop protocols and guidelines that ensure long-term growth for the Web. The widely adopted Web standards define key parts of what actually makes the World Wide Web work.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- 15. tim berners-lee at his desk in CERN, 1994 (xxx) ---------------------->
+<!--------------------- 15. tim berners-lee at his desk in CERN, 1994 (16) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image015.jpeg?raw=true"
@@ -455,15 +455,31 @@ In October 1994, Tim Berners-Lee founded the World Wide Web Consortium (W3C) at 
 In April 1995, [Inria](https://www.inria.fr/) became the first European W3C host, followed by [Keio University of Japan](https://www.keio.ac.jp/) (Shonan Fujisawa Campus) in Asia in 1996. In 2003, [ERCIM](https://www.ercim.eu/) took over the role of European W3C Host from Inria. In 2013, W3C announced [Beihang University](https://ev.buaa.edu.cn/) as the fourth Host.
 
 ### Sir Tim Berners-Lee named recipient of the ACM A.M. Turing Award
-
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- 16. picture of sr tim berners-lee (xxx) ---------------------------->
+<!-------------------------- 16. picture of sr tim berners-lee (17) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
+<!-------
 <p align="center" width="100%">
 <img src="./images/image016.jpeg?raw=true"
    width="18%"
    alt="Picture of Sir Tim Berners-Lee." />
 </p>
+-------->
+<p align="center">
+  <img alt="Picture of Sir Tim Berners-Lee" src="./images/image016.jpeg?raw=true" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Turing award" src="./images/image017.png?raw=true"45%">
+</p>
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------- 17. turing award (17) ------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<!---------
+<p align="center" width="100%">
+<img src="./images/image017.png?raw=true"
+   width="18%"
+   alt="Turing  Award." />
+</p>
+------->
 
 On 4 April 2017, the ACM, the Association for Computing Machinery, named Sir Tim Berners-Lee, inventor of the Web and Director of the World Wide Web Consortium, as the recipient of the 2016 [ACM A.M. Turing Award](https://amturing.acm.org/). The Turing award is recognized as the highest distinction in Computer Science and is often referred to as the "Nobel Prize of Computing".
 
@@ -524,7 +540,7 @@ Let\'s take the example of the MSN Web site. MSN is the web portal and related 
 In 1996, see how it looked like (or check it [online](https://web.archive.org/web/19961022175327/http:/msn.com/)):
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 18. image of msn.com from 1996 (xxx) ------------------------------->
+<!------------------------------ 17. image of msn.com from 1996 (xxx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image018.png?raw=true"
@@ -553,10 +569,10 @@ For a fun time, warp check out an [archived version of that link above](https:/
 In the video below, you will hear from Bert Bos, the co-creator of CSS, about how he and Håkon Lie developed CSS.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 19.  (xxx) ------------------------------->
+<!------------------------------ 18.  (xxx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image019.png?raw=true"
+<img src="./images/image018.png?raw=true"
    width="40%"
    alt="." />
 </p>
@@ -634,17 +650,17 @@ Stands for \"**C**ascading **S**tyle **S**heets\". A style sheet language for
 <h4>Sample CSS document:</h4>
 
 ```
-1.  body {
-2.     background-color: #d0e4fe;
-3.  }
-4.  h1 {
-5.     color: orange;
-6.     text-align: center;
-7.  }
-8.  p {
-9.     font-family: \"Times New Roman\";
-10.    font-size: 20px;
-11. }
+body {
+   background-color: #d0e4fe;
+}
+h1 {
+   color: orange;
+   text-align: center;
+}
+p {
+   font-family: \"Times New Roman\";
+   font-size: 20px;
+ }
 ```
 
 **HTML** • /eɪʧ-ti-ɛm-ɛl/ • *noun *
@@ -813,10 +829,10 @@ In the above demo, you saw me using what is called the \"developer tool\" within
 Here is what it looks like when I view the source of [W3C\'s Web site](https://www.w3.org/) (snapshot taken in Sept. 2016):
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 20. edge web browser with view source window open (xxx) ------------------------------->
+<!------------------- 19. edge web browser with view source window open (30) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image020.png?raw=true"
+<img src="./images/image019.png?raw=true"
    width="50%"
    alt="Edge Web browser with view source window open." />
 </p>
@@ -826,7 +842,7 @@ You can see a window that popped up from the bottom with all the HTML code for t
 You can also get more specific and look at individual HTML elements with the \"Inspect element\" option. Here is what it looks like in Edge when I inspect a specific title:
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------- 20. edge inspect element view highlighting a specific title (xxx) --------------->
+<!-------------- 20. edge inspect element view highlighting a specific title (30) ---------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image020.png?raw=true"
@@ -959,44 +975,36 @@ Here is the [code](https://codepen.io/techie4good/pen/oxQaVN) we wrote in this
 <h4>Here is the HTML part:</h4>
 
 ```
-1.  <!DOCTYPE html>
-2.  <html lang="en">
-3.      <head>
-4.          <meta charset="utf-8">
-5.          <link rel="stylesheet" href="style.css">
-6.      </head>
-7.      <body>
-8.          <p>
-9.              Hello Beautiful World
-10.         </p>
-11.     </body>
-12. </html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p>
+            Hello Beautiful World
+        </p>
+    </body>
+</html>
 ```
 
 \... and the CSS file (style.css) is below:
 
 ```
-1.        p {
-2.          color: blue;
-3.          font-family:Helvetica;
-4.        }
+      p {
+        color: blue;
+        font-family:Helvetica;
+      }
 ```
 
 \... and here is the \"output\":
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 19.  (xxx) ------------------------------->
+<!-------------------------------- 21. blue helvetica text (xxx) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image019.png?raw=true"
-   width="40%"
-   alt="." />
-</p>
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------ 22. blue helvetica text (xxx) ------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image022.png?raw=true"
+<img src="./images/image021.png?raw=true"
    width="29%"
    alt="Blue Helvetica text." />
 </p>
@@ -1018,10 +1026,10 @@ and the following two symbols end my comment /
 As you can see, you can put as much text between the open and close symbols as you need, you can even have multiple lines. If you are working in an editor like Visual Studio code, you will notice that when you turn text into a comment, it turns green to indicate that the computer ignores that code.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- 23. image of visual studio code comments (xxx) ------------------------->
+<!----------------------- 22. image of visual studio code comments (xxx) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image023.png?raw=true"
+<img src="./images/image022.png?raw=true"
    width="45%"
    alt="Image of visual studio code comments." />
 </p>
@@ -1035,26 +1043,26 @@ It\'s finally time to write your own CSS! Open your code editor of choice and sa
 *Remember*: to do this, you will need to give it a .html file extension when you are saving it. For example, you could call it index.html
 
 ```
-> \<!DOCTYPE html\>
-> \<html lang=\"en\"\>
->    \<head\>
->       \<meta charset=\"utf-8\"\>
->    \</head\>
->    \<body\>
->       \<p\>
->          Hello Beautiful World
->       \</p\>
->    \</body\>
-> \</html\>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <meta charset="utf-8">
+  </head>
+  <body>
+     <p>
+        Hello Beautiful World
+     </p>
+  </body>
+</html>
 ```
 
 Once you have your HTML document view it in a Web browser. It should look like this:
 
 <!------------------------------------------------------------------------------------------------>
-<!----------- 24. An image of Hello Beautiful World in a web browser with black text (xxx) ------->
+<!----------- 23. An image of Hello Beautiful World in a web browser with black text (xxx) ------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image024.png?raw=true"
+<img src="./images/image023.png?raw=true"
    width="44%"
    alt="An image of Hello Beautiful World in a web browser with black text." />
 </p>
@@ -1062,11 +1070,9 @@ Once you have your HTML document view it in a Web browser. It should look like t
 Now it's time to add some CSS. Here is the CSS we wrote in the \"Hello Beautiful World\" demo. Make a new file with this css and save it with a .css file extension. For example, you can call it styles.css
 
 ```
-> p {
->
->     color: blue;
->
-> }
+p {
+    color: blue;
+}
 ```
 
 This won't change the look of your HTML until you link the two files with this HTML tag.
@@ -1084,10 +1090,10 @@ This won't change the look of your HTML until you link the two files with this H
 Now change the HTML and CSS files so that it says "Hello \<your name\>, welcome to my first CSS Web page" in your favorite color! Here's what mine looks like:
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- 25. an image of hello kasey in green text (xxx) ------------------------>
+<!----------------------- 24. an image of hello kasey in green text (xxx) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image025.png?raw=true"
+<img src="./images/image024.png?raw=true"
    width="36%"
    alt="An image of Hello Kasey in green text." />
 </p>
@@ -1227,17 +1233,19 @@ Here is a sample HTML doc:
 Tags can be nested inside of other tags. This creates a parent/child relationship between HTML elements and forms the overall structure of your HTML document into a tree. This structure has a big effect on your CSS as styles are typically inherited from parent to child. We will take a closer look at style inheritance later in this unit. 
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- 26. the minimal structure of an html5 document (xxx) ---------------------->
+<!-------------------- 25. the minimal structure of an html5 document (xxx) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image026.png?raw=true"
+<img src="./images/image025.png?raw=true"
    width="50%"
    alt="The minimal structure of an HTML5 document." />
 </p>
 
 There are other types of tags that are called \"self-closing\", meaning they don\'t come in an open/close pair. Typically, self-closing tags insert content into your page as opposed to surround content. They look like this:
 
-> \<img src=\"images/pic1.png\" alt=\"pic1\" /\>
+```
+> <img src="images/pic1.png" alt="pic1" />
+```
 
 These types of tags rely on \"attributes\", these are added modifiers on the tag that have their own values. In the above example, we use the src attribute to set the source for the image.
 
@@ -1350,7 +1358,7 @@ The UL tag creates an \"**u**nordered **l**ist\" element, meaning a collection 
    <li>This is one element in the list</li>
    <li>One of the elements</li>
    <li>Another element</li>
-*</ul>*
+</ul>
 ```
 
 ### \<ol\>
@@ -1388,12 +1396,12 @@ The br element is a self-closing tag that inserts a line break. This is most evi
 The header tag is one of the section elements, it\'s role is to group other HTML elements according to their role on their page. The header element contains all the introductory content on the page typically a title and tagline or navigational elements. 
 
 ```
-\<body\>
-   \<header\>
-      \<h1\> Welcome to my page!\</h1\>
-      \<h2\> My very first web page\</h2\>
-   \</header\>
-\</body\>
+<body>
+   <header>
+      <h1> Welcome to my page!</h1>
+      <h2> My very first web page</h2>
+   </header>
+</body>
 ```
 
 ### \<section\>
@@ -1403,14 +1411,14 @@ The header tag is one of the section elements, it\'s role is to group other HTM
 Another sectioning element, the \"section\" tag is a general-purpose grouping element. It most often should include a header tag at the top. This typically will come after a header tag and before a footer tag.
 
 ```
-\<body\>
-   \<header\>
-      \<h1\> My Page \</h1\>
-   \</header\>
-   \<section\>
-      \<h2\> My Blog \</h2\>
-   \</section\>
-\</body\>
+<body>
+   <header>
+      <h1> My Page </h1>
+   </header>
+   <section>
+      <h2> My Blog </h2>
+   </section>
+</body>
 ```
 
 ### \<footer\>
@@ -1420,19 +1428,19 @@ Another sectioning element, the \"section\" tag is a general-purpose grouping el
 Another sectioning element, the \"footer\" tag is supposed to organize the final content on the page such as the credits or contact info. 
 
 ```
-\<body\>
-   \<header\>
-      \<h1\>My Page\</h1\>
-   \</header\>
-   \<section\>
-      \<h2\>My Blog\</h2\>
-   \</section\>
-   \<footer\>
-      \<p\>
+<body>
+   <header>
+      <h1>My Page</h1>
+   </header>
+   <section>
+      <h2>My Blog</h2>
+   </section>
+   <footer>
+      <p>
          copyright 2016
-      \</p\>
-   \</footer\>
-\</body\>
+      </p>
+   </footer>
+</body>
 ```
 
 ### \<div\>
@@ -1474,14 +1482,13 @@ You can find the validator here: <https://validator.w3.org/>
 You can pass any URL on the Web into the validator, and it will tell you how the HTML for that page stacks up against Web Standards. If you pass in https://www.w3.org (the W3C\'s homepage), you see the following:
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- 27. html validator output for w3.org (xxx) ---------------------->
+<!------------------------- 26. html validator output for w3.org (xxx) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image027.png?raw=true"
+<img src="./images/image026.png?raw=true"
    width="50%"
    alt="HTML validator output for w3.org." />
 </p>
-![HTML validator output for w3.org](images/media/image27.png){width="5.0in" height="2.9286931321084864in"}
 
 If you start to try out other URLs, you might find this is a very rare result ;)\
 Try passing in your favorite Web address and see what comes up. For example, If you pass in https://www.microsoft.com/en-us/, you get 567 warnings and errors! 
@@ -1489,14 +1496,13 @@ Try passing in your favorite Web address and see what comes up. For example, If 
 One of the more common errors is using an HTML tag that is considered obsolete. Often the error points you to this wiki page \"[Use CSS instead](https://wiki.whatwg.org/wiki/Presentational_elements_and_attributes)\".
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!--------------------------- 27.  image of obsolete html error (xxx) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
-   alt="." />
+<img src="./images/image027.png?raw=true"
+   width="50%"
+   alt="Image of obsolete HTML error." />
 </p>
-![Image of obsolete HTML error](images/media/image28.png){width="5.0in" height="0.7846412948381453in"}
 
 For this activity, please try out some of your favorite Web addresses in this validator and see what happens. Find a page that has one of these types of errors and answer the following questions in the discussion board:
 
@@ -1591,25 +1597,27 @@ In this course, we\'re just talking about CSS, but if you\'re not familiar with 
 HTML (**H**yper **T**ext **M**arkup **L**anguage) documents are made up of content and tags. These tags describe the content so that the web browser understands the structure of the page. HTML tags typically come in pairs, an opening tag before and a closing tag after content like so:
 
 ```
-1.  \<tagname\>
-2.      My content
-3.  \</tagname\>
+<tagname>
+    My content
+</tagname>
 ```
 
 When these three pieces are combined (start tag, content, and end tag), you have what is called an HTML **element**. 
 
+Here is a \<!DOCTYPE html\> <!-- Doctype declares the document to be HTML 5 type-->
+
 ```
-1.  Here is a s\<!DOCTYPE html\> \<!\-- Doctype declares the document to be HTML 5 type\--\>
-2.  \<html lang=\"en\"\> \<!\--All your HTML content must be within this tag\--\>
-3.      \<head\> \<!\--Anything in the header provides information about the document, no content here\--\>
-4.          \<meta charset=\"utf-8\"\>
-5.          \<title\>Page Title\</title\> \<!\--This text will show up on the tab of the browser for this page\--\>
-6.      \</head\> \<!\--end for the header section\--\>
-7.      \<body\> \<!\--start tag for the body section, this is where to put all your content to be displayed\--\>
-8.          \<h1\>My First Heading\</h1\> \<!\--content in a h1 tag is a "heading" of the top level\--\>
-9.          \<p\>My first paragraph.\</p\> \<!\--content in a p tag is normal or "paragraph" level text\--\>
-10.     \</body\>
-11. \</html\>
+
+<html lang="en"> <!--All your HTML content must be within this tag-->
+    <head> <!--Anything in the header provides information about the document, no content here-->
+        <meta charset="utf-8">
+        <title>Page Title</title> <!--This text will show up on the tab of the browser for this page-->
+    </head> <!--end for the header section-->
+    <body> <!--start tag for the body section, this is where to put all your content to be displayed-->
+        <h1>My First Heading</h1> <!--content in a h1 tag is a "heading" of the top level-->
+        <p>My first paragraph.</p> <!--content in a p tag is normal or "paragraph" level text-->
+    </body>
+</html>
 ```
 
 Sample HTML doc:
@@ -1619,22 +1627,26 @@ Sample HTML doc:
 Tags can be nested inside of other tags. This creates a parent/child relationship between HTML elements and forms the overall structure of your HTML document into a tree. This structure has a big affect on your CSS as styles are typically inherited from parent to child. We will take a closer look at style inheritance later in this unit. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!---------------------- 25. minimal structure of an html5 document (xxx) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
-   alt="." />
+<img src="./images/image025.png?raw=true"
+   width="40%"
+   alt="The minimum structure of an html5 document." />
 </p>
-![The minimal structure of an HTML5 document](images/media/image26.png){width="4.0in" height="2.7670942694663165in"}
+<!---------
+{width="4.0in" height="2.7670942694663165in"}
+--------->
 
 There are other types of tags that are called \"self-closing\", meaning they don\'t come in an open/close pair. Typically self-closing tags insert content into your page as opposed to surround content. They look like this:
 
-1.  \<img src=\"images/pic1.png\" alt=\"pic1\" /\>
+```
+<img src="images/pic1.png" alt="pic1" />
+```
 
 These types of tags rely on \"attributes\", these are added modifiers on the tag that have their own values. In the above example, we use the src attribute to set the source for the image.
 
-## 2.2.2 Common HTML tags
+<h3 id="ch2-2-2">2.2.2 Common HTML tags</h3>
 
 There are many HTML tags to choose from depending on what elements you want to structure on your page. You can always check what are the [current defined HTML tags](https://www.w3.org/TR/html52/).
 
@@ -1651,12 +1663,12 @@ You\'ll notice in the below code that we set the language to English (\<html lan
 It is important that you take care to use the lang attribute to indicate the actual language of text in your page because many CSS features will function differently, depending on what language is declared here.
 
 ```
-1.  \<!DOCTYPE html\>
-2.  \<html lang=\"en\"\>
-3.  \<body\>
-4.  \<p\> Hello World\</p\>
-5.  \</body\>
-6.  \</html\>
+<!DOCTYPE html>
+<html lang="en">
+   <body>
+      <p> Hello World</p>
+   </body>
+</html>
 ```
 
 ### \<head\>
@@ -1668,16 +1680,16 @@ This is the element that contains all the metadata for your site, such as your l
 Note that this is where you will also set the charset to \"utf-8\" (\<meta charset=\"utf-8\"\>). This shows that you saved the markup using the UTF-8 character encoding, which has many characters outside English, so it should be able to display characters not in the English alphabet.
 
 ```
-1.  \<!DOCTYPE html\>
-2.  \<html lang=\"en\"\>
-3.      \<head\>
-4.          \<meta charset=\"utf-8\"\>
-5.          \<title\>My First Page\</title\>
-6.      \</head\>
-7.      \<body\>
-8.          \<p\> Hello World\</p\>
-9.      \</body\>
-10. \</html\>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My First Page</title>
+    </head>
+    <body>
+        <p> Hello World</p>
+    </body>
+</html>
 ```
 
 ### \<body\>
@@ -1687,17 +1699,17 @@ Note that this is where you will also set the charset to \"utf-8\" (\<meta chars
 The section element that contains all the visible content for your site like your text, images, links etc. There should only be one body tag per document and it should come after the head tag.
 
 ```
-1.  \<!DOCTYPE html\>
-2.  \<html lang=\"en\"\>
-3.      \<head\>
-4.          \<meta charset=\"utf-8\"\>
-5.          \<title\>My First Page\</title\>
-6.          \<link rel=\"stylesheet\" href=\"styles.css\"\>
-7.      \</head\>
-8.      \<body\>
-9.          \<p\> Hello World\</p\>
-10.     \</body\>
-11. \</html\>
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>My First Page</title>
+      <link rel="stylesheet" href="styles.css">
+   </head>
+   <body>
+      <p> Hello World</p>
+   </body>
+</html>
 ```
 
 ### \<p\>
@@ -1707,9 +1719,9 @@ The section element that contains all the visible content for your site like you
 \"p\" stands for \"paragraph\" which is a block of text that is physically separated from adjacent blocks through blank lines. This is the most basic way to group text content.
 
 ```
-1.  \<p\>
-2.     This is my introductory paragraph to my Web page! This text will wrap around in a single block and then after the paragraph is done there will be a line of white space.
-3.  \</p\>
+<p>
+   This is my introductory paragraph to my Web page! This text will wrap around in a single block and then after the paragraph is done there will be a line of white space.
+</p>
 ```
 
 ### \<a\>
@@ -1718,7 +1730,9 @@ The section element that contains all the visible content for your site like you
 
 By surrounding text with an \<a\> tag you turn it into a hyperlink. You will want to use the \"href\" attribute to indicate to which target the link should take the user when clicked. The default style of the a tag is to turn the text blue and underlined, and then change the color to purple after you have clicked the link. You can adjust all these styles with CSS.
 
-1.  \<a href=\"https://www.microsoft.com\"\>Microsoft Main Page\</a\>
+```
+<a href="https://www.microsoft.com">Microsoft Main Page</a>
+```
 
 ### \<img /\>
 
@@ -1726,7 +1740,9 @@ By surrounding text with an \<a\> tag you turn it into a hyperlink. You will w
 
 This tag will insert an image based on the source you provide via the \"src\" attribute. If the source is inaccessible, you can also specify \"fall back\" options via the \"alt\" attribute. You will **always** want to specify the \"alt\" attribute with a short phrase describing the image. This text is what will be read aloud if your user is using a screen reader, or will be displayed if the user\'s browser will not load images. Note that this is an example of a \"self-closing\" tag meaning there is no closing tag, you just end the opening tag with a forward slash. 
 
-1.  \<img src=\"images/proPic.jpg\" alt=\"a headshot of the instructor\" /\>
+```
+<img src="images/proPic.jpg" alt="a headshot of the instructor" />
+```
 
 ### \<ul\> 
 
@@ -1735,11 +1751,11 @@ This tag will insert an image based on the source you provide via the \"src\" at
 The UL tag creates an \"**u**nordered **l**ist\" element, meaning a collection of elements in which the order is meaningless. This is a tag that sets the framework for you to add list elements inside it. You will want to add your elements within the ul tag each surrounded your content with **l**ist **i**tem or \"\<li\>\" tags like in the below example.
 
 ```
-1.  \<ul\>
-2.     \<li\>This is one element in the list\</li\>
-3.     \<li\>One of the elements\</li\>
-4.     \<li\>Another element\</li\>
-5.  *\</ul\>*
+<ul>
+   <li>This is one element in the list</li>
+   <li>One of the elements</li>
+   <li>Another element</li>
+</ul>
 ```
 
 ### \<ol\>
@@ -1749,11 +1765,11 @@ The UL tag creates an \"**u**nordered **l**ist\" element, meaning a collection 
 The OL tag works exactly like the UL tag, except that the list element order matters. OL stands for \"**o**rdered **l**ist\" and by default, the list element items are displayed with a number preceding them.
 
 ```
-1.  \<ol\>
-2.     \<li\>This is the first element\</li\>
-3.     \<li\>The second element\</li\>
-4.     \<li\>Finally, this is the third element\</li\>
-5.  \</ol\>
+<ol>
+   <li>This is the first element</li>
+   <li>The second element</li>
+   <li>Finally, this is the third element</li>
+</ol>
 ```
 
 ### \<br /\>
@@ -1763,11 +1779,11 @@ The OL tag works exactly like the UL tag, except that the list element order mat
 The br element is a self-closing tag that inserts a line break. This is most evident when placed in a block of text as it essentially represents a carriage return or hitting the \"enter\" key. 
 
 ```
-1.  \<p\>
-2.     this is my text.
-3.     \<br /\>
-4.     this text will appear on the next line down.
-5.  \</p\>
+<p>
+   this is my text.
+   <br />
+   this text will appear on the next line down.
+</p>
 ```
 
 ### \<header\>
@@ -1854,7 +1870,7 @@ Or of you are looking for more in-depth training, we suggest you check out one 
 
 -   [HTML5 Apps and Games](https://www.edx.org/course/html5-apps-and-games) (advanced level)
 
-## 2.2.4 Activity - Practice with HTML validator
+<h3 id="ch2-2-4">2.2.4 Activity - Practice with HTML validator</h3>
 
 HTML has been available to the public since 1991, but since then a lot has changed. One of the ways to make sure your HTML is well structured and up to date is to use the W3C HTML Validator. As you are developing your pages, it\'s a good idea to regularly check if your HTML is written according to W3C standards.
 
@@ -1863,14 +1879,16 @@ You can find the validator here: <https://validator.w3.org/>
 You can pass any URL on the Web into the validator, and it will tell you how the HTML for that page stacks up against Web Standards. If you pass in https://www.w3.org (the W3C\'s homepage), you see the following:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------- 26. html validator output for w3.org (xxx) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
-   alt="." />
+<img src="./images/image026.png?raw=true"
+   width="60%"
+   alt="HTML validator output for w3.org." />
 </p>
-![HTML validator output for w3.org](images/media/image27.png){width="6.135416666666667in" height="3.59375in"}
+<!---------
+{width="6.135416666666667in" height="3.59375in"}
+---------->
 
 If you start to try out other URLs, you might find this is a very rare result ;)\
 Try passing in your favorite Web address and see what comes up. For example, If you pass in https://www.microsoft.com/en-us/, you get 567 warnings and errors! 
@@ -1878,14 +1896,16 @@ Try passing in your favorite Web address and see what comes up. For example, If 
 One of the more common errors is using an HTML tag that is considered obsolete. Often the error points you to this wiki page \"[Use CSS instead](https://wiki.whatwg.org/wiki/Presentational_elements_and_attributes)\".
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!--------------------------- 27. image of obsolete html error (xxx) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
-   alt="." />
+<img src="./images/image027.png?raw=true"
+   width="60%"
+   alt="Image of obsolete html error." />
 </p>
-![Image of obsolete HTML error](images/media/image28.png){width="6.239583333333333in" height="0.9791666666666666in"}
+<!-------
+{width="6.239583333333333in" height="0.9791666666666666in"}
+-------->
 
 For this activity, please try out some of your favorite Web addresses in this validator and see what happens. Find a page that has one of these types of errors and answer the following questions in the discussion board:
 
@@ -1895,7 +1915,7 @@ For this activity, please try out some of your favorite Web addresses in this va
 
 -   What HTML attribute does it use when it should use CSS instead?
 
-## 2.3.1 The anatomy of a CSS rule
+<h3 id="ch2-3-1"2.3.1 The anatomy of a CSS rule</h3>
 
 Now that you have HTML, let\'s talk about how to build CSS rules that are attached to it.
 
@@ -1977,115 +1997,80 @@ Let\'s see how it looks. Much better!
 
 The HTML code is shown below:
 
-1.  \<!DOCTYPE html\>
-
-2.  \<html lang=\"en\"\>
-
-3.      \<head\>
-
-4.          \<meta charset=\"utf-8\"\>
-
-5.          \<title\>My HTML page\</title\>
-
-6.          \<link rel=\"stylesheet\" href=\"style.css\"\>
-
-7.      \</head\>
-
-8.      \<body\>
-
-9.          \<h1\> Welcome to my first CSS Website\</h1\>
-
-10.         \<h2\> I\'m glad you\'re here\</h2\>
-
-11.         \<img src=\"designer.png\" alt=\"designer\"/\>
-
-12.         \<p\>
-
-13.             This is my first site using CSS, or Cascading Style Sheets. I\'m still learning and I have a long way to go, but doesn\'t it still look nice?
-
-14. It\'s amazing what a difference just some colors and fonts can make!
-
-15.         \</p\>
-
-16.     \</body\>
-
-17. \</html\>
+```
+1.  <!DOCTYPE html>
+2.  <html lang="en">
+3.      <head>
+4.          <meta charset="utf-8">
+5.          <title>My HTML page</title>
+6.          <link rel="stylesheet" href="style.css">
+7.      </head>
+8.      <body>
+9.          <h1> Welcome to my first CSS Website</h1>
+10.         <h2> I'm glad you're here</h2>
+11.         <img src="designer.png" alt="designer"/>
+12.         <p>
+13.             This is my first site using CSS, or Cascading Style Sheets. I'm still learning and I have a long way to go, but doesn't it still look nice?
+14. It's amazing what a difference just some colors and fonts can make!
+15.         </p>
+16.     </body>
+17. </html>
+```
 
 And the attached CSS file (style.css):
 
-> body {
->
->     background-color: #83AF9B;
->
->     text-align: center;
->
->     font-family: Arial;
->
->     padding: 0;
->
->     margin: 0;
->
-> }
->
-> h1 {
->
->     background-color: #FE4365;
->
->     color: #F9CDAD;
->
->     font-size: 8em;
->
->     padding: 50px;
->
-> }
->
-> h2 {
->
->     color: #FE4365;
->
->     background-color: #F9CDAD;
->
-> }
->
-> img {
->
->     height: 250px;
->
-> }
->
-> p {
->
->     background-color: #FC9D9A;
->
->     color: white;
->
->     padding: 50px;
->
->     font-size: 2em;
->
-> }
+```
+body {
+   background-color: #83AF9B;
+   text-align: center;
+   font-family: Arial;
+   padding: 0;
+   margin: 0;
+}
+h1 {
+   background-color: #FE4365;
+   color: #F9CDAD;
+   font-size: 8em;
+   padding: 50px;
+}
+h2 {
+   color: #FE4365;
+   background-color: #F9CDAD;
+}
+img {
+   height: 250px;
+}
+p {
+   background-color: #FC9D9A;
+   color: white;
+   padding: 50px;
+   font-size: 2em;
+}
+```
 
-## 2.3.2 Constructing your CSS rules
+<h3 id="ch2-3-2">2.3.2 Constructing your CSS rules</h3>
 
 Here is an example CSS \"rule\":
 
-1.  p {
-
-2.      color: blue;
-
-3.  }
+```
+p {
+    color: blue;
+}
+```
 
 This rule tells the browser to make all text within a paragraph tag blue. A CSS rule is broken into two parts: the selector and the property
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------------ 28. css anatomy (xxx) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
-   alt="." />
+<img src="./images/image028.png?raw=true"
+   width="65%"
+   alt="CSS Anatomy." />
 </p>
-![css anatomy](images/media/image29.png){width="6.5in" height="1.7055555555555555in"}
+<!-------
+{width="6.5in" height="1.7055555555555555in"}
+--------->
 
 ### Selector
 
@@ -2096,10 +2081,10 @@ This is the portion of the rule before the first open curly brace ( \"{\" charac
 This is the portion of the rule between the two curly braces. This is what tells the browser how to style the HTML tag that has been selected. This can be as many lines of code as you choose, each of which has two parts- the property and the value you want that property to be. For our example, \"color\" is the property and \"blue\" is the value, but we could also have had a value of \"black\" or \"#FFFFFF\" (which is HEX code for white). Each property line is constructed so:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------ 30. property anatomy (xxx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
+<img src="./images/image030.png?raw=true"
    width="###%"
    alt="." />
 </p>
@@ -2107,59 +2092,43 @@ This is the portion of the rule between the two curly braces. This is what tell
 
 The style for your page will consist of a list of many CSS rules put together. As we move through this course we will help you build up these rules to style your entire page.
 
-## 2.3.3 Activity - Building your first CSS rule set
+<h3 id="ch2-3-3">2.3.3 Activity - Building your first CSS rule set</h3>
 
 Now that you have a basic understanding of how to put the pieces of a CSS rule together, let\'s do some practice. Here is some HTML for a page you will style:
 
+```
 1.  \<!DOCTYPE html\>
-
 2.  \<html lang=\"en\"\>
-
 3.     \<head\>
-
 4.        \<meta charset=\"utf-8\"\>
-
 5.        \<title\>My HTML page\</title\>
-
 6.        \<link rel=\"stylesheet\" href=\"style.css\"\>
-
 7.     \</head\>
-
 8.     \<body\>
-
 9.        \<h1\>My H1 header\</h1\>
-
 10.       \<p\> This is a block of text to represent a paragraph that you will want to style. This might be an explanation of the list that follows, it is all contained within a single paragraph tag.
-
 11.       \</p\>
-
 12.       \<ul\>
-
 13.          \<li\>This is list item 1\</li\>
-
 14.          \<li\>Item 2 in the list\</li\>
-
 15.          \<li\>The third item in the list\</li\>
-
 16.          \<li\>Item 4 completes the list\</li\>
-
 17.       \</ul\>
-
 18.    \</body\>
-
 19. \</html\>
+```
 
 [HTML in Code Pen](https://codepen.io/w3devcampus/pen/zovzwE)
 
 Your goal is to get this HTML to look like the following image in the browser:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------ 30. codepen resulting image (activity 2.3) (xxx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image.png?raw=true"
-   width="###%"
-   alt="." />
+   width="65%"
+   alt="CodePen resulting image (Activity 2.3)." />
 </p>
 ![CodePen resulting image (Activity 2.3)](images/media/image30.png){width="6.5in" height="1.707638888888889in"}
 
@@ -2185,7 +2154,7 @@ And you will need the following properties:
 
 Now it\'s up to you to combine these selectors and properties into 4 rules to achieve the final style. 
 
-## 2.4.1 What is a selector?
+<h3 id="ch2-4-1">2.4.1 What is a selector?</h3>
 
 In unit 2.3, we defined a CSS selector as the portion of the CSS rule that tells the browser on which HTML element to apply the defined style.
 
@@ -2201,35 +2170,35 @@ In unit 2.2, we briefly mentioned the fact that properties apply to the entire h
 
 It is possible to independently target every HTML element on the page using selectors, but for this module we are going to stick to basics and only use selectors that match the HTML tag name. For example, here are some example selectors we\'ll use in this module:
 
+```
 1.  a {
-
 2.   /\* style for a tags \*/
-
 3.  }
+```
 
 This would affect the style of all link tags on the page.
 
+```
 1.  p {
-
 2.   /\* style for p tags \*/
-
 3.  }
+```
 
 This would affect the style of all paragraph tags on the page and the style of elements contained within the paragraph tag. 
 
+```
 1.  body {
-
-2.   /\* style for all elements in the body \*/
-
+2.   /* style for all elements in the body */
 3.  }
+```
 
 This would apply style to the body tag as well as allow the elements inside the body tag to inherit certain styles applied here (check the [related CodePen online](https://codepen.io/techie4good/pen/pEzLrd)). 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------ 31.  image (xxx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
+<img src="./images/image031.png?raw=true"
    width="###%"
    alt="." />
 </p>
@@ -2237,121 +2206,110 @@ This would apply style to the body tag as well as allow the elements inside the 
 
 ### HTML
 
-> \<html lang=\"en\"\>
->
-> \<head\>
->
-> \<meta charset=\"utf-8\"\>
->
-> \<link rel=\"stylesheet\" href=\"styles.css\"\>
->
-> \</head\>
->
-> \<body\>
->
-> \<h1\>Title\</h1\>
->
-> \<p\>In unit 2.3, we defined a CSS selector as the portion of the CSS rule that tells the browser on which HTML element to apply the defined style.
->
-> \<a href=\"https://www.microsoft.com\"\>Click Here!\</a\>
->
-> \</p\>
->
-> \<ul\>
->
-> \<li\>When your HTML is simple, the selectors can be simple as well\</li\>
->
-> \<li\>The most basic selectors simply mirror the HTML tag\</li\>
->
-> \<li\>For example \"p\" attaches to all tags, \"img\" will attach to all tags and so on\</li\>
->
-> \<li\>As you can imagine, there will often be times\</li\>
->
-<li\>when you don\'t want every single HTML element of a particular type to have identical style\</li\>
-</ul\>
-<p\>
+```
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <h1>Title</h1>
+   <p>In unit 2.3, we defined a CSS selector as the portion of the CSS rule that tells the browser on which 
+      HTML element to apply the defined style.
+      <a href="https://www.microsoft.com">Click Here!</a>
+   </p>
+   <ul>
+      <li>When your HTML is simple, the selectors can be simple as well</li>
+      <li>The most basic selectors simply mirror the HTML tag</li>
+      <li>For example "p" attaches to all tags, "img" will attach to all tags and so on</li>
+      <li>As you can imagine, there will often be times</li>
+      <li>when you don't want every single HTML element of a particular type to have identical style</li>
+   </ul>
+<p>
 ```
 
-In Module 3, we\'ll discuss a variety of ways to use selectors to attach to specific HTML elements.
+In Module 3, we'll discuss a variety of ways to use selectors to attach to specific HTML elements.
 
-In unit 2.2, we briefly mentioned the fact that properties apply to the entire hierarchy of HTML elements to which they are attached. This means that you will have to be very careful which selectors you choose to use in combination with your chosen style \<br /\>
+In unit 2.2, we briefly mentioned the fact that properties apply to the entire hierarchy of HTML elements to which they are attached. This means that you will have to be very careful which selectors you choose to use in combination with your chosen style <br />
 
-\<a href=\"http://www.w3.org\"\>Check this out\</a\>
+<a href="http://www.w3.org">Check this out</a>
 
-It is possible to independently target every HTML element on the page using selectors, but for this module we are going to stick to basics and only use selectors that match the HTML tag name. For example, here are some example selectors we\'ll use in this module:
+It is possible to independently target every HTML element on the page using selectors, but for this module we are going to stick to basics and only use selectors that match the HTML tag name. For example, here are some example selectors we'll use in this module:
 
 ```
-</p\>
-<ol\>
-<li\>This would affect the style of all link tags on the page\</li\>
-<li\>This would affect the style of all paragraph tags on the page\</li\>
-<li\>and the style of elements contained within the paragraph tag\</li\>
-<li\>This would apply style to the body tag\</li\>
-<li\>as well as allow the elements inside the body tag to inherit certain styles applied here. \</li\>
-</ol\>
-</body\>
-</html\>
+</p>
+<ol>
+<li>This would affect the style of all link tags on the page</li>
+<li>This would affect the style of all paragraph tags on the page</li>
+<li>and the style of elements contained within the paragraph tag</li>
+<li>This would apply style to the body tag</li>
+<li>as well as allow the elements inside the body tag to inherit certain styles applied here. </li>
+</ol>
+</body>
+</html>
 ```
 
 <h4>CSS</h4>
 
 ```
 body {
-color: red; /\* every element inherits this except a tags, which don\'t inhert by default \*/
-
+color: red; /* every element inherits this except a tags, which don't inhert by default */
  }
 ul {
-color: blue; /\* li elements inherit this color \*/
+color: blue; /* li elements inherit this color */
 }
 p {
-font-style: italic; /\*this even the a tags inherit within the paragraphs \*/
+font-style: italic; /*this even the a tags inherit within the paragraphs */
 }
 li {
-text-decoration: line-through; /\* applies to all li elements, in both ul and ol tags \*/
+text-decoration: line-through; /* applies to all li elements, in both ul and ol tags */
 }
+```
 
-## 2.4.2 Inheriting style
+<h3 id="ch2-4-2">2.4.2 Inheriting style</h3>
 
 Part of the reason a well structured HTML document is so important is because HTML elements inherit stylistic properties. 
 
 Let\'s say we have an HTML document (see the corresponding [Code Pen](https://codepen.io/techie4good/pen/mAVVkY?editors=1100#0)):
 
 ```
-1.  <!DOCTYPE html>
-2.  <html lang="en">
-3.      <head\>
-4.          <meta charset="utf-8">
-5.          <title>My HTML page</title>
-6.          <link rel="stylesheet" href="style.css">
-7.      </head>
-8.      <body>
-9.          <header>
-10.             <h1> Title </h1>
-11.             <h2> sub title </h2>
-12.         </header>
-13.         <section>
-14.             <p> This is my paragraph text </p>
-15.             <ul>
-16.                 <li> list item 1 </li>
-17.                 <li> list item 2 </li>
-18.                 <li> list item 3 </li>
-19.             </ul>
-20.         </section>
-21.     </body>
-22. </html>
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>My HTML page</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+   <header>
+      <h1> Title </h1>
+      <h2> sub title </h2>
+   </header>
+   <section>
+      <p> This is my paragraph text </p>
+      <ul>
+         <li> list item 1 </li>
+         <li> list item 2 </li>
+         <li> list item 3 </li>
+      </ul>
+   </section>
+   </body>
+</html>
 ```
 
 This is basic structure from the way I have formatted the tags with tabbing, but here is a more visual representation of the hierarchy of tags. Tags that contain other tags are parents, and the tags inside of them are their children in the following tree representation:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!---------------------------- 32. html inheritance structure (xxx) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
-   alt="." />
+<img src="./images/image032.png?raw=true"
+   width="40%"
+   alt="HTML Inheritance Structure." />
 </p>
-![HTML inheritance structure](images/media/image32.png){width="4.0in" height="2.7363298337707787in"}
+<!-------
+{width="4.0in" height="2.7363298337707787in"}
+-------->
 
 Through inheritance, CSS property values set on one element will be transferred down the tree to that element\'s children. In this example, every element gets the same font because we applied it to the body tag. Since the body element is a common parent for all visible elements is a convenient selector for when you want to set stylistic rules for the entire document.
 
@@ -2375,14 +2333,13 @@ ul {
 Not every property is inherited, but many are. The CSS specification tell you, for each property, whether it is inheritable. It\'s a good idea to keep in mind the structure of your HTML document when choosing your selectors so you can use inheritance to your advantage by applying styles to the top most element and save yourself extra CSS code.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------ 33.  image (xxx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
+<img src="./images/image033.png?raw=true"
+   width="70%"
    alt="." />
 </p>
-![](images/media/image33.png){width="6.9375in" height="2.1979166666666665in"}
 
 ### HTML
 
@@ -2480,27 +2437,27 @@ Here is a [CodePen](https://codepen.io/w3devcampus/pen/PVJLEm) that explores u
 ### HTML
 
 ```
-> <html lang="en">
-> <head>
-> <meta charset="utf-8">
-> <link rel="stylesheet" href="style.css">
-> </head>
-> <body>
-> <h1>Title 1</h1>
-> <h2>Title 2</h2>
-> <ul>
-> <li>Part of the reason a well structured HTML document is so important</li>
-> <li>is because HTML elements inherit stylistic properties</li>
-> <li>You can see it\'s basic structure from the way I have formatted the tags with tabbing</li>
-> </ul>
-> <h3>Title 3</h3>
-> <ol>
-> <li>but here is a more visual representation of the hierarchy of tags</li>
-> <li>Tags that contain other tags are parents</li>
-> <li>and the tags inside of them are their children in the following tree representation</li>
-> </ol>
-> </body>
-> </html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <h1>Title 1</h1>
+      <h2>Title 2</h2>
+      <ul>
+         <li>Part of the reason a well structured HTML document is so important</li>
+         <li>is because HTML elements inherit stylistic properties</li>
+         <li>You can see it\'s basic structure from the way I have formatted the tags with tabbing</li>
+      </ul>
+      <h3>Title 3</h3>
+      <ol>
+         <li>but here is a more visual representation of the hierarchy of tags</li>
+         <li>Tags that contain other tags are parents</li>
+         <li>and the tags inside of them are their children in the following tree representation</li>
+      </ol>
+   </body>
+</html>
 ```
 
 ## 2.4.4 Activity - Apply your own selectors
@@ -2512,16 +2469,16 @@ Let\'s say you have the following [CodePen](http://codepen.io/w3devcampus/pen/R
 ### HTML code:
 
 ```
-> <!DOCTYPE html\>
-> \<html lang=\"en\"\>
->     \<head\>
->         \<meta charset=\"utf-8\"\>
->         \<title\>My HTML page\</title\>
->         \<link rel=\"stylesheet\" href=\"style.css\"\>
->     \</head\>
->     \<body\>
->         \<h1\>Main Title\</h1\>
->         \<p\>          
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>My HTML page</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <h1>Main Title</h1>
+         <p>
 ```
 
 In unit 2.3, we defined a CSS selector as the portion of the CSS rule that tells the browser on which HTML element to apply the defined style. 
@@ -2531,19 +2488,19 @@ When your HTML is simple, the selectors can be simple as well. The most basic se
 In unit 2.2, we briefly mentioned the fact that properties apply to the entire hierarchy of HTML elements to which they are attached. This means that you will have to be very careful which selectors you choose to use in combination with your chosen style. When choosing your selector you might want to keep the following aspects of an HTML element in mind
 
 ```
-            </p>
-            <h2>Sub Title 1</h2>
-            <ul>
-                <li>How many of these HTML elements are on my page?</li>
-                <li>Do I want this style to apply to every one of these elements?</li>
-                <li>What are this HTML element's children</li>
-            </ul>
-            <h2>Sub Title 2</h2>
-            <ol>
-                <li>and do I want this style to apply to them as well?</li>
-                <li>Is this element a block element or an inline element</li>
-                <li>and does this style make sense in that context?</li>
-            </ol>
+</p>
+   <h2>Sub Title 1</h2>
+      <ul>
+         <li>How many of these HTML elements are on my page?</li>
+         <li>Do I want this style to apply to every one of these elements?</li>
+         <li>What are this HTML element's children</li>
+      </ul>
+   <h2>Sub Title 2</h2>
+      <ol>
+          <li>and do I want this style to apply to them as well?</li>
+          <li>Is this element a block element or an inline element</li>
+          <li>and does this style make sense in that context?</li>
+       </ol>
     </body>
 </html>
 ```
@@ -2551,27 +2508,23 @@ In unit 2.2, we briefly mentioned the fact that properties apply to the entire h
 ### CSS code:
 
 ```
-> /*selector here*/  {
->     background-color: #ccffcc;
->     color: #336600;
-> }
->  
-> /*selector here*/  {
->     background-color: #336600;
->     color: #ccffcc;
-> }
->  
-> /*selector here*/  {
->     border: 3px solid;
-> }
->  
-> /*selector here*/  {
->     background-color: #ffff99;
-> }
->  
-> /*selector here*/  {
->     text-decoration: underline;
-> }
+/*selector here*/  {
+    background-color: #ccffcc;
+    color: #336600;
+}
+/*selector here*/  {
+    background-color: #336600;
+    color: #ccffcc;
+}
+/*selector here*/  {
+    border: 3px solid;
+}
+/*selector here*/  {
+    background-color: #ffff99;
+}
+/*selector here*/  {
+    text-decoration: underline;
+}
 ```
 
 Note that there are HTML and some CSS rules, but the rules are missing their selectors.\
@@ -2673,9 +2626,9 @@ These color properties take in a color as their value, and there are three diffe
 Probably the simplest and least flexible way to set colors is using a keyword. A keyword is one of the predefined colors like \"blue\" or \"green\". 
 
 ```
-1.  body {
-2.     background-color: teal; 
-3.  }
+body {
+   background-color: teal; 
+}
 ```
 
 The list of color keywords is: aqua, black, blue, fuchsia, gray, green, lime, maroon, navy, olive, orange, purple, red, silver, teal, white, and yellow. You can read more about these keyword colors [here.](https://www.w3.org/TR/CSS22/syndata.html#value-def-color)
@@ -2687,9 +2640,9 @@ A HEX code is a 6 character code to represent the color, giving you a lot more o
 When using a hex code in CSS you must put a hash character in front of the 6 characters like so:
 
 ```
-1.  body {
-2.     background-color: #00CC00; /\* green \*/
-3.  }
+body {
+   background-color: #00CC00; /* green */
+}
 ```
 
 #### decimal
@@ -2697,9 +2650,9 @@ When using a hex code in CSS you must put a hash character in front of the 6 cha
 You can also specify colors using rgb in decimal form like so:
 
 ```
-1.  body {
-2.     background-color: rgb(0,204,0); /\*same green as above\*/
-3.  }
+body {
+   background-color: rgb(0,204,0); /\*same green as above\*/
+}
 ```
 
 This will give you the same range as HEX values. This method is a less common, but it\'s up to you which method of specifying colors you prefer.
@@ -2730,12 +2683,9 @@ You can see these color properties in action using all three approaches to setti
 
 -   We will discuss how to pick a good color palette for your site in Module 5, but in the meantime, [here is a good wiki article from the W3C](https://www.w3.org/wiki/Colour_theory) discussing the general use of colors on the Web.
 
-```{=html}
-<!-- -->
-```
 -   More color units are described in the [CSS Color Module Level 3 specification.](https://www.w3.org/TR/css3-color/#colorunits)
 
-## 2.5.3 Font properties
+<h3 id="ch2-5-3">2.5.3 Font properties</h3>
 
 Font is an extremely important part of how you communicate content to your user. 
 
@@ -2743,12 +2693,15 @@ Font is an extremely important part of how you communicate content to your user.
 
 \[[*Documentation*](https://www.w3.org/TR/css-fonts-4/#font-family-prop)\]
 
-Since not all fonts are available on all computers (there are thousands of fonts, and most are not free), CSS provides a system of *fallbacks*. You list the font that you want first, then any fonts that might fill in for the first if it is unavailable, and you should end the list with a *generic font,* of which are: **[serif](https://www.w3.org/TR/css-fonts/#serif-def), [sans-serif](https://www.w3.org/TR/css-fonts/#sans-serif-def), [monospace](https://www.w3.org/TR/css-fonts/#monospace-def), [cursive](https://www.w3.org/TR/css-fonts/#cursive-def)** and **[fantasy](https://www.w3.org/TR/css-fonts/#fantasy-def). **
+Since not all fonts are available on all computers (there are thousands of fonts, and most are not free), CSS provides a system of *fallbacks*. You list the font that you want first, then any fonts that might fill in for the first if it is unavailable, and you should end the list with a *generic font,* of which are: 
 
 ```
-1.  p {
-2.     font-family: Helvetica, Verdana, sans-serif;
-3.  }
+**[serif](https://www.w3.org/TR/css-fonts/#serif-def), [sans-serif](https://www.w3.org/TR/css-fonts/#sans-serif-def), [monospace](https://www.w3.org/TR/css-fonts/#monospace-def), [cursive](https://www.w3.org/TR/css-fonts/#cursive-def)** and **[fantasy](https://www.w3.org/TR/css-fonts/#fantasy-def). **
+
+```
+p {
+   font-family: Helvetica, Verdana, sans-serif;
+}
 ```
 
 This property sets the font face. There is a collection of Web safe fonts that generally each browser has agreed to support, but there are an unlimited number of different fonts. The problem is they might not all look the way you want them to on different browsers.
@@ -2760,9 +2713,9 @@ See this [quick reference](https://www.w3.org/Style/Examples/007/fonts) listin
 Something to keep in mind: some fonts have names with multiple words like \"Times New Roman\" or \"Century Gothic\". When using these fonts you\'ll need to surround the entire name with quotes so the browser understands that is a single font name like so:
 
 ```
-1.  p {
-2.     font-family: \"Times New Roman\", \"New Century Schoolbook\", serif;
-3.  }
+p {
+   font-family: "Times New Roman", "New Century Schoolbook", serif;
+}
 ```
 
 ### font-size
@@ -2770,9 +2723,9 @@ Something to keep in mind: some fonts have names with multiple words like \"Time
 \[[*Documentation*](https://www.w3.org/TR/css-fonts-4/#font-size-prop)\]
 
 ```
-1.  h1 {
-2.     font-size: 2.5em;
-3.  }
+h1 {
+   font-size: 2.5em;
+}
 ```
 
 CSS offers a number of different units for expressing length. Font-size sets the overall scale of your text. You can use a lot of different units to set the font size. Some of these units you are probably familiar with if you have used text editors before such as pt size or you can use px size. However, these methods are not advised because they are static and will not adapt based on screen size. It\'s better to use relative units, such as em, instead.
@@ -2794,9 +2747,9 @@ Another great resource is this article on [font sizing tips and tricks](https:/
 \[[*Documentation*](https://www.w3.org/TR/css-fonts-4/#font-weight-prop)\]
 
 ```
-1.  p {
-2.  font-weight: bold;
-3.  }
+p {
+   font-weight: bold;
+}
 ```
 
 The weight of a font is the thickness of the letters. You can set this property using keywords with which you might be familiar: bold, normal or lighter. You can also set this property more specifically using numerical values 100, 200, 300, 400, 500, 600, 700, 800 or 900. Normal is represented as 400, whereas bold is 700.
@@ -2808,9 +2761,9 @@ Note that few fonts have settings for all values. If the value is not available,
 \[[*Documentation*](https://www.w3.org/TR/css-fonts-4/#font-style-prop)\]
 
 ```
-1.  p {
-2.     font-style: italic;
-3.  }
+p {
+   font-style: italic;
+}
 ```
 
 The font style property adjusts the angle of the letters in relation to the horizontal plane. Italic forms are generally cursive in nature while oblique faces are typically sloped versions of the regular face.
@@ -2820,9 +2773,9 @@ The font style property adjusts the angle of the letters in relation to the hori
 \[[*Documentation*](https://www.w3.org/TR/css-text-decor-3/#text-decoration-property)\]
 
 ```
-1.  p {
-2.     text-decoration: underline;
-3.  }
+p {
+   text-decoration: underline;
+}
 ```
 
 Text-decoration adds a line across your text. You can set this line to be underneath your text, underline, through your text, line-through, or on top, overline.
@@ -2844,43 +2797,43 @@ Here is a [CodePen exploring each of these styles](https://codepen.io/w3devcamp
 ### HTML code:
 
 ```
-1.  \<!DOCTYPE html\>
-2.  \<html lang=\"en\"\>
-3.      \<head\>
-4.          \<meta charset=\"utf-8\"\>
-5.          \<title\>My HTML page\</title\>
-6.          \<link rel=\"stylesheet\" href=\"style.css\"\>
-7.      \</head\>
-8.      \<body\>
-9.          \<h1\>Main title\</h1\>
-10.         \<h2\>Sub title\</h2\>
-11.         \<p\>
-12.             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacinia consequat nibh, non commodo neque maximus semper. Vivamus non ultricies massa, vel convallis nunc. Aenean tempus risus at orci faucibus, eget hendrerit elit sodales. Quisque imperdiet diam nibh, ut semper enim dapibus et. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean in feugiat neque. Nunc eget libero mauris. Maecenas condimentum luctus nulla.
-13. 
-14. Nulla a sem orci. Cras eget neque viverra, condimentum nulla et, tincidunt libero. In sit amet quam purus. Aliquam erat volutpat. Sed hendrerit urna quis sapien mattis dictum. Etiam vehicula tortor eu libero finibus dapibus. Mauris nunc neque, sodales nec est sed, gravida convallis sem. Nam vulputate sed est sed eleifend. Quisque sodales elit at ornare vulputate.
-15.         \</p\>
-16.     \</body\>
-17. \</html\>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My HTML page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Main title</h1>
+        <h2>Sub title</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacinia consequat nibh, non commodo neque maximus semper. Vivamus non ultricies massa, vel convallis nunc. Aenean tempus risus at orci faucibus, eget hendrerit elit sodales. Quisque imperdiet diam nibh, ut semper enim dapibus et. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean in feugiat neque. Nunc eget libero mauris. Maecenas condimentum luctus nulla.
+
+Nulla a sem orci. Cras eget neque viverra, condimentum nulla et, tincidunt libero. In sit amet quam purus. Aliquam erat volutpat. Sed hendrerit urna quis sapien mattis dictum. Etiam vehicula tortor eu libero finibus dapibus. Mauris nunc neque, sodales nec est sed, gravida convallis sem. Nam vulputate sed est sed eleifend. Quisque sodales elit at ornare vulputate.
+        </p>
+    </body>
+</html>
 ```
 
 ### CSS code:
 
 ```
-1.  body {
-2.      font-family: Helvetica, Verdana, sans-serif;
-3.      font-size: 12pt;
-4.  }
-5.  h1 {
-6.      font-size: 3em;
-7.      font-style: italic;
-8.  }
-9.  h2 {
-10.     font-size: 2em;
-11.     text-decoration: underline;
-12. }
-13. p {
-14.     font-weight: bold;
-15. }
+body {
+    font-family: Helvetica, Verdana, sans-serif;
+    font-size: 12pt;
+}
+h1 {
+    font-size: 3em;
+    font-style: italic;
+}
+h2 {
+    font-size: 2em;
+    text-decoration: underline;
+}
+p {
+    font-weight: bold;
+}
 ```
 
 ### Resources
@@ -2891,7 +2844,7 @@ There are even more ways to adjust text appearance and you can read more about 
 
 -   [CSS Text Decoration Module Level 4](https://www.w3.org/TR/css-text-decor-4/)
 
-## 2.5.4 Spacing properties
+<h3 id="ch2-5-4">2.5.4 Spacing properties</h3>
 
 CSS provides a great set of tools to help you position the HTML elements on your page, and we will cover that in depth in Module 4. For now we will talk about how to apply white space around individual HTML elements.
 
@@ -2922,9 +2875,9 @@ The above image is called the \"box model\", which we will get into more detail 
 \[[*Documentation*](https://www.w3.org/TR/CSS2/box.html#propdef-padding-top)\]
 
 ```
-1.  p {
-2.     padding: 20px;
-3.  }
+p {
+   padding: 20px;
+}
 ```
 
 \"Padding\" is the white space that sits closest to an HTML element. Many elements already have a default padding defined. For example, ul elements by default are indented to the left a bit because they have a left padding.
@@ -2936,9 +2889,9 @@ You can set the padding on an element\'s four sides independently using padding
 \[[*Documentation*](https://www.w3.org/TR/css3-background/#borders)\]
 
 ```
-1.  p {
-2.     border: 1px black solid;
-3.  }
+p {
+   border: 1px black solid;
+}
 ```
 
 The \"border\" is the area outside the padding of an HTML element. By default, borders are set to be empty, but you can set their width, color, pattern, even an image! Like padding, you can even adjust the four sides of a border independent of one another using border-top, border-right, border-bottom or border-left. You can also adjust the different aspects of a border with border-width, border-color, and border-style. In the above example, I collapsed all of these properties into a single simple property and value set.
@@ -2948,9 +2901,9 @@ The \"border\" is the area outside the padding of an HTML element. By default, b
 \[[*Documentation*](https://www.w3.org/TR/CSS2/box.html#propdef-margin)\]
 
 ```
-1.  p {
-2.     margin-bottom: 50px;
-3.  }
+p {
+   margin-bottom: 50px;
+}
 ```
 
 An HTML element\'s \"margin\" is the white space that sits outside the border. Margins of HTML elements interact with one another on the page to determine how they are arranged on the page. A lot of elements have default margins applied.
@@ -2974,36 +2927,36 @@ Here is a [CodePen exploring padding, border and margin](https://codepen.io/tec
 ### CSS code:
 
 ```
-1.  body {
-2.      background-color: #99ffff;
-3.      margin-top: 20px;
-4.      margin-left: 70px;
-5.  }
-6.  h1 {
-7.      background-color: #ff6699;
-8.      border-bottom: 20px #ff0066 solid;
-9.      margin-bottom: 10px;
-10.     padding: 5px;
-11. }
-12. ul {
-13.     background-color: #ff9933;
-14.     border-left: 5px black dashed;
-15.     margin: 50px;
-16. }
-17. li {
-18.     background-color: #ffcc66;
-19.     margin: 10px;
-20.     padding: 10px;
-21. }
-22. p {
-23.     background-color: #ccff99;
-24.     border: 10px white double;
-25.     padding: 0px;
-26.     margin: 0px;
-27. }
+body {
+    background-color: #99ffff;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+h1 {
+    background-color: #ff6699;
+    border-bottom: 20px #ff0066 solid;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+ul {
+    background-color: #ff9933;
+    border-left: 5px black dashed;
+    margin: 50px;
+}
+li {
+    background-color: #ffcc66;
+    margin: 10px;
+    padding: 10px;
+}
+p {
+    background-color: #ccff99;
+    border: 10px white double;
+    padding: 0px;
+    margin: 0px;
+}
 ```
 
-## 2.5.5 Activity - Adding your own properties
+<h3 id="ch2-5-5">2.5.5 Activity - Adding your own properties</h3>
 
 Now that you have a few properties in your CSS toolbox, let\'s practice using them. 
 
@@ -3021,31 +2974,31 @@ Here is some HTML and CSS, but as you can see the CSS rules have selectors but n
 ### HTML code:
 
 ```
-1.  \<!DOCTYPE html\>
-2.  \<html lang=\"en\"\>
-3.      \<head\>
-4.          \<meta charset=\"utf-8\"\>
-5.          \<title\>My HTML page\</title\>
-6.          \<link rel=\"stylesheet\" href=\"style.css\"\>
-7.      \</head\>
-8.      \<body\>
-9.          \<h1\>Adding Properties\</h1\>
-10.         \<h2\>Using Colors, Fonts and Spacing\</h2\>
-11.         \<p\>          
+1.  <!DOCTYPE html>
+2.  <html lang="en">
+3.      <head>
+4.          <meta charset="utf-8">
+5.          <title>My HTML page</title>
+6.          <link rel="stylesheet" href="style.css">
+7.      </head>
+8.      <body>
+9.          <h1>Adding Properties</h1>
+10.         <h2>Using Colors, Fonts and Spacing</h2>
+11.         <p>          
 12. There is a huge array of different aspects you can style: color, font, size, spacing and much more! For a complete list of official CSS properties, please check: https://www.w3.org/Style/CSS/all-properties#list or https://meiert.com/en/indices/css-properties/
-13.         \</p\>
-14.         \<ol\>
-15.             \<li\>Make sure to look up what the available values are before using a property\</li\>
-16.             \<li\>because if the browser doesn\'t understand your value it will typically just skip applying any style\</li\>
-17.             \<li\>This is where programs like Visual Studio Code come in handy\</li\>
-18.             \<li\>because as you type out the property the program will automatically suggest possible values for you \</li\>
-19.             \<li\>Sometimes the easiest way to learn about different properties is to explore the style on one of your favorite websites\</li\>
-20.         \</ol\>
-21.         \<p\>     
-22. If you aren\'t sure how to do this refer to the demo in unit 1.3 to see this in action while inspecting CSS Zen Garden designs. As you can see, the browser tools display the value of the properties, and if you click into that space it will even give you some of the different value options and you can even change them and watch the Web site update dynamically.
-23.         \</p\>
-24.     \</body\>
-25. \</html\>
+13.         </p>
+14.         <ol>
+15.             <li>Make sure to look up what the available values are before using a property</li>
+16.             <li>because if the browser doesn't understand your value it will typically just skip applying any style</li>
+17.             <li>This is where programs like Visual Studio Code come in handy</li>
+18.             <li>because as you type out the property the program will automatically suggest possible values for you </li>
+19.             <li>Sometimes the easiest way to learn about different properties is to explore the style on one of your favorite websites</li>
+20.         </ol>
+21.         <p>     
+22. If you aren't sure how to do this refer to the demo in unit 1.3 to see this in action while inspecting CSS Zen Garden designs. As you can see, the browser tools display the value of the properties, and if you click into that space it will even give you some of the different value options and you can even change them and watch the Web site update dynamically.
+23.         </p>
+24.     </body>
+25. </html>
 ```
 
 ### CSS code:
@@ -3111,13 +3064,13 @@ Here are the fonts used above:
 \
 But this points to a fundamental limitation of font-family in CSS: you cannot be sure that somebody who views your pages has all the fonts that you chose. The solution is to embed the fonts in the style sheet (a technique known as Web Fonts). But that is beyond the scope of this course.
 
-## 2.6.1 Style studies
+<h3 id="2-6-1">2.6.1 Style studies</h3>
 
 In each unit, we will have a section like this one where we profile specific aspects of Web sites and the various ways you can use CSS to style them. This is intended to give you practical examples of how to apply the CSS you are developing along the way. 
 
 Each style study will discuss the different concerns of styling a given element and three sample styles.
 
-## 2.6.2 Titles
+<h3 id="ch2-6-2">2.6.2 Titles</h3>
 
 There are a couple different categories of text on a Web page: titles, body text, links, captions, etc.
 
@@ -3125,12 +3078,12 @@ You\'ll want to style each of these differently to help your user understand the
 
 There are different aspects of text you can alter to make it stand out. 
 <ul>
-<li>size</li>
-<li>font<M/li>
-<li>capitalization</li>
-<li>color</li>
-<li>emphasis</li>
-<li>weight</li>
+   <li>size</li>
+   <li>font<M/li>
+   <li>capitalization</li>
+   <li>color</li>
+   <li>emphasis</li>
+   <li>weight</li>
 </ul>
 
 However, you should only alter a few of these following aspects at a time to prevent your titles from being too distracting. The below is an example of using too many different aspects of font for emphasis:
@@ -3147,16 +3100,16 @@ However, you should only alter a few of these following aspects at a time to pre
 ### CSS code:
 
 ```
-1.  #busyTitle h1{
-2.      font-size: 2em;
-3.      font-family: Impact;
-4.      color: yellow;
-5.      background-color: gray;
-6.      font-style: italic;
-7.      font-variant: small-caps;
-8.      font-weight: bold;
-9.      text-decoration: underline;
-10. }
+#busyTitle h1{
+    font-size: 2em;
+    font-family: Impact;
+    color: yellow;
+    background-color: gray;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bold;
+    text-decoration: underline;
+}
 ```
 
 ### Title 1
@@ -3177,7 +3130,7 @@ This title uses soft clean colors based on print media, so we chose a serif font
 ```
 1.  #design1 {
 2.      background-color: #F4F4F4;
-3.      font-family: \"Lucida Sans Unicode\", sans-serif;
+3.      font-family: "Lucida Sans Unicode", sans-serif;
 4.  }
 5.   
 6.  #design1 h1 {
@@ -3210,21 +3163,21 @@ This design is intended to look futuristic, so it only uses sans-serif, thin fon
 ### CSS code:
 
 ```
-1.  #design2 {
-2.      font-family: Century Gothic, sans-serif;
-3.      background-color: #0E0B16;
-4.  }
-5.   
-6.  #design2 h1 {
-7.      font-weight: 400;
-8.      font-size: 2.3em;
-9.      color: #A239CA;
-10.     font-style: italic;
-11. }
-12.  
-13. #design2 p {
-14.     color: #E7DFDD;
-15. }
+#design2 {
+   font-family: Century Gothic, sans-serif;
+   background-color: #0E0B16;
+}
+ 
+#design2 h1 {
+   font-weight: 400;
+   font-size: 2.3em;
+   color: #A239CA;
+   font-style: italic;
+}
+ 
+#design2 p {
+   color: #E7DFDD;
+}
 ```
 
 ### Title 3
@@ -3243,28 +3196,28 @@ This design is based on pastel primary colors and uses color as a highlight agai
 ### CSS code:
 
 ```
-1.  #design3 {
-2.  color: #DF744A;
-3.  font-family: Arial, sans-serif;
-4.  }
-5.  #design3 h1 {
-6.  background-color: #BFD8D2;
-7.  text-align: center;
-8.  font-size: 4em;
-9.  font-weight: 100;
-10. padding: 30px;
-11. border-bottom: 5px #DCB239 solid;
-12. font-family: Helvetica, sans-serif;
-13. }
-14. #design3 p {
-15. background-color: #FEDCD2;
-16. padding: 50px;
-17. }
+#design3 {
+   color: #DF744A;
+   font-family: Arial, sans-serif;
+}
+#design3 h1 {
+   background-color: #BFD8D2;
+   text-align: center;
+   font-size: 4em;
+   font-weight: 100;
+   padding: 30px;
+   border-bottom: 5px #DCB239 solid;
+   font-family: Helvetica, sans-serif;
+}
+#design3 p {
+   background-color: #FEDCD2;
+   padding: 50px;
+}
 ```
 
 [Here is a CodePen of all the above examples of different title designs for you to play around with](https://codepen.io/w3devcampus/pen/LYWRVvP).
 
-## 2.6.3 Buttons
+<h3 id="ch2-6-3">2.6.3 Buttons</h3>
 
 Buttons are a key way that your users will interact with your page. Often buttons are a call to action for your user- so you will want them to stand out!
 
@@ -3305,17 +3258,17 @@ This design is a pretty traditional button where it has a distinct background-co
 
 ```
 #design1 {
-    background-color: #94618E;
-    color: #F8EEE7;
-    font-family: Corbel;
+   background-color: #94618E;
+   color: #F8EEE7;
+   font-family: Corbel;
 }
 #design1 button {
-    background-color: #F4DECB;
-    padding: 10px 25px;
-    border: 5px solid #F8EEE7;
-    color: #49274A;
-    font-weight: bold;
-    font-size: 1.2em;
+   background-color: #F4DECB;
+   padding: 10px 25px;
+   border: 5px solid #F8EEE7;
+   color: #49274A;
+   font-weight: bold;
+   font-size: 1.2em;
  }
 ```
 
@@ -3336,17 +3289,17 @@ This is a more modern button design where there is no distinct border, but just 
 
 ```
 #design2 {
-    background-color: #D9D9D9;
-    color: white;
-    font-family: \"Century Gothic\", sans-serif;
+   background-color: #D9D9D9;
+   color: white;
+   font-family: "Century Gothic", sans-serif;
 }
 #design2 button {
-    background-color: #4484CE;
-    border: 0px;
-    color: white;
-    padding: 10px 50px;
-    font-family: Impact, sans-serif;
-    font-size: 1.3em;
+   background-color: #4484CE;
+   border: 0px;
+   color: white;
+   padding: 10px 50px;
+   font-family: Impact, sans-serif;
+   font-size: 1.3em;
 }
 ```
 
@@ -3363,27 +3316,27 @@ This is a big graphic button that uses border-radius to give the button rounded�
    alt="." />
 </p>
 
-CSS code:
+<h4>CSS code:</h4>
 
 ```
-1.  #design3 {
-2.      font-family: Impact, sans-serif;
-3.      font-size: 2em;
-4.  }
-5.   
-6.  #design3 button {
-7.      font-family: Impact, sans-serif;
-8.      font-weight: 100;
-9.      background-color: white;
-10.     border: 7px #EC576B solid;
-11.     border-radius: 20px;
-12.     font-size: 0.8em;
-13. }
+#design3 {
+   font-family: Impact, sans-serif;
+   font-size: 2em;
+}
+  
+#design3 button {
+   font-family: Impact, sans-serif;
+   font-weight: 100;
+   background-color: white;
+   border: 7px #EC576B solid;
+   border-radius: 20px;
+   font-size: 0.8em;
+}
 ```
 
 In summary, here are [three different ways to style buttons you can play around with](https://codepen.io/techie4good/pen/ORXzoo?editors=1100#0).
 
-## 2.6.4 Activity - Titles and buttons
+<h3 id="ch2-6-4">2.6.4 Activity - Titles and buttons</h3>
 
 Now that you know a bit more about how CSS is written, you will start to understand and notice more of the design elements as you navigate around the Web. 
 
@@ -3477,7 +3430,7 @@ Remember that if you want to post an assignment without personal information o
 
 -   pseudo classes
 
-## 3.1.1 Welcome to Module 3
+<h3 id="ch3-1-1">3.1.1 Welcome to Module 3</h3>
 
 In this module, we\'re going to be talking about selectors.
 
@@ -3487,7 +3440,7 @@ We're going to need a lot more tools than just the HTML tag name.
 
 So, in this module, we\'re going to talk about classes and IDs, pseudo-classes, contextual selectors, and then how you combine all these selectors together and understand the Cascading part of Cascading style sheets.
 
-## 3.1.2 Module 3 outline
+<h3 id="ch3-1-2">3.1.2 Module 3 outline</h3>
 
 In this module, we\'ll learn:
 
@@ -3499,7 +3452,7 @@ In this module, we\'ll learn:
 
 -   What the \"Cascading\" part of \"Cascading Style Sheets\" means
 
-## 3.1.3 The power of selectors
+<h3 id="ch3-1-3">3.1.3 The power of selectors</h3>
 
 In our last module, we learned about something called Selectors.
 
@@ -3533,21 +3486,21 @@ The CSS code mentioned in above video:
 
 ```
 p {
-    color: white;
-    background-color: midnightblue;
-    font-size: large;
+   color: white;
+   background-color: midnightblue;
+   font-size: large;
 }
 .middle {
-    color: darkviolet;
-    background-color: lightgray;
-    padding-left: 120px;
-    padding-right: 120px;
-    font-size: large;
+   color: darkviolet;
+   background-color: lightgray;
+   padding-left: 120px;
+   padding-right: 120px;
+   font-size: large;
 }
 #bottom {
-    background-color: transparent;
-    color: black;
-    font-family: 'Franklin Gothic Medium';
+   background-color: transparent;
+   color: black;
+   font-family: 'Franklin Gothic Medium';
 }
 ```
 
@@ -3600,9 +3553,9 @@ Class names must be single words, but you can include digits and dashes as long 
 To apply a CSS rule to a class, you must precede its name by a period (\".\"), like in the code below:
 
 ```
-1.  .className {
-2.      color: blue;
-3.  }
+.className {
+   color: blue;
+}
 ```
 
 #### IDs
@@ -3612,15 +3565,15 @@ To apply a CSS rule to a class, you must precede its name by a period (\".\"), l
 An ID is an HTML attribute that specifies a name or unique identifier for a particular HTML element. They are like classes with a very important distinction: the value of the ID attribute must be unique throughout the document. This lets you target a single HTML element for styling. You set the id of an HTML element like so:
 
 ```
-1.  <p id="MyFirstId"> This is an extra special paragraph </p>
+<p id="MyFirstId"> This is an extra special paragraph </p>
 ```
 
 ID names have the same rules as class names: start with a letter, can include numbers and dashes, no spaces. The way to create a selector for an ID is also similar to how you create a selector for a class, except you replace the period with a hash symbol (\"#\") like in the code below:
 
 ```
-1.  #MyFirstId {
-2.      color: blue;
-3.  }
+#MyFirstId {
+   color: blue;
+}
 ```
 
 ### Example
@@ -3716,11 +3669,11 @@ p,h2 {
 As you can note, it\'s not too interesting because not all of the styles are applied to the HTML as shown in the pen below:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------ 55.  image (xxx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
+<img src="./images/image055.png?raw=true"
+   width="70%"
    alt="." />
 </p>
 ![](images/media/image55.png){width="6.9375in" height="2.609027777777778in"}
@@ -3728,16 +3681,16 @@ As you can note, it\'s not too interesting because not all of the styles are app
 In this activity, your job is to add the HTML id and class attributes to the correct elements so that you get a final result that looks like this:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------ 56.  image (xxx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
+<img src="./images/image056.png?raw=true"
+   width="70%"
    alt="." />
 </p>
 ![](images/media/image56.png){width="6.9375in" height="6.547916666666667in"}
 
-## 3.3.1 CSS pseudo-classes
+<h3 id="ch3-3-1">3.3.1 CSS pseudo-classes</h3>
 
 Sometimes, you\'ll want to adjust the style of an element, based on how the user has interacted with it. The best example of this is links.
 
@@ -3759,10 +3712,10 @@ Here are some of the most popular pseudo-classes.
 \[[Documentation](https://www.w3.org/TR/CSS22/selector.html#link-pseudo-classes)\]
 
 ```
-1.  a:visited {
-2.     color: gray;
-3.     font-style: italic;
-4.  }
+a:visited {
+   color: gray;
+   font-style: italic;
+}
 ```
 
 These pseudo classes are the ones you are probably most familiar with. Even on this page you\'ve probably noticed that [links have different style](http://www.edx.org/) than paragraph text. The \<a\> tag by default sets the text color to blue with an underline, but have you ever seen a purple link? This is the \"visited\" pseudo-class that applies a different style to links that the user has already clicked. The opposite of visited is \"link\" which is a link a user has not yet clicked. These two states are mutually exclusive, meaning a link cannot be both at the same time.
@@ -3774,25 +3727,25 @@ These pseudo classes are the ones you are probably most familiar with. Even on t
 The hover pseudo-class is applied when the user points at an object but doesn\'t activate it, most commonly when they let their mouse cursor lay on top of an element without clicking. Some form factors don\'t support this, such as touch devices or pen surfaces. This is a really good way to encourage a user to click a link and you will often see it used in navigation bars.
 
 ```
-1.  li:hover {
-2.     background-color: yellow;
-3.  }
+li:hover {
+   background-color: yellow;
+}
 ```
 
 The focus pseudo class applies when a user has chosen to begin interacting with an element, such as when they click into a form input field so that the input field is then ready to accept keyboard input.
 
 ```
-1.  input:focus {
-2.     background-color: blue;
-3.  }
+input:focus {
+   background-color: blue;
+}
 ```
 
 The active pseudo-class applies when an element is activated. This happens in the time between when the user clicks their mouse and they release it.
 
 ```
-1.  p:active {
-2.     color: red;
-3.  }
+p:active {
+   color: red;
+}
 ```
 
 You can read more about pseudo-classes in this [MDN \"Pseudo-classes\"](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) document.
@@ -3811,10 +3764,11 @@ You can read more about pseudo-classes in this [MDN \"Pseudo-classes\"](https:/
 {width="6.9375in" height="3.0243055555555554in"}
 ------------>
 
-## 3.3.2 Activity - Applying pseudo classes
+<h3 id="ch3-3-2">3.3.2 Activity - Applying pseudo classes</h3>
 
 Now it\'s your turn to try out some pseudo classes. Here is a Web page (see the CodePen [Practice with Pseudoclasses](https://codepen.io/techie4good/pen/rraNJr/)) and the CSS code:
 
+```
 1.  body {
 2.     background-color: #006666;
 3.     color: white;
@@ -3909,22 +3863,22 @@ Now, let\'s take a look at how you can order all the selectors you have in your 
 When you use two selectors separated by a space on a rule, you scope the rule to the elements that correspond to the selector on the right that are INSIDE the elements that correspond to the selector on the left. Let\'s say we have the following HTML:
 
 ```
-> <!DOCTYPE html\>
-> \<html lang=\"en\"\>
->     \<head\>
->         \<meta charset=\"utf-8\"\>
->     \</head\>
->     \<body\>
->         \<img src=\"images/pic1.jpg\" alt=\"pic 1\" /\>
->         \<p\>
->             This is my paragraph full of useful information
->             \<img src=\"images/pic2.jpg\" alt=\"pic 2\" /\>
->             Since there is text around these images, they should be styled a little differently.
->             \<img src=\"images/pic3.jpg\" alt=\"pic 3\" /\>
->         \</p\>
->         \<img src=\"images/pic4.jpg\" alt=\"pic 4\" /\>
->     \</body\>
-> \</html\>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <img src="images/pic1.jpg" alt="pic 1" />
+        <p>
+            This is my paragraph full of useful information
+            <img src="images/pic2.jpg" alt="pic 2" />
+            Since there is text around these images, they should be styled a little differently.
+            <img src="images/pic3.jpg" alt="pic 3" />
+        </p>
+        <img src="images/pic4.jpg" alt="pic 4" />
+    </body>
+</html>
 ```
 
 If we applied the following CSS rule then the images INSIDE the paragraph would be set to a width of 100px, but that rule would not apply to the images outside the paragraph. 
@@ -4246,7 +4200,7 @@ border: 2px dashed black;
 </p>
 ![cascading style practice with hover](images/media/image68.png){width="5.0in" height="3.7062062554680666in"}
 
-## 3.5.1 Images
+<h3 id="ch3-5-1">3.5.1 Images</h3>
 
 Images are an extremely important part of your page, not only as part of your content but as a key way to help style your page. Before you even get to styling them you need to put considerable thought into what type of images to include in your page. One of the easiest ways to slow down your site\'s performance is to include lots of large, high-quality images. There are two general things to consider when picking your images: what format and how large are they? 
 
@@ -4265,10 +4219,10 @@ It\'s important to format and size your image before uploading it to your site, 
 You can resize images using the width or height properties of CSS like so:
 
 ```
-1.  img {
-2.  width: 100px;
-3.  height: 100px;
-4.  }
+img {
+   width: 100px;
+   height: 100px;
+}
 ```
 
 In Module 4, we will discuss width and height in detail, but for the purpose of images, know that if you only set one of these two properties the image will scale according to its original dimensions. If you set both width and height, CSS will stretch your image to fit whatever you specify. 
@@ -4310,13 +4264,13 @@ As you can see, there are a lot of things to consider, and if you do not plan yo
 ```
 <!DOCTYPE html>
 <!--It's a best practice to always declare DOCTYPE!-->
-\<html lang=\"en\"\>
-\<head\>
-\<meta charset=\"utf-8\"\>
-\</head\>
-\<body\>
-\<div id=\"badImg\"\>
-\<p\>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+<div id="badImg">
+<p>
 ```
 
 Here is an image that is unformatted, so the surrounding text directly touches it.
@@ -4371,7 +4325,7 @@ width: 750px;
 }
 #images1 p {
 background-color: #02558B;
-font-family: \"Century Gothic\";
+font-family: "Century Gothic";
 font-size: 1.2em;
 color: white;
 width: 350px;
@@ -4390,14 +4344,14 @@ background-color: white;
 ```
 !DOCTYPE html>
 <!--It's a best practice to always declare DOCTYPE!-->
-<html lang=\"en\"\>
-<head\>
-<meta charset=\"utf-8\"\>
-</head\>
-<body\>
-<div id=\"images1\"\>
-<p\>
-One thing that can make a website look cohesive is to choose images that match the design\'s existing color palette. Sometimes this can be difficult if you have a lot of content images with lots of colors, but whenever possible try to match images to the colors surrounding it.
+<html lang="en">
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+<div id="images1">
+<p>
+One thing that can make a website look cohesive is to choose images that match the design's existing color palette. Sometimes this can be difficult if you have a lot of content images with lots of colors, but whenever possible try to match images to the colors surrounding it.
 </p>
 <img src="https://www.w3.org/blog/wp-content/uploads/2021/03/group_calendar-768x627.png" alt="snapshot of the Dataset Exchange Working Group Calendar" />
 </div>
@@ -4435,7 +4389,7 @@ Here is a group of images in a grid, similar to how you would want to display th
 <img src="https://www.w3.org/comm/assets/graphics/w3cx-accessibility-intro.jpg" alt="man and woman looking at a computer screen" />
 <img src="https://www.w3.org/WAI/content-images/wai-std-gl-overview/specs.png" alt="illustration showing the WAI guidelines for the different components, detailed description at https://www.w3.org/WAI/intro/components-desc.html#guide" />
 <img src="https://www.w3.org/WAI/images/WCAG21/small-1024x512@1x.png" alt="WCAG 2.1" />
-<img src="https://www.w3.org/International/questions/qa-indic-graphemes-data/jhilli_codepoints.png\" alt=\"Code points that make up the Bengali word 'jhilli'." />
+<img src="https://www.w3.org/International/questions/qa-indic-graphemes-data/jhilli_codepoints.png" alt="Code points that make up the Bengali word 'jhilli'." />
 <img src="https://www.w3.org/International/logos/mlw-notext-500-white.png" alt="logo of the W3C Internationalization Activity" />
 <img src="https://www.w3.org/TR/2020/WD-simple-ruby-20200609/img/fig06.svg" alt="Example of horizontal ruby" />
 </div>
@@ -4496,7 +4450,7 @@ This design demonstrates the use of an image both as a background and as a link.
 </p>
 <div id="navBox">
 <div id="clickHere"> <a href="https://www.w3.org">Click The Image</a> </div>
-<a href="www.w3.org"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Font_Awesome_5\_solid_arrow-circle-right.svg/512px-Font_Awesome_5\_solid_arrow-circle-right.svg.png" width="80" alt="A solid-weight icon from Font Awesome, a free web icon font" /></a>
+<a href="www.w3.org"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Font_Awesome_5_solid_arrow-circle-right.svg/512px-Font_Awesome_5_solid_arrow-circle-right.svg.png" width="80" alt="A solid-weight icon from Font Awesome, a free web icon font" /></a>
 </div>
 </div>
 </body>
@@ -4510,7 +4464,7 @@ div {
 margin-bottom: 50px;
 }
 #images3 {
-background-image: url(\'https://upload.wikimedia.org/wikipedia/commons/4/45/Big_Cumulonimbus.JPG\');
+background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/45/Big_Cumulonimbus.JPG');
 background-repeat: no-repeat;
 height: 500px;
 width: 500px;
@@ -4566,24 +4520,24 @@ Forms can be a surprisingly tricky element to style because you are asking for a
 HTML
 
 ```
-\<!DOCTYPE html\>
-\<!\--It\'s a best practice to always declare DOCTYPE!\--\>
-\<html lang=\"en\"\>
-\<head\>
-\<meta charset=\"utf-8\"\>
-\</head\>
-\<body\>
-\<div id=\"uglyForm\"\>
-\<form\>
-\<h1\>Sign Up\</h1\>
-\<input type=\"text\" value=\"Given name\" /\>
-\<input type=\"text\" value=\"Family name\" /\>
-\<input type=\"text\" value=\"Email\" /\>
-\<button\>Submit\</button\>
-\</form\>
-\</div\>
-\</body\>
-\</html\>
+<!DOCTYPE html>
+<!--It's a best practice to always declare DOCTYPE!-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+<div id="uglyForm">
+<form>
+<h1>Sign Up</h1>
+<input type="text" value="Given name" />
+<input type="text" value="Family name" />
+<input type="text" value="Email" />
+<button>Submit</button>
+</form>
+</div>
+</body>
+</html>
 ```
 
 ##### CSS
@@ -4597,7 +4551,7 @@ form {
 padding: 30px;
 width: 500px;
 }
-/\* Bad Design \*/
+/* Bad Design */
 #uglyForm input {
 border: 0px;
 }
@@ -4628,33 +4582,33 @@ The first form design uses basic layout to give each input element a clear label
 ##### **HTML**
 
 ```
-\<!DOCTYPE html\>
-\<!\--It\'s a best practice to always declare DOCTYPE!\--\>
-\<html lang=\"en\"\>
-\<head\>
-\<meta charset=\"utf-8\"\>
-\</head\>
-\<body\>
-\<div id=\"form1\"\>
-\<form\>
-\<h1\>Sign Up\</h1\>
+<!DOCTYPE html>
+<!--It's a best practice to always declare DOCTYPE!-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+<div id="form1">
+<form>
+<h1>Sign Up</h1>
 Given name
-\<br /\>
-\<input type=\"text\" /\>
-\<br /\>
+<br />
+<input type="text" />
+<br />
 Family name
-\<br /\>
-\<input type=\"text\" /\>
-\<br /\>
+<br />
+<input type="text" />
+<br />
 Email
-\<br /\>
-\<input type=\"text\" /\>
-\<br /\>
-\<button\>Submit\</button\>
-\</form\>
-\</div\>
-\</body\>
-\</html\>
+<br />
+<input type="text" />
+<br />
+<button>Submit</button>
+</form>
+</div>
+</body>
+</html>
 ```
 
 ##### **CSS**
@@ -4668,7 +4622,7 @@ form {
 padding: 30px;
 width: 500px;
 }
-/\* DESIGN 1 \*/
+/* DESIGN 1 */
 #form1 {
 background-color: #5E0231;
 font-family: Arial;
@@ -4721,25 +4675,25 @@ This form design is more minimalist, using the clear and consistent design and l
 ##### HTML
 
 ```
-\<!DOCTYPE html\>
-\<!\--It\'s a best practice to always declare DOCTYPE!\--\>
-\<html lang=\"en\"\>
-\<head\>
-\<meta charset=\"utf-8\"\>
-\</head\>
-\<body\>
-\<div id=\"form2\"\>
-\<form\>
-\<h1\>Sign Up\</h1\>
-\<input type=\"text\" value=\"Given name\" /\>
-\<input type=\"text\" value=\"Family name\" /\>
-\<br /\>
-\<input type=\"text\" value=\"Email\" id=\"form2email\" /\>
-\<button\>Submit\</button\>
-\</form\>
-\</div\>
-\</body\>
-\</html\>
+<!DOCTYPE html>
+<!--It's a best practice to always declare DOCTYPE!-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+<div id="form2">
+<form>
+<h1>Sign Up</h1>
+<input type="text" value="Given name" />
+<input type="text" value="Family name" />
+<br />
+<input type="text" value="Email" id="form2email" />
+<button>Submit</button>
+</form>
+</div>
+</body>
+</html>
 ```
 
 ##### CSS
@@ -4753,7 +4707,7 @@ form {
 padding: 30px;
 width: 500px;
 }
-/\* DESIGN 2 \*/
+/* DESIGN 2 */
 #form2 {
 background-color: #49274A;
 font-family: Tahoma;
@@ -4804,25 +4758,25 @@ This form design leaves lots of white space to help it feel clean and simple. 
 
 ##### HTML
 
-\<!DOCTYPE html\>
-\<!\--It\'s a best practice to always declare DOCTYPE!\--\>
-\<html lang=\"en\"\>
+<!DOCTYPE html>
+<!--It's a best practice to always declare DOCTYPE!-->
+<html lang="en">
 
-\<head\>
-\<meta charset=\"utf-8\"\>
-\</head\>
-\<body\>
-<div id=\"form3\"\>
-\<div id=\"box\"\>
-\<h1\>Sign Up\</h1\>
-\<input type=\"text\" value=\"Given name\" /\>
-\<input type=\"text\" value=\"Family name\" /\>
-\<input type=\"text\" value=\"Email\" /\>
-\<button\>Submit\</button\>
-\</div\>
-\</div\>
-\</body\>
-\</html\>
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+<div id="form3">
+<div id="box">
+<h1>Sign Up</h1>
+<input type="text" value="Given name" />
+<input type="text" value="Family name" />
+<input type="text" value="Email" />
+<button>Submit</button>
+</div>
+</div>
+</body>
+</html>
 ```
 
 ##### CSS
@@ -4836,256 +4790,142 @@ form {
 padding: 30px;
 width: 500px;
 }
-/\* DESIGN 3 \*/
+/* DESIGN 3 */
 ```
 
 #form3 {
 
 ```
 background-color: #CAEBF2;
-
-font-family: \'Century Gothic\';
-
+font-family: 'Century Gothic';
 }
-
 #box{
-
 background-color: white;
-
 border-radius: 2px;
-
 margin: 50px;
-
 text-align: center;
-
 width: 500px;
-
 }
-
 #form3 h1 {
-
 color: #FF3B3F;
-
 text-align: center;
-
 margin: 0px;
-
 }
-
 #form3 input {
-
 border: 0px;
-
 border-bottom: 1px #A9A9A9 dashed;
-
 padding: 10px;
-
 color: #A9A9A9;
-
 width: 80%;
-
 margin: 10px;
-
-font-family: \'Century Gothic\';
-
+font-family: 'Century Gothic';
 }
-
 #form3 input:focus, #form3 input:hover {
-
 border: 1px #FF3B3F solid;
-
 }
-
 #form3 button {
-
 background-color: #FF3B3F;
-
 border: 0px;
-
 border-radius: 2px;
-
 color: white;
-
 font-size: 0.9em;
-
 padding: 10px 20px;
-
 margin: 20px;
-
 width: 85%;
-
-font-family: \'Century Gothic\';
-
+font-family: 'Century Gothic';
 }
-
 The pen below is a recap of all forms presented in this page:
+```
 
 ##### HTML
 
-\<!DOCTYPE html\>
-
-\<!\--It\'s a best practice to always declare DOCTYPE!\--\>
-
-\<html lang=\"en\"\>
-
-\<head\>
-
-\<meta charset=\"utf-8\"\>
-
-\</head\>
-
-\<body\>
-
-\<div id=\"uglyForm\"\>
-
-\<form\>
-
-\<h1\>Sign Up\</h1\>
-
-\<input type=\"text\" value=\"Given name\" /\>
-
-\<input type=\"text\" value=\"Family name\" /\>
-
-\<input type=\"text\" value=\"Email\" /\>
-
-\<button\>Submit\</button\>
-
-\</form\>
-
-\</div\>
-
-\<div id=\"form1\"\>
-
-\<form\>
-
-\<h1\>Sign Up\</h1\>
-
+```
+<!DOCTYPE html>
+<!--It's a best practice to always declare DOCTYPE!-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+<div id="uglyForm">
+<form>
+<h1>Sign Up</h1>
+<input type="text" value="Given name" />
+<input type="text" value="Family name" />
+<input type="text" value="Email" />
+<button>Submit</button>
+</form>
+</div>
+<div id="form1">
+<form>
+<h1>Sign Up</h1>
 Given name
-
-\<br /\>
-
-\<input type=\"text\" /\>
-
-\<br /\>
-
+<br />
+<input type="text" />
+<br />
 Family name
-
-\<br /\>
-
-\<input type=\"text\" /\>
-
-\<br /\>
-
+<br />
+<input type="text" />
+<br />
 Email
-
-\<br /\>
-
-\<input type=\"text\" /\>
-
-\<br /\>
-
-\<button\>Submit\</button\>
-
-\</form\>
-
-\</div\>
-
-\<div id=\"form2\"\>
-
-\<form\>
-
-\<h1\>Sign Up\</h1\>
-
-\<input type=\"text\" value=\"Given name\" /\>
-
-\<input type=\"text\" value=\"Family name\" /\>
-
-\<br /\>
-
-\<input type=\"text\" value=\"Email\" id=\"form2email\" /\>
-
-\<button\>Submit\</button\>
-
-\</form\>
-
-\</div\>
-
-\<div id=\"form3\"\>
-
-\<div id=\"box\"\>
-
-\<h1\>Sign Up\</h1\>
-
-\<input type=\"text\" value=\"Given name\" /\>
-
-\<input type=\"text\" value=\"Family name\" /\>
-
-\<input type=\"text\" value=\"Email\" /\>
-
-\<button\>Submit\</button\>
-
-\</div\>
-
-\</div\>
-
-\</body\>
-
-\</html\>
+<br />
+<input type="text" />
+<br />
+<button>Submit</button>
+</form>
+</div>
+<div id="form2">
+<form>
+<h1>Sign Up</h1>
+<input type="text" value="Given name" />
+<input type="text" value="Family name" />
+<br />
+<input type="text" value="Email" id="form2email" />
+<button>Submit</button>
+</form>
+</div>
+<div id="form3">
+<div id="box">
+<h1>Sign Up</h1>
+<input type="text" value="Given name" />
+<input type="text" value="Family name" />
+<input type="text" value="Email" />
+<button>Submit</button>
+</div>
+</div>
+</body>
+</html>
+```
 
 ##### CSS
 
+```
 div {
-
 margin-bottom: 50px;
-
 height: 400px;
-
 }
-
 form {
-
 padding: 30px;
-
 width: 500px;
-
 }
-
-/\* Bad Design \*/
-
+/* Bad Design */
 #uglyForm input {
-
 border: 0px;
-
 }
-
 #uglyForm button {
-
 background-color: white;
-
 border: 0px;
-
 }
-
-/\* DESIGN 1 \*/
-
+/* DESIGN 1 */
 #form1 {
-
 background-color: #5E0231;
-
 font-family: Arial;
-
 color: #DBC3D0;
-
 }
-
 #form1 h1 {
-
 color: white;
-
 margin: 0px 0px 20px 0px;
-
 }
-
 #form1 input {
 background-color: #DBC3D0;
 border: 2px white solid;
@@ -5108,7 +4948,7 @@ font-size: 1.2em;
 background-color: #DBC3D0;
 color: white;
 }
-/\* DESIGN 2 \*/
+/* DESIGN 2 */
 #form2 {
 background-color: #49274A;
 font-family: Tahoma;
@@ -5128,9 +4968,7 @@ width: 200px;
 }
 #form2 input:hover, #form1 input:focus {
 border: 1px #94618E solid;
-
 color: #94618E;
-
 }
 #form2 button {
 background-color: #94618E;
@@ -5141,10 +4979,10 @@ padding: 10px 20px;
 font-variant: small-caps;
 width: 225px;
 }
-/\* DESIGN 3 \*/
+/* DESIGN 3 */
 #form3 {
 background-color: #CAEBF2;
-font-family: \'Century Gothic\';
+font-family: 'Century Gothic';
 }
 #box{
 ackground-color: white;
@@ -5165,7 +5003,7 @@ padding: 10px;
 color: #A9A9A9;
 width: 80%;
 margin: 10px;
-font-family: \'Century Gothic\';
+font-family: 'Century Gothic';
 }
 #form3 input:focus, #form3 input:hover {
 border: 1px #FF3B3F solid;
@@ -5179,7 +5017,7 @@ font-size: 0.9em;
 padding: 10px 20px;
 margin: 20px;
 width: 85%;
-font-family: \'Century Gothic\';
+font-family: 'Century Gothic';
 }
 ```
 
@@ -5346,35 +5184,35 @@ We discussed how to adjust the white space of these areas in Module 2.5, but in 
 ##### HTML
 
 ```
-\<!DOCTYPE html\>
-\<!\--It\'s a best practice to always declare DOCTYPE!\--\>
-\<html lang=\"en\"\>
-\<head\>
-\<meta charset=\"utf-8\"\>
-\</head\>
-\<body\>
-\<p id=\"five\"\>
-padding 5px \<br /\>
-border 5px \<br /\>
-margin 5px \<br /\>
-\</p\>
-\<p id=\"ten\"\>
-padding 10px \<br /\>
-border 10px \<br /\>
-margin 10px \<br /\>
-\</p\>
-\<p id=\"fifty\"\>
-padding 50px \<br /\>
-border 50px \<br /\>
-margin 50px \<br /\>
-\</p\>
-\<p id=\"oneHundred\"\>
-padding 100px \<br /\>
-border 100px \<br /\>
-margin 100px \<br /\>
-\</p\>
-\</body\>
-\</html\>
+<!DOCTYPE html>
+<!--It's a best practice to always declare DOCTYPE!-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+<p id="five">
+padding 5px <br />
+border 5px <br />
+margin 5px <br />
+</p>
+<p id="ten">
+padding 10px <br />
+border 10px <br />
+margin 10px <br />
+</p>
+<p id="fifty">
+padding 50px <br />
+border 50px <br />
+margin 50px <br />
+</p>
+<p id="oneHundred">
+padding 100px <br />
+border 100px <br />
+margin 100px <br />
+</p>
+</body>
+</html>
 ```
 
 ##### CSS
@@ -5421,9 +5259,9 @@ One of the simplest ways to align content is to use the direct text-align prop
 \[[*Documentation*](https://www.w3.org/TR/CSS22/text.html#alignment-prop)\]
 
 ```
-1.  h1 {
-2.     text-align: center;
-3.  }
+h1 {
+   text-align: center;
+}
 ```
 
 If you have used a text editor before, like Microsoft Word, you\'ve probably used the different text-align properties: left (default for English), right, center and justify. Text-align in CSS works the same way. Left, center and right specify how the lines of text within the text block are arranged. Justify sets the left and right edges of the text flush with the container\'s edges, which stretches the white space between words so that the overall block fits in a perfect rectangle.
@@ -5449,9 +5287,9 @@ Note that this property can only apply to block elements like paragraphs, divs a
 \[[*Documentation*](https://www.w3.org/TR/CSS22/visudet.html#line-height)\]
 
 ```
-1.  h1 {
-2.     line-height: 1.2;
-3.  }
+h1 {
+   line-height: 1.2;
+}
 ```
 
 You may have noticed that the text-align property sets the content\'s alignment horizontally, but it leaves its vertical alignment unchanged. Text lives within a specified vertical space, in which the text is drawn by default in the middle of that vertical space. If you change the height of the containing HTML block, the text will remain at the top of the block. However, if you instead use the \"line-height\" property, then the block will grow and the text will vertically center within it.
@@ -5471,39 +5309,32 @@ You may have noticed that the text-align property sets the content\'s alignment 
 ##### HTML
 
 ```
-\<!DOCTYPE html\>
-\<!\--It\'s a best practice to always declare DOCTYPE!\--\>
-\<html lang=\"en\"\>
-\<head\>
-\<title\>Aligning text \</title\>
-\<meta charset=\"utf-8\"\>
-\</head\>
-\<body\>
-\<h1\>this is a centered header\</h1\>
-\<h2\>this is a right aligned header\</h2\>
-\<p\>
-```
-
-Here is a big block of text illustrating the usage of the text-align justify setting. As you can see it stretches the white space between the words so that the left and right edges of the paragraph fit well within a box. This can help your text look cleaner than a simple left alignment. Note that it does not stretch out the final line in the paragraph.
-
-```
-\</p\>
-\<h3\>this header\'s line height is stretched to 1.2\</h3\>
-\<h4\>this header is aligned to the baseline of the line height within a stretched containing box\</h4\>
-\</body\>
-\</html\>
+<!DOCTYPE html>
+<!--It's a best practice to always declare DOCTYPE!-->
+<html lang="en">
+   <head>
+      <title>Aligning text </title>
+      <meta charset="utf-8">
+   </head>
+   <body>
+      <h1>this is a centered header</h1>
+      <h2>this is a right aligned header</h2>
+      <p>
+         Here is a big block of text illustrating the usage of the text-align justify setting. As you can see it stretches the white space between the words so that the left and right edges of the paragraph fit well within a box. This can help your text look cleaner than a simple left alignment. Note that it does not stretch out the final line in the paragraph.
+      </p>
+      <h3>this header's line height is stretched to 1.2</h3>
+      <h4>this header is aligned to the baseline of the line height within a stretched containing box</h4>
+   </body>
+</html>
 ```
 
 ##### CSS
 
+```
 h1 {
-
 background-color: red;
-
 width: 500px;
-
 text-align: center;
-
 }
 h2 {
 background-color: orange;
@@ -5544,11 +5375,11 @@ Until now we\'ve let the browser decide how big the element is, but you can actu
 
 \[*Documentation*: [the width property](https://www.w3.org/TR/CSS22/visudet.html#the-width-property) and [the height property](https://www.w3.org/TR/CSS22/visudet.html#the-height-property)\]
 
-1.  p {
-
-2.     width: 30%;
-
-3.  }
+```
+p {
+   width: 30%;
+}
+```
 
 You can use pixel values for both width and height, but you\'ll most often want to use percentages to set these so that your elements grow and shrink as appropriate based on the screen size.
 
@@ -5565,10 +5396,10 @@ Setting width and height with percentages will save you work because your design
 For example, images will get \"pixelated\" if you let them grow too large, and they can look really distorted. Thankfully, you can set max and min width and heights. This way, you can set a range for your image to grow and shrink where you know it will still look good. 
 
 ```
-1.  img {
-2.     width: 100%;
-3.     max-width: 1024px;
-4.  }
+img {
+   width: 100%;
+   max-width: 1024px;
+}
 ```
 
 <!------------------------------------------------------------------------------------------------>
@@ -5615,47 +5446,29 @@ this height is also set to 25%, and since it's within a div containing block who
 
 ##### CSS
 
+```
 #width50 {
-
 background-color:red;
-
 width: 50%;
-
 }
-
 #width80max {
-
 background-color: orange;
-
 width: 80%;
-
 max-width: 1000px;
-
 }
-
 #width30min {
-
 background-color: yellow;
-
 width: 30%;
-
 min-width: 200px;
-
 }
-
 .heightSet {
-
 background-color: pink;
-
 height: 25%;
-
 }
-
 #containingBlock {
-
 height: 500px;
-
 }
+```
 
 When you view the above example, the paragraphs will dynamically resize based on the size of your window. Please view the code first in a wide window, and then in a much narrower window.
 
@@ -5667,25 +5480,23 @@ Whenever possible, it is ideal to position your elements by adjusting their padd
 
 Once you have set the width for your element, you can then set margins as a way to position your element relative to others. One of the most commonly used margin settings is \"auto\". That is because if you set an element\'s left and right margin to auto it will be dynamically centered within its containing block.
 
-1.  div {
-
-2.     width: 50%;
-
-3.     margin-left: auto;
-
-4.     margin-right: auto;
-
-5.  }
+```
+div {
+   width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+}
+```
 
 Note however, that this only works for block HTML elements like paragraphs, divs and headers. If you want to use this to position an inline element, such as img or a, you will need to tell CSS to treat them as block elements by setting display: block;
 
 ```
-1.  img {
-2.     display: block;
-3.     width: 200px;
-4.     margin-left: auto;
-5.     margin-right: auto;
-6.  }
+img {
+   display: block;
+   width: 200px;
+   margin-left: auto;
+   margin-right: auto;
+}
 ```
 
 <!------------------------------------------------------------------------------------------------>
@@ -5701,26 +5512,26 @@ Note however, that this only works for block HTML elements like paragraphs, divs
 ### HTML
 
 ```
-\<!DOCTYPE html\>
-\<!\--It\'s a best practice to always declare DOCTYPE!\--\>
-\<html lang=\"en\"\>
-\<head\>
-\<meta charset=\"utf-8\"\>
-\</head\>
-\<body\>
-\<h1\>this is a centered header\</h1\>
-\<p\>
-\<a href=\"www.microsoft.com\"\>centered link within a p\</a\>
-\</p\>
-\<section\>
-here is text in a centered section on top of the inner div
-\<div\>
-centered div text within a centered div
-\</div\>
-and here is text in a centered section below the inner div
-\</section\>
-\</body\>
-\</html\>
+<!DOCTYPE html>
+<!--It's a best practice to always declare DOCTYPE!-->
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+   </head>
+   <body>
+      <h1>this is a centered header</h1>
+      <p>
+         <a href="www.microsoft.com">centered link within a p</a>
+      </p>
+      <section>
+         here is text in a centered section on top of the inner div
+      <div>
+         centered div text within a centered div
+      </div>
+         and here is text in a centered section below the inner div
+      </section>
+   </body>
+</html>
 ```
 
 ### CSS
@@ -5755,11 +5566,11 @@ margin: 0 auto;
 Here is what the above code looks like in a wide window:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------ 84.  image (xxx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
+<img src="./images/image084.png?raw=true"
+   width="50%"
    alt="." />
 </p>
 ![centered elements with margin wide example](images/media/image84.png){width="5.0in" height="0.7362357830271216in"}
@@ -5767,14 +5578,17 @@ Here is what the above code looks like in a wide window:
 Now, if you resize the window, the elements remain centered no matter what. Here is the above code in a narrow window:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------ 85.  image (xxx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image.png?raw=true"
-   width="###%"
-   alt="." />
+   width="30%"
+   alt="Dynamically centered element narrow example." />
 </p>
-![dynamically centered elements narrow example](images/media/image85.png){width="3.125in" height="2.216666666666667in"}
+<!-------
+![dynamically centered elements narrow example](images/media/image85.png)
+{width="3.125in" height="2.216666666666667in"}
+-------->
 
 ### External resources:
 
@@ -5782,16 +5596,16 @@ Now, if you resize the window, the elements remain centered no matter what. Here
 
 -   A \"CSS Tricks\" article on [What you should know about collapsing margins](https://css-tricks.com/what-you-should-know-about-collapsing-margins/)
 
-## 4.2.4 Activity - Practice with alignment
+<h3 id="ch4-2-4">4.2.4 Activity - Practice with alignment</h3>
 
 For this activity, you are going to practice some of the basic alignment properties you\'ve learned in this unit.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------ 86.  image (xxx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
+<img src="./images/image086.png?raw=true"
+   width="50%"
    alt="." />
 </p>
 ![](images/media/image86.png){width="5.0in" height="1.7497944006999124in"}
@@ -5801,36 +5615,36 @@ For this activity, you are going to practice some of the basic alignment propert
 ### HTML
 
 ```
-\<!DOCTYPE html\>
-\<!\--It\'s a best practice to always declare DOCTYPE!\--\>
-\<html lang=\"en\"\>
-\<head\>
-\<title\>Practice with Alignment\</title\>
-\<meta charset=\"utf-8\"\>
-\</head\>
-\<body\>
-\<header\>
-\<h1\>Welcome to my web page\</h1\>
-\<p\>
-This is the tagline to my homepage
-\</p\>
-\</header\>
-\<section\>
-\<h2\>This is the main body of my page\</h2\>
-\<article id=\"leftP\"\>
-\<h3\>Article title\</h3\>
-This is a buch of text that will be left aligned under the main title of the page, but still within the main center section of the page.
-\</article\>
-\<article id=\"rightP\"\>
-\<h3\>Article title\</h3\>
+<!DOCTYPE html>
+<!--It's a best practice to always declare DOCTYPE!-->
+<html lang="en">
+   <head>
+      <title>Practice with Alignment</title>
+      <meta charset="utf-8">
+   </head>
+   <body>
+   <header>
+      <h1>Welcome to my web page</h1>
+      <p>
+         This is the tagline to my homepage
+      </p>
+   </header>
+   <section>
+      <h2>This is the main body of my page</h2>
+      <article id="leftP">
+         <h3>Article title</h3>
+         This is a buch of text that will be left aligned under the main title of the page, but still within the main center section of the page.
+      </article>
+<article id="rightP">
+<h3>Article title</h3>
 Here is some more text that will be right aligned under the first paragraph, but still within the main center section of the page.
-\</article\>
-\</section\>
-\<footer\>
+</article>
+</section>
+<footer>
 thank you and please visit again soon!
-\</footer\>
-\</body\>
-\</html\>
+</footer>
+</body>
+</html>
 ```
 
 ##### **CSS**
@@ -5874,6 +5688,14 @@ color: white;
 
 The resulted HTML and CSS codes produce a Web page where elements are not very well aligned. Your goal is to add properties to the existing CSS rules so that the final page looks like this:
 
+<!------------------------------------------------------------------------------------------------>
+<!-------------------- 87. practice with alignment after picture image (xxx) --------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image087.png?raw=true"
+   width="50%"
+   alt="Practice with alignment after picture." />
+</p>
 ![Practice with alignment after picture](images/media/image87.png){width="6.9375in" height="3.9625in"}
 
 ### To do this you will need to:
@@ -5896,7 +5718,7 @@ The resulted HTML and CSS codes produce a Web page where elements are not very w
 
 -   the footer should have a padding of 10px and a margin between it and the section of 30px. The footer should be centered.
 
-## 4.3.1 The float property
+<h3 id="ch4-3-1">4.3.1 The float property</h3>
 
 After when you look at other Web pages, you\'ll see multiple HTML elements
 
@@ -5915,10 +5737,10 @@ If your elements are still not exactly where you want them to be after adjusting
 \[*[Documentation](https://www.w3.org/TR/CSS22/visuren.html#float-position)\]*
 
 ```
-1.  h1 {
-2.     width: 20em;
-3.     float: right;
-4.  }
+h1 {
+   width: 20em;
+   float: right;
+}
 ```
 
 Up until now, we haven\'t moved elements very far from wherever the web browser automatically places them, but as you\'ve probably noticed this has left our page very left side heavy. This is because, by default, elements are stacked one on top of the other, and they don\'t share horizontal space. With the float property, we can change this.
@@ -5927,6 +5749,14 @@ The float property liberates an element from its automatic position and lifts it
 
 Elements underneath a floating object will automatically wrap themselves around the content. For example, if you float an image, the text underneath will wrap around it so that none of it is actually obscured underneath the image, but now both text and an image can share horizontal space. 
 
+<!------------------------------------------------------------------------------------------------>
+<!------------------- 88. example of floating img and sourrounding text (xxx) -------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="./images/image088.png?raw=true"
+   width="55%"
+   alt="Example of floating img and surrounding text." />
+</p>
 ![example of floating img and surrounding text](images/media/image88.png){width="5.533333333333333in" height="3.5083333333333333in"}
 
 You\'ll often want to set the width of a floating object so that you have tighter control over the space that object occupies. Remember that, by default, block HTML elements occupy the entire width of the page, even if there isn\'t actual content that extends that far. In this case, you\'ll want to set the width so that your element\'s size more accurately represents its content and you don\'t have unnecessary white space. 
@@ -5938,63 +5768,51 @@ Once you have some elements floating things can get a little messy. Its easy for
 \[*[Documentation](https://www.w3.org/TR/CSS22/visuren.html#propdef-clear)\]*
 
 ```
-1.  p {
-2.     clear: both;
-3.  }
+p {
+   clear: both;
+}
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------ 89.  image (xxx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
+<img src="./images/image089.png?raw=true"
+   width="70%"
    alt="." />
 </p>
 ![](images/media/image89.png){width="6.9375in" height="2.845833333333333in"}
 
 ```
-\<!DOCTYPE html\>
-\<!\--It\'s a best practice to always declare DOCTYPE!\--\>
-\<html lang=\"en\"\>
-\<head\>
-\<title\>Floating elements\</title\>
-\<meta charset=\"utf-8\"\>
-\</head\>
-\<body\>
-\<div id=\"default\"\>
+<!DOCTYPE html>
+<!--It's a best practice to always declare DOCTYPE!-->
+<html lang="en">
+<head>
+<title>Floating elements</title>
+<meta charset="utf-8">
+</head>
+<body>
+<div id="default">
 This div is not floating, has no width set.
-\</div\>
-\<div id=\"floatRightNoWidth\"\>
+</div>
+<div id="floatRightNoWidth">
 This div is floating right, but no width is set.
-\</div\>
-\<div id=\"floatRightTooWide\"\>
-
-This div is floating right, but the text is very very very long. This makes the div fill the horizontal space of the page by default, so when it is floated it doesn\'t look like it goes anywhere.
-
-\</div\>
-
-\<div id=\"noFloatWidthSet\"\>
-
-This div isn\'t floating, and its width is set to 40%. Floating elements can overlap.
-
-\</div\>
-
-\<div id=\"floatRightWidthSet\"\>
-
+</div>
+<div id="floatRightTooWide">
+This div is floating right, but the text is very very very long. This makes the div fill the horizontal space of the page by default, so when it is floated it doesn't look like it goes anywhere.
+</div>
+<div id="noFloatWidthSet">
+This div isn't floating, and its width is set to 40%. Floating elements can overlap.
+</div>
+<div id="floatRightWidthSet">
 This div is floating right, and its width is set to 30%
-
-\</div\>
-
-\<div id=\"noFloatClearRight\"\>
-
-This div isn\'t floating, and it is set to clear to the right, so nothing can overlap.
-
-\</div\>
-
-\</body\>
-
-\</html\>
+</div>
+<div id="noFloatClearRight">
+This div isn't floating, and it is set to clear to the right, so nothing can overlap.
+</div>
+</body>
+</html>
+```
 
 <h4>CSS</h4>
 
@@ -6032,18 +5850,18 @@ float: right;
 }
 ```
 
-## 4.3.2 Activity - Practice with float
+<h3 id="ch4-3-2">4.3.2 Activity - Practice with float</h3>
 
 One of the toughest parts of layouts with CSS is figuring out which elements to apply a float property to.
 
 ### Here is [some HTML and CSS](https://codepen.io/techie4good/pen/xEbWrp):
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------ 90.  image (xxx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
+<img src="./images/image090.png?raw=true"
+   width="50%"
    alt="." />
 </p>
 ![](images/media/image90.png){width="5.0in" height="3.5855894575678042in"}
@@ -6051,43 +5869,42 @@ One of the toughest parts of layouts with CSS is figuring out which elements to 
 ##### HTML
 
 ```
-\<!DOCTYPE html\>
-\<!\--It\'s a best practice to always declare DOCTYPE!\--\>
-\<html lang=\"en\"\>
-\<head\>
-\<title\>Practice with Float\</title\>
-\<meta charset=\"utf-8\"\>
-\</head\>
-\<body\>
-\<header\>
-\<h2\>welcome greeting subtitle\</h2\>
-\<h1\>Homepage Title\</h1\>
-\</header\>
-\<section id=\"navigation\"\>
-\<ul\>
-\<li\>nav link 1\</li\>
-\<li\>nav link 2\</li\>
-\<li\>nav link 3\</li\>
-<li\>nav link 4\</li\>
-\</ul\>
-\</section\>
-\<section id=\"content\"\>
-\<div id=\"topRight\"\>
-If your elements are still not exactly where you want them to be after adjusting the padding, margins and alignment, then you can try out the float property. The \"float\" property is one of the most powerful tools you can master when learning CSS.
-\</div\>
-\<div id=\"topLeft\"\>
-Up until now, we haven\'t moved elements very far from wherever the web browser automatically places them, but as you\'ve probably noticed this has left our page very left side heavy.
-
-\</div\>
-\<div id=\"bottomRight\"\>
-The float property liberates an element from its automatic position and lifts it up to \"float\" on top of other elements in the direction you specify. You can specify float either right, left or the default of none.
-\</div\>
-\<div id=\"bottomLeft\"\>
-Elements underneath a floating object will automatically wrap themselves around the content. For example, if you float an image, the text underneath will wrap around it so that none of it is actually obscured underneath the image.
-\</div\>
-\</section\>
-\</body\>
-\</html\>
+<!DOCTYPE html>
+<!--It's a best practice to always declare DOCTYPE!-->
+<html lang="en">
+   <head>
+      <title>Practice with Float</title>
+      <meta charset="utf-8">
+   </head>
+   <body>
+   <header>
+      <h2>welcome greeting subtitle</h2>
+      <h1>Homepage Title</h1>
+   </header>
+   <section id="navigation">
+      <ul>
+         <li>nav link 1</li>
+         <li>nav link 2</li>
+         <li>nav link 3</li>
+         <li>nav link 4</li>
+      </ul>
+   </section>
+   <section id="content">
+      <div id="topRight">
+      If your elements are still not exactly where you want them to be after adjusting the padding, margins and alignment, then you can try out the float property. The "float" property is one of the most powerful tools you can master when learning CSS.
+      </div>
+      <div id="topLeft">
+      Up until now, we haven't moved elements very far from wherever the web browser automatically places them, but as you've probably noticed this has left our page very left side heavy.
+      </div>
+      <div id="bottomRight">
+      The float property liberates an element from its automatic position and lifts it up to "float" on top of other elements in the direction you specify. You can specify float either right, left or the default of none.
+      </div>
+      <div id="bottomLeft">
+      Elements underneath a floating object will automatically wrap themselves around the content. For example, if you float an image, the text underneath will wrap around it so that none of it is actually obscured underneath the image.
+      </div>
+   </section>
+   </body>
+</html>
 ```
 
 <h4>CSS</h4>
@@ -6132,11 +5949,11 @@ As you can see the layout is pretty messy. Your job in this activity is to decid
 You might also need to adjust some widths, margins and paddings to get everything looking like the final image below:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------ 91.  image (xxx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
+<img src="./images/image091.png?raw=true"
+   width="50%"
    alt="." />
 </p>
 ![](images/media/image91.png){width="5.0in" height="2.5605610236220473in"}
@@ -6146,42 +5963,42 @@ You might also need to adjust some widths, margins and paddings to get everythin
 <h4>HTML</h4>
 
 ```
-\<!DOCTYPE html\>
-\<!\--It\'s a best practice to always declare DOCTYPE!\--\>
-\<html lang=\"en\"\>
-\<head\>
-\<title\>Practice with Float\</title\>
-\<meta charset=\"utf-8\"\>
-\</head\>
-\<body\>
-\<header\>
-\<h2\>welcome greeting subtitle\</h2\>
-\<h1\>Homepage Title\</h1\>
-\</header\>
-\<section id=\"navigation\"\>
-\<ul\>
-\<li\>nav link 1\</li\>
-\<li\>nav link 2\</li\>
-\<li\>nav link 3\</li\>
-\<li\>nav link 4\</li\>
-\</ul\>
-\</section\>
-\<section id=\"content\"\>
-\<div id=\"topRight\"\>
-If your elements are still not exactly where you want them to be after adjusting the padding, margins and alignment, then you can try out the float property. The \"float\" property is one of the most powerful tools you can master when learning CSS.
-\</div\>
-\<div id=\"topLeft\"\>
-Up until now, we haven\'t moved elements very far from wherever the web browser automatically places them, but as you\'ve probably noticed this has left our page very left side heavy.
-\</div\>
-\<div id=\"bottomRight\"\>
-The float property liberates an element from its automatic position and lifts it up to \"float\" on top of other elements in the direction you specify. You can pecify float either right, left or the default of none.
-\</div\>
-\<div id=\"bottomLeft\"\>
-Elements underneath a floating object will automatically wrap themselves around the content. For example, if you float an image, the text underneath will wrap around it so that none of it is actually obscured underneath the image.
-\</div\>
-\</section\>
-\</body\>
-\</html\>
+<!DOCTYPE html>
+<!--It's a best practice to always declare DOCTYPE!-->
+<html lang="en">
+   <head>
+      <title>Practice with Float</title>
+      <meta charset="utf-8">
+   </head>
+   <body>
+   <header>
+      <h2>welcome greeting subtitle</h2>
+      <h1>Homepage Title</h1>
+   </header>
+   <section id="navigation">
+      <ul>
+         <li>nav link 1</li>
+         <li>nav link 2</li>
+         <li>nav link 3</li>
+         <li>nav link 4</li>
+      </ul>
+   </section>
+   <section id="content">
+      <div id="topRight">
+      If your elements are still not exactly where you want them to be after adjusting the padding, margins and alignment, then you can try out the float property. The "float" property is one of the most powerful tools you can master when learning CSS.
+   </div>
+   <div id="topLeft">
+   Up until now, we haven't moved elements very far from wherever the web browser automatically places them, but as you've probably noticed this has left our page very left side heavy.
+   </div>
+   <div id="bottomRight">
+   The float property liberates an element from its automatic position and lifts it up to "float" on top of other elements in the direction you specify. You can pecify float either right, left or the default of none.
+   </div>
+   <div id="bottomLeft">
+   Elements underneath a floating object will automatically wrap themselves around the content. For example, if you float an image, the text underneath will wrap around it so that none of it is actually obscured underneath the image.
+   </div>
+   </section>
+   </body>
+</html>
 ```
 
 <h4>CSS</h4>
@@ -6255,7 +6072,7 @@ margin-bottom: 0px;
 }
 ```
 
-## 4.4.1 Relative positioning
+<h3 id="ch4-4-1">4.4.1 Relative positioning</h3>
 
 Up and till now, you\'ve probably noticed that all the Web sites you\'ve been making:
 
@@ -6282,9 +6099,9 @@ The \"position\" property sets the algorithm for how the Web browser will comput
 -   **absolute** - This allows you to position elements relative to their containing box. This removes an element from its normal flow (just like a floating element) so it can be difficult to control and make a layout that is truly dynamic.
 
 ```
-1.  div {
-2.     position: relative;
-3.  }
+div {
+   position: relative;
+}
 ```
 
 \[[*Documentation*](https://www.w3.org/TR/CSS22/visuren.html#position-props) for the box offsets: \'top\', \'right\', \'bottom\', \'left\'\]
@@ -6294,10 +6111,10 @@ Once you\'ve set the position to \"relative\" that frees you up to set the **to
 For example, if we set the \"left\" to be \"30px\", it will move the element 30px to the right away from the left of where it was placed by default.
 
 ```
-1.  p {
-2.     position: relative;
-3.     left: 10px;
-4.  }
+p {
+   position: relative;
+   left: 10px;
+}
 ```
 
 Note that position is not an inherited property so you will have to apply it individually to each element. Because of this it is best to use this approach to designing your layout sparingly and should only be used after you cannot achieve your desired layout with alignment or floating.
@@ -6316,23 +6133,23 @@ Note that position is not an inherited property so you will have to apply it ind
 ##### HTML
 
 ```
-\<!DOCTYPE html\>
-\<!\--It\'s a best practice to always declare DOCTYPE!\--\>
-\<html lang=\"en\"\>
-\<head\>
-\<title\>Relative Positioning\</title\>
-\<meta charset=\"utf-8\"\>
-\</head\>
-\<body\>
-\<h1\>a shifted header relative to body\</h1\>
-\<section\>
-\<h2\>shifted header relative to section\</h2\>
-\</section\>
-\<footer\>
-\<h3\>a shifted header in a shifted footer\</h3\>
-\</footer\>
-\</body\>
-\</html\>
+<!DOCTYPE html>
+<!--It's a best practice to always declare DOCTYPE!-->
+<html lang="en">
+   <head>
+      <title>Relative Positioning</title>
+      <meta charset="utf-8">
+   </head>
+   <body>
+      <h1>a shifted header relative to body</h1>
+      <section>
+         <h2>shifted header relative to section</h2>
+      </section>
+      <footer>
+         <h3>a shifted header in a shifted footer</h3>
+      </footer>
+   </body>
+</html>
 ```
 
 ##### CSS
@@ -6417,10 +6234,10 @@ For this activity, we are going to focus on using relative positioning to adjust
 Here is [some HTML and CSS:](https://codepen.io/techie4good/pen/KgwRwg)
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------ 94.  image (xxx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
+<img src="./images/image094.png?raw=true"
    width="###%"
    alt="." />
 </p>
@@ -6432,7 +6249,7 @@ Here is [some HTML and CSS:](https://codepen.io/techie4good/pen/KgwRwg)
 body {
 background-color: #EFEFEF;
 color: #A9A9A9;
-font-family: \"Book Antiqua\", serif;
+font-family: "Book Antiqua", serif;
 }
 h1 {
 color: #FF3B3F;
@@ -6454,12 +6271,12 @@ width: 90%;
 Your task is to add CSS so that you achieve this final layout:\
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------ 95. relative positioning activity output (xxx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
-   alt="." />
+<img src="./images/image095.png?raw=true"
+   width="70%"
+   alt="Relative positioning activity output." />
 </p>
 ![Relative positioning activity output](images/media/image95.png){width="6.9375in" height="1.7673611111111112in"}
 
@@ -6471,7 +6288,7 @@ You can do this with padding and margins, but limit yourself to only add positio
 body {
 background-color: #EFEFEF;
 color: #A9A9A9;
-font-family: \"Book Antiqua\", serif;
+font-family: "Book Antiqua", serif;
 width: 950px
 }
 h1 {
@@ -6499,7 +6316,7 @@ padding-left: 25px;
 }
 ```
 
-## 4.5.1 Menus
+<h3 id="ch4-5-1">4.5.1 Menus</h3>
 
 One of the most important aspects of any Web site is the navigation menu. Over time, top level navigation has become fairly standardized so your user will be looking for some key elements that help them find their way around your site:
 
@@ -6520,7 +6337,7 @@ One of the most important aspects of any Web site is the navigation menu. Over 
 ![](images/media/image96.png){width="5.0in" height="2.6156157042869643in"}
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------ 97.  image (xxx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image.png?raw=true"
@@ -6575,11 +6392,11 @@ color: #0E0B16;
 This menu design uses a vertical arrangement but still floats the overall menu object so it can sit level with your content. You can also see a tabbed format here where the page you are currently viewing directly connects to the menu item representing it. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------------ 98.  image (xxx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
+<img src="./images/image098.png?raw=true"
+   width="70%"
    alt="." />
 </p>
 ![](images/media/image98.png){width="6.9375in" height="2.548611111111111in"}
@@ -6645,29 +6462,29 @@ padding: 30px;
 ##### HTML
 
 ```
-\<!DOCTYPE html\>
-\<!\--It\'s a best practice to always declare DOCTYPE!\--\>
-\<html lang=\"en\"\>
-\<head\>
-\<title\>Style studies: menu 2\</title\>
-\<meta charset=\"utf-8\"\>
-\</head\>
-\<body\>
-\<div id=\"menu2\"\>
-\<ul\>
-\<li class=\"currentPage\"\>\<a href=\"\"\>Home\</a\>\</li\>
-\<li\>\<a href=\"\"\>About\</a\>\</li\>
-\<li\>\<a href=\"\"\>Blog\</a\>\</li\>
-\<li\>\<a href=\"\"\>Contact\</a\>\</li\>
-\</ul\>
-\<section\>
-\<h1\>Home Page\</h1\>
-\<p\>A bunch of page content \</p\>
-\<p\>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\</p\>
-\</section\>
-\</div\>
-\</body\>
-\</html\>
+<!DOCTYPE html>
+<!--It's a best practice to always declare DOCTYPE!-->
+<html lang="en">
+<head>
+<title>Style studies: menu 2</title>
+<meta charset="utf-8">
+</head>
+<body>
+<div id="menu2">
+<ul>
+<li class="currentPage"><a href="">Home</a></li>
+<li><a href="">About</a></li>
+<li><a href="">Blog</a></li>
+<li><a href="">Contact</a></li>
+</ul>
+<section>
+<h1>Home Page</h1>
+<p>A bunch of page content </p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</section>
+</div>
+</body>
+</html>
 ```
 
 ### Menu 3
@@ -6767,7 +6584,7 @@ display: block;
 </html>
 ```
 
-## 4.5.2 Footers
+<h3 id="ch=4=5=2">4.5.2 Footers</h3>
 
 The footer of your page is typically the last thing your user will see, so it\'s important that you provide them any essential information. Typically, you will see footers that just contain contact info, but often they can also include navigation links, search bars or other calls to action.
 
@@ -6990,30 +6807,30 @@ color: #F4F4F4;
 ##### HTML
 
 ```
-\<!DOCTYPE html\>
-\<!\--It\'s a best practice to always declare DOCTYPE!\--\>
-\<html lang=\"en\"\>
-\<head\>
-\<title\>Style studies: footer 1\</title\>
-\<meta charset=\"utf-8\"\>
-\</head\>
-\<body\>
-\<div id=\"footer1\"\>
-\<section\>
+<!DOCTYPE html>
+<!--It's a best practice to always declare DOCTYPE!-->
+<html lang="en">
+<head>
+<title>Style studies: footer 1</title>
+<meta charset="utf-8">
+</head>
+<body>
+<div id="footer1">
+<section>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-\</section\>
-\<footer\>
-\<div class=\"contacts\"\>
-\<a href=\"\"\>email\</a\>
-\<a href=\"\"\>twitter\</a\>
-\<a href=\"\"\>instagram\</a\>
-\<a href=\"\"\>facebook\</a\>
-\</div\>
-\<p\>design and code by me\</p\>
-\</footer\>
-\</div\>
-\</body\>
-\</html\>
+</section>
+<footer>
+<div class="contacts">
+<a href="">email</a>
+<a href="">twitter</a>
+<a href="">instagram</a>
+<a href="">facebook</a>
+</div>
+<p>design and code by me</p>
+</footer>
+</div>
+</body>
+</html>
 ```
 
 ##### Footer 2
@@ -7073,20 +6890,20 @@ font-variant: small-caps;
 <h4>HTML</h4>
 
 ```
-\<!DOCTYPE html\>
-\<!\--It\'s a best practice to always declare DOCTYPE!\--\>
-\<html lang=\"en\"\>
-\<head\>
-\<title\>Style studies: footer 2\</title\>
-\<meta charset=\"utf-8\"\>
-\</head\>
-\<body\>
-\<div id=\"footer2\"\>
-\<section\>
+<!DOCTYPE html>
+<!--It's a best practice to always declare DOCTYPE!-->
+<html lang="en">
+<head>
+<title>Style studies: footer 2</title>
+<meta charset="utf-8">
+</head>
+<body>
+<div id="footer2">
+<section>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 </section>
 <footer>
-<ul class="navCat\">
+<ul class="navCat">
 <li class="topLevel">About</li>
 <li>About Us</li>
 <li>Our Story</li>
@@ -7102,7 +6919,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <li>Customer Service</li>
 <li>Careers</li>
 <li>Community</li>
-<li>Social Media\</li>
+<li>Social Media</li>
 </ul>
 </footer>
 </div>
@@ -7163,40 +6980,40 @@ color: #F4DECB;
 ##### HTML
 
 ```
-\<!DOCTYPE html\>
-\<!\--It\'s a best practice to always declare DOCTYPE!\--\>
+<!DOCTYPE html>
+<!--It's a best practice to always declare DOCTYPE!-->
 
-\<html lang=\"en\"\>
+<html lang="en">
 
-\<head\>
+<head>
 
-\<title\>Style studies: footer 3\</title\>
+<title>Style studies: footer 3</title>
 
-\<meta charset=\"utf-8\"\>
+<meta charset="utf-8">
 
-\</head\>
+</head>
 
-\<body\>
+<body>
 
-\<div id=\"footer3\"\>
+<div id="footer3">
 
-\<section\>
+<section>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-\</section\>
+</section>
 
-\<footer\>
+<footer>
 
-Please \<a href=\"#\"\>contact us\</a\> if you have any questions
+Please <a href="#">contact us</a> if you have any questions
 
-\</footer\>
+</footer>
 
-\</div\>
+</div>
 
-\</body\>
+</body>
 
-\</html\>
+</html>
 
 ## 4.6.1 When to use what?
 
@@ -7478,131 +7295,131 @@ opacity: 50%;
 <h4>HTML</h4>
 
 ```
-\<!Doctype html\>
-\<html lang=\"en\"\>
-\<head\>
-\<meta charset=\"UTF-8\"\>
-\<title\>My Online Resume\</title\>
-\<link rel=\"stylesheet\" href=\"css/style.css\"\>
-\</head\>
-\<body\>
-\<!\-- Header Section \--\>
-\<header\>
-\<h1\>\<span class=\"textColorOffset\"\>Matt\</span\> Norris\</h1\>
-\<ul id=\"contact\"\>
-\<li\>\<span class=\"textColorOffset\"\>email- \</span\>ncccontact23@gmail.com\</li\>
-\<li\>\<span class=\"textColorOffset\"\>geo- \</span\>San Diego, California\</li\>
-\<li\>\<span class=\"textColorOffset\"\>cell- \</span\>123-456-7890\</li\>
-\</ul\>
-\</header\>
-\<section id=\"resume\"\>
-\<!\-- Work Experience Section \--\>
-\<section id=\"workExperience\"\>
-\<h2\>Work Experience\</h2\>
-\<h3 class=\"year\"\>2019\</h3\>
-\<h3 class=\"textColorOffset workPosition\"\>USPS Delivery Supervisor\</h3\>
-\<p\>
+<!Doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Online Resume</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- Header Section -->
+<header>
+<h1><span class="textColorOffset">Matt</span> Norris</h1>
+<ul id="contact">
+<li><span class="textColorOffset">email- </span>ncccontact23@gmail.com</li>
+<li><span class="textColorOffset">geo- </span>San Diego, California</li>
+<li><span class="textColorOffset">cell- </span>123-456-7890</li>
+</ul>
+</header>
+<section id="resume">
+<!-- Work Experience Section -->
+<section id="workExperience">
+<h2>Work Experience</h2>
+<h3 class="year">2019</h3>
+<h3 class="textColorOffset workPosition">USPS Delivery Supervisor</h3>
+<p>
 Supervise mail carrier and clerk personnel rotating to 18 different offices as needed in San Diego,
 California. Able to open close and do both.
-\</p\>
-\<h3 class=\"year\"\>2017\</h3\>
-\<h3 class=\"textColorOffset workPosition\"\>USPS Project Tasks for Area Manager\</h3\>
-\<p\>
+</p>
+<h3 class="year">2017</h3>
+<h3 class="textColorOffset workPosition">USPS Project Tasks for Area Manager</h3>
+<p>
 Provide customized reporting on multiple functions within delivery operations pertaining to status
 of all 12 offices under the Area Managers scope.
-</p\>
-\<h3 class=\"year\"\>2016\</h3\>
-\<h3 class=\"textColorOffset workPosition\"\>USPS Supervisor Customer Services\</h3\>
-\<p\>
+</p>
+<h3 class="year">2016</h3>
+<h3 class="textColorOffset workPosition">USPS Supervisor Customer Services</h3>
+<p>
 Supervise, schedule, support, and provide reporting about team of 45 people.
-\</p\>
-\<h3 class=\"year\"\>2015-2000\</h3\>
-\<h3 class=\"textColorOffset workPosition\"\>Norris Computer Consulting\</h3\>
-\<p\>
+</p>
+<h3 class="year">2015-2000</h3>
+<h3 class="textColorOffset workPosition">Norris Computer Consulting</h3>
+<p>
 Provide computer services for home based and small businesses in San Diego, California.
 This is a business that I did successfully part-time.
-\</p\>
-\</section\>
-\<!\-- Ojective Section \--\>
-\<section id=\"objective\"\>
-\<h2\>Objective\</h2\>
-\<p class=\"objectiveSizing\"\>
-\<span\>F\</span\>ocus on providing effective Front End Web Development design services for Small to Medium sized Businesses.\</p\>
-\<p class=\"objectiveSizing\"\>
-\<span\>A\</span\>fter mastering Front End Web Development, I would like to learn Back End Development. Then help small and medium sized businesses with data usage, create front facing web pages that are effective, insightful, and practical that meet business goals and user needs.
-\</p\>
-\</section\>
-\<!\-- Education Section \--\>
-\<section id=\"education\"\>
-\<h2\>Education\</h2\>
-\<section\>
-\<h3 class=\"textColorOffset\"\>University\</h3\>
-\<ul\>
-\<li\>Christian Heritage College\</li\>
-\<li class=\"degree\"\>Bachelor of Science Business Management\</li\>
-\<li\>Carnegie Mellon University\</li\>
-\<li class=\"courseWork\"\>Course Work in Information Systems\</li\>
-\<li\>San Diego Community College\</li\>
-\<li class=\"courseWork\"\>Course Work in Math and Information Sustems\</li\>
-\</ul\>
-\</section\>
-\<section\>
-\<h3 class=\"textColorOffset\"\>Certifications\</h3\>
-\<ul\>
-\<li\>Microsoft Certified Professional\</li\>
-\<li\>CompTia A+\</li\>
-\<li\>Front End Web Developer Professional Certificate - W3C,Microsoft (In Progress)\</li\>
-\</ul\>
-\</section\>
-\</section\>
-\<!\-- Leadership and Charity Section \--\>
-\<section id=\"leadership\"\>
-\<h2\>Leadership\</h2\>
-\<section\>
-\<h3 class=\"textColorOffset\"\>Problem Solve\</h3\>
-\<p class=\"leadershipParagraph\"\>
+</p>
+</section>
+<!-- Ojective Section -->
+<section id="objective">
+<h2>Objective</h2>
+<p class="objectiveSizing">
+<span>F</span>ocus on providing effective Front End Web Development design services for Small to Medium sized Businesses.</p>
+<p class="objectiveSizing">
+<span>A</span>fter mastering Front End Web Development, I would like to learn Back End Development. Then help small and medium sized businesses with data usage, create front facing web pages that are effective, insightful, and practical that meet business goals and user needs.
+</p>
+</section>
+<!-- Education Section -->
+<section id="education">
+<h2>Education</h2>
+<section>
+<h3 class="textColorOffset">University</h3>
+<ul>
+<li>Christian Heritage College</li>
+<li class="degree">Bachelor of Science Business Management</li>
+<li>Carnegie Mellon University</li>
+<li class="courseWork">Course Work in Information Systems</li>
+<li>San Diego Community College</li>
+<li class="courseWork">Course Work in Math and Information Sustems</li>
+</ul>
+</section>
+<section>
+<h3 class="textColorOffset">Certifications</h3>
+<ul>
+<li>Microsoft Certified Professional</li>
+<li>CompTia A+</li>
+<li>Front End Web Developer Professional Certificate - W3C,Microsoft (In Progress)</li>
+</ul>
+</section>
+</section>
+<!-- Leadership and Charity Section -->
+<section id="leadership">
+<h2>Leadership</h2>
+<section>
+<h3 class="textColorOffset">Problem Solve</h3>
+<p class="leadershipParagraph">
 Provide problem solving and decision making on a daily basis with delivery team and customers.
-\</p\>
-\</section\>
-\<section\>
-\<h3 class=\"textColorOffset\"\>Create\</h3\>
-\<p class=\"leadershipParagraph\"\>
+</p>
+</section>
+<section>
+<h3 class="textColorOffset">Create</h3>
+<p class="leadershipParagraph">
 Create customized reporting for management team members to help make informed and efficient decisions.
-\</p\>
-\</section\>
-\</section\>
-\<section id=\"charity\"\>
-\<h2\>Charity Work\</h2\>
-\<section\>
-\<h3 class=\"textColorOffset charityWork\"\>College Ave Baptist Church\</h3\>
-\<p class=\"charityWorkPargraph\"\>
-\<span\>H\</span\>elp where needed. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus asperiores voluptatibus est error fugit accusantium nobis aspernatur, id dolorum veniam debitis hic architecto voluptate ipsum maiores tempore libero distinctio consequatur!
-\</p\>
-\</section\>
-\<section\>
-\<h3 class=\"textColorOffset charityWork\"\>Inter-Faith Shelter, San Diego, CA\</h3\>
-\<p class=\"charityWorkPargraph\"\>\<span\>P\</span\>rovide designated food, serve meals to single people and families, talk with adults and children, clean kitchen and eatting area afterwards.\</p\>
-\<p class=\"charityWorkPargraph\"\>\<span\>I\</span\>nter-Faith Shelter is a community effort to help people get back on their feet with a plan to obtain training or work. Congregations involved from many different faiths as many as 80 join on a rotational basis to house and feed people in need of getting back on their feet to be self sustaining. Their is accountability and rules to abide by out of respect for others to remain in this care situation. All is done on a volunteer basis.
-\</p\>
-\</section\>
-\</section\>
-\<!\-- Footer with Contact Info Section \--\>
-\<footer\>
-\<p\>
+</p>
+</section>
+</section>
+<section id="charity">
+<h2>Charity Work</h2>
+<section>
+<h3 class="textColorOffset charityWork">College Ave Baptist Church</h3>
+<p class="charityWorkPargraph">
+<span>H</span>elp where needed. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus asperiores voluptatibus est error fugit accusantium nobis aspernatur, id dolorum veniam debitis hic architecto voluptate ipsum maiores tempore libero distinctio consequatur!
+</p>
+</section>
+<section>
+<h3 class="textColorOffset charityWork">Inter-Faith Shelter, San Diego, CA</h3>
+<p class="charityWorkPargraph"><span>P</span>rovide designated food, serve meals to single people and families, talk with adults and children, clean kitchen and eatting area afterwards.</p>
+<p class="charityWorkPargraph"><span>I</span>nter-Faith Shelter is a community effort to help people get back on their feet with a plan to obtain training or work. Congregations involved from many different faiths as many as 80 join on a rotational basis to house and feed people in need of getting back on their feet to be self sustaining. Their is accountability and rules to abide by out of respect for others to remain in this care situation. All is done on a volunteer basis.
+</p>
+</section>
+</section>
+<!-- Footer with Contact Info Section -->
+<footer>
+<p>
 Connect with me on:
-\</p\>
-\<a href=\"mailto:ncccontact23@gmail.com\" target=\"\_blank\"\>
-\<!\-- \<img
-src=\"https://edxuploads.s3.amazonaws.com/162309585670190256428.png\"
-alt=\"picture of a letter for contacting via email\"\> \--\>Gmail\</a\>
-\<a href=\"https://facebook.com\" target=\"\_blank\"\>
-\<!\-- \<img
-src=\"https://edxuploads.s3.amazonaws.com/1623095892121252315507.png\"
-alt=\"picture of a phone to signify contacting via phone\"\> \--\>Facebook\</a\>
-\<a href=\"#top\"\>\<img class=\"arrow\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arrow_top.png/640px-Arrow_top.png\" alt=\"picture of an arrow symbol pointing up for going back up to top of page\" title=\"Back to Top of Page\"\>\<a\>
-\</footer\>
-\</body\>
-\</html\>
+</p>
+<a href="mailto:ncccontact23@gmail.com" target="_blank">
+<!-- <img
+src="https://edxuploads.s3.amazonaws.com/162309585670190256428.png"
+alt="picture of a letter for contacting via email"> -->Gmail</a>
+<a href="https://facebook.com" target="_blank">
+<!-- <img
+src="https://edxuploads.s3.amazonaws.com/1623095892121252315507.png"
+alt="picture of a phone to signify contacting via phone"> -->Facebook</a>
+<a href="#top"><img class="arrow" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arrow_top.png/640px-Arrow_top.png" alt="picture of an arrow symbol pointing up for going back up to top of page" title="Back to Top of Page"><a>
+</footer>
+</body>
+</html>
 ```
 
 ## Module 4 learnings
@@ -7623,7 +7440,7 @@ alt=\"picture of a phone to signify contacting via phone\"\> \--\>Facebook\</a\>
 
 -   Explore current Web design styles and learn how to best use them
 
-## 5.1.1 Welcome to Module 5
+<h3 id="ch5-1-1">5.1.1 Welcome to Module 5</h3>
 
 In our final module, we\'re going to be talking about design. It\'s one thing to know how to use CSS properties and selectors.
 
@@ -7635,7 +7452,7 @@ First, we\'re going to talk about the different aspects of design to keep in min
 
 And then we\'re going to end with current design trends, and specifically why we\'re choosing to make Web pages the way we are right now, so you can understand how to keep your Web page looking modern.
 
-## 5.1.2 Module 5 outline
+<h3 id="ch5-1-2">5.1.2 Module 5 outline</h3>
 
 ### In this module, we will:
 
@@ -7649,7 +7466,7 @@ And then we\'re going to end with current design trends, and specifically why we
 
 -   Meet the newest fashions in Web design to help you give your Web pages a modern look and feel
 
-## 5.1.3 The importance of design
+<h3 id="ch5-1-3">5.1.3 The importance of design</h3>
 
 Have you ever visited a Web site before?
 
@@ -7697,7 +7514,7 @@ Numerous studies have been done to determine exactly how important Web design is
 
 -   2 out of every 3 minutes spent on the Web are via a mobile device
 
-## 5.1.4 CSS best practices (optional)
+<h3 id="ch5-1-4">5.1.4 CSS best practices (optional)</h3>
 
 You will find below an excerpt of CSS best practices (see the [full slide set](https://fantasai.inkedblade.net/style/talks/best-practices/#title)) that were written by  Elika J. Etemad (also known as [fantasai](https://fantasai.inkedblade.net/)). Elika is an expert on the [W3C CSS Working Group](https://www.w3.org/Style/CSS/) (since 2004!) and a longtime contributor to the Mozilla Project. In addition to editing many of the CSS3 specifications, she's worked on layout engine testing and development for Gecko and managing the CSS test suites at W3C.
 
@@ -7730,9 +7547,6 @@ You will find below an excerpt of CSS best practices (see the [full slide set](
 
 -   Learn how to code CSS before relying on frameworks (such as Bootstrap, etc.)
 
-```{=html}
-<!-- -->
-```
 -   **Separate content and style**
 
     -   Use semantic markup, ie., \"classes for meaning, not for show\".\
@@ -7780,23 +7594,14 @@ You will find below an excerpt of CSS best practices (see the [full slide set](
 
     -   Navigate by keyboard
 
-```{=html}
-<!-- -->
-```
 -   **Test in multiple browsers**: remember that just testing in Chrome does not work for everyone!  ;)
 
 ### Adaptability
 
 -   **Media queries**: set media query breakpoints in em or ch, not always in px.
 
-```{=html}
-<!-- -->
-```
 -   **Liquid layouts and relativity**: what is your sizing based on?
 
-```{=html}
-<!-- -->
-```
 -   Containing block size? → Use percents.
 
 -   Viewport size? → Use viewport units: vw, vh, vmin, vmax
@@ -7815,9 +7620,6 @@ Absolute units are usually the wrong answer.
 
 -   !important means never override- to use with caution
 
-```{=html}
-<!-- -->
-```
 -   Use !important to define overriding rules, not for fixups
 
 -   Duplicate selectors if you need to increase specificity, or
@@ -7830,9 +7632,6 @@ Absolute units are usually the wrong answer.
     *        . z-index: 9999999999999999999999999999999999999;\
             . position: absolute; left: -10000000000px
 
-```{=html}
-<!-- -->
-```
 -   **Drop dead code**: you tried something and it didn\'t work? Delete it right away!
 
 -   Code to Standard
@@ -7843,7 +7642,7 @@ Absolute units are usually the wrong answer.
 
 -   Provide fallbacks / use @supports.
 
-## 5.2.1 Applying basic design principals
+<h3 id="ch5-2-1">5.2.1 Applying basic design principals</h3>
 
 Often it\'s hard to pull apart the pieces of a design that are \"good\" or \"bad\", most of that is subjective. Instead, it\'s better to think of individual pieces of a design as \"effective\" or \"ineffective\" according to the demographic and the task they are trying to achieve. 
 
@@ -7851,7 +7650,7 @@ Web sites can become pretty complicated if you add many design elements, and it 
 
 In this module, we\'ll discuss how to style the three most fundamental design aspects of a Web page: typography, color, and white space.
 
-## 5.2.2 Typography
+<h3 id="ch5-2-2">5.2.2 Typography</h3>
 
 A good rule of thumb when designing your Web site is to use no more than two different typefaces per page. Typically, this means that you select 1 bold typeface for titles or other eye-catching pieces of text, and a neutral typeface for large blocks or the body text of your page. 
 
@@ -7949,7 +7748,7 @@ In your 4 colors, you\'ll want to keep a consistent tone so that your colors loo
 
 -   [LCH colors in CSS: what, why and how?](http://lea.verou.me/2020/04/lch-colors-in-css-what-why-and-how/), by Lea Verou (April 2020)
 
-## 5.2.4 White space
+<h3 id="ch5-2-4">5.2.4 White space</h3>
 
 It can be difficult to strike a good balance of white space. The most common mistake beginner Web designers make is to not leave enough white space or empty space between HTML elements. 
 
@@ -7957,7 +7756,7 @@ You will want to make liberal use of paddings and margins to make sure that your
 
 Good balance between content and white space prevents your user from becoming fatigued while looking at your site. For example, when lines of text are very long, it is difficult to read without losing track of where you are. It is also fatiguing when the lines of text are too short because the user has to read vertically too much. There is considerable research on the topic, but a good rule of thumb is to limit lines of text to 50-75 characters wide. 
 
-## 5.2.5 Activity - Breaking design guidelines
+<h3 id="ch5-2-4">5.2.5 Activity - Breaking design guidelines</h3>
 
 For this activity, you\'ll need to find a Web site that violates one of the following design guidelines:
 
@@ -7983,7 +7782,7 @@ i tried checking those around my area, I found this <https://www.kolanus.de/> 
 
 I gave up searching for the nicht sehr gut ones. Cheers!
 
-## 5.3.1 Web accessibility
+<h3 id="ch5-3-1">5.3.1 Web accessibility</h3>
 
 *The power of the Web is in its universality.*\
 *Access by everyone regardless of disability is an essential aspect.*\
@@ -8035,15 +7834,13 @@ Good page titles are particularly important for orientation --- to help people k
 
 *Example*:
 
-1.  \<head\>
-
-2.  \...
-
-3.     \<title\>Web Accessibility Initiative (WAI) - home page\</title\>
-
-4.  \...
-
-5.  \</head\>
+```
+<head>
+...
+   <title>Web Accessibility Initiative (WAI) - home page</title>
+...
+</head>
+```
 
 #### Example 2: image text alternatives (\"alt text\")
 
@@ -8097,7 +7894,7 @@ On W3C\'s WAI Web site:
 
 -   [Color contrast](https://www.w3.org/WAI/test-evaluate/preliminary/#contrast)
 
-## 5.3.3 Web internationalization
+<h3 id="ch5-3-3">5.3.3 Web internationalization</h3>
 
 Access to the Web for all has been a fundamental concern and goal of the W3C since the beginning. It is easy to overlook the needs of people from cultures different to your own, or who use different languages or writing systems, but you have to ensure that any content or application that you design or develop is ready to support the international features that they will need.
 
@@ -8223,7 +8020,7 @@ Don\'t use CSS to apply direction for bidirectional or right-to-left scripts, s
 
 5.  **Use start and end:** Using these values, where possible, rather than left and right makes it easier to convert content between languages that use right-to-left and left-to-right scripts.
 
-## 5.4.1 The history of Web design
+<h3 id="ch5-4-1">5.4.1 The history of Web design</h3>
 
 The way Web pages look has changed a lot over the years, mostly because the technology has come a really long way. But as Web sites change, we can look at them as a brief history of the development of technology and also the development of design.
 
@@ -8251,7 +8048,7 @@ And it\'s not necessarily a bad thing to use Flash, but you just have a whole lo
 
 It\'s really fun to go and look back at historical Web sites, and pay attention to what they were using, but why they were using it, and wonder if maybe now there\'s a better technology.
 
-## 5.4.2 Moving pieces
+<h3 id="ch5-4-2">5.4.2 Moving pieces</h3>
 
 As Web design tools became more sophisticated, the Web seemed to fill up with lots of fancy features that ultimately were just distracting. Especially in an era before mobile phones, certain items were used to add emphasis and style, but now are considered dated and would be a huge issue for mobile Web browsers.
 
@@ -8267,7 +8064,7 @@ Here is a list of style elements that should be avoided:
 
 -   **background music** - sometimes still used to set a tone for your site, but often is considered disruptive by users. If you absolutely must have background music, make sure to give your user a way to turn it off that is easily accessible.
 
-## 5.4.3 Rigid layouts
+<h3 id="ch5-4-3">5.4.3 Rigid layouts</h3>
 
 Now, when we design sites, we are always talking about \"different screen sizes\", \"different devices\", etc.
 
@@ -8289,7 +8086,7 @@ Tables organize data into structured rectangular sections, so it was an easy wa
 
 Initially, we replaced HTML tables with \<div\> tags, a multi-purpose tag that was much more flexible than a table row or column, but while divs were flexible they weren\'t very descriptive. With HTML5, we gained more content descriptive tags like \<header\>, \<footer\>, \<section\> and \<article\> that have the same flexibility of div but that better describe your content.
 
-## 5.4.4 Heavy content
+<h3 id="ch5-4-4">5.4.4 Heavy content</h3>
 
 These days, it is extremely likely that many of your users will view your page on a mobile device, typically using cell data as their connection. Cell networks are much more limited than the hard-wired connections that were once the only gateway to the Internet.
 
@@ -8297,7 +8094,7 @@ Back when this was the case, Web designers employed a number of techniques that 
 
 With CSS3, we now have a host of animations that come standard with CSS so there is less need for an external, heavy technology to make dynamic pages. Animations are beyond the scope of this class, however be aware that there are two ways to do animations: using [CSS animations](https://www.w3.org/TR/css3-animations/) or [CSS transitions](https://www.w3.org/TR/css3-transitions/).
 
-## 5.4.5 Activity - Retro design styles
+<h3 id="ch5-4-5">5.4.5 Activity - Retro design styles</h3>
 
 For this activity, please find a retro styled Web site that uses one of the following outdated design elements. You might want to use the [Internet Archive](https://archive.org/web/) to find some older Web pages where these elements were more prevalent.
 
@@ -8341,7 +8138,7 @@ Just for fun, I went looking for sites with animation. This one has some animati
 
 Also has some animation, but not much. [https://web.archive.org/web/20131021205646/http://www.wikihow.com/Main-Page](https://web.archive.org/web/20131021205646/http:/www.wikihow.com/Main-Page)
 
-## 5.5.1 The current state of Web design
+<h3 id="ch5-5-1">5.5.1 The current state of Web design</h3>
 
 Now, it\'s 2016. And I say the year because the design trends I am going to talk about are really specific to this time period now.
 
@@ -8373,7 +8170,7 @@ And you\'ll see that a lot of people sort of pick signature fonts especially for
 
 If you keep these basic ideas in mind, long scrolling, flat designing and typography, you\'re probably going to end up with a really nice modern page.
 
-## 5.5.2 Minimalism
+<h3 id="ch5-5-3">5.5.2 Minimalism</h3>
 
 This Web design trend is part fashion, part function. Since we always keep mobile devices in mind when designing, the \"rich design\" styles of the past (drop shadows, gradients, lots of images, colors, and fonts) have been replaced with the current trend \"flat design\".
 
@@ -8532,7 +8329,7 @@ Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac tu
 
 There are other methods that are more advanced that save you from loading the entire page. One technique under development to make scrolling easier and more accurate is a module called \"[CSS Scroll Snap](https://www.w3.org/TR/css-scroll-snap-1/)\".
 
-## 5.5.4 New layout techniques (optional)
+<h3 id="ch5-5-4">5.5.4 New layout techniques (optional)</h3>
 
 Web layout is always constrained by the limitations of CSS, but future trends will be able to make use of new tools, such as CSS Flexbox (officially: CSS Flexible Box Layout) and CSS Grid.
 
@@ -8607,11 +8404,11 @@ When considering the CSS Grid module, also look at the CSS Flexible Box module. 
 
 -   [Flexbox froggy](https://flexboxfroggy.com/) (game to practice CSS flexbox code)
 
-## 5.5.5 CSS Grid layout (optional)
+<h3 id="ch5-5-5">5.5.5 CSS Grid layout (optional)</h3>
 
 Self-gratification. ie, busting their arms patting themselves on the back. Fucking MS.
 
-## 5.5.6 Activity - Best design
+<h3 id="ch5-5-6">5.5.6 Activity - Best design</h3>
 
 For this activity, go out and find what you think is the best-designed Web page! Post a link to it in the discussion along with the answers to the following questions:
 
@@ -8703,13 +8500,13 @@ I like this webpage because of the smooth design of the different panels. I like
 
 Hopefully at this point you feel comfortable with all the basics of CSS, but, as mentioned throughout this course, there is still a lot more to learn. Here are some courses we recommend you check out next as part of the [W3C \"Front-End Web Developer\" Professional Certificate](https://www.edx.org/professional-certificate/w3cx-front-end-web-developer) program:
 <ul>
-<li>HTML5 & CSS Fundamentals</li>
-<li>HTML5 Coding Essentials and Best Practices</li>
-<li>HTML5 Apps and Games</li>
-<li>JavaScript Introduction</li>
+   <li>HTML5 & CSS Fundamentals</li>
+   <li>HTML5 Coding Essentials and Best Practices</li>
+   <li>HTML5 Apps and Games</li>
+   <li>JavaScript Introduction</li>
 </ul>
 
-<h2>Last Updated: 9.24.2022 11:39am</h2>
+<h2>Last Updated: 9.24.2022 4:55pm</h2>
 <!--------
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ xx.  image (xxx) ------------------------------->
