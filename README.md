@@ -33,47 +33,47 @@
 >### * [**Course tools**](#chb-3)
 
 ## [**Module 1: Getting started with CSS**](#ch1)
->### - [**1.1 Introduction to Module 1**](#ch1-1)
->### - [**1.2 What is CSS?**](#ch1-2)
->### - [**1.3 Why CSS is important**](#ch1-3)
->### - [**1.4 Project 1 - Your first CSS**](#ch1-4)
->### - [**1.5 Conclusion and exercises**](#ch1-5)
+>### - [**1.1 Introduction to Module 1**](#ch1-1-1)
+>### - [**1.2 What is CSS?**](#ch1-2-1)
+>### - [**1.3 Why CSS is important**](#ch1-3-1)
+>### - [**1.4 Project 1 - Your first CSS**](#ch1-4-1)
+>### - [**1.5 Conclusion and exercises**](#ch1-5-1)
 
 ## [**Module 2: Building CSS rules**](#ch2)
->### - [**2.1 Introduction to Module 2**](#ch2-1)
->### - [**2.2 HTML review**](#ch2-2)
->### - [**2.3 Building a CSS rule**](#ch2-3)
->### - [**2.4 Attaching CSS to HTML using selectors**](#ch2-4)
->### - [**2.5 Applying styles using CSS properties**](#ch2-5)
->### - [**2.6 Style studies**](#ch2-6)
->### - [**2.7 Project 2 - About me page**](#ch2-7)
->### - [**2.8 Conclusion and exercises**](#ch2-8)
+>### - [**2.1 Introduction to Module 2**](#ch2-1-1)
+>### - [**2.2 HTML review**](#ch2-2-1)
+>### - [**2.3 Building a CSS rule**](#ch2-3-1)
+>### - [**2.4 Attaching CSS to HTML using selectors**](#ch2-4-1)
+>### - [**2.5 Applying styles using CSS properties**](#ch2-5-1)
+>### - [**2.6 Style studies**](#ch2-6-1)
+>### - [**2.7 Project 2 - About me page**](#ch2-7-1)
+>### - [**2.8 Conclusion and exercises**](#ch2-8-1)
 
 ## [**Module 3: Specific HTML element targeting with CSS selectors**](#ch3)
->### - [**3.1 Introduction to Module 3**](#ch3-1)
->### - [**3.2 Using HTML classes and IDs**](#ch3-2)
->### - [**3.3 CSS pseudo-classes**](#ch3-3)
->### - [**3.4 Combining selectors**](#ch3-4)
->### - [**3.5 Style studies**](#ch3-5)
->### - [**3.6 Project 3 - My profile**](#ch3-6)
->### - [**3.7 Conclusion and exercise**](#ch3-7)
+>### - [**3.1 Introduction to Module 3**](#ch3-1-1)
+>### - [**3.2 Using HTML classes and IDs**](#ch3-2-1)
+>### - [**3.3 CSS pseudo-classes**](#ch3-3-1)
+>### - [**3.4 Combining selectors**](#ch3-4-1)
+>### - [**3.5 Style studies**](#ch3-5-1)
+>### - [**3.6 Project 3 - My profile**](#ch3-6-1)
+>### - [**3.7 Conclusion and exercise**](#ch3-7-1)
 
 ## [**Module 4: Layout and positioning**](#ch4)
->### - [**4.1 Introduction to Module 4**](#ch4-1)
->### - [**4.2 The basics of layout**](#ch4-2)
->### - [**4.3 Floating elements**](#ch4-3)
->### - [**4.4 Relative positioning**](#ch4-4)
->### - [**4.5 Style studies**](#ch4-5)
->### - [**4.6 Project 4 - My resume**](#ch4-6)
->### - [**4.7 Conclusion and exercises**](#ch4-7)
+>### - [**4.1 Introduction to Module 4**](#ch4-1-1)
+>### - [**4.2 The basics of layout**](#ch4-2-1)
+>### - [**4.3 Floating elements**](#ch4-3-1)
+>### - [**4.4 Relative positioning**](#ch4-4-1)
+>### - [**4.5 Style studies**](#ch4-5-1)
+>### - [**4.6 Project 4 - My resume**](#ch4-6-1)
+>### - [**4.7 Conclusion and exercises**](#ch4-7-1)
 
 ## [**Module 5: Designing your Web site for your audience**](#ch5)
->### - [**5.1 Introduction to Module 5**](#ch5-1)
->### - [**5.2 The basics of design**](#ch5-2)
->### - [**5.3 Designing for your audience**](#ch5-3)
->### - [**5.4 Historical Web design trends**](#ch5-4)
->### - [**5.5 Current Web design trends**](#ch5-5)
->### - [**5.6 Conclusion and final exam**](#ch5-6)
+>### - [**5.1 Introduction to Module 5**](#ch5-1-1)
+>### - [**5.2 The basics of design**](#ch5-2-1)
+>### - [**5.3 Designing for your audience**](#ch5-3-1)
+>### - [**5.4 Historical Web design trends**](#ch5-4-1)
+>### - [**5.5 Current Web design trends**](#ch5-5-1)
+>### - [**5.6 Conclusion and final exam**](#ch5-6-1)
 
 There are 3 methods;
 
@@ -1099,7 +1099,7 @@ Now change the HTML and CSS files so that it says "Hello \<your name\>, welcome 
 
 **HINT**: Is your favorite color not working? Not all color names are recognized by CSS. Sometimes the best way is to use HEX. We\'ll talk in more detail about colors in the next module, but here is a list of colors you can use: [extended color keywords](https://www.w3.org/TR/css-color/#color-keywords) (from W3C\'s specification) or [color keywords](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value) (from MDN\'s documentation).
 
-## Module 1 learnings
+<h3 id="ch1-5-1">Module 1 learnings</h3>
 
 After this module, you should feel comfortable...
 
@@ -4756,10 +4756,10 @@ This form design leaves lots of white space to help it feel clean and simple. 
 
 ##### HTML
 
+```
 <!DOCTYPE html>
 <!--It's a best practice to always declare DOCTYPE!-->
 <html lang="en">
-
 <head>
 <meta charset="utf-8">
 </head>
@@ -7094,10 +7094,10 @@ For this project you must at least:
 <h4>CSS</h4>
 
 ```
-/\*
+/*
 Project 4 Module 4.6.2
 At times I use the number 2 at the beginning of an element to disable it. The number 2 is just random. So when you see that in my code, that is all this is about.
-\*/
+*/
 body {
 background-color: white;
 margin: auto;
@@ -7223,7 +7223,7 @@ font-size: .65em;
 margin: 0;
 }
 #2favoriteQuote {
-2font-family: \"Times New Roman\", Times, serif;
+2font-family: "Times New Roman", Times, serif;
 2padding: 20px;
 2margin-top: 0;
 2margin-bottom: 0px;
@@ -7868,9 +7868,9 @@ Text alternatives (\"alt text\") are a primary way of making visual information 
 *Example*: See the W3C logo below. It contains a link that points to the W3C Web site. The text alternative is going to be a brief description of the link target.
 
 ```
-1.  \<a href=\"https://w3.org\"\>
-2.     \<img src=\"images/w3c_home.png\" width=\"72\" height=\"48\" alt=\"W3C Web site\"\>
-3.  \</a\>
+1.  <a href="https://w3.org">
+2.     <img src="images/w3c_home.png" width="72" height="48" alt="W3C Web site">
+3.  </a>
 ```
 
 ## 5.3.2 Inclusive design
@@ -8516,14 +8516,14 @@ I like this webpage because of the smooth design of the different panels. I like
 </p>
 
 Hopefully at this point you feel comfortable with all the basics of CSS, but, as mentioned throughout this course, there is still a lot more to learn. Here are some courses we recommend you check out next as part of the [W3C \"Front-End Web Developer\" Professional Certificate](https://www.edx.org/professional-certificate/w3cx-front-end-web-developer) program:
-<ul>
+<ol type="2">
    <li>HTML5 & CSS Fundamentals</li>
    <li>HTML5 Coding Essentials and Best Practices</li>
    <li>HTML5 Apps and Games</li>
    <li>JavaScript Introduction</li>
-</ul>
+</ol>
 
-<h2>Last Updated: 9.24.2022 4:55pm</h2>
+<h2>Last Updated: 9.25.2022 12:34am</h2>
 <!--------
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ xx.  image (xxx) ------------------------------->
