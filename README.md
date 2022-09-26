@@ -550,15 +550,15 @@ In 1996, see what it looked like (or check it [online](https://web.archive.org/
 
 For a fun time, warp check out an [archived version of that link above](https://web.archive.org/web/19961026005907/http:/msn.com/tutorial/default.html) for anyone \"new to the internet\". See how this [MSN Web site](https://www.msn.com/)  (made with lots of CSS) looks like now!
 
-### Before and after CSS
+<h3>Before and after CSS</h3>
 
-#### Before CSS:
+<h4>Before CSS:</h4>
 
 -   all documents looked very similar - it was difficult for different companies to express their brand identities in documents
 
 -   possibilities for styling were very limited and style was difficult to control and maintain - style had to be applied to content directly, so you couldn\'t update style without having to touch content and vice versa.
 
-#### After CSS:
+<h4>After CSS:</h4>
 
 -   Content authors didn\'t have to worry about style, they could just focus on content
 
@@ -577,7 +577,7 @@ In the video below, you will hear from Bert Bos, the co-creator of CSS, about ho
    alt="CSS Intro logo." />
 </p>
 
-### Video: The history of CSS, by Bert Bos, co-inventor of CSS
+<h4>Video: The history of CSS, by Bert Bos, co-inventor of CSS</h4>
 
 In 1994, it was not possible for an author to style HTML documents. Several browsers had style sheets, but only for the user.
 
@@ -690,11 +690,11 @@ A hypertext document connected to the World Wide Web.
 
 synonyms: website, home page, landing page
 
-### Internet
+<h4>Internet</h4>
 
 A global system of computer networks that connect to one another so that billions of different devices all over the world can share data. The internet is a collection of smaller networks that all combined create one large, all-inclusive global network.
 
-### World Wide Web
+<h4>World Wide Web</h4>
 
 A collection of documents linked together by hypertext links, addressed using Uniform Resource Locators (URLs) accessible on the Internet. The World Wide Web is an application of the internet. 
 
@@ -706,11 +706,11 @@ A software application for retrieving, presenting and traversing information res
 
 examples: edge, chrome, Firefox, internet explorer, safari, opera
 
-#### HTTP
+<h4>HTTP</h4>
 
 Stands for \"**H**yper**t**ext **T**ransfer **P**rotocol\". It is a protocol managed by the W3C to dictate the manner in which Web pages share data on the World Wide Web. You might recognize this from the start of many Web addresses.
 
-#### HTTPS
+<h4>HTTPS</h4>
 
 Stands for \"**H**yper**t**ext **T**ransfer **P**rotocol **S**ecure\". It  is the secure version of **HTTP**, the protocol over which data is sent between your browser and the Web site that you are connected to. It means all communications between your browser and the Web site are encrypted. A vast majority of Web site are now served by [https](https://en.wikipedia.org/wiki/HTTPS).
 
@@ -730,7 +730,7 @@ Up until now, we have been discussing CSS\'s role within a Web site as the \"pre
 
 From the history of CSS, we learned why CSS came about, but the short answer is simply because HTML was never designed to describe the way a Web page was supposed to look. When we use HTML for what it was intended to do, describe content, it leaves space for CSS to properly control a page\'s visuals. This makes it very easy to update or add content without having to even touch the style. 
 
-### Some benefits of CSS:
+<h4>Some benefits of CSS:</h4>
 
 -   CSS has a host of specialized tools to give you powerful control over the look and feel of your Web site, much more powerful than the tools provided by HTML.
 
@@ -744,7 +744,7 @@ From the history of CSS, we learned why CSS came about, but the short answer is 
 
 -   Before CSS visual elements were almost always achieved with static images, which can have a big affect on network performance. CSS provides an optimized way to style your page so it can load complex visuals quickly. 
 
-### External resources:
+<h4>External resources:</h4>
 
 -   [CSS design principles](https://www.w3.org/TR/CSS22/intro.html#design-principles)
 
@@ -2153,7 +2153,7 @@ This property sets the background color of an element. This color then represent
 
 These color properties take in a color as their value, and there are three different ways you can define that color: keyword, a HEX code or an rgb value.
 
-#### keyword
+<h4>keyword</h4>
 
 Probably the simplest and least flexible way to set colors is using a keyword. A keyword is one of the predefined colors like \"blue\" or \"green\". 
 
@@ -2165,7 +2165,7 @@ body {
 
 The list of color keywords is: aqua, black, blue, fuchsia, gray, green, lime, maroon, navy, olive, orange, purple, red, silver, teal, white, and yellow. You can read more about these keyword colors [here.](https://www.w3.org/TR/CSS22/syndata.html#value-def-color)
 
-#### HEX
+<h4>HEX</h4>
 
 A HEX code is a 6 character code to represent the color, giving you a lot more options. The 6 characters of the code are broken into 3 sets of 2, where each set of 2 represents the amount of either red, green or blue that makes up the color. These sets are hexadecimal numbers, which means that each ranges between 00 to FF where 00 means no color and FF means all of that color. Thus #000000 represents pure black and #FFFFFF represents pure white.
 
@@ -2177,7 +2177,7 @@ body {
 }
 ```
 
-#### decimal
+<h4>decimal</h4>
 
 You can also specify colors using rgb in decimal form like so:
 
@@ -2201,13 +2201,13 @@ Here are some of the colors you can use, and the three different ways you can se
 
 You can see these color properties in action using all three approaches to setting the value [in this CodePen.](https://codepen.io/techie4good/pen/PGYRYL)
 
-### Other resources:
+<h4>Other resources:</h4>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ 38. color palette (69) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image038.png?raw=true"
+<img src="./images/image038.jpeg?raw=true"
    width="25%"
    alt="Color palette." />
 </p>
@@ -2223,7 +2223,7 @@ You can see these color properties in action using all three approaches to setti
 
 Font is an extremely important part of how you communicate content to your user. 
 
-### font-family
+<h4>font-family</h4>
 
 \[[*Documentation*](https://www.w3.org/TR/css-fonts-4/#font-family-prop)\]
 
@@ -2250,7 +2250,7 @@ p {
 }
 ```
 
-### font-size
+<h4>font-size</h4>
 
 \[[*Documentation*](https://www.w3.org/TR/css-fonts-4/#font-size-prop)\]
 
@@ -2274,7 +2274,7 @@ In CSS, the em unit is a general unit for measuring lengths (for example, page
 
 Another great resource is this article on [font sizing tips and tricks](https://www.w3.org/Style/Examples/007/units.en.html).
 
-### font-weight
+<h4>font-weight</h4>
 
 \[[*Documentation*](https://www.w3.org/TR/css-fonts-4/#font-weight-prop)\]
 
@@ -2288,7 +2288,7 @@ The weight of a font is the thickness of the letters. You can set this property 
 
 Note that few fonts have settings for all values. If the value is not available, the browser will use the nearest available one. For example, if 800 is not available but 700 is, then the browser will display 700. Please try different fonts in [this Codepen](https://codepen.io/techie4good/pen/XNdrMw) to see how they look at each weight setting.
 
-### font-style
+<h4>font-style</h4>
 
 \[[*Documentation*](https://www.w3.org/TR/css-fonts-4/#font-style-prop)\]
 
@@ -2300,7 +2300,7 @@ p {
 
 The font style property adjusts the angle of the letters in relation to the horizontal plane. Italic forms are generally cursive in nature while oblique faces are typically sloped versions of the regular face.
 
-### text-decoration
+<h4>text-decoration</h4>
 
 \[[*Documentation*](https://www.w3.org/TR/css-text-decor-3/#text-decoration-property)\]
 
@@ -2312,7 +2312,7 @@ p {
 
 Text-decoration adds a line across your text. You can set this line to be underneath your text, underline, through your text, line-through, or on top, overline.
 
-### Example:
+<h4>Example:</h4>
 
 Here is a [CodePen exploring each of these styles](https://codepen.io/w3devcampus/pen/ExNExxq).
 
@@ -2368,7 +2368,7 @@ p {
 }
 ```
 
-### Resources
+<h4>Resources</h4>
 
 There are even more ways to adjust text appearance and you can read more about them here: 
 
@@ -2404,7 +2404,7 @@ When you view an element in your browser tools you can see the white space aroun
 
 The above image is called the \"box model\", which we will get into more detail about in Module 4. For now, you can see that the space around the content is broken into three distinct regions. 
 
-### Padding
+<h4>Padding</h4>
 
 \[[*Documentation*](https://www.w3.org/TR/CSS2/box.html#propdef-padding-top)\]
 
@@ -2418,7 +2418,7 @@ p {
 
 You can set the padding on an element\'s four sides independently using padding-top, padding-right, padding-bottom and padding-left. Or you can use the more compact padding: 10px 15px 20px 25px. In this case, the order of the numbers sets the top, right, bottom and left paddings. In the example below, I collapsed all of these and just set the padding on all four sides to be 20px. Here is a [CodePen that demonstrates all these different ways to set padding](https://codepen.io/w3devcampus/pen/zeEXao).
 
-### Border
+<h4>Border</h4>
 
 \[[*Documentation*](https://www.w3.org/TR/css3-background/#borders)\]
 
@@ -2430,7 +2430,7 @@ p {
 
 The \"border\" is the area outside the padding of an HTML element. By default, borders are set to be empty, but you can set their width, color, pattern, even an image! Like padding, you can even adjust the four sides of a border independent of one another using border-top, border-right, border-bottom or border-left. You can also adjust the different aspects of a border with border-width, border-color, and border-style. In the above example, I collapsed all of these properties into a single simple property and value set.
 
-### Margin
+<h4>Margin</h4>
 
 \[[*Documentation*](https://www.w3.org/TR/CSS2/box.html#propdef-margin)\]
 
@@ -2444,7 +2444,7 @@ An HTML element\'s \"margin\" is the white space that sits outside the border. M
 
 For example, the body tag typically has a margin that causes any content to not extend all the way to the extreme edge of the page. Be careful, margins can be tricky. When two margins touch they \"collapse\" such that the space between the elements is equivalent to the larger of the two margins. Like the above properties, you can also set the margins on each side independently using margin-top, margin-left, margin-bottom and margin-right. 
 
-### Example:
+<h4>Example:</h4>
 
 Here is a [CodePen exploring padding, border and margin](https://codepen.io/techie4good/pen/vXBRJP).
 
@@ -2599,22 +2599,22 @@ Each style study will discuss the different concerns of styling a given element 
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-6-2">2.6.2 Titles</h3>
 <!------------------------------------------------------------------------------------------------>
-
+<p>
 There are a couple different categories of text on a Web page: titles, body text, links, captions, etc.
 
 You\'ll want to style each of these differently to help your user understand the proper context for your text. One of the most important categories of text to stand out are your titles. 
-
-There are different aspects of text you can alter to make it stand out. 
+</p>
+<h4>There are different aspects of text you can alter to make it stand out. </h4>
 <ul>
    <li>size</li>
-   <li>font<M/li>
+   <li>font</li>
    <li>capitalization</li>
    <li>color</li>
    <li>emphasis</li>
    <li>weight</li>
 </ul>
-
-However, you should only alter a few of these following aspects at a time to prevent your titles from being too distracting. The below is an example of using too many different aspects of font for emphasis:
+<p>
+However, you should only alter a few of these following aspects at a time to prevent your titles from being too distracting. The below is an example of using too many different aspects of font for emphasis:</p>
 
 <!------------------------------------------------------------------------------------------------>
 <!----------- 44. example using too many different aspects of font for emphasis (82) ------------->
@@ -2625,7 +2625,7 @@ However, you should only alter a few of these following aspects at a time to pre
    alt="Example using too many different aspects of font for emphasis." />
 </p>
 
-### CSS code:
+<h4>CSS code:</h4>
 
 ```
 #busyTitle h1{
@@ -2640,7 +2640,7 @@ However, you should only alter a few of these following aspects at a time to pre
 }
 ```
 
-### Title 1
+<h4>Title 1</h4>
 
 This title uses soft clean colors based on print media, so we chose a serif font. We also increased the size and color to help the title appear more prominent than the body text. 
 
@@ -2675,7 +2675,7 @@ This title uses soft clean colors based on print media, so we chose a serif font
 }
 ```
 
-### Title 2
+<h4>Title 2</h4>
 
 This design is intended to look futuristic, so it only uses sans-serif, thin font with high contrast colors.
 
@@ -2708,7 +2708,7 @@ This design is intended to look futuristic, so it only uses sans-serif, thin fon
 }
 ```
 
-### Title 3
+<h4>Title 3</h4>
 
 This design is based on pastel primary colors and uses color as a highlight against the default white background. We have achieved the separation between title and body text by setting its background color separately and giving it a bottom border. 
 
@@ -2768,7 +2768,7 @@ Here is an example of a button where it\'s not immediately clear that it is act
 
 More examples of buttons are described below.
 
-### Button 1
+<h4>Button 1</h4>
 
 This design is a pretty traditional button where it has a distinct background-color and border-color to help it stand out from both the background and the body text.
 
@@ -2802,7 +2802,7 @@ This design is a pretty traditional button where it has a distinct background-co
  }
 ```
 
-### Button 2
+<h4>Button 2</h4>
 
 This is a more modern button design where there is no distinct border, but just a flat color background. You\'ll note the poor accessibility of the text and button (for example, no sufficient contrast between foreground and background - find out more in these [tips for designing](https://www.w3.org/WAI/tips/designing/)).
 
@@ -2833,7 +2833,7 @@ This is a more modern button design where there is no distinct border, but just 
 }
 ```
 
-### Button 3
+<h4>Button 3</h4>
 
 This is a big graphic button that uses border-radius to give the button rounded corners.
 
@@ -2888,7 +2888,7 @@ For this activity, please find a Web page that has either titles or buttons and 
 
 -   What would you change about their title or button design to be more effective?
 
-## Module 2 project - About me page
+<h3>Module 2 project - About me page</h3>
 
 Now that you have played around with applying selectors and properties, you have the tools to make a much more sophisticated Web page than \"Hello Your World\". 
 
@@ -2944,7 +2944,7 @@ Remember that if you want to post an assignment without personal information o
 
 <h3>Module 2 learnings</h3>
 
-### After this module you should be able to\...
+<h4>After this module you should be able to:</h4>
 
 -   understand how HTML and CSS work together to create Web content
 
@@ -2954,7 +2954,7 @@ Remember that if you want to post an assignment without personal information o
 
 -   apply properties that style color, font and spacing
 
-### In module 3, you will then learn:
+<h4>In module 3, you will then learn:</h4>
 
 -   classes, IDs
 
@@ -3072,11 +3072,11 @@ If you assign a class, that then say puts them all in the same place and gives t
 
 Now, let's take a look at a whole bunch of different examples of how you can use classes and ids to target exactly what you want.
 
-### Classes and IDs
+<h4>Classes and IDs</h4>
 
 Classes and IDs are \"attribute selectors\". This means that you can attach style to HTML elements based on that element\'s attributes. This empowers you to apply different style to items of the same HTML type.
 
-#### Classes
+<h4>Classes</h4>
 
 \[[Definition](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class) and [documentation](https://www.w3.org/TR/html52/dom.html#element-attrdef-global-class)\]
 
@@ -3098,7 +3098,7 @@ To apply a CSS rule to a class, you must precede its name by a period (\".\"), l
 }
 ```
 
-#### IDs
+<h4>IDs</h4>
 
 \[[Definition](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id) and [documentation](https://www.w3.org/TR/html52/dom.html#element-attrdef-global-id)\]
 
@@ -3116,7 +3116,7 @@ ID names have the same rules as class names: start with a letter, can include nu
 }
 ```
 
-### Example
+<h4>Example</h4>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 53. classes and id example (96) -------------------------------->
@@ -3251,7 +3251,7 @@ Pseudo-classes are a way to select HTML elements based on their state as oppose
 Pseudo-classes must always be applied to an existing selector. Their \"flag character\" is the colon (\":\").\
 Here are some of the most popular pseudo-classes.
 
-### :link and :visited
+<h4>:link and :visited</h4>
 
 \[[Documentation](https://www.w3.org/TR/CSS22/selector.html#link-pseudo-classes)\]
 
@@ -3264,7 +3264,7 @@ a:visited {
 
 These pseudo classes are the ones you are probably most familiar with. Even on this page you\'ve probably noticed that [links have different style](http://www.edx.org/) than paragraph text. The \<a\> tag by default sets the text color to blue with an underline, but have you ever seen a purple link? This is the \"visited\" pseudo-class that applies a different style to links that the user has already clicked. The opposite of visited is \"link\" which is a link a user has not yet clicked. These two states are mutually exclusive, meaning a link cannot be both at the same time.
 
-### :hover, :focus and :active
+<h4>:hover, :focus and :active</h4>
 
 \[[Documentation](https://www.w3.org/TR/CSS22/selector.html#dynamic-pseudo-classes)\]
 
@@ -3294,7 +3294,7 @@ p:active {
 
 You can read more about pseudo-classes in this [MDN \"Pseudo-classes\"](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) document.
 
-### Example
+<h4>Example</h4>
 
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 56. pseudo-classes (101) ------------------------------------>
@@ -3760,7 +3760,7 @@ border: 2px dashed black;
 
 Images are an extremely important part of your page, not only as part of your content but as a key way to help style your page. Before you even get to styling them you need to put considerable thought into what type of images to include in your page. One of the easiest ways to slow down your site\'s performance is to include lots of large, high-quality images. There are two general things to consider when picking your images: what format and how large are they? 
 
-### Formats
+<h4>Formats</h4>
 
 -   JPEG - Possibly the most common image format used on the web, because it does a good job of compressing colorful, complex images into reasonably sized files. JPEG is often used for photos because otherwise, photos can take a very long time to load. 
 
@@ -3768,7 +3768,7 @@ Images are an extremely important part of your page, not only as part of your co
 
 -   GIF - Supports moving images and transparent backgrounds. These can be especially large files so try to use sparingly!
 
-### Sizing
+<h4>Sizing</h4>
 
 It\'s important to format and size your image before uploading it to your site, because while you can use CSS to resize it, the browser will download the full image even if you\'ve chosen to display it smaller than it is. 
 
@@ -3783,7 +3783,7 @@ img {
 
 In Module 4, we will discuss width and height in detail, but for the purpose of images, know that if you only set one of these two properties the image will scale according to its original dimensions. If you set both width and height, CSS will stretch your image to fit whatever you specify. 
 
-### Spacing
+<h4>Spacing</h4>
 
 Rarely does it look nice when your content images touch your text content. You\'ll often want to give your images a good amount of white space surrounding them, and you can do this with padding and/or margin. In the examples below, you can see how you can even use padding and margin to achieve some interesting stylistic effects with your images. 
 
@@ -4657,7 +4657,7 @@ We\'re going to combine all these things together, so you can make a balanced we
 <h3 id="ch4-1-2">4.1.2 Module 4 outline</h3>
 <!------------------------------------------------------------------------------------------------>
 
-### In this module, you will learn:
+<h4>In this module, you will learn:</h4>
 
 -   How to use padding and margin to position elements relative to each other and the window
 
@@ -4667,7 +4667,9 @@ We\'re going to combine all these things together, so you can make a balanced we
 
 -   How to use relative positioning to design your page so that it maintains its layout regardless of screen size
 
-## 4.1.3 Meet the Box Model
+<!------------------------------------------------------------------------------------------------>
+<h3 id="ch4-1-3">4.1.3 Meet the Box Model</h3>
+<!------------------------------------------------------------------------------------------------>
 
 The Box Model is a way for us to distinguish the areas surrounding an HTML element and directly control each of their white space and HTML element is to be considered, to be contained within a box with four sides.
 
@@ -7059,7 +7061,7 @@ And then we\'re going to end with current design trends, and specifically why we
 <h3 id="ch5-1-2">5.1.2 Module 5 outline</h3>
 <!------------------------------------------------------------------------------------------------>
 
-### In this module, we will:
+<h4>In this module, we will:</h4>
 
 -   Learn how to apply basic design principals based on the context of your HTML elements
 
@@ -7309,9 +7311,9 @@ When choosing your font, probably the biggest choice you'll make is what categor
 
 -   **fantasy** - This is the most diverse category of fonts and includes all of those that are particularly decorative. These can make really great top headers as they can give your Web page a very distinct visual identity. Rarely will you want to use these for anything other than titles. It is also good to note that few of these are widely supported, so to use these you\'ll probably want to download them from a font service to make them available for your user.
 
-#####  Example: Impact
+<h4>Example: Impact</h4>
 
-##### External resource
+<h4>External resource</h4>
 
 -   Here is the W3C documentation for all of CSS\'s font properties: [CSS Fonts Module Level 3](https://www.w3.org/TR/css-fonts-3/).
 
@@ -7447,7 +7449,7 @@ There are many simple Web accessibility improvements that you can implement and 
 
 -   [Easy Checks - A First Review of Web Accessibility](https://www.w3.org/WAI/eval/preliminary)
 
-#### Example 1: page title
+<h4>Example 1: page title
 
 Good page titles are particularly important for orientation --- to help people know where they are and move between pages open in their browser. The first thing screen readers say when the user goes to a different Web page is the page title. In the Web page markup, they are the \<title\> within the \<head\>.
 
@@ -7463,7 +7465,7 @@ Good page titles are particularly important for orientation --- to help people k
 </head>
 ```
 
-#### Example 2: image text alternatives (\"alt text\")
+<h4>Example 2: image text alternatives (\"alt text\")
 
 Text alternatives (\"alt text\") are a primary way of making visual information accessible, because they can be rendered through any sensory modality (for example, visual, auditory or tactile) to match the needs of the user. Providing text alternatives allows the information to be rendered in a variety of ways by a variety of user agents. For example, a person who cannot see a picture can have the text alternative read aloud using synthesized speech.
 
@@ -7633,7 +7635,7 @@ In addition, CSS provides tremendous help if you have to translate content from 
 
 Don\'t use CSS to apply direction for bidirectional or right-to-left scripts, such as content in Arabic, Hebrew, Persian, Urdu, Divehi, etc. [Use HTML markup instead](https://www.w3.org/International/questions/qa-bidi-css-markup).
 
-### Internationalization quick tips
+<h4>Internationalization quick tips</h4>
 
 1.  **Language:** Always declare the default language of your page using the lang attribute on the html tag, and indicate internal language changes.
 
@@ -7705,13 +7707,13 @@ Historically, this was not the case, and it was a safe assumption that your user
 
 As our devices evolved, so did our CSS layout tools, so we could move away from these old trends.
 
-### Frames
+<h3>Frames</h3>
 
 Used as a crutch for Web site navigation, this was a site within a site that followed your user around as they navigated. It was often used in placement of a menu bar. This feature was removed in HTML5.
 
 Instead, focus on making a user\'s flow through your site intuitive by building a visually distinct and consistent form of navigation. 
 
-### HTML tables for layout
+<h4>HTML tables for layout</h4>
 
 Tables organize data into structured rectangular sections, so it was an easy way to organize your site in a grid-like layout. HTML tables came with lots of problems. They overloaded HTML trees with lots of unnecessary tags that all come with their own set style that had to be adjusted, and they were extremely limited in how much you could actually adjust them. They also can pose problems with accessibility, it was easy for your content to be displayed in the wrong order.
 
@@ -7747,7 +7749,7 @@ Once you\'ve found an example page, post it in the discussion and answer the fol
 
 2.  What new technology would you use to modernize this element?
 
-#### Retro PayPal
+<h4>Retro PayPal</h4>
 
 discussion posted 2 months ago by [**blither**](https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2020/discussion/forum/users/6016861)
 
@@ -7755,7 +7757,7 @@ discussion posted 2 months ago by [**blither**](https://courses.edx.org/cours
 
 I also found the [ABC News (Australia) in 1997](https://web.archive.org/web/19970412141359/http:/www.abc.net.au/), which uses frames and has some very dated menu buttons on the left hand side, with an animation that highlights the buttons one after the other every 5 or so seconds. I would use a better design, with the navigation links in a horizontal bar that only change colour when hovered over, rather than having the animation run continuously.
 
-#### Old website Library of Congress
+<h4>Old website Library of Congress</h4>
 
 discussion posted a day ago by [**AllaPetr**](https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2020/discussion/forum/users/2254953)
 
@@ -7763,7 +7765,7 @@ discussion posted a day ago by [**AllaPetr**](https://courses.edx.org/courses
 
 For improvement, I would try to vary the presentation of the content by adding some color, images and different fonts. A menu bar would be more attractive and better organized as a structure.
 
-#### activity
+<h4>activity</h4>
 
 discussion posted about a month ago by [**Naenae3**](https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2020/discussion/forum/users/24574149)
 
@@ -7821,7 +7823,7 @@ Flat design emphasizes:
 
 -   *flat colors* - no drop shadows, no attempt to make 2D elements look 3D
 
-##### Benefits of flat design:
+<h4>Benefits of flat design:</h4>
 
 -   *low load times* - better for mobile network connections
 
@@ -7829,7 +7831,7 @@ Flat design emphasizes:
 
 -   *intuitive experience* - research has shown that the cleaner a site, the easier it is for a user to find the information they are looking for
 
-##### External resource
+<h4>External resource</h4>
 
 -   A 2020 web.dev article: [Ten modern layouts in one line of CSS](https://web.dev/one-line-layouts/)
 
@@ -8074,7 +8076,7 @@ For this activity, go out and find what you think is the best-designed Web page!
    alt="Sample web pages from students." />
 </p>
 
-#### A wonderful web page
+<h4>A wonderful web page</h4>
 
 discussion posted about 20 hours ago by [**AllaPetr**](https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2020/discussion/forum/users/2254953)
 
@@ -8083,14 +8085,14 @@ I like the choice of colors because it is both simple and warm. Sometimes web pa
 attention to details shown by the use of animations in the logo. It adds the extra little something that makes it very appealing. The one thing I would use in my own 
 web page is the animated logo combined with the neat and minimalist design of the page. Yes, I think it is accessible.
 
-#### Apple
+<h4>Apple</h4>
 
 discussion posted a day ago by [**LauraLucie**](https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2020/discussion/forum/users/42009473)
 
 [https://www.apple.com](https://www.apple.com/) For me they are doing the best - as one of the first, they simplified their website, as much as their products. 
 I would love to have my website as simply and clean designed.
 
-#### Helpful website for all here
+<h4>Helpful website for all here</h4>
 
 discussion posted 23 days ago by [**therockitscientist**](https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2020/discussion/forum/users/9451919)
 
@@ -8098,13 +8100,13 @@ discussion posted 23 days ago by [**therockitscientist**](https://courses.edx
 
 always have great advice on how he design his own site.
 
-#### Milk! Records
+<h4>Milk! Records</h4>
 
 discussion posted 2 months ago by [**blither**](https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2020/discussion/forum/users/6016861)
 
 [Milk Records](https://milk.milkrecords.com.au/) homepage is a nice, simple design. The whole scope of the site is immediately obvious from the navigation bar, and links to social media are artfully displayed. Each artist has a photo to click on to find out more, and are presented in a nice spaced out grid. However, I looked at the HTML and there are no alt texts for the artist photos. I opened up the Windows Narrator to see if the site could be screen read and it only read out the text in the header.
 
-#### Something that I use frequently was part of a best design choice for me. Check out zillow.com
+<h4>Something that I use frequently was part of a best design choice for me. Check out zillow.com</h4>
 
 discussion posted about a month ago by [**MattN77**](https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2020/discussion/forum/users/39571304)
 
