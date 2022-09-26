@@ -1502,7 +1502,7 @@ Try passing in your favorite Web address and see what comes up. For example, If 
 One of the more common errors is using an HTML tag that is considered obsolete. Often the error points you to this wiki page \"[Use CSS instead](https://wiki.whatwg.org/wiki/Presentational_elements_and_attributes)\".
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- 27.  image of obsolete html error (xxx) ---------------------------->
+<!--------------------------- 27. image of obsolete html error (xxx) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image027.png?raw=true"
@@ -1518,8 +1518,9 @@ For this activity, please try out some of your favorite Web addresses in this va
 
 -   What HTML attribute does it use when it should use CSS instead?
 
-<!-------------------------------- chapter 2-3-1 ------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-3-1">2.3.1 The anatomy of a CSS rule</h3>
+<!------------------------------------------------------------------------------------------------>
 
 In this module, we\'re going to focus on building out your CSS toolbox.
 
@@ -1537,13 +1538,6 @@ the font, the color,... things like that and then we\'ll meet the selector, the 
 
 And then finally, at the end of the module, you get to write your first CSS style specifically for a given HTML Web site.
 
-
-<!---------------------------------------------------------------------->
-<!---------------------------------------------------------------------->
-<!---------------------------------------------------------------------->
-<!---------------------------------------------------------------------->
-<!---------------------------------------------------------------------->
-
 <h3 id="ch2-3-2">2.3.2 Constructing your CSS rules</h3>
 
 Here is an example CSS \"rule\":
@@ -1557,12 +1551,12 @@ p {
 This rule tells the browser to make all text within a paragraph tag blue. A CSS rule is broken into two parts: the selector and the property
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------ 28. css anatomy (xxx) ------------------------------------->
+<!--------------------------------- 28. css selector rule (53) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image028.png?raw=true"
    width="65%"
-   alt="CSS Anatomy." />
+   alt="CSS selector rule." />
 </p>
 <!-------
 {width="6.5in" height="1.7055555555555555in"}
@@ -1577,12 +1571,12 @@ This is the portion of the rule before the first open curly brace ( \"{\" charac
 This is the portion of the rule between the two curly braces. This is what tells the browser how to style the HTML tag that has been selected. This can be as many lines of code as you choose, each of which has two parts- the property and the value you want that property to be. For our example, \"color\" is the property and \"blue\" is the value, but we could also have had a value of \"black\" or \"#FFFFFF\" (which is HEX code for white). Each property line is constructed so:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 28. property anatomy (xxx) ------------------------------->
+<!---------------------------------- 28b. property anatomy (53) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image028.png?raw=true"
+<img src="./images/image028b.png?raw=true"
    width="65%"
-   alt="." />
+   alt="Anatomy of property: how to style a tag." />
 </p>
 <!--- ![property anatomy](images/media/image2.png){width="6.5in" height="1.5333333333333334in"} --->
 
@@ -1619,7 +1613,7 @@ Now that you have a basic understanding of how to put the pieces of a CSS rule t
 Your goal is to get this HTML to look like the following image in the browser:
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- 29. codepen resulting image (activity 2.3) (65) ------------------------>
+<!----------------------- 29. codepen resulting image (activity 2.3) (54) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image029.png?raw=true"
@@ -1691,12 +1685,12 @@ body {
 This would apply style to the body tag as well as allow the elements inside the body tag to inherit certain styles applied here (check the [related CodePen online](https://codepen.io/techie4good/pen/pEzLrd)). 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 30. (xx) ------------------------------->
+<!------------------------------------- 30. body style (56) -------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image030.png?raw=true"
    width="65%"
-   alt="." />
+   alt="Body style." />
 </p>
 <!--- {width="6.5in" height="2.0590277777777777in"} --->
 
@@ -1796,7 +1790,7 @@ Let\'s say we have an HTML document (see the corresponding [Code Pen](https://c
 This is basic structure from the way I have formatted the tags with tabbing, but here is a more visual representation of the hierarchy of tags. Tags that contain other tags are parents, and the tags inside of them are their children in the following tree representation:
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 31. html inheritance structure (70) ------------------------------->
+<!---------------------------- 31. html inheritance structure (59) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image031.png?raw=true"
@@ -1829,7 +1823,7 @@ ul {
 Not every property is inherited, but many are. The CSS specification tell you, for each property, whether it is inheritable. It\'s a good idea to keep in mind the structure of your HTML document when choosing your selectors so you can use inheritance to your advantage by applying styles to the top most element and save yourself extra CSS code.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 32. inheritance example image (71) ------------------------------>
+<!------------------------------ 32. inheritance example image (60) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image032.png?raw=true"
@@ -1897,7 +1891,7 @@ The comma means that each of these elements should have the same, duplicated sty
 Here is a [CodePen](https://codepen.io/w3devcampus/pen/PVJLEm) that explores using the comma to combine selectors.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- 33. comma to combine selectors (73) ------------------------------>
+<!----------------------------- 33. comma to combine selectors (62) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image033.png?raw=true"
@@ -2027,7 +2021,7 @@ Note that there are HTML and some CSS rules, but the rules are missing their sel
 You will need to figure out which selectors belong on top of each of the 5 rules so that your final site looks exactly like this:
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------- 34. Final result after you apply your own selector image (76) ----------------->
+<!---------------- 34. Final result after you apply your own selector image (65) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image034.png?raw=true"
@@ -2058,7 +2052,7 @@ body {
 The above style is put into action in the [following CodePen](https://codepen.io/techie4good/pen/bwbLJP):
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 35. sample with different property values (77) ------------------------>
+<!------------------------ 35. sample with different property values (66) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image035.png?raw=true"
@@ -2070,7 +2064,7 @@ The above style is put into action in the [following CodePen](https://codepen.i
 Make sure to look up what the available values are before using a property, because if the browser doesn\'t understand your value it will typically just skip applying any style. This is where programs like Visual Studio Code come in handy because as you type out the property, the program will automatically suggest possible values.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------ 36. color options (77) ------------------------------------>
+<!------------------------------------ 36. color options (66) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image036.png?raw=true"
@@ -2082,7 +2076,7 @@ Make sure to look up what the available values are before using a property, beca
 Sometimes the easiest way to learn about different properties is to explore the style on one of your favorite Web sites. You can use your browser tool to inspect an HTML element. Here is an example of inspecting a title:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------ 37. dom explorer (78) ------------------------------------->
+<!------------------------------------ 37. dom explorer (67) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image037.png?raw=true"
@@ -2168,7 +2162,7 @@ You can see these color properties in action using all three approaches to setti
 ### Other resources:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------ 38. color palette (80) ------------------------------------>
+<!------------------------------------ 38. color palette (69) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image038.png?raw=true"
@@ -2279,7 +2273,7 @@ Text-decoration adds a line across your text. You can set this line to be undern
 Here is a [CodePen exploring each of these styles](https://codepen.io/w3devcampus/pen/ExNExxq).
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 39. text-decoratoin example (84) -------------------------------->
+<!------------------------------ 39. text-decoratoin example (73) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image039.png?raw=true"
@@ -2353,7 +2347,7 @@ For now, we\'ll use pixels because that is easier to learn. However, ultimately 
 When you view an element in your browser tools you can see the white space around it represented like so:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- 40. margin padding border (86) --------------------------------->
+<!------------------------------- 40. margin padding border (75) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image040.png?raw=true"
@@ -2409,7 +2403,7 @@ For example, the body tag typically has a margin that causes any content to not 
 Here is a [CodePen exploring padding, border and margin](https://codepen.io/techie4good/pen/vXBRJP).
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------- 41. Example using padding, border and margin (88) ----------------------->
+<!---------------------- 41. Example using padding, border and margin (77) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image041.png?raw=true"
@@ -2457,7 +2451,7 @@ Now that you have a few properties in your CSS toolbox, let\'s practice using th
 Here is some HTML and CSS, but as you can see the CSS rules have selectors but no properties. Check also the corresponding [Codepen](https://codepen.io/w3devcampus/pen/WNozNxK):
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- 42. Example using selectors but no properties (88) ----------------------->
+<!--------------------- 42. Example using selectors but no properties (78) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image042.png?raw=true"
@@ -2527,7 +2521,7 @@ Here is some HTML and CSS, but as you can see the CSS rules have selectors but n
 These CSS rules have selectors, but no properties. For this activity, it is up to you to add the correct properties and set their values appropriately to achieve this final style:
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------- 43. adding properties (91) ---------------------------------->
+<!---------------------------------- 43. adding properties (80) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image043.png?raw=true"
@@ -2583,7 +2577,7 @@ There are different aspects of text you can alter to make it stand out. 
 However, you should only alter a few of these following aspects at a time to prevent your titles from being too distracting. The below is an example of using too many different aspects of font for emphasis:
 
 <!------------------------------------------------------------------------------------------------>
-<!----------- 44. example using too many different aspects of font for emphasis (93) ------------->
+<!----------- 44. example using too many different aspects of font for emphasis (82) ------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image044.png?raw=true"
@@ -2611,7 +2605,7 @@ However, you should only alter a few of these following aspects at a time to pre
 This title uses soft clean colors based on print media, so we chose a serif font. We also increased the size and color to help the title appear more prominent than the body text. 
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- 45. example using soft clean colors (94) --------------------------->
+<!--------------------------- 45. example using soft clean colors (83) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image045.png?raw=true"
@@ -2646,7 +2640,7 @@ This title uses soft clean colors based on print media, so we chose a serif font
 This design is intended to look futuristic, so it only uses sans-serif, thin font with high contrast colors.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------- 46. example looking futuristic (95) ------------------------------>
+<!----------------------------- 46. example looking futuristic (84) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image046.png?raw=true"
@@ -2679,7 +2673,7 @@ This design is intended to look futuristic, so it only uses sans-serif, thin fon
 This design is based on pastel primary colors and uses color as a highlight against the default white background. We have achieved the separation between title and body text by setting its background color separately and giving it a bottom border. 
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 48. example using pastel (96) --------------------------------->
+<!-------------------------------- 48. example using pastel (85) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image048.png?raw=true"
@@ -2722,7 +2716,7 @@ Typically your user will expect your button to be wider than it is tall, to acco
 Here is an example of a button where it\'s not immediately clear that it is actually a button (\"click here\"). 
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 48. button example (97) ------------------------------------>
+<!----------------------------------- 48. button example (86) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image048.png?raw=true"
@@ -2737,7 +2731,7 @@ More examples of buttons are described below.
 This design is a pretty traditional button where it has a distinct background-color and border-color to help it stand out from both the background and the body text.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- 49. traditional button (97) ---------------------------------->
+<!--------------------------------- 49. traditional button (86) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image049.png?raw=true"
@@ -2771,7 +2765,7 @@ This design is a pretty traditional button where it has a distinct background-co
 This is a more modern button design where there is no distinct border, but just a flat color background. You\'ll note the poor accessibility of the text and button (for example, no sufficient contrast between foreground and background - find out more in these [tips for designing](https://www.w3.org/WAI/tips/designing/)).
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------------ 50. modern button (98) ------------------------------------>
+<!------------------------------------ 50. modern button (87) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image050.png?raw=true"
@@ -2802,7 +2796,7 @@ This is a more modern button design where there is no distinct border, but just 
 This is a big graphic button that uses border-radius to give the button rounded corners.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- 51. big graphic button using border-radius (99) ------------------------>
+<!----------------------- 51. big graphic button using border-radius (88) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image051.png?raw=true"
@@ -2889,7 +2883,7 @@ And in addition, you must employ the following styles:
 For example, here is what my page looks like:
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 52. Example image module 2 project (101) ---------------------------->
+<!-------------------------- 52. Example image module 2 project (90) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image052.png?raw=true"
@@ -3073,7 +3067,7 @@ ID names have the same rules as class names: start with a letter, can include nu
 ### Example
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- 53. classes and id example (106) ------------------------------->
+<!------------------------------- 53. classes and id example (96) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image053.png?raw=true"
@@ -3163,7 +3157,7 @@ p,h2 {
 As you can note, it\'s not too interesting because not all of the styles are applied to the HTML as shown in the pen below:
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 54. more class and id examples (109) ------------------------------>
+<!---------------------------- 54. more class and id examples (98) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image054.png?raw=true"
@@ -3175,7 +3169,7 @@ As you can note, it\'s not too interesting because not all of the styles are app
 In this activity, your job is to add the HTML id and class attributes to the correct elements so that you get a final result that looks like this:
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- 55. welcome to my page (110) --------------------------------->
+<!--------------------------------- 55. welcome to my page (99) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image055.png?raw=true"
@@ -3247,7 +3241,7 @@ You can read more about pseudo-classes in this [MDN \"Pseudo-classes\"](https:/
 ### Example
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------------- 56. pseudo-classes (112) ------------------------------------>
+<!---------------------------------- 56. pseudo-classes (101) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image056.png?raw=true"
@@ -3331,7 +3325,7 @@ Please add pseudo-classes to the existing rules so that:
 The resulting output should look like this when the user has not interacted with the page in any way:
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 57. resulting my page in green (116) ------------------------------>
+<!---------------------------- 57. resulting my page in green (104) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image057.png?raw=true"
@@ -3386,7 +3380,7 @@ width: 100px;
 Below is a diagram of the given HTML with the two imgs that will be styled by the above rule are indicated by the red arrows. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------- 58. diagram pointing out which img tags will be styled(xx) ----------------->
+<!----------------- 58. diagram pointing out which img tags will be styled (106) ----------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image058.png?raw=true"
@@ -3402,12 +3396,12 @@ As your web pages get more complex, contextual selectors become more important, 
 Pay attention to the styles of the paragraphs and lists in the following example:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 59. (xx) ------------------------------->
+<!----------------------- 59. example styles for paragraphs & lists (106) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image059.png?raw=true"
    width="50%"
-   alt="Contextual selectors result part 1." />
+   alt="." />
 </p>
 <!----------
 {width="6.9375in" height="2.9819444444444443in"}
@@ -3418,12 +3412,12 @@ Pay attention to the styles of the paragraphs and lists in the following example
 For practice, we are going to learn how to better scope CSS without the crutch of classes and IDs. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 60. (xx) ------------------------------->
+<!--------------------------- 60. scoping css w/o classes & ids (107) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image060.png?raw=true"
    width="50%"
-   alt="Contextual selectors result part 1." />
+   alt="Scoping CSS without classes and id's." />
 </p>
 <!-----------
 {width="6.9375in" height="2.673611111111111in"}
@@ -3473,10 +3467,10 @@ So, there are CSS rules with duplicate selectors. You\'ll need to add some extra
 **Your final site should look like this:**
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 62. (xx) ------------------------------->
+<!------------------------- 61. contextual selectors part 1 of 3 (108) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image062.png?raw=true"
+<img src="./images/image061.png?raw=true"
    width="50%"
    alt="Contextual selectors result part 1." />
 </p>
@@ -3485,10 +3479,10 @@ So, there are CSS rules with duplicate selectors. You\'ll need to add some extra
 ---------->
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 63. (xx) ------------------------------->
+<!------------------------- 62. contextual selectors part 2 of 3 (108) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image063.png?raw=true"
+<img src="./images/image062.png?raw=true"
    width="50%"
    alt="Contextual selectors result part 2." />
 </p>
@@ -3497,10 +3491,10 @@ So, there are CSS rules with duplicate selectors. You\'ll need to add some extra
 ----------->
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 64. (xx) ------------------------------->
+<!------------------------- 63. contextual selectors part 3 of 3 (109) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image064.png?raw=true"
+<img src="./images/image063.png?raw=true"
    width="50%"
    alt="Contextual selectors result part 3." />
 </p>
@@ -3559,12 +3553,12 @@ Thanks to the \"cascading\" part of \"Cascading Style Sheets\", this isn\'t a pr
 Look at the corresponding HTML and CSS, where code showing how Cascading order applies with many overlapping rules:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 65. (xx) ------------------------------->
+<!----------------------------- 64. overlapping rules example (111) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image065.png?raw=true"
+<img src="./images/image064.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Overlapping rules example with cascading order." />
 </p>
 <!---------
 {width="6.9375in" height="2.9819444444444443in"}
@@ -3607,12 +3601,12 @@ Cascading order can be difficult to manage.
 **Consider the following pen:**
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 66. (xx) ------------------------------->
+<!------------------------------ 65. managing cascading order (112) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image066.png?raw=true"
+<img src="./images/image065.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Managing cascading order." />
 </p>
 <!-----------
 {width="5.0in" height="2.765265748031496in"}
@@ -3647,12 +3641,12 @@ Cascading order can be difficult to manage.
 Note that there are a lot of repeat CSS rules. For this activity, you cannot change any of the HTML (meaning you cannot add any IDs), but you\'ll need to change the CSS to make some of the rules more specific so that you achieve this final result:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 67. (xx) ------------------------------->
+<!----------------------------- 66. cascading order solution (113) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image067.png?raw=true"
    width="50%"
-   alt="Cascading order final solution no interaction." />
+   alt="Cascading order final solution, no interaction." />
 </p>
 <!----------
 (images/media/image67.png){width="5.0in" height="3.7007010061242345in"}
@@ -3685,14 +3679,14 @@ border: 2px dashed black;
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!------------------------ 67. cascading style practice with hover (114) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
+<img src="./images/image067.png?raw=true"
    width="###%"
-   alt="." />
+   alt="Cascading style practice with hover." />
 </p>
-![cascading style practice with hover](images/media/image68.png){width="5.0in" height="3.7062062554680666in"}
+<!-- (images/media/image68.png){width="5.0in" height="3.7062062554680666in"} -->
 
 <h3 id="ch3-5-1">3.5.1 Images</h3>
 
@@ -4155,12 +4149,12 @@ color: white;
 This form design is more minimalist, using the clear and consistent design and layout to help the user feel like the form is extra short.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 75. (xx) ------------------------------->
+<!--------------------------- 74. sign-up form for minimalists (128) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image075.png?raw=true"
+<img src="./images/image074.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Sign-up form for minimalists." />
 </p>
 <!---------
 {width="5.0in" height="3.136142825896763in"}
@@ -4239,12 +4233,12 @@ width: 225px;
 This form design leaves lots of white space to help it feel clean and simple. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 76. (xx) ------------------------------->
+<!--------------------------- 75. sign-up form with white space (130) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image076.png?raw=true"
+<img src="./images/image075.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Sign-up form with white space." />
 </p>
 <!---------
 {width="5.0in" height="1.9464468503937007in"}
@@ -4542,12 +4536,12 @@ Once you have all these elements, style them to look nice, but you must have eac
 For reference here is what my solution looks like:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 77. (xx) ------------------------------->
+<!-------------------------- 76. kasey champion resume solution (137) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image077.png?raw=true"
+<img src="./images/image076.png?raw=true"
    width="50%"
-   alt="Kasey's solution part 1." />
+   alt="Kasey Champion's resume solution part 1." />
 </p>
 <!----------
 {width="5.0in" height="3.950450568678915in"}
@@ -4632,7 +4626,7 @@ Each element is comprised of 4 areas: the **element**, the **padding**, the *
 We discussed how to adjust the white space of these areas in Module 2.5, but in this module we will be discussing these areas as a method to position elements on a page.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 105. (xx) ------------------------------->
+<!------------------------------ 76. (xx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image105.png?raw=true"
@@ -4652,24 +4646,24 @@ We discussed how to adjust the white space of these areas in Module 2.5, but in 
 -   **margin** - This is the space surrounding an element, outside the border. Margins are the part of HTML elements that interact with one another. When two margins interact the larger of the two wins meaning the smaller margin \"collapses\", thus the actual space between two elements is the larger of the two, not the sum of the margins.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 78. (xx) ------------------------------->
+<!------------------------------ 77. margin & padding example (140) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image078.png?raw=true"
+<img src="./images/image077.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Margin and padding example." />
 </p>
 <!-----------
 ![](images/media/image78.png){width="5.0in" height="2.8143143044619423in"}
 ------------>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 79. (xx) ------------------------------->
+<!----------------------- 78. padding, border, & margin example (141) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image079.png?raw=true"
+<img src="./images/image078.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Padding, border & margin example: 100,100,100." />
 </p>
 <!--------
 (width="5.0in" height="2.8143143044619423in"}
@@ -4763,12 +4757,12 @@ If you have used a text editor before, like Microsoft Word, you\'ve probably use
 See below for examples of what each of these values will do to your text:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 80. (xx) ------------------------------->
+<!-------------------------------- 79. text-align example (143) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image080.png?raw=true"
+<img src="./images/image079.png?raw=true"
    width="50%"
-   alt="Example of each text-aligh value options 'left', 'right', 'center' and 'justify'." />
+   alt="Example of the text-align options: 'left', 'right', 'center' and 'justify'." />
 </p>
 <!-------------
 {width="5.0in" height="1.810310586176728in"}
@@ -4789,12 +4783,12 @@ h1 {
 You may have noticed that the text-align property sets the content\'s alignment horizontally, but it leaves its vertical alignment unchanged. Text lives within a specified vertical space, in which the text is drawn by default in the middle of that vertical space. If you change the height of the containing HTML block, the text will remain at the top of the block. However, if you instead use the \"line-height\" property, then the block will grow and the text will vertically center within it.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 81. (xx) ------------------------------->
+<!-------------------------------- 80. line-height example (144) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image081.png?raw=true"
+<img src="./images/image080.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Line-height example." />
 </p>
 <!-----------
 {width="5.0in" height="2.5355358705161857in"}
@@ -4897,12 +4891,12 @@ img {
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!--------------------------------- 81. set max img width (147) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image082.png?raw=true"
+<img src="./images/image081.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Set max image width in css." />
 </p>
 <!-------
 {width="5.0in" height="2.5355358705161857in"}
@@ -4996,12 +4990,12 @@ img {
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 83.  image (xxx) ------------------------------->
+<!------------------------------ 82.  display: block example (150) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image083.png?raw=true"
+<img src="./images/image082.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Display: block example." />
 </p>
 <!------
 {width="5.0in" height="2.5355358705161857in"}
@@ -5064,10 +5058,10 @@ margin: 0 auto;
 Here is what the above code looks like in a wide window:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 84.  image (xxx) ------------------------------->
+<!------------------------- 83. centered with margin wide example (151) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image084.png?raw=true"
+<img src="./images/image083.png?raw=true"
    width="50%"
    alt="Centered elements with margin wide example." />
 </p>
@@ -5078,10 +5072,10 @@ Here is what the above code looks like in a wide window:
 Now, if you resize the window, the elements remain centered no matter what. Here is the above code in a narrow window:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 85.  image (xxx) ------------------------------->
+<!----------------------- 84. dynamically centered in narrow window (151) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image085.png?raw=true"
+<img src="./images/image084.png?raw=true"
    width="30%"
    alt="Dynamically centered element narrow example." />
 </p>
@@ -5100,12 +5094,12 @@ Now, if you resize the window, the elements remain centered no matter what. Here
 For this activity, you are going to practice some of the basic alignment properties you\'ve learned in this unit.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 86.  image (xxx) ------------------------------->
+<!------------------------------ 85.  practice with alignment (152) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image086.png?raw=true"
+<img src="./images/image085.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Practice with alighment." />
 </p>
 <!-------
 {width="5.0in" height="1.7497944006999124in"}
@@ -5191,10 +5185,10 @@ color: white;
 The resulted HTML and CSS codes produce a Web page where elements are not very well aligned. Your goal is to add properties to the existing CSS rules so that the final page looks like this:
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- 87. practice with alignment after picture image (xxx) --------------------->
+<!----------------------- 86. practice with alignment after picture (154) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image087.png?raw=true"
+<img src="./images/image086.png?raw=true"
    width="50%"
    alt="Practice with alignment after picture." />
 </p>
@@ -5254,10 +5248,10 @@ The float property liberates an element from its automatic position and lifts it
 Elements underneath a floating object will automatically wrap themselves around the content. For example, if you float an image, the text underneath will wrap around it so that none of it is actually obscured underneath the image, but now both text and an image can share horizontal space. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------- 88. example of floating img and sourrounding text (xxx) -------------------->
+<!------------------- 87. example of floating img and surrounding text (156) --------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image088.png?raw=true"
+<img src="./images/image087.png?raw=true"
    width="55%"
    alt="Example of floating img and surrounding text." />
 </p>
@@ -5280,12 +5274,12 @@ p {
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 89.  image (xxx) ------------------------------->
+<!---------------------------------- 88. too many colors (157) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image089.png?raw=true"
+<img src="./images/image088.png?raw=true"
    width="70%"
-   alt="." />
+   alt="Too many colors." />
 </p>
 <!---------
 {width="6.9375in" height="2.845833333333333in"}
@@ -5365,12 +5359,12 @@ One of the toughest parts of layouts with CSS is figuring out which elements to 
 ### Here is [some HTML and CSS](https://codepen.io/techie4good/pen/xEbWrp):
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 90.  image (xxx) ------------------------------->
+<!----------------------------------- 89. float example (159) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image090.png?raw=true"
+<img src="./images/image089.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Float example." />
 </p>
 <!-------
 {width="5.0in" height="3.5855894575678042in"}
@@ -5459,12 +5453,12 @@ As you can see the layout is pretty messy. Your job in this activity is to decid
 You might also need to adjust some widths, margins and paddings to get everything looking like the final image below:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 91.  image (xxx) ------------------------------->
+<!--------------------------- 90. web page: yellow, green & red (161) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image091.png?raw=true"
+<img src="./images/image090.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Sample web page, yellow, green & red." />
 </p>
 <!-------
 {width="5.0in" height="2.5605610236220473in"}
@@ -5634,12 +5628,12 @@ Note that position is not an inherited property so you will have to apply it ind
 ##### Example 1:
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- 92.  (xxx) ---------------------->
+<!---------------------- 91. use alignment &/or float over position (166) ------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image092.png?raw=true"
+<img src="./images/image091.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Use alignment &/or float rather than position." />
 </p>
 
 ##### HTML
@@ -5699,12 +5693,12 @@ left: 10px;
 ### Example 2:
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------- 93.  (xxx) ---------------------->
+<!--------------------------- 92. relative positioning example (168) ----------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image093.png?raw=true"
+<img src="./images/image092.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Relative positioning example with overlap." />
 </p>
 
 Note that relative positioning can make elements overlap - check the following CSS code as a second example:
@@ -5746,12 +5740,12 @@ For this activity, we are going to focus on using relative positioning to adjust
 Here is [some HTML and CSS:](https://codepen.io/techie4good/pen/KgwRwg)
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 94.  image (xxx) ------------------------------->
+<!------------------------------ 93. blue on light grey sample (169) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image094.png?raw=true"
+<img src="./images/image093.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Blue on light grey sample web page." />
 </p>
 <!------
 {width="5.0in" height="3.1431430446194226in"}
@@ -5785,12 +5779,12 @@ width: 90%;
 Your task is to add CSS so that you achieve this final layout:\
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- 95. relative positioning activity output (xx) -------------------------->
+<!------------------------ 94. blue on light grey sample web page (170) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image095.png?raw=true"
+<img src="./images/image094.png?raw=true"
    width="70%"
-   alt="Relative positioning activity output." />
+   alt="Blue on light grey sample web page." />
 </p>
 <!--------
 {width="6.9375in" height="1.7673611111111112in"}
@@ -5843,24 +5837,24 @@ One of the most important aspects of any Web site is the navigation menu. Over 
 -   A special style indicating the link for the page you are currently on
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 95.  image (xxx) ------------------------------->
+<!------------------------------ 95. web page starter sample (171) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image095.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Web page starter sample." />
 </p>
 <!-------
 (width="5.0in" height="2.6156157042869643in"}
 -------->
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 96. footing image (xxx) ------------------------------->
+<!----------------------------------- 96. footing image (171) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image096.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Footer for web page starter sample." />
 </p>
 <!---------
 {width="5.0in" height="1.183183508311461in"}
@@ -5912,12 +5906,12 @@ color: #0E0B16;
 This menu design uses a vertical arrangement but still floats the overall menu object so it can sit level with your content. You can also see a tabbed format here where the page you are currently viewing directly connects to the menu item representing it. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 98.  (xxx) ------------------------------->
+<!---------------------------------- 97. full pink menu (173) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image098.png?raw=true"
+<img src="./images/image097.png?raw=true"
    width="70%"
-   alt="." />
+   alt="Full pink menu." />
 </p>
 <!--------
 {width="6.9375in" height="2.548611111111111in"}
@@ -6014,12 +6008,12 @@ padding: 30px;
 This third design employs hover as a way to expose secondary links. This lets you leave the top level clean and simple but gives the user the power of more specific options when they interact with your header.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 99.  (xxx) ------------------------------->
+<!---------------------- 98. hover with contact blog about home (175) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image099.png?raw=true"
+<img src="./images/image098.png?raw=true"
    width="70%"
-   alt="." />
+   alt="Menu with contact, blog, about and home categories." />
 </p>
 <!-------
 {width="6.9375in" height="2.55625in"}
@@ -6115,12 +6109,12 @@ The footer of your page is typically the last thing your user will see, so it\'s
 You will want your footer to flow with your overall page design, but to be distinct from your content.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 100.  image (xxx) ------------------------------->
+<!-------------------------------- 99. full footer example (178) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image100.png?raw=true"
+<img src="./images/image099.png?raw=true"
    width="70%"
-   alt="." />
+   alt="Full footer example." />
 </p>
 <!-------
 {width="6.9375in" height="3.5479166666666666in"}
@@ -6287,12 +6281,12 @@ Please <a href="#">contact us</a> if you have any questions
 This is a basic footer that uses background color to help it stand out from the rest of the content. It contains contact links and a subtle reference to the designer of the page.
 
 <!------------------------------------------------------------------------------------------------>
-<!----------------------- 101. basic footing with background color (xxx) ------------------------->
+<!----------------------- 100. basic footing with background color (182) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image101.png?raw=true"
+<img src="./images/image100.png?raw=true"
    width="70%"
-   alt="Basic Footing with Background Color." />
+   alt="Basic Footing with background color." />
 </p>
 <!---------
 {width="6.9375in" height="1.2013888888888888in"}
@@ -6361,19 +6355,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </html>
 ```
 
-##### Footer 2
+<h4>Footer 2</h4>
 
 This footer provides navigation links. Because the footer is at the bottom of the page, you can get away with more links being exposed because limiting area isn\'t as important as in the top level header.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
+<!---------------------------- 101. full thorough footer sample (184) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
-   alt="." />
+<img src="./images/image101.png?raw=true"
+   width="70%"
+   alt="Full thorough footer sample." />
 </p>
-![](images/media/image102.png){width="6.9375in" height="2.311111111111111in"}
+<!--- ![](images/media/image102.png){width="6.9375in" height="2.311111111111111in"} --->
 
 <h4>CSS</h4>
 
@@ -6455,19 +6449,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </html>
 ```
 
-##### Footer 3
+<h4>Footer 3</h4>
 
 This final design flows with the overall structure of the page, but limits the content to a single simple contact link.
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------- 103. kasey champion resume example (xxx) --------------------------->
+<!-------------------------------- 102. final footer sample (186) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
+<img src="./images/image102.png?raw=true"
+   width="70%"
    alt="." />
 </p>
-![](images/media/image103.png){width="6.9375in" height="2.311111111111111in"}
+<!-- ![](images/media/image103.png){width="6.9375in" height="2.311111111111111in"} -->
 
 <h4>CSS</h4>
 
@@ -6550,10 +6544,10 @@ For this project, you are going to try to reproduce a typical resume layout but 
 Here is what my Web resume looks like:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 104. (xx) ------------------------------->
+<!-------------------------- 103. kasey champion resume example (190) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image104.png?raw=true"
+<img src="./images/image103.png?raw=true"
    width="50%"
    alt="Kasey's web resume." />
 </p>
@@ -6576,10 +6570,10 @@ For this project you must at least:
 -   Use the position property and box offsets to position at least 2 elements
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 105. (xx) ------------------------------->
+<!---------------------------- 104. matt norris sample resume (204) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image105.png?raw=true"
+<img src="./images/image104.png?raw=true"
    width="50%"
    alt="." />
 </p>
@@ -7084,12 +7078,12 @@ You will find below an excerpt of CSS best practices (see the [full slide set](
 ### Testing
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 106. (xx) ------------------------------->
+<!--------------------------------- 106. font categories (206) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image106.jpeg?raw=true"
    width="50%"
-   alt="Testing image." />
+   alt="Font categories." />
 </p>
 <!----------
 {width="2.0833333333333335in" height="1.7166666666666666in"}
@@ -8019,7 +8013,7 @@ Hopefully at this point you feel comfortable with all the basics of CSS, but, as
    <li>JavaScript Introduction</li>
 </ol>
 
-<h2>Last Updated: 9.25.2022 11:24am</h2>
+<h2>Last Updated: 9.25.2022 8:04pm</h2>
 <!--------
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ xx.  image (xxx) ------------------------------->
