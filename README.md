@@ -1270,7 +1270,7 @@ Tags can be nested inside of other tags. This creates a parent/child relationshi
 There are other types of tags that are called \"self-closing\", meaning they don\'t come in an open/close pair. Typically, self-closing tags insert content into your page as opposed to surround content. They look like this:
 
 ```
-> <img src="images/pic1.png" alt="pic1" />
+<img src="images/pic1.png" alt="pic1" />
 ```
 
 These types of tags rely on \"attributes\", these are added modifiers on the tag that have their own values. In the above example, we use the src attribute to set the source for the image.
@@ -1617,25 +1617,25 @@ The style for your page will consist of a list of many CSS rules put together. A
 Now that you have a basic understanding of how to put the pieces of a CSS rule together, let\'s do some practice. Here is some HTML for a page you will style:
 
 ```
-1.  <!DOCTYPE html>
-2.  <html lang="en">
-3.     <head>
-4.        <meta charset="utf-8">
-5.        <title>My HTML page</title>
-6.        <link rel="stylesheet" href="style.css">
-7.     </head>
-8.     <body>
-9.        <h1>My H1 header</h1>
-10.       <p> This is a block of text to represent a paragraph that you will want to style. This might be an explanation of the list that follows, it is all contained within a single paragraph tag.
-11.       </p>
-12.       <ul>
-13.          <li>This is list item 1</li>
-14.          <li>Item 2 in the list</li>
-15.          <li>The third item in the list</li>
-16.          <li>Item 4 completes the list</li>
-17.       </ul>
-18.    </body>
-19. </html>
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>My HTML page</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <h1>My H1 header</h1>
+      <p> This is a block of text to represent a paragraph that you will want to style. This might be an explanation of the list that follows, it is all contained within a single paragraph tag.
+      </p>
+      <ul>
+         <li>This is list item 1</li>
+         <li>Item 2 in the list</li>
+         <li>The third item in the list</li>
+         <li>Item 4 completes the list</li>
+      </ul>
+   </body>
+</html>
 ```
 
 [HTML in Code Pen](https://codepen.io/w3devcampus/pen/zovzwE)
@@ -2326,7 +2326,7 @@ Here is a [CodePen exploring each of these styles](https://codepen.io/w3devcamp
 </p>
 <!--- (width="6.9375in" height="1.9548611111111112in"} --->
 
-### HTML code:
+<h4>HTML code:</h4>
 
 ```
 <!DOCTYPE html>
@@ -2348,7 +2348,7 @@ Nulla a sem orci. Cras eget neque viverra, condimentum nulla et, tincidunt liber
 </html>
 ```
 
-### CSS code:
+<h4>CSS code:</h4>
 
 ```
 body {
@@ -2537,33 +2537,21 @@ Here is some HTML and CSS, but as you can see the CSS rules have selectors but n
 25. </html>
 ```
 
-### CSS code:
+<h4>CSS code:</h4>
 
 ```
-1.  body {
-2.   
-3.  }
-4.   
-5.  h1 {
-6.   
-7.  }
-8.   
-9.   
-10. h2 {
-11.  
-12. }
-13.  
-14. ol {
-15.  
-16. }
-17.  
-18. li {
-19.  
-20. }
-21.  
-22. p {
-23.  
-24. }
+body {
+}
+h1 {
+}
+h2 {
+}
+ol {
+}
+li {
+}
+p {
+}
 ```
 
 These CSS rules have selectors, but no properties. For this activity, it is up to you to add the correct properties and set their values appropriately to achieve this final style:
@@ -2668,23 +2656,23 @@ This title uses soft clean colors based on print media, so we chose a serif font
 <h4>CSS code:</h4>
 
 ```
-1.  #design1 {
-2.      background-color: #F4F4F4;
-3.      font-family: "Lucida Sans Unicode", sans-serif;
-4.  }
-5.   
-6.  #design1 h1 {
-7.      color: #C0B283;
-8.      font-size: 4em;
-9.      font-weight: 700;
-10.     font-family: Garamond;
-11.     width: 300px;
-12. }
-13.  
-14. #design1 p {
-15.     color: #373737;
-16.     font-size: 1.2em;
-17. }
+#design1 {
+    background-color: #F4F4F4;
+    font-family: "Lucida Sans Unicode", sans-serif;
+}
+ 
+#design1 h1 {
+    color: #C0B283;
+    font-size: 4em;
+    font-weight: 700;
+    font-family: Garamond;
+    width: 300px;
+}
+ 
+#design1 p {
+    color: #373737;
+    font-size: 1.2em;
+}
 ```
 
 ### Title 2
@@ -2796,7 +2784,7 @@ This design is a pretty traditional button where it has a distinct background-co
 {width="6.9375in" height="1.9083333333333334in"}
 ------------->
 
-### CSS code:
+<h4>CSS code:</h4>
 
 ```
 #design1 {
@@ -3142,7 +3130,7 @@ ID names have the same rules as class names: start with a letter, can include nu
 {width="6.9375in" height="2.609027777777778in"}
 ----------->
 
-### HTML code:
+<h4>HTML code:</h4>
 
 ```
 <!DOCTYPE html>
@@ -3827,7 +3815,7 @@ As you can see, there are a lot of things to consider, and if you do not plan yo
 {width="5.0in" height="1.2087084426946633in"}
 ------------>
 
-##### HTML
+<h4>HTML</h4>
 
 ```
 <!DOCTYPE html>
@@ -3854,7 +3842,7 @@ It also doesn\'t integrate well with the text content, so it does not flow with 
 </html>
 ```
 
-#### CSS
+<h4>CSS</h4>
 
 ```
 div {
@@ -4110,7 +4098,7 @@ Forms can be a surprisingly tricky element to style because you are asking for a
 </html>
 ```
 
-##### CSS
+<h4>CSS</h4>
 
 ```
 div {
@@ -4181,7 +4169,7 @@ Email
 </html>
 ```
 
-##### **CSS**
+<h4>CSS</h4>
 
 ```
 div {
@@ -4242,7 +4230,7 @@ This form design is more minimalist, using the clear and consistent design and l
 {width="5.0in" height="3.136142825896763in"}
 ---------->
 
-##### HTML
+<h4>HTML</h4>
 
 ```
 <!DOCTYPE html>
@@ -4266,7 +4254,7 @@ This form design is more minimalist, using the clear and consistent design and l
 </html>
 ```
 
-##### CSS
+<h4>CSS</h4>
 
 ```
 div {
@@ -4326,7 +4314,7 @@ This form design leaves lots of white space to help it feel clean and simple. 
 {width="5.0in" height="1.9464468503937007in"}
 ---------->
 
-##### HTML
+<h4>HTML</h4>
 
 ```
 <!DOCTYPE html>
@@ -4349,7 +4337,7 @@ This form design leaves lots of white space to help it feel clean and simple. 
 </html>
 ```
 
-##### CSS
+<h4>CSS</h4>
 
 ```
 div {
@@ -4361,11 +4349,7 @@ padding: 30px;
 width: 500px;
 }
 /* DESIGN 3 */
-```
-
 #form3 {
-
-```
 background-color: #CAEBF2;
 font-family: 'Century Gothic';
 }
@@ -4407,7 +4391,7 @@ font-family: 'Century Gothic';
 The pen below is a recap of all forms presented in this page:
 ```
 
-##### HTML
+<h4>HTML</h4>
 
 ```
 <!DOCTYPE html>
@@ -4467,7 +4451,7 @@ Email
 </html>
 ```
 
-##### CSS
+<h4>CSS</h4>
 
 ```
 div {
@@ -4755,7 +4739,7 @@ We discussed how to adjust the white space of these areas in Module 2.5, but in 
 (width="5.0in" height="2.8143143044619423in"}
 --------->
 
-##### HTML
+<h4>HTML</h4>
 
 ```
 <!DOCTYPE html>
@@ -4789,7 +4773,7 @@ margin 100px <br />
 </html>
 ```
 
-##### CSS
+<h4>CSS</h4>
 
 ```
 body {
@@ -5736,7 +5720,7 @@ Note that position is not an inherited property so you will have to apply it ind
    alt="Use alignment &/or float rather than position." />
 </p>
 
-##### HTML
+<h4>HTML</h4>
 
 ```
 <!DOCTYPE html>
@@ -5758,7 +5742,7 @@ Note that position is not an inherited property so you will have to apply it ind
 </html>
 ```
 
-##### CSS
+<h4>CSS</h4>
 
 ```
 h1 {
@@ -6654,7 +6638,7 @@ For this project, you are going to try to reproduce a typical resume layout but 
 Here is what my Web resume looks like:
 
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------- 103. kasey champion resume example (190) ---------------------------->
+<!-------------------------- 103. kasey champion resume example (189) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image103.png?raw=true"
@@ -6680,7 +6664,7 @@ For this project you must at least:
 -   Use the position property and box offsets to position at least 2 elements
 
 <!------------------------------------------------------------------------------------------------>
-<!---------------------------- 104. matt norris sample resume (204) ------------------------------>
+<!---------------------------- 104. matt norris sample resume (190) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image104.png?raw=true"
@@ -7196,12 +7180,12 @@ You will find below an excerpt of CSS best practices (see the [full slide set](
 ### Testing
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- 106. font categories (206) ----------------------------------->
+<!------------------------------- 105. big red test button (204) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image106.jpeg?raw=true"
+<img src="./images/image105.jpeg?raw=true"
    width="50%"
-   alt="Font categories." />
+   alt="Big red test button." />
 </p>
 <!----------
 {width="2.0833333333333335in" height="1.7166666666666666in"}
@@ -7296,10 +7280,10 @@ Body {
 When choosing your font, probably the biggest choice you'll make is what category of font to use. There are 5 basic categories of font: 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 107. (xx) ------------------------------->
+<!--------------------------- 106. example of 5 font categories (206) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image107.png?raw=true"
+<img src="./images/image106.png?raw=true"
    width="50%"
    alt="Example of 5 different font categories." />
 </p>
@@ -7342,10 +7326,10 @@ For a consistent look and feel your users will recognize, you will want to limit
 When getting into design, it\'s a good idea to brush up on the basics of color theory, but just in case here\'s a short refresher. This is the color wheel:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 39.  (xx) ------------------------------->
+<!--------------------------- 38. color wheel: primary & 2ndary (208) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image039.jpeg?raw=true"
+<img src="./images/image038.jpeg?raw=true"
    width="50%"
    alt="Color Wheel: the primary and 2ndary colors, and their hex equivalent." />
 </p>
@@ -7488,9 +7472,9 @@ Text alternatives (\"alt text\") are a primary way of making visual information 
 *Example*: See the W3C logo below. It contains a link that points to the W3C Web site. The text alternative is going to be a brief description of the link target.
 
 ```
-1.  <a href="https://w3.org">
-2.     <img src="images/w3c_home.png" width="72" height="48" alt="W3C Web site">
-3.  </a>
+<a href="https://w3.org">
+   <img src="images/w3c_home.png" width="72" height="48" alt="W3C Web site">
+</a>
 ```
 
 <!------------------------------------------------------------------------------------------------>
@@ -7542,10 +7526,10 @@ Access to the Web for all has been a fundamental concern and goal of the W3C sin
 \'Internationalization\' is sometimes abbreviated to \'i18n\' in English, because there are 18 characters between the \'i\' and the \'n\'.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 108. (xx) ------------------------------->
+<!--------------------------- 107. w3c internationalization logo (214) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image108.png?raw=true"
+<img src="./images/image107.png?raw=true"
    width="50%"
    alt="W3C internationalization activity logo." />
 </p>
@@ -7566,10 +7550,10 @@ Here are some examples of things that can be done with CSS.
 -   It is already possible to make text run vertically in CSS for languages such as Chinese, Japanese, Korean and Mongolian. For more information see[ Styling vertical Chinese, Japanese, Korean and Mongolian text](https://www.w3.org/International/articles/vertical-text/).
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 109. vertically set mongolian text (xxx) ------------------------------->
+<!-------------------------- 108. vertically set mongolian text (215) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image109.png?raw=true"
+<img src="./images/image108.png?raw=true"
    width="25%"
    alt="Vertically set Mongolian text." />
 </p>
@@ -7577,7 +7561,7 @@ Here are some examples of things that can be done with CSS.
 -   You can also style counters for lists or chapter headings and such like according to local preferences. Here we see lists using Georgian and Japanese labels.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 109. georgian counter styles (xxx) ------------------------------->
+<!------------------------------ 109. georgian counter styles (216) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image110.png?raw=true"
@@ -7585,7 +7569,7 @@ Here are some examples of things that can be done with CSS.
    alt="Georgian counter styles." />
 </p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 110. japanese counter styles (xxx) ------------------------------->
+<!------------------------------ 110. japanese counter styles (216) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image110.png?raw=true"
@@ -7596,7 +7580,7 @@ Here are some examples of things that can be done with CSS.
 -   When you want to justify text so that the lines are straight on both sides of your column, different strategies are used for different scripts. Most Western typography puts an emphasis on adjusting inter-word spaces, but Chinese doesn\'t use spaces between words, so you generally do *inter-character* spacing. In text written using the arabic script it is common to stretch the baseline that joins letters, or use other techniques to balance the line.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 111. arabic justification (xxx) ------------------------------->
+<!------------------------------ 111. arabic justification (216) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image111.png?raw=true"
@@ -7609,7 +7593,7 @@ Some scripts allow words to be hyphenated in order to improve the visual effect 
 -   Text decoration and text style features can vary in applicability from script to script. For example, Japanese characters are fairly complicated so, rather than italicise their text for emphasis, which can make it harder to read at small sizes, they have a tradition of placing special marks alongside the emphasised text (see the middle line of the Japanese example below). Also, it may be important to avoid underlines running over descenders in some scripts, since it can obscure important marks attached to a base character, so CSS allows you to skip \'ink\' as shown in the Burmese example below.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 112. emphasis (in japanese) (228) ------------------------------->
+<!------------------------------ 112. emphasis (in japanese) (217) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image112.png?raw=true"
@@ -7617,7 +7601,7 @@ Some scripts allow words to be hyphenated in order to improve the visual effect 
    alt="Emphasis in Japanese." />
 </p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------- 113. skipping descenders (in burmese) (228) -------------------------->
+<!------------------------- 113. skipping descenders (in burmese) (217) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image113.png?raw=true"
@@ -7860,7 +7844,7 @@ In the past, Web sites were comprised of many separate pages that you would navi
 This can be accomplished with something called \"internal links\". This is where you load the entire page as one long site and the links at the top simply jump to different locations within the site. To do this, you need to give the section you want to jump to an id, and then you use the id selector as the href setting on the anchor tag. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 114. sample 'internal link' (237) ------------------------------->
+<!------------------------------ 114. sample 'internal link' (226) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image115.png?raw=true"
@@ -7995,7 +7979,7 @@ Web layout is always constrained by the limitations of CSS, but future trends wi
 Since the summer of 2017, the major browsers support this module of CSS, which provides the beginnings of something professional designers have long been waiting for: [a design grid](https://en.wikipedia.org/wiki/Grid_(graphic_design)).
 
 <!------------------------------------------------------------------------------------------------>
-<!--------------------- 115. css flexbox and grid layout differences (245) ----------------------->
+<!--------------------- 115. css flexbox and grid layout differences (232) ----------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image115.png?raw=true"
@@ -8023,7 +8007,7 @@ CSS Grid is a CSS module that defines a two-dimensional grid-based layout syste
 
 If that sounds a bit too abstract, here is another way of looking at it. The idea behind the Grid module is that you split the [box](https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2020/jump_to_id/61920cda43ca49cca2fcf26e763bbe16) that makes up an element into many individual 'slots', arranged in a matrix, and separated from each other by (invisible) horizontal and vertical lines. You do that with a property called \'grid\', which contains the desired number of rows and columns and/or their sizes. Each child element goes into a slot, so that they end up aligned as in a table. But you have full control over which slot they go into, you can change their order, they can span more than one row or column, and you can leave some slots empty.
 <!------------------------------------------------------------------------------------------------>
-<!----------------------------------- 116. grid module (245) ------------------------------------->
+<!----------------------------------- 116. grid module (234) ------------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image116.png?raw=true"
@@ -8153,7 +8137,7 @@ I like this webpage because of the smooth design of the different panels. I like
 ## Continue your studies
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 6. w3cx fewd program image (xxx) ------------------------------->
+<!------------------------------ 6. w3cx fewd program image (239) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image006.png?raw=true"
