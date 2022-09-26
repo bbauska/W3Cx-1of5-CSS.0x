@@ -122,7 +122,7 @@ Hello,
 
 Thank you for joining this course, where you will learn how to take your Web pages from bland to bold with the power of CSS styling. You will review historical and current design trends, and see how to apply the concepts in a beautiful way, use relative positioning, and much more. Bring your HTML knowledge, and plan to spend 5 to 7 hours on each of five modules, including lots of hands-on practice.
 
-### Course outline
+<h3>Course outline</h3>
 
 -   The first set of lessons are available in **\"Module 1: Getting started with CSS\"**, where we show different examples of the amazing things you can do with CSS. This module includes a cameo of Bert Bos, co-inventor of CSS.
 
@@ -1730,16 +1730,16 @@ This would apply style to the body tag as well as allow the elements inside the 
 
 ```
 <html lang="en">
-<head>
-   <meta charset="utf-8">
-   <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-   <h1>Title</h1>
-   <p>In unit 2.3, we defined a CSS selector as the portion of the CSS rule that tells the browser on which 
-      HTML element to apply the defined style.
-      <a href="https://www.microsoft.com">Click Here!</a>
-   </p>
+   <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="styles.css">
+   </head>
+   <body>
+      <h1>Title</h1>
+      <p>In unit 2.3, we defined a CSS selector as the portion of the CSS rule that tells the browser on which 
+         HTML element to apply the defined style.
+         <a href="https://www.microsoft.com">Click Here!</a>
+      </p>
    <ul>
       <li>When your HTML is simple, the selectors can be simple as well</li>
       <li>The most basic selectors simply mirror the HTML tag</li>
@@ -1747,7 +1747,7 @@ This would apply style to the body tag as well as allow the elements inside the 
       <li>As you can imagine, there will often be times</li>
       <li>when you don't want every single HTML element of a particular type to have identical style</li>
    </ul>
-<p>
+   <p>
 ```
 
 In Module 3, we'll discuss a variety of ways to use selectors to attach to specific HTML elements.
@@ -1759,15 +1759,15 @@ In unit 2.2, we briefly mentioned the fact that properties apply to the entire h
 It is possible to independently target every HTML element on the page using selectors, but for this module we are going to stick to basics and only use selectors that match the HTML tag name. For example, here are some example selectors we'll use in this module:
 
 ```
-</p>
-<ol>
-<li>This would affect the style of all link tags on the page</li>
-<li>This would affect the style of all paragraph tags on the page</li>
-<li>and the style of elements contained within the paragraph tag</li>
-<li>This would apply style to the body tag</li>
-<li>as well as allow the elements inside the body tag to inherit certain styles applied here. </li>
-</ol>
-</body>
+   </p>
+   <ol>
+      <li>This would affect the style of all link tags on the page</li>
+      <li>This would affect the style of all paragraph tags on the page</li>
+      <li>and the style of elements contained within the paragraph tag</li>
+      <li>This would apply style to the body tag</li>
+      <li>as well as allow the elements inside the body tag to inherit certain styles applied here. </li>
+   </ol>
+   </body>
 </html>
 ```
 
@@ -1775,16 +1775,16 @@ It is possible to independently target every HTML element on the page using sele
 
 ```
 body {
-color: red; /* every element inherits this except a tags, which don't inhert by default */
+   color: red; /* every element inherits this except a tags, which don't inhert by default */
  }
 ul {
-color: blue; /* li elements inherit this color */
+   color: blue; /* li elements inherit this color */
 }
 p {
-font-style: italic; /*this even the a tags inherit within the paragraphs */
+   font-style: italic; /*this even the a tags inherit within the paragraphs */
 }
 li {
-text-decoration: line-through; /* applies to all li elements, in both ul and ol tags */
+   text-decoration: line-through; /* applies to all li elements, in both ul and ol tags */
 }
 ```
 
@@ -1869,24 +1869,24 @@ Not every property is inherited, but many are. The CSS specification tell you, f
 
 ```
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<header>
-<h1> Title </h1>
-<h2> sub title </h2>
-</header>
-<section>
-<p> This is my paragraph text </p>
-<ul>
-<li> list item 1 </li>
-<li> list item 2 </li>
-<li> list item 3 </li>
-</ul>
-</section>
-</body>
+   <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <header>
+         <h1> Title </h1>
+         <h2> sub title </h2>
+      </header>
+      <section>
+         <p> This is my paragraph text </p>
+         <ul>
+            <li> list item 1 </li>
+            <li> list item 2 </li>
+            <li> list item 3 </li>
+         </ul>
+      </section>
+   </body>
 </html>
 ```
 
@@ -1894,16 +1894,16 @@ Not every property is inherited, but many are. The CSS specification tell you, f
 
 ```
 body {
-font-family: "Century Gothic", sans-serif;
+   font-family: "Century Gothic", sans-serif;
 }
 header {
-font-style: italic;
+   font-style: italic;
 }
 section {
-text-decoration: underline;
+   text-decoration: underline;
 }
 ul {
-color: green;
+   color: green;
 }
 ```
 
@@ -2510,31 +2510,31 @@ Here is some HTML and CSS, but as you can see the CSS rules have selectors but n
 <h4>HTML code:</h4>
 
 ```
-1.  <!DOCTYPE html>
-2.  <html lang="en">
-3.      <head>
-4.          <meta charset="utf-8">
-5.          <title>My HTML page</title>
-6.          <link rel="stylesheet" href="style.css">
-7.      </head>
-8.      <body>
-9.          <h1>Adding Properties</h1>
-10.         <h2>Using Colors, Fonts and Spacing</h2>
-11.         <p>          
-12. There is a huge array of different aspects you can style: color, font, size, spacing and much more! For a complete list of official CSS properties, please check: https://www.w3.org/Style/CSS/all-properties#list or https://meiert.com/en/indices/css-properties/
-13.         </p>
-14.         <ol>
-15.             <li>Make sure to look up what the available values are before using a property</li>
-16.             <li>because if the browser doesn't understand your value it will typically just skip applying any style</li>
-17.             <li>This is where programs like Visual Studio Code come in handy</li>
-18.             <li>because as you type out the property the program will automatically suggest possible values for you </li>
-19.             <li>Sometimes the easiest way to learn about different properties is to explore the style on one of your favorite websites</li>
-20.         </ol>
-21.         <p>     
-22. If you aren't sure how to do this refer to the demo in unit 1.3 to see this in action while inspecting CSS Zen Garden designs. As you can see, the browser tools display the value of the properties, and if you click into that space it will even give you some of the different value options and you can even change them and watch the Web site update dynamically.
-23.         </p>
-24.     </body>
-25. </html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My HTML page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Adding Properties</h1>
+        <h2>Using Colors, Fonts and Spacing</h2>
+        <p>          
+           There is a huge array of different aspects you can style: color, font, size, spacing and much more! For a complete list of official CSS properties, please check: https://www.w3.org/Style/CSS/all-properties#list or https://meiert.com/en/indices/css-properties/
+        </p>
+        <ol>
+           <li>Make sure to look up what the available values are before using a property</li>
+           <li>because if the browser doesn't understand your value it will typically just skip applying any style</li>
+           <li>This is where programs like Visual Studio Code come in handy</li>
+           <li>because as you type out the property the program will automatically suggest possible values for you </li>
+           <li>Sometimes the easiest way to learn about different properties is to explore the style on one of your favorite websites</li>
+        </ol>
+        <p>     
+           If you aren't sure how to do this refer to the demo in unit 1.3 to see this in action while inspecting CSS Zen Garden designs. As you can see, the browser tools display the value of the properties, and if you click into that space it will even give you some of the different value options and you can even change them and watch the Web site update dynamically.
+        </p>
+    </body>
+</html>
 ```
 
 <h4>CSS code:</h4>
@@ -2561,7 +2561,7 @@ These CSS rules have selectors, but no properties. For this activity, it is up t
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image043.png?raw=true"
-   width="40%"
+   width="60%"
    alt="Final image of web site with proper CSS properties applied." />
 </p>
 <!-----------
@@ -3755,7 +3755,7 @@ border: 2px dashed black;
 <!-- (images/media/image68.png){width="5.0in" height="3.7062062554680666in"} -->
 
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch3-5-1">3.5.1 Images</h3>
+<h3 id="n5-1">3.5.1 Images</h3>
 <!------------------------------------------------------------------------------------------------>
 
 Images are an extremely important part of your page, not only as part of your content but as a key way to help style your page. Before you even get to styling them you need to put considerable thought into what type of images to include in your page. One of the easiest ways to slow down your site\'s performance is to include lots of large, high-quality images. There are two general things to consider when picking your images: what format and how large are they? 
@@ -4236,21 +4236,21 @@ This form design is more minimalist, using the clear and consistent design and l
 <!DOCTYPE html>
 <!--It's a best practice to always declare DOCTYPE!-->
 <html lang="en">
-<head>
-<meta charset="utf-8">
-</head>
-<body>
-<div id="form2">
-<form>
-<h1>Sign Up</h1>
-<input type="text" value="Given name" />
-<input type="text" value="Family name" />
-<br />
-<input type="text" value="Email" id="form2email" />
-<button>Submit</button>
-</form>
-</div>
-</body>
+   <head>
+      <meta charset="utf-8">
+   </head>
+   <body>
+      <div id="form2">
+         <form>
+            <h1>Sign Up</h1>
+            <input type="text" value="Given name" />
+            <input type="text" value="Family name" />
+            <br />
+            <input type="text" value="Email" id="form2email" />
+            <button>Submit</button>
+         </form>
+      </div>
+   </body>
 </html>
 ```
 
@@ -4258,43 +4258,43 @@ This form design is more minimalist, using the clear and consistent design and l
 
 ```
 div {
-margin-bottom: 50px;
-height: 400px;
+   margin-bottom: 50px;
+   height: 400px;
 }
 form {
-padding: 30px;
-width: 500px;
+   padding: 30px;
+   width: 500px;
 }
 /* DESIGN 2 */
 #form2 {
-background-color: #49274A;
-font-family: Tahoma;
-font-variant: small-caps;
+   background-color: #49274A;
+   font-family: Tahoma;
+   font-variant: small-caps;
 }
 #form2 h1 {
-color: white;
+   color: white;
 }
 #form2 input {
-background-color: #49274A;
-border: 1px #828081 solid;
-padding: 10px;
-color: #828081;
-font-variant: small-caps;
-margin-bottom: 20px;
-width: 200px;
+   background-color: #49274A;
+   border: 1px #828081 solid;
+   padding: 10px;
+   color: #828081;
+   font-variant: small-caps;
+   margin-bottom: 20px;
+   width: 200px;
 }
 #form2 input:hover, #form1 input:focus {
-border: 1px #94618E solid;
-color: #94618E;
+   border: 1px #94618E solid;
+   color: #94618E;
 }
 #form2 button {
-background-color: #94618E;
-border: 0px;
-color: white;
-font-size: 0.9em;
-padding: 10px 20px;
-font-variant: small-caps;
-width: 225px;
+   background-color: #94618E;
+   border: 0px;
+   color: white;
+   font-size: 0.9em;
+   padding: 10px 20px;
+   font-variant: small-caps;
+   width: 225px;
 }
 ```
 
@@ -4320,20 +4320,20 @@ This form design leaves lots of white space to help it feel clean and simple. 
 <!DOCTYPE html>
 <!--It's a best practice to always declare DOCTYPE!-->
 <html lang="en">
-<head>
-<meta charset="utf-8">
-</head>
-<body>
-<div id="form3">
-<div id="box">
-<h1>Sign Up</h1>
-<input type="text" value="Given name" />
-<input type="text" value="Family name" />
-<input type="text" value="Email" />
-<button>Submit</button>
-</div>
-</div>
-</body>
+   <head>
+      <meta charset="utf-8">
+   </head>
+   <body>
+      <div id="form3">
+         <div id="box">
+            <h1>Sign Up</h1>
+            <input type="text" value="Given name" />
+            <input type="text" value="Family name" />
+            <input type="text" value="Email" />
+            <button>Submit</button>
+         </div>
+      </div>
+   </body>
 </html>
 ```
 
@@ -4341,55 +4341,56 @@ This form design leaves lots of white space to help it feel clean and simple. 
 
 ```
 div {
-margin-bottom: 50px;
-height: 400px;
+   margin-bottom: 50px;
+   height: 400px;
 }
 form {
-padding: 30px;
-width: 500px;
+   padding: 30px;
+   width: 500px;
 }
 /* DESIGN 3 */
 #form3 {
-background-color: #CAEBF2;
-font-family: 'Century Gothic';
+   background-color: #CAEBF2;
+   font-family: 'Century Gothic';
 }
 #box{
-background-color: white;
-border-radius: 2px;
-margin: 50px;
-text-align: center;
-width: 500px;
+   background-color: white;
+   border-radius: 2px;
+   margin: 50px;
+   text-align: center;
+   width: 500px;
 }
 #form3 h1 {
-color: #FF3B3F;
-text-align: center;
-margin: 0px;
+   color: #FF3B3F;
+   text-align: center;
+   margin: 0px;
 }
 #form3 input {
-border: 0px;
-border-bottom: 1px #A9A9A9 dashed;
-padding: 10px;
-color: #A9A9A9;
-width: 80%;
-margin: 10px;
-font-family: 'Century Gothic';
+   border: 0px;
+   border-bottom: 1px #A9A9A9 dashed;
+   padding: 10px;
+   color: #A9A9A9;
+   width: 80%;
+   margin: 10px;
+   font-family: 'Century Gothic';
 }
 #form3 input:focus, #form3 input:hover {
-border: 1px #FF3B3F solid;
+   border: 1px #FF3B3F solid;
 }
 #form3 button {
-background-color: #FF3B3F;
-border: 0px;
-border-radius: 2px;
-color: white;
-font-size: 0.9em;
-padding: 10px 20px;
-margin: 20px;
-width: 85%;
+   background-color: #FF3B3F;
+   border: 0px;
+   border-radius: 2px;
+   color: white;
+   font-size: 0.9em;
+   padding: 10px 20px;
+   margin: 20px;
+   width: 85%;
 font-family: 'Century Gothic';
 }
-The pen below is a recap of all forms presented in this page:
 ```
+
+The pen below is a recap of all forms presented in this page:
 
 <h4>HTML</h4>
 
@@ -4575,7 +4576,7 @@ font-family: 'Century Gothic';
 }
 ```
 
-## Module 3 project - My profile
+<h3>Module 3 project - My profile</h3>
 
 Now that you have a host of new selectors available, you can style much more complicated HTML. Take your \"about me page\" from Module 2, and add to it so that it becomes more of a \"profile\". Your page must have the following elements:
 
@@ -4613,9 +4614,9 @@ For reference here is what my solution looks like:
 {width="5.0in" height="3.950450568678915in"}
 ----------->
 
-## Module 3 learnings
+<h3>Module 3 learnings</h3>
 
-### After this module you should know how to\...
+<h4>After this module you should know how to...</h4>
 
 -   Specifically style any single element on a page using IDs
 
@@ -4627,7 +4628,7 @@ For reference here is what my solution looks like:
 
 -   Build CSS rule sets with intention leveraging the cascading nature of CSS to manage conflicting rules
 
-### In the next module, you will:
+<h4>In the next module, you will:</h4>
 
 -   Learn about layout and positioning with CSS
 
@@ -4687,9 +4688,11 @@ The Margin sits between The Border and the rest of the page.
 
 But be careful when two Margins meet the bigger one wins.
 
-<h3>4.1.4 The Box Model</h3>
+<!------------------------------------------------------------------------------------------------>
+<h3 id="ch4-1-4">4.1.4 The Box Model</h3>
+<!------------------------------------------------------------------------------------------------>
 
-### The Box Model
+<h4>The Box Model</h4>
 
 The Box Model is how Web browsers see individual HTML elements. When laying out a document, the browser\'s rendering engine represents each element as a rectangular box according to the standard **CSS basic box model**. CSS determines the size, position, and properties (color, background, border size, etc.) of these boxes.
 
@@ -4894,28 +4897,28 @@ You may have noticed that the text-align property sets the content\'s alignment 
 
 ```
 h1 {
-background-color: red;
-width: 500px;
-text-align: center;
+   background-color: red;
+   width: 500px;
+   text-align: center;
 }
 h2 {
-background-color: orange;
-text-align: right;
+   background-color: orange;
+   text-align: right;
 }
 p {
-background-color: yellow;
-width: 500px;
-padding: 10px;
-text-align: justify;
+   background-color: yellow;
+   width: 500px;
+   padding: 10px;
+   text-align: justify;
 }
 h3 {
-background-color: green;
-line-height: 1.2;
+   background-color: green;
+   line-height: 1.2;
 }
 h4 {
-background-color: pink;
-height: 200px;
-line-height:4;
+   background-color: pink;
+   height: 200px;
+   line-height:4;
 }
 ```
 
@@ -4984,29 +4987,29 @@ img {
 <!DOCTYPE html>
 <!--It's a best practice to always declare DOCTYPE!-->
 <html lang="en">
-<head>
-<title>Dynamic width and height</title>
-<meta charset="utf-8">
-</head>
-<body>
-<p id="width50">
-width 50%, no min or max
-</p>
-<p id="width80max">
-width 80%, max of 1000px
-</p>
-<p id="width30min">
-width 30%, min of 200px
-</p>
-<p class="heightSet">
-the height is set to 25%, but there is no effect
-</p>
-<div id="containingBlock">
-<p class="heightSet">
-this height is also set to 25%, and since it's within a div containing block who has a set height of 500px this p will resize in relation to that.
-</p>
-</div>
-</body>
+   <head>
+      <title>Dynamic width and height</title>
+      <meta charset="utf-8">
+   </head>
+   <body>
+      <p id="width50">
+      width 50%, no min or max
+      </p>
+      <p id="width80max">
+      width 80%, max of 1000px
+      </p>
+      <p id="width30min">
+      width 30%, min of 200px
+      </p>
+      <p class="heightSet">
+      the height is set to 25%, but there is no effect
+      </p>
+      <div id="containingBlock">
+      <p class="heightSet">
+      this height is also set to 25%, and since it's within a div containing block who has a set height of 500px this p will resize in relation to that.
+      </p>
+   </div>
+   </body>
 </html>
 ```
 
@@ -5018,21 +5021,21 @@ background-color:red;
 width: 50%;
 }
 #width80max {
-background-color: orange;
-width: 80%;
-max-width: 1000px;
+   background-color: orange;
+   width: 80%;
+   max-width: 1000px;
 }
 #width30min {
-background-color: yellow;
-width: 30%;
-min-width: 200px;
+   background-color: yellow;
+   width: 30%;
+   min-width: 200px;
 }
 .heightSet {
-background-color: pink;
-height: 25%;
+   background-color: pink;
+   height: 25%;
 }
 #containingBlock {
-height: 500px;
+   height: 500px;
 }
 ```
 
@@ -5108,28 +5111,28 @@ img {
 
 ```
 h1 {
-background-color: red;
-width: 50%;
-margin: 0 auto;
+   background-color: red;
+   width: 50%;
+   margin: 0 auto;
 }
 p {
-background-color: orange;
-width: 70%;
+   background-color: orange;
+   width: 70%;
 }
 a {
-display: block;
-width: 100px;
-margin: 0 auto;
+   display: block;
+   width: 100px;
+   margin: 0 auto;
 }
 section {
-background-color: yellow;
-width: 70%;
-margin: 0 auto;
+   background-color: yellow;
+   width: 70%;
+   margin: 0 auto;
 }
 div {
-background-color: pink;
-width: 50%;
-margin: 0 auto;
+   background-color: pink;
+   width: 50%;
+   margin: 0 auto;
 }
 ```
 
@@ -5198,27 +5201,27 @@ For this activity, you are going to practice some of the basic alignment propert
       <meta charset="utf-8">
    </head>
    <body>
-   <header>
-      <h1>Welcome to my web page</h1>
-      <p>
-         This is the tagline to my homepage
-      </p>
-   </header>
-   <section>
-      <h2>This is the main body of my page</h2>
-      <article id="leftP">
-         <h3>Article title</h3>
-         This is a buch of text that will be left aligned under the main title of the page, but still within the main center section of the page.
-      </article>
-<article id="rightP">
-<h3>Article title</h3>
-Here is some more text that will be right aligned under the first paragraph, but still within the main center section of the page.
-</article>
-</section>
-<footer>
-thank you and please visit again soon!
-</footer>
-</body>
+      <header>
+         <h1>Welcome to my web page</h1>
+         <p>
+            This is the tagline to my homepage
+         </p>
+      </header>
+      <section>
+         <h2>This is the main body of my page</h2>
+         <article id="leftP">
+            <h3>Article title</h3>
+            This is a buch of text that will be left aligned under the main title of the page, but still within the main center section of the page.
+         </article>
+         <article id="rightP">
+            <h3>Article title</h3>
+               Here is some more text that will be right aligned under the first paragraph, but still within the main center section of the page.
+         </article>
+      </section>
+      <footer>
+         thank you and please visit again soon!
+      </footer>
+   </body>
 </html>
 ```
 
@@ -5226,28 +5229,27 @@ thank you and please visit again soon!
 
 ```
 body {
-font-family: Tahoma;
+   font-family: Tahoma;
 }
-
 header {
-background-color: #EC576B;
-color: white;
-border-bottom: 5px #FEDC3D solid;
+   background-color: #EC576B;
+   color: white;
+   border-bottom: 5px #FEDC3D solid;
 }
 header h1 {
-border-bottom: 2px #FFFFFF solid;
+   border-bottom: 2px #FFFFFF solid;
 }
 header p {
-border-bottom: 2px #FFFFFF solid;
+   border-bottom: 2px #FFFFFF solid;
 }
 section {
-background-color: #FEDC3D;
+   background-color: #FEDC3D;
 }
 h2 {
-border-bottom: 5px #000000 solid;
+   border-bottom: 5px #000000 solid;
 }
 article {
-background-color: #FFFFFF;
+   background-color: #FFFFFF;
 }
 #leftP {
 }
@@ -5256,9 +5258,9 @@ background-color: #FFFFFF;
 h3 {
 }
 footer {
-background-color: #4EC5C1;
-border-top: 5px #FEDC3D solid;
-color: white;
+   background-color: #4EC5C1;
+   border-top: 5px #FEDC3D solid;
+   color: white;
 }
 ```
 
@@ -5371,30 +5373,30 @@ p {
 <!DOCTYPE html>
 <!--It's a best practice to always declare DOCTYPE!-->
 <html lang="en">
-<head>
-<title>Floating elements</title>
-<meta charset="utf-8">
-</head>
-<body>
-<div id="default">
-This div is not floating, has no width set.
-</div>
-<div id="floatRightNoWidth">
-This div is floating right, but no width is set.
-</div>
-<div id="floatRightTooWide">
-This div is floating right, but the text is very very very long. This makes the div fill the horizontal space of the page by default, so when it is floated it doesn't look like it goes anywhere.
-</div>
-<div id="noFloatWidthSet">
-This div isn't floating, and its width is set to 40%. Floating elements can overlap.
-</div>
-<div id="floatRightWidthSet">
-This div is floating right, and its width is set to 30%
-</div>
-<div id="noFloatClearRight">
-This div isn't floating, and it is set to clear to the right, so nothing can overlap.
-</div>
-</body>
+   <head>
+      <title>Floating elements</title>
+      <meta charset="utf-8">
+   </head>
+   <body>
+      <div id="default">
+         This div is not floating, has no width set.
+      </div>
+      <div id="floatRightNoWidth">
+      This div is floating right, but no width is set.
+      </div>
+      <div id="floatRightTooWide">
+      This div is floating right, but the text is very very very long. This makes the div fill the horizontal space of the page by default, so when it is floated it doesn't look like it goes anywhere.
+      </div>
+      <div id="noFloatWidthSet">
+      This div isn't floating, and its width is set to 40%. Floating elements can overlap.
+      </div>
+      <div id="floatRightWidthSet">
+      This div is floating right, and its width is set to 30%
+      </div>
+      <div id="noFloatClearRight">
+      This div isn't floating, and it is set to clear to the right, so nothing can overlap.
+   </div>
+   </body>
 </html>
 ```
 
@@ -5402,35 +5404,35 @@ This div isn't floating, and it is set to clear to the right, so nothing can ove
 
 ```
 body {
-font-size: 24pt;
-font-family: helvetica, sans-serif;
+   font-size: 24pt;
+   font-family: helvetica, sans-serif;
 }
 div {
-margin-bottom: 10px;
+   margin-bottom: 10px;
 }
 #default {
-background-color: red;
+   background-color: red;
 }
 #floatRightNoWidth {
-background-color: orange;
-float: right;
+   background-color: orange;
+   float: right;
 }
 #floatRightTooWide {
-background-color: yellow;
-float: right;
+   background-color: yellow;
+   float: right;
 }
 #noFloatWidthSet {
-background-color: green;
-width: 40%;
+   background-color: green;
+   width: 40%;
 }
 #noFloatClearRight {
-background-color: purple;
-clear: right;
+   background-color: purple;
+   clear: right;
 }
 #floatRightWidthSet {
-background-color: blue;
-width: 30%;
-float: right;
+   background-color: blue;
+   width: 30%;
+   float: right;
 }
 ```
 
@@ -5499,37 +5501,37 @@ One of the toughest parts of layouts with CSS is figuring out which elements to 
 
 ```
 body {
-background-color: #4ABDAC;
-color: #FFFFFF;
-font-family: Georgia, serif;
+   background-color: #4ABDAC;
+   color: #FFFFFF;
+   font-family: Georgia, serif;
 }
 header {
-background-color: #F7B733;
-height: 75px;
+   background-color: #F7B733;
+   height: 75px;
 }
 h1 {
-padding: 15px;
+   padding: 15px;
 }
 #navigation {
-height: 30px;
-width: 30%;
-margin-left: auto;
-margin-right: auto;
+   height: 30px;
+   width: 30%;
+   margin-left: auto;
+   margin-right: auto;
 }
 #navigation li:hover {
-border-bottom: 1px #FC4A1A solid;
+   border-bottom: 1px #FC4A1A solid;
 }
 #content {
-background-color: #DFDCE3;
-width: 50%;
-margin: 0 auto;
+   background-color: #DFDCE3;
+   width: 50%;
+   margin: 0 auto;
 }
 div {
-background-color: #FC4A1A;
-width: 250px;
-height: 150px;
-padding: 10px;
-margin: 20px;
+   background-color: #FC4A1A;
+   width: 250px;
+   height: 150px;
+   padding: 10px;
+   margin: 20px;
 }
 ```
 
@@ -5595,70 +5597,70 @@ You might also need to adjust some widths, margins and paddings to get everythin
 
 ```
 body {
-background-color: #4ABDAC;
-color: #FFFFFF;
-font-family: Georgia, serif;
-margin: 0px;
-padding-bottom: 0px;
+   background-color: #4ABDAC;
+   color: #FFFFFF;
+   font-family: Georgia, serif;
+   margin: 0px;
+   padding-bottom: 0px;
 }
 header {
-background-color: #F7B733;
-height: 75px;
-margin-top: 0px
+   background-color: #F7B733;
+   height: 75px;
+   margin-top: 0px
 }
 h2 {
-float: right;
-padding-right: 20px;
+   float: right;
+   padding-right: 20px;
 }
 h1 {
-padding: 20px;
-margin-top: 0px;
+   padding: 20px;
+   margin-top: 0px;
 }
 #navigation {
-height: 50px;
-width: 92%;
+   height: 50px;
+   width: 92%;
 }
 #navigation li:hover {
-border-bottom: 1px #FC4A1A solid;
+   border-bottom: 1px #FC4A1A solid;
 }
 ul {
-width: 400px;
-margin-left: auto;
-margin-right: auto;
-list-style: none;
+   width: 400px;
+   margin-left: auto;
+   margin-right: auto;
+   list-style: none;
 }
 li {
 float: right;
-margin-top: 10px;
-margin-left: 20px;
+   margin-top: 10px;
+   margin-left: 20px;
 }
 content {
-background-color: #DFDCE3;
-width: 20%;
-margin: 0 auto;
-min-width: 700px;
+   background-color: #DFDCE3;
+   width: 20%;
+   margin: 0 auto;
+   min-width: 700px;
 }
 div {
-background-color: #FC4A1A;
-width: 250px;
-height: 150px;
-padding: 10px;
-margin: 20px;
+   background-color: #FC4A1A;
+   width: 250px;
+   height: 150px;
+   padding: 10px;
+   margin: 20px;
 }
 #topRight {
-float: right;
-margin-top: 0px;
+   float: right;
+   margin-top: 0px;
 }
 #bottomRight {
-float: right;
-margin-top: 0px;
-margin-bottom: 0px;
+   float: right;
+   margin-top: 0px;
+   margin-bottom: 0px;
 }
 #topLeft {
-margin-top: 0px;
+   margin-top: 0px;
 }
 #bottomLeft {
-margin-bottom: 0px;
+   margin-bottom: 0px;
 }
 ```
 
@@ -5748,31 +5750,31 @@ Note that position is not an inherited property so you will have to apply it ind
 
 ```
 h1 {
-background-color: red;
-width: 300px;
-position: relative;
-left: 150px;
+   background-color: red;
+   width: 300px;
+   position: relative;
+   left: 150px;
 }
 section {
-background-color: orange;
-height: 100px;
+   background-color: orange;
+   height: 100px;
 }
 h2 {
-position: relative;
-top: 20px;
+   position: relative;
+   top: 20px;
 }
 footer {
-background-color: yellow;
-height: 200px;
-width: 300px;
-position: relative;
-left: 50px;
-top: 50px;
+   background-color: yellow;
+   height: 200px;
+   width: 300px;
+   position: relative;
+   left: 50px;
+   top: 50px;
 }
 h3 {
-position: relative;
-top: 50px;
-left: 10px;
+   position: relative;
+   top: 50px;
+   left: 10px;
 }
 ```
 
@@ -5791,31 +5793,31 @@ Note that relative positioning can make elements overlap - check the following C
 
 ```
 h1 {
-background-color: red;
-width: 300px;
-position: relative;
-left: 150px;
+   background-color: red;
+   width: 300px;
+   position: relative;
+   left: 150px;
 }
 section {
-background-color: orange;
-height: 100px;
+   background-color: orange;
+   height: 100px;
 }
 h2 {
-position: relative;
-top: 20px;
+   position: relative;
+   top: 20px;
 }
 footer {
-background-color: yellow;
-height: 200px;
-width: 300px;
-position: relative;
-left: 50px;
-top: -50px;
+   background-color: yellow;
+   height: 200px;
+   width: 300px;
+   position: relative;
+   left: 50px;
+   top: -50px;
 }
 h3 {
-position: relative;
-top: 50px;
-left: 10px;
+   position: relative;
+   top: 50px;
+   left: 10px;
 }
 ```
 
@@ -5843,24 +5845,24 @@ Here is [some HTML and CSS:](https://codepen.io/techie4good/pen/KgwRwg)
 
 ```
 body {
-background-color: #EFEFEF;
-color: #A9A9A9;
-font-family: "Book Antiqua", serif;
+   background-color: #EFEFEF;
+   color: #A9A9A9;
+   font-family: "Book Antiqua", serif;
 }
 h1 {
-color: #FF3B3F;
+   color: #FF3B3F;
 }
 h2 {
 }
 div {
-background-color: #CAEBF2;
-width: 80%;
+   background-color: #CAEBF2;
+   width: 80%;
 }
 h3 {
-color: #FF3B3F;
+   color: #FF3B3F;
 }
 p {
-width: 90%;
+   width: 90%;
 }
 ```
 
@@ -6900,25 +6902,25 @@ opacity: 50%;
 ```
 <!Doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>My Online Resume</title>
-<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+   <head>
+      <meta charset="UTF-8">
+      <title>My Online Resume</title>
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
 <!-- Header Section -->
-<header>
-<h1><span class="textColorOffset">Matt</span> Norris</h1>
-<ul id="contact">
-<li><span class="textColorOffset">email- </span>ncccontact23@gmail.com</li>
-<li><span class="textColorOffset">geo- </span>San Diego, California</li>
-<li><span class="textColorOffset">cell- </span>123-456-7890</li>
-</ul>
-</header>
-<section id="resume">
+      <header>
+         <h1><span class="textColorOffset">Matt</span> Norris</h1>
+         <ul id="contact">
+            <li><span class="textColorOffset">email- </span>ncccontact23@gmail.com</li>
+            <li><span class="textColorOffset">geo- </span>San Diego, California</li>
+            <li><span class="textColorOffset">cell- </span>123-456-7890</li>
+         </ul>
+      </header>
+      <section id="resume">
 <!-- Work Experience Section -->
-<section id="workExperience">
-<h2>Work Experience</h2>
+      <section id="workExperience">
+         <h2>Work Experience</h2>
 <h3 class="year">2019</h3>
 <h3 class="textColorOffset workPosition">USPS Delivery Supervisor</h3>
 <p>
@@ -6997,21 +6999,21 @@ Create customized reporting for management team members to help make informed an
 <h3 class="textColorOffset charityWork">College Ave Baptist Church</h3>
 <p class="charityWorkPargraph">
 <span>H</span>elp where needed. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus asperiores voluptatibus est error fugit accusantium nobis aspernatur, id dolorum veniam debitis hic architecto voluptate ipsum maiores tempore libero distinctio consequatur!
-</p>
-</section>
-<section>
-<h3 class="textColorOffset charityWork">Inter-Faith Shelter, San Diego, CA</h3>
-<p class="charityWorkPargraph"><span>P</span>rovide designated food, serve meals to single people and families, talk with adults and children, clean kitchen and eatting area afterwards.</p>
-<p class="charityWorkPargraph"><span>I</span>nter-Faith Shelter is a community effort to help people get back on their feet with a plan to obtain training or work. Congregations involved from many different faiths as many as 80 join on a rotational basis to house and feed people in need of getting back on their feet to be self sustaining. Their is accountability and rules to abide by out of respect for others to remain in this care situation. All is done on a volunteer basis.
-</p>
-</section>
-</section>
-<!-- Footer with Contact Info Section -->
-<footer>
-<p>
-Connect with me on:
-</p>
-<a href="mailto:ncccontact23@gmail.com" target="_blank">
+      </p>
+      </section>
+      <section>
+         <h3 class="textColorOffset charityWork">Inter-Faith Shelter, San Diego, CA</h3>
+         <p class="charityWorkPargraph"><span>P</span>rovide designated food, serve meals to single people and families, talk with adults and children, clean kitchen and eatting area afterwards.</p>
+   <p class="charityWorkPargraph"><span>I</span>nter-Faith Shelter is a community effort to help people get back on their feet with a plan to obtain training or work. Congregations involved from many different faiths as many as 80 join on a rotational basis to house and feed people in need of getting back on their feet to be self sustaining. Their is accountability and rules to abide by out of respect for others to remain in this care situation. All is done on a volunteer basis.
+   </p>
+      </section>
+         </section>
+         <!-- Footer with Contact Info Section -->
+         <footer>
+         <p>
+            Connect with me on:
+         </p>
+         <a href="mailto:ncccontact23@gmail.com" target="_blank">
 <!-- <img
 src="https://edxuploads.s3.amazonaws.com/162309585670190256428.png"
 alt="picture of a letter for contacting via email"> -->Gmail</a>
@@ -7019,15 +7021,15 @@ alt="picture of a letter for contacting via email"> -->Gmail</a>
 <!-- <img
 src="https://edxuploads.s3.amazonaws.com/1623095892121252315507.png"
 alt="picture of a phone to signify contacting via phone"> -->Facebook</a>
-<a href="#top"><img class="arrow" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arrow_top.png/640px-Arrow_top.png" alt="picture of an arrow symbol pointing up for going back up to top of page" title="Back to Top of Page"><a>
-</footer>
-</body>
+         <a href="#top"><img class="arrow" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arrow_top.png/640px-Arrow_top.png" alt="picture of an arrow symbol pointing up for going back up to top of page" title="Back to Top of Page"><a>
+      </footer>
+   </body>
 </html>
 ```
 
-## Module 4 learnings
+<h3>Module 4 learnings</h3>
 
-### After Module 4, you should be able to\...
+<h4>After Module 4, you should be able to...</h4>
 
 -   Control exactly where an HTML element is placed on a page
 
@@ -7035,7 +7037,7 @@ alt="picture of a phone to signify contacting via phone"> -->Facebook</a>
 
 -   Employ the alignment, float and position properties when appropriate for optimal page structure
 
-### In the next module, we\'ll\...
+<h4>In the next module, we'll...</h4>
 
 -   Learn about how to design your Web page to meet your user\'s needs
 
@@ -7359,7 +7361,7 @@ When getting into design, it\'s a good idea to brush up on the basics of color t
 
 In your 4 colors, you\'ll want to keep a consistent tone so that your colors look good together. You\'ll want at least 1 very light color and 1 dark color. Avoid having all dark colors or all light, as often having contrast is important for readability. Also keep in mind not all users have full-color vision, so try to avoid too many similar colors. We will discuss how to choose inclusive colors in more detail in a later section.
 
-### External resources
+<h4>External resources</h4>
 
 -   Here is a good article that goes into detail about [color theory.](https://www.w3.org/wiki/Colour_theory)
 
@@ -7395,7 +7397,7 @@ Once you have found a site, please share it in the discussion and answer the fol
 
 3.  How would you improve the design overall? 
 
-##### Goldsmith & handcraft websites - do you have similar experiences?
+<h5>Goldsmith & handcraft websites - do you have similar experiences?</h5>
 
 I made a research about crafts and goldsmiths in germany for my bachelor thesis a few months back and already knew that they are mostly violating all the design guidelines because they don't spend effort on building a decent website. It just hurts my eyes to look at them again and again, especially because their craft is so amazing. Just try out any goldsmith-website at your location and let me know if you have similar experiences. Would be happy if you share them with me :) Here is one example close to my location: <http://1a-trauring-area.de/>
 
@@ -7413,7 +7415,7 @@ I gave up searching for the nicht sehr gut ones. Cheers!
 
 The Web has become an essential aspect of our daily lives, and everyone should have access to this technology. Web accessibility focuses on ensuring equivalent access for people with disabilities. It is increasingly important to many organizations and governments from around the world, and has many business benefits. Access to information, including on the Web, is also recognized by the UN Convention on the Rights of Persons with Disabilities (CRPD).
 
-### Who is impacted?
+<h4>Who is impacted?</h4>
 
 Web accessibility addresses all disabilities, including hearing, learning and cognitive, neurological, physical, speech, and visual disabilities. Some examples of Web accessibility features include:
 
@@ -7425,7 +7427,7 @@ Web accessibility addresses all disabilities, including hearing, learning and co
 
 -   *Text alternatives* for people with visual disabilities and using screen readers.
 
-### Web accessibility benefits people with and w*ithout* disabilities
+<h4>Web accessibility benefits people with and without disabilities</h4>
 
 Web accessibility features also benefit many more users, such as:
 
@@ -7441,7 +7443,7 @@ Web accessibility features also benefit many more users, such as:
 
 The Web is an increasingly important resource in many aspects of life: education, employment, government, commerce, health care, recreation, and more. When Web pages, Web technologies, Web tools, or Web applications are badly designed, they can create barriers that exclude people from using the Web. More information is available in the [W3C Accessibility](https://www.w3.org/standards/webdesign/accessibility) overview.
 
-### First steps in Web accessibility
+<h4>First steps in Web accessibility</h4>
 
 There are many simple Web accessibility improvements that you can implement and check right away, even when you are new to this topic. Two example excerpts are provided below on this page but you can find more tips and information from W3C/WAI:
 
@@ -7501,7 +7503,7 @@ Even with a carefully chosen palette, it might still be difficult for a user to 
 
 Thankfully, The Paciello Group has created a \"[Color Contrast Analyser (CCA)](https://www.tpgi.com/color-contrast-checker/)\" tool you can download to check if your chosen colors provide enough contrast for color blind users.
 
-### Low-vision
+<h4>Low-vision</h4>
 
 It is extremely common (as many as 20% of users over 45) for a user to have difficulty reading small text. These users often will have their Web browser set to magnify text to a size that is more comfortable for them, which can make all your carefully designed layouts look very different. These users will typically do one of two things:
 
@@ -7511,7 +7513,7 @@ It is extremely common (as many as 20% of users over 45) for a user to have diff
 
 In general, you will want to make sure your font size is at least 1em. By using em you can let the text size grow based on the user\'s browser settings. 
 
-### External resources
+<h4>External resources</h4>
 
 On W3C\'s WAI Web site:
 
@@ -7815,7 +7817,7 @@ If you keep these basic ideas in mind, long scrolling, flat designing and typogr
 
 This Web design trend is part fashion, part function. Since we always keep mobile devices in mind when designing, the \"rich design\" styles of the past (drop shadows, gradients, lots of images, colors, and fonts) have been replaced with the current trend \"flat design\".
 
-Flat design emphasizes:
+<h4>Flat design emphasizes:</h4>
 
 -   *simple elements* - grid layouts, limited number of elements
 
@@ -7835,7 +7837,6 @@ Flat design emphasizes:
 
 -   A 2020 web.dev article: [Ten modern layouts in one line of CSS](https://web.dev/one-line-layouts/)
 
-1 LINE LAYOUTS: <https://youtu.be/qm0IfG1GyZU?t=118>
 
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-5-3">5.5.3 Long scrolling</h3>
@@ -7858,20 +7859,20 @@ This can be accomplished with something called \"internal links\". This is where
 
 ```
 body {
-width: 50%;
-margin-left: auto;
-margin-right: auto;
+   width: 50%;
+   margin-left: auto;
+   margin-right: auto;
 }
 ul {
-list-style: none;
-padding: 50px;
+   list-style: none;
+   padding: 50px;
 }
 ul li {
-float: left;
-width: 10%;
+   float: left;
+   width: 10%;
 }
 section {
-clear: both;
+   clear: both;
 }
 ```
 
@@ -8136,7 +8137,7 @@ Discussion posted about a month ago by <a href="https://courses.edx.org/cours
 
 I like this webpage because of the smooth design of the different panels. I like the way that the videos/animations are activated by a scroll. I think that I would use that in my own websites. Although they do have a language declaration, good contrast in colors and labled buttons, they do not have alt tags for many of their images, which could detract from the accessibility. It makes sense that this would be the best website I could find, because their business is designing websites!
 
-## Continue your studies
+<h4>Continue your studies</h4>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 6. w3cx fewd program image (239) -------------------------------->
@@ -8155,14 +8156,11 @@ Hopefully at this point you feel comfortable with all the basics of CSS, but, as
    <li>JavaScript Introduction</li>
 </ol>
 
-<h2>Last Updated: 9.25.2022 11:24am</h2>
-<!--------
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------ xx.  image (xxx) ------------------------------->
-<!------------------------------------------------------------------------------------------------>
+<h2>Last Updated: 9.26.2022 4:20pm</h2>
+<!--
 <p align="center" width="100%">
 <img src="./images/image.png?raw=true"
    width="###%"
    alt="." />
 </p>
---------->
+---->
