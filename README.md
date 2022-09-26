@@ -397,7 +397,9 @@ To help developers make these decisions consciously rather than accidentally, [
 
 -   [Caniuse and MDN compatibility data collaboration](https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/)
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-1-1">1.1.1 Welcome to Module 1</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Hi! Welcome to the world of CSS or Cascading Style Sheets.
 
@@ -407,7 +409,9 @@ We\'re going to cover the Web before CSS, and how it came about. Show you awesom
 
 And then finally by the end of the module you write your own first piece of CSS.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-1-2">1.1.2 Module 1 outline</h3>
+<!------------------------------------------------------------------------------------------------>
 
 ### In this module, we will:
 
@@ -477,7 +481,9 @@ On 4 April 2017, the ACM, the Association for Computing Machinery, named Sir Tim
 
 Sir Tim is being given this award for inventing the World Wide Web, the first Web browser, and the fundamental protocols and algorithms allowing the Web to scale. The Web is considered one of the most influential computing innovations in history.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-2-2">1.2.2 The Web is amazing!</h3>
+<!------------------------------------------------------------------------------------------------>
 
 The Web is an application of the Internet. The Web is the most popular way of accessing the Internet, but other applications of the Internet are [e-mail ](https://en.wikipedia.org/wiki/Email)and [ftp](https://en.wikipedia.org/wiki/File_Transfer_Protocol) for example. One analogy equates the Internet to a road network where the Web is a car, the email is a bicycle, etc.  Read [this article](https://www.lifewire.com/difference-between-the-internet-and-the-web-2483335) for more details about the difference between Internet and the Web.
 
@@ -523,7 +529,9 @@ Please help us shape the next era.
 
 Join our efforts to build an open web platform for the future.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-2-3">1.2.3 The invention of CSS</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Before CSS, the appearance of a Web page was dictated by HTML, which had very few visual styling tools, meaning most Web pages looked simple.
 
@@ -629,7 +637,9 @@ We must have done something right.
 
 I\'m especially happy that despite all the things we added to CSS over the years, the style sheets that that people made with CSS in 1996 are still valid and still work the same.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-2-4">1.2.4 Definitions</h3>
+<!------------------------------------------------------------------------------------------------>
 
 CSS, or **C**ascading **S**tyle Sheets, is a style sheet language used to describe the way an HTML or XML document should look to a user. CSS is where you specify the color, size, spacing, font and other visual aspects of the content that you create in your markup language document.
 
@@ -704,13 +714,17 @@ Stands for \"**H**yper**t**ext **T**ransfer **P**rotocol\". It is a protocol m
 
 Stands for \"**H**yper**t**ext **T**ransfer **P**rotocol **S**ecure\". It  is the secure version of **HTTP**, the protocol over which data is sent between your browser and the Web site that you are connected to. It means all communications between your browser and the Web site are encrypted. A vast majority of Web site are now served by [https](https://en.wikipedia.org/wiki/HTTPS).
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-2-5">1.2.5 Activity - The Web before CSS</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Now it\'s your turn to do some exploration! For this activity, your job is to find examples of Web sites before and after CSS.
 
 A great place to start is at [archive.org](https://archive.org/) (aka, the \"WayBack machine\") which stores copies of web pages throughout history. You can search for some of your favorite websites and see if they have stored copies older than 1996. You should find that any Web page made before 1996 will look very different than Web sites we typically see today. When you find a real retro gem, please share it in this week\'s discussion (see below).
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-3-1">1.3.1 Separating content from presentation</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Up until now, we have been discussing CSS\'s role within a Web site as the \"presentation\" component, but what is that and why is it so important?
 
@@ -738,7 +752,9 @@ From the history of CSS, we learned why CSS came about, but the short answer is 
 
 -   [Repurposing of content](https://www.w3.org/People/Bos/DesignGuide/repurposing)
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-3-2">1.3.2 Meet CSS Zen Garden</h3>
+<!------------------------------------------------------------------------------------------------>
 
 In 2003, [Dave Shea](http://daveshea.com/projects/zen/) began a legendary project called [CSS Zen Garden](http://www.csszengarden.com/) that provided a demonstration of \"what can be accomplished through CSS-based design\", until submissions stopped in 2013.
 
@@ -846,7 +862,9 @@ As you can see, not only is the element highlighted on the page, but this also h
 
 As you work in your own sites, you might want to use both of these features of your browser to understand what is happening in your own code, or in Web pages you find on the Web.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-3-3">1.3.3 Activity - CSS Zen Garden critique</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Now that you've gotten a good idea of what CSS Zen Garden is, take a closer look. Please browse some of the designs, starting from \"[Garments]\"(http://www.csszengarden.com/220/) (note that the link to \"all designs\" is now broken\...). Look through the different CSS Zen Garden designs for inspiration. Which is your favorite design? Pick one design and share your critiques with the discussion. 
 
@@ -858,7 +876,9 @@ For your chosen design, please answer the following questions:
 
 -   What is one thing you don\'t like about this design?
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-4-1">1.4.1 Hello beautiful world</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Now that you have plenty of context, it\'s time to dive in.
 
@@ -1001,7 +1021,9 @@ p {
    alt="'Hello Beautiful World' in blue helvetica text." />
 </p>
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-4-2">1.4.2 Comments</h3>
+<!------------------------------------------------------------------------------------------------>
 
 As you write your CSS, you might end up with a pretty large document that can be hard to manage, or you might find yourself working on a team and having to read CSS someone else has written. In these cases, it helps to leave \"notes\" for the humans that read the file. 
 
@@ -1028,7 +1050,9 @@ As you can see, you can put as much text between the open and close symbols as y
 
 Generally, it is a good idea to put a comment at the top of each CSS rule, or at the very least at the top of sets of rules that apply to a single category or section of your Web page. 
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch-1-4-3">1.4.3 Module 1 project - Hello your world</h3>
+<!------------------------------------------------------------------------------------------------>
 
 It\'s finally time to write your own CSS! Open your code editor of choice and save the following code as a new HTML document.
 
@@ -1094,7 +1118,9 @@ Now change the HTML and CSS files so that it says "Hello \<your name\>, welcome 
 
 **HINT**: Is your favorite color not working? Not all color names are recognized by CSS. Sometimes the best way is to use HEX. We\'ll talk in more detail about colors in the next module, but here is a list of colors you can use: [extended color keywords](https://www.w3.org/TR/css-color/#color-keywords) (from W3C\'s specification) or [color keywords](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value) (from MDN\'s documentation).
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch1-5-1">Module 1 learnings</h3>
+<!------------------------------------------------------------------------------------------------>
 
 After this module, you should feel comfortable...
 
@@ -1116,9 +1142,9 @@ In next module, you will:
 
 -   Finally, for your module project, you\'ll get a get a chance to build the CSS for an HTML page from scratch
 
-<!-------------------------------- chapter 2-1-1 ------------------------------->
-
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-1-1">2.1.1 Welcome to Module 2</h3>
+<!------------------------------------------------------------------------------------------------>
 
 In this module, we\'re going to focus on building out your CSS toolbox.
 
@@ -1134,9 +1160,9 @@ The property is the part that helps control the look and feel: the font, the col
 
 And then finally, at the end of the module, you get to write your first CSS style specifically for a given HTML Web site.
 
-<!-------------------------------- chapter 2-1-2 ------------------------------->
-
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-1-2">2.1.2 Module 2 outline</h3>
+<!------------------------------------------------------------------------------------------------>
 
 ### In this module, we will:
 
@@ -1150,8 +1176,9 @@ And then finally, at the end of the module, you get to write your first CSS styl
 
 5.  Finally, for your module project, you\'ll get a get a chance to build the CSS for an HTML page from scratch
 
-<!-------------------------------- chapter 2-2-2 ------------------------------->
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-2-1">2.2.1 HTML to get you started</h3>
+<!------------------------------------------------------------------------------------------------>
 
 In this course, we\'re talking about CSS.
 
@@ -1248,12 +1275,9 @@ There are other types of tags that are called \"self-closing\", meaning they don
 
 These types of tags rely on \"attributes\", these are added modifiers on the tag that have their own values. In the above example, we use the src attribute to set the source for the image.
 
-
-<!---------------------------- next ----------------------->
-
-<!--------------------------------------------------------------------->
-
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-2-2">2.2.2 Common HTML tags</h3>
+<!------------------------------------------------------------------------------------------------>
 
 There are many HTML tags to choose from depending on what elements you want to structure on your page. You can always check what are the [current defined HTML tags](https://www.w3.org/TR/html52/).
 
@@ -1461,9 +1485,9 @@ The div element is a generic element to hold content. It is considered a last re
 </div>
 ```
 
-<!-------------------------------- chapter 2-2-3 ------------------------------->
-
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-2-3">2.2.3 Next steps - learn more HTML</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Note that, as this CSS Introduction course focuses on CSS, we will always provide you with the complete HTML for whatever content you will be asked to style. However, to become proficient in Web development, you are going to need a good handle on HTML. You can start by looking into some of these links:
 
@@ -1479,7 +1503,9 @@ Or of you are looking for more in-depth training, we suggest you check out one 
 
 -   [HTML5 Apps and Games](https://www.edx.org/course/html5-apps-and-games) (advanced level)
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-2-4">2.2.4 Activity - Practice with HTML validator</h3>
+<!------------------------------------------------------------------------------------------------>
 
 HTML has been available to the public since 1991, but since then a lot has changed. One of the ways to make sure your HTML is well structured and up to date is to use the W3C HTML Validator. As you are developing your pages, it\'s a good idea to regularly check if your HTML is written according to W3C standards.
 
@@ -1538,7 +1564,9 @@ the font, the color,... things like that and then we\'ll meet the selector, the 
 
 And then finally, at the end of the module, you get to write your first CSS style specifically for a given HTML Web site.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-3-2">2.3.2 Constructing your CSS rules</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Here is an example CSS \"rule\":
 
@@ -1582,7 +1610,9 @@ This is the portion of the rule between the two curly braces. This is what tell
 
 The style for your page will consist of a list of many CSS rules put together. As we move through this course we will help you build up these rules to style your entire page.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-3-3">2.3.3 Activity - Building your first CSS rule set</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Now that you have a basic understanding of how to put the pieces of a CSS rule together, let\'s do some practice. Here is some HTML for a page you will style:
 
@@ -1644,7 +1674,9 @@ And you will need the following properties:
 
 Now it\'s up to you to combine these selectors and properties into 4 rules to achieve the final style. 
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-4-1">2.4.1 What is a selector?</h3>
+<!------------------------------------------------------------------------------------------------>
 
 In unit 2.3, we defined a CSS selector as the portion of the CSS rule that tells the browser on which HTML element to apply the defined style.
 
@@ -1756,7 +1788,9 @@ text-decoration: line-through; /* applies to all li elements, in both ul and ol 
 }
 ```
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-4-2">2.4.2 Inheriting style</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Part of the reason a well structured HTML document is so important is because HTML elements inherit stylistic properties. 
 
@@ -1873,7 +1907,9 @@ color: green;
 }
 ```
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-4-3">2.4.3 Combining multiple selectors</h3>
+<!------------------------------------------------------------------------------------------------>
 
 You can imagine that multiple HTML elements on your page will have similar style. If you write a separate CSS rule with the same properties for each of these elements, your CSS file can get very large and hard to manage. When designing CSS, the authors wanted to help make it as easy as possible to write and edit style sheets \"by hand\", so there are a number of features that help keep your styles succinct.
 
@@ -1950,7 +1986,9 @@ h3,ol {
 </html>
 ```
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-4-4">2.4.4 Activity - Apply your own selectors</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Now it\'s your turn to practice with some selectors of your own. 
 
@@ -2032,7 +2070,9 @@ You will need to figure out which selectors belong on top of each of the 5 rules
 
 **HINT**: Some of the rules require multiple comma separated selectors.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-5-1">2.5.1 What is a property?</h3>
+<!------------------------------------------------------------------------------------------------>
 
 In unit 2.3, we briefly introduced you to \"properties\", the part of the CSS rule that tells the browser how to style specific aspects of the selected HTML element.
 
@@ -2089,7 +2129,9 @@ If you are not sure how to do this, please refer to the demo in unit 1.3 to see 
 
 As you can see, the browser tools display the value of the properties, and if you click into that space it will even give you some of the different value options and you can even change them and watch the Web site update dynamically. 
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-5-2">2.5.2 Color properties</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Color is one of the first things you\'ll want to explore when designing your Web site. Thankfully, CSS provides a wide array of tools for you to control the color of different HTML elements. There are basic color properties:
 
@@ -2175,7 +2217,9 @@ You can see these color properties in action using all three approaches to setti
 
 -   More color units are described in the [CSS Color Module Level 3 specification.](https://www.w3.org/TR/css3-color/#colorunits)
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-5-3">2.5.3 Font properties</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Font is an extremely important part of how you communicate content to your user. 
 
@@ -2332,7 +2376,9 @@ There are even more ways to adjust text appearance and you can read more about 
 
 -   [CSS Text Decoration Module Level 4](https://www.w3.org/TR/css-text-decor-4/)
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-5-4">2.5.4 Spacing properties</h3>
+<!------------------------------------------------------------------------------------------------>
 
 CSS provides a great set of tools to help you position the HTML elements on your page, and we will cover that in depth in Module 4. For now we will talk about how to apply white space around individual HTML elements.
 
@@ -2444,7 +2490,9 @@ p {
 }
 ```
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-5-5">2.5.5 Activity - Adding your own properties</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Now that you have a few properties in your CSS toolbox, let\'s practice using them. 
 
@@ -2552,13 +2600,17 @@ Here are the fonts used above:
 \
 But this points to a fundamental limitation of font-family in CSS: you cannot be sure that somebody who views your pages has all the fonts that you chose. The solution is to embed the fonts in the style sheet (a technique known as Web Fonts). But that is beyond the scope of this course.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="2-6-1">2.6.1 Style studies</h3>
+<!------------------------------------------------------------------------------------------------>
 
 In each unit, we will have a section like this one where we profile specific aspects of Web sites and the various ways you can use CSS to style them. This is intended to give you practical examples of how to apply the CSS you are developing along the way. 
 
 Each style study will discuss the different concerns of styling a given element and three sample styles.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-6-2">2.6.2 Titles</h3>
+<!------------------------------------------------------------------------------------------------>
 
 There are a couple different categories of text on a Web page: titles, body text, links, captions, etc.
 
@@ -2705,7 +2757,9 @@ This design is based on pastel primary colors and uses color as a highlight agai
 
 [Here is a CodePen of all the above examples of different title designs for you to play around with](https://codepen.io/w3devcampus/pen/LYWRVvP).
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-6-3">2.6.3 Buttons</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Buttons are a key way that your users will interact with your page. Often buttons are a call to action for your user- so you will want them to stand out!
 
@@ -2824,7 +2878,9 @@ This is a big graphic button that uses border-radius to give the button rounded�
 
 In summary, here are [three different ways to style buttons you can play around with](https://codepen.io/techie4good/pen/ORXzoo?editors=1100#0).
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-6-4">2.6.4 Activity - Titles and buttons</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Now that you know a bit more about how CSS is written, you will start to understand and notice more of the design elements as you navigate around the Web. 
 
@@ -2918,7 +2974,9 @@ Remember that if you want to post an assignment without personal information o
 
 -   pseudo classes
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-1-1">3.1.1 Welcome to Module 3</h3>
+<!------------------------------------------------------------------------------------------------>
 
 In this module, we\'re going to be talking about selectors.
 
@@ -2928,7 +2986,9 @@ We're going to need a lot more tools than just the HTML tag name.
 
 In this module, we\'re going to talk about classes and IDs, pseudo-classes, contextual selectors, and then how you combine all these selectors together and understand the Cascading part of Cascading style sheets.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-1-2">3.1.2 Module 3 outline</h3>
+<!------------------------------------------------------------------------------------------------>
 
 In this module, we\'ll learn:
 
@@ -2940,7 +3000,9 @@ In this module, we\'ll learn:
 
 -   What the \"Cascading\" part of \"Cascading Style Sheets\" means
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-1-3">3.1.3 The power of selectors</h3>
+<!------------------------------------------------------------------------------------------------>
 
 In our last module, we learned about something called Selectors.
 
@@ -2992,7 +3054,9 @@ p {
 }
 ```
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-2-1">3.2.1 Classes and IDs</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Often, a single page will have a whole bunch of the same html tag, but that doesn\'t necessarily mean you want each tag of that type to look exactly the same.
 
@@ -3071,7 +3135,7 @@ ID names have the same rules as class names: start with a letter, can include nu
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image053.png?raw=true"
-   width="40%"
+   width="70%"
    alt="Classes and id example." />
 </p>
 <!----------
@@ -3123,7 +3187,9 @@ ID names have the same rules as class names: start with a letter, can include nu
 }
 ```
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-2-2">3.2.2 Activity - Add your own classes and ids</h3>
+<!------------------------------------------------------------------------------------------------>
 
 **Here is some CSS code:**
 
@@ -3178,7 +3244,9 @@ In this activity, your job is to add the HTML id and class attributes to the cor
 </p>
 <!--- ![](images/media/image56.png){width="6.9375in" height="6.547916666666667in"} --->
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-3-1">3.3.1 CSS pseudo-classes</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Sometimes, you\'ll want to adjust the style of an element, based on how the user has interacted with it. The best example of this is links.
 
@@ -3245,14 +3313,16 @@ You can read more about pseudo-classes in this [MDN \"Pseudo-classes\"](https:/
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image056.png?raw=true"
-   width="50%"
+   width="70%"
    alt="Pseudo-classes example." />
 </p>
 <!-----------
 {width="6.9375in" height="3.0243055555555554in"}
 ------------>
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-3-2">3.3.2 Activity - Applying pseudo classes</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Now it\'s your turn to try out some pseudo classes. Here is a Web page (see the CodePen [Practice with Pseudoclasses](https://codepen.io/techie4good/pen/rraNJr/)) and the CSS code:
 
@@ -3336,7 +3406,9 @@ The resulting output should look like this when the user has not interacted with
 {width="6.9375in" height="4.472222222222222in"}
 -------------->
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-4-1">3.4.1 Contextual selectors</h3>
+<!------------------------------------------------------------------------------------------------>
 
 In the last section, we actually combined two selectors into one rule.
 
@@ -3400,14 +3472,16 @@ Pay attention to the styles of the paragraphs and lists in the following example
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image059.png?raw=true"
-   width="50%"
+   width="70%"
    alt="." />
 </p>
 <!----------
 {width="6.9375in" height="2.9819444444444443in"}
 ------------>
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-4-2">3.4.2 Activity - Contextual selectors</h3>
+<!------------------------------------------------------------------------------------------------>
 
 For practice, we are going to learn how to better scope CSS without the crutch of classes and IDs. 
 
@@ -3416,7 +3490,7 @@ For practice, we are going to learn how to better scope CSS without the crutch o
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image060.png?raw=true"
-   width="50%"
+   width="70%"
    alt="Scoping CSS without classes and id's." />
 </p>
 <!-----------
@@ -3426,40 +3500,40 @@ For practice, we are going to learn how to better scope CSS without the crutch o
 **Look carefully at the CSS code:**
 
 ```
-1.  body {
-2.      font-family: Tahoma, sans-serif;
-3.  }
-4.  header, article, footer {
-5.      border: 10px #E9B000 solid;
-6.      margin: 30px;
-7.  }
-8.  h1 {
-9.      color: #E86E80;
-10. }
-11. h1 {
-12.     background-color: #E86E80;
-13.     color: #FFFFFF;
-14. }
-15. p {
-16.     background-color: #008F95;
-17.     color: #FFFFFF;
-18. }
-19. p {
-20.     background-color: #FFFFFF;
-21.     color: #008F95;
-22. }
-23.  
-24. ol {
-25.     background-color: #E24E43;
-26.     color: #FFFFFF;
-27. }
-28. ol {
-29.     background-color: #FFFFFF;
-30.     color: #E24E43;
-31. }
-32. ol {
-33.     border: 5px solid #E24E43;
-34. }
+body {
+    font-family: Tahoma, sans-serif;
+}
+header, article, footer {
+    border: 10px #E9B000 solid;
+    margin: 30px;
+}
+h1 {
+    color: #E86E80;
+}
+h1 {
+    background-color: #E86E80;
+    color: #FFFFFF;
+}
+p {
+    background-color: #008F95;
+    color: #FFFFFF;
+}
+p {
+    background-color: #FFFFFF;
+    color: #008F95;
+}
+ 
+ol {
+    background-color: #E24E43;
+    color: #FFFFFF;
+}
+ol {
+   background-color: #FFFFFF;
+    color: #E24E43;
+}
+ol {
+    border: 5px solid #E24E43;
+}
 ```
 
 So, there are CSS rules with duplicate selectors. You\'ll need to add some extra selectors to the existing CSS rules so that instead of duplicate rules, you have rules that address different instances of the HTML elements based on the structure of the HTML.
@@ -3502,7 +3576,9 @@ So, there are CSS rules with duplicate selectors. You\'ll need to add some extra
 {width="5.0in" height="1.16416447944007in"}
 ---------->
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-4-3">3.4.3 Cascading styles</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Hopefully, at this point, it\'s become very clear why what we\'re working on is called a style sheet.
 
@@ -3557,7 +3633,7 @@ Look at the corresponding HTML and CSS, where code showing how Cascading order a
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image064.png?raw=true"
-   width="50%"
+   width="70%"
    alt="Overlapping rules example with cascading order." />
 </p>
 <!---------
@@ -3565,27 +3641,27 @@ Look at the corresponding HTML and CSS, where code showing how Cascading order a
 ---------->
 
 ```
-1.  section {
-2.     color: red;
-3.  }
-4.  section section {
-5.     color: orange;
-6.  }
-7.  section section section {
-8.     color: green;
-9.  }
-10. #section {
-11.    color: blue;
-12. }
-13. section:hover {
-14.    color: purple;
-15. }
-16. section:hover section:hover {
-17.    color: pink;
-18. }
-19. section:hover section:hover section:hover {
-20.    color: yellow;
-21. }
+section {
+   color: red;
+}
+section section {
+   color: orange;
+}
+section section section {
+   color: green;
+}
+#section {
+   color: blue;
+}
+section:hover {
+   color: purple;
+}
+section:hover section:hover {
+   color: pink;
+}
+section:hover section:hover section:hover {
+   color: yellow;
+}
 ```
 
 **Things to observe about the above:**
@@ -3594,7 +3670,9 @@ Look at the corresponding HTML and CSS, where code showing how Cascading order a
 
 -   when you hover over the sections within other sections, multiple hover rules apply!
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-4-4">3.4.4 Activity - Cascading order</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Cascading order can be difficult to manage.
 
@@ -3605,7 +3683,7 @@ Cascading order can be difficult to manage.
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image065.png?raw=true"
-   width="50%"
+   width="70%"
    alt="Managing cascading order." />
 </p>
 <!-----------
@@ -3615,27 +3693,27 @@ Cascading order can be difficult to manage.
 **\... and specifically, its CSS code:**
 
 ```
-1.  body {
-2.      background-color: #F8EEE7;
-3.  }
-4.  p {
-5.      background-color: #F4DECB;
-6.  }
-7.  p {
-8.      background-color: #94618E;
-9.      color: #F8EEE7;
-10. }
-11. p {
-12.     background-color: #49274A;
-13. }
-14. p {
-15.     background-color: #FFFFFF;
-16.     color: #49274A;
-17. }
-18. p {
-19.     background-color: #B4DBC0 !important;
-20.     border: 2px dashed black;
-21. }
+body {
+    background-color: #F8EEE7;
+}
+p {
+    background-color: #F4DECB;
+}
+p {
+    background-color: #94618E;
+    color: #F8EEE7;
+}
+p {
+    background-color: #49274A;
+}
+p {
+    background-color: #FFFFFF;
+    color: #49274A;
+}
+p {
+    background-color: #B4DBC0 !important;
+    border: 2px dashed black;
+}
 ```
 
 Note that there are a lot of repeat CSS rules. For this activity, you cannot change any of the HTML (meaning you cannot add any IDs), but you\'ll need to change the CSS to make some of the rules more specific so that you achieve this final result:
@@ -3645,7 +3723,7 @@ Note that there are a lot of repeat CSS rules. For this activity, you cannot cha
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image067.png?raw=true"
-   width="50%"
+   width="70%"
    alt="Cascading order final solution, no interaction." />
 </p>
 <!----------
@@ -3683,12 +3761,14 @@ border: 2px dashed black;
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image067.png?raw=true"
-   width="###%"
+   width="50%"
    alt="Cascading style practice with hover." />
 </p>
 <!-- (images/media/image68.png){width="5.0in" height="3.7062062554680666in"} -->
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-5-1">3.5.1 Images</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Images are an extremely important part of your page, not only as part of your content but as a key way to help style your page. Before you even get to styling them you need to put considerable thought into what type of images to include in your page. One of the easiest ways to slow down your site\'s performance is to include lots of large, high-quality images. There are two general things to consider when picking your images: what format and how large are they? 
 
@@ -3753,12 +3833,12 @@ As you can see, there are a lot of things to consider, and if you do not plan yo
 <!DOCTYPE html>
 <!--It's a best practice to always declare DOCTYPE!-->
 <html lang="en">
-<head>
-<meta charset="utf-8">
-</head>
-<body>
-<div id="badImg">
-<p>
+   <head>
+      <meta charset="utf-8">
+   </head>
+   <body>
+      <div id="badImg">
+         <p>
 ```
 
 Here is an image that is unformatted, so the surrounding text directly touches it.
@@ -3768,9 +3848,9 @@ Here is an image that is unformatted, so the surrounding text directly touches i
 It also doesn\'t integrate well with the text content, so it does not flow with your other content.
 
 ```
-</p>
-</div>
-</body>
+         </p>
+      </div>
+   </body>
 </html>
 ```
 
@@ -3778,12 +3858,12 @@ It also doesn\'t integrate well with the text content, so it does not flow with 
 
 ```
 div {
-margin-bottom: 50px;
+   margin-bottom: 50px;
 }
 #badImg {
-background-color: gray;
-padding: 10px;
-color: white;
+   background-color: gray;
+   padding: 10px;
+   color: white;
 }
 ```
 
@@ -3804,26 +3884,26 @@ This design shows some of the basics in properly incorporating images. It uses t
 
 ```
 div {
-margin-bottom: 50px;
+   margin-bottom: 50px;
 }
 #images1 {
-background-color: #A4D555;
-padding: 50px;
-width: 750px;
+   background-color: #A4D555;
+   padding: 50px;
+   width: 750px;
 }
 #images1 p {
-background-color: #02558B;
-font-family: "Century Gothic";
-font-size: 1.2em;
-color: white;
-width: 350px;
-padding: 30px;
-float: right;
+   background-color: #02558B;
+   font-family: "Century Gothic";
+   font-size: 1.2em;
+   color: white;
+   width: 350px;
+   padding: 30px;
+   float: right;
 }
 #images1 img {
-width: 250px;
-padding: 15px 15px 50px 15px;
-background-color: white;
+   width: 250px;
+   padding: 15px 15px 50px 15px;
+   background-color: white;
 }
 ```
 
@@ -3889,24 +3969,24 @@ This design is an example of an image gallery design. This gives all the images 
 
 ```
 div {
-margin-bottom: 50px;
+   margin-bottom: 50px;
 }
 #images2 {
-width: 750px;
-background-color: #E9E9E9;
-padding: 30px;
-font-family: Arial;
+   width: 750px;
+   background-color: #E9E9E9;
+   padding: 30px;
+   font-family: Arial;
 }
 #images2 p {
-background-color: #99D3DF;
-padding: 20px 30px;
+   background-color: #99D3DF;
+   padding: 20px 30px;
 }
 #images2 img {
-width: 200px;
-padding: 10px;
-border: 2px #88BBD6 solid;
-margin: 5px;
-background-color: white;
+   width: 200px;
+   padding: 10px;
+   border: 2px #88BBD6 solid;
+   margin: 5px;
+   background-color: white;
 }
 ```
 
@@ -3929,18 +4009,18 @@ This design demonstrates the use of an image both as a background and as a link.
 <!DOCTYPE html>
 <!--It's a best practice to always declare DOCTYPE!-->
 <html lang="en">
-<head>
-<meta charset="utf-8">
-</head>
-<body>
-<div id="images3">
-<p> Here is some body text that is now on top of an image because it is set as the background. When using an image as a background try to pick an image that is not overly busy, this can make your text or other images difficult to read when placed on top of.
-</p>
-<div id="navBox">
-<div id="clickHere"> <a href="https://www.w3.org">Click The Image</a> </div>
-<a href="www.w3.org"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Font_Awesome_5_solid_arrow-circle-right.svg/512px-Font_Awesome_5_solid_arrow-circle-right.svg.png" width="80" alt="A solid-weight icon from Font Awesome, a free web icon font" /></a>
-</div>
-</div>
+   <head>
+      <meta charset="utf-8">
+   </head>
+   <body>
+      <div id="images3">
+         <p> Here is some body text that is now on top of an image because it is set as the background. When using an image as a background try to pick an image that is not overly busy, this can make your text or other images difficult to read when placed on top of.
+         </p>
+      <div id="navBox">
+         <div id="clickHere"> <a href="https://www.w3.org">Click The Image</a> </div>
+            <a href="www.w3.org"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Font_Awesome_5_solid_arrow-circle-right.svg/512px-Font_Awesome_5_solid_arrow-circle-right.svg.png" width="80" alt="A solid-weight icon from Font Awesome, a free web icon font" /></a>
+         </div>
+      </div>
 </body>
 </html>
 ```
@@ -3952,30 +4032,32 @@ div {
 margin-bottom: 50px;
 }
 #images3 {
-background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/45/Big_Cumulonimbus.JPG');
-background-repeat: no-repeat;
-height: 500px;
-width: 500px;
+   background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/45/Big_Cumulonimbus.JPG');
+   background-repeat: no-repeat;
+   height: 500px;
+   width: 500px;
 }
 #images3 p, #clickHere {
-color: white;
-font-family: Tahoma;
-padding: 40px;
+   color: white;
+   font-family: Tahoma;
+   padding: 40px;
 }
 #navBox {
-width: 220px;
-margin-left: 30px;
+   width: 220px;
+   margin-left: 30px;
 }
 #clickHere {
-float: right;
-padding: 30px 0px;
+   float: right;
+   padding: 30px 0px;
 }
 #clickHere a {
-color: white;
+   color: white;
 }
 ```
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-5-2">3.5.2 Forms</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Forms can be a surprisingly tricky element to style because you are asking for a lot of interaction from your user, and the burden is on you as the designer to make it clear what exactly you are asking them to do. However, with a few simple design changes you can make it much easier for your user to navigate your form. Here are some key design elements to keep in mind when designing forms:
 
@@ -4011,20 +4093,20 @@ Forms can be a surprisingly tricky element to style because you are asking for a
 <!DOCTYPE html>
 <!--It's a best practice to always declare DOCTYPE!-->
 <html lang="en">
-<head>
-<meta charset="utf-8">
-</head>
-<body>
-<div id="uglyForm">
-<form>
-<h1>Sign Up</h1>
-<input type="text" value="Given name" />
-<input type="text" value="Family name" />
-<input type="text" value="Email" />
-<button>Submit</button>
-</form>
-</div>
-</body>
+   <head>
+      <meta charset="utf-8">
+   </head>
+   <body>
+      <div id="uglyForm">
+         <form>
+	        <h1>Sign Up</h1>
+		    <input type="text" value="Given name" />
+		    <input type="text" value="Family name" />
+		    <input type="text" value="Email" />
+		    <button>Submit</button>
+         </form>
+      </div>
+   </body>
 </html>
 ```
 
@@ -4032,20 +4114,20 @@ Forms can be a surprisingly tricky element to style because you are asking for a
 
 ```
 div {
-margin-bottom: 50px;
-height: 400px;
+   margin-bottom: 50px;
+   height: 400px;
 }
 form {
-padding: 30px;
-width: 500px;
+   padding: 30px;
+   width: 500px;
 }
 /* Bad Design */
 #uglyForm input {
-border: 0px;
+   border: 0px;
 }
 #uglyForm button {
-background-color: white;
-border: 0px;
+   background-color: white;
+   border: 0px;
 }
 ```
 
@@ -4571,7 +4653,9 @@ For reference here is what my solution looks like:
 
 -   Learn about the flow property
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch4-1-1">4.1.1 Welcome to Module 4</h3>
+<!------------------------------------------------------------------------------------------------>
 
 In this module, we\'re going to talk about layout and positioning using CSS.
 
@@ -4585,7 +4669,9 @@ Then finally, we\'re going to learn about the 'Float property', a way for you to
 
 We\'re going to combine all these things together, so you can make a balanced well-designed Web page.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch4-1-2">4.1.2 Module 4 outline</h3>
+<!------------------------------------------------------------------------------------------------>
 
 ### In this module, you will learn:
 
@@ -4738,7 +4824,9 @@ margin: 100px;
 
 -   [Box model definition](https://www.w3.org/TR/CSS22/box.html) in the W3C\'s CSS2.2 specification
 
-## 4.2.1 The alignment property
+<!------------------------------------------------------------------------------------------------>
+<h3 id="ch4-2-1">4.2.1 The alignment property</h3>
+<!------------------------------------------------------------------------------------------------>
 
 One of the simplest ways to align content is to use the direct text-align property. This can help you set the alignment of text or inline content within the context of their containing HTML element.
 
@@ -4855,7 +4943,9 @@ Also, note that CSS will in the future provide better support for justification 
 
 Once you finish this course, look out for these and other international features of CSS as you explore its features further.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch4-2-2">4.2.2 Element width and height</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Until now we\'ve let the browser decide how big the element is, but you can actually adjust its width and height manually.
 
@@ -4964,7 +5054,9 @@ When you view the above example, the paragraphs will dynamically resize based on
 
 You will note that the elements have resized accordingly, but have hit the limits of their min and max constraints. This is why using percentages for width and height are so important, it helps you write code that works for all screen sizes.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch4-2-3">4.2.3 Padding and margin</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Whenever possible, it is ideal to position your elements by adjusting their padding and margins. Sometimes this isn\'t enough to get the element exactly where you\'d like it to be, so to achieve this we\'ll learn more tools later in this module. Regardless, you\'ll almost always want some padding and margin around your element so it\'s best to adjust these before progressing onto more complicated positioning methods.
 
@@ -5089,7 +5181,9 @@ Now, if you resize the window, the elements remain centered no matter what. Here
 
 -   A \"CSS Tricks\" article on [What you should know about collapsing margins](https://css-tricks.com/what-you-should-know-about-collapsing-margins/)
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch4-2-4">4.2.4 Activity - Practice with alignment</h3>
+<!------------------------------------------------------------------------------------------------>
 
 For this activity, you are going to practice some of the basic alignment properties you\'ve learned in this unit.
 
@@ -5216,7 +5310,9 @@ The resulted HTML and CSS codes produce a Web page where elements are not very w
 
 -   the footer should have a padding of 10px and a margin between it and the section of 30px. The footer should be centered.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch4-3-1">4.3.1 The float property</h3>
+<!------------------------------------------------------------------------------------------------>
 
 After when you look at other Web pages, you\'ll see multiple HTML elements
 
@@ -5352,7 +5448,9 @@ float: right;
 }
 ```
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch4-3-2">4.3.2 Activity - Practice with float</h3>
+<!------------------------------------------------------------------------------------------------>
 
 One of the toughest parts of layouts with CSS is figuring out which elements to apply a float property to.
 
@@ -5578,7 +5676,9 @@ margin-bottom: 0px;
 }
 ```
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch4-4-1">4.4.1 Relative positioning</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Up and till now, you\'ve probably noticed that all the Web sites you\'ve been making:
 
@@ -5733,7 +5833,9 @@ left: 10px;
 }
 ```
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch4-4-2">4.4.2 Activity - Practice with relative positioning</h3>
+<!------------------------------------------------------------------------------------------------>
 
 For this activity, we are going to focus on using relative positioning to adjust how items sit on the page.
 
@@ -5826,7 +5928,9 @@ padding-left: 25px;
 }
 ```
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch4-5-1">4.5.1 Menus</h3>
+<!------------------------------------------------------------------------------------------------>
 
 One of the most important aspects of any Web site is the navigation menu. Over time, top level navigation has become fairly standardized so your user will be looking for some key elements that help them find their way around your site:
 
@@ -6102,7 +6206,9 @@ display: block;
 </html>
 ```
 
-<h3 id="ch=4=5=2">4.5.2 Footers</h3>
+<!------------------------------------------------------------------------------------------------>
+<h3 id="ch4-5-2">4.5.2 Footers</h3>
+<!------------------------------------------------------------------------------------------------>
 
 The footer of your page is typically the last thing your user will see, so it\'s important that you provide them any essential information. Typically, you will see footers that just contain contact info, but often they can also include navigation links, search bars or other calls to action.
 
@@ -6522,7 +6628,9 @@ Please <a href="#">contact us</a> if you have any questions
 </html>
 ```
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch4-6-1">4.6.1 When to use what?</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Now that we are at the end of Module 4, you have a long list of different ways to move HTML elements around your page using CSS. With so many tools come choices, as you can now accomplish the same task multiple ways. Here are some guidelines on how to decide when to use which tool, in the order in which you should use them when positioning an element.
 
@@ -6534,7 +6642,9 @@ Now that we are at the end of Module 4, you have a long list of different ways t
 
 4.  If all that is not enough, there are advanced CSS features such as flexbox, table layout, absolute positioning and grid layout.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch4-6-2">4.6.2 Module 4 project - My resume</h3>
+<!------------------------------------------------------------------------------------------------>
 
 In Modules 2 and 3, you\'ve been building your profile as a Web page. For this module project, we are going to continue to build on that work and turn the profile into a \"resume\" or \"CV\", as a kind of online portfolio.
 
@@ -6947,7 +7057,9 @@ alt="picture of a phone to signify contacting via phone"> -->Facebook</a>
 
 -   Explore current Web design styles and learn how to best use them
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-1-1">5.1.1 Welcome to Module 5</h3>
+<!------------------------------------------------------------------------------------------------>
 
 In our final module, we\'re going to be talking about design. It\'s one thing to know how to use CSS properties and selectors.
 
@@ -6959,7 +7071,9 @@ First, we\'re going to talk about the different aspects of design to keep in min
 
 And then we\'re going to end with current design trends, and specifically why we\'re choosing to make Web pages the way we are right now, so you can understand how to keep your Web page looking modern.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-1-2">5.1.2 Module 5 outline</h3>
+<!------------------------------------------------------------------------------------------------>
 
 ### In this module, we will:
 
@@ -6973,7 +7087,9 @@ And then we\'re going to end with current design trends, and specifically why we
 
 -   Meet the newest fashions in Web design to help you give your Web pages a modern look and feel
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-1-3">5.1.3 The importance of design</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Have you ever visited a Web site before?
 
@@ -7021,7 +7137,9 @@ Numerous studies have been done to determine exactly how important Web design is
 
 -   2 out of every 3 minutes spent on the Web are via a mobile device
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-1-4">5.1.4 CSS best practices (optional)</h3>
+<!------------------------------------------------------------------------------------------------>
 
 You will find below an excerpt of CSS best practices (see the [full slide set](https://fantasai.inkedblade.net/style/talks/best-practices/#title)) that were written by  Elika J. Etemad (also known as [fantasai](https://fantasai.inkedblade.net/)). Elika is an expert on the [W3C CSS Working Group](https://www.w3.org/Style/CSS/) (since 2004!) and a longtime contributor to the Mozilla Project. In addition to editing many of the CSS3 specifications, she's worked on layout engine testing and development for Gecko and managing the CSS test suites at W3C.
 
@@ -7149,7 +7267,9 @@ Absolute units are usually the wrong answer.
 
 -   Provide fallbacks / use @supports.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-2-1">5.2.1 Applying basic design principals</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Often it\'s hard to pull apart the pieces of a design that are \"good\" or \"bad\", most of that is subjective. Instead, it\'s better to think of individual pieces of a design as \"effective\" or \"ineffective\" according to the demographic and the task they are trying to achieve. 
 
@@ -7157,7 +7277,9 @@ Web sites can become pretty complicated if you add many design elements, and it 
 
 In this module, we\'ll discuss how to style the three most fundamental design aspects of a Web page: typography, color, and white space.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-2-2">5.2.2 Typography</h3>
+<!------------------------------------------------------------------------------------------------>
 
 A good rule of thumb when designing your Web site is to use no more than two different typefaces per page. Typically, this means that you select 1 bold typeface for titles or other eye-catching pieces of text, and a neutral typeface for large blocks or the body text of your page. 
 
@@ -7209,7 +7331,9 @@ When choosing your font, probably the biggest choice you'll make is what categor
 
 -   Here is the W3C documentation for all of CSS\'s font properties: [CSS Fonts Module Level 3](https://www.w3.org/TR/css-fonts-3/).
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-2-3">5.2.3 Color</h3>
+<!------------------------------------------------------------------------------------------------>
 
 One of the most important design decisions you can make is your Web site\'s color palette. You should choose a palette before you begin designing to keep a cohesive visual identity. A common mistake it to use too many colors on a page. As you are starting out, it is best to limit yourself to just a few colors per page.
 
@@ -7255,7 +7379,9 @@ In your 4 colors, you\'ll want to keep a consistent tone so that your colors loo
 
 -   [LCH colors in CSS: what, why and how?](http://lea.verou.me/2020/04/lch-colors-in-css-what-why-and-how/), by Lea Verou (April 2020)
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-2-4">5.2.4 White space</h3>
+<!------------------------------------------------------------------------------------------------>
 
 It can be difficult to strike a good balance of white space. The most common mistake beginner Web designers make is to not leave enough white space or empty space between HTML elements. 
 
@@ -7263,7 +7389,9 @@ You will want to make liberal use of paddings and margins to make sure that your
 
 Good balance between content and white space prevents your user from becoming fatigued while looking at your site. For example, when lines of text are very long, it is difficult to read without losing track of where you are. It is also fatiguing when the lines of text are too short because the user has to read vertically too much. There is considerable research on the topic, but a good rule of thumb is to limit lines of text to 50-75 characters wide. 
 
-<h3 id="ch5-2-4">5.2.5 Activity - Breaking design guidelines</h3>
+<!------------------------------------------------------------------------------------------------>
+<h3 id="ch5-2-5">5.2.5 Activity - Breaking design guidelines</h3>
+<!------------------------------------------------------------------------------------------------>
 
 For this activity, you\'ll need to find a Web site that violates one of the following design guidelines:
 
@@ -7289,7 +7417,9 @@ i tried checking those around my area, I found this <https://www.kolanus.de/> 
 
 I gave up searching for the nicht sehr gut ones. Cheers!
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-3-1">5.3.1 Web accessibility</h3>
+<!------------------------------------------------------------------------------------------------>
 
 *The power of the Web is in its universality.*\
 *Access by everyone regardless of disability is an essential aspect.*\
@@ -7363,7 +7493,9 @@ Text alternatives (\"alt text\") are a primary way of making visual information 
 3.  </a>
 ```
 
-## 5.3.2 Inclusive design
+<!------------------------------------------------------------------------------------------------>
+<h3 id="ch5-3-2">5.3.2 Inclusive design</h3>
+<!------------------------------------------------------------------------------------------------>
 
 As you are designing your site, it is critical that you keep in mind the range of users who might be viewing your page. There are some simple design choices you can make to ensure that your web page is as inclusive as possible.
 
@@ -7401,7 +7533,9 @@ On W3C\'s WAI Web site:
 
 -   [Color contrast](https://www.w3.org/WAI/test-evaluate/preliminary/#contrast)
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-3-3">5.3.3 Web internationalization</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Access to the Web for all has been a fundamental concern and goal of the W3C since the beginning. It is easy to overlook the needs of people from cultures different to your own, or who use different languages or writing systems, but you have to ensure that any content or application that you design or develop is ready to support the international features that they will need.
 
@@ -7527,7 +7661,9 @@ Don\'t use CSS to apply direction for bidirectional or right-to-left scripts, s
 
 5.  **Use start and end:** Using these values, where possible, rather than left and right makes it easier to convert content between languages that use right-to-left and left-to-right scripts.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-4-1">5.4.1 The history of Web design</h3>
+<!------------------------------------------------------------------------------------------------>
 
 The way Web pages look has changed a lot over the years, mostly because the technology has come a really long way. But as Web sites change, we can look at them as a brief history of the development of technology and also the development of design.
 
@@ -7555,7 +7691,9 @@ And it\'s not necessarily a bad thing to use Flash, but you just have a whole lo
 
 It\'s really fun to go and look back at historical Web sites, and pay attention to what they were using, but why they were using it, and wonder if maybe now there\'s a better technology.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-4-2">5.4.2 Moving pieces</h3>
+<!------------------------------------------------------------------------------------------------>
 
 As Web design tools became more sophisticated, the Web seemed to fill up with lots of fancy features that ultimately were just distracting. Especially in an era before mobile phones, certain items were used to add emphasis and style, but now are considered dated and would be a huge issue for mobile Web browsers.
 
@@ -7571,7 +7709,9 @@ Here is a list of style elements that should be avoided:
 
 -   **background music** - sometimes still used to set a tone for your site, but often is considered disruptive by users. If you absolutely must have background music, make sure to give your user a way to turn it off that is easily accessible.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-4-3">5.4.3 Rigid layouts</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Now, when we design sites, we are always talking about \"different screen sizes\", \"different devices\", etc.
 
@@ -7593,7 +7733,9 @@ Tables organize data into structured rectangular sections, so it was an easy wa
 
 Initially, we replaced HTML tables with \<div\> tags, a multi-purpose tag that was much more flexible than a table row or column, but while divs were flexible they weren\'t very descriptive. With HTML5, we gained more content descriptive tags like \<header\>, \<footer\>, \<section\> and \<article\> that have the same flexibility of div but that better describe your content.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-4-4">5.4.4 Heavy content</h3>
+<!------------------------------------------------------------------------------------------------>
 
 These days, it is extremely likely that many of your users will view your page on a mobile device, typically using cell data as their connection. Cell networks are much more limited than the hard-wired connections that were once the only gateway to the Internet.
 
@@ -7601,7 +7743,9 @@ Back when this was the case, Web designers employed a number of techniques that 
 
 With CSS3, we now have a host of animations that come standard with CSS so there is less need for an external, heavy technology to make dynamic pages. Animations are beyond the scope of this class, however be aware that there are two ways to do animations: using [CSS animations](https://www.w3.org/TR/css3-animations/) or [CSS transitions](https://www.w3.org/TR/css3-transitions/).
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-4-5">5.4.5 Activity - Retro design styles</h3>
+<!------------------------------------------------------------------------------------------------>
 
 For this activity, please find a retro styled Web site that uses one of the following outdated design elements. You might want to use the [Internet Archive](https://archive.org/web/) to find some older Web pages where these elements were more prevalent.
 
@@ -7645,7 +7789,9 @@ Just for fun, I went looking for sites with animation. This one has some animati
 
 Also has some animation, but not much. [https://web.archive.org/web/20131021205646/http://www.wikihow.com/Main-Page](https://web.archive.org/web/20131021205646/http:/www.wikihow.com/Main-Page)
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-5-1">5.5.1 The current state of Web design</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Now, it\'s 2016. And I say the year because the design trends I am going to talk about are really specific to this time period now.
 
@@ -7677,7 +7823,9 @@ And you\'ll see that a lot of people sort of pick signature fonts especially for
 
 If you keep these basic ideas in mind, long scrolling, flat designing and typography, you\'re probably going to end up with a really nice modern page.
 
-<h3 id="ch5-5-3">5.5.2 Minimalism</h3>
+<!------------------------------------------------------------------------------------------------>
+<h3 id="ch5-5-2">5.5.2 Minimalism</h3>
+<!------------------------------------------------------------------------------------------------>
 
 This Web design trend is part fashion, part function. Since we always keep mobile devices in mind when designing, the \"rich design\" styles of the past (drop shadows, gradients, lots of images, colors, and fonts) have been replaced with the current trend \"flat design\".
 
@@ -7703,7 +7851,9 @@ Flat design emphasizes:
 
 1 LINE LAYOUTS: <https://youtu.be/qm0IfG1GyZU?t=118>
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-5-3">5.5.3 Long scrolling</h3>
+<!------------------------------------------------------------------------------------------------>
 
 In the past, Web sites were comprised of many separate pages that you would navigate to, leaving behind the page you came from. These days, you\'ll often find pages that are comprised of a single long scrolling page with links that just jump to different portions of the page. The reason for this is less about fashion and more about technological developments. Especially on touch devices, scrolling is a more natural human way to interact with a page.
 
@@ -7836,7 +7986,9 @@ Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac tu
 
 There are other methods that are more advanced that save you from loading the entire page. One technique under development to make scrolling easier and more accurate is a module called \"[CSS Scroll Snap](https://www.w3.org/TR/css-scroll-snap-1/)\".
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-5-4">5.5.4 New layout techniques (optional)</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Web layout is always constrained by the limitations of CSS, but future trends will be able to make use of new tools, such as CSS Flexbox (officially: CSS Flexible Box Layout) and CSS Grid.
 
@@ -7911,11 +8063,15 @@ When considering the CSS Grid module, also look at the CSS Flexible Box module. 
 
 -   [Flexbox froggy](https://flexboxfroggy.com/) (game to practice CSS flexbox code)
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-5-5">5.5.5 CSS Grid layout (optional)</h3>
+<!------------------------------------------------------------------------------------------------>
 
 Self-gratification. ie, busting their arms patting themselves on the back. Fucking MS.
 
+<!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-5-6">5.5.6 Activity - Best design</h3>
+<!------------------------------------------------------------------------------------------------>
 
 For this activity, go out and find what you think is the best-designed Web page! Post a link to it in the discussion along with the answers to the following questions:
 
@@ -7926,10 +8082,10 @@ For this activity, go out and find what you think is the best-designed Web page!
 3.  Is this Web page accessible?
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 117. students sample web page shortcuts (247) ------------------------->
+<!------------------------ 117. students sample web page shortcuts (236) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image118.png?raw=true"
+<img src="./images/image117.png?raw=true"
    width="50%"
    alt="Sample web pages from students." />
 </p>
@@ -8013,7 +8169,7 @@ Hopefully at this point you feel comfortable with all the basics of CSS, but, as
    <li>JavaScript Introduction</li>
 </ol>
 
-<h2>Last Updated: 9.25.2022 8:04pm</h2>
+<h2>Last Updated: 9.25.2022 11:24am</h2>
 <!--------
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ xx.  image (xxx) ------------------------------->
