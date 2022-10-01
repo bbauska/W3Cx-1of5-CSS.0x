@@ -8407,7 +8407,7 @@ I like this webpage because of the smooth design of the different panels. I like
 </p>
 
 Hopefully at this point you feel comfortable with all the basics of CSS, but, as mentioned throughout this course, there is still a lot more to learn. Here are some courses we recommend you check out next as part of the [W3C \"Front-End Web Developer\" Professional Certificate](https://www.edx.org/professional-certificate/w3cx-front-end-web-developer) program:
-<ol type="2">
+<ol type="1" start="2">
    <li>HTML5 & CSS Fundamentals</li>
    <li>HTML5 Coding Essentials and Best Practices</li>
    <li>HTML5 Apps and Games</li>
