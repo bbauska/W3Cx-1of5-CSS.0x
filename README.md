@@ -1379,7 +1379,7 @@ This tag will insert an image based on the source you provide via the \"src\" at
 
 \[[*Documentation*](https://www.w3.org/TR/html52/grouping-content.html#the-ul-element)\]
 
-The UL tag creates an \"<b>u**nordered <b>l**ist\" element, meaning a collection of elements in which the order is meaningless. This is a tag that sets the framework for you to add list elements inside it. You will want to add your elements within the ul tag each surrounded your content with <b>l**ist <b>i**tem or \"\<li\>\" tags like in the below example.
+The UL tag creates an \"<b>u</b>nordered <b>l</b>ist\" element, meaning a collection of elements in which the order is meaningless. This is a tag that sets the framework for you to add list elements inside it. You will want to add your elements within the ul tag each surrounded your content with <b>l</b>ist <b>i</b>tem or \"\<li\>\" tags like in the below example.
 
 ```
 <ul>
@@ -1393,7 +1393,7 @@ The UL tag creates an \"<b>u**nordered <b>l**ist\" element, meaning a collectio
 
 \[[*Documentation*](https://www.w3.org/TR/html52/grouping-content.html#the-ol-element)\]
 
-The OL tag works exactly like the UL tag, except that the list element order matters. OL stands for \"<b>o**rdered <b>l**ist\" and by default, the list element items are displayed with a number preceding them.
+The OL tag works exactly like the UL tag, except that the list element order matters. OL stands for \"<b>o</b>rdered <b>l</b>ist\" and by default, the list element items are displayed with a number preceding them.
 
 ```
 <ol>
@@ -2068,7 +2068,7 @@ You will need to figure out which selectors belong on top of each of the 5 rules
 </p>
 <!-- {width="5.0in" height="3.0115102799650044in"} -->
 
-<b>HINT**: Some of the rules require multiple comma separated selectors.
+<b>HINT</b>: Some of the rules require multiple comma separated selectors.
 
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-5-1">2.5.1 What is a property?</h3>
@@ -2191,13 +2191,13 @@ This will give you the same range as HEX values. This method is a less common, b
 
 Here are some of the colors you can use, and the three different ways you can set their value in the color or color-background property:
 
-<b>maroon** #800000<b>red** #ff0000<b>orange** #ffA500<b>yellow** #ffff00<b>olive** #808000
+<b>maroon</b> #800000<b>red</b> #ff0000<b>orange</b> #ffA500<b>yellow</b> #ffff00<b>olive</b> #808000
 
-<b>purple** #800080<b>fuchsia** #ff00ff<b>white** #ffffff<b>lime** #00ff00<b>green** #008000
+<b>purple</b> #800080<b>fuchsia</b> #ff00ff<b>white</b> #ffffff<b>lime</b> #00ff00<b>green</b> #008000
 
-<b>navy** #000080<b>blue** #0000ff<b>aqua** #00ffff<b>teal** #008080
+<b>navy</b> #000080<b>blue</b> #0000ff<b>aqua</b> #00ffff<b>teal</b> #008080
 
-<b>black** #000000<b>silver** #c0c0c0<b>gray** #808080
+<b>black</b> #000000<b>silver</b> #c0c0c0<b>gray</b> #808080
 
 You can see these color properties in action using all three approaches to setting the value [in this CodePen.](https://codepen.io/techie4good/pen/PGYRYL)
 
@@ -2228,7 +2228,7 @@ Font is an extremely important part of how you communicate content to your user.
 \[[*Documentation*](https://www.w3.org/TR/css-fonts-4/#font-family-prop)\]
 
 Since not all fonts are available on all computers (there are thousands of fonts, and most are not free), CSS provides a system of *fallbacks*. You list the font that you want first, then any fonts that might fill in for the first if it is unavailable, and you should end the list with a *generic font,* of which are: 
-<b>[serif](https://www.w3.org/TR/css-fonts/#serif-def), [sans-serif](https://www.w3.org/TR/css-fonts/#sans-serif-def), [monospace](https://www.w3.org/TR/css-fonts/#monospace-def), [cursive](https://www.w3.org/TR/css-fonts/#cursive-def)** and <b>[fantasy](https://www.w3.org/TR/css-fonts/#fantasy-def).**
+<b>[serif](https://www.w3.org/TR/css-fonts/#serif-def), [sans-serif](https://www.w3.org/TR/css-fonts/#sans-serif-def), [monospace](https://www.w3.org/TR/css-fonts/#monospace-def), [cursive](https://www.w3.org/TR/css-fonts/#cursive-def)</b> and <b>[fantasy](https://www.w3.org/TR/css-fonts/#fantasy-def).</b>
 
 ```
 p {
@@ -2238,7 +2238,7 @@ p {
 
 This property sets the font face. There is a collection of Web safe fonts that generally each browser has agreed to support, but there are an unlimited number of different fonts. The problem is they might not all look the way you want them to on different browsers.
 
-That is why this property \"font-<b>family**\" allows a list of fonts in the order of your preference. This comma-separated list orders your font preference from left to right. In our above example, our first choice is Helvetica, if the browser doesn\'t support that it will move to the next on the list, Verdana, and if it still doesn\'t support that it will just pick any sans-serif font it does support. You should always end your font family with fonts that are likely to be supported by the browser, this way you are guaranteed to have control over the font-family.
+That is why this property \"font-<b>family</b>\" allows a list of fonts in the order of your preference. This comma-separated list orders your font preference from left to right. In our above example, our first choice is Helvetica, if the browser doesn\'t support that it will move to the next on the list, Verdana, and if it still doesn\'t support that it will just pick any sans-serif font it does support. You should always end your font family with fonts that are likely to be supported by the browser, this way you are guaranteed to have control over the font-family.
 
 See this [quick reference](https://www.w3.org/Style/Examples/007/fonts) listing what the fonts look like with different properties.
 
@@ -2584,7 +2584,7 @@ Here are the fonts used above:
 
 -   Courier New
 
-<b>Note**: This exercise uses three common fonts, Helvetica, Impact and Courier New. If you are on Windows or MacOS, you almost certainly have all three of them. But Linux, Android and others usually do not offer Impact and Courier New. Microsoft made free versions available and on most Linux distributions there is an easy way to install them: look in your package manager for a package called *ttf-mscorefonts-installer* (or similar). If you don\'t want to install fonts and you are on Linux, you can try Courier instead of Courier New. Availability of other fonts differs a lot. Maybe you can look in the system settings to see if there is an interesting font available to use instead of Impact.\
+<b>Note</b>: This exercise uses three common fonts, Helvetica, Impact and Courier New. If you are on Windows or MacOS, you almost certainly have all three of them. But Linux, Android and others usually do not offer Impact and Courier New. Microsoft made free versions available and on most Linux distributions there is an easy way to install them: look in your package manager for a package called *ttf-mscorefonts-installer* (or similar). If you don\'t want to install fonts and you are on Linux, you can try Courier instead of Courier New. Availability of other fonts differs a lot. Maybe you can look in the system settings to see if there is an interesting font available to use instead of Impact.\
 \
 But this points to a fundamental limitation of font-family in CSS: you cannot be sure that somebody who views your pages has all the fonts that you chose. The solution is to embed the fonts in the style sheet (a technique known as Web Fonts). But that is beyond the scope of this course.
 
@@ -3179,7 +3179,7 @@ ID names have the same rules as class names: start with a letter, can include nu
 <h3 id="ch3-2-2">3.2.2 Activity - Add your own classes and ids</h3>
 <!------------------------------------------------------------------------------------------------>
 
-<b>Here is some CSS code:**
+<b>Here is some CSS code:</b>
 
 ```
 body {
@@ -3314,6 +3314,9 @@ You can read more about pseudo-classes in this [MDN \"Pseudo-classes\"](https:/
 
 Now it\'s your turn to try out some pseudo classes. Here is a Web page (see the CodePen [Practice with Pseudoclasses](https://codepen.io/techie4good/pen/rraNJr/)) and the CSS code:
 
+<details>
+  <summary>CSS</summary>
+
 ```
 1.  body {
 2.     background-color: #006666;
@@ -3359,6 +3362,8 @@ Now it\'s your turn to try out some pseudo classes. Here is a Web page (see the 
 42.    color: #33cc99;
 43. }
 ```
+
+</details>
 
 If you look at the CSS for this page you\'ll notice there are multiple CSS rules with the same selectors. That is because some of these rules need to have pseudo classes applied.
 
@@ -3485,7 +3490,10 @@ For practice, we are going to learn how to better scope CSS without the crutch o
 {width="6.9375in" height="2.673611111111111in"}
 ------------>
 
-<b>Look carefully at the CSS code:**
+<b>Look carefully at the CSS code:</b>
+
+<details>
+  <summary>CSS</summary>
 
 ```
 body {
@@ -3524,9 +3532,11 @@ ol {
 }
 ```
 
+</details>
+
 So, there are CSS rules with duplicate selectors. You\'ll need to add some extra selectors to the existing CSS rules so that instead of duplicate rules, you have rules that address different instances of the HTML elements based on the structure of the HTML.
 
-<b>Your final site should look like this:**
+<b>Your final site should look like this:</b>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 61. contextual selectors part 1 of 3 (108) --------------------------->
@@ -3628,6 +3638,9 @@ Look at the corresponding HTML and CSS, where code showing how Cascading order a
 {width="6.9375in" height="2.9819444444444443in"}
 ---------->
 
+<details>
+  <summary>CSS</summary>
+
 ```
 section {
    color: red;
@@ -3652,7 +3665,9 @@ section:hover section:hover section:hover {
 }
 ```
 
-<b>Things to observe about the above:**
+</details>
+
+<b>Things to observe about the above:</b>
 
 -   the rule based on an ID isn\'t even overwritten by the pseudo class
 
@@ -3664,7 +3679,7 @@ section:hover section:hover section:hover {
 
 Cascading order can be difficult to manage.
 
-<b>Consider the following pen:**
+<b>Consider the following pen:</b>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 65. managing cascading order (112) ------------------------------->
@@ -3678,7 +3693,7 @@ Cascading order can be difficult to manage.
 {width="5.0in" height="2.765265748031496in"}
 ------------>
 
-<b>\... and specifically, its CSS code:**
+<b>\... and specifically, its CSS code:</b>
 
 ```
 body {
@@ -4064,19 +4079,19 @@ margin-bottom: 50px;
 
 Forms can be a surprisingly tricky element to style because you are asking for a lot of interaction from your user, and the burden is on you as the designer to make it clear what exactly you are asking them to do. However, with a few simple design changes you can make it much easier for your user to navigate your form. Here are some key design elements to keep in mind when designing forms:
 
--   <b>white space** - It is important to separate your form elements from your other content, otherwise it can easily be skipped over. It is also important to use white space surrounding each of your input elements to help draw your user\'s eye from the start to the end of your form. White space can also give the impression of simplicity and ease, an overcrowded form can seem daunting and tiring to fill out.
+-   <b>white space</b> - It is important to separate your form elements from your other content, otherwise it can easily be skipped over. It is also important to use white space surrounding each of your input elements to help draw your user\'s eye from the start to the end of your form. White space can also give the impression of simplicity and ease, an overcrowded form can seem daunting and tiring to fill out.
 
--   <b>borders** - Possibly one of the most important design elements of your forms are borders. Borders give your user a visual clue that they should enter text, or select something from a drop down. When you eliminate all borders it is impossible to tell what is a form and what is just static text.
+-   <b>borders</b> - Possibly one of the most important design elements of your forms are borders. Borders give your user a visual clue that they should enter text, or select something from a drop down. When you eliminate all borders it is impossible to tell what is a form and what is just static text.
 
--   <b>labels** - Each input should have a label communicating to the user what information you are asking them to submit. You will want to make sure this text is aligned and flows with the input element so it is clear what label is associated with which input. One of the easiest ways to make sure there is a label is to put the label inside the input text box as demonstrated in some of our sample designs. 
+-   <b>labels</b> - Each input should have a label communicating to the user what information you are asking them to submit. You will want to make sure this text is aligned and flows with the input element so it is clear what label is associated with which input. One of the easiest ways to make sure there is a label is to put the label inside the input text box as demonstrated in some of our sample designs. 
 
--   <b>input sizes** - You can help the user quickly assess how much text you are asking them to provide by how big your input element is. A very small input element will imply that you are only asking for a small number of characters, and a very large box with multiple lines can imply that you are asking a lot more from your user. It is also important to try and gauge the input size accordingly so your user doesn\'t run out of space as they are entering text.
+-   <b>input sizes</b> - You can help the user quickly assess how much text you are asking them to provide by how big your input element is. A very small input element will imply that you are only asking for a small number of characters, and a very large box with multiple lines can imply that you are asking a lot more from your user. It is also important to try and gauge the input size accordingly so your user doesn\'t run out of space as they are entering text.
 
--   <b>pseudo-classes** - Perhaps one of the best uses of pseudo-classes is with forms. Pseudo-classes can help provide extra feedback as your user interacts with each of your form elements. You\'ll often see *hover* used to expose more information, *active* used to help a user understand which element they are currently interacting with, and more.
+-   <b>pseudo-classes</b> - Perhaps one of the best uses of pseudo-classes is with forms. Pseudo-classes can help provide extra feedback as your user interacts with each of your form elements. You\'ll often see *hover* used to expose more information, *active* used to help a user understand which element they are currently interacting with, and more.
 
--   <b>submit button** - Don\'t forget some of the lessons learned in Module 2: it is important to make your button look like a button. You will want to make sure that your submit button is placed so that it is obvious after a user has entered in all the requested info.
+-   <b>submit button</b> - Don\'t forget some of the lessons learned in Module 2: it is important to make your button look like a button. You will want to make sure that your submit button is placed so that it is obvious after a user has entered in all the requested info.
 
-<b>Here is an HTML/CSS form:**
+<b>Here is an HTML/CSS form:</b>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 73. (xx) ------------------------------->
@@ -4505,7 +4520,7 @@ Email
 <h4>CSS</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>CSS</summary>
 
 ```
 div {
@@ -5096,7 +5111,7 @@ img {
 <h4>CSS</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>CSS</summary>
 
 ```
 #width50 {
@@ -7647,9 +7662,9 @@ I gave up searching for the nicht sehr gut ones. Cheers!
 <h3 id="ch5-3-1">5.3.1 Web accessibility</h3>
 <!------------------------------------------------------------------------------------------------>
 
-*The power of the Web is in its universality.*\
-*Access by everyone regardless of disability is an essential aspect.*\
-<b>Tim Berners-Lee, W3C Director and inventor of the World Wide Web</b>
+<cite><q>The power of the Web is in its universality.
+Access by everyone regardless of disability is an essential aspect.</q></cite>
+<b> - Tim Berners-Lee, W3C Director and inventor of the World Wide Web</b>
 
 The Web has become an essential aspect of our daily lives, and everyone should have access to this technology. Web accessibility focuses on ensuring equivalent access for people with disabilities. It is increasingly important to many organizations and governments from around the world, and has many business benefits. Access to information, including on the Web, is also recognized by the UN Convention on the Rights of Persons with Disabilities (CRPD).
 
