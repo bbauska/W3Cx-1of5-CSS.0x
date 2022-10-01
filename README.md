@@ -1369,7 +1369,7 @@ By surrounding text with an \<a\> tag you turn it into a hyperlink. You will w
 
 \[[*Documentation*](https://www.w3.org/TR/html52/semantics-embedded-content.html#the-img-element)\]
 
-This tag will insert an image based on the source you provide via the \"src\" attribute. If the source is inaccessible, you can also specify \"fall back\" options via the \"alt\" attribute. You will <b>always** want to specify the \"alt\" attribute with a short phrase describing the image. This text is what will be read aloud if your user is using a screen reader, or will be displayed if the user\'s browser will not load images. Note that this is an example of a \"self-closing\" tag meaning there is no closing tag, you just end the opening tag with a forward slash. 
+This tag will insert an image based on the source you provide via the \"src\" attribute. If the source is inaccessible, you can also specify \"fall back\" options via the \"alt\" attribute. You will <b>always</b> want to specify the \"alt\" attribute with a short phrase describing the image. This text is what will be read aloud if your user is using a screen reader, or will be displayed if the user\'s browser will not load images. Note that this is an example of a \"self-closing\" tag meaning there is no closing tag, you just end the opening tag with a forward slash. 
 
 ```
 <img src="images/proPic.jpg" alt="a headshot of the instructor" />
@@ -7254,7 +7254,7 @@ alt="picture of a letter for contacting via email"> -->Gmail</a>
 <!-- <img
 src="https://edxuploads.s3.amazonaws.com/1623095892121252315507.png"
 alt="picture of a phone to signify contacting via phone"> -->Facebook</a>
-         <a href="#top"><img class="arrow" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arrow_top.png/640px-Arrow_top.png" alt="picture of an arrow symbol pointing up for going back up to top of page" title="Back to Top of Page"><a>
+         <a href="#top"><img class="arrow" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arrow_top.png/640px-Arrow_top.png" alt="picture of an arrow symbol pointing up for going back up to top of page" title="Back to Top of Page"></a>
       </footer>
    </body>
 </html>
