@@ -1,7 +1,7 @@
 <h2 align="center">W3Cx Front-End Web Developer</h2>
 <br/>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- readme.md of W3Cx-1of5-HTML5.0x -------------------------------->
+<!-------------------------------- readme.md of W3Cx-1of5-CSS.0x --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------------ w3cx logo ------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -3682,7 +3682,7 @@ Cascading order can be difficult to manage.
 <b>Consider the following pen:</b>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 65. managing cascading order (112) ------------------------------->
+<!----------------------------- 65. managing cascading order (112) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image065.png?raw=true"
@@ -3725,7 +3725,7 @@ Note that there are a lot of repeat CSS rules. For this activity, you cannot cha
 <!----------------------------- 66. cascading order solution (113) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image067.png?raw=true"
+<img src="./images/image066.png?raw=true"
    width="70%"
    alt="Cascading order final solution, no interaction." />
 </p>
@@ -3760,12 +3760,12 @@ border: 2px dashed black;
 ```
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------ 67. cascading style practice with hover (114) ------------------------->
+<!------------------------ 67. five paragraph examples - cascading (114) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image067.png?raw=true"
    width="50%"
-   alt="Cascading style practice with hover." />
+   alt="5 paragraphs with cascading style practice with hover." />
 </p>
 <!-- (images/media/image68.png){width="5.0in" height="3.7062062554680666in"} -->
 
@@ -3819,12 +3819,12 @@ It is best to overlay real text rather than use pixelated text. This makes it po
 As you can see, there are a lot of things to consider, and if you do not plan your images carefully, they can end up looking very disruptive, like this \"Bad Image\" example:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 69. (xx) ------------------------------->
+<!--------------------------- 69. bad color image layout example (xx) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image069.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Bad example of colors in image display." />
 </p>
 <!-----------
 {width="5.0in" height="1.2087084426946633in"}
@@ -3875,7 +3875,7 @@ div {
 This design shows some of the basics in properly incorporating images. It uses the colors from the image in the design of the overall page to help the image look as if it belongs. It also uses padding to give the image a \"polaroid-style\" border.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 70.  (xxx) ------------------------------->
+<!-------------------- 70. images in a gride 3 wide 2 up with padding (xxx) ---------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image070.png?raw=true"
@@ -3935,12 +3935,12 @@ div {
 This design is an example of an image gallery design. This gives all the images the same size and alignment while including plenty of white space to help the page not look too overwhelming despite having multiple photos. 
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 71.  (xxx) ------------------------------->
+<!-------------------------- 71. body text over cloud background  (xxx) -------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image071.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Text body over cloud image background." />
 </p>
 
 <h4>HTML</h4>
@@ -4003,12 +4003,12 @@ div {
 This design demonstrates the use of an image both as a background and as a link. When using images as design elements, it is best to use simple images to let your content still be easily consumable.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 72.  (xxx) ------------------------------->
+<!-------------------------- 72. sign up example black 'n white (xxx) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image072.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Sign up example, simple black and white." />
 </p>
 
 <h4>HTML</h4>
@@ -4094,12 +4094,12 @@ Forms can be a surprisingly tricky element to style because you are asking for a
 <b>Here is an HTML/CSS form:</b>
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 73. (xx) ------------------------------->
+<!------------------------- 73. sign up example purple background (xx) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image073.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Sign up example on purple background." />
 </p>
 <!---------
 {width="3.7604166666666665in" height="1.84375in"}
@@ -4156,12 +4156,12 @@ You might never know it, but each of the 4 elements below the title are intended
 The first form design uses basic layout to give each input element a clear label, space and area for input followed by a clear submit button. This design also used pseudo classes to engage the user, which you can see in action in the Code Pen below:
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 74. (xx) ------------------------------->
+<!-------------------------- 74. sign up example on darker purple (xx) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="./images/image074.png?raw=true"
    width="50%"
-   alt="." />
+   alt="Sign up example on darker purple." />
 </p>
 <!-----------
 {width="5.0in" height="3.136142825896763in"}
@@ -4771,10 +4771,10 @@ Each element is comprised of 4 areas: the **element**, the **padding**, the *
 We discussed how to adjust the white space of these areas in Module 2.5, but in this module we will be discussing these areas as a method to position elements on a page.
 
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 76. (xx) ------------------------------->
+<!------------------------------ 76. anatomy of the box model (xx) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
-<img src="./images/image105.png?raw=true"
+<img src="./images/image105.jpeg?raw=true"
    width="50%"
    alt="Anatomy of the box model." />
 </p>
@@ -6922,7 +6922,7 @@ For this project you must at least:
 <h4>CSS</h4>
 
 <details>
-  <summary>CSS</summary>
+  <summary>CSS code!</summary>
 
 ```
 /*
@@ -7145,7 +7145,7 @@ opacity: 50%;
 <h4>HTML</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code!</summary>
 
 ```
 <!Doctype html>
@@ -7704,7 +7704,7 @@ There are many simple Web accessibility improvements that you can implement and 
 
 -   [Easy Checks - A First Review of Web Accessibility](https://www.w3.org/WAI/eval/preliminary)
 
-<h4>Example 1: page title
+<h4>Example 1: page title</h4>
 
 Good page titles are particularly important for orientation --- to help people know where they are and move between pages open in their browser. The first thing screen readers say when the user goes to a different Web page is the page title. In the Web page markup, they are the \<title\> within the \<head\>.
 
@@ -8108,7 +8108,7 @@ This can be accomplished with something called \"internal links\". This is where
    alt="Sample 'internal link'." />
 </p>
 
-<h4>CSS</h4>
+<h4>CSS code!</h4>
 
 ```
 body {
@@ -8132,47 +8132,47 @@ section {
 <h4>HTML</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code!</summary>
 
 ```
 <!DOCTYPE html>
 <!--It's a best practice to always declare DOCTYPE!-->
 <html lang="en">
 <head>
-<title>Long Scrolling with Anchor Links</title>
-<meta charset="utf-8">
+  <title>Long Scrolling with Anchor Links</title>
+  <meta charset="utf-8">
 </head>
 <body>
-<nav>
-<ul>
-<li><a href="#section1">section 1</a></li>
-<li><a href="#section2">section 2</a></li>
-<li><a href="#section3">section 3</a></li>
-<li><a href="#section4">section 4</a></li>
-</ul>
-</nav>
+  <nav>
+    <ul>
+      <li><a href="#section1">section 1</a></li>
+      <li><a href="#section2">section 2</a></li>
+      <li><a href="#section3">section 3</a></li>
+      <li><a href="#section4">section 4</a></li>
+    </ul>
+  </nav>
 <section id="section1">
-<h1>Section 1</h1>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis, sem ut vulputate tempus, leo urna fringilla dolor, sed mattis leo sem id ligula. Integer efficitur, nulla eu scelerisque aliquam, arcu erat maximus ante, nec maximus urna ligula vel purus. Cras a tortor ac nisl sollicitudin ullamcorper. Nullam pulvinar magna mi, eu volutpat metus pretium quis. In faucibus, leo in blandit ultricies, urna metus eleifend leo, et vestibulum dolor mi ut urna. Nulla eu neque nec justo cursus condimentum. Donec pellentesque tempus iaculis. Nunc augue justo, tincidunt in euismod vitae, feugiat sed eros. Integer molestie sapien id aliquam fermentum. Duis rutrum sed orci ac aliquet. Nulla volutpat posuere nibh ut ullamcorper. Suspendisse facilisis felis massa, vel egestas ex faucibus a. Nunc vestibulum volutpat eros eu laoreet.
-</p>
-<p>
-Fusce sed pellentesque tellus, vitae accumsan elit. Vivamus porta in risus interdum varius. Phasellus auctor bibendum dignissim. Pellentesque ut nulla arcu. Aenean id tellus augue. Nunc egestas scelerisque fringilla. Suspendisse potenti. Cras tempus diam lectus, a tempus eros maximus nec. Etiam facilisis erat turpis, in tincidunt leo condimentum sit amet. Fusce eleifend nisi sed enim pharetra molestie. Curabitur dictum, libero eget congue porta, est massa bibendum enim, sed semper arcu orci et arcu. Praesent in cursus turpis. Fusce condimentum dictum purus nec porta. Aenean a velit in augue convallis malesuada non a mauris. Donec auctor risus quis libero accumsan suscipit. Fusce nec diam dolor.
-</p>
-<p>
-Proin aliquet, diam ultricies dignissim lacinia, libero lectus semper est, in lacinia eros augue ut risus. Maecenas sit amet metus finibus augue congue sagittis nec mattis leo. Quisque venenatis a erat nec gravida. Nulla sit amet pharetra risus. Nam sit amet nulla tellus. Pellentesque libero ex, ultrices eu tristique ut, mattis eget augue. Cras ac dolor convallis, convallis tortor nec, rutrum eros. Nunc nisl est, efficitur sit amet lorem at, egestas vulputate augue. Nunc sed ornare orci. Suspendisse potenti. Fusce risus dolor, pellentesque ac commodo a, pretium vel enim. Phasellus finibus aliquam purus sit amet ultricies. Vestibulum vitae libero scelerisque, maximus ex nec, pharetra orci. Nulla cursus volutpat nisl in dictum.
-</p>
-<p>
-Phasellus quis lobortis orci. Nunc tincidunt lacus in sapien tristique, dignissim pretium eros varius. Praesent dapibus tincidunt lectus, id tristique arcu iaculis id. Mauris euismod placerat pellentesque. Proin ultricies porttitor porttitor. Suspendisse vehicula arcu a finibus dapibus. Nam non urna nulla. Vivamus aliquet, ipsum et convallis blandit, mauris lacus malesuada dolor, vitae vestibulum velit lectus vel lacus. Phasellus eget ipsum ultrices ipsum sodales interdum. Pellentesque in viverra nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In aliquam convallis lorem vel pellentesque. Curabitur id ante ac risus condimentum accumsan. Aliquam venenatis facilisis fermentum.
-</p>
-<p>
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla in sapien ac dolor venenatis fermentum et porttitor lacus. Curabitur eu venenatis urna. Nam auctor orci id dui condimentum convallis. Nunc ut nisl rhoncus, elementum tortor sit amet, rutrum tellus. Morbi placerat neque id urna maximus interdum. Sed volutpat, nisl ut tempor bibendum, ipsum mi egestas sem, a tempus sem orci et mi. Nullam sit amet consectetur mi.
-</p>
-<section>
-<section id="section2">
-<h1>Section 2</h1>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis, sem ut vulputate tempus, leo urna fringilla dolor, sed mattis leo sem id ligula. Integer efficitur, nulla eu scelerisque aliquam, arcu erat maximus ante, nec maximus urna ligula vel purus. Cras a tortor ac nisl sollicitudin ullamcorper. Nullam pulvinar magna mi, eu volutpat metus pretium quis. In faucibus, leo in blandit ultricies, urna metus eleifend leo, et vestibulum dolor mi ut urna. Nulla eu neque nec justo cursus condimentum. Donec pellentesque tempus iaculis. Nunc augue justo, tincidunt in euismod vitae, feugiat sed eros. Integer molestie sapien id aliquam fermentum. Duis rutrum sed orci ac aliquet. Nulla volutpat posuere nibh ut ullamcorper. Suspendisse facilisis felis massa, vel egestas ex faucibus a. Nunc vestibulum volutpat eros eu laoreet.
+  <h1>Section 1</h1>
+  <p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis, sem ut vulputate tempus, leo urna fringilla dolor, sed mattis leo sem id ligula. Integer efficitur, nulla eu scelerisque aliquam, arcu erat maximus ante, nec maximus urna ligula vel purus. Cras a tortor ac nisl sollicitudin ullamcorper. Nullam pulvinar magna mi, eu volutpat metus pretium quis. In faucibus, leo in blandit ultricies, urna metus eleifend leo, et vestibulum dolor mi ut urna. Nulla eu neque nec justo cursus condimentum. Donec pellentesque tempus iaculis. Nunc augue justo, tincidunt in euismod vitae, feugiat sed eros. Integer molestie sapien id aliquam fermentum. Duis rutrum sed orci ac aliquet. Nulla volutpat posuere nibh ut ullamcorper. Suspendisse facilisis felis massa, vel egestas ex faucibus a. Nunc vestibulum volutpat eros eu laoreet.
+  </p>
+  <p>
+  Fusce sed pellentesque tellus, vitae accumsan elit. Vivamus porta in risus interdum varius. Phasellus auctor bibendum dignissim. Pellentesque ut nulla arcu. Aenean id tellus augue. Nunc egestas scelerisque fringilla. Suspendisse potenti. Cras tempus diam lectus, a tempus eros maximus nec. Etiam facilisis erat turpis, in tincidunt leo condimentum sit amet. Fusce eleifend nisi sed enim pharetra molestie. Curabitur dictum, libero eget congue porta, est massa bibendum enim, sed semper arcu orci et arcu. Praesent in cursus turpis. Fusce condimentum dictum purus nec porta. Aenean a velit in augue convallis malesuada non a mauris. Donec auctor risus quis libero accumsan suscipit. Fusce nec diam dolor.
+  </p>
+  <p>
+  Proin aliquet, diam ultricies dignissim lacinia, libero lectus semper est, in lacinia eros augue ut risus. Maecenas sit amet metus finibus augue congue sagittis nec mattis leo. Quisque venenatis a erat nec gravida. Nulla sit amet pharetra risus. Nam sit amet nulla tellus. Pellentesque libero ex, ultrices eu tristique ut, mattis eget augue. Cras ac dolor convallis, convallis tortor nec, rutrum eros. Nunc nisl est, efficitur sit amet lorem at, egestas vulputate augue. Nunc sed ornare orci. Suspendisse potenti. Fusce risus dolor, pellentesque ac commodo a, pretium vel enim. Phasellus finibus aliquam purus sit amet ultricies. Vestibulum vitae libero scelerisque, maximus ex nec, pharetra orci. Nulla cursus volutpat nisl in dictum.
+  </p>
+  <p>
+  Phasellus quis lobortis orci. Nunc tincidunt lacus in sapien tristique, dignissim pretium eros varius. Praesent dapibus tincidunt lectus, id tristique arcu iaculis id. Mauris euismod placerat pellentesque. Proin ultricies porttitor porttitor. Suspendisse vehicula arcu a finibus dapibus. Nam non urna nulla. Vivamus aliquet, ipsum et convallis blandit, mauris lacus malesuada dolor, vitae vestibulum velit lectus vel lacus. Phasellus eget ipsum ultrices ipsum sodales interdum. Pellentesque in viverra nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In aliquam convallis lorem vel pellentesque. Curabitur id ante ac risus condimentum accumsan. Aliquam venenatis facilisis fermentum.
+  </p>
+  <p>
+  Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla in sapien ac dolor venenatis fermentum et porttitor lacus. Curabitur eu venenatis urna. Nam auctor orci id dui condimentum convallis. Nunc ut nisl rhoncus, elementum tortor sit amet, rutrum tellus. Morbi placerat neque id urna maximus interdum. Sed volutpat, nisl ut tempor bibendum, ipsum mi egestas sem, a tempus sem orci et mi. Nullam sit amet consectetur mi.
+  </p>
+  <section>
+    <section id="section2">
+    <h1>Section 2</h1>
+    <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis, sem ut vulputate tempus, leo urna fringilla dolor, sed mattis leo sem id ligula. Integer efficitur, nulla eu scelerisque aliquam, arcu erat maximus ante, nec maximus urna ligula vel purus. Cras a tortor ac nisl sollicitudin ullamcorper. Nullam pulvinar magna mi, eu volutpat metus pretium quis. In faucibus, leo in blandit ultricies, urna metus eleifend leo, et vestibulum dolor mi ut urna. Nulla eu neque nec justo cursus condimentum. Donec pellentesque tempus iaculis. Nunc augue justo, tincidunt in euismod vitae, feugiat sed eros. Integer molestie sapien id aliquam fermentum. Duis rutrum sed orci ac aliquet. Nulla volutpat posuere nibh ut ullamcorper. Suspendisse facilisis felis massa, vel egestas ex faucibus a. Nunc vestibulum volutpat eros eu laoreet.
 </p>
 <p>
 Fusce sed pellentesque tellus, vitae accumsan elit. Vivamus porta in risus interdum varius. Phasellus auctor bibendum dignissim. Pellentesque ut nulla arcu. Aenean id tellus augue. Nunc egestas scelerisque fringilla. Suspendisse potenti. Cras tempus diam lectus, a tempus eros maximus nec. Etiam facilisis erat turpis, in tincidunt leo condimentum sit amet. Fusce eleifend nisi sed enim pharetra molestie. Curabitur dictum, libero eget congue porta, est massa bibendum enim, sed semper arcu orci et arcu. Praesent in cursus turpis. Fusce condimentum dictum purus nec porta. Aenean a velit in augue convallis malesuada non a mauris. Donec auctor risus quis libero accumsan suscipit. Fusce nec diam dolor.
@@ -8206,23 +8206,23 @@ Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac tu
 </p>
 </section>
 <section id="section4">
-<h1>Section 4</h1>
-<p>
+    <h1>Section 4</h1>
+    <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis, sem ut vulputate tempus, leo urna fringilla dolor, sed mattis leo sem id ligula. Integer efficitur, nulla eu scelerisque aliquam, arcu erat maximus ante, nec maximus urna ligula vel purus. Cras a tortor ac nisl sollicitudin ullamcorper. Nullam pulvinar magna mi, eu volutpat metus pretium quis. In faucibus, leo in blandit ultricies, urna metus eleifend leo, et vestibulum dolor mi ut urna. Nulla eu neque nec justo cursus condimentum. Donec pellentesque tempus iaculis. Nunc augue justo, tincidunt in euismod vitae, feugiat sed eros. Integer molestie sapien id aliquam fermentum. Duis rutrum sed orci ac aliquet. Nulla volutpat posuere nibh ut ullamcorper. Suspendisse facilisis felis massa, vel egestas ex faucibus a. Nunc vestibulum volutpat eros eu laoreet.
-</p>
-<p>
+    </p>
+    <p>
 Fusce sed pellentesque tellus, vitae accumsan elit. Vivamus porta in risus interdum varius. Phasellus auctor bibendum dignissim. Pellentesque ut nulla arcu. Aenean id tellus augue. Nunc egestas scelerisque fringilla. Suspendisse potenti. Cras tempus diam lectus, a tempus eros maximus nec. Etiam facilisis erat turpis, in tincidunt leo condimentum sit amet. Fusce eleifend nisi sed enim pharetra molestie. Curabitur dictum, libero eget congue porta, est massa bibendum enim, sed semper arcu orci et arcu. Praesent in cursus turpis. Fusce condimentum dictum purus nec porta. Aenean a velit in augue convallis malesuada non a mauris. Donec auctor risus quis libero accumsan suscipit. Fusce nec diam dolor.
-</p>
-<p>
-Proin aliquet, diam ultricies dignissim lacinia, libero lectus semper est, in lacinia eros augue ut risus. Maecenas sit amet metus finibus augue congue sagittis nec mattis leo. Quisque venenatis a erat nec gravida. Nulla sit amet pharetra risus. Nam sit amet nulla tellus. Pellentesque libero ex, ultrices eu tristique ut, mattis eget augue. Cras ac dolor convallis, convallis tortor nec, rutrum eros. Nunc nisl est, efficitur sit amet lorem at, egestas vulputate augue. Nunc sed ornare orci. Suspendisse potenti. Fusce risus dolor, pellentesque ac commodo a, pretium vel enim. Phasellus finibus aliquam purus sit amet ultricies. Vestibulum vitae libero scelerisque, maximus ex nec, pharetra orci. Nulla cursus volutpat nisl in dictum.
-</p>
-<p>
-Phasellus quis lobortis orci. Nunc tincidunt lacus in sapien tristique, dignissim pretium eros varius. Praesent dapibus tincidunt lectus, id tristique arcu iaculis id. Mauris euismod placerat pellentesque. Proin ultricies porttitor porttitor. Suspendisse vehicula arcu a finibus dapibus. Nam non urna nulla. Vivamus aliquet, ipsum et convallis blandit, mauris lacus malesuada dolor, vitae vestibulum velit lectus vel lacus. Phasellus eget ipsum ultrices ipsum sodales interdum. Pellentesque in viverra nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In aliquam convallis lorem vel pellentesque. Curabitur id ante ac risus condimentum accumsan. Aliquam venenatis facilisis fermentum.
-</p>
-<p>
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla in sapien ac dolor venenatis fermentum et porttitor lacus. Curabitur eu venenatis urna. Nam auctor orci id dui condimentum convallis. Nunc ut nisl rhoncus, elementum tortor sit amet, rutrum tellus. Morbi placerat neque id urna maximus interdum. Sed volutpat, nisl ut tempor bibendum, ipsum mi egestas sem, a tempus sem orci et mi. Nullam sit amet consectetur mi.
-</p>
-</section>
+    </p>
+    <p>
+    Proin aliquet, diam ultricies dignissim lacinia, libero lectus semper est, in lacinia eros augue ut risus. Maecenas sit amet metus finibus augue congue sagittis nec mattis leo. Quisque venenatis a erat nec gravida. Nulla sit amet pharetra risus. Nam sit amet nulla tellus. Pellentesque libero ex, ultrices eu tristique ut, mattis eget augue. Cras ac dolor convallis, convallis tortor nec, rutrum eros. Nunc nisl est, efficitur sit amet lorem at, egestas vulputate augue. Nunc sed ornare orci. Suspendisse potenti. Fusce risus dolor, pellentesque ac commodo a, pretium vel enim. Phasellus finibus aliquam purus sit amet ultricies. Vestibulum vitae libero scelerisque, maximus ex nec, pharetra orci. Nulla cursus volutpat nisl in dictum.
+    </p>
+    <p>
+    Phasellus quis lobortis orci. Nunc tincidunt lacus in sapien tristique, dignissim pretium eros varius. Praesent dapibus tincidunt lectus, id tristique arcu iaculis id. Mauris euismod placerat pellentesque. Proin ultricies porttitor porttitor. Suspendisse vehicula arcu a finibus dapibus. Nam non urna nulla. Vivamus aliquet, ipsum et convallis blandit, mauris lacus malesuada dolor, vitae vestibulum velit lectus vel lacus. Phasellus eget ipsum ultrices ipsum sodales interdum. Pellentesque in viverra nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In aliquam convallis lorem vel pellentesque. Curabitur id ante ac risus condimentum accumsan. Aliquam venenatis facilisis fermentum.
+    </p>
+    <p>
+    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla in sapien ac dolor venenatis fermentum et porttitor lacus. Curabitur eu venenatis urna. Nam auctor orci id dui condimentum convallis. Nunc ut nisl rhoncus, elementum tortor sit amet, rutrum tellus. Morbi placerat neque id urna maximus interdum. Sed volutpat, nisl ut tempor bibendum, ipsum mi egestas sem, a tempus sem orci et mi. Nullam sit amet consectetur mi.
+    </p>
+  </section>
 </body>
 </html>
 ```
@@ -8312,7 +8312,7 @@ When considering the CSS Grid module, also look at the CSS Flexible Box module. 
 <h3 id="ch5-5-5">5.5.5 CSS Grid layout (optional)</h3>
 <!------------------------------------------------------------------------------------------------>
 
-Self-gratification. ie, busting their arms patting themselves on the back. Fucking MS.
+Sample work on CSS grid layout.  To be determined at a later date.
 
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-5-6">5.5.6 Activity - Best design</h3>
@@ -8414,8 +8414,8 @@ Hopefully at this point you feel comfortable with all the basics of CSS, but, as
    <li>JavaScript Introduction</li>
 </ol>
 
-<h3>Last Updated: 9.30.2022 7:38pm</h3>
-<!--
+<h3>Last Updated: 10.13.2022 12:08pm</h3>
+<!---
 <p align="center" width="100%">
 <img src="./images/image.png?raw=true"
    width="###%"
