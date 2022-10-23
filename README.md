@@ -1616,6 +1616,7 @@ The style for your page will consist of a list of many CSS rules put together. A
 
 Now that you have a basic understanding of how to put the pieces of a CSS rule together, let\'s do some practice. Here is some HTML for a page you will style:
 
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -3315,7 +3316,7 @@ You can read more about pseudo-classes in this [MDN \"Pseudo-classes\"](https:/
 Now it\'s your turn to try out some pseudo classes. Here is a Web page (see the CodePen [Practice with Pseudoclasses](https://codepen.io/techie4good/pen/rraNJr/)) and the CSS code:
 
 <details>
-  <summary>CSS</summary>
+  <summary>CSS code list!</summary>
 
 ```
 1.  body {
@@ -3415,6 +3416,9 @@ Now, let\'s take a look at how you can order all the selectors you have in your 
 
 When you use two selectors separated by a space on a rule, you scope the rule to the elements that correspond to the selector on the right that are INSIDE the elements that correspond to the selector on the left. Let\'s say we have the following HTML:
 
+<details>
+  <summary>HTML code list!</summary>
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -3434,11 +3438,13 @@ When you use two selectors separated by a space on a rule, you scope the rule to
 </html>
 ```
 
+</details>
+
 If we applied the following CSS rule then the images INSIDE the paragraph would be set to a width of 100px, but that rule would not apply to the images outside the paragraph. 
 
 ```
 p img {
-width: 100px;
+  width: 100px;
 }
 ```
 
@@ -3493,7 +3499,7 @@ For practice, we are going to learn how to better scope CSS without the crutch o
 <b>Look carefully at the CSS code:</b>
 
 <details>
-  <summary>CSS</summary>
+  <summary>CSS code list!</summary>
 
 ```
 body {
@@ -3639,7 +3645,7 @@ Look at the corresponding HTML and CSS, where code showing how Cascading order a
 ---------->
 
 <details>
-  <summary>CSS</summary>
+  <summary>CSS code list!</summary>
 
 ```
 section {
@@ -3695,6 +3701,9 @@ Cascading order can be difficult to manage.
 
 <b>\... and specifically, its CSS code:</b>
 
+<details>
+  <summary>CSS code list!</summary>
+  
 ```
 body {
     background-color: #F8EEE7;
@@ -3719,6 +3728,8 @@ p {
 }
 ```
 
+</details>
+
 Note that there are a lot of repeat CSS rules. For this activity, you cannot change any of the HTML (meaning you cannot add any IDs), but you\'ll need to change the CSS to make some of the rules more specific so that you achieve this final result:
 
 <!------------------------------------------------------------------------------------------------>
@@ -3734,6 +3745,9 @@ Note that there are a lot of repeat CSS rules. For this activity, you cannot cha
 ----------->
 
 The image below shows when you hover \"paragraph 4\". The same hover should apply to ALL p tags.
+
+<details>
+  <summary>CSS code list!</summary>
 
 ```
 body {
@@ -3758,6 +3772,8 @@ background-color: #B4DBC0 !important;
 border: 2px dashed black;
 }
 ```
+
+</details>
 
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 67. five paragraph examples - cascading (114) ------------------------->
@@ -3885,6 +3901,9 @@ This design shows some of the basics in properly incorporating images. It uses t
 
 <h4>CSS</h4>
 
+<details>
+  <summary>CSS code list!</summary>
+
 ```
 div {
    margin-bottom: 50px;
@@ -3910,7 +3929,12 @@ div {
 }
 ```
 
+</details>
+
 <h4>HTML</h4>
+
+<details>
+  <summary>CSS code list!</summary>
 
 ```
 !DOCTYPE html>
@@ -3930,6 +3954,8 @@ div {
 </html>
 ```
 
+</details>
+
 <h4>Images 2</h4>
 
 This design is an example of an image gallery design. This gives all the images the same size and alignment while including plenty of white space to help the page not look too overwhelming despite having multiple photos. 
@@ -3946,7 +3972,7 @@ This design is an example of an image gallery design. This gives all the images 
 <h4>HTML</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code list!</summary>
 
 ```
 <!DOCTYPE html>
@@ -3975,6 +4001,9 @@ This design is an example of an image gallery design. This gives all the images 
 
 <h4>CSS</h4>
 
+<details>
+  <summary>CSS code list!</summary>
+
 ```
 div {
    margin-bottom: 50px;
@@ -3998,7 +4027,9 @@ div {
 }
 ```
 
-##### Images 3
+</details>
+
+<h4>Images 3</h4>
 
 This design demonstrates the use of an image both as a background and as a link. When using images as design elements, it is best to use simple images to let your content still be easily consumable.
 
@@ -4014,7 +4045,7 @@ This design demonstrates the use of an image both as a background and as a link.
 <h4>HTML</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code list!</summary>
 
 ```
 <!DOCTYPE html>
@@ -4041,7 +4072,7 @@ This design demonstrates the use of an image both as a background and as a link.
 <h4>CSS</h4>
 
 <details>
-  <summary>CSS</summary>
+  <summary>CSS code list!</summary>
 
 ```
 div {
@@ -4107,6 +4138,9 @@ Forms can be a surprisingly tricky element to style because you are asking for a
 
 <h4>HTML</h4>
 
+<details>
+  <summary>HTML code list!</summary>
+
 ```
 <!DOCTYPE html>
 <!--It's a best practice to always declare DOCTYPE!-->
@@ -4128,7 +4162,12 @@ Forms can be a surprisingly tricky element to style because you are asking for a
 </html>
 ```
 
+</details>
+
 <h4>CSS</h4>
+
+<details>
+  <summary>CSS code list!</summary>
 
 ```
 div {
@@ -4148,6 +4187,8 @@ form {
    border: 0px;
 }
 ```
+
+</details>
 
 You might never know it, but each of the 4 elements below the title are intended for the user to interact with. By stripping them of their styles you can see how important it is to add visual cues for your user. 
 
@@ -4170,34 +4211,34 @@ The first form design uses basic layout to give each input element a clear label
 <h4>HTML</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code list!</summary>
 
 ```
 <!DOCTYPE html>
 <!--It's a best practice to always declare DOCTYPE!-->
 <html lang="en">
 <head>
-<meta charset="utf-8">
+  <meta charset="utf-8">
 </head>
 <body>
-<div id="form1">
-<form>
-<h1>Sign Up</h1>
-Given name
-<br />
-<input type="text" />
-<br />
-Family name
-<br />
-<input type="text" />
-<br />
-Email
-<br />
-<input type="text" />
-<br />
-<button>Submit</button>
-</form>
-</div>
+  <div id="form1">
+    <form>
+      <h1>Sign Up</h1>
+      Given name
+      <br />
+      <input type="text" />
+      <br />
+      Family name
+      <br />
+      <input type="text" />
+      <br />
+      Email
+      <br />
+      <input type="text" />
+      <br />
+       <button>Submit</button>
+    </form>
+  </div>
 </body>
 </html>
 ```
@@ -4207,48 +4248,48 @@ Email
 <h4>CSS</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>CSS code list!</summary>
 
 ```
 div {
-margin-bottom: 50px;
-height: 400px;
+  margin-bottom: 50px;
+  height: 400px;
 }
 form {
-padding: 30px;
-width: 500px;
+  padding: 30px;
+  width: 500px;
 }
 /* DESIGN 1 */
 #form1 {
-background-color: #5E0231;
-font-family: Arial;
-color: #DBC3D0;
+  background-color: #5E0231;
+  font-family: Arial;
+  color: #DBC3D0;
 }
 #form1 h1 {
-color: white;
-margin: 0px 0px 20px 0px;
+  color: white;
+  margin: 0px 0px 20px 0px;
 }
 #form1 input {
-background-color: #DBC3D0;
-border: 2px white solid;
-padding: 10px;
-margin-bottom: 15px;
+  background-color: #DBC3D0;
+  border: 2px white solid;
+  padding: 10px;
+  margin-bottom: 15px;
 }
 #form1 input:hover, #form1 input:focus {
-border: 2px #DBC3D0 solid;
-background-color: white;
+  border: 2px #DBC3D0 solid;
+  background-color: white;
 }
 #form1 button {
-background-color: white;
-border: 3px #DBC3D0 solid;
-border-radius: 5px;
-color: #5E0231;
-padding: 10px 30px;
-font-size: 1.2em;
+  background-color: white;
+  border: 3px #DBC3D0 solid;
+  border-radius: 5px;
+  color: #5E0231;
+  padding: 10px 30px;
+  font-size: 1.2em;
 }
 #form1 button:hover {
-background-color: #DBC3D0;
-color: white;
+  background-color: #DBC3D0;
+  color: white;
 }
 ```
 
@@ -4273,7 +4314,7 @@ This form design is more minimalist, using the clear and consistent design and l
 <h4>HTML</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code list!</summary>
 
 ```
 <!DOCTYPE html>
@@ -4302,7 +4343,7 @@ This form design is more minimalist, using the clear and consistent design and l
 <h4>CSS</h4>
 
 <details>
-  <summary>CSS</summary>
+  <summary>CSS code list!</summary>
 
 ```
 div {
@@ -4367,7 +4408,7 @@ This form design leaves lots of white space to help it feel clean and simple. 
 <h4>HTML</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code list!</summary>
 
 ```
 <!DOCTYPE html>
@@ -4395,7 +4436,7 @@ This form design leaves lots of white space to help it feel clean and simple. 
 <h4>CSS</h4>
 
 <details>
-  <summary>CSS</summary>
+  <summary>CSS code list!</summary>
 
 ```
 div {
@@ -4455,7 +4496,7 @@ The pen below is a recap of all forms presented in this page:
 <h4>HTML</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code list!</summary>
 
 ```
 <!DOCTYPE html>
@@ -4520,7 +4561,7 @@ Email
 <h4>CSS</h4>
 
 <details>
-  <summary>CSS</summary>
+  <summary>CSS code list!</summary>
 
 ```
 div {
@@ -4817,7 +4858,7 @@ We discussed how to adjust the white space of these areas in Module 2.5, but in 
 <h4>HTML</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code list!</summary>
 
 ```
 <!DOCTYPE html>
@@ -4856,7 +4897,7 @@ margin 100px <br />
 <h4>CSS</h4>
 
 <details>
-  <summary>CSS</summary>
+  <summary>CSS code list!</summary>
 
 ```
 body {
@@ -4954,7 +4995,7 @@ You may have noticed that the text-align property sets the content\'s alignment 
 <h4>HTML</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code list!</summary>
 
 ```
 <!DOCTYPE html>
@@ -4981,7 +5022,7 @@ You may have noticed that the text-align property sets the content\'s alignment 
 <h4>CSS</h4>
 
 <details>
-  <summary>CSS</summary>
+  <summary>CSS code list!</summary>
 
 ```
 h1 {
@@ -5074,7 +5115,7 @@ img {
 <h4>HTML</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code list!</summary>
 
 ```
 <!DOCTYPE html>
@@ -5111,7 +5152,7 @@ img {
 <h4>CSS</h4>
 
 <details>
-  <summary>CSS</summary>
+  <summary>CSS code list!</summary>
 
 ```
 #width50 {
@@ -5185,7 +5226,7 @@ img {
 <h4>HTML</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code list!</summary>
 
 ```
 <!DOCTYPE html>
@@ -5215,7 +5256,7 @@ img {
 <h4>CSS</h4>
 
 <details>
-  <summary>CSS</summary>
+  <summary>CSS code list!</summary>
 
 ```
 h1 {
@@ -5303,7 +5344,7 @@ For this activity, you are going to practice some of the basic alignment propert
 <h4>HTML</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code list!</summary>
 
 ```
 <!DOCTYPE html>
@@ -5343,7 +5384,7 @@ For this activity, you are going to practice some of the basic alignment propert
 <h4>CSS</h4>
 
 <details>
-  <summary>CSS</summary>
+  <summary>CSS code list!</summary>
 
 ```
 body {
@@ -5490,7 +5531,7 @@ p {
 --------->
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code list!</summary>
 
 ```
 <!DOCTYPE html>
@@ -5528,7 +5569,7 @@ p {
 <h4>CSS</h4>
 
 <details>
-  <summary>CSS</summary>
+  <summary>CSS code list!</summary>
 
 ```
 body {
@@ -5589,7 +5630,7 @@ One of the toughest parts of layouts with CSS is figuring out which elements to 
 <h4>HTML</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code list!</summary>
 
 ```
 <!DOCTYPE html>
@@ -5635,7 +5676,7 @@ One of the toughest parts of layouts with CSS is figuring out which elements to 
 <h4>CSS</h4>
 
 <details>
-  <summary>CSS</summary>
+  <summary>CSS code list!</summary>
 
 ```
 body {
@@ -5695,7 +5736,7 @@ You might also need to adjust some widths, margins and paddings to get everythin
 <h4>HTML</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code list!</summary>
 
 ```
 <!DOCTYPE html>
@@ -5741,7 +5782,7 @@ You might also need to adjust some widths, margins and paddings to get everythin
 <h4>CSS</h4>
 
 <details>
-  <summary>CSS</summary>
+  <summary>CSS code list!</summary>
 
 ```
 body {
@@ -5877,7 +5918,7 @@ Note that position is not an inherited property so you will have to apply it ind
 <h4>HTML</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code list!</summary>
 
 ```
 <!DOCTYPE html>
@@ -5904,7 +5945,7 @@ Note that position is not an inherited property so you will have to apply it ind
 <h4>CSS</h4>
 
 <details>
-  <summary>CSS</summary>
+  <summary>CSS code list!</summary>
 
 ```
 h1 {
@@ -5952,7 +5993,7 @@ h3 {
 Note that relative positioning can make elements overlap - check the following CSS code as a second example:
 
 <details>
-  <summary>CSS</summary>
+  <summary>CSS code list!</summary>
 
 ```
 h1 {
@@ -6009,7 +6050,7 @@ Here is [some HTML and CSS:](https://codepen.io/techie4good/pen/KgwRwg)
 <h4>CSS</h4>
 
 <details>
-  <summary>CSS</summary>
+  <summary>CSS code list!</summary>
 
 ```
 body {
@@ -6055,7 +6096,7 @@ You can do this with padding and margins, but limit yourself to only add positio
 <h4>CSS</h4>
 
 <details>
-  <summary>CSS</summary>
+  <summary>CSS code list!</summary>
 
 ```
 body {
@@ -6134,7 +6175,7 @@ This is a very basic menu design. It floats the list elements to the left and gi
 <h4>CSS</h4>
 
 <details>
-  <summary>CSS</summary>
+  <summary>CSS code list!</summary>
 
 ```
 div {
@@ -6192,7 +6233,7 @@ This menu design uses a vertical arrangement but still floats the overall menu 
 <h4>CSS</h4>
 
 <details>
-  <summary>CSS</summary>
+  <summary>CSS code list!</summary>
 
 ```
 div {
@@ -6255,7 +6296,7 @@ padding: 30px;
 <h4>HTML</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code list!</summary>
 
 ```
 <!DOCTYPE html>
@@ -6304,7 +6345,7 @@ This third design employs hover as a way to expose secondary links. This lets yo
 <h4>CSS</h4>
 
 <details>
-  <summary>CSS</summary>
+  <summary>CSS code list!</summary>
 
 ```
 div {
@@ -6363,7 +6404,7 @@ display: block;
 <h4>HTML</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code list!</summary>
 
 ```
 <!DOCTYPE html>
@@ -6417,7 +6458,7 @@ You will want your footer to flow with your overall page design, but to be disti
 <h4>CSS</h4>
 
 <details>
-  <summary>CSS</summary>
+  <summary>CSS code list!</summary>
 
 ```
 div {
@@ -6516,7 +6557,7 @@ color: #F4DECB;
 <h4>HTML</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code list!</summary>
 
 ```
 <!DOCTYPE html>
@@ -6599,7 +6640,7 @@ This is a basic footer that uses background color to help it stand out from the 
 <h4>CSS</h4>
 
 <details>
-  <summary>CSS</summary>
+  <summary>CSS code list!</summary>
 
 ```
 div {
@@ -6638,7 +6679,7 @@ color: #F4F4F4;
 <h4>HTML</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code list!</summary>
 
 ```
 <!DOCTYPE html>
@@ -6686,7 +6727,7 @@ This footer provides navigation links. Because the footer is at the bottom of th
 <h4>CSS</h4>
 
 <details>
-  <summary>CSS</summary>
+  <summary>CSS code list!</summary>
 
 ```
 div {
@@ -6731,7 +6772,7 @@ font-variant: small-caps;
 <h4>HTML</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code list!</summary>
 
 ```
 <!DOCTYPE html>
@@ -6790,7 +6831,7 @@ This final design flows with the overall structure of the page, but limits the c
 <h4>CSS</h4>
 
 <details>
-  <summary>CSS</summary>
+  <summary>CSS code list!</summary>
 
 ```
 div {
@@ -6831,7 +6872,7 @@ color: #F4DECB;
 <h4>HTML</h4>
 
 <details>
-  <summary>HTML</summary>
+  <summary>HTML code list!</summary>
 
 ```
 <!DOCTYPE html>
@@ -8108,7 +8149,10 @@ This can be accomplished with something called \"internal links\". This is where
    alt="Sample 'internal link'." />
 </p>
 
-<h4>CSS code!</h4>
+<h4>CSS</h4>
+
+<details>
+  <summary>CSS code list!</summary>
 
 ```
 body {
@@ -8129,10 +8173,12 @@ section {
 }
 ```
 
+</details>
+
 <h4>HTML</h4>
 
 <details>
-  <summary>HTML code!</summary>
+  <summary>HTML code list!</summary>
 
 ```
 <!DOCTYPE html>
@@ -8414,7 +8460,7 @@ Hopefully at this point you feel comfortable with all the basics of CSS, but, as
    <li>JavaScript Introduction</li>
 </ol>
 
-<h3>Last Updated: 10.13.2022 12:08pm</h3>
+<h3>Last Updated: 10.23.2022 2:37pm</h3>
 <!---
 <p align="center" width="100%">
 <img src="./images/image.png?raw=true"
