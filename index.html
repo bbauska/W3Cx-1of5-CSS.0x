@@ -1561,7 +1561,10 @@ tag after content like so:</p>
 <p>When these three pieces are combined (start tag, content, and end
 tag), you have what is called an HTML <strong>element</strong>. </p>
 <p>Here is a sample HTML doc:</p>
-<pre><code>&lt;!DOCTYPE html&gt; &lt;!-- Doctype declares the document to be HTML 5 type--&gt;
+<details>
+<summary>
+HTML code extract!
+</summary><pre><code>&lt;!DOCTYPE html&gt; &lt;!-- Doctype declares the document to be HTML 5 type--&gt;
 &lt;html lang=&quot;en&quot;&gt; &lt;!--All your HTML content must be within this tag--&gt;
    &lt;head&gt; &lt;!--Anything in the header provides information about the document, no content here--&gt;
       &lt;meta charset=&quot;utf-8&quot;&gt;
@@ -1571,7 +1574,7 @@ tag), you have what is called an HTML <strong>element</strong>. </p>
       &lt;h1&gt;My First Heading&lt;/h1&gt; &lt;!--content in a h1 tag is a &quot;heading&quot; of the top level--&gt;
       &lt;p&gt;My first paragraph.&lt;/p&gt; &lt;!--content in a p tag is normal or &quot;paragraph&quot; level text--&gt;
    &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;</code></pre></details>
 <p><em>*NOTE: In the code above, the text contained within the &lt;!--
 and --&gt; start and end sequences are comments. Each of them is
 explaining each tag.</em></p>
@@ -1647,7 +1650,10 @@ only be one per document.</p>
 using the UTF-8 character encoding, which has many characters outside
 English, so it should be able to display characters not in the English
 alphabet.</p>
-<pre><code>&lt;!DOCTYPE html&gt;
+<details>
+<summary>
+HTML code extract!
+</summary><pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
       &lt;meta charset=&quot;utf-8&quot;&gt;
@@ -1656,7 +1662,7 @@ alphabet.</p>
    &lt;body&gt;
       &lt;p&gt; Hello World&lt;/p&gt;
    &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;</code></pre></details>
 <h4>
 &lt;body&gt;
 </h4>
@@ -1665,7 +1671,10 @@ href="https://www.w3.org/TR/html52/sections.html#the-body-element"><em>Documenta
 <p>The section element that contains all the visible content for your
 site like your text, images, links etc. There should only be one body
 tag per document and it should come after the head tag.</p>
-<pre><code>&lt;!DOCTYPE html&gt;
+<details>
+<summary>
+HTML code extract!
+</summary><pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
       &lt;meta charset=&quot;utf-8&quot;&gt;
@@ -1675,7 +1684,7 @@ tag per document and it should come after the head tag.</p>
    &lt;body&gt;
       &lt;p&gt; Hello World&lt;/p&gt;
    &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;</code></pre></details>
 <h4>
 &lt;p&gt;
 </h4>
@@ -1779,14 +1788,17 @@ href="https://www.w3.org/TR/html52/sections.html#the-section-element"><em>Docume
 <p>Another sectioning element, the "section" tag is a general-purpose
 grouping element. It most often should include a header tag at the top.
 This typically will come after a header tag and before a footer tag.</p>
-<pre><code>&lt;body&gt;
+<details>
+<summary>
+CSS code extract!
+</summary><pre><code>&lt;body&gt;
    &lt;header&gt;
       &lt;h1&gt; My Page &lt;/h1&gt;
    &lt;/header&gt;
    &lt;section&gt;
       &lt;h2&gt; My Blog &lt;/h2&gt;
    &lt;/section&gt;
-&lt;/body&gt;</code></pre>
+&lt;/body&gt;</code></pre></details>
 <h4>
 &lt;footer&gt;
 </h4>
@@ -1794,7 +1806,10 @@ This typically will come after a header tag and before a footer tag.</p>
 href="https://www.w3.org/TR/html52/sections.html#the-footer-element"><em>Documentation</em></a>]</p>
 <p>Another sectioning element, the "footer" tag is supposed to organize
 the final content on the page such as the credits or contact info. </p>
-<pre><code>&lt;body&gt;
+<details>
+<summary>
+HTML code extract!
+</summary><pre><code>&lt;body&gt;
    &lt;header&gt;
       &lt;h1&gt;My Page&lt;/h1&gt;
    &lt;/header&gt;
@@ -1806,7 +1821,7 @@ the final content on the page such as the credits or contact info. </p>
          copyright 2016
       &lt;/p&gt;
    &lt;/footer&gt;
-&lt;/body&gt;</code></pre>
+&lt;/body&gt;</code></pre></details>
 <h4>
 &lt;div&gt;
 </h4>
@@ -1987,7 +2002,10 @@ rules to style your entire page.</p>
 <p>Now that you have a basic understanding of how to put the pieces of a
 CSS rule together, let's do some practice. Here is some HTML for a page
 you will style:</p>
-<pre><code>&lt;!DOCTYPE html&gt;
+<details>
+<summary>
+HTML code extract!
+</summary><pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
       &lt;meta charset=&quot;utf-8&quot;&gt;
@@ -2005,7 +2023,7 @@ you will style:</p>
          &lt;li&gt;Item 4 completes the list&lt;/li&gt;
       &lt;/ul&gt;
    &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;</code></pre></details>
 <p><a href="https://codepen.io/w3devcampus/pen/zovzwE">HTML in Code
 Pen</a></p>
 <p>Your goal is to get this HTML to look like the following image in the
@@ -2080,7 +2098,7 @@ some example selectors we'll use in this module:</p>
 style of elements contained within the paragraph tag. </p>
 <pre><code>body {
 /* style for all elements in the body */
-}</code></pre>
+}</code></pre></details>
 <p>This would apply style to the body tag as well as allow the elements
 inside the body tag to inherit certain styles applied here (check the <a
 href="https://codepen.io/techie4good/pen/pEzLrd">related CodePen
@@ -2097,7 +2115,10 @@ online</a>). </p>
 <h4>
 HTML
 </h4>
-<pre><code>&lt;html lang=&quot;en&quot;&gt;
+<details>
+<summary>
+CSS code extract!
+</summary><pre><code>&lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
       &lt;meta charset=&quot;utf-8&quot;&gt;
       &lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot;&gt;
@@ -2115,7 +2136,7 @@ HTML
       &lt;li&gt;As you can imagine, there will often be times&lt;/li&gt;
       &lt;li&gt;when you don&#39;t want every single HTML element of a particular type to have identical style&lt;/li&gt;
    &lt;/ul&gt;
-   &lt;p&gt;</code></pre>
+   &lt;p&gt;</code></pre></details>
 <p>In Module 3, we’ll discuss a variety of ways to use selectors to
 attach to specific HTML elements.</p>
 <p>In unit 2.2, we briefly mentioned the fact that properties apply to
@@ -2127,7 +2148,10 @@ to use in combination with your chosen style <br /></p>
 using selectors, but for this module we are going to stick to basics and
 only use selectors that match the HTML tag name. For example, here are
 some example selectors we’ll use in this module:</p>
-<pre><code>   &lt;/p&gt;
+<details>
+<summary>
+HTML code extract!
+</summary><pre><code>   &lt;/p&gt;
    &lt;ol&gt;
       &lt;li&gt;This would affect the style of all link tags on the page&lt;/li&gt;
       &lt;li&gt;This would affect the style of all paragraph tags on the page&lt;/li&gt;
@@ -2136,11 +2160,14 @@ some example selectors we’ll use in this module:</p>
       &lt;li&gt;as well as allow the elements inside the body tag to inherit certain styles applied here. &lt;/li&gt;
    &lt;/ol&gt;
    &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;</code></pre></details>
 <h4>
 CSS
 </h4>
-<pre><code>body {
+<details>
+<summary>
+CSS code extract!
+</summary><pre><code>body {
    color: red; /* every element inherits this except a tags, which don&#39;t inhert by default */
  }
 ul {
@@ -2151,7 +2178,7 @@ p {
 }
 li {
    text-decoration: line-through; /* applies to all li elements, in both ul and ol tags */
-}</code></pre>
+}</code></pre></details>
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-4-2">
 2.4.2 Inheriting style
@@ -2162,7 +2189,10 @@ because HTML elements inherit stylistic properties. </p>
 <p>Let's say we have an HTML document (see the corresponding <a
 href="https://codepen.io/techie4good/pen/mAVVkY?editors=1100#0">Code
 Pen</a>):</p>
-<pre><code>&lt;!DOCTYPE html&gt;
+<details>
+<summary>
+HTML code extract!
+</summary><pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
       &lt;meta charset=&quot;utf-8&quot;&gt;
@@ -2183,7 +2213,7 @@ Pen</a>):</p>
       &lt;/ul&gt;
    &lt;/section&gt;
    &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;</code></pre></details>
 <p>This is basic structure from the way I have formatted the tags with
 tabbing, but here is a more visual representation of the hierarchy of
 tags. Tags that contain other tags are parents, and the tags inside of
@@ -2209,7 +2239,10 @@ entire document.</p>
 that the "li" or list element tag ends up with three different styles
 (font, underline and green) without us actually applying any style
 directly to that tag. </p>
-<pre><code>body {
+<details>
+<summary>
+CSS code extract!
+</summary><pre><code>body {
    font-family: &quot;Century Gothic&quot;, sans-serif;
 }
 header {
@@ -2220,7 +2253,7 @@ section {
 }
 ul {
    color: green;
-}</code></pre>
+}</code></pre></details>
 <p>Not every property is inherited, but many are. The CSS specification
 tell you, for each property, whether it is inheritable. It's a good idea
 to keep in mind the structure of your HTML document when choosing your
@@ -2237,7 +2270,10 @@ styles to the top most element and save yourself extra CSS code.</p>
 <h4>
 HTML
 </h4>
-<pre><code>&lt;html lang=&quot;en&quot;&gt;
+<details>
+<summary>
+HTML code extract!
+</summary><pre><code>&lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
       &lt;meta charset=&quot;utf-8&quot;&gt;
       &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
@@ -2256,11 +2292,14 @@ HTML
          &lt;/ul&gt;
       &lt;/section&gt;
    &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;</code></pre></details>
 <h4>
 CSS
 </h4>
-<pre><code>body {
+<details>
+<summary>
+CSS code extract!
+</summary><pre><code>body {
    font-family: &quot;Century Gothic&quot;, sans-serif;
 }
 header {
@@ -2271,7 +2310,7 @@ section {
 }
 ul {
    color: green;
-}</code></pre>
+}</code></pre></details>
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-4-3">
 2.4.3 Combining multiple selectors
@@ -2312,7 +2351,10 @@ explores using the comma to combine selectors.</p>
 <h4>
 CSS code:
 </h4>
-<pre><code>body {
+<details>
+<summary>
+CSS code extract!
+</summary><pre><code>body {
     color: #660099;
 }
  
@@ -2330,11 +2372,14 @@ h2,ul {
  
 h3,ol {
     text-decoration: underline;
-}</code></pre>
+}</code></pre></details>
 <h4>
 HTML
 </h4>
-<pre><code>&lt;html lang=&quot;en&quot;&gt;
+<details>
+<summary>
+HTML code extract!
+</summary><pre><code>&lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
       &lt;meta charset=&quot;utf-8&quot;&gt;
       &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
@@ -2354,7 +2399,7 @@ HTML
          &lt;li&gt;and the tags inside of them are their children in the following tree representation&lt;/li&gt;
       &lt;/ol&gt;
    &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;</code></pre></details>
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-4-4">
 2.4.4 Activity - Apply your own selectors
@@ -2366,7 +2411,10 @@ href="http://codepen.io/w3devcampus/pen/RoKLKE/">CodePen</a>:</p>
 <h4>
 HTML code:
 </h4>
-<pre><code>&lt;!DOCTYPE html&gt;
+<details>
+<summary>
+HTML code extract!
+</summary><pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
       &lt;meta charset=&quot;utf-8&quot;&gt;
@@ -2375,7 +2423,7 @@ HTML code:
    &lt;/head&gt;
    &lt;body&gt;
       &lt;h1&gt;Main Title&lt;/h1&gt;
-         &lt;p&gt;</code></pre>
+         &lt;p&gt;</code></pre></details>
 <p>In unit 2.3, we defined a CSS selector as the portion of the CSS rule
 that tells the browser on which HTML element to apply the defined
 style. </p>
@@ -2392,7 +2440,10 @@ means that you will have to be very careful which selectors you choose
 to use in combination with your chosen style. When choosing your
 selector you might want to keep the following aspects of an HTML element
 in mind</p>
-<pre><code>&lt;/p&gt;
+<details>
+<summary>
+HTML code extract!
+</summary><pre><code>&lt;/p&gt;
    &lt;h2&gt;Sub Title 1&lt;/h2&gt;
       &lt;ul&gt;
          &lt;li&gt;How many of these HTML elements are on my page?&lt;/li&gt;
@@ -2406,11 +2457,14 @@ in mind</p>
           &lt;li&gt;and does this style make sense in that context?&lt;/li&gt;
        &lt;/ol&gt;
     &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;</code></pre></details>
 <h4>
 CSS code:
 </h4>
-<pre><code>/*selector here*/  {
+<details>
+<summary>
+CSS code extract!
+</summary><pre><code>/*selector here*/  {
     background-color: #ccffcc;
     color: #336600;
 }
@@ -2426,7 +2480,7 @@ CSS code:
 }
 /*selector here*/  {
     text-decoration: underline;
-}</code></pre>
+}</code></pre></details>
 <p>Note that there are HTML and some CSS rules, but the rules are
 missing their selectors.<br />
 You will need to figure out which selectors belong on top of each of the
@@ -2778,7 +2832,10 @@ of these styles</a>.</p>
 <h4>
 HTML code:
 </h4>
-<pre><code>&lt;!DOCTYPE html&gt;
+<details>
+<summary>
+CSS code extract!
+</summary><pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
     &lt;head&gt;
         &lt;meta charset=&quot;utf-8&quot;&gt;
@@ -2794,11 +2851,14 @@ HTML code:
 Nulla a sem orci. Cras eget neque viverra, condimentum nulla et, tincidunt libero. In sit amet quam purus. Aliquam erat volutpat. Sed hendrerit urna quis sapien mattis dictum. Etiam vehicula tortor eu libero finibus dapibus. Mauris nunc neque, sodales nec est sed, gravida convallis sem. Nam vulputate sed est sed eleifend. Quisque sodales elit at ornare vulputate.
         &lt;/p&gt;
     &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;</code></pre></details>
 <h4>
 CSS code:
 </h4>
-<pre><code>body {
+<details>
+<summary>
+CSS code extract!
+</summary><pre><code>body {
     font-family: Helvetica, Verdana, sans-serif;
     font-size: 12pt;
 }
@@ -2812,7 +2872,7 @@ h2 {
 }
 p {
     font-weight: bold;
-}</code></pre>
+}</code></pre></details>
 <h4>
 Resources
 </h4>
@@ -2928,7 +2988,10 @@ exploring padding, border and margin</a>.</p>
 <h4>
 CSS code:
 </h4>
-<pre><code>body {
+<details>
+<summary>
+CSS code extract!
+</summary><pre><code>body {
     background-color: #99ffff;
     margin-top: 20px;
     margin-left: 70px;
@@ -2954,7 +3017,7 @@ p {
     border: 10px white double;
     padding: 0px;
     margin: 0px;
-}</code></pre>
+}</code></pre></details>
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch2-5-5">
 2.5.5 Activity - Adding your own properties
@@ -2976,7 +3039,10 @@ href="https://codepen.io/w3devcampus/pen/WNozNxK">Codepen</a>:</p>
 <h4>
 HTML code:
 </h4>
-<pre><code>&lt;!DOCTYPE html&gt;
+<details>
+<summary>
+CSS code extract!
+</summary><pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
     &lt;head&gt;
         &lt;meta charset=&quot;utf-8&quot;&gt;
@@ -3000,11 +3066,14 @@ HTML code:
            If you aren&#39;t sure how to do this refer to the demo in unit 1.3 to see this in action while inspecting CSS Zen Garden designs. As you can see, the browser tools display the value of the properties, and if you click into that space it will even give you some of the different value options and you can even change them and watch the Web site update dynamically.
         &lt;/p&gt;
     &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;</code></pre></details>
 <h4>
 CSS code:
 </h4>
-<pre><code>body {
+<details>
+<summary>
+CSS code extract!
+</summary><pre><code>body {
 }
 h1 {
 }
@@ -3015,7 +3084,7 @@ ol {
 li {
 }
 p {
-}</code></pre>
+}</code></pre></details>
 <p>These CSS rules have selectors, but no properties. For this activity,
 it is up to you to add the correct properties and set their values
 appropriately to achieve this final style:</p>
@@ -3121,7 +3190,10 @@ example of using too many different aspects of font for emphasis:
 <h4>
 CSS code:
 </h4>
-<pre><code>#busyTitle h1{
+<details>
+<summary>
+CSS code extract!
+</summary><pre><code>#busyTitle h1{
     font-size: 2em;
     font-family: Impact;
     color: yellow;
@@ -3130,7 +3202,7 @@ CSS code:
     font-variant: small-caps;
     font-weight: bold;
     text-decoration: underline;
-}</code></pre>
+}</code></pre></details>
 <h4>
 Title 1
 </h4>
@@ -3148,7 +3220,10 @@ appear more prominent than the body text. </p>
 <h4>
 CSS code:
 </h4>
-<pre><code>#design1 {
+<details>
+<summary>
+CSS code extract!
+</summary><pre><code>#design1 {
     background-color: #F4F4F4;
     font-family: &quot;Lucida Sans Unicode&quot;, sans-serif;
 }
@@ -3164,7 +3239,7 @@ CSS code:
 #design1 p {
     color: #373737;
     font-size: 1.2em;
-}</code></pre>
+}</code></pre></details>
 <h4>
 Title 2
 </h4>
@@ -3181,7 +3256,10 @@ sans-serif, thin font with high contrast colors.</p>
 <h4>
 CSS code:
 </h4>
-<pre><code>#design2 {
+<details>
+<summary>
+CSS code extract!
+</summary><pre><code>#design2 {
    font-family: Century Gothic, sans-serif;
    background-color: #0E0B16;
 }
@@ -3195,7 +3273,7 @@ CSS code:
  
 #design2 p {
    color: #E7DFDD;
-}</code></pre>
+}</code></pre></details>
 <h4>
 Title 3
 </h4>
@@ -3214,7 +3292,10 @@ separately and giving it a bottom border. </p>
 <h4>
 CSS code:
 </h4>
-<pre><code>#design3 {
+<details>
+<summary>
+CSS code extract!
+</summary><pre><code>#design3 {
    color: #DF744A;
    font-family: Arial, sans-serif;
 }
@@ -3230,7 +3311,7 @@ CSS code:
 #design3 p {
    background-color: #FEDCD2;
    padding: 50px;
-}</code></pre>
+}</code></pre></details>
 <p><a href="https://codepen.io/w3devcampus/pen/LYWRVvP">Here is a
 CodePen of all the above examples of different title designs for you to
 play around with</a>.</p>
@@ -3280,7 +3361,10 @@ background and the body text.</p>
 <h4>
 CSS code:
 </h4>
-<pre><code>#design1 {
+<details>
+<summary>
+CSS code extract!
+</summary><pre><code>#design1 {
    background-color: #94618E;
    color: #F8EEE7;
    font-family: Corbel;
@@ -3292,7 +3376,7 @@ CSS code:
    color: #49274A;
    font-weight: bold;
    font-size: 1.2em;
- }</code></pre>
+ }</code></pre></details>
 <h4>
 Button 2
 </h4>
@@ -3313,7 +3397,10 @@ designing</a>).</p>
 <h4>
 CSS Code:
 </h4>
-<pre><code>#design2 {
+<details>
+<summary>
+CSS code extract!
+</summary><pre><code>#design2 {
    background-color: #D9D9D9;
    color: white;
    font-family: &quot;Century Gothic&quot;, sans-serif;
@@ -3325,7 +3412,7 @@ CSS Code:
    padding: 10px 50px;
    font-family: Impact, sans-serif;
    font-size: 1.3em;
-}</code></pre>
+}</code></pre></details>
 <h4>
 Button 3
 </h4>
@@ -3342,7 +3429,10 @@ button rounded corners.</p>
 <h4>
 CSS code:
 </h4>
-<pre><code>#design3 {
+<details>
+<summary>
+CSS code extract!
+</summary><pre><code>#design3 {
    font-family: Impact, sans-serif;
    font-size: 2em;
 }
@@ -3354,7 +3444,7 @@ CSS code:
    border: 7px #EC576B solid;
    border-radius: 20px;
    font-size: 0.8em;
-}</code></pre>
+}</code></pre></details>
 <p>In summary, here are <a
 href="https://codepen.io/techie4good/pen/ORXzoo?editors=1100#0">three
 different ways to style buttons you can play around with</a>.</p>
@@ -3524,7 +3614,10 @@ more dynamic.</p>
 <p>So, learning to properly select your HTML elements through CSS is
 crucially important to making sure that you get the most out of CSS.</p>
 <p>The CSS code mentioned in above video:</p>
-<pre><code>p {
+<details>
+<summary>
+CSS code extract!
+</summary><pre><code>p {
    color: white;
    background-color: midnightblue;
    font-size: large;
@@ -3541,6 +3634,7 @@ crucially important to making sure that you get the most out of CSS.</p>
    color: black;
    font-family: &#39;Franklin Gothic Medium&#39;;
 }</code></pre>
+</details>
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch3-2-1">
 3.2.1 Classes and IDs
@@ -3640,7 +3734,10 @@ Example
 <h4>
 HTML code:
 </h4>
-<pre><code>&lt;!DOCTYPE html&gt;
+<details>
+<summary>
+CSS code extract!
+</summary><pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
     &lt;head\&gt;
         &lt;meta charset=&quot;utf-8&quot;&gt;
@@ -3666,6 +3763,7 @@ HTML code:
         &lt;/p&gt;
     &lt;/body&gt;
 &lt;/html&gt;</code></pre>
+</details>
 <h4>
 CSS code:
 </h4>
@@ -3684,6 +3782,10 @@ CSS code:
 </h3>
 <!------------------------------------------------------------------------------------------------>
 <p><b>Here is some CSS code:</b></p>
+<details>
+<summary>
+CSS code extract!
+</summary>
 <pre><code>body {
    background-color: #00ccff;
    color: white;
@@ -3708,6 +3810,8 @@ p,h2 {
 #unimportantItem {
    color: gray;
 }</code></pre>
+</details>
+
 <p>As you can note, it's not too interesting because not all of the
 styles are applied to the HTML as shown in the pen below:</p>
 <!------------------------------------------------------------------------------------------------>
@@ -4208,7 +4312,10 @@ hover rules apply!</p></li>
 {width="5.0in" height="2.765265748031496in"}
 ------------>
 <p><b>... and specifically, its CSS code:</b></p>
-<pre><code>body {
+<details>
+<summary>
+CSS code extract!
+</summary><pre><code>body {
     background-color: #F8EEE7;
 }
 p {
@@ -4228,7 +4335,7 @@ p {
 p {
     background-color: #B4DBC0 !important;
     border: 2px dashed black;
-}</code></pre>
+}</code></pre></details>
 <p>Note that there are a lot of repeat CSS rules. For this activity, you
 cannot change any of the HTML (meaning you cannot add any IDs),
 but you'll need to change the CSS to make some of the rules more
@@ -4246,7 +4353,10 @@ specific so that you achieve this final result:</p>
 ----------->
 <p>The image below shows when you hover "paragraph 4". The same hover
 should apply to ALL p tags.</p>
-<pre><code>body {
+<details>
+<summary>
+CSS code extract!
+</summary><pre><code>body {
 background-color: #F8EEE7;
 }
 p {
@@ -4266,7 +4376,7 @@ color: #49274A;
 p:hover {
 background-color: #B4DBC0 !important;
 border: 2px dashed black;
-}</code></pre>
+}</code></pre></details>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 67. cascading style practice with hover (114) ------------------------->
 <!------------------------------------------------------------------------------------------------>
@@ -4376,7 +4486,10 @@ like this "Bad Image" example:</p>
 <h4>
 HTML
 </h4>
-<pre><code>&lt;!DOCTYPE html&gt;
+<details>
+<summary>
+HTML code extract!
+</summary><pre><code>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
@@ -4384,7 +4497,7 @@ HTML
    &lt;/head&gt;
    &lt;body&gt;
       &lt;div id=&quot;badImg&quot;&gt;
-         &lt;p&gt;</code></pre>
+         &lt;p&gt;</code></pre></details>
 <p>Here is an image that is unformatted, so the surrounding text
 directly touches it.</p>
 <p><img src="https://www.w3c.fr/wp-content/uploads/2016/12/26420235490_7ae150d467_b.jpg" width="300" alt="rows of people sitting in a theatre and wearing virtual reality devices" /></p>
@@ -4397,14 +4510,17 @@ flow with your other content.</p>
 <h4>
 CSS
 </h4>
-<pre><code>div {
+<details>
+<summary>
+CSS code extract!
+</summary><pre><code>div {
    margin-bottom: 50px;
 }
 #badImg {
    background-color: gray;
    padding: 10px;
    color: white;
-}</code></pre>
+}</code></pre></details>
 <h4>
 Images 1
 </h4>
@@ -4423,7 +4539,10 @@ give the image a "polaroid-style" border.</p>
 <h4>
 CSS
 </h4>
-<pre><code>div {
+<details>
+<summary>
+CSS code extract!
+</summary><pre><code>div {
    margin-bottom: 50px;
 }
 #images1 {
@@ -4444,11 +4563,14 @@ CSS
    width: 250px;
    padding: 15px 15px 50px 15px;
    background-color: white;
-}</code></pre>
+}</code></pre></details>
 <h4>
 HTML
 </h4>
-<pre><code>!DOCTYPE html&gt;
+<details>
+<summary>
+HTML code extract!
+</summary><pre><code>!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
@@ -4462,7 +4584,7 @@ HTML
          &lt;img src=&quot;https://www.w3.org/blog/wp-content/uploads/2021/03/group_calendar-768x627.png&quot; alt=&quot;snapshot of the Dataset    Exchange Working Group Calendar&quot; /&gt;
       &lt;/div&gt;
    &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;</code></pre></details>
 <h4>
 Images 2
 </h4>
@@ -4509,7 +4631,10 @@ HTML code extract!
 <h4>
 CSS
 </h4>
-<pre><code>div {
+<details>
+<summary>
+CSS code extract!
+</summary><pre><code>div {
    margin-bottom: 50px;
 }
 #images2 {
@@ -4528,7 +4653,7 @@ CSS
    border: 2px #88BBD6 solid;
    margin: 5px;
    background-color: white;
-}</code></pre>
+}</code></pre></details>
 <h5 id="images-3">Images 3</h5>
 <p>This design demonstrates the use of an image both as a background and
 as a link. When using images as design elements, it is best to use
@@ -4662,7 +4787,10 @@ obvious after a user has entered in all the requested info.</p></li>
 <h4>
 HTML
 </h4>
-<pre><code>&lt;!DOCTYPE html&gt;
+<details>
+<summary>
+HTML code extract!
+</summary><pre><code>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
@@ -4679,11 +4807,14 @@ HTML
          &lt;/form&gt;
       &lt;/div&gt;
    &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;</code></pre></details>
 <h4>
 CSS
 </h4>
-<pre><code>div {
+<details>
+<summary>
+CSS code extract!
+</summary><pre><code>div {
    margin-bottom: 50px;
    height: 400px;
 }
@@ -4698,7 +4829,7 @@ form {
 #uglyForm button {
    background-color: white;
    border: 0px;
-}</code></pre>
+}</code></pre></details>
 <p>You might never know it, but each of the 4 elements below the title
 are intended for the user to interact with. By stripping them of their
 styles you can see how important it is to add visual cues for your
@@ -9073,7 +9204,10 @@ the id selector as the href setting on the anchor tag. </p>
 <h4>
 CSS
 </h4>
-<pre><code>body {
+<details>
+<summary>
+CSS code extract!
+</summary><pre><code>body {
    width: 50%;
    margin-left: auto;
    margin-right: auto;
@@ -9088,7 +9222,7 @@ ul li {
 }
 section {
    clear: both;
-}</code></pre>
+}</code></pre></details>
 <h4>
 HTML
 </h4>
@@ -9509,7 +9643,7 @@ JavaScript Introduction
 </li>
 </ol>
 <h3>
-Last Updated: 11.5.2022 11:59pm
+Last Updated: 11.6.2022 1:35am
 </h3>
 <!--
 <p align="center" width="100%">
