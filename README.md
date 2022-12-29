@@ -1,5 +1,5 @@
 ---
-w3cx-1of5-css.0x: Coursera - Front-End Web Developer - CSS Basics"
+w3cx-1of5-css.0x: Coursera - Front-End Web Development - CSS Basics: More here
 ---
 
 <h2 align="center">W3Cx Front-End Web Developer</h2>
