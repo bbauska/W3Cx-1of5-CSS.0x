@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------- index.html of W3Cx-1of5-HTML5.0x ------------------------------->
+<!------------------------------- index.html of w3cx-1of5-css.0x ------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
 <head>
@@ -10,6 +10,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>w3cx-1of5</title>
   <style>
+  img.displayed {
+    display: block;
+	margin: 0 auto;	}
+	p.em1 {
+	  margin-left: 1em; }
+	p.em2 {
+	  margin-left: 2em; }
+	p.em3 {
+	  margin-left: 3em; }
+	p.em4 {
+	  margin-left: 4em; }
+
+	div {
+	float: left; }
+
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
     span.underline{text-decoration: underline;}
@@ -18,7 +33,6 @@
     ul.task-list{list-style: none;}
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
-  <link rel="stylesheet" href="custom.css" />
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
@@ -29,35 +43,32 @@
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------------ w3cx logo ------------------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/w3c-logo.jpg?raw=true"
-   width="35%"
-   alt="W3C logo" />
-</p>
-<h1 align="center" width="100%">Welcome to the CSS Basics course!</h1>
+<img class="displayed"
+  src="./images/w3cx-logo.jpg?raw=true"
+  alt="W3C logo."
+  style="width:75px;" />
+
+<h2 style="text-align:center;">Welcome to the CSS Basics course!</h2>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 01. css basics course visual (01) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image001.png?raw=true"
-   width="50%"
-   alt="CSS Basics course visual." />
-</p>
-<h2 id="table-of-contents"><a href="#table-of-contents">Table of
-Contents</a></h2>
-<h2 id="about-w3c-and-the-web"><a href="#cha"><strong>About W3C and the
-Web</strong></a></h2>
+<img class="displayed"
+  src="./images/image001.png?raw=true"
+  alt="W3Cx CSS Basics Course Visual logo."
+  style="width:35%;" />
+
+<h2 id="table-of-contents"><a href="#table-of-contents">Table of Contents</a></h2>
+<h2 id="about-w3c-and-the-web"><a href="#cha"><strong>About W3C and the Web</strong></a></h2>
+
 <blockquote>
-<h3 id="about-w3c-and-the-web-1">- <a href="#cha-1"><strong>About W3C
-and the Web</strong></a></h3>
-<h3 id="why-accessibility-is-important">- <a href="#cha-2"><strong>Why
-accessibility is important</strong></a></h3>
-<h3 id="why-internationalization-is-important">- <a
-href="#cha-3"><strong>Why internationalization is
+<h3 id="about-w3c-and-the-web-1">- <a href="#cha-1"><strong>About W3C and the Web</strong></a></h3>
+<h3 id="why-accessibility-is-important">- <a href="#cha-2"><strong>Why accessibility is important</strong></a></h3>
+<h3 id="why-internationalization-is-important">- <a href="#cha-3"><strong>Why internationalization is
 important</strong></a></h3>
 </blockquote>
-<h2 id="course-information"><a href="#chb"><strong>Course
-information</strong></a></h2>
+
+<h2 id="course-information"><a href="#chb"><strong>Course information</strong></a></h2>
+
 <blockquote>
 <h3 id="welcome-to-css-basics">* <a href="#chb-1"><strong>Welcome to
 “CSS Basics”</strong></a></h3>
@@ -213,24 +224,22 @@ co-inventor of CSS.</li>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 02. illustration of a css property (03) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image002.png?raw=true"
-   width="40%"
-   alt="Illustration of a CSS Property." />
-</p>
+<img class="displayed"
+  src="./images/image002.png?raw=true"
+  style="width:40%;"
+  alt="Illustration of a CSS Property." />
+
 <ul>
-<li>In <b>Module 2</b>, we will first review HTML and then learn how to
-build CSS rules with some basic properties that adjust your HTML
-document's color, font or spacing. </li>
+  <li>In <b>Module 2</b>, we will first review HTML and then learn how to build CSS rules with some basic properties that adjust your HTML document's color, font or spacing. </li>
 </ul>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 03. css basics course visual (03) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image003.png?raw=true"
-   width="50%"
-   alt="Diagram of the structure of an HTML page." />
-</p>
+<img class="displayed"
+  src="./images/image003.png?raw=true"
+  style="width:50%;"
+  alt="Diagram of the structure of an HTML page." />
+
 <ul>
 <li>In <b>Module 3</b>, we are going to build slightly more complex Web
 pages using contextual selectors, IDs, classes and pseudo-classes. The
@@ -243,11 +252,11 @@ the browser will know how to make it look!</li>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 04. image of the css box model (04) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image004.png?raw=true"
-   width="50%"
-   alt="Image of the CSS box model." />
-</p>
+<img class="displayed"
+  src="./images/image004.png?raw=true"
+  style="width:50%;"
+  alt="Image of the CSS box model." />
+
 <ul>
 <li><p><b>Module 4</b> is about layout and positioning using CSS. You
 will start by understanding the box model - the foundation of layout on
@@ -9627,13 +9636,12 @@ type=“1” start “2”&gt;
 JavaScript Introduction
 </li>
 </ol>
-<h3>Last Updated: 11.6.2022 1:35am</h3>
+<h3>Last Updated: 2.4.2023 12:19pm</h3>
 <!--
-<p align="center" width="100%">
-<img src="./images/image.png?raw=true"
-   width="###%"
-   alt="." />
-</p>
+<img class="displayed"
+  src="./images/image0.jpeg?raw=true"
+  alt="Image of the bla bla goes here."
+  style="width:xx%;" />
 ---->
 </body>
 </html>
