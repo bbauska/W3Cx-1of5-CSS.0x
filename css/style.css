@@ -1,0 +1,13 @@
+img.displayed {
+  display: block;
+  margin: 0 auto;	}
+p.em1 {
+  margin-left: 1em; }
+	p.em2 {
+	  margin-left: 2em; }
+	p.em3 {
+	  margin-left: 3em; }
+	p.em4 {
+	  margin-left: 4em; }
+div {
+	float: left; }
