@@ -1664,7 +1664,8 @@ Note that this is an example of a "self-closing" tag meaning there is no
 closing tag, you just end the opening tag with a forward slash. </p>
 
 <pre><code>
-&lt;img src=&quot;images/proPic.jpg&quot; alt=&quot;a headshot of the instructor&quot; /&gt;</code></pre>
+&lt;img src=&quot;images/proPic.jpg&quot; alt=&quot;a headshot of the instructor&quot; /&gt;
+</code></pre>
 
 <h4>&lt;ul&gt;</h4>
 
@@ -3239,11 +3240,10 @@ appear more prominent than the body text. </p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 45. example using soft clean colors (83) --------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image045.png?raw=true"
-   width="70%"
-   alt="Example using solft clean colors and make title more prominent in size." />
-</p>
+<img class="displayed"
+  src="./images/image045.png?raw=true"
+  style="width:70%;"
+  alt="Example using soft clean colors and make title more prominent in size." />
 
 <h4>CSS code:</h4>
 
@@ -3278,11 +3278,10 @@ sans-serif, thin font with high contrast colors.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 46. example looking futuristic (84) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image046.png?raw=true"
-   width="70%"
-   alt="Futuristic example." />
-</p>
+<img class="displayed"
+  src="./images/image046.png?raw=true"
+  style="width:70%;"
+  alt="Futuristic example." />
 
 <h4>CSS code:</h4>
 
@@ -3317,11 +3316,10 @@ separately and giving it a bottom border. </p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 48. example using pastel (85) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image048.png?raw=true"
-   width="70%"
-   alt="Pastel example." />
-</p>
+<img class="displayed"
+  src="./images/image048.png?raw=true"
+  style="width:70%;"
+  alt="Pastel example." />
 
 <h4>CSS code:</h4>
 
@@ -3371,11 +3369,11 @@ it is actually a button ("click here"). </p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 48. button example (86) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image048.png?raw=true"
-   width="70%"
-   alt="Button semi-hidden in plain sight." />
-</p>
+<img class="displayed"
+  src="./images/image048.png?raw=true"
+  style="width:70%;"
+  alt="Button semi-hidden in plain sight." />
+
 <p>More examples of buttons are described below.</p>
 
 <h4>Button 1</h4>
@@ -3386,11 +3384,10 @@ background and the body text.</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 49. traditional button (86) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image049.png?raw=true"
-   width="70%"
-   alt="Traditional button." />
-</p>
+<img class="displayed"
+  src="./images/image049.png?raw=true"
+  style="width:70%;"
+  alt="Traditional button." />
 
 <h4>CSS code:</h4>
 
@@ -3414,7 +3411,9 @@ background and the body text.</p>
 </code></pre>
 
 </details>
+
 <h4>Button 2</h4>
+
 <p>This is a more modern button design where there is no distinct
 border, but just a flat color background. You'll note the poor
 accessibility of the text and button (for example, no sufficient
@@ -3424,11 +3423,10 @@ designing</a>).</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------------ 50. modern button (87) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image050.png?raw=true"
-   width="70%"
-   alt="Modern button." />
-</p>
+<img class="displayed"
+  src="./images/image050.png?raw=true"
+  style="width:70%;"
+  alt="Modern button." />
 
 <h4>CSS Code:</h4>
 
@@ -3460,11 +3458,10 @@ button rounded corners.</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 51. big graphic button using border-radius (88) ------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image051.png?raw=true"
-   width="70%"
-   alt="Big graphic button using border-radius." />
-</p>
+<img class="displayed"
+  src="./images/image051.png?raw=true"
+  style="width:70%;"
+  alt="Big graphic button using border-radius." />
 
 <h4>CSS code:</h4>
 
@@ -3767,21 +3764,21 @@ Example
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------- 53. classes and id example (96) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image053.png?raw=true"
-   width="70%"
-   alt="Classes and id example." />
-</p>
+<img class="displayed"
+  src="./images/image053.png?raw=true"
+  style="width:70%;"
+  alt="Classes and id example." />
 <!----------
 {width="6.9375in" height="2.609027777777778in"}
 ----------->
-<h4>
-HTML code:
-</h4>
+
+<h4>HTML code:</h4>
+
 <details>
-<summary>
-HTML code extract!
-</summary><pre><code>&lt;!DOCTYPE html&gt;
+  <summary>HTML code extract!</summary>
+  
+<pre><code>
+&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
     &lt;head\&gt;
         &lt;meta charset=&quot;utf-8&quot;&gt;
@@ -3806,12 +3803,15 @@ HTML code extract!
             ID names have the same rules as class names: start with a letter, can include numbers and dashes, no spaces. The way to create a selector for an ID is also similar to how you create a selector for a class, except you replace the period with a hash symbol (&quot;#&quot;).
         &lt;/p&gt;
     &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;
+</code></pre>
+
 </details>
-<h4>
-CSS code:
-</h4>
-<pre><code>#intro {
+
+<h4>CSS code:</h4>
+
+<pre><code>
+#intro {
     color: green;
 }
 .odd {
@@ -3819,18 +3819,18 @@ CSS code:
 }
 .even {
     color: red;
-}</code></pre>
+}
+</code></pre>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch3-2-2">
-3.2.2 Activity - Add your own classes and ids
-</h3>
+<h3 id="ch3-2-2">3.2.2 Activity - Add your own classes and ids</h3>
 <!------------------------------------------------------------------------------------------------>
 <p><b>Here is some CSS code:</b></p>
+
 <details>
-<summary>
-CSS code extract!
-</summary>
-<pre><code>body {
+  <summary>CSS code extract!</summary>
+
+<pre><code>
+body {
    background-color: #00ccff;
    color: white;
    font-family: Helvetica, sans-serif;
@@ -3853,7 +3853,9 @@ p,h2 {
 }
 #unimportantItem {
    color: gray;
-}</code></pre>
+}
+</code></pre>
+
 </details>
 
 <p>As you can note, it's not too interesting because not all of the
@@ -3861,11 +3863,11 @@ styles are applied to the HTML as shown in the pen below:</p>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 54. more class and id examples (98) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image054.png?raw=true"
-   width="70%"
-   alt="More examples of class and id." />
-</p>
+<img class="displayed"
+  src="./images/image054.png?raw=true"
+  style="width:70%;"
+  alt="More examples of class and id." />
+
 <!--- ![](images/media/image55.png){width="6.9375in" height="2.609027777777778in"} --->
 <p>In this activity, your job is to add the HTML id and class attributes
 to the correct elements so that you get a final result that looks like
@@ -3873,16 +3875,14 @@ this:</p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 55. welcome to my page (99) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image055.png?raw=true"
-   width="70%"
-   alt="Third example using class and id." />
-</p>
+<img class="displayed"
+  src="./images/image055.png?raw=true"
+  style="width:70%;"
+  alt="Third example using class and id." />
+
 <!--- ![](images/media/image56.png){width="6.9375in" height="6.547916666666667in"} --->
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch3-3-1">
-3.3.1 CSS pseudo-classes
-</h3>
+<h3 id="ch3-3-1">3.3.1 CSS pseudo-classes</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>Sometimes, you'll want to adjust the style of an element, based on
 how the user has interacted with it. The best example of this is
@@ -3900,15 +3900,19 @@ as opposed to their HTML structure.</p>
 <p>Pseudo-classes must always be applied to an existing selector. Their
 "flag character" is the colon (":").<br />
 Here are some of the most popular pseudo-classes.</p>
-<h4>
-:link and :visited
-</h4>
+
+<h4>:link and :visited</h4>
+
 <p>[<a
 href="https://www.w3.org/TR/CSS22/selector.html#link-pseudo-classes" target="_blank">Documentation</a>]</p>
-<pre><code>a:visited {
+
+<pre><code>
+a:visited {
    color: gray;
    font-style: italic;
-}</code></pre>
+}
+</code></pre>
+
 <p>These pseudo classes are the ones you are probably most familiar
 with. Even on this page you've probably noticed that <a
 href="http://www.edx.org/" target="_blank">links have different style</a> than paragraph
@@ -3918,9 +3922,9 @@ pseudo-class that applies a different style to links that the user has
 already clicked. The opposite of visited is "link" which is a link a
 user has not yet clicked. These two states are mutually exclusive,
 meaning a link cannot be both at the same time.</p>
-<h4>
-:hover, :focus and :active
-</h4>
+
+<h4>:hover, :focus and :active</h4>
+
 <p>[<a
 href="https://www.w3.org/TR/CSS22/selector.html#dynamic-pseudo-classes" target="_blank">Documentation</a>]</p>
 <p>The hover pseudo-class is applied when the user points at an object
@@ -3929,53 +3933,63 @@ lay on top of an element without clicking. Some form factors don't
 support this, such as touch devices or pen surfaces. This is a really
 good way to encourage a user to click a link and you will often see it
 used in navigation bars.</p>
-<pre><code>li:hover {
+
+<pre><code>
+li:hover {
    background-color: yellow;
-}</code></pre>
+}
+</code></pre>
+
 <p>The focus pseudo class applies when a user has chosen to begin
 interacting with an element, such as when they click into a form input
 field so that the input field is then ready to accept keyboard
 input.</p>
-<pre><code>input:focus {
+
+<pre><code>
+input:focus {
    background-color: blue;
-}</code></pre>
+}
+</code></pre>
+
 <p>The active pseudo-class applies when an element is activated. This
 happens in the time between when the user clicks their mouse and they
 release it.</p>
-<pre><code>p:active {
+
+<pre><code>
+p:active {
    color: red;
-}</code></pre>
+}
+</code></pre>
+
 <p>You can read more about pseudo-classes in this <a
 href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes" target="_blank">MDN
 "Pseudo-classes"</a> document.</p>
-<h4>
-Example
-</h4>
+
+<h4>Example</h4>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 56. pseudo-classes (101) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image056.png?raw=true"
-   width="70%"
-   alt="Pseudo-classes example." />
-</p>
+<img class="displayed"
+  src="./images/image056.png?raw=true"
+  style="width:70%;"
+  alt="Pseudo-classes example." />
+
 <!-----------
 {width="6.9375in" height="3.0243055555555554in"}
 ------------>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch3-3-2">
-3.3.2 Activity - Applying pseudo classes
-</h3>
+<h3 id="ch3-3-2">3.3.2 Activity - Applying pseudo classes</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>Now it's your turn to try out some pseudo classes. Here is a Web page
 (see the CodePen <a
 href="https://codepen.io/techie4good/pen/rraNJr/" target="_blank">Practice with
 Pseudoclasses</a>) and the CSS code:</p>
+
 <details>
-<summary>
-CSS code extract!
-</summary>
-<pre><code>1.  body {
+  <summary>CSS code extract!</summary>
+
+<pre><code>
+1.  body {
 2.     background-color: #006666;
 3.     color: white;
 4.  }
@@ -4017,12 +4031,16 @@ CSS code extract!
 40. }
 41. a {
 42.    color: #33cc99;
-43. }</code></pre>
+43. }
+</code></pre>
+
 </details>
+
 <p>If you look at the CSS for this page you'll notice there are multiple
 CSS rules with the same selectors. That is because some of these rules
 need to have pseudo classes applied.</p>
 <p>Please add pseudo-classes to the existing rules so that:</p>
+
 <ul>
 <li><p>The title is underlined when the user hovers their mouse over the
 text</p></li>
@@ -4046,18 +4064,16 @@ interacted with the page in any way:</p>
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------- 57. resulting my page in green (104) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image057.png?raw=true"
-   width="70%"
-   alt="Resulting 'my page' in green." />
-</p>
+<img class="displayed"
+  src="./images/image057.png?raw=true"
+  style="width:70%;"
+  alt="Resulting 'my page' in green." />
+
 <!-------------
 {width="6.9375in" height="4.472222222222222in"}
 -------------->
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch3-4-1">
-3.4.1 Contextual selectors
-</h3>
+<h3 id="ch3-4-1">3.4.1 Contextual selectors</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>In the last section, we actually combined two selectors into one
 rule.</p>
@@ -4075,7 +4091,9 @@ have in your toolbox to really target that specific HTML element.</p>
 the rule to the elements that correspond to the selector on the right
 that are INSIDE the elements that correspond to the selector on the
 left. Let's say we have the following HTML:</p>
-<pre><code>&lt;!DOCTYPE html&gt;
+
+<pre><code>
+&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
     &lt;head&gt;
         &lt;meta charset=&quot;utf-8&quot;&gt;
@@ -4090,23 +4108,29 @@ left. Let's say we have the following HTML:</p>
         &lt;/p&gt;
         &lt;img src=&quot;images/pic4.jpg&quot; alt=&quot;pic 4&quot; /&gt;
     &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;
+</code></pre>
+
 <p>If we applied the following CSS rule then the images INSIDE the
 paragraph would be set to a width of 100px, but that rule would not
 apply to the images outside the paragraph. </p>
-<pre><code>p img {
+
+<pre><code>
+p img {
 width: 100px;
-}</code></pre>
+}
+</code></pre>
+
 <p>Below is a diagram of the given HTML with the two imgs that will be
 styled by the above rule are indicated by the red arrows. </p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------- 58. diagram pointing out which img tags will be styled (106) ----------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image058.png?raw=true"
-   width="50%"
-   alt="Diagram pointing out which img tags will be styled." />
-</p>
+<img class="displayed"
+  src="./images/image058.png?raw=true"
+  style="width:50%;"
+  alt="Diagram pointing out which img tags will be styled." />
+
 <!----------
 {width="5.0in" height="3.765153105861767in"}
 ----------->
@@ -4120,38 +4144,37 @@ following example:</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 59. example styles for paragraphs & lists (106) ------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image059.png?raw=true"
-   width="70%"
-   alt="." />
-</p>
+<img class="displayed"
+  src="./images/image059.png?raw=true"
+  style="width:70%;"
+  alt="Example styles for paragraph and lists." />
+
 <!----------
 {width="6.9375in" height="2.9819444444444443in"}
 ------------>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch3-4-2">
-3.4.2 Activity - Contextual selectors
-</h3>
+<h3 id="ch3-4-2">3.4.2 Activity - Contextual selectors</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>For practice, we are going to learn how to better scope CSS without
 the crutch of classes and IDs. </p>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 60. scoping css w/o classes & ids (107) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image060.png?raw=true"
-   width="70%"
-   alt="Scoping CSS without classes and id's." />
-</p>
+<img class="displayed"
+  src="./images/image060.png?raw=true"
+  style="width:70%;"
+  alt="Scoping CSS without classes and id's." />
+
 <!-----------
 {width="6.9375in" height="2.673611111111111in"}
 ------------>
 <p><b>Look carefully at the CSS code:</b></p>
+
 <details>
-<summary>
-CSS code extract!
-</summary>
-<pre><code>body {
+  <summary>CSS code extract!</summary>
+
+<pre><code>
+body {
     font-family: Tahoma, sans-serif;
 }
 header, article, footer {
@@ -4184,8 +4207,11 @@ ol {
 }
 ol {
     border: 5px solid #E24E43;
-}</code></pre>
+}
+</code></pre>
+
 </details>
+
 <p>So, there are CSS rules with duplicate selectors. You'll need to add
 some extra selectors to the existing CSS rules so that instead of
 duplicate rules, you have rules that address different instances of the
@@ -4194,40 +4220,35 @@ HTML elements based on the structure of the HTML.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 61. contextual selectors part 1 of 3 (108) --------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image061.png?raw=true"
-   width="50%"
-   alt="Contextual selectors result part 1." />
-</p>
+<img class="displayed"
+  src="./images/image061.png?raw=true"
+  style="width:50%;"
+  alt="Contextual selectors result part 1." />
 <!---------
 {width="5.0in" height="1.4284284776902887in"}
 ---------->
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 62. contextual selectors part 2 of 3 (108) --------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image062.png?raw=true"
-   width="50%"
-   alt="Contextual selectors result part 2." />
-</p>
+<img class="displayed"
+  src="./images/image062.png?raw=true"
+  style="width:50%;"
+  alt="Contextual selectors result part 2." />
 <!----------
 {width="5.0in" height="3.7172167541557304in"}
 ----------->
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 63. contextual selectors part 3 of 3 (109) --------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image063.png?raw=true"
-   width="50%"
-   alt="Contextual selectors result part 3." />
-</p>
+<img class="displayed"
+  src="./images/image063.png?raw=true"
+  style="width:50%;"
+  alt="Contextual selectors result part 3." />
 <!---------
 {width="5.0in" height="1.16416447944007in"}
 ---------->
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch3-4-3">
-3.4.3 Cascading styles
-</h3>
+<h3 id="ch3-4-3">3.4.3 Cascading styles</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>Hopefully, at this point, it's become very clear why what we're
 working on is called a style sheet.</p>
@@ -4269,6 +4290,7 @@ each style rule and the one with the greatest weight wins. If you want
 all the specifics on how this weight is computed you can read more <a
 href="https://www.w3.org/TR/CSS22/cascade.html" target="_blank">here</a>. For
 simplicity's sake, the most specific rule wins! </p>
+
 <ul>
 <li><p>A rule is generally more specific if it applies to a fewer number
 of elements than another rule that encompasses those elements. The more
@@ -4296,19 +4318,19 @@ Cascading order applies with many overlapping rules:</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 64. overlapping rules example (111) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image064.png?raw=true"
-   width="70%"
-   alt="Overlapping rules example with cascading order." />
-</p>
+<img class="displayed"
+  src="./images/image064.png?raw=true"
+  style="width:70%;"
+  alt="Overlapping rules example with cascading order." />
 <!---------
 {width="6.9375in" height="2.9819444444444443in"}
 ---------->
+
 <details>
-<summary>
-CSS code extract!
-</summary>
-<pre><code>section {
+  <summary>CSS code extract!</summary>
+
+<pre><code>
+section {
    color: red;
 }
 section section {
@@ -4328,9 +4350,13 @@ section:hover section:hover {
 }
 section:hover section:hover section:hover {
    color: yellow;
-}</code></pre>
+}
+</code></pre>
+
 </details>
+
 <p><b>Things to observe about the above:</b></p>
+
 <ul>
 <li><p>the rule based on an ID isn't even overwritten by the pseudo
 class</p></li>
@@ -4345,11 +4371,10 @@ hover rules apply!</p></li>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 65. managing cascading order (112) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image065.png?raw=true"
-   width="70%"
-   alt="Managing cascading order." />
-</p>
+<img class="displayed"
+  src="./images/image065.png?raw=true"
+  style="width:70%;"
+  alt="Managing cascading order." />
 <!-----------
 {width="5.0in" height="2.765265748031496in"}
 ------------>
@@ -4392,11 +4417,10 @@ specific so that you achieve this final result:</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------- 66. cascading order solution (113) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image067.png?raw=true"
-   width="70%"
-   alt="Cascading order final solution, no interaction." />
-</p>
+<img class="displayed"
+  src="./images/image066.png?raw=true"
+  style="width:70%;"
+  alt="Cascading order final solution, no interaction." />
 <!----------
 (images/media/image67.png){width="5.0in" height="3.7007010061242345in"}
 ----------->
@@ -4404,8 +4428,7 @@ specific so that you achieve this final result:</p>
 should apply to ALL p tags.</p>
 
 <details>
-
-<summary>CSS code extract!</summary>
+  <summary>CSS code extract!</summary>
 
 <pre><code>
 body {
@@ -4435,14 +4458,13 @@ border: 2px dashed black;
 <!------------------------------------------------------------------------------------------------>
 <!------------------------ 67. cascading style practice with hover (114) ------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image067.png?raw=true"
-   width="50%"
-   alt="Cascading style practice with hover." />
-</p>
+<img class="displayed"
+  src="./images/image067.png?raw=true"
+  style="width:50%;"
+  alt="Cascading style practice with hover." />
 <!-- (images/media/image68.png){width="5.0in" height="3.7062062554680666in"} -->
 <!------------------------------------------------------------------------------------------------>
-<h3 id="n5-1">3.5.1 Images</h3>
+<h3 id="ch5-1">3.5.1 Images</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>Images are an extremely important part of your page, not only as part
 of your content but as a key way to help style your page. Before you
@@ -4523,13 +4545,13 @@ benefits</a> and makes translation much easier.</p>
 not plan your images carefully, they can end up looking very disruptive,
 like this "Bad Image" example:</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 69. (xx) ------------------------------->
+<!--------------------------------- 68. bad image example (116) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image069.png?raw=true"
-   width="50%"
-   alt="." />
-</p>
+<img class="displayed"
+  src="./images/image068.png?raw=true"
+  style="width:50%;"
+  alt="Bad image example for text in image." />
+
 <!-----------
 {width="5.0in" height="1.2087084426946633in"}
 ------------>
@@ -4591,18 +4613,17 @@ images. It uses the colors from the image in the design of the overall
 page to help the image look as if it belongs. It also uses padding to
 give the image a "polaroid-style" border.</p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 70.  (xxx) ------------------------------->
+<!------------------------- 69. sample image with polaroid-style (117) --------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img class="displayed"
-  src="./images/image070.png?raw=true"
+  src="./images/image069.png?raw=true"
   style="width:50%;"
-  alt="." />
-</p>
+  alt="Sample image with polaroid-style border." />
 
 <h4>CSS</h4>
 
 <details>
-<summary>CSS code extract!</summary>
+  <summary>CSS code extract!</summary>
 
 <pre><code>
 div {
@@ -4626,14 +4647,18 @@ div {
    width: 250px;
    padding: 15px 15px 50px 15px;
    background-color: white;
-}</code></pre></details>
-<h4>
-HTML
-</h4>
+}
+</code></pre>
+
+</details>
+
+<h4>HTML</h4>
+
 <details>
-<summary>
-HTML code extract!
-</summary><pre><code>!DOCTYPE html&gt;
+  <summary>HTML code extract!</summary>
+  
+<pre><code>
+!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
@@ -4647,30 +4672,32 @@ HTML code extract!
          &lt;img src=&quot;https://www.w3.org/blog/wp-content/uploads/2021/03/group_calendar-768x627.png&quot; alt=&quot;snapshot of the Dataset    Exchange Working Group Calendar&quot; /&gt;
       &lt;/div&gt;
    &lt;/body&gt;
-&lt;/html&gt;</code></pre></details>
-<h4>
-Images 2
-</h4>
+&lt;/html&gt;
+</code></pre>
+
+</details>
+
+<h4>Images 2</h4>
+
 <p>This design is an example of an image gallery design. This gives all
 the images the same size and alignment while including plenty of white
 space to help the page not look too overwhelming despite having multiple
 photos. </p>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 71.  (xxx) ------------------------------->
+<!------------------------------ 70. image gallery in a grid (119) ------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image071.png?raw=true"
-   width="50%"
-   alt="." />
-</p>
-<h4>
-HTML
-</h4>
+<img class="displayed"
+  src="./images/image070.png?raw=true"
+  style="width:50%;"
+  alt="Image gallery in a grid." />
+
+<h4>HTML</h4>
+
 <details>
-<summary>
-HTML code extract!
-</summary>
-<pre><code>&lt;!DOCTYPE html&gt;
+  <summary>HTML code extract!</summary>
+
+<pre><code>
+&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
@@ -4689,12 +4716,15 @@ HTML code extract!
           &lt;img src=&quot;https://www.w3.org/TR/2020/WD-simple-ruby-20200609/img/fig06.svg&quot; alt=&quot;Example of horizontal ruby&quot; /&gt;
       &lt;/div&gt;
    &lt;/body&gt;
-&lt;/html&gt;</code></pre>
-</details>
-<h4>CSS</h4>
-<details>
+&lt;/html&gt;
+</code></pre>
 
-<summary>CSS code extract!</summary>
+</details>
+
+<h4>CSS</h4>
+
+<details>
+  <summary>CSS code extract!</summary>
 
 <pre><code>
 div {
@@ -4726,12 +4756,12 @@ div {
 as a link. When using images as design elements, it is best to use
 simple images to let your content still be easily consumable.</p>
 <!------------------------------------------------------------------------------------------------>
-<!-------------------------------- 72. sample sign-up form (xxx) --------------------------------->
+<!------------------------ 71. sample image as background and link (121) ------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img class="displayed"
-  src="./images/image072.png?raw=true"
+  src="./images/image071.png?raw=true"
   style="width:50%;"
-  alt="Sample sign-up form." />
+  alt="Sample image both as background and link." />
 
 <h4>HTML</h4>
 
@@ -4842,10 +4872,10 @@ obvious after a user has entered in all the requested info.</p></li>
 </ul>
 <p><b>Here is an HTML/CSS form:</b></p>
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- 73. sample sign-up form (xx) --------------------------------->
+<!-------------------------------- 72. sample sign-up form (124) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img class="displayed"
-  src="./images/image073.png?raw=true"
+  src="./images/image072.png?raw=true"
   style="width:50%;"
   alt="Sample sign-up form." />
 
@@ -4918,10 +4948,10 @@ clear label, space and area for input followed by a clear submit button.
 This design also used pseudo classes to engage the user, which you can
 see in action in the Code Pen below:</p>
 <!------------------------------------------------------------------------------------------------>
-<!--------------------------------- 74. sample sign-up form (xx) --------------------------------->
+<!-------------------------------- 73. sample sign-up form (125) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
 <img class="displayed"
-  src="./images/image074.png?raw=true"
+  src="./images/image073.png?raw=true"
   style="width:50%;"
   alt="Sample sign up form." />
 </p>
@@ -5687,25 +5717,26 @@ text:</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 80. text-align example (143) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image080.png?raw=true"
-   width="50%"
-   alt="Example of the text-align options: 'left', 'right', 'center' and 'justify'." />
-</p>
+<img class="displayed"
+  src="./images/image080.png?raw=true"
+  style="width:50%;"
+  alt="Example of the text-align options: 'left', 'right', 'center' and 'justify'." />
 <!-------------
 {width="5.0in" height="1.810310586176728in"}
 -------------->
 <p>Note that this property can only apply to block elements like
 paragraphs, divs and headers.</p>
-<h4>
-line-height
-</h4>
+
+<h4>line-height</h4>
+
 <p>[<a
 href="https://www.w3.org/TR/CSS22/visudet.html#line-height" target="_blank"><em>Documentation</em></a>]</p>
 
-<pre><code>h1 {
+<pre><code>
+h1 {
    line-height: 1.2;
-}</code></pre>
+}
+</code></pre>
 
 <p>You may have noticed that the text-align property sets the content's
 alignment horizontally, but it leaves its vertical alignment
@@ -5721,22 +5752,20 @@ within it.</p>
 <!------------------------------------------------------------------------------------------------>
 <!-------------------------------- 81. line-height example (144) --------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image081.png?raw=true"
-   width="50%"
-   alt="Line-height example." />
-</p>
+<img class="displayed"
+  src="./images/image081.png?raw=true"
+  style="width:50%;"
+  alt="Line-height example." />
 <!-----------
 {width="5.0in" height="2.5355358705161857in"}
 ------------->
-<h4>
-HTML
-</h4>
+<h4>HTML</h4>
+
 <details>
-<summary>
-HTML code extract!
-</summary>
-<pre><code>&lt;!DOCTYPE html&gt;
+  <summary>HTML code extract!</summary>
+
+<pre><code>
+&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
@@ -5752,16 +5781,18 @@ HTML code extract!
       &lt;h3&gt;this header&#39;s line height is stretched to 1.2&lt;/h3&gt;
       &lt;h4&gt;this header is aligned to the baseline of the line height within a stretched containing box&lt;/h4&gt;
    &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;
+</code></pre>
+
 </details>
-<h4>
-CSS
-</h4>
+
+<h4>CSS</h4>
+
 <details>
-<summary>
-CSS code extract!
-</summary>
-<pre><code>h1 {
+  <summary>CSS code extract!</summary>
+
+<pre><code>
+h1 {
    background-color: red;
    width: 500px;
    text-align: center;
@@ -5784,11 +5815,13 @@ h4 {
    background-color: pink;
    height: 200px;
    line-height:4;
-}</code></pre>
+}
+</code></pre>
+
 </details>
-<h4>
-International considerations
-</h4>
+
+<h4>International considerations</h4>
+
 <p>Please do not use text-align indiscriminately. If there's a
 possibility that your site will need to be translated into a language
 that uses the Arabic, Hebrew, or Thaana scripts (which read from right
@@ -5811,23 +5844,25 @@ approaches to justification</a>.</p>
 <p>Once you finish this course, look out for these and other
 international features of CSS as you explore its features further.</p>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch4-2-2">
-4.2.2 Element width and height
-</h3>
+<h3 id="ch4-2-2">4.2.2 Element width and height</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>Until now we've let the browser decide how big the element is, but
 you can actually adjust its width and height manually.</p>
-<h4>
-width and height
-</h4>
+
+<h4>width and height</h4>
+
 <p>[<em>Documentation</em>: <a
 href="https://www.w3.org/TR/CSS22/visudet.html#the-width-property" target="_blank">the
 width property</a> and <a
 href="https://www.w3.org/TR/CSS22/visudet.html#the-height-property" target="_blank">the
 height property</a>]</p>
-<pre><code>p {
+
+<pre><code>
+p {
    width: 30%;
-}</code></pre>
+}
+</code></pre>
+
 <p>You can use pixel values for both width and height, but you'll most
 often want to use percentages to set these so that your elements grow
 and shrink as appropriate based on the screen size.</p>
@@ -5842,7 +5877,6 @@ relationship with the screen width.</p>
 <p>Things are a bit more complicated with using a percentage to set an
 element's height. This is because typically the body's height is not
 specified, so if you use a percentage the size won't adjust.</p>
-<h4>
 <p>min-width, max-width, min-height, max-height</p>
 <p>[<em>Documentation</em>: <a
 href="https://www.w3.org/TR/CSS22/visudet.html#min-max-widths" target="_blank">max and
@@ -5857,29 +5891,31 @@ can.</p>
 large, and they can look really distorted. Thankfully, you can set max
 and min width and heights. This way, you can set a range for your image
 to grow and shrink where you know it will still look good. </p>
-<pre><code>img {
+
+<pre><code>
+img {
    width: 100%;
    max-width: 1024px;
-}</code></pre>
+}
+</code></pre>
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------------- 81. set max img width (147) ---------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image081.png?raw=true"
-   width="50%"
-   alt="Set max image width in css." />
-</p>
+<img class="displayed"
+  src="./images/image081.png?raw=true"
+  style="width:50%;"
+  alt="Set max image width in css." />
+
 <!-------
 {width="5.0in" height="2.5355358705161857in"}
 -------->
-<h4>
-HTML
-</h4>
+<h4>HTML</h4>
+
 <details>
-<summary>
-HTML code extract!
-</summary>
-<pre><code>&lt;!DOCTYPE html&gt;
+  <summary>HTML code extract!</summary>
+
+<pre><code>
+&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
@@ -5905,16 +5941,18 @@ HTML code extract!
       &lt;/p&gt;
    &lt;/div&gt;
    &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;
+</code></pre>
+
 </details>
-<h4>
-CSS
-</h4>
+
+<h4>CSS</h4>
+
 <details>
-<summary>
-CSS code extract!
-</summary>
-<pre><code>#width50 {
+  <summary>CSS code extract!</summary>
+
+<pre><code>
+#width50 {
 background-color:red;
 width: 50%;
 }
@@ -5934,8 +5972,11 @@ width: 50%;
 }
 #containingBlock {
    height: 500px;
-}</code></pre>
+}
+</code></pre>
+
 </details>
+
 <p>When you view the above example, the paragraphs will dynamically
 resize based on the size of your window. Please view the code first in a
 wide window, and then in a much narrower window.</p>
@@ -5944,9 +5985,7 @@ hit the limits of their min and max constraints. This is why using
 percentages for width and height are so important, it helps you write
 code that works for all screen sizes.</p>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch4-2-3">
-4.2.3 Padding and margin
-</h3>
+<h3 id="ch4-2-3">4.2.3 Padding and margin</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>Whenever possible, it is ideal to position your elements by adjusting
 their padding and margins. Sometimes this isn't enough to get the
@@ -5959,40 +5998,45 @@ margins as a way to position your element relative to others. One of the
 most commonly used margin settings is "auto". That is because if you set
 an element's left and right margin to auto it will be dynamically
 centered within its containing block.</p>
-<pre><code>div {
+
+<pre><code>
+div {
    width: 50%;
    margin-left: auto;
    margin-right: auto;
-}</code></pre>
+}
+</code></pre>
+
 <p>Note however, that this only works for block HTML elements like
 paragraphs, divs and headers. If you want to use this to position an
 inline element, such as img or a, you will need to tell CSS to treat
 them as block elements by setting display: block;</p>
-<pre><code>img {
+
+<pre><code>
+img {
    display: block;
    width: 200px;
    margin-left: auto;
    margin-right: auto;
-}</code></pre>
+}
+</code></pre>
 <!------------------------------------------------------------------------------------------------>
-<!------------------------------ 82.  display: block example (150) ------------------------------->
+<!------------------------------ 82. display: block example (150) -------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image082.png?raw=true"
-   width="50%"
-   alt="Display: block example." />
-</p>
+<img class="displayed"
+  src="./images/image082.png?raw=true"
+  style="width:50%;"
+  alt="Display: block example." />
 <!------
 {width="5.0in" height="2.5355358705161857in"}
 ------->
-<h4>
-HTML
-</h4>
+<h4>HTML</h4>
+
 <details>
-<summary>
-HTML code extract!
-</summary>
-<pre><code>&lt;!DOCTYPE html&gt;
+  <summary>HTML code extract!</summary>
+
+<pre><code>
+&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
@@ -6011,16 +6055,18 @@ HTML code extract!
          and here is text in a centered section below the inner div
       &lt;/section&gt;
    &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;
+</code></pre>
+
 </details>
-<h4>
-CSS
-</h4>
+
+<h4>CSS</h4>
+
 <details>
-<summary>
-CSS code extract!
-</summary>
-<pre><code>h1 {
+  <summary>CSS code extract!</summary>
+
+<pre><code>
+h1 {
    background-color: red;
    width: 50%;
    margin: 0 auto;
@@ -6043,17 +6089,18 @@ div {
    background-color: pink;
    width: 50%;
    margin: 0 auto;
-}</code></pre>
+}
+</code></pre>
+
 </details>
 <p>Here is what the above code looks like in a wide window:</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------- 83. centered with margin wide example (151) -------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image083.png?raw=true"
-   width="50%"
-   alt="Centered elements with margin wide example." />
-</p>
+<img class="displayed"
+  src="./images/image083.png?raw=true"
+  style="width:50%;"
+  alt="Centered elements with margin wide example." />
 <!------
 {width="5.0in" height="0.7362357830271216in"}
 -------->
@@ -6062,17 +6109,15 @@ what. Here is the above code in a narrow window:</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 84. dynamically centered in narrow window (151) ------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image084.png?raw=true"
-   width="30%"
-   alt="Dynamically centered element narrow example." />
-</p>
+<img class="displayed"
+  src="./images/image084.png?raw=true"
+  style="width:30%;"
+  alt="Dynamically centered element narrow example." />
 <!-------
 {width="3.125in" height="2.216666666666667in"}
 -------->
-<h4>
-External resources:
-</h4>
+<h4>External resources:</h4>
+
 <ul>
 <li><p>A W3C CSS tip: <a
 href="https://www.w3.org/Style/Examples/007/center" target="_blank">CSS centering
@@ -6082,34 +6127,28 @@ href="https://css-tricks.com/what-you-should-know-about-collapsing-margins/" tar
 you should know about collapsing margins</a></p></li>
 </ul>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch4-2-4">
-4.2.4 Activity - Practice with alignment
-</h3>
+<h3 id="ch4-2-4">4.2.4 Activity - Practice with alignment</h3>
 <!------------------------------------------------------------------------------------------------>
-<p>For this activity, you are going to practice some of the basic
-alignment properties you've learned in this unit.</p>
+<p>For this activity, you are going to practice some of the basic alignment properties you've learned in this unit.</p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------------------ 85.  practice with alignment (152) ------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image085.png?raw=true"
-   width="50%"
-   alt="Practice with alighment." />
-</p>
+<img class="displayed"
+  src="./images/image085.png?raw=true"
+  style="width:50%;"
+  alt="Practice with alighment." />
 <!-------
 {width="5.0in" height="1.7497944006999124in"}
 -------->
-<h4>
-Here is some HTML and CSS:
-</h4>
-<h4>
-HTML
-</h4>
+<h4>Here is some HTML and CSS:</h4>
+
+<h4>HTML</h4>
+
 <details>
-<summary>
-HTML code extract!
-</summary>
-<pre><code>&lt;!DOCTYPE html&gt;
+  <summary>HTML code extract!</summary>
+
+<pre><code>
+&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
@@ -6138,16 +6177,18 @@ HTML code extract!
          thank you and please visit again soon!
       &lt;/footer&gt;
    &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;
+</code></pre>
+
 </details>
-<h4>
-CSS
-</h4>
+
+<h4>CSS</h4>
+
 <details>
-<summary>
-CSS code extract!
-</summary>
-<pre><code>body {
+  <summary>CSS code extract!</summary>
+
+<pre><code>
+body {
    font-family: Tahoma;
 }
 header {
@@ -6180,25 +6221,27 @@ footer {
    background-color: #4EC5C1;
    border-top: 5px #FEDC3D solid;
    color: white;
-}</code></pre>
+}
+</code></pre>
+
 </details>
+
 <p>The resulted HTML and CSS codes produce a Web page where elements are
 not very well aligned. Your goal is to add properties to the existing
 CSS rules so that the final page looks like this:</p>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------- 86. practice with alignment after picture (154) ------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image086.png?raw=true"
-   width="50%"
-   alt="Practice with alignment after picture." />
-</p>
+<img class="displayed"
+  src="./images/image086.png?raw=true"
+  style="width:50%;"
+  alt="Practice with alignment after picture." />
+
 <!---------
 {width="6.9375in" height="3.9625in"}
 ---------->
-<h4>
-To do this you will need to:
-</h4>
+<h4>To do this you will need to:</h4>
+
 <ul>
 <li><p>remove the margin at the very edges of the page so the header and
 footer touch the edges of the page.</p></li>
@@ -6224,9 +6267,7 @@ section.</p></li>
 and the section of 30px. The footer should be centered.</p></li>
 </ul>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch4-3-1">
-4.3.1 The float property
-</h3>
+<h3 id="ch4-3-1">4.3.1 The float property</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>After when you look at other Web pages, you'll see multiple HTML
 elements</p>
@@ -6244,15 +6285,19 @@ scrolling.</p>
 after adjusting the padding, margins and alignment, then you can try out
 the float property. The "float" property is one of the most powerful
 tools you can master when learning CSS.</p>
-<h4>
-The float property
-</h4>
+
+<h4>The float property</h4>
+
 <p>[<em><a
 href="https://www.w3.org/TR/CSS22/visuren.html#float-position" target="_blank">Documentation</a>]</em></p>
-<pre><code>h1 {
+
+<pre><code>
+h1 {
    width: 20em;
    float: right;
-}</code></pre>
+}
+</code></pre>
+
 <p>Up until now, we haven't moved elements very far from wherever the
 web browser automatically places them, but as you've probably noticed
 this has left our page very left side heavy. This is because, by
@@ -6270,11 +6315,10 @@ horizontal space. </p>
 <!------------------------------------------------------------------------------------------------>
 <!------------------- 87. example of floating img and surrounding text (156) --------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image087.png?raw=true"
-   width="55%"
-   alt="Example of floating img and surrounding text." />
-</p>
+<img class="displayed"
+  src="./images/image087.png?raw=true"
+  style="width:55%;"
+  alt="Example of floating img and surrounding text." />
 <!---------
 {width="5.533333333333333in" height="3.5083333333333333in"}
 ---------->
@@ -6284,9 +6328,9 @@ by default, block HTML elements occupy the entire width of the page,
 even if there isn't actual content that extends that far. In this case,
 you'll want to set the width so that your element's size more accurately
 represents its content and you don't have unnecessary white space. </p>
-<h4>
-The clear property
-</h4>
+
+<h4>The clear property</h4>
+
 <p>Once you have some elements floating things can get a little messy.
 Its easy for floating objects to overlap, and to prevent this you can
 use the "clear" property.</p>
@@ -6298,19 +6342,18 @@ href="https://www.w3.org/TR/CSS22/visuren.html#propdef-clear" target="_blank">Do
 <!------------------------------------------------------------------------------------------------>
 <!---------------------------------- 88. too many colors (157) ----------------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image088.png?raw=true"
-   width="70%"
-   alt="Too many colors." />
-</p>
+<img class="displayed"
+  src="./images/image088.png?raw=true"
+  style="width:70%;"
+  alt="Too many colors." />
 <!---------
 {width="6.9375in" height="2.845833333333333in"}
 --------->
 <details>
-<summary>
-HTML code extract!
-</summary>
-<pre><code>&lt;!DOCTYPE html&gt;
+  <summary>HTML code extract!</summary>
+
+<pre><code>
+&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
@@ -6337,16 +6380,18 @@ HTML code extract!
       This div isn&#39;t floating, and it is set to clear to the right, so nothing can overlap.
    &lt;/div&gt;
    &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;
+</code></pre>
+
 </details>
-<h4>
-CSS
-</h4>
+
+<h4>CSS</h4>
+
 <details>
-<summary>
-CSS code extract!
-</summary>
-<pre><code>body {
+  <summary>CSS code extract!</summary>
+
+<pre><code>
+body {
    font-size: 24pt;
    font-family: helvetica, sans-serif;
 }
@@ -6376,38 +6421,34 @@ div {
    background-color: blue;
    width: 30%;
    float: right;
-}</code></pre>
+}
+</code></pre>
+
 </details>
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch4-3-2">
-4.3.2 Activity - Practice with float
-</h3>
+<h3 id="ch4-3-2">4.3.2 Activity - Practice with float</h3>
 <!------------------------------------------------------------------------------------------------>
 <p>One of the toughest parts of layouts with CSS is figuring out which
 elements to apply a float property to.</p>
-<h4>
-Here is <a href="https://codepen.io/techie4good/pen/xEbWrp" target="_blank">some HTML
-and CSS</a>:
-</h4>
+
+<h4>Here is <a href="https://codepen.io/techie4good/pen/xEbWrp" target="_blank">some HTML and CSS</a>:</h4>
 <!------------------------------------------------------------------------------------------------>
 <!----------------------------------- 89. float example (159) ------------------------------------>
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="./images/image089.png?raw=true"
-   width="50%"
-   alt="Float example." />
-</p>
+<img class="displayed"
+  src="./images/image089.png?raw=true"
+  style="width:50%;"
+  alt="Float example." />
 <!-------
 {width="5.0in" height="3.5855894575678042in"}
 -------->
-<h4>
-HTML
-</h4>
+<h4>HTML</h4>
+
 <details>
-<summary>
-HTML code extract!
-</summary>
-<pre><code>&lt;!DOCTYPE html&gt;
+  <summary>HTML code extract!</summary>
+
+<pre><code>
+&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
@@ -6442,16 +6483,18 @@ HTML code extract!
       &lt;/div&gt;
    &lt;/section&gt;
    &lt;/body&gt;
-&lt;/html&gt;</code></pre>
+&lt;/html&gt;
+</code></pre>
+
 </details>
-<h4>
-CSS
-</h4>
+
+<h4>CSS</h4>
+
 <details>
-<summary>
-CSS code extract!
-</summary>
-<pre><code>body {
+  <summary>CSS code extract!</summary>
+
+<pre><code>
+body {
    background-color: #4ABDAC;
    color: #FFFFFF;
    font-family: Georgia, serif;
@@ -6483,8 +6526,11 @@ div {
    height: 150px;
    padding: 10px;
    margin: 20px;
-}</code></pre>
+}
+</code></pre>
+
 </details>
+
 <p>As you can see the layout is pretty messy. Your job in this activity
 is to decide which elements deserve a float property (such as the
 navigation!). The main focus of the task is about understanding
@@ -9620,7 +9666,7 @@ websites!</p>
   <li>JavaScript Introduction</li>
 </ol>
 
-<h3>Last Updated: 2.7.2023 8:32am</h3>
+<h3>Last Updated: 2.7.2023 11:14am</h3>
 <!--
 <img class="displayed"
   src="./images/image0.jpeg?raw=true"
