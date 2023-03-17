@@ -727,7 +727,7 @@ Now it\'s your turn to do some exploration! For this activity, your job is to fi
 A great place to start is at [archive.org](https://archive.org/) (aka, the \"WayBack machine\") which stores copies of web pages throughout history. You can search for some of your favorite websites and see if they have stored copies older than 1996. You should find that any Web page made before 1996 will look very different than Web sites we typically see today. When you find a real retro gem, please share it in this week\'s discussion (see below).
 
 <!------------------------------------------------------------------------------------------------>
-<h3 id="ch1-3-1">1.3.1 Separating content from presentation</h3>
+<h3 id="ch1-3-1">1.3.1 Why CSS is Important</h3>
 <!------------------------------------------------------------------------------------------------>
 
 Up until now, we have been discussing CSS\'s role within a Web site as the \"presentation\" component, but what is that and why is it so important?
@@ -8330,7 +8330,10 @@ The Grid module provides several different ways to define such a grid and to pla
 
 Because they can refer to a previously defined grid of horizontal and vertical lines, the properties from the CSS Grid module provide more control over the alignment of elements than most other properties in CSS, such as the table-related properties or the \'float\' and \'clear\' properties, while also allowing elements to be displayed out of order. As such they are especially appreciated for (Web) applications with user interfaces that are made with HTML and CSS. The Grid module is not yet the '[design grid](https://en.wikipedia.org/wiki/Grid_(graphic_design))' that typographers want for the layout of magazines and books, but it is a first step. (E.g., one obvious thing to do, applying grid properties to an HTML table, doesn\'t work, because the properties do not handle nested elements yet.) Even though this is only level 1 of the module, it is well worth trying out.
 
-The properties from the Grid module have only been available in major browsers since mid 2017 (see the [status of browser support](https://caniuse.com/css-grid)). But the ideas behind the Grid module aren\'t new. From the start of CSS, there have been proposals to use CSS properties to define a template or matrix to guide the layout of elements, e.g.: [Frame-based layout](http://www.w3.org/TR/WD-layout), [Advanced Layout](http://www.w3.org/TR/2005/WD-css3-layout-20051215/) (later called [Template Layout](http://www.w3.org/TR/css-template-3/)), [Grid Style Sheets](https://github.com/gss) and [Constraint CSS](https://constraints.cs.washington.edu/web/ccss-uwtr.pdf). But only recently has technology become good enough to support some (not all!) of those ideas.
+The properties from the Grid module have only been available in major browsers since mid 2017 (see the [status of browser support](https://caniuse.com/css-grid)). But the ideas behind the Grid module aren\'t new. From the start of CSS, there have been proposals to use CSS properties to define a template or matrix to guide the layout of elements, e.g.: [Frame-based layout](http://www.w3.org/TR/WD-layout), [Advanced Layout](http://www.w3.org/TR/2005/WD-css3-layout-20051215/) (later called [Template Layout](http://www.w3.org/TR/css-template-3/)),
+[Grid Style Sheets](https://github.com/gss) and 
+[Constraint CSS](https://constraints.cs.washington.edu/web/ccss-uwtr.pdf). 
+But only recently has technology become good enough to support some (not all!) of those ideas.
 
 ### A few resources
 
@@ -8389,10 +8392,8 @@ For this activity, go out and find what you think is the best-designed Web page!
 
 discussion posted about 20 hours ago by [<b>AllaPetr</b>](https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2020/discussion/forum/users/2254953)
 
-<https://www.joshwcomeau.com/> I just discovered this web page among the comments below. I think this is one of the most attractive and balanced websites I have seen. 
-I like the choice of colors because it is both simple and warm. Sometimes web pages can feel cold and not welcoming. This one\'s doesn\'t. I also love the 
-attention to details shown by the use of animations in the logo. It adds the extra little something that makes it very appealing. The one thing I would use in my own 
-web page is the animated logo combined with the neat and minimalist design of the page. Yes, I think it is accessible.
+I just discovered <a href="https://www.joshwcomeau.com/">this</a> web page among the comments below. I think this is one of the most attractive and balanced websites I have seen. 
+I like the choice of colors because it is both simple and warm. Sometimes web pages can feel cold and not welcoming. This one\'s doesn\'t. I also love the attention to details shown by the use of animations in the logo. It adds the extra little something that makes it very appealing. The one thing I would use in my own web page is the animated logo combined with the neat and minimalist design of the page. Yes, I think it is accessible.
 
 <h4>Apple</h4>
 
