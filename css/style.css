@@ -12,24 +12,30 @@ p.em1 {
   margin-left: 4em; }
 div {
 	float: left; }
+h1 {
+  font-family: Georgia, BahnSchrift, Inter, Consolas;
+  font-size: 21px;
+  }
 h2 {
+  font-family: BahnSchrift, Inter, Consolas;
   font-size: 18px;
   }
 h3 {
+  font-family: BahnSchrift, Inter, Consolas;
   font-size: 16px;
   }
 h4 {
+  font-family: BahnSchrift, Inter, Consolas;
   font-size: 15px;
-  font-family: BahnSchrift, Consolas, Inter;
   }
 p {
-  font-family: BahnSchrift, Consolas, Inter;
-  font-size: 14px; }
+  font-family: BahnSchrift, Inter, Consolas, sans-serif;
+  font-size: 15px; }
   
 p.a {
-  font-family: BahnSchrift, Consolas, Inter;
-  font-size: 14px; }
+  font-family: BahnSchrift, Inter, Consolas;
+  font-size: 15px; }
 
 p.b {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px; }
+  font-family: "Bahnschrift", Inter, Arial, Helvetica, sans-serif;
+  font-size: 15px; }
