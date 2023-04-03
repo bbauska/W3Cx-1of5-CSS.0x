@@ -133,7 +133,7 @@ Thank you for joining this course, where you will learn how to take your Web pag
 <!------------------------------------------------------------------------------------------------>
 <!--------------------------- 02. illustration of a css property (03) ---------------------------->
 <!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
+<p id="chb" align="center" width="100%">
 <img src="./images/image002.png?raw=true"
    width="40%"
    alt="Illustration of a CSS Property." />
