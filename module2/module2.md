@@ -146,7 +146,7 @@ The UL tag creates an "unordered list" element, meaning a collection of elements
 ```[html]
 <ul>
    <li>This is one element in the list</li>
-   <li>One of the elements</li>
+   <li>2nd of the elements</li>
    <li>Another element</li>
 </ul>
 ```
