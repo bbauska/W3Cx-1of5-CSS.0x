@@ -13,31 +13,31 @@ p.em1 {
 div {
 	float: left; }
 h1 {
-  font-family: Georgia, BahnSchrift, Inter, Consolas;
+  font-family: Inter, Georgia, BahnSchrift, sans-serif, Consolas;
   font-size: 21px;
   }
 h2 {
-  font-family: Inter, Georgia, BahnSchrift, Inter, Consolas;
+  font-family: Inter, Georgia, BahnSchrift, sans-serif, Consolas;
   font-size: 18px;
   }
 h3 {
-  font-family: Inter, Georgia, BahnSchrift, Inter, Consolas;
+  font-family: Inter, Georgia, BahnSchrift, sans-serif, Consolas;
   font-size: 16px;
   }
 h4 {
-  font-family: Inter, Georgia, BahnSchrift, Inter, Consolas;
+  font-family: Inter, Georgia, BahnSchrift, sans-serif, Consolas;
   font-size: 15px;
   }
 p {
-  font-family: Inter, Georgia, BahnSchrift, Inter, Consolas;
+  font-family: Inter, Georgia, BahnSchrift, sans-serif, Consolas;
   font-size: 15px; }
   
 p.a {
-  font-family: Inter, Georgia, BahnSchrift, Inter, Consolas;
+  font-family: Inter, Georgia, BahnSchrift, sans-serif, Consolas;
   font-size: 15px; }
 
 p.b {
-  font-family: Inter, Georgia, BahnSchrift, Inter, Consolas;
+  font-family: Inter, Georgia, BahnSchrift, sans-serif, Consolas;
   font-size: 15px; }
 
     code{white-space: pre-wrap;}
