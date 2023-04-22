@@ -17,27 +17,27 @@ h1 {
   font-size: 21px;
   }
 h2 {
-  font-family: BahnSchrift, Inter, Consolas;
+  font-family: Inter, Georgia, BahnSchrift, Inter, Consolas;
   font-size: 18px;
   }
 h3 {
-  font-family: BahnSchrift, Inter, Consolas;
+  font-family: Inter, Georgia, BahnSchrift, Inter, Consolas;
   font-size: 16px;
   }
 h4 {
-  font-family: BahnSchrift, Inter, Consolas;
+  font-family: Inter, Georgia, BahnSchrift, Inter, Consolas;
   font-size: 15px;
   }
 p {
-  font-family: BahnSchrift, Inter, Consolas, sans-serif;
+  font-family: Inter, Georgia, BahnSchrift, Inter, Consolas;
   font-size: 15px; }
   
 p.a {
-  font-family: BahnSchrift, Inter, Consolas;
+  font-family: Inter, Georgia, BahnSchrift, Inter, Consolas;
   font-size: 15px; }
 
 p.b {
-  font-family: "Bahnschrift", Inter, Arial, Helvetica, sans-serif;
+  font-family: Inter, Georgia, BahnSchrift, Inter, Consolas;
   font-size: 15px; }
 
     code{white-space: pre-wrap;}
