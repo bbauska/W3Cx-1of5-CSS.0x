@@ -189,10 +189,12 @@ Here is the HTML part:
         color: blue;
         font-family:Helvetica;
       }
-... and here is the "output":
 ```
 
-<h4>Blue Helvetica text "Hello Beautiful World" in a browser window</h4>
+... and here is the "output":
+
+
+Blue Helvetica text "Hello Beautiful World" in a browser window
 
 <h2>Module 1: Getting started with CSS   1.4 Project - your first CSS   Comments</h2>
 
@@ -213,7 +215,7 @@ and the following two symbols end my comment */
 <p>
 As you can see, you can put as much text between the open and close symbols as you need, you can even have multiple lines. If you are working in an editor like Visual Studio code, you will notice that when you turn text into a comment, it turns green to indicate that the computer ignores that code.
 
-Image of Visual Studio Code Comments
+![image022-Image of Visual Studio Code Comments](https://user-images.githubusercontent.com/41387907/235211512-c9b4d5b0-c8cc-49c3-900e-762c5ca82dcd.png)
 
 Generally, it is a good idea to put a comment at the top of each CSS rule, or at the very least at the top of sets of rules that apply to a single category or section of your Web page. 
 </p>
@@ -225,6 +227,7 @@ It's finally time to write your own CSS! Open your code editor of choice and sav
 
 Remember: to do this, you will need to give it a .html file extension when you are saving it. For example, you could call it index.html
 </p>
+
 ```[html]
 <!DOCTYPE html>
 <html lang="en">
@@ -238,12 +241,12 @@ Remember: to do this, you will need to give it a .html file extension when you a
    </body>
 </html>
 ```
-<p>
-Once you have your HTML document view it in a Web browser. It should look like this:
 
-An image of Hello Beautiful World in a web browser with black text
+<p>Once you have your HTML document view it in a Web browser. It should look like this:</p>
 
-Now it’s time to add some CSS. Here is the CSS we wrote in the "Hello Beautiful World" demo. Make a new file with this css and save it with a .css file extension. For example, you can call it styles.css
+![image023-An image of Hello Beautiful Worl in a web browser with black text](https://user-images.githubusercontent.com/41387907/235209931-567ccebe-7f81-468f-ae22-fcd00667fe72.png)
+
+<p>Now it’s time to add some CSS. Here is the CSS we wrote in the "Hello Beautiful World" demo. Make a new file with this css and save it with a .css file extension. For example, you can call it styles.css
 </p>
 
 ```[css]
@@ -284,6 +287,7 @@ HINT: Is your favorite color not working? Not all color names are recognized by 
 </ul>
    
 <h3>In next module, you will:</h3>
+<ul>
 <li>Review the basics of HTML,</li>
 <li>Learn the anatomy of a CSS "rule",</li>
 <li>Discover the concept of a property,</li>
