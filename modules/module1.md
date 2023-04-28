@@ -259,7 +259,7 @@ To do this:
 <ul>
 <li>Remember it should be placed in the header, that is between the <head> and </head> tags in the HTML file,</li>
 <li>Place the HTML and CSS files in the same folder on your computer,</li>
-<li>Add the linking code to the HTML header (that means after the <head> tag and before the </head> tag). If your css is called "styles.css", here is what it would look like:</li>
+<li>Add the linking code to the HTML header (that means after the &lt;head&gt; tag and before the &lt;head&gt; tag). If your css is called "styles.css", here is what it would look like:</li>
 </ul>
 
 ```[html]
