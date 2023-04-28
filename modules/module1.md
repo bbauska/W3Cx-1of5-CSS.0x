@@ -255,11 +255,12 @@ p {
 This won’t change the look of your HTML until you link the two files with this HTML tag.
 
 To do this:
-
-remember it should be placed in the header, that is between the <head> and </head> tags in the HTML file. 
-place the HTML and CSS files in the same folder on your computer
-add the linking code to the HTML header (that means after the <head> tag and before the </head> tag). If your css is called "styles.css", here is what it would look like:
 </p>
+<ul>
+<li>Remember it should be placed in the header, that is between the <head> and </head> tags in the HTML file,</li>
+<li>Place the HTML and CSS files in the same folder on your computer,</li>
+<li>Add the linking code to the HTML header (that means after the <head> tag and before the </head> tag). If your css is called "styles.css", here is what it would look like:</li>
+</ul>
 
 ```[html]
 <link rel="stylesheet" href="styles.css">
@@ -267,7 +268,8 @@ add the linking code to the HTML header (that means after the <head> tag and bef
 <p>
 Now change the HTML and CSS files so that it says “Hello <your name>, welcome to my first CSS Web page” in your favorite color! Here’s what mine looks like:
 
-An image of Hello Kasey in green text
+![image024-An image of Hello Kasey in green text](https://user-images.githubusercontent.com/41387907/235207674-0da8b38e-ba59-4134-98a1-3663503684b2.png)
+<!-- https://github.com/bbauska/W3Cx-1of5/blob/master/images/image024.png?raw=true -->
 
 HINT: Is your favorite color not working? Not all color names are recognized by CSS. Sometimes the best way is to use HEX. We'll talk in more detail about colors in the next module, but here is a list of colors you can use: Extended color keywords
 </p>
