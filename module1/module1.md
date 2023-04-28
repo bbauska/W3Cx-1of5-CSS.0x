@@ -236,7 +236,11 @@ add the linking code to the HTML header (that means after the <head> tag and bef
 ```
 Now change the HTML and CSS files so that it says “Hello <your name>, welcome to my first CSS Web page” in your favorite color! Here’s what mine looks like:
 
-An image of Hello Kasey in green text
+<p align="center" width="100%">
+<img src="./images/image023.png?raw=true"
+   width="35%"
+   alt="An image of Hello Kasey in green text." />
+</p>
 
 HINT: Is your favorite color not working? Not all color names are recognized by CSS. Sometimes the best way is to use HEX. We'll talk in more detail about colors in the next module, but here is a list of colors you can use: Extended color keywords
 
