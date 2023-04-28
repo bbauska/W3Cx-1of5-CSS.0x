@@ -28,8 +28,8 @@ HTML • /eɪʧ-ti-ɛm-ɛl/ • noun
 Stands for "HyperText Markup Language", and it is the primary document format on the Web. It is a standardized system for tagging content on a web page so that a web browser knows how to present it properly to the viewer. It is a standardized way to describe a document's structure and the roles of the different parts of that document. 
 
 Sample HTML document:
-```[html5] 
 
+```[html5] 
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -162,6 +162,7 @@ Here is the HTML part:
 </html>
 ```
 ... and the CSS file (style.css) is below:
+
 ```[CSS]
       p {
         color: blue;
@@ -214,7 +215,11 @@ Remember: to do this, you will need to give it a .html file extension when you a
 
 Once you have your HTML document view it in a Web browser. It should look like this:
 
-An image of Hello Beautiful World in a web browser with black text
+<p align="center" width="100%">
+<img src="./images/image022.png"
+  width="35%"
+  alt="An image of Hello Beautiful World in a web browser with black text." />
+</p>
 
 Now it’s time to add some CSS. Here is the CSS we wrote in the "Hello Beautiful World" demo. Make a new file with this css and save it with a .css file extension. For example, you can call it styles.css
 
