@@ -115,9 +115,10 @@ Here is a bit about the project in their own words:
 
 In the above demo, you saw me using what is called the "developer tool" within my Edge Web browser to inspect and real-time change the style of a page's CSS. You can actually right click on any site and choose to look at the code that creates it. This feature exists in both Chrome and Firefox. Here is what I see when I right click on a Web page in my browser.
 
-Right click menu in Edge Web browser
+Right click menu in Edge Web browser:
+
 <p align="center" width="100%">
-<img src="./images/image020.png"
+<img src="https://github.com/bbauska/W3Cx-1of5/blob/master/images/image020.png?raw=true"
   width="65%"
   alt="Inspect Element: Inspect and view source." />
 </p>
