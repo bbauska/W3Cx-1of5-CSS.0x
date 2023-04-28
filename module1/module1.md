@@ -167,8 +167,8 @@ Here is the HTML part:
         color: blue;
         font-family:Helvetica;
       }
-... and here is the "output":
 ```
+... and here is the "output":
 
 Blue Helvetica text "Hello Beautiful World" in a browser window
 
@@ -231,9 +231,11 @@ To do this:
 remember it should be placed in the header, that is between the <head> and </head> tags in the HTML file. 
 place the HTML and CSS files in the same folder on your computer
 add the linking code to the HTML header (that means after the <head> tag and before the </head> tag). If your css is called "styles.css", here is what it would look like:
+
 ```[html]
 <link rel="stylesheet" href="styles.css">
 ```
+
 Now change the HTML and CSS files so that it says “Hello <your name>, welcome to my first CSS Web page” in your favorite color! Here’s what mine looks like:
 
 <p align="center" width="100%">
