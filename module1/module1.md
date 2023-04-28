@@ -116,6 +116,11 @@ Here is a bit about the project in their own words:
 In the above demo, you saw me using what is called the "developer tool" within my Edge Web browser to inspect and real-time change the style of a page's CSS. You can actually right click on any site and choose to look at the code that creates it. This feature exists in both Chrome and Firefox. Here is what I see when I right click on a Web page in my browser.
 
 Right click menu in Edge Web browser
+<p align="center" width="100%">
+<img src="./images/image020.png"
+  width="65%"
+  alt="Inspect Element: Inspect and view source." />
+</p>
 
 As you can see, in this right click menu, there are two options: "Inspect element" and "View source". When you select view source, you can see the HTML and CSS powering that Web page. Here is what it looks like when I view the source of W3C's Web site:
 
@@ -150,28 +155,32 @@ Here is the HTML part:
 ```[html5]
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <p>
-            Hello Beautiful World
-        </p>
-    </body>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <p>
+      Hello Beautiful World
+    </p>
+  </body>
 </html>
 ```
 ... and the CSS file (style.css) is below:
 
 ```[CSS]
-      p {
-        color: blue;
-        font-family:Helvetica;
-      }
+  p {
+    color: blue;
+    font-family:Helvetica;
+  }
 ```
 ... and here is the "output":
 
-Blue Helvetica text "Hello Beautiful World" in a browser window
+<p align="center" width="100%">
+<img src="./images/image021.png"
+  width="35%"
+  alt="Blue Helvetica text 'Hello Beautiful World' in a browser window." />
+</p>
 
 <h3>Comments</h3>
 
@@ -189,7 +198,11 @@ and the following two symbols end my comment */
 
 As you can see, you can put as much text between the open and close symbols as you need, you can even have multiple lines. If you are working in an editor like Visual Studio code, you will notice that when you turn text into a comment, it turns green to indicate that the computer ignores that code.
 
-Image of Visual Studio Code Comments
+<p align="center" width="100%">
+<img src="./images/image022.png"
+  width="35%"
+  alt="An image of visual studio code comments." />
+</p>
 
 Generally, it is a good idea to put a comment at the top of each CSS rule, or at the very least at the top of sets of rules that apply to a single category or section of your Web page. 
 
@@ -202,23 +215,23 @@ Remember: to do this, you will need to give it a .html file extension when you a
 ```[html]
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-   </head>
-   <body>
-      <p>
-         Hello Beautiful World
-      </p>
-   </body>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <p>
+      Hello Beautiful World
+    </p>
+  </body>
 </html>
 ```
 
 Once you have your HTML document view it in a Web browser. It should look like this:
 
 <p align="center" width="100%">
-<img src="./images/image022.png"
+<img src="./images/image023.png"
   width="35%"
-  alt="An image of Hello Beautiful World in a web browser with black text." />
+  alt="An image of 'Hello Beautiful World' in a web browser with black text." />
 </p>
 
 Now it’s time to add some CSS. Here is the CSS we wrote in the "Hello Beautiful World" demo. Make a new file with this css and save it with a .css file extension. For example, you can call it styles.css
@@ -233,9 +246,11 @@ This won’t change the look of your HTML until you link the two files with this
 
 To do this:
 
-remember it should be placed in the header, that is between the <head> and </head> tags in the HTML file. 
-place the HTML and CSS files in the same folder on your computer
-add the linking code to the HTML header (that means after the <head> tag and before the </head> tag). If your css is called "styles.css", here is what it would look like:
+<ul>
+  <lI>Remember it should be placed in the header, that is between the &lt;head&gt; and &lt;/head&gt; tags in the HTML file,</li>
+  <li>Place the HTML and CSS files in the same folder on your computer,</li>
+  <li>Add the linking code to the HTML header (that means after the &lt;head&gt; tag and before the &lt;/head&gt; tag). If your css is called "styles.css", here is what it would look like:</li>
+</ul>
 
 ```[html]
 <link rel="stylesheet" href="styles.css">
@@ -244,7 +259,7 @@ add the linking code to the HTML header (that means after the <head> tag and bef
 Now change the HTML and CSS files so that it says “Hello <your name>, welcome to my first CSS Web page” in your favorite color! Here’s what mine looks like:
 
 <p align="center" width="100%">
-<img src="./images/image023.png"
+<img src="./images/image024.png"
   width="35%"
   alt="An image of Hello Kasey in green text." />
 </p>
@@ -254,18 +269,19 @@ HINT: Is your favorite color not working? Not all color names are recognized by 
 <h2>1.5 Conclusion and exercises   Module learnings</h2>
 
 <h2>After this module, you should feel comfortable…</h2>
+
 <ul>
-<li>Explaining what CSS is, and why is it important,</li><br/>
-<li>Opening HTML and CSS files in your chosen code editor,</li><br/>
-<li>Using browser tools to inspect the source of a Web page you wrote.</li>
+  <li>Explaining what CSS is, and why is it important,</li><br/>
+  <li>Opening HTML and CSS files in your chosen code editor,</li><br/>
+  <li>Using browser tools to inspect the source of a Web page you wrote.</li>
 </ul>
 
-<h2>In next module, you will:</h2>
+<h2>In the next module (2), you will:</h2>
 <ul>
-   <li>Review the basics of HTML,</li><br/>
-   <li>Learn the anatomy of a CSS "rule",</li><br/>
-   <li>Discover the concept of a property,</li><br/>
-   <li>Get to know selectors and how you can directly attach them to HTML tags,</li><br/>
-   <li>Finally, for your module project, you'll get a get a chance to build the CSS for an HTML page from scratch.</li>
-   </ul>
+  <li>Review the basics of HTML,</li><br/>
+  <li>Learn the anatomy of a CSS "rule",</li><br/>
+  <li>Discover the concept of a property,</li><br/>
+  <li>Get to know selectors and how you can directly attach them to HTML tags,</li><br/>
+  <li>Finally, for your module project, you'll get a get a chance to build the CSS for an HTML page from scratch.</li>
+</ul>
 
