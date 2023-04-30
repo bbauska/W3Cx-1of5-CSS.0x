@@ -29,6 +29,10 @@ pre > code {
   padding: 1rem;
   word-wrap: normal;
 }
+  a {
+    text-decoration: none; }
+  a[href]:hover {
+    text-decoration: underline; }
 
 pre:hover, pre:focus { width: min-content; }
 
