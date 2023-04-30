@@ -68,6 +68,9 @@ h4 {
   font-family: Inter, Georgia, BahnSchrift, sans-serif, Consolas;
   font-size: 16px;
   }
+h4.red4 {
+  font-color: red;
+}
   
 h5 {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
