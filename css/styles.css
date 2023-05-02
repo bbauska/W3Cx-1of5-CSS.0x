@@ -19,7 +19,7 @@ font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucid
     padding: 2px 6px;
     width: 12em;  /* 15em */
     background-color: #eee;  /* very light gray */
-    border: .1em solid red;
+    border: .1em solid #00008b;  /* dark blue */
     box-shadow: 3px 3px 4px #00008b;  /* dark blue */
     cursor: pointer;
   }
