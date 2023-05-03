@@ -1,4 +1,10 @@
 #  Module 4: Layout and positioning   4.1 Introduction
+<p>In this module, we're going to talk about layout and positioning using CSS.</p>
+<p>We're going to start by understanding the ‘Box model’ or the white space around each and every HTML element.</p>
+<p>Then we're going to learn about ‘Relative positioning’.
+<p>That's how you position your elements on the page in relation to one another, so that no matter what screen you're looking at, it all looks nice. 
+<p>Then finally, we're going to learn about the ‘Float property’, a way for you to pick up an HTML element and move it around on the page, so you get more of a balance between the left and the right.
+<p>We're going to combine all these things together, so you can make a balanced well-designed Web page.</p>
 
 # Welcome to Module 4
 
