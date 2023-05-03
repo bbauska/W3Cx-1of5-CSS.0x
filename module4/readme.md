@@ -29,7 +29,7 @@ We discussed how to adjust the white space of these areas in Module 2.5, but in 
 <!------------------------------------------------------------------------------------------------>
 <p align="center" width="100%">
 <img src="../images/image077.png?raw=true"
-   width="35%"
+   width="75%"
    alt="Element, padding, border and margin." />
 </p>
 
