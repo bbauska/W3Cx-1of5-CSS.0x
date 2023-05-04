@@ -200,7 +200,7 @@ and the following two symbols end my comment */
 As you can see, you can put as much text between the open and close symbols as you need, you can even have multiple lines. If you are working in an editor like Visual Studio code, you will notice that when you turn text into a comment, it turns green to indicate that the computer ignores that code.
 
 <p align="center" width="100%">
-<img src="./images/image022.png"
+<img src="../images/image022.png"
   width="35%"
   alt="An image of visual studio code comments." />
 </p>
@@ -230,7 +230,7 @@ Remember: to do this, you will need to give it a .html file extension when you a
 Once you have your HTML document view it in a Web browser. It should look like this:
 
 <p align="center" width="100%">
-<img src="./images/image023.png"
+<img src="../images/image023.png"
   width="35%"
   alt="An image of 'Hello Beautiful World' in a web browser with black text." />
 </p>
@@ -260,7 +260,7 @@ To do this:
 Now change the HTML and CSS files so that it says “Hello <your name>, welcome to my first CSS Web page” in your favorite color! Here’s what mine looks like:
 
 <p align="center" width="100%">
-<img src="./images/image024.png"
+<img src="../images/image024.png"
   width="35%"
   alt="An image of Hello Kasey in green text." />
 </p>
