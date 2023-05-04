@@ -119,7 +119,7 @@ Right click menu in Edge Web browser:
 
 <p align="center" width="100%">
 <img src="../images/image020.png"
-  width="65%"
+  width="100%"
   alt="Inspect Element: Inspect and view source." />
 </p>
 
