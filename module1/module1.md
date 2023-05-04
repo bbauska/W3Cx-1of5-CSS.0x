@@ -118,7 +118,7 @@ In the above demo, you saw me using what is called the "developer tool" within m
 Right click menu in Edge Web browser:
 
 <p align="center" width="100%">
-<img src="https://github.com/bbauska/W3Cx-1of5/blob/master/images/image020.png?raw=true"
+<img src="../images/image020.png"
   width="65%"
   alt="Inspect Element: Inspect and view source." />
 </p>
@@ -178,7 +178,7 @@ Here is the HTML part:
 ... and here is the "output":
 
 <p align="center" width="100%">
-<img src="./images/image021.png"
+<img src="../images/image021.png"
   width="35%"
   alt="Blue Helvetica text 'Hello Beautiful World' in a browser window." />
 </p>
