@@ -43,7 +43,18 @@ color: #333;  /* very dark gray */
 pre, code {
   font-family: monospace, monospace;
   font-size: 10px;
-}
+  padding:10px;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  webkit-box-sizing:border-box;
+  display:block; 
+  white-space: pre-wrap;  
+  white-space: -moz-pre-wrap; 
+  white-space: -pre-wrap; 
+  white-space: -o-pre-wrap; 
+  word-wrap: break-word; 
+  width:65%; overflow-x:auto;  /* 75% */
+ }
 
 pre {
   overflow: auto;
