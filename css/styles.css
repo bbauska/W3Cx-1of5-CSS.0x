@@ -14,7 +14,7 @@ font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucid
 /*** summary / details ***/
   details {
     font: 11px Inter, sans-serif, Bahnschrift, Calibri;
-    width: 45%;
+    width: 85%;  /* 45% */
   }
   details > summary {
     padding: 2px 6px;
@@ -43,7 +43,7 @@ color: #333;  /* very dark gray */
 pre, code {
   font-family: monospace, monospace;
   font-size: 10px;
-  padding:10px;
+  padding:5px;  /* 30px, 10px */
   box-sizing:border-box;
   -moz-box-sizing:border-box;
   webkit-box-sizing:border-box;
@@ -53,7 +53,7 @@ pre, code {
   white-space: -pre-wrap; 
   white-space: -o-pre-wrap; 
   word-wrap: break-word; 
-  width:65%; overflow-x:auto;  /* 75% */
+  width:85%; overflow-x:auto;  /* 75% */
  }
 
 pre {
