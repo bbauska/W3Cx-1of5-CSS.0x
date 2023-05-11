@@ -717,17 +717,16 @@ A style sheet language for describing how to display an HTML document.</p>
 <h4>Sample CSS document:</h4>
 
 <pre>body {
-   background-color: #d0e4fe;
+  background-color: #d0e4fe;
 }
 h1 {
-   color: orange;
-   text-align: center;
+  color: orange;
+  text-align: center;
 }
 p {
-   font-family: &quot;Times New Roman&quot;;
-   font-size: 20px;
- }
- </pre>
+  font-family: &quot;Times New Roman&quot;;
+  font-size: 20px;
+}</pre>
 
 <h4>
 HTML • /eɪʧ-ti-ɛm-ɛl/ • noun
@@ -748,8 +747,7 @@ to present it properly to the viewer. It is a standardized way to describe a doc
   &lt;body&gt;
     &lt;p&gt; This is an HTML document &lt;/p&gt;
   &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+&lt;/html&gt;</pre>
 
 <h2>
 Web page • /wɛb peɪʤ/ • noun
@@ -1074,25 +1072,23 @@ this demo.</p>
 
 <pre>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;meta charset=&quot;utf-8&quot;&gt;
-        &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;p&gt;
-            hello beautiful world
-        &lt;/p&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      hello beautiful world
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre>
 
 <h4>… and the CSS file (style.css) is:</h4>
 
 <pre>p {
   color: blue;
   font-family:Helvetica;
-}
-</pre>
+}</pre>
 
 <p>... and here is the "output":</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1119,8 +1115,7 @@ of <em>slashes</em> and <em>asterisks</em> like so:</p>
 
 <pre>/* those two symbols start my comment block
 I can have more comment text here
-and the following two symbols end my comment */
-</pre>
+and the following two symbols end my comment */</pre>
 
 <p>As you can see, you can put as much text between the open and close
 symbols as you need, you can even have multiple lines. If you are
@@ -1150,15 +1145,14 @@ it index.html</p>
 <pre>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
-     &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
   &lt;/head&gt;
   &lt;body&gt;
-     &lt;p&gt;
-        Hello Beautiful World
-     &lt;/p&gt;
+    &lt;p&gt;
+      Hello Beautiful World
+    &lt;/p&gt;
   &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+&lt;/html&gt;</pre>
 
 <p>Once you have your HTML document view it in a Web browser. It should
 look like this:</p>
@@ -1175,9 +1169,8 @@ Beautiful World" demo. Make a new file with this css and save it with a
 .css file extension. For example, you can call it styles.css</p>
 
 <pre>p {
-    color: blue;
-}
-</pre>
+  color: blue;
+}</pre>
 
 <p>This won’t change the look of your HTML until you link the two files
 with this HTML tag.</p>
@@ -1189,8 +1182,7 @@ with this HTML tag.</p>
   <li><p>add the linking code to the HTML header (that means after the &lt;head&gt; tag and before the &lt;/head&gt; tag). If your css is called "styles.css", here is what it would look like:</p></li>
 </ul>
 
-<pre>&lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot;&gt;
-</pre>
+<pre>&lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot;&gt;</pre>
 
 <p>Now change the HTML and CSS files so that it says “Hello &lt;your
 name&gt;, welcome to my first CSS Web page” in your favorite color!
@@ -1318,9 +1310,8 @@ tag after content like so:</p>
 
 <pre>
 &lt;tagname&gt;
-    My content
-&lt;/tagname&gt;
-</pre>
+  My content
+&lt;/tagname&gt;</pre>
 
 <p>When these three pieces are combined (start tag, content, and end
 tag), you have what is called an HTML <strong>element</strong>. </p>
@@ -1331,16 +1322,15 @@ tag), you have what is called an HTML <strong>element</strong>. </p>
   
 <pre>&lt;!DOCTYPE html&gt; &lt;!-- Doctype declares the document to be HTML 5 type--&gt;
 &lt;html lang=&quot;en&quot;&gt; &lt;!--All your HTML content must be within this tag--&gt;
-   &lt;head&gt; &lt;!--Anything in the header provides information about the document, no content here--&gt;
-      &lt;meta charset=&quot;utf-8&quot;&gt;
-      &lt;title\&gt;Page Title&lt;/title&gt; &lt;!--This text will show up on the tab of the browser for this page--&gt;
-   &lt;/head&gt; &lt;!--end for the header section--\&gt;
-   &lt;body&gt; &lt;!--start tag for the body section, this is where to put all your content to be displayed--&gt;
-      &lt;h1&gt;My First Heading&lt;/h1&gt; &lt;!--content in a h1 tag is a &quot;heading&quot; of the top level--&gt;
-      &lt;p&gt;My first paragraph.&lt;/p&gt; &lt;!--content in a p tag is normal or &quot;paragraph&quot; level text--&gt;
-   &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+  &lt;head&gt; &lt;!--Anything in the header provides information about the document, no content here--&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;Page Title&lt;/title&gt; &lt;!--This text will show up on the tab of the browser for this page--&gt;
+  &lt;/head&gt; &lt;!--end for the header section--\&gt;
+  &lt;body&gt; &lt;!--start tag for the body section, this is where to put all your content to be displayed--&gt;
+    &lt;h1&gt;My First Heading&lt;/h1&gt; &lt;!--content in a h1 tag is a &quot;heading&quot; of the top level--&gt;
+    &lt;p&gt;My first paragraph.&lt;/p&gt; &lt;!--content in a p tag is normal or &quot;paragraph&quot; level text--&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -1365,8 +1355,7 @@ they don't come in an open/close pair. Typically, self-closing tags
 insert content into your page as opposed to surround content. They look
 like this:</p>
 
-<pre>&lt;img src=&quot;images/pic1.png&quot; alt=&quot;pic1&quot; /&gt;
-</pre>
+<pre>&lt;img src=&quot;images/pic1.png&quot; alt=&quot;pic1&quot; /&gt;</pre>
 
 <p>These types of tags rely on "attributes", these are added modifiers
 on the tag that have their own values. In the above example, we use the
@@ -1403,11 +1392,10 @@ declared here.</p>
 
 <pre>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
-   &lt;body&gt;
-      &lt;p&gt; Hello World&lt;/p&gt;
-   &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+  &lt;body&gt;
+    &lt;p&gt; Hello World&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre>
 
 <h4>&lt;head&gt;</h4>
 
@@ -1428,15 +1416,14 @@ alphabet.</p>
 
 <pre>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
-   &lt;head&gt;
-      &lt;meta charset=&quot;utf-8&quot;&gt;
-      &lt;title&gt;My First Page&lt;/title&gt;
-   &lt;/head&gt;
-   &lt;body&gt;
-      &lt;p&gt; Hello World&lt;/p&gt;
-   &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;My First Page&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt; Hello World&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -1453,16 +1440,15 @@ tag per document and it should come after the head tag.</p>
   
 <pre>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
-   &lt;head&gt;
-      &lt;meta charset=&quot;utf-8&quot;&gt;
-      &lt;title&gt;My First Page&lt;/title&gt;
-      &lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot;&gt;
-   &lt;/head&gt;
-   &lt;body&gt;
-      &lt;p&gt; Hello World&lt;/p&gt;
-   &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;My First Page&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot;&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt; Hello World&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -1474,17 +1460,16 @@ physically separated from adjacent blocks through blank lines. This is
 the most basic way to group text content.</p>
 
 <pre>&lt;p&gt;
-   This is my introductory paragraph to my Web page! This text will wrap around in a single block and then after the paragraph is done there will be a line of white space.
-&lt;/p&gt;
-</pre>
+  This is my introductory paragraph to my Web page! This text will wrap around in a single block 
+  and then after the paragraph is done there will be a line of white space.
+&lt;/p&gt;</pre>
 
 <h4>&lt;a&gt;</h4>
 
 <p>[<a href="https://www.w3.org/TR/html52/textlevel-semantics.html#the-a-element" target="_blank" rel="noopener noreferrer"><em>Documentation</em></a>]</p>
 <p>By surrounding text with an &lt;a&gt; tag you turn it into a hyperlink. You will want to use the "href" attribute to indicate to which target the link should take the user when clicked. The default style of the a tag is to turn the text blue and underlined, and then change the color to purple after you have clicked the link. You can adjust all these styles with CSS.</p>
 
-<pre>&lt;a href=&quot;https://www.microsoft.com&quot;&gt;Microsoft Main Page&lt;/a&gt;
-</pre>
+<pre>&lt;a href=&quot;https://www.microsoft.com&quot;&gt;Microsoft Main Page&lt;/a&gt;</pre>
 
 <h4>&lt;img&gt;</h4>
 
@@ -1494,8 +1479,7 @@ via the "alt" attribute. You will <b>always</b> want to specify the "alt" attr
 if your user is using a screen reader, or will be displayed if the user's browser will not load images.  Note that this is an example of a "self-closing" 
 tag meaning there is no closing tag, you just end the opening tag with a forward slash. </p>
 
-<pre>&lt;img src=&quot;images/proPic.jpg&quot; alt=&quot;a headshot of the instructor&quot; /&gt;
-</pre>
+<pre>&lt;img src=&quot;images/proPic.jpg&quot; alt=&quot;a headshot of the instructor&quot; /&gt;</pre>
 
 <h4>&lt;ul&gt;</h4>
 
@@ -1508,8 +1492,7 @@ the framework for you to add list elements inside it. You will want to add your 
   &lt;li&gt;This is one element in the list&lt;/li&gt;
   &lt;li&gt;One of the elements&lt;/li&gt;
   &lt;li&gt;Another element&lt;/li&gt;
-&lt;/ul&gt;
-</pre>
+&lt;/ul&gt;</pre>
 
 <h4>&lt;ol&gt;</h4>
 
@@ -1524,8 +1507,7 @@ them.</p>
   &lt;li&gt;This is the first element&lt;/li&gt;
   &lt;li&gt;The second element&lt;/li&gt;
   &lt;li&gt;Finally, this is the third element&lt;/li&gt;
-&lt;/ol&gt;
-</pre>
+&lt;/ol&gt;</pre>
 
 <h4>&lt;br /&gt;</h4>
 
@@ -1539,8 +1521,7 @@ represents a carriage return or hitting the "enter" key.</p>
   this is my text.
   &lt;br /&gt;
   this text will appear on the next line down.
-&lt;/p&gt;
-</pre>
+&lt;/p&gt;</pre>
 
 <h4>&lt;header&gt;</h4>
 
@@ -1548,12 +1529,11 @@ represents a carriage return or hitting the "enter" key.</p>
 <p>The header tag is one of the section elements, it's role is to group other HTML elements according to their role on their page. The header element contains all the introductory content on the page typically a title and tagline or navigational elements.</p>
 
 <pre>&lt;body&gt;
-   &lt;header&gt;
-      &lt;h1&gt; Welcome to my page!&lt;/h1&gt;
-      &lt;h2&gt; My very first web page&lt;/h2&gt;
-   &lt;/header&gt;
-&lt;/body&gt;
-</pre>
+  &lt;header&gt;
+    &lt;h1&gt; Welcome to my page!&lt;/h1&gt;
+    &lt;h2&gt; My very first web page&lt;/h2&gt;
+  &lt;/header&gt;
+&lt;/body&gt;</pre>
 
 <h4>&lt;section&gt;</h4>
 
@@ -1565,14 +1545,13 @@ This typically will come after a header tag and before a footer tag.</p>
   <summary>CSS code extract!</summary>
 
 <pre>&lt;body&gt;
-   &lt;header&gt;
-      &lt;h1&gt; My Page &lt;/h1&gt;
-   &lt;/header&gt;
-   &lt;section&gt;
-      &lt;h2&gt; My Blog &lt;/h2&gt;
-   &lt;/section&gt;
-&lt;/body&gt;
-</pre>
+  &lt;header&gt;
+    &lt;h1&gt; My Page &lt;/h1&gt;
+  &lt;/header&gt;
+  &lt;section&gt;
+    &lt;h2&gt; My Blog &lt;/h2&gt;
+  &lt;/section&gt;
+&lt;/body&gt;</pre>
 
 </details>
 
@@ -1586,19 +1565,18 @@ the final content on the page such as the credits or contact info. </p>
   <summary>HTML code extract!</summary>
 
 <pre>&lt;body&gt;
-   &lt;header&gt;
-      &lt;h1&gt;My Page&lt;/h1&gt;
-   &lt;/header&gt;
-   &lt;section&gt;
-      &lt;h2&gt;My Blog&lt;/h2&gt;
-   &lt;/section&gt;
-   &lt;footer&gt;
-      &lt;p&gt;
-         copyright 2016
-      &lt;/p&gt;
-   &lt;/footer&gt;
-&lt;/body&gt;
-</pre>
+  &lt;header&gt;
+    &lt;h1&gt;My Page&lt;/h1&gt;
+  &lt;/header&gt;
+  &lt;section&gt;
+    &lt;h2&gt;My Blog&lt;/h2&gt;
+  &lt;/section&gt;
+  &lt;footer&gt;
+    &lt;p&gt;
+      copyright 2016
+    &lt;/p&gt;
+  &lt;/footer&gt;
+&lt;/body&gt;</pre>
 
 </details>
 
@@ -1611,12 +1589,13 @@ considered a last resort, for when no other element is suitable but is
 often used to collect together large portions of a site that contain
 multiple different types of content. </p>
 
-<pre>&lt;div&gt;
-   &lt;h1&gt; Title for Content &lt;/h1&gt;
-     &lt;img src=&quot;images/contentImage.jpg&quot; /&gt;
-   &lt;p&gt; This is a paragraph explaining this section of content associated with the above image and title &lt;/p&gt;
-&lt;/div&gt;
-</pre>
+<pre>
+&lt;div&gt;
+  &lt;h1&gt; Title for Content &lt;/h1&gt;
+  &lt;img src=&quot;images/contentImage.jpg&quot; /&gt;
+  &lt;p&gt; This is a paragraph explaining this section of content associated with the above image 
+    and title&lt;/p&gt;
+&lt;/div&gt;</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-2-3">2.2.3 Next steps - learn more HTML</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1709,9 +1688,8 @@ first CSS style specifically for a given HTML Web site.</p>
 <p>Here is an example CSS "rule":</p>
 
 <pre>p {
-    color: blue;
-}
-</pre>
+  color: blue;
+}</pre>
 
 <p>This rule tells the browser to make all text within a paragraph tag
 blue. A CSS rule is broken into two parts: the selector and the
@@ -1767,25 +1745,25 @@ you will style:</p>
 
 <pre>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
-   &lt;head&gt;
-      &lt;meta charset=&quot;utf-8&quot;&gt;
-      &lt;title&gt;My HTML page&lt;/title&gt;
-      &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
-   &lt;/head&gt;
-   &lt;body&gt;
-      &lt;h1&gt;My H1 header&lt;/h1&gt;
-      &lt;p&gt; This is a block of text to represent a paragraph that you will want to style. This might be an explanation of the list that follows, 
-      it is all contained within a single paragraph tag.
-      &lt;/p&gt;
-      &lt;ul&gt;
-         &lt;li&gt;This is list item 1&lt;/li&gt;
-         &lt;li&gt;Item 2 in the list&lt;/li&gt;
-         &lt;li&gt;The third item in the list&lt;/li&gt;
-         &lt;li&gt;Item 4 completes the list&lt;/li&gt;
-      &lt;/ul&gt;
-   &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;My HTML page&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;My H1 header&lt;/h1&gt;
+    &lt;p&gt; This is a block of text to represent a paragraph that you will want to style. 
+      This might be an explanation of the list that follows, it is all contained within a 
+	  single paragraph tag.
+    &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;This is list item 1&lt;/li&gt;
+      &lt;li&gt;Item 2 in the list&lt;/li&gt;
+      &lt;li&gt;The third item in the list&lt;/li&gt;
+      &lt;li&gt;Item 4 completes the list&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -1851,23 +1829,20 @@ in mind:</p>
 
 <pre>a {
 /* style for a tags */
-}
-</pre>
+}</pre>
 
 <p>This would affect the style of all link tags on the page.</p>
 
 <pre>p {
 /* style for p tags */
-}
-</pre>
+}</pre>
 
 <p>This would affect the style of all paragraph tags on the page and the
 style of elements contained within the paragraph tag.</p>
 
 <pre>body {
 /* style for all elements in the body */
-}
-</pre>
+}</pre>
 
 <p>This would apply style to the body tag as well as allow the elements
 inside the body tag to inherit certain styles applied here (check the <a
@@ -1887,46 +1862,54 @@ online</a>).</p>
   <summary>CSS code extract!</summary>
 
 <pre>&lt;html lang=&quot;en&quot;&gt;
-   &lt;head&gt;
-      &lt;meta charset=&quot;utf-8&quot;&gt;
-      &lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot;&gt;
-   &lt;/head&gt;
-   &lt;body&gt;
-      &lt;h1&gt;Title&lt;/h1&gt;
-      &lt;p&gt;In unit 2.3, we defined a CSS selector as the portion of the CSS rule that tells the browser on which 
-         HTML element to apply the defined style.
-         &lt;a href=&quot;https://www.microsoft.com&quot;&gt;Click Here!&lt;/a&gt;
-      &lt;/p&gt;
-   &lt;ul&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot;&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Title&lt;/h1&gt;
+    &lt;p&gt;
+	  In unit 2.3, we defined a CSS selector as the portion of the CSS rule that tells 
+	  the browser on which HTML element to apply the defined style.
+      &lt;a href=&quot;https://www.microsoft.com&quot;&gt;Click Here!&lt;/a&gt;
+    &lt;/p&gt;
+    &lt;ul&gt;
       &lt;li&gt;When your HTML is simple, the selectors can be simple as well&lt;/li&gt;
       &lt;li&gt;The most basic selectors simply mirror the HTML tag&lt;/li&gt;
-      &lt;li&gt;For example &quot;p&quot; attaches to all tags, &quot;img&quot; will attach to all tags and so on&lt;/li&gt;
-      &lt;li&gt;As you can imagine, there will often be times&lt;/li&gt;
-      &lt;li&gt;when you don&#39;t want every single HTML element of a particular type to have identical style&lt;/li&gt;
-   &lt;/ul&gt;
-   &lt;p&gt;
- </pre>
+      &lt;li&gt;For example &quot;p&quot; attaches to all tags, &quot;img&quot; will attach 
+	    to all tags and so on&lt;/li&gt;
+	  &lt;li&gt;As you can imagine, there will often be times&lt;/li&gt;
+      &lt;li&gt;when you don&#39;t want every single HTML element of a particular type to have 
+	    identical style&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt; </pre>
  
  </details>
-<p>In Module 3, we’ll discuss a variety of ways to use selectors to attach to specific HTML elements.</p>
-<p>In unit 2.2, we briefly mentioned the fact that properties apply to the entire hierarchy of HTML elements to which they are attached. This means that you will have to be very careful which selectors you choose to use in combination with your chosen style <br></p>
+<p>In Module 3, we’ll discuss a variety of ways to use selectors to attach to specific HTML 
+  elements.</p>
+<p>In unit 2.2, we briefly mentioned the fact that properties apply to the entire hierarchy 
+of HTML elements to which they are attached. This means that you will have to be very careful 
+which selectors you choose to use in combination with your chosen style.</p>
 <p><a href="http://www.w3.org" target="_blank" rel="noopener noreferrer">Check this out</a></p>
-<p>It is possible to independently target every HTML element on the page using selectors, but for this module we are going to stick to basics and only use selectors that match the HTML tag name. For example, here are some example selectors we’ll use in this module:</p>
+<p>It is possible to independently target every HTML element on the page using selectors, 
+but for this module we are going to stick to basics and only use selectors that match the HTML 
+tag name. For example, here are some example selectors we’ll use in this module:</p>
 
 <details>
   <summary>HTML code extract!</summary>
-  
-<pre>   &lt;/p&gt;
-   &lt;ol&gt;
+
+<pre>
+  &lt;/p&gt;
+    &lt;ol&gt;
       &lt;li&gt;This would affect the style of all link tags on the page&lt;/li&gt;
       &lt;li&gt;This would affect the style of all paragraph tags on the page&lt;/li&gt;
       &lt;li&gt;and the style of elements contained within the paragraph tag&lt;/li&gt;
       &lt;li&gt;This would apply style to the body tag&lt;/li&gt;
-      &lt;li&gt;as well as allow the elements inside the body tag to inherit certain styles applied here. &lt;/li&gt;
-   &lt;/ol&gt;
-   &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+      &lt;li&gt;as well as allow the elements inside the body tag to inherit certain styles 
+	    applied here.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -1936,18 +1919,17 @@ online</a>).</p>
   <summary>CSS code extract!</summary>
   
 <pre>body {
-   color: red; /* every element inherits this except a tags, which don&#39;t inhert by default */
+  color: red; /* every element inherits this except a tags, which don&#39;t inherit by default */
  }
 ul {
-   color: blue; /* li elements inherit this color */
+  color: blue; /* li elements inherit this color */
 }
 p {
-   font-style: italic; /*this even the a tags inherit within the paragraphs */
+  font-style: italic; /*this even the a tags inherit within the paragraphs */
 }
 li {
-   text-decoration: line-through; /* applies to all li elements, in both ul and ol tags */
-}
-</pre>
+  text-decoration: line-through; /* applies to all li elements, in both ul and ol tags */
+}</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1964,27 +1946,26 @@ Pen</a>):</p>
 
 <pre>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
-   &lt;head&gt;
-      &lt;meta charset=&quot;utf-8&quot;&gt;
-      &lt;title&gt;My HTML page&lt;/title&gt;
-      &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
-   &lt;/head&gt;
-   &lt;body&gt;
-   &lt;header&gt;
-      &lt;h1&gt; Title &lt;/h1&gt;
-      &lt;h2&gt; sub title &lt;/h2&gt;
-   &lt;/header&gt;
-   &lt;section&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;My HTML page&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;header&gt;
+      &lt;h1&gt; Title &lt;/h1&gt;
+      &lt;h2&gt; sub title &lt;/h2&gt;
+    &lt;/header&gt;
+    &lt;section&gt;
       &lt;p&gt; This is my paragraph text &lt;/p&gt;
       &lt;ul&gt;
          &lt;li&gt; list item 1 &lt;/li&gt;
          &lt;li&gt; list item 2 &lt;/li&gt;
          &lt;li&gt; list item 3 &lt;/li&gt;
       &lt;/ul&gt;
-   &lt;/section&gt;
-   &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+    &lt;/section&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -2015,18 +1996,17 @@ directly to that tag.</p>
   <summary>CSS code extract!</summary>
   
 <pre>body {
-   font-family: &quot;Century Gothic&quot;, sans-serif;
+  font-family: &quot;Century Gothic&quot;, sans-serif;
 }
 header {
-   font-style: italic;
+  font-style: italic;
 }
 section {
-   text-decoration: underline;
+  text-decoration: underline;
 }
 ul {
-   color: green;
-}
-</pre>
+  color: green;
+}</pre>
 
 </details>
 
@@ -2067,8 +2047,7 @@ styles to the top most element and save yourself extra CSS code.</p>
          &lt;/ul&gt;
       &lt;/section&gt;
    &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -2078,18 +2057,17 @@ styles to the top most element and save yourself extra CSS code.</p>
   <summary>CSS code extract!</summary>
 
 <pre>body {
-   font-family: &quot;Century Gothic&quot;, sans-serif;
+  font-family: &quot;Century Gothic&quot;, sans-serif;
 }
 header {
-   font-style: italic;
+  font-style: italic;
 }
 section {
-   text-decoration: underline;
+  text-decoration: underline;
 }
 ul {
-   color: green;
-}
-</pre>
+  color: green;
+}</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2107,10 +2085,9 @@ Instead, you can combine multiple selectors on the same rule like
 so:</p>
 
 <pre>p, ul, ol {
-   color: blue;
-   background-color: pink;
-}
-</pre>
+  color: blue;
+  background-color: pink;
+}</pre>
 
 <p>The comma means that each of these elements should have the same,
 duplicated style. No need to have repeated style! Of course, you could
@@ -2135,21 +2112,20 @@ explores using the comma to combine selectors.</p>
   <summary>CSS code extract!</summary>
 
 <pre>body {
-    color: #660099;
+  color: #660099;
 }
 h1,h2,h3 {
-    font-family: Impact, sans-serif;
+  font-family: Impact, sans-serif;
 }
 ul,ol {
-    font-family: helvetica, sans-serif;
+  font-family: helvetica, sans-serif;
 }
 h2,ul {
-    font-style: italic;
+  font-style: italic;
 }
 h3,ol {
-    text-decoration: underline;
-}
-</pre>
+  text-decoration: underline;
+}</pre>
 
 </details>
 
@@ -2159,27 +2135,26 @@ h3,ol {
   <summary>HTML code extract!</summary>
 
 <pre>&lt;html lang=&quot;en&quot;&gt;
-   &lt;head&gt;
-      &lt;meta charset=&quot;utf-8&quot;&gt;
-      &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
-   &lt;/head&gt;
-   &lt;body&gt;
-      &lt;h1&gt;Title 1&lt;/h1&gt;
-      &lt;h2&gt;Title 2&lt;/h2&gt;
-      &lt;ul&gt;
-         &lt;li&gt;Part of the reason a well structured HTML document is so important&lt;/li&gt;
-         &lt;li&gt;is because HTML elements inherit stylistic properties&lt;/li&gt;
-         &lt;li&gt;You can see it&#39;s basic structure from the way I have formatted the tags with tabbing&lt;/li&gt;
-      &lt;/ul&gt;
-      &lt;h3&gt;Title 3&lt;/h3&gt;
-      &lt;ol&gt;
-         &lt;li&gt;but here is a more visual representation of the hierarchy of tags&lt;/li&gt;
-         &lt;li&gt;Tags that contain other tags are parents&lt;/li&gt;
-         &lt;li&gt;and the tags inside of them are their children in the following tree representation&lt;/li&gt;
-      &lt;/ol&gt;
-   &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Title 1&lt;/h1&gt;
+  &lt;h2&gt;Title 2&lt;/h2&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Part of the reason a well structured HTML document is so important&lt;/li&gt;
+    &lt;li&gt;is because HTML elements inherit stylistic properties&lt;/li&gt;
+    &lt;li&gt;You can see it&#39;s basic structure from the way I have formatted the tags with tabbing&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;h3&gt;Title 3&lt;/h3&gt;
+  &lt;ol&gt;
+    &lt;li&gt;but here is a more visual representation of the hierarchy of tags&lt;/li&gt;
+    &lt;li&gt;Tags that contain other tags are parents&lt;/li&gt;
+    &lt;li&gt;and the tags inside of them are their children in the following tree representation&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2196,15 +2171,14 @@ href="http://codepen.io/w3devcampus/pen/RoKLKE/" target="_blank" rel="noopener n
 
 <pre>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
-   &lt;head&gt;
-      &lt;meta charset=&quot;utf-8&quot;&gt;
-      &lt;title&gt;My HTML page&lt;/title&gt;
-      &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
-   &lt;/head&gt;
-   &lt;body&gt;
-      &lt;h1&gt;Main Title&lt;/h1&gt;
-         &lt;p&gt;
- </pre>
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;title&gt;My HTML page&lt;/title&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Main Title&lt;/h1&gt;
+  &lt;p&gt;</pre>
  
 </details>
 
@@ -2229,21 +2203,20 @@ in mind</p>
   <summary>HTML code extract!</summary>
 
 <pre>&lt;/p&gt;
-   &lt;h2&gt;Sub Title 1&lt;/h2&gt;
-      &lt;ul&gt;
-         &lt;li&gt;How many of these HTML elements are on my page?&lt;/li&gt;
-         &lt;li&gt;Do I want this style to apply to every one of these elements?&lt;/li&gt;
-         &lt;li&gt;What are this HTML element&#39;s children&lt;/li&gt;
-      &lt;/ul&gt;
-   &lt;h2&gt;Sub Title 2&lt;/h2&gt;
-      &lt;ol&gt;
-          &lt;li&gt;and do I want this style to apply to them as well?&lt;/li&gt;
-          &lt;li&gt;Is this element a block element or an inline element&lt;/li&gt;
-          &lt;li&gt;and does this style make sense in that context?&lt;/li&gt;
-       &lt;/ol&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+  &lt;h2&gt;Sub Title 1&lt;/h2&gt;
+  &lt;ul&gt;
+    &lt;li&gt;How many of these HTML elements are on my page?&lt;/li&gt;
+    &lt;li&gt;Do I want this style to apply to every one of these elements?&lt;/li&gt;
+    &lt;li&gt;What are this HTML element&#39;s children&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;h2&gt;Sub Title 2&lt;/h2&gt;
+  &lt;ol&gt;
+    &lt;li&gt;and do I want this style to apply to them as well?&lt;/li&gt;
+    &lt;li&gt;Is this element a block element or an inline element&lt;/li&gt;
+    &lt;li&gt;and does this style make sense in that context?&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -2253,23 +2226,22 @@ in mind</p>
   <summary>CSS code extract!</summary>
 
 <pre>/*selector here*/  {
-    background-color: #ccffcc;
-    color: #336600;
+  background-color: #ccffcc;
+  color: #336600;
 }
 /*selector here*/  {
-    background-color: #336600;
-    color: #ccffcc;
+  background-color: #336600;
+  color: #ccffcc;
 }
 /*selector here*/  {
-    border: 3px solid;
+  border: 3px solid;
 }
 /*selector here*/  {
-    background-color: #ffff99;
+  background-color: #ffff99;
 }
 /*selector here*/  {
-    text-decoration: underline;
-}
-</pre>
+  text-decoration: underline;
+}</pre>
 
 </details>
 
@@ -2302,12 +2274,11 @@ keywords, some numerical input, etc.</p>
 style of value:</p>
 
 <pre>body {
-    background-color: purple; /* key word */
-    color: #FFFFFF; /* HEX code */
-    width: 60%; /* percentage */
-    font-size: 20pt; /* numerical value */
-}
-</pre>
+  background-color: purple; /* key word */
+  color: #FFFFFF; /* HEX code */
+  width: 60%; /* percentage */
+  font-size: 20pt; /* numerical value */
+}</pre>
 
 <p>The above style is put into action in the <a
 href="https://codepen.io/techie4good/pen/bwbLJP" target="_blank" rel="noopener noreferrer">following
@@ -2387,8 +2358,8 @@ everything has that same background color.</p>
 
 <h4>color as a value</h4>
 
-<p>[<a
-href="https://www.w3.org/TR/CSS22/syndata.html#value-def-color" target="_blank" rel="noopener noreferrer"><em>Documentation</em></a>]</p>
+<p>[<a href="https://www.w3.org/TR/CSS22/syndata.html#value-def-color" 
+  target="_blank" rel="noopener noreferrer"><em>Documentation</em></a>]</p>
 <p>These color properties take in a color as their value, and there are
 three different ways you can define that color: keyword, a HEX code or
 an rgb value.</p>
@@ -2401,14 +2372,16 @@ keyword. A keyword is one of the predefined colors like "blue" or
 
 <pre>body {
    background-color: teal; 
-}
-</pre>
+}</pre>
 
 <p>The list of color keywords is: aqua, black, blue, fuchsia, gray,
 green, lime, maroon, navy, olive, orange, purple, red, silver, teal,
 white, and yellow. You can read more about these keyword colors <a
-href="https://www.w3.org/TR/CSS22/syndata.html#value-def-color" target="_blank" rel="noopener noreferrer">here.</a></p>
+href="https://www.w3.org/TR/CSS22/syndata.html#value-def-color" 
+target="_blank" rel="noopener noreferrer">here.</a></p>
+
 <h4>HEX</h4>
+
 <p>A HEX code is a 6 character code to represent the color, giving you a
 lot more options. The 6 characters of the code are broken into 3 sets of
 2, where each set of 2 represents the amount of either red, green or
@@ -2421,8 +2394,7 @@ of the 6 characters like so:</p>
 
 <pre>body {
    background-color: #00CC00; /* green */
-}
-</pre>
+}</pre>
 
 <h4>decimal</h4>
 
@@ -2430,17 +2402,21 @@ of the 6 characters like so:</p>
 
 <pre>body {
    background-color: rgb(0,204,0); /*same green as above*/
-}
-</pre>
+}</pre>
 
 <p>This will give you the same range as HEX values. This method is a
 less common, but it's up to you which method of specifying colors you
 prefer.</p>
 <p>Here are some of the colors you can use, and the three different ways
 you can set their value in the color or color-background property:</p>
-<p><b>maroon</b> #800000<b>red</b> #ff0000<b>orange</b> #ffA500<b>yellow</b> #ffff00<b>olive</b> #808000</p>
-<p><b>purple</b> #800080<b>fuchsia</b> #ff00ff<b>white</b> #ffffff<b>lime</b> #00ff00<b>green</b> #008000</p>
-<p><b>navy</b> #000080<b>blue</b> #0000ff<b>aqua</b> #00ffff<b>teal</b> #008080</p>
+
+<p><b>maroon</b> #800000<b>red</b> #ff0000<b>orange</b> #ffA500
+   <b>yellow</b> #ffff00<b>olive</b> #808000</p>
+<p><b>purple</b> #800080<b>fuchsia</b> #ff00ff<b>white</b> #ffffff
+   <b>lime</b> #00ff00<b>green</b> #008000</p>
+<p><b>navy</b> #000080<b>blue</b> #0000ff<b>aqua</b> #00ffff
+   <b>teal</b> #008080</p>
+
 <p><b>black</b> #000000<b>silver</b> #c0c0c0<b>gray</b> #808080</p>
 <p>You can see these color properties in action using all three
 approaches to setting the value <a
@@ -2457,14 +2433,11 @@ CodePen.</a></p>
   alt="Color palette." >
 
 <ul>
-<li><p>We will discuss how to pick a good color palette for your site in
-Module 5, but in the meantime, <a
-href="https://www.w3.org/wiki/Colour_theory" target="_blank" rel="noopener noreferrer">here is a good wiki article
-from the W3C</a> discussing the general use of colors on the
-Web.</p></li>
-<li><p>More color units are described in the <a
-href="https://www.w3.org/TR/css3-color/#colorunits" target="_blank" rel="noopener noreferrer">CSS Color Module
-Level 3 specification.</a></p></li>
+  <li><p>We will discuss how to pick a good color palette for your site in Module 5, but in the 
+  meantime, <a href="https://www.w3.org/wiki/Colour_theory" target="_blank" rel="noopener noreferrer">
+  here is a good wiki article from the W3C</a> discussing the general use of colors on the Web.</p></li>
+  <li><p>More color units are described in the <a href="https://www.w3.org/TR/css3-color/#colorunits" 
+  target="_blank" rel="noopener noreferrer">CSS Color Module Level 3 specification.</a></p></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-3">2.5.3 Font properties</h3>
@@ -2474,22 +2447,27 @@ Level 3 specification.</a></p></li>
 <h4>font-family</h4>
 
 <p>[<a
-href="https://www.w3.org/TR/css-fonts-4/#font-family-prop" target="_blank" rel="noopener noreferrer"><em>Documentation</em></a>]</p>
+href="https://www.w3.org/TR/css-fonts-4/#font-family-prop" 
+  target="_blank" rel="noopener noreferrer"><em>Documentation</em></a>]</p>
 <p>Since not all fonts are available on all computers (there are
 thousands of fonts, and most are not free), CSS provides a system
 of <em>fallbacks</em>. You list the font that you want first, then any
 fonts that might fill in for the first if it is unavailable, and you
-should end the list with a <em>generic font,</em> of which are:  <b><a
-href="https://www.w3.org/TR/css-fonts/#serif-def" target="_blank" rel="noopener noreferrer">serif</a>, <a
-href="https://www.w3.org/TR/css-fonts/#sans-serif-def" target="_blank" rel="noopener noreferrer">sans-serif</a>, <a
-href="https://www.w3.org/TR/css-fonts/#monospace-def" target="_blank" rel="noopener noreferrer">monospace</a>, <a
-href="https://www.w3.org/TR/css-fonts/#cursive-def" target="_blank" rel="noopener noreferrer">cursive</a></b> and <b><a
-href="https://www.w3.org/TR/css-fonts/#fantasy-def" target="_blank" rel="noopener noreferrer">fantasy</a>.</b></p>
+should end the list with a <em>generic font,</em> of which are:<b><a
+href="https://www.w3.org/TR/css-fonts/#serif-def" target="_blank" 
+  rel="noopener noreferrer">serif</a>, <a
+href="https://www.w3.org/TR/css-fonts/#sans-serif-def" target="_blank" 
+  rel="noopener noreferrer">sans-serif</a>, <a
+href="https://www.w3.org/TR/css-fonts/#monospace-def" target="_blank" 
+  rel="noopener noreferrer">monospace</a>, <a
+href="https://www.w3.org/TR/css-fonts/#cursive-def" target="_blank" 
+  rel="noopener noreferrer">cursive</a></b> and <b><a
+href="https://www.w3.org/TR/css-fonts/#fantasy-def" target="_blank" 
+  rel="noopener noreferrer">fantasy</a>.</b></p>
 
 <pre>p {
-   font-family: Helvetica, Verdana, sans-serif;
-}
-</pre>
+  font-family: Helvetica, Verdana, sans-serif;
+}</pre>
 
 <p>This property sets the font face. There is a collection of Web safe
 fonts that generally each browser has agreed to support, but there are
@@ -2504,18 +2482,17 @@ will just pick any sans-serif font it does support. You should always
 end your font family with fonts that are likely to be supported by the
 browser, this way you are guaranteed to have control over the
 font-family.</p>
-<p>See this <a href="https://www.w3.org/Style/Examples/007/fonts" target="_blank" rel="noopener noreferrer">quick
-reference</a> listing what the fonts look like with different
-properties.</p>
+<p>See this <a href="https://www.w3.org/Style/Examples/007/fonts" 
+  target="_blank" rel="noopener noreferrer">quick reference</a> listing what 
+  the fonts look like with different properties.</p>
 <p>Something to keep in mind: some fonts have names with multiple words
 like "Times New Roman" or "Century Gothic". When using these fonts
 you'll need to surround the entire name with quotes so the browser
 understands that is a single font name like so:</p>
 
 <pre>p {
-   font-family: &quot;Times New Roman&quot;, &quot;New Century Schoolbook&quot;, serif;
-}
-</pre>
+  font-family: &quot;Times New Roman&quot;, &quot;New Century Schoolbook&quot;, serif;
+}</pre>
 
 <h4>font-size</h4>
 
@@ -2523,9 +2500,8 @@ understands that is a single font name like so:</p>
 href="https://www.w3.org/TR/css-fonts-4/#font-size-prop" target="_blank" rel="noopener noreferrer"><em>Documentation</em></a>]</p>
 
 <pre>h1 {
-   font-size: 2.5em;
-}
-</pre>
+  font-size: 2.5em;
+}</pre>
 
 <p>CSS offers a number of different units for expressing length.
 Font-size sets the overall scale of your text. You can use a lot of
@@ -2575,8 +2551,7 @@ href="https://www.w3.org/TR/css-fonts-4/#font-weight-prop" target="_blank" rel="
 
 <pre>p {
    font-weight: bold;
-}
-</pre>
+}</pre>
 
 <p>The weight of a font is the thickness of the letters. You can set
 this property using keywords with which you might be familiar: bold,
@@ -2595,9 +2570,8 @@ how they look at each weight setting.</p>
 href="https://www.w3.org/TR/css-fonts-4/#font-style-prop" target="_blank" rel="noopener noreferrer"><em>Documentation</em></a>]</p>
 
 <pre>p {
-   font-style: italic;
-}
-</pre>
+  font-style: italic;
+}</pre>
 
 <p>The font style property adjusts the angle of the letters in relation
 to the horizontal plane. Italic forms are generally cursive in nature
@@ -2607,18 +2581,20 @@ face.</p>
 <h4>text-decoration</h4>
 
 <p>[<a
-href="https://www.w3.org/TR/css-text-decor-3/#text-decoration-property" target="_blank" rel="noopener noreferrer"><em>Documentation</em></a>]</p>
+href="https://www.w3.org/TR/css-text-decor-3/#text-decoration-property" target="_blank" 
+  rel="noopener noreferrer"><em>Documentation</em></a>]</p>
 
 <pre>p {
-   text-decoration: underline;
-}
-</pre>
+  text-decoration: underline;
+}</pre>
 
-<p>Text-decoration adds a line across your text. You can set this line to be underneath your text, underline, through your text, line-through, or on top, overline.</p>
+<p>Text-decoration adds a line across your text. You can set this line to be underneath your 
+  text, underline, through your text, line-through, or on top, overline.</p>
 
 <h4>Example:</h4>
 
-<p>Here is a <a href="https://codepen.io/w3devcampus/pen/ExNExxq" target="_blank" rel="noopener noreferrer">CodePen exploring each of these styles</a>.</p>
+<p>Here is a <a href="https://codepen.io/w3devcampus/pen/ExNExxq" target="_blank" 
+  rel="noopener noreferrer">CodePen exploring each of these styles</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. text-decoration example (73) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2634,22 +2610,28 @@ href="https://www.w3.org/TR/css-text-decor-3/#text-decoration-property" target="
 
 <pre>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;meta charset=&quot;utf-8&quot;&gt;
-        &lt;title&gt;My HTML page&lt;/title&gt;
-        &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h1&gt;Main title&lt;/h1&gt;
-        &lt;h2&gt;Sub title&lt;/h2&gt;
-        &lt;p&gt;
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacinia consequat nibh, non commodo neque maximus semper. Vivamus non ultricies massa, vel convallis nunc. Aenean tempus risus at orci faucibus, eget hendrerit elit sodales. Quisque imperdiet diam nibh, ut semper enim dapibus et. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean in feugiat neque. Nunc eget libero mauris. Maecenas condimentum luctus nulla.
-
-Nulla a sem orci. Cras eget neque viverra, condimentum nulla et, tincidunt libero. In sit amet quam purus. Aliquam erat volutpat. Sed hendrerit urna quis sapien mattis dictum. Etiam vehicula tortor eu libero finibus dapibus. Mauris nunc neque, sodales nec est sed, gravida convallis sem. Nam vulputate sed est sed eleifend. Quisque sodales elit at ornare vulputate.
-        &lt;/p&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;title&gt;My HTML page&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Main title&lt;/h1&gt;
+    &lt;h2&gt;Sub title&lt;/h2&gt;
+    &lt;p&gt;
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacinia consequat nibh, 
+      non commodo neque maximus semper. Vivamus non ultricies massa, vel convallis nunc. Aenean 
+	  tempus risus at orci faucibus, eget hendrerit elit sodales. Quisque imperdiet diam nibh, 
+	  ut semper enim dapibus et. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+	  Aenean in feugiat neque. Nunc eget libero mauris. Maecenas condimentum luctus nulla.
+      Nulla a sem orci. Cras eget neque viverra, condimentum nulla et, tincidunt libero. 
+	  In sit amet quam purus. Aliquam erat volutpat. Sed hendrerit urna quis sapien mattis 
+	  dictum. Etiam vehicula tortor eu libero finibus dapibus. Mauris nunc neque, sodales 
+	  nec est sed, gravida convallis sem. Nam vulputate sed est sed eleifend. Quisque sodales 
+	  elit at ornare vulputate.
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -2659,21 +2641,20 @@ Nulla a sem orci. Cras eget neque viverra, condimentum nulla et, tincidunt liber
   <summary>CSS code extract!</summary>
 
 <pre>body {
-    font-family: Helvetica, Verdana, sans-serif;
-    font-size: 12pt;
+  font-family: Helvetica, Verdana, sans-serif;
+  font-size: 12pt;
 }
 h1 {
-    font-size: 3em;
-    font-style: italic;
+  font-size: 3em;
+  font-style: italic;
 }
 h2 {
-    font-size: 2em;
-    text-decoration: underline;
+  font-size: 2em;
+  text-decoration: underline;
 }
 p {
-    font-weight: bold;
-}
-</pre>
+  font-weight: bold;
+}</pre>
 
 </details>
 
@@ -2683,8 +2664,10 @@ p {
 more about them here: </p>
 
 <ul>
-  <li><p><a href="https://www.w3.org/TR/css-fonts/" target="_blank" rel="noopener noreferrer">CSS Fonts Module Level 4</a></p></li>
-  <li><p><a href="https://www.w3.org/TR/css-text-decor-4/" target="_blank" rel="noopener noreferrer">CSS Text Decoration Module Level 4</a></p></li>
+  <li><p><a href="https://www.w3.org/TR/css-fonts/" target="_blank" rel="noopener noreferrer">
+    CSS Fonts Module Level 4</a></p></li>
+  <li><p><a href="https://www.w3.org/TR/css-text-decor-4/" target="_blank" rel="noopener noreferrer">
+    CSS Text Decoration Module Level 4</a></p></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-4">2.5.4 Spacing properties</h3>
@@ -2724,9 +2707,8 @@ around the content is broken into three distinct regions. </p>
 href="https://www.w3.org/TR/CSS2/box.html#propdef-padding-top" target="_blank" rel="noopener noreferrer"><em>Documentation</em></a>]</p>
 
 <pre>p {
-   padding: 20px;
-}
-</pre>
+  padding: 20px;
+}</pre>
 
 <p>"Padding" is the white space that sits closest to an HTML element.
 Many elements already have a default padding defined. For
@@ -2747,9 +2729,8 @@ demonstrates all these different ways to set padding</a>.</p>
 href="https://www.w3.org/TR/css3-background/#borders" target="_blank" rel="noopener noreferrer"><em>Documentation</em></a>]</p>
 
 <pre>p {
-   border: 1px black solid;
-}
-</pre>
+  border: 1px black solid;
+}</pre>
 
 <p>The "border" is the area outside the padding of an HTML element. By
 default, borders are set to be empty, but you can set their width,
@@ -2766,9 +2747,8 @@ into a single simple property and value set.</p>
 href="https://www.w3.org/TR/CSS2/box.html#propdef-margin" target="_blank" rel="noopener noreferrer"><em>Documentation</em></a>]</p>
 
 <pre>p {
-   margin-bottom: 50px;
-}
-</pre>
+  margin-bottom: 50px;
+}</pre>
 
 <p>An HTML element's "margin" is the white space that sits outside the
 border. Margins of HTML elements interact with one another on the page
@@ -2800,33 +2780,32 @@ exploring padding, border and margin</a>.</p>
   <summary>CSS code extract!</summary>
 
 <pre>body {
-    background-color: #99ffff;
-    margin-top: 20px;
-    margin-left: 70px;
+  background-color: #99ffff;
+  margin-top: 20px;
+  margin-left: 70px;
 }
 h1 {
-    background-color: #ff6699;
-    border-bottom: 20px #ff0066 solid;
-    margin-bottom: 10px;
-    padding: 5px;
+  background-color: #ff6699;
+  border-bottom: 20px #ff0066 solid;
+  margin-bottom: 10px;
+  padding: 5px;
 }
 ul {
-    background-color: #ff9933;
-    border-left: 5px black dashed;
-    margin: 50px;
+  background-color: #ff9933;
+  border-left: 5px black dashed;
+  margin: 50px;
 }
 li {
-    background-color: #ffcc66;
-    margin: 10px;
-    padding: 10px;
+  background-color: #ffcc66;
+  margin: 10px;
+  padding: 10px;
 }
 p {
-    background-color: #ccff99;
-    border: 10px white double;
-    padding: 0px;
-    margin: 0px;
-}
-</pre>
+  background-color: #ccff99;
+  border: 10px white double;
+  padding: 0px;
+  margin: 0px;
+}</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2852,33 +2831,38 @@ href="https://codepen.io/w3devcampus/pen/WNozNxK" target="_blank" rel="noopener 
 
 <pre>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
-    &lt;head&gt;
-        &lt;meta charset=&quot;utf-8&quot;&gt;
-        &lt;title&gt;My HTML page&lt;/title&gt;
-        &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h1&gt;Adding Properties&lt;/h1&gt;
-        &lt;h2&gt;Using Colors, Fonts and Spacing&lt;/h2&gt;
-        &lt;p&gt;          
-           There is a huge array of different aspects you can style: color, font, size, spacing and much more! For a complete list of official CSS properties,
-	   please check: https://www.w3.org/Style/CSS/all-properties#list or https://meiert.com/en/indices/css-properties/
-        &lt;/p&gt;
-        &lt;ol&gt;
-           &lt;li&gt;Make sure to look up what the available values are before using a property&lt;/li&gt;
-           &lt;li&gt;because if the browser doesn&#39;t understand your value it will typically just skip applying any style&lt;/li&gt;
-           &lt;li&gt;This is where programs like Visual Studio Code come in handy&lt;/li&gt;
-           &lt;li&gt;because as you type out the property the program will automatically suggest possible values for you &lt;/li&gt;
-           &lt;li&gt;Sometimes the easiest way to learn about different properties is to explore the style on one of your favorite websites&lt;/li&gt;
-        &lt;/ol&gt;
-        &lt;p&gt;     
-           If you aren&#39;t sure how to do this refer to the demo in unit 1.3 to see this in action while inspecting CSS Zen Garden designs.
-	   As you can see, the browser tools display the value of the properties, and if you click into that space it will even give you some of the different
-	   value options and you can even change them and watch the Web site update dynamically.
-        &lt;/p&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;title&gt;My HTML page&lt;/title&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Adding Properties&lt;/h1&gt;
+  &lt;h2&gt;Using Colors, Fonts and Spacing&lt;/h2&gt;
+  &lt;p&gt;          
+    There is a huge array of different aspects you can style: color, font, size, spacing and much 
+	more! For a complete list of official CSS properties, please check: 
+	https://www.w3.org/Style/CSS/all-properties#list or https://meiert.com/en/indices/css-properties/
+  &lt;/p&gt;
+  &lt;ol&gt;
+    &lt;li&gt;Make sure to look up what the available values are before using a property&lt;/li&gt;
+    &lt;li&gt;because if the browser doesn&#39;t understand your value it will typically just skip 
+      applying any style&lt;/li&gt;
+    &lt;li&gt;This is where programs like Visual Studio Code come in handy&lt;/li&gt;
+    &lt;li&gt;because as you type out the property the program will automatically suggest possible 
+      values for you &lt;/li&gt;
+    &lt;li&gt;Sometimes the easiest way to learn about different properties is to explore the style 
+	on one of your favorite websites&lt;/li&gt;
+  &lt;/ol&gt;
+  &lt;p&gt;
+     If you aren&#39;t sure how to do this refer to the demo in unit 1.3 to see this in action while 
+	 inspecting CSS Zen Garden designs.
+     As you can see, the browser tools display the value of the properties, and if you click into that 
+	 space it will even give you some of the different value options and you can even change them and 
+	 watch the Web site update dynamically.
+  &lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -2902,7 +2886,8 @@ p {
 
 </details>
 
-<p>These CSS rules have selectors, but no properties. For this activity, it is up to you to add the correct properties and set their values appropriately to achieve this final style:</p>
+<p>These CSS rules have selectors, but no properties. For this activity, it is up to you to add the 
+correct properties and set their values appropriately to achieve this final style:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 43. adding properties (80) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2998,8 +2983,7 @@ example of using too many different aspects of font for emphasis:</p>
     font-variant: small-caps;
     font-weight: bold;
     text-decoration: underline;
-}
-</pre>
+}</pre>
 
 </details>
 
@@ -3022,21 +3006,21 @@ appear more prominent than the body text. </p>
   <summary>CSS code extract!</summary>
 
 <pre>#design1 {
-    background-color: #F4F4F4;
-    font-family: &quot;Lucida Sans Unicode&quot;, sans-serif;
+  background-color: #F4F4F4;
+  font-family: &quot;Lucida Sans Unicode&quot;, sans-serif;
 }
  
 #design1 h1 {
-    color: #C0B283;
-    font-size: 4em;
-    font-weight: 700;
-    font-family: Garamond;
-    width: 300px;
+  color: #C0B283;
+  font-size: 4em;
+  font-weight: 700;
+  font-family: Garamond;
+  width: 300px;
 }
  
 #design1 p {
-    color: #373737;
-    font-size: 1.2em;
+  color: #373737;
+  font-size: 1.2em;
 }</pre>
 
 </details>
@@ -3059,21 +3043,20 @@ sans-serif, thin font with high contrast colors.</p>
   <summary>CSS code extract!</summary>
 
 <pre>#design2 {
-   font-family: Century Gothic, sans-serif;
-   background-color: #0E0B16;
+  font-family: Century Gothic, sans-serif;
+  background-color: #0E0B16;
 }
  
 #design2 h1 {
-   font-weight: 400;
-   font-size: 2.3em;
-   color: #A239CA;
-   font-style: italic;
+  font-weight: 400;
+  font-size: 2.3em;
+  color: #A239CA;
+  font-style: italic;
 }
  
 #design2 p {
-   color: #E7DFDD;
-}
-</pre>
+  color: #E7DFDD;
+}</pre>
 
 </details>
 
@@ -3096,23 +3079,22 @@ separately and giving it a bottom border. </p>
   <summary>CSS code extract!</summary>
 
 <pre>#design3 {
-   color: #DF744A;
-   font-family: Arial, sans-serif;
+  color: #DF744A;
+  font-family: Arial, sans-serif;
 }
 #design3 h1 {
-   background-color: #BFD8D2;
-   text-align: center;
-   font-size: 4em;
-   font-weight: 100;
-   padding: 30px;
-   border-bottom: 5px #DCB239 solid;
-   font-family: Helvetica, sans-serif;
+  background-color: #BFD8D2;
+  text-align: center;
+  font-size: 4em;
+  font-weight: 100;
+  padding: 30px;
+  border-bottom: 5px #DCB239 solid;
+  font-family: Helvetica, sans-serif;
 }
 #design3 p {
-   background-color: #FEDCD2;
-   padding: 50px;
-}
-</pre>
+  background-color: #FEDCD2;
+  padding: 50px;
+}</pre>
 
 </details>
 
@@ -3163,19 +3145,18 @@ background and the body text.</p>
   <summary>CSS code extract!</summary>
 
 <pre>#design1 {
-   background-color: #94618E;
-   color: #F8EEE7;
-   font-family: Corbel;
+  background-color: #94618E;
+  color: #F8EEE7;
+  font-family: Corbel;
 }
 #design1 button {
-   background-color: #F4DECB;
-   padding: 10px 25px;
-   border: 5px solid #F8EEE7;
-   color: #49274A;
-   font-weight: bold;
-   font-size: 1.2em;
- }
-</pre>
+  background-color: #F4DECB;
+  padding: 10px 25px;
+  border: 5px solid #F8EEE7;
+  color: #49274A;
+  font-weight: bold;
+  font-size: 1.2em;
+ }</pre>
 
 </details>
 
@@ -3212,8 +3193,7 @@ designing</a>).</p>
    padding: 10px 50px;
    font-family: Impact, sans-serif;
    font-size: 1.3em;
-}
-</pre>
+}</pre>
 
 </details>
 
@@ -3246,8 +3226,7 @@ button rounded corners.</p>
    border: 7px #EC576B solid;
    border-radius: 20px;
    font-size: 0.8em;
-}
-</pre>
+}</pre>
 
 </details>
 
@@ -3409,23 +3388,22 @@ crucially important to making sure that you get the most out of CSS.</p>
   <summary>CSS code extract!</summary>
 
 <pre>p {
-   color: white;
-   background-color: midnightblue;
-   font-size: large;
+  color: white;
+  background-color: midnightblue;
+  font-size: large;
 }
 .middle {
-   color: darkviolet;
-   background-color: lightgray;
-   padding-left: 120px;
-   padding-right: 120px;
-   font-size: large;
+  color: darkviolet;
+  background-color: lightgray;
+  padding-left: 120px;
+  padding-right: 120px;
+  font-size: large;
 }
 #bottom {
-   background-color: transparent;
-   color: black;
-   font-family: &#39;Franklin Gothic Medium&#39;;
-}
-</pre>
+  background-color: transparent;
+  color: black;
+  font-family: &#39;Franklin Gothic Medium&#39;;
+}</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3472,16 +3450,16 @@ type.</p>
 
 <h4>Classes</h4>
 
-<p>[<a
-href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class" target="_blank" rel="noopener noreferrer">Definition</a> and <a
-href="https://www.w3.org/TR/html52/dom.html#element-attrdef-global-class" target="_blank" rel="noopener noreferrer">documentation</a>]</p>
+<p>[<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class" 
+target="_blank" rel="noopener noreferrer">Definition</a> and <a href=
+"https://www.w3.org/TR/html52/dom.html#element-attrdef-global-class" 
+target="_blank" rel="noopener noreferrer">documentation</a>]</p>
 <p>A class is an HTML attribute that specifies a name for a group of
 elements on the page. You can apply the class name to as many elements
 as you like, even if they are of different HTML tag types.</p>
 <p>You can use the class name as the selector, like so:</p>
 
-<pre>&lt;p class=&quot;className&quot;&gt;The intro paragraph&lt;/p&gt;
-</pre>
+<pre>&lt;p class=&quot;className&quot;&gt;The intro paragraph&lt;/p&gt;</pre>
 
 <p>Class names must be single words, but you can include digits and
 dashes as long as the name begins with a letter. Note that names are
@@ -3490,23 +3468,22 @@ case sensitive. </p>
 ("."), like in the code below:</p>
 
 <pre>.className {
-   color: blue;
-}
-</pre>
+  color: blue;
+}</pre>
 
 <h4>IDs</h4>
 
-<p>[<a
-href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id" target="_blank" rel="noopener noreferrer">Definition</a> and <a
-href="https://www.w3.org/TR/html52/dom.html#element-attrdef-global-id" target="_blank" rel="noopener noreferrer">documentation</a>]</p>
+<p>[<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id" 
+  target="_blank" rel="noopener noreferrer">Definition</a> and <a href="https://www.w3.org/TR/html52/dom.html#element-attrdef-global-id" 
+  target="_blank" rel="noopener noreferrer">documentation</a>]</p>
+
 <p>An ID is an HTML attribute that specifies a name or unique identifier
 for a particular HTML element. They are like classes with a very
 important distinction: the value of the ID attribute must be unique
 throughout the document. This lets you target a single HTML element for
 styling. You set the id of an HTML element like so:</p>
 
-<pre>&lt;p id=&quot;MyFirstId&quot;&gt; This is an extra special paragraph &lt;/p&gt;
-</pre>
+<pre>&lt;p id=&quot;MyFirstId&quot;&gt; This is an extra special paragraph &lt;/p&gt;</pre>
 
 <p>ID names have the same rules as class names: start with a letter, can
 include numbers and dashes, no spaces. The way to create a selector for
@@ -3515,9 +3492,8 @@ you replace the period with a hash symbol ("#") like in the code
 below:</p>
 
 <pre>#MyFirstId {
-   color: blue;
-}
-</pre>
+  color: blue;
+}</pre>
 
 <h4>Example</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3536,46 +3512,57 @@ below:</p>
   
 <pre>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
-    &lt;head\&gt;
-        &lt;meta charset=&quot;utf-8&quot;&gt;
-        &lt;title&gt;Classes and IDs&lt;/title&gt;
-        &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h1&gt;Classes and IDs&lt;/h1&gt;
-        &lt;p id=&quot;intro&quot;&gt;
-            Classes and IDs are &quot;attribute selectors&quot;. This means that you can attach style to HTML elements based on that element&#39;s attributes. This empowers you to apply different style to items of the same HTML type.
-        &lt;/p&gt;
-        &lt;p class=&quot;odd&quot;&gt;
-            Classes are an HTML attribute that specifies a name for a group of elements on the page. You can apply the class name to as many elements as you like, even if they are of different HTML tag types. You can use the class name with a period in front as the selector.
-        &lt;/p&gt;
-        &lt;p class=&quot;even&quot;&gt;
-            Class names must be single words, but you can include digits and dashes as long as the name begins with a letter. Note that names are case sensitive.
-        &lt;/p&gt;
-        &lt;p class=&quot;odd&quot;&gt;
-            An ID is an HTML attribute that specifies a name or unique identifier for a particular HTML element. They are like classes with a very important distinction: the value of the ID attribute must be unique throughout the document. This lets you target a single HTML element for styling.
-        &lt;/p&gt;
-        &lt;p class=&quot;even&quot;&gt;
-            ID names have the same rules as class names: start with a letter, can include numbers and dashes, no spaces. The way to create a selector for an ID is also similar to how you create a selector for a class, except you replace the period with a hash symbol (&quot;#&quot;).
-        &lt;/p&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;title&gt;Classes and IDs&lt;/title&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Classes and IDs&lt;/h1&gt;
+  &lt;p id=&quot;intro&quot;&gt;
+    Classes and IDs are &quot;attribute selectors&quot;. This means that 
+    you can attach style to HTML elements based on that element&#39;s 
+	attributes. This empowers you to apply different style to items of 
+	the same HTML type.
+  &lt;/p&gt;
+  &lt;p class=&quot;odd&quot;&gt;
+    Classes are an HTML attribute that specifies a name for a group of 
+    elements on the page. You can apply the class name to as many elements 
+	as you like, even if they are of different HTML tag types. 
+	You can use the class name with a period in front as the selector.
+  &lt;/p&gt;
+  &lt;p class=&quot;even&quot;&gt;
+    Class names must be single words, but you can include digits and dashes 
+    as long as the name begins with a letter. Note that names are case sensitive.
+  &lt;/p&gt;
+  &lt;p class=&quot;odd&quot;&gt;
+    An ID is an HTML attribute that specifies a name or unique identifier for a 
+    particular HTML element. They are like classes with a very important 
+	distinction: the value of the ID attribute must be unique throughout 
+	the document. This lets you target a single HTML element for styling.
+  &lt;/p&gt;
+  &lt;p class=&quot;even&quot;&gt;
+    ID names have the same rules as class names: start with a letter, can include 
+    numbers and dashes, no spaces. The way to create a selector for an ID is also 
+	similar to how you create a selector for a class, except you replace the period 
+	with a hash symbol (&quot;#&quot;).
+  &lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
 
 </details>
 
 <h4>CSS code:</h4>
 
 <pre>#intro {
-    color: green;
+  color: green;
 }
 .odd {
-    color: blue;
+  color: blue;
 }
 .even {
-    color: red;
-}
-</pre>
+  color: red;
+}</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-2-2">3.2.2 Activity - Add your own classes and ids</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3585,30 +3572,29 @@ below:</p>
   <summary>CSS code extract!</summary>
 
 <pre>body {
-   background-color: #00ccff;
-   color: white;
-   font-family: Helvetica, sans-serif;
-   margin: 35px 25px 0px 25px;
+  background-color: #00ccff;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  margin: 35px 25px 0px 25px;
 }
 p,h2 {
-   padding: 10px;
+  padding: 10px;
 }
 .topSection{
-   background-color: #3300cc;
-   color: #cccccc;
+  background-color: #3300cc;
+  color: #cccccc;
 }
 .bottomSection {
-   background-color: #cccccc;
-   color: #3300cc;
+  background-color: #cccccc;
+  color: #3300cc;
 }
 #importantItem {
-   text-decoration: underline;
-   color: #99ff99;
+  text-decoration: underline;
+  color: #99ff99;
 }
 #unimportantItem {
-   color: gray;
-}
-</pre>
+  color: gray;
+}</pre>
 
 </details>
 
@@ -3660,10 +3646,9 @@ Here are some of the most popular pseudo-classes.</p>
 href="https://www.w3.org/TR/CSS22/selector.html#link-pseudo-classes" target="_blank" rel="noopener noreferrer">Documentation</a>]</p>
 
 <pre>a:visited {
-   color: gray;
-   font-style: italic;
-}
-</pre>
+  color: gray;
+  font-style: italic;
+}</pre>
 
 <p>These pseudo classes are the ones you are probably most familiar
 with. Even on this page you've probably noticed that <a
@@ -3687,9 +3672,8 @@ good way to encourage a user to click a link and you will often see it
 used in navigation bars.</p>
 
 <pre>li:hover {
-   background-color: yellow;
-}
-</pre>
+  background-color: yellow;
+}</pre>
 
 <p>The focus pseudo class applies when a user has chosen to begin
 interacting with an element, such as when they click into a form input
@@ -3697,18 +3681,16 @@ field so that the input field is then ready to accept keyboard
 input.</p>
 
 <pre>input:focus {
-   background-color: blue;
-}
-</pre>
+  background-color: blue;
+}</pre>
 
 <p>The active pseudo-class applies when an element is activated. This
 happens in the time between when the user clicks their mouse and they
 release it.</p>
 
 <pre>p:active {
-   color: red;
-}
-</pre>
+  color: red;
+}</pre>
 
 <p>You can read more about pseudo-classes in this <a
 href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes" target="_blank" rel="noopener noreferrer">MDN "Pseudo-classes"</a> document.</p>
@@ -3733,49 +3715,48 @@ Pseudoclasses</a>) and the CSS code:</p>
   <summary>CSS code extract!</summary>
 
 <pre>1.  body {
-2.     background-color: #006666;
-3.     color: white;
+2.    background-color: #006666;
+3.    color: white;
 4.  }
 5.  h1 {
-6.     text-decoration: underline;
+6.    text-decoration: underline;
 7.  }
 8.  input {
-9.     border: 3px white solid;
+9.    border: 3px white solid;
 10. }
 11. input {
-12.    border: 3px yellow solid;
+12.   border: 3px yellow solid;
 13. }
 14. input {
-15.    background-color: yellow;
-16.    border: 3px yellow solid;
+15.   background-color: yellow;
+16.   border: 3px yellow solid;
 17. }
 18. button {
-19.    background-color: white;
-20.    color: #006666;
-21.    border: 3px white solid;
+19.   background-color: white;
+20.   color: #006666;
+21.   border: 3px white solid;
 22. }
 23. button {
-24.    background-color: #006666;
-25.    color: white;
+24.   background-color: #006666;
+25.   color: white;
 26. }
 27. button {
-28.    background-color: #33cc99;
+28.   background-color: #33cc99;
 29. }
 30. li {
-31.    background-color: white;
-32.    color: #006666;
+31.   background-color: white;
+32.   color: #006666;
 33. }
 34. li {
-35.    background-color: #33cc99;
-36.    color: white;
+35.   background-color: #33cc99;
+36.   color: white;
 37. }
 38. a {
-39.    color: white;
+39.   color: white;
 40. }
 41. a {
-42.    color: #33cc99;
-43. }
-</pre>
+42.   color: #33cc99;
+43. }</pre>
 
 </details>
 
@@ -3838,15 +3819,13 @@ left. Let's say we have the following HTML:</p>
     &lt;/p&gt;
     &lt;img src=&quot;images/pic4.jpg&quot; alt=&quot;pic 4&quot; /&gt;
   &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+&lt;/html&gt;</pre>
 
 <p>If we applied the following CSS rule then the images INSIDE the paragraph would be set to a width of 100px, but that rule would not apply to the images outside the paragraph.</p>
 
-<pre>  p img {
-    width: 100px;
-  }
-</pre>
+<pre>p img {
+  width: 100px;
+}</pre>
 
 <p>Below is a diagram of the given HTML with the two images that will be styled by the above rule are indicated by the red arrows.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3892,40 +3871,39 @@ the crutch of classes and IDs. </p>
   <summary>CSS code extract!</summary>
 
 <pre>body {
-    font-family: Tahoma, sans-serif;
+  font-family: Tahoma, sans-serif;
 }
 header, article, footer {
-    border: 10px #E9B000 solid;
-    margin: 30px;
+  border: 10px #E9B000 solid;  /* pure (or mostly pure) yellow */
+  margin: 30px;
 }
 h1 {
-    color: #E86E80;
+  color: #E86E80;  /* soft red */
 }
 h1 {
-    background-color: #E86E80;
-    color: #FFFFFF;
+  background-color: #E86E80;  /* soft red */
+  color: #FFFFFF;
 }
 p {
-    background-color: #008F95;
-    color: #FFFFFF;
+  background-color: #008F95;  /* dark cyan */
+  color: #FFFFFF;  /* white */
 }
 p {
-    background-color: #FFFFFF;
-    color: #008F95;
+  background-color: #FFFFFF;  /* white */
+  color: #008F95;  /* dark cyan */
 }
  
 ol {
-    background-color: #E24E43;
-    color: #FFFFFF;
+  background-color: #E24E43;  /* bright red */
+  color: #FFFFFF;  /* white */
 }
 ol {
-   background-color: #FFFFFF;
-    color: #E24E43;
+  background-color: #FFFFFF;  /* white */
+  color: #E24E43;  /* bright red */
 }
 ol {
-    border: 5px solid #E24E43;
-}
-</pre>
+  border: 5px solid #E24E43;  /* bright red */
+}</pre>
 
 </details>
 
@@ -4028,27 +4006,26 @@ Cascading order applies with many overlapping rules:</p>
   <summary>CSS code extract!</summary>
 
 <pre>section {
-   color: red;
+  color: red;
 }
 section section {
-   color: orange;
+  color: orange;
 }
 section section section {
-   color: green;
+  color: green;
 }
 #section {
-   color: blue;
+  color: blue;
 }
 section:hover {
-   color: purple;
+  color: purple;
 }
 section:hover section:hover {
-   color: pink;
+  color: pink;
 }
 section:hover section:hover section:hover {
-   color: yellow;
-}
-</pre>
+  color: yellow;
+}</pre>
 
 </details>
 
@@ -4078,27 +4055,26 @@ section:hover section:hover section:hover {
   <summary>CSS code extract!</summary>
 
 <pre>body {
-    background-color: #F8EEE7;
+  background-color: #F8EEE7;
 }
 p {
-    background-color: #F4DECB;
+  background-color: #F4DECB;
 }
 p {
-    background-color: #94618E;
-    color: #F8EEE7;
+  background-color: #94618E;
+  color: #F8EEE7;
 }
 p {
-    background-color: #49274A;
+  background-color: #49274A;
 }
 p {
-    background-color: #FFFFFF;
-    color: #49274A;
+  background-color: #FFFFFF;
+  color: #49274A;
 }
 p {
-    background-color: #B4DBC0 !important;
-    border: 2px dashed black;
-}
-</pre>
+  background-color: #B4DBC0 !important;
+  border: 2px dashed black;
+}</pre>
 
 </details>
 
@@ -4121,27 +4097,26 @@ specific so that you achieve this final result:</p>
   <summary>CSS code extract!</summary>
 
 <pre>body {
-background-color: #F8EEE7;
+  background-color: #F8EEE7;
 }
 p {
-background-color: #F4DECB;
+  background-color: #F4DECB;
 }
 section p {
-background-color: #94618E;
-color: #F8EEE7;
+  background-color: #94618E;
+  color: #F8EEE7;
 }
 article p {
-background-color: #49274A;
+  background-color: #49274A;
 }
 #specific {
-background-color: #FFFFFF;
-color: #49274A;
+  background-color: #FFFFFF;
+  color: #49274A;
 }
 p:hover {
-background-color: #B4DBC0 !important;
-border: 2px dashed black;
-}
-</pre>
+  background-color: #B4DBC0 !important;
+  border: 2px dashed black;
+}</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4181,10 +4156,9 @@ it is. </p>
 like so:</p>
 
 <pre>img {
-   width: 100px;
-   height: 100px;
-}
-</pre>
+  width: 100px;
+  height: 100px;
+}</pre>
 
 <p>In Module 4, we will discuss width and height in detail, but for the
 purpose of images, know that if you only set one of these two properties
@@ -4216,16 +4190,14 @@ will often see images set as backgrounds or as a link. Remember that you
 can put an &lt;img&gt; tag within an anchor tag to turn it into a link.
 You can also use the background-image CSS property to set an image as a
 background instead of just using a solid color. You can <a
-href="https://www.w3.org/wiki/CSS_background_images" target="_blank" rel="noopener noreferrer">read more about
-background images here</a>. </p>
+href="https://www.w3.org/wiki/CSS_background_images" target="_blank" rel="noopener noreferrer">
+read more about background images here</a>.</p>
 
 <h4>Text in images</h4>
 
 <p>It is best to overlay real text rather than use pixelated text. This
 makes it possible to search, copy and style the text, as well as making
-translation much easier. It also has <a
-href="https://www.w3.org/WAI/tutorials/images/textual/" target="_blank" rel="noopener noreferrer">accessibility
-benefits</a> and makes translation much easier.</p>
+translation much easier. It also has <a href="https://www.w3.org/WAI/tutorials/images/textual/" target="_blank" rel="noopener noreferrer">accessibility benefits</a> and makes translation much easier.</p>
 
 <h4>Examples</h4>
 
@@ -4249,13 +4221,12 @@ like this "Bad Image" example:</p>
 <pre>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
-   &lt;head&gt;
-      &lt;meta charset=&quot;utf-8&quot;&gt;
-   &lt;/head&gt;
-   &lt;body&gt;
-      &lt;div id=&quot;badImg&quot;&gt;
-         &lt;p&gt;
-</pre>
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id=&quot;badImg&quot;&gt;
+    &lt;p&gt;</pre>
 		 
 </details>
 
@@ -4269,8 +4240,7 @@ flow with your other content.</p>
 <pre>         &lt;/p&gt;
       &lt;/div&gt;
    &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+&lt;/html&gt;</pre>
 
 <h4>CSS</h4>
 
@@ -4278,18 +4248,17 @@ flow with your other content.</p>
   <summary>CSS code extract!</summary>
   
 <pre>div {
-   margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 #badImg {
-   background-color: gray;
-   padding: 10px;
-   color: white;
-}
-</pre>
+  background-color: gray;
+  padding: 10px;
+  color: white;
+}</pre>
 
 </details>
 
-<h4>Images 1</h4>
+<h4>Image #1</h4>
 
 <p>This design shows some of the basics in properly incorporating
 images. It uses the colors from the image in the design of the overall
@@ -4309,28 +4278,27 @@ give the image a "polaroid-style" border.</p>
   <summary>CSS code extract!</summary>
 
 <pre>div {
-   margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 #images1 {
-   background-color: #A4D555;
-   padding: 50px;
-   width: 750px;
+  background-color: #A4D555;
+  padding: 50px;
+  width: 750px;
 }
 #images1 p {
-   background-color: #02558B;
-   font-family: &quot;Century Gothic&quot;;
-   font-size: 1.2em;
-   color: white;
-   width: 350px;
-   padding: 30px;
-   float: right;
+  background-color: #02558B;
+  font-family: &quot;Century Gothic&quot;;
+  font-size: 1.2em;
+  color: white;
+  width: 350px;
+  padding: 30px;
+  float: right;
 }
 #images1 img {
-   width: 250px;
-   padding: 15px 15px 50px 15px;
-   background-color: white;
-}
-</pre>
+  width: 250px;
+  padding: 15px 15px 50px 15px;
+  background-color: white;
+}</pre>
 
 </details>
 
@@ -4342,23 +4310,26 @@ give the image a "polaroid-style" border.</p>
 <pre>!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
-   &lt;head&gt;
-      &lt;meta charset=&quot;utf-8&quot;&gt;
-   &lt;/head&gt;
-   &lt;body&gt;
-      &lt;div id=&quot;images1&quot;&gt;
-         &lt;p&gt;
-         One thing that can make a website look cohesive is to choose images that match the design&#39;s existing color palette. Sometimes this can be difficult if you have a lot of content images with lots of colors, but whenever possible try to match images to the colors surrounding it.
-         &lt;/p&gt;
-         &lt;img src=&quot;https://www.w3.org/blog/wp-content/uploads/2021/03/group_calendar-768x627.png&quot; alt=&quot;snapshot of the Dataset    Exchange Working Group Calendar&quot; /&gt;
-      &lt;/div&gt;
-   &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id=&quot;images1&quot;&gt;
+      &lt;p&gt;
+        One thing that can make a website look cohesive is to choose images that match the 
+		design&#39;s existing color palette. Sometimes this can be difficult if you have a 
+		lot of content images with lots of colors, but whenever possible try to match images 
+		to the colors surrounding it.
+      &lt;/p&gt;
+        &lt;img src=&quot;https://www.w3.org/blog/wp-content/uploads/2021/03/group_calendar-768x627.png&quot; 
+		alt=&quot;snapshot of the Dataset Exchange Working Group Calendar&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre>
 
 </details>
 
-<h4>Images 2</h4>
+<h4>Image #2</h4>
 
 <p>This design is an example of an image gallery design. This gives all
 the images the same size and alignment while including plenty of white
@@ -4396,8 +4367,7 @@ photos.</p>
       &lt;img src=&quot;https://www.w3.org/TR/2020/WD-simple-ruby-20200609/img/fig06.svg&quot; alt=&quot;Example of horizontal ruby&quot; /&gt;
     &lt;/div&gt;
   &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -4407,26 +4377,25 @@ photos.</p>
   <summary>CSS code extract!</summary>
 
 <pre>div {
-   margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 #images2 {
-   width: 750px;
-   background-color: #E9E9E9;
-   padding: 30px;
-   font-family: Arial;
+  width: 750px;
+  background-color: #E9E9E9;
+  padding: 30px;
+  font-family: Arial;
 }
 #images2 p {
-   background-color: #99D3DF;
-   padding: 20px 30px;
+  background-color: #99D3DF;
+  padding: 20px 30px;
 }
 #images2 img {
-   width: 200px;
-   padding: 10px;
-   border: 2px #88BBD6 solid;
-   margin: 5px;
-   background-color: white;
-}
-</pre>
+  width: 200px;
+  padding: 10px;
+  border: 2px #88BBD6 solid;
+  margin: 5px;
+  background-color: white;
+}</pre>
 
 </details>
 
@@ -4464,8 +4433,7 @@ simple images to let your content still be easily consumable.</p>
       &lt;/div&gt;
     &lt;/div&gt;
   &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -4475,31 +4443,30 @@ simple images to let your content still be easily consumable.</p>
   <summary>CSS code extract!</summary>
 
 <pre>div {
-margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 #images3 {
-   background-image: url(&#39;https://upload.wikimedia.org/wikipedia/commons/4/45/Big_Cumulonimbus.JPG&#39;);
-   background-repeat: no-repeat;
-   height: 500px;
-   width: 500px;
+  background-image: url(&#39;https://upload.wikimedia.org/wikipedia/commons/4/45/Big_Cumulonimbus.JPG&#39;);
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 500px;
 }
 #images3 p, #clickHere {
-   color: white;
-   font-family: Tahoma;
-   padding: 40px;
+  color: white;
+  font-family: Tahoma;
+  padding: 40px;
 }
 #navBox {
-   width: 220px;
-   margin-left: 30px;
+  width: 220px;
+  margin-left: 30px;
 }
 #clickHere {
-   float: right;
-   padding: 30px 0px;
+  float: right;
+  padding: 30px 0px;
 }
 #clickHere a {
-   color: white;
-}
-</pre>
+  color: white;
+}</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4553,8 +4520,7 @@ to keep in mind when designing forms:</p>
     &lt;/form&gt;
   &lt;/div&gt;
 &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -4564,22 +4530,21 @@ to keep in mind when designing forms:</p>
   <summary>CSS code extract!</summary>
 
 <pre>div {
-   margin-bottom: 50px;
-   height: 400px;
+  margin-bottom: 50px;
+  height: 400px;
 }
 form {
-   padding: 30px;
-   width: 500px;
+  padding: 30px;
+  width: 500px;
 }
 /* Bad Design */
 #uglyForm input {
-   border: 0px;
+  border: 0px;
 }
 #uglyForm button {
-   background-color: white;
-   border: 0px;
-}
-</pre>
+  background-color: white;
+  border: 0px;
+}</pre>
 
 </details>
 
@@ -4634,8 +4599,7 @@ see in action in the Code Pen below:</p>
     &lt;/form&gt;
   &lt;/div&gt;
 &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -4681,8 +4645,7 @@ form {
 #form1 button:hover {
   background-color: #DBC3D0;
   color: white;
-}
-</pre>
+}</pre>
 
 </details>
 
@@ -4723,8 +4686,7 @@ short.</p>
       &lt;/form&gt;
     &lt;/div&gt;
   &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -4734,45 +4696,44 @@ short.</p>
   <summary>CSS code extract!</summary>
 
 <pre>div {
-   margin-bottom: 50px;
-   height: 400px;
+  margin-bottom: 50px;
+  height: 400px;
 }
 form {
-   padding: 30px;
-   width: 500px;
+  padding: 30px;
+  width: 500px;
 }
 /* DESIGN 2 */
 #form2 {
-   background-color: #49274A;
-   font-family: Tahoma;
-   font-variant: small-caps;
+  background-color: #49274A;
+  font-family: Tahoma;
+  font-variant: small-caps;
 }
 #form2 h1 {
-   color: white;
+  color: white;
 }
 #form2 input {
-   background-color: #49274A;
-   border: 1px #828081 solid;
-   padding: 10px;
-   color: #828081;
-   font-variant: small-caps;
-   margin-bottom: 20px;
-   width: 200px;
+  background-color: #49274A;
+  border: 1px #828081 solid;
+  padding: 10px;
+  color: #828081;
+  font-variant: small-caps;
+  margin-bottom: 20px;
+  width: 200px;
 }
 #form2 input:hover, #form1 input:focus {
-   border: 1px #94618E solid;
-   color: #94618E;
+  border: 1px #94618E solid;
+  color: #94618E;
 }
 #form2 button {
-   background-color: #94618E;
-   border: 0px;
-   color: white;
-   font-size: 0.9em;
-   padding: 10px 20px;
-   font-variant: small-caps;
-   width: 225px;
-}
-</pre>
+  background-color: #94618E;
+  border: 0px;
+  color: white;
+  font-size: 0.9em;
+  padding: 10px 20px;
+  font-variant: small-caps;
+  width: 225px;
+}</pre>
 
 </details>
 
@@ -4811,8 +4772,7 @@ simple. </p>
       &lt;/div&gt;
     &lt;/div&gt;
   &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -4831,45 +4791,44 @@ form {
 }
 /* DESIGN 3 */
 #form3 {
-   background-color: #CAEBF2;
-   font-family: &#39;Century Gothic&#39;;
+  background-color: #CAEBF2;
+  font-family: &#39;Century Gothic&#39;;
 }
 #box{
-   background-color: white;
-   border-radius: 2px;
-   margin: 50px;
-   text-align: center;
-   width: 500px;
+  background-color: white;
+  border-radius: 2px;
+  margin: 50px;
+  text-align: center;
+  width: 500px;
 }
 #form3 h1 {
-   color: #FF3B3F;
-   text-align: center;
-   margin: 0px;
+  color: #FF3B3F;
+  text-align: center;
+  margin: 0px;
 }
 #form3 input {
-   border: 0px;
-   border-bottom: 1px #A9A9A9 dashed;
-   padding: 10px;
-   color: #A9A9A9;
-   width: 80%;
-   margin: 10px;
-   font-family: &#39;Century Gothic&#39;;
+  border: 0px;
+  border-bottom: 1px #A9A9A9 dashed;
+  padding: 10px;
+  color: #A9A9A9;
+  width: 80%;
+  margin: 10px;
+  font-family: &#39;Century Gothic&#39;;
 }
 #form3 input:focus, #form3 input:hover {
-   border: 1px #FF3B3F solid;
+  border: 1px #FF3B3F solid;
 }
 #form3 button {
-   background-color: #FF3B3F;
-   border: 0px;
-   border-radius: 2px;
-   color: white;
-   font-size: 0.9em;
-   padding: 10px 20px;
-   margin: 20px;
-   width: 85%;
+  background-color: #FF3B3F;
+  border: 0px;
+  border-radius: 2px;
+  color: white;
+  font-size: 0.9em;
+  padding: 10px 20px;
+  margin: 20px;
+  width: 85%;
 font-family: &#39;Century Gothic&#39;;
-}
-</pre>
+}</pre>
 
 </details>
 
@@ -4934,8 +4893,7 @@ font-family: &#39;Century Gothic&#39;;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -4945,125 +4903,124 @@ font-family: &#39;Century Gothic&#39;;
   <summary>CSS code extract!</summary>
 
 <pre>div {
-margin-bottom: 50px;
-height: 400px;
+  margin-bottom: 50px;
+  height: 400px;
 }
 form {
-padding: 30px;
-width: 500px;
+  padding: 30px;
+  width: 500px;
 }
 /* Bad Design */
 #uglyForm input {
-border: 0px;
+  border: 0px;
 }
 #uglyForm button {
-background-color: white;
-border: 0px;
+  background-color: white;
+  border: 0px;
 }
 /* DESIGN 1 */
 #form1 {
-background-color: #5E0231;
-font-family: Arial;
-color: #DBC3D0;
+  background-color: #5E0231;
+  font-family: Arial;
+  color: #DBC3D0;
 }
 #form1 h1 {
-color: white;
-margin: 0px 0px 20px 0px;
+  color: white;
+  margin: 0px 0px 20px 0px;
 }
 #form1 input {
-background-color: #DBC3D0;
-border: 2px white solid;
-padding: 10px;
-margin-bottom: 15px;
+  background-color: #DBC3D0;
+  border: 2px white solid;
+  padding: 10px;
+  margin-bottom: 15px;
 }
 #form1 input:hover, #form1 input:focus {
-border: 2px #DBC3D0 solid;
-background-color: white;
+  border: 2px #DBC3D0 solid;
+  background-color: white;
 }
 #form1 button {
-background-color: white;
-border: 3px #DBC3D0 solid;
-border-radius: 5px;
-color: #5E0231;
-padding: 10px 30px;
-font-size: 1.2em;
+  background-color: white;
+  border: 3px #DBC3D0 solid;
+  border-radius: 5px;
+  color: #5E0231;
+  padding: 10px 30px;
+  font-size: 1.2em;
 }
 #form1 button:hover {
-background-color: #DBC3D0;
-color: white;
+  background-color: #DBC3D0;
+  color: white;
 }
 /* DESIGN 2 */
 #form2 {
-background-color: #49274A;
-font-family: Tahoma;
-font-variant: small-caps;
+  background-color: #49274A;
+  font-family: Tahoma;
+  font-variant: small-caps;
 }
 #form2 h1 {
-color: white;
+  color: white;
 }
 #form2 input {
-background-color: #49274A;
-border: 1px #828081 solid;
-padding: 10px;
-color: #828081;
-font-variant: small-caps;
-margin-bottom: 20px;
-width: 200px;
+  background-color: #49274A;
+  border: 1px #828081 solid;
+  padding: 10px;
+  color: #828081;
+  font-variant: small-caps;
+  margin-bottom: 20px;
+  width: 200px;
 }
 #form2 input:hover, #form1 input:focus {
-border: 1px #94618E solid;
-color: #94618E;
+  border: 1px #94618E solid;
+  color: #94618E;
 }
 #form2 button {
-background-color: #94618E;
-border: 0px;
-color: white;
-font-size: 0.9em;
-padding: 10px 20px;
-font-variant: small-caps;
+  background-color: #94618E;
+  border: 0px;
+  color: white;
+  font-size: 0.9em;
+  padding: 10px 20px;
+  font-variant: small-caps;
 width: 225px;
 }
 /* DESIGN 3 */
 #form3 {
-background-color: #CAEBF2;
-font-family: &#39;Century Gothic&#39;;
+  background-color: #CAEBF2;
+  font-family: &#39;Century Gothic&#39;;
 }
 #box{
-ackground-color: white;
-border-radius: 2px;
-margin: 50px;
-text-align: center;
-width: 500px;
+  ackground-color: white;
+  border-radius: 2px;
+  margin: 50px;
+  text-align: center;
+  width: 500px;
 }
 #form3 h1 {
-color: #FF3B3F;
-text-align: center;
-margin: 0px;
+  color: #FF3B3F;
+  text-align: center;
+  margin: 0px;
 }
 #form3 input {
-border: 0px;
-border-bottom: 1px #A9A9A9 dashed;
-padding: 10px;
-color: #A9A9A9;
-width: 80%;
-margin: 10px;
-font-family: &#39;Century Gothic&#39;;
+  border: 0px;
+  border-bottom: 1px #A9A9A9 dashed;
+  padding: 10px;
+  color: #A9A9A9;
+  width: 80%;
+  margin: 10px;
+  font-family: &#39;Century Gothic&#39;;
 }
 #form3 input:focus, #form3 input:hover {
-border: 1px #FF3B3F solid;
+  border: 1px #FF3B3F solid;
 }
 #form3 button {
-background-color: #FF3B3F;
-border: 0px;
-border-radius: 2px;
-color: white;
-font-size: 0.9em;
-padding: 10px 20px;
-margin: 20px;
-width: 85%;
-font-family: &#39;Century Gothic&#39;;
-}
-</pre>
+  background-color: #FF3B3F;
+  border: 0px;
+  border-radius: 2px;
+  color: white;
+  font-size: 0.9em;
+  padding: 10px 20px;
+  margin: 20px;
+  width: 85%;
+  font-family: &#39;Century Gothic&#39;;
+}</pre>
 
 </details>
 
@@ -5250,8 +5207,7 @@ position elements on a page.</p>
     margin 100px &lt;br /&gt;
   &lt;/p&gt;
 &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -5261,32 +5217,31 @@ position elements on a page.</p>
   <summary>CSS code extract!</summary>
 
 <pre>body {
-background-color: #7CDBD5;
+  background-color: #7CDBD5;
 }
 p {
-background-color: #F9BE02;
+  background-color: #F9BE02;
 }
 #five {
-padding: 5px;
-border: 5px #F53240 solid;
-margin: 5px;
+  padding: 5px;
+  border: 5px #F53240 solid;
+  margin: 5px;
 }
 #ten {
-padding: 10px;
-border: 10px #F53240 solid;
+  padding: 10px;
+  border: 10px #F53240 solid;
 margin: 10px;
 }
 #fifty {
-padding: 50px;
-border: 50px #F53240 solid;
-margin: 50px;
+  padding: 50px;
+  border: 50px #F53240 solid;
+  margin: 50px;
 }
 #oneHundred {
-padding: 100px;
-border: 100px #F53240 solid;
-margin: 100px;
-}
-</pre>
+  padding: 100px;
+  border: 100px #F53240 solid;
+  margin: 100px;
+}</pre>
 
 </details>
 
@@ -5309,9 +5264,8 @@ element.</p>
 href="https://www.w3.org/TR/CSS22/text.html#alignment-prop" target="_blank" rel="noopener noreferrer"><em>Documentation</em></a>]</p>
 
 <pre>h1 {
-   text-align: center;
-}
-</pre>
+  text-align: center;
+}</pre>
 
 <p>If you have used a text editor before, like Microsoft Word, you've
 probably used the different text-align properties: left (default for
@@ -5340,9 +5294,8 @@ paragraphs, divs and headers.</p>
 href="https://www.w3.org/TR/CSS22/visudet.html#line-height" target="_blank" rel="noopener noreferrer"><em>Documentation</em></a>]</p>
 
 <pre>h1 {
-   line-height: 1.2;
-}
-</pre>
+  line-height: 1.2;
+}</pre>
 
 <p>You may have noticed that the text-align property sets the content's
 alignment horizontally, but it leaves its vertical alignment
@@ -5372,21 +5325,24 @@ within it.</p>
 <pre>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
-   &lt;head&gt;
-      &lt;title&gt;Aligning text &lt;/title&gt;
-      &lt;meta charset=&quot;utf-8&quot;&gt;
-   &lt;/head&gt;
-   &lt;body&gt;
-      &lt;h1&gt;this is a centered header&lt;/h1&gt;
-      &lt;h2&gt;this is a right aligned header&lt;/h2&gt;
-      &lt;p&gt;
-         Here is a big block of text illustrating the usage of the text-align justify setting. As you can see it stretches the white space between the words so that the left and right edges of the paragraph fit well within a box. This can help your text look cleaner than a simple left alignment. Note that it does not stretch out the final line in the paragraph.
-      &lt;/p&gt;
-      &lt;h3&gt;this header&#39;s line height is stretched to 1.2&lt;/h3&gt;
-      &lt;h4&gt;this header is aligned to the baseline of the line height within a stretched containing box&lt;/h4&gt;
-   &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+  &lt;head&gt;
+    &lt;title&gt;Aligning text &lt;/title&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;this is a centered header&lt;/h1&gt;
+    &lt;h2&gt;this is a right aligned header&lt;/h2&gt;
+    &lt;p&gt;
+      Here is a big block of text illustrating the usage of the text-align justify setting. As 
+	  you can see it stretches the white space between the words so that the left and right 
+	  edges of the paragraph fit well within a box. This can help your text look cleaner than 
+	  a simple left alignment. Note that it does not stretch out the final line in the paragraph.
+    &lt;/p&gt;
+    &lt;h3&gt;this header&#39;s line height is stretched to 1.2&lt;/h3&gt;
+    &lt;h4&gt;this header is aligned to the baseline of the line height within a stretched 
+      containing box&lt;/h4&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -5396,30 +5352,29 @@ within it.</p>
   <summary>CSS code extract!</summary>
 
 <pre>h1 {
-   background-color: red;
-   width: 500px;
-   text-align: center;
+  background-color: red;
+  width: 500px;
+  text-align: center;
 }
 h2 {
-   background-color: orange;
-   text-align: right;
+  background-color: orange;
+  text-align: right;
 }
 p {
-   background-color: yellow;
-   width: 500px;
-   padding: 10px;
-   text-align: justify;
+  background-color: yellow;
+  width: 500px;
+  padding: 10px;
+  text-align: justify;
 }
 h3 {
-   background-color: green;
-   line-height: 1.2;
+  background-color: green;
+  line-height: 1.2;
 }
 h4 {
-   background-color: pink;
-   height: 200px;
-   line-height:4;
-}
-</pre>
+  background-color: pink;
+  height: 200px;
+  line-height:4;
+}</pre>
 
 </details>
 
@@ -5458,9 +5413,8 @@ href="https://www.w3.org/TR/CSS22/visudet.html#the-height-property" target="_bla
 height property</a>]</p>
 
 <pre>p {
-   width: 30%;
-}
-</pre>
+  width: 30%;
+}</pre>
 
 <p>You can use pixel values for both width and height, but you'll most
 often want to use percentages to set these so that your elements grow
@@ -5492,10 +5446,9 @@ and min width and heights. This way, you can set a range for your image
 to grow and shrink where you know it will still look good. </p>
 
 <pre>img {
-   width: 100%;
-   max-width: 1024px;
-}
-</pre>
+  width: 100%;
+  max-width: 1024px;
+}</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 81. set max img width (147) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5513,31 +5466,30 @@ to grow and shrink where you know it will still look good. </p>
 <pre>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
-   &lt;head&gt;
-      &lt;title&gt;Dynamic width and height&lt;/title&gt;
-      &lt;meta charset=&quot;utf-8&quot;&gt;
-   &lt;/head&gt;
-   &lt;body&gt;
-      &lt;p id=&quot;width50&quot;&gt;
-      width 50%, no min or max
-      &lt;/p&gt;
-      &lt;p id=&quot;width80max&quot;&gt;
-      width 80%, max of 1000px
-      &lt;/p&gt;
-      &lt;p id=&quot;width30min&quot;&gt;
-      width 30%, min of 200px
-      &lt;/p&gt;
-      &lt;p class=&quot;heightSet&quot;&gt;
+  &lt;head&gt;
+    &lt;title&gt;Dynamic width and height&lt;/title&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p id=&quot;width50&quot;
+	  &gt;width 50%, no min or max
+    &lt;/p&gt;
+    &lt;p id=&quot;width80max&quot;
+	  &gt;width 80%, max of 1000px
+    &lt;/p&gt;
+    &lt;p id=&quot;width30min&quot;
+  	  &gt;width 30%, min of 200px
+    &lt;/p&gt;
+    &lt;p class=&quot;heightSet&quot;&gt;
       the height is set to 25%, but there is no effect
-      &lt;/p&gt;
-      &lt;div id=&quot;containingBlock&quot;&gt;
+    &lt;/p&gt;
+    &lt;div id=&quot;containingBlock&quot;&gt;
       &lt;p class=&quot;heightSet&quot;&gt;
-      this height is also set to 25%, and since it&#39;s within a div containing block who has a set height of 500px this p will resize in relation to that.
+        this height is also set to 25%, and since it&#39;s within a div containing block who has a set height of 500px this p will resize in relation to that.
       &lt;/p&gt;
-   &lt;/div&gt;
-   &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -5551,23 +5503,22 @@ background-color:red;
 width: 50%;
 }
 #width80max {
-   background-color: orange;
-   width: 80%;
-   max-width: 1000px;
+  background-color: orange;
+  width: 80%;
+  max-width: 1000px;
 }
 #width30min {
-   background-color: yellow;
-   width: 30%;
-   min-width: 200px;
+  background-color: yellow;
+  width: 30%;
+  min-width: 200px;
 }
 .heightSet {
-   background-color: pink;
-   height: 25%;
+  background-color: pink;
+  height: 25%;
 }
 #containingBlock {
-   height: 500px;
-}
-</pre>
+  height: 500px;
+}</pre>
 
 </details>
 
@@ -5593,27 +5544,23 @@ most commonly used margin settings is "auto". That is because if you set
 an element's left and right margin to auto it will be dynamically
 centered within its containing block.</p>
 
-<pre>
-div {
-   width: 50%;
-   margin-left: auto;
-   margin-right: auto;
-}
-</pre>
+<pre>div {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}</pre>
 
 <p>Note however, that this only works for block HTML elements like
 paragraphs, divs and headers. If you want to use this to position an
 inline element, such as img or a, you will need to tell CSS to treat
 them as block elements by setting display: block;</p>
 
-<pre>
-img {
-   display: block;
-   width: 200px;
-   margin-left: auto;
-   margin-right: auto;
-}
-</pre>
+<pre>img {
+  display: block;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 82. display: block example (150) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5628,8 +5575,7 @@ img {
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>
-&lt;!DOCTYPE html&gt;
+<pre>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
@@ -5648,8 +5594,7 @@ img {
          and here is text in a centered section below the inner div
       &lt;/section&gt;
    &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -5658,32 +5603,30 @@ img {
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>
-h1 {
-   background-color: red;
-   width: 50%;
-   margin: 0 auto;
+<pre>h1 {
+  background-color: red;
+  width: 50%;
+  margin: 0 auto;
 }
 p {
-   background-color: orange;
-   width: 70%;
+  background-color: orange;
+  width: 70%;
 }
 a {
-   display: block;
-   width: 100px;
-   margin: 0 auto;
+  display: block;
+  width: 100px;
+  margin: 0 auto;
 }
 section {
-   background-color: yellow;
-   width: 70%;
-   margin: 0 auto;
+  background-color: yellow;
+  width: 70%;
+  margin: 0 auto;
 }
 div {
-   background-color: pink;
-   width: 50%;
-   margin: 0 auto;
-}
-</pre>
+  background-color: pink;
+  width: 50%;
+  margin: 0 auto;
+}</pre>
 
 </details>
 <p>Here is what the above code looks like in a wide window:</p>
@@ -5733,8 +5676,7 @@ what. Here is the above code in a narrow window:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>
-&lt;!DOCTYPE html&gt;
+<pre>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
@@ -5763,8 +5705,7 @@ what. Here is the above code in a narrow window:</p>
          thank you and please visit again soon!
       &lt;/footer&gt;
    &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -5773,29 +5714,28 @@ what. Here is the above code in a narrow window:</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>
-body {
-   font-family: Tahoma;
+<pre>body {
+  font-family: Tahoma;
 }
 header {
-   background-color: #EC576B;
-   color: white;
-   border-bottom: 5px #FEDC3D solid;
+  background-color: #EC576B;
+  color: white;
+  border-bottom: 5px #FEDC3D solid;
 }
 header h1 {
-   border-bottom: 2px #FFFFFF solid;
+  border-bottom: 2px #FFFFFF solid;
 }
 header p {
-   border-bottom: 2px #FFFFFF solid;
+  border-bottom: 2px #FFFFFF solid;
 }
 section {
-   background-color: #FEDC3D;
+  background-color: #FEDC3D;
 }
 h2 {
-   border-bottom: 5px #000000 solid;
+  border-bottom: 5px #000000 solid;
 }
 article {
-   background-color: #FFFFFF;
+  background-color: #FFFFFF;
 }
 #leftP {
 }
@@ -5804,11 +5744,10 @@ article {
 h3 {
 }
 footer {
-   background-color: #4EC5C1;
-   border-top: 5px #FEDC3D solid;
-   color: white;
-}
-</pre>
+  background-color: #4EC5C1;
+  border-top: 5px #FEDC3D solid;
+  color: white;
+}</pre>
 
 </details>
 
@@ -5862,12 +5801,10 @@ tools you can master when learning CSS.</p>
 <p>[<em><a
 href="https://www.w3.org/TR/CSS22/visuren.html#float-position" target="_blank" rel="noopener noreferrer">Documentation</a>]</em></p>
 
-<pre>
-h1 {
-   width: 20em;
-   float: right;
-}
-</pre>
+<pre>h1 {
+  width: 20em;
+  float: right;
+}</pre>
 
 <p>Up until now, we haven't moved elements very far from wherever the
 web browser automatically places them, but as you've probably noticed
@@ -5908,7 +5845,7 @@ use the "clear" property.</p>
 href="https://www.w3.org/TR/CSS22/visuren.html#propdef-clear" target="_blank"  rel="noopener noreferrer" title="The clear property specifies what should happen with the element that is next to a floating element.">Documentation</a>]</em></p>
 
 <pre>p {
-   clear: both;
+  clear: both;
 }</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 88. too many colors (157) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5922,8 +5859,7 @@ href="https://www.w3.org/TR/CSS22/visuren.html#propdef-clear" target="_blank"  r
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>
-&lt;!DOCTYPE html&gt;
+<pre>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
@@ -5950,8 +5886,7 @@ href="https://www.w3.org/TR/CSS22/visuren.html#propdef-clear" target="_blank"  r
       This div isn&#39;t floating, and it is set to clear to the right, so nothing can overlap.
    &lt;/div&gt;
    &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -5960,39 +5895,37 @@ href="https://www.w3.org/TR/CSS22/visuren.html#propdef-clear" target="_blank"  r
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>
-body {
-   font-size: 24pt;
-   font-family: helvetica, sans-serif;
+<pre>body {
+  font-size: 24pt;
+  font-family: helvetica, sans-serif;
 }
 div {
-   margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 #default {
-   background-color: red;
+  background-color: red;
 }
 #floatRightNoWidth {
-   background-color: orange;
-   float: right;
+  background-color: orange;
+  float: right;
 }
 #floatRightTooWide {
-   background-color: yellow;
-   float: right;
+  background-color: yellow;
+  float: right;
 }
 #noFloatWidthSet {
-   background-color: green;
-   width: 40%;
+  background-color: green;
+  width: 40%;
 }
 #noFloatClearRight {
-   background-color: purple;
-   clear: right;
+  background-color: purple;
+  clear: right;
 }
 #floatRightWidthSet {
-   background-color: blue;
-   width: 30%;
-   float: right;
-}
-</pre>
+  background-color: blue;
+  width: 30%;
+  float: right;
+}</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6016,8 +5949,7 @@ elements to apply a float property to.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>
-&lt;!DOCTYPE html&gt;
+<pre>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
@@ -6052,8 +5984,7 @@ elements to apply a float property to.</p>
       &lt;/div&gt;
    &lt;/section&gt;
    &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -6062,41 +5993,39 @@ elements to apply a float property to.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>
-body {
-   background-color: #4ABDAC;
-   color: #FFFFFF;
-   font-family: Georgia, serif;
+<pre>body {
+  background-color: #4ABDAC;
+  color: #FFFFFF;
+  font-family: Georgia, serif;
 }
 header {
-   background-color: #F7B733;
-   height: 75px;
+  background-color: #F7B733;
+  height: 75px;
 }
 h1 {
-   padding: 15px;
+  padding: 15px;
 }
 #navigation {
-   height: 30px;
-   width: 30%;
-   margin-left: auto;
-   margin-right: auto;
+  height: 30px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
 }
 #navigation li:hover {
-   border-bottom: 1px #FC4A1A solid;
+  border-bottom: 1px #FC4A1A solid;
 }
 #content {
-   background-color: #DFDCE3;
-   width: 50%;
-   margin: 0 auto;
+  background-color: #DFDCE3;
+  width: 50%;
+  margin: 0 auto;
 }
 div {
-   background-color: #FC4A1A;
-   width: 250px;
-   height: 150px;
-   padding: 10px;
-   margin: 20px;
-}
-</pre>
+  background-color: #FC4A1A;
+  width: 250px;
+  height: 150px;
+  padding: 10px;
+  margin: 20px;
+}</pre>
 
 </details>
 
@@ -6123,44 +6052,42 @@ everything looking like the final image below:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>
-&lt;!DOCTYPE html&gt;
+<pre>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
-   &lt;head&gt;
-      &lt;title&gt;Practice with Float&lt;/title&gt;
-      &lt;meta charset=&quot;utf-8&quot;&gt;
-   &lt;/head&gt;
-   &lt;body&gt;
-   &lt;header&gt;
+  &lt;head&gt;
+    &lt;title&gt;Practice with Float&lt;/title&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;header&gt;
       &lt;h2&gt;welcome greeting subtitle&lt;/h2&gt;
       &lt;h1&gt;Homepage Title&lt;/h1&gt;
-   &lt;/header&gt;
-   &lt;section id=&quot;navigation&quot;&gt;
+    &lt;/header&gt;
+    &lt;section id=&quot;navigation&quot;&gt;
       &lt;ul&gt;
-         &lt;li&gt;nav link 1&lt;/li&gt;
-         &lt;li&gt;nav link 2&lt;/li&gt;
-         &lt;li&gt;nav link 3&lt;/li&gt;
-         &lt;li&gt;nav link 4&lt;/li&gt;
+        &lt;li&gt;nav link 1&lt;/li&gt;
+        &lt;li&gt;nav link 2&lt;/li&gt;
+        &lt;li&gt;nav link 3&lt;/li&gt;
+        &lt;li&gt;nav link 4&lt;/li&gt;
       &lt;/ul&gt;
-   &lt;/section&gt;
-   &lt;section id=&quot;content&quot;&gt;
+    &lt;/section&gt;
+    &lt;section id=&quot;content&quot;&gt;
       &lt;div id=&quot;topRight&quot;&gt;
-      If your elements are still not exactly where you want them to be after adjusting the padding, margins and alignment, then you can try out the float property. The &quot;float&quot; property is one of the most powerful tools you can master when learning CSS.
-   &lt;/div&gt;
-   &lt;div id=&quot;topLeft&quot;&gt;
-   Up until now, we haven&#39;t moved elements very far from wherever the web browser automatically places them, but as you&#39;ve probably noticed this has left our page very left side heavy.
-   &lt;/div&gt;
-   &lt;div id=&quot;bottomRight&quot;&gt;
-   The float property liberates an element from its automatic position and lifts it up to &quot;float&quot; on top of other elements in the direction you specify. You can pecify float either right, left or the default of none.
-   &lt;/div&gt;
-   &lt;div id=&quot;bottomLeft&quot;&gt;
-   Elements underneath a floating object will automatically wrap themselves around the content. For example, if you float an image, the text underneath will wrap around it so that none of it is actually obscured underneath the image.
-   &lt;/div&gt;
-   &lt;/section&gt;
-   &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+        If your elements are still not exactly where you want them to be after adjusting the padding, margins and alignment, then you can try out the float property. The &quot;float&quot; property is one of the most powerful tools you can master when learning CSS.
+      &lt;/div&gt;
+      &lt;div id=&quot;topLeft&quot;&gt;
+        Up until now, we haven&#39;t moved elements very far from wherever the web browser automatically places them, but as you&#39;ve probably noticed this has left our page very left side heavy.
+      &lt;/div&gt;
+      &lt;div id=&quot;bottomRight&quot;&gt;
+        The float property liberates an element from its automatic position and lifts it up to &quot;float&quot; on top of  other elements in the direction you specify. You can pecify float either right, left or the default of none.
+      &lt;/div&gt;
+      &lt;div id=&quot;bottomLeft&quot;&gt;
+        Elements underneath a floating object will automatically wrap themselves around the content. For example, if you float an image, the text underneath will wrap around it so that none of it is actually obscured underneath the image.
+      &lt;/div&gt;
+    &lt;/section&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -6169,74 +6096,72 @@ everything looking like the final image below:</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>
-body {
-   background-color: #4ABDAC;
-   color: #FFFFFF;
-   font-family: Georgia, serif;
-   margin: 0px;
-   padding-bottom: 0px;
+<pre>body {
+  background-color: #4ABDAC;
+  color: #FFFFFF;
+  font-family: Georgia, serif;
+  margin: 0px;
+  padding-bottom: 0px;
 }
 header {
-   background-color: #F7B733;
-   height: 75px;
-   margin-top: 0px
+  background-color: #F7B733;
+  height: 75px;
+  margin-top: 0px
 }
 h2 {
-   float: right;
-   padding-right: 20px;
+  float: right;
+  padding-right: 20px;
 }
 h1 {
-   padding: 20px;
-   margin-top: 0px;
+  padding: 20px;
+  margin-top: 0px;
 }
 #navigation {
-   height: 50px;
-   width: 92%;
+  height: 50px;
+  width: 92%;
 }
 #navigation li:hover {
-   border-bottom: 1px #FC4A1A solid;
+  border-bottom: 1px #FC4A1A solid;
 }
 ul {
-   width: 400px;
-   margin-left: auto;
-   margin-right: auto;
-   list-style: none;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
 }
 li {
 float: right;
-   margin-top: 10px;
-   margin-left: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
 }
 content {
-   background-color: #DFDCE3;
-   width: 20%;
-   margin: 0 auto;
-   min-width: 700px;
+  background-color: #DFDCE3;
+  width: 20%;
+  margin: 0 auto;
+  min-width: 700px;
 }
 div {
-   background-color: #FC4A1A;
-   width: 250px;
-   height: 150px;
-   padding: 10px;
-   margin: 20px;
+  background-color: #FC4A1A;
+  width: 250px;
+  height: 150px;
+  padding: 10px;
+  margin: 20px;
 }
 #topRight {
-   float: right;
-   margin-top: 0px;
+  float: right;
+  margin-top: 0px;
 }
 #bottomRight {
-   float: right;
-   margin-top: 0px;
-   margin-bottom: 0px;
+  float: right;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 #topLeft {
-   margin-top: 0px;
+  margin-top: 0px;
 }
 #bottomLeft {
-   margin-bottom: 0px;
-}
-</pre>
+  margin-bottom: 0px;
+}</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6269,11 +6194,9 @@ four different value options for the position property: </p>
   <li><p><strong>absolute</strong> - This allows you to position elements relative to their containing box. This removes an element from its normal flow (just like a floating element) so it can be difficult to control and make a layout that is truly dynamic.</p></li>
 </ul>
 
-<pre>
-div {
-   position: relative;
-}
-</pre>
+<pre>div {
+  position: relative;
+}</pre>
 
 <p>[<a
 href="https://www.w3.org/TR/CSS22/visuren.html#position-props" target="_blank" rel="noopener noreferrer"><em>Documentation</em></a> for
@@ -6287,12 +6210,10 @@ corner of the box that we are specifying.</p>
 element 30px to the right away from the left of where it was placed by
 default.</p>
 
-<pre>
-p {
-   position: relative;
-   left: 10px;
-}
-</pre>
+<pre>p {
+  position: relative;
+  left: 10px;
+}</pre>
 
 <p>Note that position is not an inherited property so you will have to
 apply it individually to each element. Because of this it is best to use
@@ -6314,25 +6235,23 @@ floating.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>
-&lt;!DOCTYPE html&gt;
+<pre>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
-   &lt;head&gt;
-      &lt;title&gt;Relative Positioning&lt;/title&gt;
-      &lt;meta charset=&quot;utf-8&quot;&gt;
-   &lt;/head&gt;
-   &lt;body&gt;
-      &lt;h1&gt;a shifted header relative to body&lt;/h1&gt;
-      &lt;section&gt;
-         &lt;h2&gt;shifted header relative to section&lt;/h2&gt;
-      &lt;/section&gt;
-      &lt;footer&gt;
-         &lt;h3&gt;a shifted header in a shifted footer&lt;/h3&gt;
-      &lt;/footer&gt;
-   &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+  &lt;head&gt;
+    &lt;title&gt;Relative Positioning&lt;/title&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;a shifted header relative to body&lt;/h1&gt;
+    &lt;section&gt;
+      &lt;h2&gt;shifted header relative to section&lt;/h2&gt;
+    &lt;/section&gt;
+    &lt;footer&gt;
+      &lt;h3&gt;a shifted header in a shifted footer&lt;/h3&gt;
+    &lt;/footer&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -6341,35 +6260,33 @@ floating.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>
-h1 {
-   background-color: red;
-   width: 300px;
-   position: relative;
-   left: 150px;
+<pre>h1 {
+  background-color: red;
+  width: 300px;
+  position: relative;
+  left: 150px;
 }
 section {
-   background-color: orange;
-   height: 100px;
+  background-color: orange;
+  height: 100px;
 }
 h2 {
-   position: relative;
-   top: 20px;
+  position: relative;
+  top: 20px;
 }
 footer {
-   background-color: yellow;
-   height: 200px;
-   width: 300px;
-   position: relative;
-   left: 50px;
-   top: 50px;
+  background-color: yellow;
+  height: 200px;
+  width: 300px;
+  position: relative;
+  left: 50px;
+  top: 50px;
 }
 h3 {
-   position: relative;
-   top: 50px;
-   left: 10px;
-}
-</pre>
+  position: relative;
+  top: 50px;
+  left: 10px;
+}</pre>
 
 </details>
 
@@ -6388,35 +6305,33 @@ following CSS code as a second example:</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>
-h1 {
-   background-color: red;
-   width: 300px;
-   position: relative;
-   left: 150px;
+<pre>h1 {
+  background-color: red;
+  width: 300px;
+  position: relative;
+  left: 150px;
 }
 section {
-   background-color: orange;
-   height: 100px;
+  background-color: orange;
+  height: 100px;
 }
 h2 {
-   position: relative;
-   top: 20px;
+  position: relative;
+  top: 20px;
 }
 footer {
-   background-color: yellow;
-   height: 200px;
-   width: 300px;
-   position: relative;
-   left: 50px;
-   top: -50px;
+  background-color: yellow;
+  height: 200px;
+  width: 300px;
+  position: relative;
+  left: 50px;
+  top: -50px;
 }
 h3 {
-   position: relative;
-   top: 50px;
-   left: 10px;
-}
-</pre>
+  position: relative;
+  top: 50px;
+  left: 10px;
+}</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6440,28 +6355,26 @@ positioning to adjust how items sit on the page.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>
-body {
-   background-color: #EFEFEF;
-   color: #A9A9A9;
-   font-family: &quot;Book Antiqua&quot;, serif;
+<pre>body {
+  background-color: #EFEFEF;
+  color: #A9A9A9;
+  font-family: &quot;Book Antiqua&quot;, serif;
 }
 h1 {
-   color: #FF3B3F;
+  color: #FF3B3F;
 }
 h2 {
 }
 div {
-   background-color: #CAEBF2;
-   width: 80%;
+  background-color: #CAEBF2;
+  width: 80%;
 }
 h3 {
-   color: #FF3B3F;
+  color: #FF3B3F;
 }
 p {
-   width: 90%;
-}
-</pre>
+  width: 90%;
+}</pre>
 
 </details>
 <p>Your task is to add CSS so that you achieve this final layout:<br >
@@ -6484,8 +6397,7 @@ stay in the same position relative to one another. </p>
 <details>
   <summary>CSS code extract!</summary>
   
-<pre>
-body {
+<pre>body {
   background-color: #EFEFEF;
   color: #A9A9A9;
   font-family: &quot;Book Antiqua&quot;, serif;
@@ -6513,8 +6425,7 @@ h3 {
 p {
   width: 90%;
   padding-left: 25px;
-}
-</pre>
+}</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6557,8 +6468,7 @@ viewing.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>
-div {
+<pre>div {
   clear: both;
   margin-bottom: 50px;
   padding: 30px;
@@ -6589,8 +6499,7 @@ a {
 }
 #menu1 .currentPage a {
   color: #0E0B16;
-}
-</pre>
+}</pre>
 
 </details>
 
@@ -6613,8 +6522,7 @@ directly connects to the menu item representing it. </p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>
-div {
+<pre>div {
   clear: both;
   margin-bottom: 50px;
   padding: 30px;
@@ -6666,8 +6574,7 @@ a {
 }
 #menu2 p {
   padding: 30px;
-}
-</pre>
+}</pre>
 
 </details>
 
@@ -6676,31 +6583,34 @@ a {
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>
-&lt;!DOCTYPE html&gt;
+<pre>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
-&lt;title&gt;Style studies: menu 2&lt;/title&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;title&gt;Style studies: menu 2&lt;/title&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
 &lt;/head&gt;
 &lt;body&gt;
-&lt;div id=&quot;menu2&quot;&gt;
-&lt;ul&gt;
-&lt;li class=&quot;currentPage&quot;&gt;&lt;a href=&quot;&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;section&gt;
-&lt;h1&gt;Home Page&lt;/h1&gt;
-&lt;p&gt;A bunch of page content &lt;/p&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-&lt;/section&gt;
-&lt;/div&gt;
+  &lt;div id=&quot;menu2&quot;&gt;
+    &lt;ul&gt;
+      &lt;li class=&quot;currentPage&quot;&gt;&lt;a href=&quot;&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;section&gt;
+      &lt;h1&gt;Home Page&lt;/h1&gt;
+      &lt;p&gt;A bunch of page content &lt;/p&gt;
+      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+	  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+	  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+	  dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+	  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+	  mollit anim id est laborum.&lt;/p&gt;
+    &lt;/section&gt;
+  &lt;/div&gt;
 &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -6723,8 +6633,7 @@ header.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>
-div {
+<pre>div {
   clear: both;
   margin-bottom: 50px;
   padding: 30px;
@@ -6772,8 +6681,7 @@ a {
 }
 #menu3 #about:hover .subitems {
   display: block;
-}
-</pre>
+}</pre>
 
 </details>
 
@@ -6805,8 +6713,7 @@ a {
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+&lt;/html&gt;</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6920,8 +6827,7 @@ to be distinct from your content.</p>
 }
 #footer3 a:hover {
   color: #F4DECB;
-}
-</pre>
+}</pre>
 
 </details>
 
@@ -6933,61 +6839,60 @@ to be distinct from your content.</p>
 <pre>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;Style studies: footers&lt;/title&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div id=&quot;footer1&quot;&gt;
-&lt;section&gt;
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-&lt;/section&gt;
-&lt;footer&gt;
-&lt;div class=&quot;contacts&quot;&gt;
-&lt;a href=&quot;&quot;&gt;email&lt;/a&gt;
-&lt;a href=&quot;&quot;&gt;twitter&lt;/a&gt;
-&lt;a href=&quot;&quot;&gt;instagram&lt;/a&gt;
-&lt;a href=&quot;&quot;&gt;facebook&lt;/a&gt;
-&lt;/div&gt;
-&lt;p&gt;design and code by me&lt;/p&gt;
-&lt;/footer&gt;
-&lt;/div&gt;
-&lt;div id=&quot;footer2&quot;&gt;
-&lt;section&gt;
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-&lt;/section&gt;
-&lt;footer&gt;
-&lt;ul class=&quot;navCat&quot;&gt;
-&lt;li class=&quot;topLevel&quot;&gt;About&lt;/li&gt;
-&lt;li&gt;About Us&lt;/li&gt;
-&lt;li&gt;Our Story&lt;/li&gt;
-&lt;li&gt;FAQ&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul class=&quot;navCat&quot;&gt;
-&lt;li class=&quot;topLevel&quot;&gt;Services&lt;/li&gt;
-&lt;li&gt;Custom Orders&lt;/li&gt;
-&lt;li&gt;Wholesale&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul class=&quot;navCat&quot;&gt;
-&lt;li class=&quot;topLevel&quot;&gt;Contact&lt;/li&gt;
-&lt;li&gt;Customer Service&lt;/li&gt;
-&lt;li&gt;Careers&lt;/li&gt;
-&lt;li&gt;Community&lt;/li&gt;
-&lt;li&gt;Social Media&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/footer&gt;
-&lt;/div&gt;
-&lt;div id=&quot;footer3&quot;&gt;
-&lt;section&gt;
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-&lt;/section&gt;
-&lt;footer&gt;
-Please &lt;a href=&quot;#&quot;&gt;contact us&lt;/a&gt; if you have any questions
-&lt;/footer&gt;
-&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
+  &lt;head&gt;
+    &lt;title&gt;Style studies: footers&lt;/title&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id=&quot;footer1&quot;&gt;
+      &lt;section&gt;
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      &lt;/section&gt;
+      &lt;footer&gt;
+        &lt;div class=&quot;contacts&quot;&gt;
+          &lt;a href=&quot;&quot;&gt;email&lt;/a&gt;
+          &lt;a href=&quot;&quot;&gt;twitter&lt;/a&gt;
+          &lt;a href=&quot;&quot;&gt;instagram&lt;/a&gt;
+          &lt;a href=&quot;&quot;&gt;facebook&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;p&gt;design and code by me&lt;/p&gt;
+      &lt;/footer&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;footer2&quot;&gt;
+      &lt;section&gt;
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      &lt;/section&gt;
+      &lt;footer&gt;
+        &lt;ul class=&quot;navCat&quot;&gt;
+          &lt;li class=&quot;topLevel&quot;&gt;About&lt;/li&gt;
+          &lt;li&gt;About Us&lt;/li&gt;
+          &lt;li&gt;Our Story&lt;/li&gt;
+          &lt;li&gt;FAQ&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;ul class=&quot;navCat&quot;&gt;
+          &lt;li class=&quot;topLevel&quot;&gt;Services&lt;/li&gt;
+          &lt;li&gt;Custom Orders&lt;/li&gt;
+          &lt;li&gt;Wholesale&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;ul class=&quot;navCat&quot;&gt;
+          &lt;li class=&quot;topLevel&quot;&gt;Contact&lt;/li&gt;
+          &lt;li&gt;Customer Service&lt;/li&gt;
+          &lt;li&gt;Careers&lt;/li&gt;
+          &lt;li&gt;Community&lt;/li&gt;
+          &lt;li&gt;Social Media&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/footer&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;footer3&quot;&gt;
+      &lt;section&gt;
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      &lt;/section&gt;
+      &lt;footer&gt;
+        Please &lt;a href=&quot;#&quot;&gt;contact us&lt;/a&gt; if you have any questions
+      &lt;/footer&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -7036,7 +6941,7 @@ reference to the designer of the page.</p>
   padding: 5px 20px;
 }
 #footer1 footer a:hover {
-color: #F4F4F4;
+  color: #F4F4F4;
 }
 </pre>
 
@@ -7050,28 +6955,27 @@ color: #F4F4F4;
 <pre>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;Style studies: footer 1&lt;/title&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div id=&quot;footer1&quot;&gt;
-&lt;section&gt;
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-&lt;/section&gt;
-&lt;footer&gt;
-&lt;div class=&quot;contacts&quot;&gt;
-&lt;a href=&quot;&quot;&gt;email&lt;/a&gt;
-&lt;a href=&quot;&quot;&gt;twitter&lt;/a&gt;
-&lt;a href=&quot;&quot;&gt;instagram&lt;/a&gt;
-&lt;a href=&quot;&quot;&gt;facebook&lt;/a&gt;
-&lt;/div&gt;
-&lt;p&gt;design and code by me&lt;/p&gt;
-&lt;/footer&gt;
-&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
+  &lt;head&gt;
+    &lt;title&gt;Style studies: footer 1&lt;/title&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id=&quot;footer1&quot;&gt;
+      &lt;section&gt;
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      &lt;/section&gt;
+      &lt;footer&gt;
+        &lt;div class=&quot;contacts&quot;&gt;
+          &lt;a href=&quot;&quot;&gt;email&lt;/a&gt;
+          &lt;a href=&quot;&quot;&gt;twitter&lt;/a&gt;
+          &lt;a href=&quot;&quot;&gt;instagram&lt;/a&gt;
+          &lt;a href=&quot;&quot;&gt;facebook&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;p&gt;design and code by me&lt;/p&gt;
+      &lt;/footer&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -7127,8 +7031,7 @@ because limiting area isn't as important as in the top level header.</p>
 #footer2 .topLevel {
   font-size: 1.2em;
   font-variant: small-caps;
-}
-</pre>
+}</pre>
 
 </details>
 
@@ -7140,39 +7043,38 @@ because limiting area isn't as important as in the top level header.</p>
 <pre>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;Style studies: footer 2&lt;/title&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div id=&quot;footer2&quot;&gt;
-&lt;section&gt;
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-&lt;/section&gt;
-&lt;footer&gt;
-&lt;ul class=&quot;navCat&quot;&gt;
-&lt;li class=&quot;topLevel&quot;&gt;About&lt;/li&gt;
-&lt;li&gt;About Us&lt;/li&gt;
-&lt;li&gt;Our Story&lt;/li&gt;
-&lt;li&gt;FAQ&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul class=&quot;navCat&quot;&gt;
-&lt;li class=&quot;topLevel&quot;&gt;Services&lt;/li&gt;
-&lt;li&gt;Custom Orders&lt;/li&gt;
-&lt;li&gt;Wholesale&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul class=&quot;navCat&quot;&gt;
-&lt;li class=&quot;topLevel&quot;&gt;Contact&lt;/li&gt;
-&lt;li&gt;Customer Service&lt;/li&gt;
-&lt;li&gt;Careers&lt;/li&gt;
-&lt;li&gt;Community&lt;/li&gt;
-&lt;li&gt;Social Media&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/footer&gt;
-&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
+  &lt;head&gt;
+    &lt;title&gt;Style studies: footer 2&lt;/title&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id=&quot;footer2&quot;&gt;
+      &lt;section&gt;
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      &lt;/section&gt;
+      &lt;footer&gt;
+        &lt;ul class=&quot;navCat&quot;&gt;
+          &lt;li class=&quot;topLevel&quot;&gt;About&lt;/li&gt;
+          &lt;li&gt;About Us&lt;/li&gt;
+          &lt;li&gt;Our Story&lt;/li&gt;
+          &lt;li&gt;FAQ&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;ul class=&quot;navCat&quot;&gt;
+          &lt;li class=&quot;topLevel&quot;&gt;Services&lt;/li&gt;
+          &lt;li&gt;Custom Orders&lt;/li&gt;
+          &lt;li&gt;Wholesale&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;ul class=&quot;navCat&quot;&gt;
+          &lt;li class=&quot;topLevel&quot;&gt;Contact&lt;/li&gt;
+          &lt;li&gt;Customer Service&lt;/li&gt;
+          &lt;li&gt;Careers&lt;/li&gt;
+          &lt;li&gt;Community&lt;/li&gt;
+          &lt;li&gt;Social Media&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/footer&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -7223,8 +7125,7 @@ limits the content to a single simple contact link.</p>
 }
 #footer3 a:hover {
   color: #F4DECB;
-}
-</pre>
+}</pre>
 
 </details>
 
@@ -7236,22 +7137,21 @@ limits the content to a single simple contact link.</p>
 <pre>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;title&gt;Style studies: footer 3&lt;/title&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;div id=&quot;footer3&quot;&gt;
-&lt;section&gt;
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-&lt;/section&gt;
-&lt;footer&gt;
-Please &lt;a href=&quot;#&quot;&gt;contact us&lt;/a&gt; if you have any questions
-&lt;/footer&gt;
-&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
+  &lt;head&gt;
+    &lt;title&gt;Style studies: footer 3&lt;/title&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id=&quot;footer3&quot;&gt;
+      &lt;section&gt;
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      &lt;/section&gt;
+      &lt;footer&gt;
+        Please &lt;a href=&quot;#&quot;&gt;contact us&lt;/a&gt; if you have any questions
+      &lt;/footer&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7530,8 +7430,7 @@ img:hover {
 }
 a:hover, img:active {
   opacity: 50%;
-}
-</pre>
+}</pre>
 
 </details>
 
@@ -7659,8 +7558,7 @@ a:hover, img:active {
       &lt;a href=&quot;#top&quot;&gt;&lt;img class=&quot;arrow&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arrow_top.png/640px-Arrow_top.png&quot; alt=&quot;picture of an arrow symbol pointing up for going back up to top of page&quot; title=&quot;Back to Top of Page&quot;&gt;&lt;/a&gt;
   &lt;/footer&gt;
   &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -7895,9 +7793,8 @@ to always include a Web safe font alternative for an exotic font in case
 the user’s device doesn’t support it. </p>
 
 <pre>Body {
-   font-family: &quot;Segoe UI&quot;, Helvetica, sans-serif;
-}
-</pre>
+  font-family: &quot;Segoe UI&quot;, Helvetica, sans-serif;
+}</pre>
 
 <p>When choosing your font, probably the biggest choice you’ll make is
 what category of font to use. There are 5 basic categories of font: </p>
@@ -8130,10 +8027,9 @@ other Web pages.</b></p>
 
 <pre>&lt;head&gt;
 ...
-   &lt;title&gt;Web Accessibility Initiative (WAI) - home page&lt;/title&gt;
+  &lt;title&gt;Web Accessibility Initiative (WAI) - home page&lt;/title&gt;
 ...
-&lt;/head&gt;
-</pre>
+&lt;/head&gt;</pre>
 
 <h4>Example 2: image text alternatives (“alt text”)</h4>
 
@@ -8150,11 +8046,11 @@ alternative text.</b></p>
 points to the W3C Web site. The text alternative is going to be a brief
 description of the link target.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<pre>  &lt;a href=&quot;https://w3.org&quot;&gt;
-    &lt;img src=&quot;images/w3c_home.png&quot; width=&quot;72&quot; height=&quot;48&quot; 
-    alt=&quot;W3C Web site&quot;&gt;
-  &lt;/a&gt;
-</pre>
+<pre>
+&lt;a href=&quot;https://w3.org&quot;&gt;
+  &lt;img src=&quot;images/w3c_home.png&quot; width=&quot;72&quot; height=&quot;48&quot; 
+  alt=&quot;W3C Web site&quot;&gt;
+&lt;/a&gt;</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-3-2">5.3.2 Inclusive design</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8666,22 +8562,21 @@ the id selector as the href setting on the anchor tag. </p>
   <summary>CSS code extract!</summary>
 
 <pre>body {
-   width: 50%;
-   margin-left: auto;
-   margin-right: auto;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 ul {
-   list-style: none;
-   padding: 50px;
+  list-style: none;
+  padding: 50px;
 }
 ul li {
-   float: left;
-   width: 10%;
+  float: left;
+  width: 10%;
 }
 section {
-   clear: both;
-}
-</pre>
+  clear: both;
+}</pre>
 
 </details>
 
@@ -8693,35 +8588,35 @@ section {
 <pre>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-  &lt;title&gt;Long Scrolling with Anchor Links&lt;/title&gt;
-  &lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;nav&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#section1&quot;&gt;section 1&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#section2&quot;&gt;section 2&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#section3&quot;&gt;section 3&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#section4&quot;&gt;section 4&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/nav&gt;
-  &lt;section id=&quot;section1&quot;&gt;
-    &lt;h1&gt;Section 1&lt;/h1&gt;
-    &lt;p&gt;
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis, sem ut 
-	  vulputate tempus, leo urna fringilla dolor, sed mattis leo sem id ligula. 
-	  Integer efficitur, nulla eu scelerisque aliquam, arcu erat maximus ante, nec 
-	  maximus urna ligula vel purus. Cras a tortor ac nisl sollicitudin ullamcorper. 
-	  Nullam pulvinar magna mi, eu volutpat metus pretium quis. In faucibus, leo in 
-	  blandit ultricies, urna metus eleifend leo, et vestibulum dolor mi ut urna. 
-	  Nulla eu neque nec justo cursus condimentum. Donec pellentesque tempus iaculis. 
-	  Nunc augue justo, tincidunt in euismod vitae, feugiat sed eros. 
-	  Integer molestie sapien id aliquam fermentum. Duis rutrum sed orci ac aliquet. 
-	  Nulla volutpat posuere nibh ut ullamcorper. Suspendisse facilisis felis massa, 
-	  vel egestas ex faucibus a. Nunc vestibulum volutpat eros eu laoreet.
-    &lt;/p&gt;
-    &lt;p&gt;
+  &lt;head&gt;
+    &lt;title&gt;Long Scrolling with Anchor Links&lt;/title&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;nav&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;#section1&quot;&gt;section 1&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;#section2&quot;&gt;section 2&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;#section3&quot;&gt;section 3&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;#section4&quot;&gt;section 4&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/nav&gt;
+    &lt;section id=&quot;section1&quot;&gt;
+      &lt;h1&gt;Section 1&lt;/h1&gt;
+      &lt;p&gt;
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis, sem ut 
+	    vulputate tempus, leo urna fringilla dolor, sed mattis leo sem id ligula. Integer 
+	    efficitur, nulla eu scelerisque aliquam, arcu erat maximus ante, nec  maximus urna 
+        ligula vel purus. Cras a tortor ac nisl sollicitudin ullamcorper. Nullam pulvinar 
+        magna mi, eu volutpat metus pretium quis. In faucibus, leo in blandit ultricies, 
+        urna metus eleifend leo, et vestibulum dolor mi ut urna. 
+        Nulla eu neque nec justo cursus condimentum. Donec pellentesque tempus iaculis. 
+        Nunc augue justo, tincidunt in euismod vitae, feugiat sed eros. 
+        Integer molestie sapien id aliquam fermentum. Duis rutrum sed orci ac aliquet. 
+        Nulla volutpat posuere nibh ut ullamcorper. Suspendisse facilisis felis massa, vel 
+		egestas ex faucibus a. Nunc vestibulum volutpat eros eu laoreet.
+      &lt;/p&gt;
+      &lt;p&gt;
       Fusce sed pellentesque tellus, vitae accumsan elit. Vivamus porta in risus 
 	  interdum varius. Phasellus auctor bibendum dignissim. Pellentesque ut nulla arcu. 
 	  Aenean id tellus augue. Nunc egestas scelerisque fringilla. Suspendisse potenti. 
@@ -8745,7 +8640,15 @@ section {
 	  volutpat nisl in dictum.
     &lt;/p&gt;
     &lt;p&gt;
-      Phasellus quis lobortis orci. Nunc tincidunt lacus in sapien tristique, dignissim pretium eros varius. Praesent dapibus tincidunt lectus, id tristique arcu iaculis id. Mauris euismod placerat pellentesque. Proin ultricies porttitor porttitor. Suspendisse vehicula arcu a finibus dapibus. Nam non urna nulla. Vivamus aliquet, ipsum et convallis blandit, mauris lacus malesuada dolor, vitae vestibulum velit lectus vel lacus. Phasellus eget ipsum ultrices ipsum sodales interdum. Pellentesque in viverra nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In aliquam convallis lorem vel pellentesque. Curabitur id ante ac risus condimentum accumsan. Aliquam venenatis facilisis fermentum.
+      Phasellus quis lobortis orci. Nunc tincidunt lacus in sapien tristique, 
+	  dignissim pretium eros varius. Praesent dapibus tincidunt lectus, id tristique 
+	  arcu iaculis id. Mauris euismod placerat pellentesque. Proin ultricies porttitor 
+	  porttitor. Suspendisse vehicula arcu a finibus dapibus. Nam non urna nulla. Vivamus 
+	  aliquet, ipsum et convallis blandit, mauris lacus malesuada dolor, vitae vestibulum 
+	  velit lectus vel lacus. Phasellus eget ipsum ultrices ipsum sodales interdum. 
+	  Pellentesque in viverra nisi. Cum sociis natoque penatibus et magnis dis parturient 
+	  montes, nascetur ridiculus mus. In aliquam convallis lorem vel pellentesque. 
+	  Curabitur id ante ac risus condimentum accumsan. Aliquam venenatis facilisis fermentum.
     &lt;/p&gt;
     &lt;p&gt;
       Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla in sapien ac dolor venenatis fermentum et porttitor lacus. Curabitur eu venenatis urna. Nam auctor orci id dui condimentum convallis. Nunc ut nisl rhoncus, elementum tortor sit amet, rutrum tellus. Morbi placerat neque id urna maximus interdum. Sed volutpat, nisl ut tempor bibendum, ipsum mi egestas sem, a tempus sem orci et mi. Nullam sit amet consectetur mi.
@@ -8754,7 +8657,18 @@ section {
   &lt;section id=&quot;section2&quot;&gt;
     &lt;h1&gt;Section 2&lt;/h1&gt;
     &lt;p&gt;
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis, sem ut vulputate tempus, leo urna fringilla dolor, sed mattis leo sem id ligula. Integer efficitur, nulla eu scelerisque aliquam, arcu erat maximus ante, nec maximus urna ligula vel purus. Cras a tortor ac nisl sollicitudin ullamcorper. Nullam pulvinar magna mi, eu volutpat metus pretium quis. In faucibus, leo in blandit ultricies, urna metus eleifend leo, et vestibulum dolor mi ut urna. Nulla eu neque nec justo cursus condimentum. Donec pellentesque tempus iaculis. Nunc augue justo, tincidunt in euismod vitae, feugiat sed eros. Integer molestie sapien id aliquam fermentum. Duis rutrum sed orci ac aliquet. Nulla volutpat posuere nibh ut ullamcorper. Suspendisse facilisis felis massa, vel egestas ex faucibus a. Nunc vestibulum volutpat eros eu laoreet.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis, sem ut 
+	  vulputate tempus, leo urna fringilla dolor, sed mattis leo sem id ligula. 
+	  Integer efficitur, nulla eu scelerisque aliquam, arcu erat maximus ante, 
+	  nec maximus urna ligula vel purus. Cras a tortor ac nisl sollicitudin 
+	  ullamcorper. Nullam pulvinar magna mi, eu volutpat metus pretium quis. 
+	  In faucibus, leo in blandit ultricies, urna metus eleifend leo, et vestibulum 
+	  dolor mi ut urna. Nulla eu neque nec justo cursus condimentum. Donec 
+	  pellentesque tempus iaculis. Nunc augue justo, tincidunt in euismod vitae, 
+	  feugiat sed eros. Integer molestie sapien id aliquam fermentum. Duis rutrum 
+	  sed orci ac aliquet. Nulla volutpat posuere nibh ut ullamcorper. 
+	  Suspendisse facilisis felis massa, vel egestas ex faucibus a. 
+	  Nunc vestibulum volutpat eros eu laoreet.
     &lt;/p&gt;
     &lt;p&gt;
       Fusce sed pellentesque tellus, vitae accumsan elit. Vivamus porta in risus 
@@ -8910,12 +8824,15 @@ section {
 	  nec, pharetra orci. Nulla cursus volutpat nisl in dictum.
     &lt;/p&gt;
     &lt;p&gt;
-      Phasellus quis lobortis orci. Nunc tincidunt lacus in sapien tristique, dignissim pretium eros varius. 
-	  Praesent dapibus tincidunt lectus, id tristique arcu iaculis id. Mauris euismod placerat pellentesque. 
-	  Proin ultricies porttitor porttitor. Suspendisse vehicula arcu a finibus dapibus. Nam non urna nulla. 
-	  Vivamus aliquet, ipsum et convallis blandit, mauris lacus malesuada dolor, vitae vestibulum velit lectus 
-	  vel lacus. Phasellus eget ipsum ultrices ipsum sodales interdum. Pellentesque in viverra nisi. Cum sociis 
-	  natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In aliquam convallis lorem vel pellentesque. Curabitur id ante ac risus condimentum accumsan. Aliquam venenatis facilisis fermentum.
+      Phasellus quis lobortis orci. Nunc tincidunt lacus in sapien tristique, dignissim pretium 
+	  eros varius. Praesent dapibus tincidunt lectus, id tristique arcu iaculis id. Mauris 
+	  euismod placerat pellentesque. Proin ultricies porttitor porttitor. Suspendisse vehicula 
+	  arcu a finibus dapibus. Nam non urna nulla. Vivamus aliquet, ipsum et convallis blandit, 
+	  mauris lacus malesuada dolor, vitae vestibulum velit lectus vel lacus. Phasellus eget ipsum 
+	  ultrices ipsum sodales interdum. Pellentesque in viverra nisi. Cum sociis natoque penatibus 
+	  et magnis dis parturient montes, nascetur ridiculus mus. In aliquam convallis lorem vel 
+	  pellentesque. Curabitur id ante ac risus condimentum accumsan. Aliquam venenatis facilisis 
+	  fermentum.
     &lt;/p&gt;
     &lt;p&gt;
       Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
@@ -8923,11 +8840,10 @@ section {
 	  Nam auctor orci id dui condimentum convallis. Nunc ut nisl rhoncus, elementum tortor sit amet, 
 	  rutrum tellus. Morbi placerat neque id urna maximus interdum. Sed volutpat, nisl ut tempor bibendum, 
 	  ipsum mi egestas sem, a tempus sem orci et mi. Nullam sit amet consectetur mi.
-    &lt;/p&gt;
-  &lt;/section&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
+      &lt;/p&gt;
+    &lt;/section&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre>
 
 </details>
 
