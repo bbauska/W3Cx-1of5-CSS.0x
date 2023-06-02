@@ -7,10 +7,10 @@
     border-width: 1px;
     border-color: #778899;  /* dark grayish blue */
     border-style: solid; }
-
+/*
 font-family: Bahnschrift, Inter, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", 
   "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
-
+*/
   p { font-size: 15px;
       font-family: Bahnschrift, Inter, Helvetic, sans-serif;
       text-align: left; 
