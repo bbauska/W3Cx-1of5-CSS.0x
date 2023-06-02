@@ -59,16 +59,17 @@ Use <table> for tabular data: don't use tables for layout, but if your content i
 Linearized logical source order
 The order of the HTML content should make sense even without the CSS. 
 Benefits are numerous as it works best:
-for long-term site maintainability
-for mobile
-for accessibility
-as a foundation for device adaptation (media queries)
+  - for long-term site maintainability,
+  - for mobile,
+  - for accessibility,
+  - as a foundation for device adaptation (media queries).
+
 Linguistic variations: set the language correctly for better typography (see the section entitled "why Internationalization is important")
+
 Testing
-
 Testing imageTest without CSS: turn off CSS, and if the page makes no sense, fix your markup.
-Test in multiple environments:
 
+Test in multiple environments:
 Test in multiple browsers: remember that just testing in Chrome does not work for everyone!  ;)
 Adaptability
 
