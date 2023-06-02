@@ -25,6 +25,22 @@ font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucid
     overflow: auto;
   }
 
+pre, code {
+  font-family: monospace, monospace;
+  font-size: 10px;
+  padding:5px;  /* 30px, 10px */
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  webkit-box-sizing:border-box;
+  display:block; 
+  white-space: pre-wrap;  
+  white-space: -moz-pre-wrap; 
+  white-space: -pre-wrap; 
+  white-space: -o-pre-wrap; 
+  word-wrap: break-word; 
+  width:85%; overflow-x:auto;  /* 75% */
+ }
+
   pre > code {
     display: block;
     padding: 1rem;
