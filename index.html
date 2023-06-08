@@ -37,8 +37,8 @@ function scrollFunction() {
 /* when the user clicks on the button, scroll to the top of the document. 0,0 or to 
 top of menu button (approx 2120 each),  in this case to table of contents at 420 (approx) */
 function topFunction() {
-  document.body.scrollTop = 420;
-  document.documentElement.scrollTop = 420;
+  document.body.scrollTop = 415;
+  document.documentElement.scrollTop = 415;
 }
 </script>
 
@@ -709,9 +709,9 @@ Web page looks and feels. You can have a Web page without CSS, but it
 would be very difficult to make it look the way you want with just HTML.
 This is why almost every Web page is a combination of HTML and CSS.</p>
 
-<h4>
+<h3>
 CSS • /si-ɛs-ɛs/ • noun
-</h4>
+</h3>
 
 <p>Stands for "<strong>C</strong>ascading <strong>S</strong>tyle <strong>S</strong>heets".
 A style sheet language for describing how to display an HTML document.</p>
@@ -730,9 +730,9 @@ p {
   font-size: 20px;
 }</pre>
 
-<h4>
+<h3>
 HTML • /eɪʧ-ti-ɛm-ɛl/ • noun
-</h4>
+</h3>
 
 <p>Stands for "<strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage",
 and is the primary document format on the Web. It is a standardized system for tagging content on a web page so that a web browser knows how
@@ -751,9 +751,7 @@ to present it properly to the viewer. It is a standardized way to describe a doc
   &lt;/body&gt;
 &lt;/html&gt;</pre>
 
-<h2>
-Web page • /wɛb peɪʤ/ • noun
-</h2>
+<h3>Web page • /wɛb peɪʤ/ • noun</h3>
 
 <p>A hypertext document connected to the World Wide Web.</p>
 <p>Synonyms: website, home page, landing page</p>
@@ -779,9 +777,9 @@ Internet. The World Wide Web is an application of the internet.</p>
 
 <p><em>Abbreviated as WWW or "the Web"</em></p>
 
-<h4>
+<h3>
 Web browser • /wɛb ˈbraʊzər/ • noun
-</h4>
+</h3>
 
 <p>A software application for retrieving, presenting and traversing
 information resources on the World Wide Web.</p>
@@ -863,55 +861,62 @@ href="http://www.csszengarden.com/" target="_blank" rel="noopener noreferrer">CS
 
 <p>Now that we know exactly how CSS came about, let's talk about how
 people are using it today.</p>
+
 <p>CSS has empowered people to separate the content, the text, image,
 videos, all of the stuff that you've created from the way it's
 presented: the fonts, the colors, the spacing, the backgrounds, so that
 you can make as many design decisions in your style sheets and keep them
 separate from all of your content.</p>
+
 <p>There's a particular online community, called CSS ZEN GARDEN, that
 really likes to play up this advantage.</p>
+
 <p>What they do is, they take a single HTML page and they'll create many
-different CSS interpretations how to present it.</p>
-<p>Let's take a look.</p>
+different CSS interpretations how to present it.
+Let's take a look.</p>
 
 <h4>Live coding video: CSS Zen Garden Demo</h4>
 
-<p>This is the homepage for CSS Zen Garden.</p>
-<p>This design was submitted by someone just like you, somewhere out on
+<p>This is the homepage for CSS Zen Garden.
+This design was submitted by someone just like you, somewhere out on
 the Internet, and they chose it to be their homepage.</p>
-<p>In fact, the homepage rotates between different designs.</p>
-<p>Let's take a closer look. If I right-click, I can view the source and
-I can actually look at the HTML behind this Web page.</p>
-<p>I can even comment here and inspect all of the different items, and
-if I click through, I can find this h1 tag.</p>
-<p>That's where the text, CSS Zen Garden, is coming from.</p>
+
+<p>In fact, the homepage rotates between different designs. Let's take a closer look. If I right-click, I can view the source and I can actually look at the HTML behind this Web page.
+I can even comment here and inspect all of the different items, and
+if I click through, I can find this h1 tag.
+That's where the text, CSS Zen Garden, is coming from.</p>
+
 <p>The HTML is here on the left, and here on the right, there's a ton of
-style associated with it.</p>
-<p>In fact, if I scroll through, I can even find the color.</p>
-<p>Just to be sure that this h1 tag is corresponding to this title,
-let's change the color. Let's try purple.</p>
-<p>Oh yeah! That's looks alright. Not great.</p>
-<p>But I definitely am sure that this text corresponds to this HTML tag
+style associated with it.
+In fact, if I scroll through, I can even find the color.
+Just to be sure that this h1 tag is corresponding to this title,
+let's change the color. Let's try purple.
+Oh yeah! That's looks alright. Not great.
+But I definitely am sure that this text corresponds to this HTML tag
 corresponds to this CSS.</p>
+
 <p>In fact, let's take a look at what it’s like without any CSS.</p>
-<p>If I come here to the head, I can actually delete the link to the
+If I come here to the head, I can actually delete the link to the
 CSS, and now I have a pure HTML Web site. In fact, look at how my style
 is deleted.</p>
+
 <p>This is what your Web site would look like without any CSS.</p>
-<p>Not super-exciting.</p>
-<p>Well in fact, let's get back to the CSS.</p>
-<p>Much better! Well, except for that purple text.</p>
-<p>Let's take a look at some other designs.</p>
-<p>These are the designs from all over the Internet.</p>
-<p>Here, we see another completely different design, but that same
-text!</p>
-<p>In fact, if I inspect this element, I can see that it's in that same
-h1 type.</p>
-<p>But look at all the style is different.</p>
-<p>If I scroll down, I can even find the color.</p>
-<p>Purple doesn't look much better on this page either.</p>
-<p>In fact, if I get rid of it, all the HTML, or if I give up all the
+Not super-exciting.
+Well in fact, let's get back to the CSS.
+Much better! Well, except for that purple text.</p>
+
+<p>Let's take a look at some other designs.
+These are the designs from all over the Internet.
+Here, we see another completely different design, but that same
+text!
+In fact, if I inspect this element, I can see that it's in that same
+h1 type.
+But look at all the style is different.
+If I scroll down, I can even find the color.
+Purple doesn't look much better on this page either.
+In fact, if I get rid of it, all the HTML, or if I give up all the
 CSS again, it takes me back to that same core text.</p>
+
 <p>Now you can have a better idea between what part is HTML and what
 part is CSS.</p>
 <p>In fact, now you should look through a few of the different designs,
@@ -925,9 +930,9 @@ style of a page's CSS. You can actually right click on any site and
 choose to look at the code that creates it. This <a
 href="https://en.wikipedia.org/wiki/Web_development_tools#Web_developer_tools_support" target="_blank" rel="noopener noreferrer">feature</a> exists
 in most modern browsers.</p>
+
 <p>Here is what it looks like when I view the source of <a
-href="https://www.w3.org/" target="_blank" rel="noopener noreferrer">W3C's Web site</a> (snapshot taken in
-Sept. 2016):</p>
+href="https://www.w3.org/" target="_blank" rel="noopener noreferrer">W3C's Web site</a> (snapshot taken in Sept. 2016):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 19. edge web browser with view source window open (29) ~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9215,7 +9220,7 @@ websites!</p>
   <li>JavaScript Introduction</li>
 </ol>
 
-<h6>Last Updated: 6.2.2023 Friday 6:56am</h6>
+<h6>Last Updated: 6.7.2023 Wed 7:39pm</h6>
 
 </body>
 
