@@ -11,10 +11,15 @@
 font-family: Bahnschrift, Inter, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", 
   "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
 */
-  p { font-size: 15px;
-      font-family: Bahnschrift, Inter, Helvetic, sans-serif;
-      text-align: left; 
-      margin-left: 5px; }
+  ol li { 
+    padding: 10px; 
+  }
+  p { 
+    font-size: 15px;
+    font-family: Bahnschrift, Inter, Helvetic, sans-serif;
+    text-align: left; 
+    margin-left: 5px; 
+  }
 
   pre, code {
     font-family: monospace, monospace;
