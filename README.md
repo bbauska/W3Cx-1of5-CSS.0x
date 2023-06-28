@@ -657,15 +657,15 @@ Stands for \"**C**ascading **S**tyle **S**heets\". A style sheet language for
 
 ```
 body {
-   background-color: #d0e4fe;
+  background-color: #d0e4fe;
 }
 h1 {
-   color: orange;
-   text-align: center;
+  color: orange;
+  text-align: center;
 }
 p {
-   font-family: "Times New Roman";
-   font-size: 20px;
+  font-family: "Times New Roman";
+  font-size: 20px;
  }
 ```
 
@@ -2824,17 +2824,17 @@ This is a more modern button design where there is no distinct border, but just 
 
 ```
 #design2 {
-   background-color: #D9D9D9;
-   color: white;
-   font-family: "Century Gothic", sans-serif;
+  background-color: #D9D9D9;
+  color: white;
+  font-family: "Century Gothic", sans-serif;
 }
 #design2 button {
-   background-color: #4484CE;
-   border: 0px;
-   color: white;
-   padding: 10px 50px;
-   font-family: Impact, sans-serif;
-   font-size: 1.3em;
+  background-color: #4484CE;
+  border: 0px;
+  color: white;
+  padding: 10px 50px;
+  font-family: Impact, sans-serif;
+  font-size: 1.3em;
 }
 ```
 
@@ -2855,17 +2855,17 @@ This is a big graphic button that uses border-radius to give the button rounded�
 
 ```
 #design3 {
-   font-family: Impact, sans-serif;
-   font-size: 2em;
+  font-family: Impact, sans-serif;
+  font-size: 2em;
 }
   
 #design3 button {
-   font-family: Impact, sans-serif;
-   font-weight: 100;
-   background-color: white;
-   border: 7px #EC576B solid;
-   border-radius: 20px;
-   font-size: 0.8em;
+  font-family: Impact, sans-serif;
+  font-weight: 100;
+  background-color: white;
+  border: 7px #EC576B solid;
+  border-radius: 20px;
+  font-size: 0.8em;
 }
 ```
 
@@ -3029,21 +3029,21 @@ The CSS code mentioned in above video:
 
 ```
 p {
-   color: white;
-   background-color: midnightblue;
-   font-size: large;
+  color: white;
+  background-color: midnightblue;
+  font-size: large;
 }
 .middle {
-   color: darkviolet;
-   background-color: lightgray;
-   padding-left: 120px;
-   padding-right: 120px;
-   font-size: large;
+  color: darkviolet;
+  background-color: lightgray;
+  padding-left: 120px;
+  padding-right: 120px;
+  font-size: large;
 }
 #bottom {
-   background-color: transparent;
-   color: black;
-   font-family: 'Franklin Gothic Medium';
+  background-color: transparent;
+  color: black;
+  font-family: 'Franklin Gothic Medium';
 }
 ```
 
@@ -3099,7 +3099,7 @@ To apply a CSS rule to a class, you must precede its name by a period (\".\"), l
 
 ```
 .className {
-   color: blue;
+  color: blue;
 }
 ```
 
@@ -3117,7 +3117,7 @@ ID names have the same rules as class names: start with a letter, can include nu
 
 ```
 #MyFirstId {
-   color: blue;
+  color: blue;
 }
 ```
 
@@ -3140,29 +3140,34 @@ ID names have the same rules as class names: start with a letter, can include nu
 ```
 <!DOCTYPE html>
 <html lang="en">
-    <head\>
-        <meta charset="utf-8">
-        <title>Classes and IDs</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>Classes and IDs</h1>
-        <p id="intro">
-            Classes and IDs are "attribute selectors". This means that you can attach style to HTML elements based on that element's attributes. This empowers you to apply different style to items of the same HTML type.
-        </p>
-        <p class="odd">
-            Classes are an HTML attribute that specifies a name for a group of elements on the page. You can apply the class name to as many elements as you like, even if they are of different HTML tag types. You can use the class name with a period in front as the selector.
-        </p>
-        <p class="even">
-            Class names must be single words, but you can include digits and dashes as long as the name begins with a letter. Note that names are case sensitive.
-        </p>
-        <p class="odd">
-            An ID is an HTML attribute that specifies a name or unique identifier for a particular HTML element. They are like classes with a very important distinction: the value of the ID attribute must be unique throughout the document. This lets you target a single HTML element for styling.
-        </p>
-        <p class="even">
-            ID names have the same rules as class names: start with a letter, can include numbers and dashes, no spaces. The way to create a selector for an ID is also similar to how you create a selector for a class, except you replace the period with a hash symbol ("#").
-        </p>
-    </body>
+  <head\>
+    <meta charset="utf-8">
+    <title>Classes and IDs</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Classes and IDs</h1>
+    <p id="intro">
+      Classes and IDs are "attribute selectors". This means that you can attach style to HTML elements
+      based on that element's attributes. This empowers you to apply different style to items of the same HTML type.
+    </p>
+    <p class="odd">
+      Classes are an HTML attribute that specifies a name for a group of elements on the page. You can
+      apply the class name to as many elements as you like, even if they are of different HTML tag types. You can use the class name with a period in front as the selector.
+    </p>
+    <p class="even">
+      Class names must be single words, but you can include digits and dashes as long as the name begins
+      with a letter. Note that names are case sensitive.
+    </p>
+    <p class="odd">
+      An ID is an HTML attribute that specifies a name or unique identifier for a particular HTML
+      element. They are like classes with a very important distinction: the value of the ID attribute must be unique throughout the document. This lets you target a single HTML element for styling.
+    </p>
+    <p class="even">
+      ID names have the same rules as class names: start with a letter, can include numbers and dashes,
+      no spaces. The way to create a selector for an ID is also similar to how you create a selector for a class, except you replace the period with a hash symbol ("#").
+    </p>
+  </body>
 </html>
 ```
 
@@ -3170,13 +3175,13 @@ ID names have the same rules as class names: start with a letter, can include nu
 
 ```
 #intro {
-    color: green;
+  color: green;
 }
 .odd {
-    color: blue;
+  color: blue;
 }
 .even {
-    color: red;
+  color: red;
 }
 ```
 
@@ -3188,28 +3193,28 @@ ID names have the same rules as class names: start with a letter, can include nu
 
 ```
 body {
-   background-color: #00ccff;
-   color: white;
-   font-family: Helvetica, sans-serif;
-   margin: 35px 25px 0px 25px;
+  background-color: #00ccff;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  margin: 35px 25px 0px 25px;
 }
 p,h2 {
    padding: 10px;
 }
 .topSection{
-   background-color: #3300cc;
-   color: #cccccc;
+  background-color: #3300cc;
+  color: #cccccc;
 }
 .bottomSection {
-   background-color: #cccccc;
-   color: #3300cc;
+  background-color: #cccccc;
+  color: #3300cc;
 }
 #importantItem {
-   text-decoration: underline;
-   color: #99ff99;
+  text-decoration: underline;
+  color: #99ff99;
 }
 #unimportantItem {
-   color: gray;
+  color: gray;
 }
 ```
 
@@ -3262,8 +3267,8 @@ Here are some of the most popular pseudo-classes.
 
 ```
 a:visited {
-   color: gray;
-   font-style: italic;
+  color: gray;
+  font-style: italic;
 }
 ```
 
@@ -3277,7 +3282,7 @@ The hover pseudo-class is applied when the user points at an object but doesn\'t
 
 ```
 li:hover {
-   background-color: yellow;
+  background-color: yellow;
 }
 ```
 
@@ -3285,7 +3290,7 @@ The focus pseudo class applies when a user has chosen to begin interacting with 
 
 ```
 input:focus {
-   background-color: blue;
+  background-color: blue;
 }
 ```
 
@@ -3293,7 +3298,7 @@ The active pseudo-class applies when an element is activated. This happens in th
 
 ```
 p:active {
-   color: red;
+  color: red;
 }
 ```
 
@@ -3324,47 +3329,47 @@ Now it\'s your turn to try out some pseudo classes. Here is a Web page (see the 
 
 ```
 1.  body {
-2.     background-color: #006666;
-3.     color: white;
+2.    background-color: #006666;
+3.    color: white;
 4.  }
 5.  h1 {
-6.     text-decoration: underline;
+6.    text-decoration: underline;
 7.  }
 8.  input {
-9.     border: 3px white solid;
+9.    border: 3px white solid;
 10. }
 11. input {
-12.    border: 3px yellow solid;
+12.   border: 3px yellow solid;
 13. }
 14. input {
-15.    background-color: yellow;
-16.    border: 3px yellow solid;
+15.   background-color: yellow;
+16.   border: 3px yellow solid;
 17. }
 18. button {
-19.    background-color: white;
-20.    color: #006666;
-21.    border: 3px white solid;
+19.   background-color: white;
+20.   color: #006666;
+21.   border: 3px white solid;
 22. }
 23. button {
-24.    background-color: #006666;
-25.    color: white;
+24.   background-color: #006666;
+25.   color: white;
 26. }
 27. button {
-28.    background-color: #33cc99;
+28.   background-color: #33cc99;
 29. }
 30. li {
-31.    background-color: white;
-32.    color: #006666;
+31.   background-color: white;
+32.   color: #006666;
 33. }
 34. li {
-35.    background-color: #33cc99;
-36.    color: white;
+35.   background-color: #33cc99;
+36.   color: white;
 37. }
 38. a {
-39.    color: white;
+39.   color: white;
 40. }
 41. a {
-42.    color: #33cc99;
+42.   color: #33cc99;
 43. }
 ```
 
@@ -3426,19 +3431,19 @@ When you use two selectors separated by a space on a rule, you scope the rule to
 ```
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-    </head>
-    <body>
-        <img src="images/pic1.jpg" alt="pic 1" />
-        <p>
-            This is my paragraph full of useful information
-            <img src="images/pic2.jpg" alt="pic 2" />
-            Since there is text around these images, they should be styled a little differently.
-            <img src="images/pic3.jpg" alt="pic 3" />
-        </p>
-        <img src="images/pic4.jpg" alt="pic 4" />
-    </body>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <img src="images/pic1.jpg" alt="pic 1" />
+    <p>
+      This is my paragraph full of useful information
+      <img src="images/pic2.jpg" alt="pic 2" />
+      Since there is text around these images, they should be styled a little differently.
+      <img src="images/pic3.jpg" alt="pic 3" />
+    </p>
+    <img src="images/pic4.jpg" alt="pic 4" />
+  </body>
 </html>
 ```
 
@@ -3507,38 +3512,38 @@ For practice, we are going to learn how to better scope CSS without the crutch o
 
 ```
 body {
-    font-family: Tahoma, sans-serif;
+  font-family: Tahoma, sans-serif;
 }
 header, article, footer {
-    border: 10px #E9B000 solid;
-    margin: 30px;
+  border: 10px #E9B000 solid;
+  margin: 30px;
 }
 h1 {
-    color: #E86E80;
+  color: #E86E80;
 }
 h1 {
-    background-color: #E86E80;
-    color: #FFFFFF;
+  background-color: #E86E80;
+  color: #FFFFFF;
 }
 p {
-    background-color: #008F95;
-    color: #FFFFFF;
+  background-color: #008F95;
+  color: #FFFFFF;
 }
 p {
-    background-color: #FFFFFF;
-    color: #008F95;
+  background-color: #FFFFFF;
+  color: #008F95;
 }
  
 ol {
-    background-color: #E24E43;
-    color: #FFFFFF;
+  background-color: #E24E43;
+  color: #FFFFFF;
 }
 ol {
-   background-color: #FFFFFF;
-    color: #E24E43;
+  background-color: #FFFFFF;
+  color: #E24E43;
 }
 ol {
-    border: 5px solid #E24E43;
+  border: 5px solid #E24E43;
 }
 ```
 
@@ -3653,25 +3658,25 @@ Look at the corresponding HTML and CSS, where code showing how Cascading order a
 
 ```
 section {
-   color: red;
+  color: red;
 }
 section section {
-   color: orange;
+  color: orange;
 }
 section section section {
-   color: green;
+  color: green;
 }
 #section {
-   color: blue;
+  color: blue;
 }
 section:hover {
-   color: purple;
+  color: purple;
 }
 section:hover section:hover {
-   color: pink;
+  color: pink;
 }
 section:hover section:hover section:hover {
-   color: yellow;
+  color: yellow;
 }
 ```
 
@@ -3710,25 +3715,25 @@ Cascading order can be difficult to manage.
   
 ```
 body {
-    background-color: #F8EEE7;
+  background-color: #F8EEE7;
 }
 p {
-    background-color: #F4DECB;
+  background-color: #F4DECB;
 }
 p {
-    background-color: #94618E;
-    color: #F8EEE7;
+  background-color: #94618E;
+  color: #F8EEE7;
 }
 p {
-    background-color: #49274A;
+  background-color: #49274A;
 }
 p {
-    background-color: #FFFFFF;
-    color: #49274A;
+  background-color: #FFFFFF;
+  color: #49274A;
 }
 p {
-    background-color: #B4DBC0 !important;
-    border: 2px dashed black;
+  background-color: #B4DBC0 !important;
+  border: 2px dashed black;
 }
 ```
 
@@ -3755,25 +3760,25 @@ The image below shows when you hover \"paragraph 4\". The same hover should appl
 
 ```
 body {
-background-color: #F8EEE7;
+  background-color: #F8EEE7;
 }
 p {
-background-color: #F4DECB;
+  background-color: #F4DECB;
 }
 section p {
-background-color: #94618E;
-color: #F8EEE7;
+  background-color: #94618E;
+  color: #F8EEE7;
 }
 article p {
-background-color: #49274A;
+  background-color: #49274A;
 }
 #specific {
-background-color: #FFFFFF;
-color: #49274A;
+  background-color: #FFFFFF;
+  color: #49274A;
 }
 p:hover {
-background-color: #B4DBC0 !important;
-border: 2px dashed black;
+  background-color: #B4DBC0 !important;
+  border: 2px dashed black;
 }
 ```
 
@@ -3811,8 +3816,8 @@ You can resize images using the width or height properties of CSS like so:
 
 ```
 img {
-   width: 100px;
-   height: 100px;
+  width: 100px;
+  height: 100px;
 }
 ```
 
@@ -3856,12 +3861,12 @@ As you can see, there are a lot of things to consider, and if you do not plan yo
 <!DOCTYPE html>
 <!--It's a best practice to always declare DOCTYPE!-->
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-   </head>
-   <body>
-      <div id="badImg">
-         <p>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <div id="badImg">
+      <p>
 ```
 
 Here is an image that is unformatted, so the surrounding text directly touches it.
@@ -3871,9 +3876,9 @@ Here is an image that is unformatted, so the surrounding text directly touches i
 It also doesn\'t integrate well with the text content, so it does not flow with your other content.
 
 ```
-         </p>
-      </div>
-   </body>
+      </p>
+    </div>
+  </body>
 </html>
 ```
 
@@ -3881,12 +3886,12 @@ It also doesn\'t integrate well with the text content, so it does not flow with 
 
 ```
 div {
-   margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 #badImg {
-   background-color: gray;
-   padding: 10px;
-   color: white;
+  background-color: gray;
+  padding: 10px;
+  color: white;
 }
 ```
 
@@ -3910,26 +3915,26 @@ This design shows some of the basics in properly incorporating images. It uses t
 
 ```
 div {
-   margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 #images1 {
-   background-color: #A4D555;
-   padding: 50px;
-   width: 750px;
+  background-color: #A4D555;
+  padding: 50px;
+  width: 750px;
 }
 #images1 p {
-   background-color: #02558B;
-   font-family: "Century Gothic";
-   font-size: 1.2em;
-   color: white;
-   width: 350px;
-   padding: 30px;
-   float: right;
+  background-color: #02558B;
+  font-family: "Century Gothic";
+  font-size: 1.2em;
+  color: white;
+  width: 350px;
+  padding: 30px;
+  float: right;
 }
 #images1 img {
-   width: 250px;
-   padding: 15px 15px 50px 15px;
-   background-color: white;
+  width: 250px;
+  padding: 15px 15px 50px 15px;
+  background-color: white;
 }
 ```
 
@@ -3944,17 +3949,20 @@ div {
 !DOCTYPE html>
 <!--It's a best practice to always declare DOCTYPE!-->
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-   </head>
-   <body>
-      <div id="images1">
-         <p>
-         One thing that can make a website look cohesive is to choose images that match the design's existing color palette. Sometimes this can be difficult if you have a lot of content images with lots of colors, but whenever possible try to match images to the colors surrounding it.
-         </p>
-         <img src="https://www.w3.org/blog/wp-content/uploads/2021/03/group_calendar-768x627.png" alt="snapshot of the Dataset    Exchange Working Group Calendar" />
-      </div>
-   </body>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <div id="images1">
+      <p>
+        One thing that can make a website look cohesive is to choose images that match the design's
+		existing color palette. Sometimes this can be difficult if you have a lot of content images with
+		lots of colors, but whenever possible try to match images to the colors surrounding it.
+      </p>
+      <img src="https://www.w3.org/blog/wp-content/uploads/2021/03/group_calendar-768x627.png"
+	    alt="snapshot of the Dataset Exchange Working Group Calendar" />
+    </div>
+  </body>
 </html>
 ```
 
@@ -3982,22 +3990,25 @@ This design is an example of an image gallery design. This gives all the images 
 <!DOCTYPE html>
 <!--It's a best practice to always declare DOCTYPE!-->
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-   </head>
-   <body>
-      <div id="images2">
-		  <p>
-		  Here is a group of images in a grid, similar to how you would want to display them in a gallery. You can see how important it is to add proper white space around the images. In this case we have added padding, a border as well as margin to give the images a nice flow. There is also a good spacing between the images and the text.
-		  </p>
-		  <img src="https://www.w3.org/comm/assets/graphics/w3cx-accessibility-intro.jpg" alt="man and woman looking at a computer screen" />
-		  <img src="https://www.w3.org/WAI/content-images/wai-std-gl-overview/specs.png" alt="illustration showing the WAI guidelines for the different components, detailed description at https://www.w3.org/WAI/intro/components-desc.html#guide" />
-		  <img src="https://www.w3.org/WAI/images/WCAG21/small-1024x512@1x.png" alt="WCAG 2.1" />
-		  <img src="https://www.w3.org/International/questions/qa-indic-graphemes-data/jhilli_codepoints.png" alt="Code points that make up the Bengali word 'jhilli'." />
-		  <img src="https://www.w3.org/International/logos/mlw-notext-500-white.png" alt="logo of the W3C Internationalization Activity" />
-		  <img src="https://www.w3.org/TR/2020/WD-simple-ruby-20200609/img/fig06.svg" alt="Example of horizontal ruby" />
-      </div>
-   </body>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <div id="images2">
+      <p>
+        Here is a group of images in a grid, similar to how you would want to display them in a gallery. You can see how important it is to add proper white space around the images. In this case we have added padding, a border as well as margin to give the images a nice flow. There is also a good spacing   between the images and the text.
+      </p>
+      <img src="https://www.w3.org/comm/assets/graphics/w3cx-accessibility-intro.jpg" alt="man and woman looking at a computer screen" />
+      <img src="https://www.w3.org/WAI/content-images/wai-std-gl-overview/specs.png" alt="illustration showing the WAI guidelines for the different components, detailed description at https://www.w3.org/WAI/intro/components-desc.html#guide" />
+      <img src="https://www.w3.org/WAI/images/WCAG21/small-1024x512@1x.png" alt="WCAG 2.1" />
+      <img src="https://www.w3.org/International/questions/
+	    qa-indic-graphemes-data/jhilli_codepoints.png"  alt="Code points that make up the Bengali word 'jhilli'." />
+      <img src="https://www.w3.org/International/logos/mlw-notext-500-white.png" 
+	    alt="logo of the W3C Internationalization Activity" />
+      <img src="https://www.w3.org/TR/2020/WD-simple-ruby-20200609/img/fig06.svg" 
+	    alt="Example of horizontal ruby" />
+    </div>
+  </body>
 </html>
 ```
 
@@ -4010,24 +4021,24 @@ This design is an example of an image gallery design. This gives all the images 
 
 ```
 div {
-   margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 #images2 {
-   width: 750px;
-   background-color: #E9E9E9;
-   padding: 30px;
-   font-family: Arial;
+  width: 750px;
+  background-color: #E9E9E9;
+  padding: 30px;
+  font-family: Arial;
 }
 #images2 p {
-   background-color: #99D3DF;
-   padding: 20px 30px;
+  background-color: #99D3DF;
+  padding: 20px 30px;
 }
 #images2 img {
-   width: 200px;
-   padding: 10px;
-   border: 2px #88BBD6 solid;
-   margin: 5px;
-   background-color: white;
+  width: 200px;
+  padding: 10px;
+  border: 2px #88BBD6 solid;
+  margin: 5px;
+  background-color: white;
 }
 ```
 
@@ -4155,11 +4166,11 @@ Forms can be a surprisingly tricky element to style because you are asking for a
    <body>
       <div id="uglyForm">
          <form>
-	        <h1>Sign Up</h1>
-		    <input type="text" value="Given name" />
-		    <input type="text" value="Family name" />
-		    <input type="text" value="Email" />
-		    <button>Submit</button>
+          <h1>Sign Up</h1>
+        <input type="text" value="Given name" />
+        <input type="text" value="Family name" />
+        <input type="text" value="Email" />
+        <button>Submit</button>
          </form>
       </div>
    </body>
@@ -7314,9 +7325,10 @@ alt="picture of a letter for contacting via email"> -->Gmail</a>
 <!-- <img
 src="https://edxuploads.s3.amazonaws.com/1623095892121252315507.png"
 alt="picture of a phone to signify contacting via phone"> -->Facebook</a>
-         <a href="#top"><img class="arrow" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arrow_top.png/640px-Arrow_top.png" alt="picture of an arrow symbol pointing up for going back up to top of page" title="Back to Top of Page"></a>
-      </footer>
-   </body>
+<a href="#top"><img class="arrow" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arrow_top.png/640px-Arrow_top.png"alt="picture of an arrow symbol pointing up for going back up to top of page" title="Back to
+     Top of Page"></a>
+    </footer>
+  </body>
 </html>
 ```
 
@@ -7537,7 +7549,7 @@ Absolute units are usually the wrong answer.
 -   **Don\'t over-escalate**: understand your code, and don\'t overkill.
 
 -   For example, avoid:
-		. z-index: 9999999999999999999999999999999999999;\
+    . z-index: 9999999999999999999999999999999999999;\
         . position: absolute; left: -10000000000px
 
 -   **Drop dead code**: you tried something and it didn\'t work? Delete it right away!
@@ -7572,7 +7584,7 @@ As you get more comfortable, you can branch out to more exotic fonts. Remember 
 
 ```
 Body {
-   font-family: "Segoe UI", Helvetica, sans-serif;
+  font-family: "Segoe UI", Helvetica, sans-serif;
 }
 ```
 
@@ -7759,9 +7771,9 @@ Good page titles are particularly important for orientation --- to help people k
 
 ```
 <head>
-...
-   <title>Web Accessibility Initiative (WAI) - home page</title>
-...
+  ...
+  <title>Web Accessibility Initiative (WAI) - home page</title>
+  ...
 </head>
 ```
 
@@ -7775,14 +7787,13 @@ Text alternatives (\"alt text\") are a primary way of making visual information 
 
 ```
 <a href="https://w3.org">
-   <img src="images/w3c_home.png" width="72" height="48" alt="W3C Web site">
+  <img src="images/w3c_home.png" width="72" height="48" alt="W3C Web site">
 </a>
 ```
 
 <!------------------------------------------------------------------------------------------------>
 <h3 id="ch5-3-2">5.3.2 Inclusive design</h3>
 <!------------------------------------------------------------------------------------------------>
-
 As you are designing your site, it is critical that you keep in mind the range of users who might be viewing your page. There are some simple design choices you can make to ensure that your web page is as inclusive as possible.
 
 Typically, a good approach is to keep your designs on the simpler side. Not only is this in line with current trends, but when there are fewer elements and styles, it is easier for everyone to consume the information you are trying to convey.
@@ -8160,20 +8171,20 @@ This can be accomplished with something called \"internal links\". This is where
 
 ```
 body {
-   width: 50%;
-   margin-left: auto;
-   margin-right: auto;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 ul {
-   list-style: none;
-   padding: 50px;
+  list-style: none;
+  padding: 50px;
 }
 ul li {
-   float: left;
-   width: 10%;
+  float: left;
+  width: 10%;
 }
 section {
-   clear: both;
+  clear: both;
 }
 ```
 
