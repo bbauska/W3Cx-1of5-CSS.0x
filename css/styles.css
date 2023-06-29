@@ -97,7 +97,7 @@ details {
 
 details > summary {
   padding: 2px 6px;
-  width: 12em;
+  width: 10em;  /* 12em */
   background-color: #eee;  /* very light gray */
   border: none;
   box-shadow: 3px 3px 4px #00008b;  /* dark blue */
@@ -120,7 +120,7 @@ background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93
 
 body {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
-  font-size: 1.2rem;
+  font-size: 13.5px;  /* 1.2rem; */
   background-color: #eee;  /* very light gray */
   color: #000000;  /* black */
   text-align: left;
