@@ -24,6 +24,7 @@ font-family: Bahnschrift, Inter, Consolas, "Andale Mono WT", "Andale Mono", "Luc
   pre, code {
     font-family: monospace, monospace;
     font-size: 10px;
+    margin-left: 10px;
   }
 
   pre {
@@ -32,7 +33,7 @@ font-family: Bahnschrift, Inter, Consolas, "Andale Mono WT", "Andale Mono", "Luc
 
   pre > code {
     display: block;
-	margin-left: 10px;
+    margin-left: 10px;
     padding: 1rem;
     word-wrap: normal;
   }
@@ -102,6 +103,7 @@ details > summary {
   border: none;
   box-shadow: 3px 3px 4px #00008b;  /* dark blue */
   cursor: pointer;
+  margin-left: 10px;
 }
 
 details > p {
