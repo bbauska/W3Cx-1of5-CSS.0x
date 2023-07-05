@@ -1607,8 +1607,7 @@ considered a last resort, for when no other element is suitable but is
 often used to collect together large portions of a site that contain
 multiple different types of content. </p>
 
-<pre>
-&lt;div&gt;
+<pre>&lt;div&gt;
   &lt;h1&gt; Title for Content &lt;/h1&gt;
   &lt;img src=&quot;images/contentImage.jpg&quot; /&gt;
   &lt;p&gt; This is a paragraph explaining this section of content associated with the above image 
@@ -1901,7 +1900,8 @@ online</a>).</p>
     &lt;/ul&gt;
     &lt;p&gt; </pre>
  
- </details>
+</details>
+
 <p>In Module 3, we’ll discuss a variety of ways to use selectors to attach to specific HTML 
   elements.</p>
 <p>In unit 2.2, we briefly mentioned the fact that properties apply to the entire hierarchy 
@@ -1915,8 +1915,7 @@ tag name. For example, here are some example selectors we’ll use in this modul
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>
-  &lt;/p&gt;
+<pre>  &lt;/p&gt;
     &lt;ol&gt;
       &lt;li&gt;This would affect the style of all link tags on the page&lt;/li&gt;
       &lt;li&gt;This would affect the style of all paragraph tags on the page&lt;/li&gt;
@@ -3200,17 +3199,17 @@ designing</a>).</p>
   <summary>CSS code extract!</summary>
 
 <pre>#design2 {
-   background-color: #D9D9D9;
-   color: white;
-   font-family: &quot;Century Gothic&quot;, sans-serif;
+  background-color: #D9D9D9;
+  color: white;
+  font-family: &quot;Century Gothic&quot;, sans-serif;
 }
 #design2 button {
-   background-color: #4484CE;
-   border: 0px;
-   color: white;
-   padding: 10px 50px;
-   font-family: Impact, sans-serif;
-   font-size: 1.3em;
+  background-color: #4484CE;
+  border: 0px;
+  color: white;
+  padding: 10px 50px;
+  font-family: Impact, sans-serif;
+  font-size: 1.3em;
 }</pre>
 
 </details>
@@ -5439,7 +5438,8 @@ and shrink as appropriate based on the screen size.</p>
 the browser window, you'll see how that element dynamically resizes.
 That's because when you use percentages, the size is computed based on
 the element's "<a
-href="https://www.w3.org/TR/CSS22/visuren.html#containing-block" target="_blank" rel="noopener noreferrer">containing block</a>",
+href="https://www.w3.org/TR/CSS22/visuren.html#containing-block" 
+target="_blank" rel="noopener noreferrer">containing block</a>",
 or the element that contains the one you're styling. If your element is
 just within the body tag, the width is computed based on the
 relationship with the screen width.</p>
@@ -5448,9 +5448,11 @@ element's height. This is because typically the body's height is not
 specified, so if you use a percentage the size won't adjust.</p>
 <p>min-width, max-width, min-height, max-height</p>
 <p>[<em>Documentation</em>: <a
-href="https://www.w3.org/TR/CSS22/visudet.html#min-max-widths" target="_blank" rel="noopener noreferrer">max and
+href="https://www.w3.org/TR/CSS22/visudet.html#min-max-widths" 
+target="_blank" rel="noopener noreferrer">max and
 min width</a> and <a
-href="https://www.w3.org/TR/CSS22/visudet.html#min-max-heights" target="_blank" rel="noopener noreferrer">max and
+href="https://www.w3.org/TR/CSS22/visudet.html#min-max-heights" 
+target="_blank" rel="noopener noreferrer">max and
 min height</a>]</p>
 <p>Setting width and height with percentages will save you work because
 your design will automatically optimize for the user's screen size.
@@ -5501,7 +5503,9 @@ to grow and shrink where you know it will still look good. </p>
     &lt;/p&gt;
     &lt;div id=&quot;containingBlock&quot;&gt;
       &lt;p class=&quot;heightSet&quot;&gt;
-        this height is also set to 25%, and since it&#39;s within a div containing block who has a set height of 500px this p will resize in relation to that.
+        this height is also set to 25%, and since it&#39;s within a 
+		div containing block who has a set height of 500px this p will 
+		resize in relation to that.
       &lt;/p&gt;
     &lt;/div&gt;
   &lt;/body&gt;
@@ -5815,7 +5819,8 @@ tools you can master when learning CSS.</p>
 <h4>The float property</h4>
 
 <p>[<em><a
-href="https://www.w3.org/TR/CSS22/visuren.html#float-position" target="_blank" rel="noopener noreferrer">Documentation</a>]</em></p>
+href="https://www.w3.org/TR/CSS22/visuren.html#float-position" 
+target="_blank" rel="noopener noreferrer">Documentation</a>]</em></p>
 
 <pre>h1 {
   width: 20em;
@@ -5890,16 +5895,20 @@ href="https://www.w3.org/TR/CSS22/visuren.html#propdef-clear" target="_blank"  r
       This div is floating right, but no width is set.
       &lt;/div&gt;
       &lt;div id=&quot;floatRightTooWide&quot;&gt;
-      This div is floating right, but the text is very very very long. This makes the div fill the horizontal space of the page by default, so when it is floated it doesn&#39;t look like it goes anywhere.
+      This div is floating right, but the text is very very very long. 
+	  This makes the div fill the horizontal space of the page by default, 
+	  so when it is floated it doesn&#39;t look like it goes anywhere.
       &lt;/div&gt;
       &lt;div id=&quot;noFloatWidthSet&quot;&gt;
-      This div isn&#39;t floating, and its width is set to 40%. Floating elements can overlap.
+      This div isn&#39;t floating, and its width is set to 40%. Floating 
+	  elements can overlap.
       &lt;/div&gt;
       &lt;div id=&quot;floatRightWidthSet&quot;&gt;
       This div is floating right, and its width is set to 30%
       &lt;/div&gt;
       &lt;div id=&quot;noFloatClearRight&quot;&gt;
-      This div isn&#39;t floating, and it is set to clear to the right, so nothing can overlap.
+      This div isn&#39;t floating, and it is set to clear to the right, 
+	  so nothing can overlap.
    &lt;/div&gt;
    &lt;/body&gt;
 &lt;/html&gt;</pre>
@@ -5950,7 +5959,8 @@ div {
 <p>One of the toughest parts of layouts with CSS is figuring out which
 elements to apply a float property to.</p>
 
-<h4>Here is <a href="https://codepen.io/techie4good/pen/xEbWrp" target="_blank" rel="noopener noreferrer">some HTML and CSS</a>:</h4>
+<h4>Here is <a href="https://codepen.io/techie4good/pen/xEbWrp" target="_blank" 
+rel="noopener noreferrer">some HTML and CSS</a>:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 89. float example (159) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5987,16 +5997,27 @@ elements to apply a float property to.</p>
    &lt;/section&gt;
    &lt;section id=&quot;content&quot;&gt;
       &lt;div id=&quot;topRight&quot;&gt;
-      If your elements are still not exactly where you want them to be after adjusting the padding, margins and alignment, then you can try out the float property. The &quot;float&quot; property is one of the most powerful tools you can master when learning CSS.
+      If your elements are still not exactly where you want them to be 
+	  after adjusting the padding, margins and alignment, then you can 
+	  try out the float property. The &quot;float&quot; property is one 
+	  of the most powerful tools you can master when learning CSS.
       &lt;/div&gt;
       &lt;div id=&quot;topLeft&quot;&gt;
-      Up until now, we haven&#39;t moved elements very far from wherever the web browser automatically places them, but as you&#39;ve probably noticed this has left our page very left side heavy.
+      Up until now, we haven&#39;t moved elements very far from 
+	  wherever the web browser automatically places them, but as 
+	  you&#39;ve probably noticed this has left our page very left 
+	  side heavy.
       &lt;/div&gt;
       &lt;div id=&quot;bottomRight&quot;&gt;
-      The float property liberates an element from its automatic position and lifts it up to &quot;float&quot; on top of other elements in the direction you specify. You can specify float either right, left or the default of none.
+      The float property liberates an element from its automatic position 
+	  and lifts it up to &quot;float&quot; on top of other elements in the 
+	  direction you specify. You can specify float either right, left or the 
+	  default of none.
       &lt;/div&gt;
       &lt;div id=&quot;bottomLeft&quot;&gt;
-      Elements underneath a floating object will automatically wrap themselves around the content. For example, if you float an image, the text underneath will wrap around it so that none of it is actually obscured underneath the image.
+      Elements underneath a floating object will automatically wrap themselves 
+	  around the content. For example, if you float an image, the text underneath 
+	  will wrap around it so that none of it is actually obscured underneath the image.
       &lt;/div&gt;
    &lt;/section&gt;
    &lt;/body&gt;
@@ -6090,16 +6111,27 @@ everything looking like the final image below:</p>
     &lt;/section&gt;
     &lt;section id=&quot;content&quot;&gt;
       &lt;div id=&quot;topRight&quot;&gt;
-        If your elements are still not exactly where you want them to be after adjusting the padding, margins and alignment, then you can try out the float property. The &quot;float&quot; property is one of the most powerful tools you can master when learning CSS.
+        If your elements are still not exactly where you want them to be 
+		after adjusting the padding, margins and alignment, then you can 
+		try out the float property. The &quot;float&quot; property is one 
+		of the most powerful tools you can master when learning CSS.
       &lt;/div&gt;
       &lt;div id=&quot;topLeft&quot;&gt;
-        Up until now, we haven&#39;t moved elements very far from wherever the web browser automatically places them, but as you&#39;ve probably noticed this has left our page very left side heavy.
+        Up until now, we haven&#39;t moved elements very far from wherever 
+		the web browser automatically places them, but as you&#39;ve probably 
+		noticed this has left our page very left side heavy.
       &lt;/div&gt;
       &lt;div id=&quot;bottomRight&quot;&gt;
-        The float property liberates an element from its automatic position and lifts it up to &quot;float&quot; on top of  other elements in the direction you specify. You can pecify float either right, left or the default of none.
+        The float property liberates an element from its automatic position 
+		and lifts it up to &quot;float&quot; on top of  other elements in 
+		the direction you specify. You can pecify float either right, left 
+		or the default of none.
       &lt;/div&gt;
       &lt;div id=&quot;bottomLeft&quot;&gt;
-        Elements underneath a floating object will automatically wrap themselves around the content. For example, if you float an image, the text underneath will wrap around it so that none of it is actually obscured underneath the image.
+        Elements underneath a floating object will automatically wrap 
+		themselves around the content. For example, if you float an image, 
+		the text underneath will wrap around it so that none of it is actually 
+		obscured underneath the image.
       &lt;/div&gt;
     &lt;/section&gt;
   &lt;/body&gt;
@@ -6204,20 +6236,32 @@ will compute the way the HTML elements are placed on the page. There are
 four different value options for the position property: </p>
 
 <ul>
-  <li><p><strong>relative</strong> - This is the position setting we will be discussing in detail as it is the best way to build on the dynamic layout methods we have learned thus far. This lets you specify where an HTML element should be relative to where it would be by default.</p></li>
-  <li><p><strong>static</strong> - This is the default setting and will place an element wherever the web browser computes it should be. </p></li>
-  <li><p><strong>fixed</strong> - This places an element in a specific location within the window. You can use this to set an element to remain where it is regardless of scrolling. This was used heavily when "frames" were popular, however now it should be used very sparingly. </p></li>
-  <li><p><strong>absolute</strong> - This allows you to position elements relative to their containing box. This removes an element from its normal flow (just like a floating element) so it can be difficult to control and make a layout that is truly dynamic.</p></li>
+  <li><p><strong>relative</strong> - This is the position setting we 
+  will be discussing in detail as it is the best way to build on the 
+  dynamic layout methods we have learned thus far. This lets you specify 
+  where an HTML element should be relative to where it would be by default.</p></li>
+  <li><p><strong>static</strong> - This is the default setting and will 
+  place an element wherever the web browser computes it should be. </p></li>
+  <li><p><strong>fixed</strong> - This places an element in a specific 
+  location within the window. You can use this to set an element to remain 
+  where it is regardless of scrolling. This was used heavily when "frames" 
+  were popular, however now it should be used very sparingly. </p></li>
+  <li><p><strong>absolute</strong> - This allows you to position elements 
+  relative to their containing box. This removes an element from its normal 
+  flow (just like a floating element) so it can be difficult to control and 
+  make a layout that is truly dynamic.</p></li>
 </ul>
 
 <pre>div {
   position: relative;
 }</pre>
 
-<p>[<a href="https://www.w3.org/TR/CSS22/visuren.html#position-props" target="_blank" rel="noopener noreferrer">
+<p>[<a href="https://www.w3.org/TR/CSS22/visuren.html#position-props" 
+target="_blank" rel="noopener noreferrer">
 <em>Documentation</em></a> for the box offsets: 'top', 'right', 'bottom', 'left']</p>
 <p>Once you've set the position to "relative" that frees you up to set
-the <strong>top</strong>, <strong>right</strong>, <strong>bottom</strong> and <strong>left</strong> properties-
+the <strong>top</strong>, <strong>right</strong>, <strong>bottom</strong> 
+and <strong>left</strong> properties-
 otherwise known as the "box offsets". These properties specify the
 distance between this object and its normal static position and the
 corner of the box that we are specifying.</p>
@@ -6617,12 +6661,14 @@ a {
     &lt;section&gt;
       &lt;h1&gt;Home Page&lt;/h1&gt;
       &lt;p&gt;A bunch of page content &lt;/p&gt;
-      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-      exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-      dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-      mollit anim id est laborum.&lt;/p&gt;
+      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+	  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+	  Ut enim ad minim veniam, quis nostrud 
+      exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+	  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+	  dolore eu fugiat nulla pariatur. 
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+	  officia deserunt mollit anim id est laborum.&lt;/p&gt;
     &lt;/section&gt;
   &lt;/div&gt;
 &lt;/body&gt;
@@ -6911,10 +6957,17 @@ to be distinct from your content.</p>
     &lt;/div&gt;
     &lt;div id=&quot;footer3&quot;&gt;
       &lt;section&gt;
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+		eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+		enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+		nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+		in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+		nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+		sunt in culpa qui officia deserunt mollit anim id est laborum.
       &lt;/section&gt;
       &lt;footer&gt;
-        Please &lt;a href=&quot;#&quot;&gt;contact us&lt;/a&gt; if you have any questions
+        Please &lt;a href=&quot;#&quot;&gt;contact us&lt;/a&gt; if you 
+		have any questions
       &lt;/footer&gt;
     &lt;/div&gt;
   &lt;/body&gt;
@@ -6988,11 +7041,16 @@ reference to the designer of the page.</p>
   &lt;body&gt;
     &lt;div id=&quot;footer1&quot;&gt;
       &lt;section&gt;
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor&lt;br&gt;
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud&lt;br&gt;
-        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure&lt;br&gt;
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&lt;br&gt;
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt&lt;br&gt;
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+		do eiusmod tempor&lt;br&gt;
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+		veniam, quis nostrud&lt;br&gt;
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+		consequat. Duis aute irure&lt;br&gt;
+        dolor in reprehenderit in voluptate velit esse cillum dolore 
+		eu fugiat nulla pariatur.&lt;br&gt;
+        Excepteur sint occaecat cupidatat non proident, sunt in 
+		culpa qui officia deserunt&lt;br&gt;
         mollit anim id est laborum.
       &lt;/section&gt;
       &lt;footer&gt;
@@ -7081,7 +7139,14 @@ because limiting area isn't as important as in the top level header.</p>
   &lt;body&gt;
     &lt;div id=&quot;footer2&quot;&gt;
       &lt;section&gt;
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+		sed do eiusmod tempor incididunt ut labore et dolore magna 
+		aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+		ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+		Duis aute irure dolor in reprehenderit in voluptate velit 
+		esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+		occaecat cupidatat non proident, sunt in culpa qui officia 
+		deserunt mollit anim id est laborum.
       &lt;/section&gt;
       &lt;footer&gt;
         &lt;ul class=&quot;navCat&quot;&gt;
@@ -7175,10 +7240,18 @@ limits the content to a single simple contact link.</p>
   &lt;body&gt;
     &lt;div id=&quot;footer3&quot;&gt;
       &lt;section&gt;
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+		sed do eiusmod tempor incididunt ut labore et dolore magna 
+		aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+		ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+		Duis aute irure dolor in reprehenderit in voluptate velit 
+		esse cillum dolore eu fugiat nulla pariatur. Excepteur 
+		sint occaecat cupidatat non proident, sunt in culpa qui 
+		officia deserunt mollit anim id est laborum.
       &lt;/section&gt;
       &lt;footer&gt;
-        Please &lt;a href=&quot;#&quot;&gt;contact us&lt;/a&gt; if you have any questions
+        Please &lt;a href=&quot;#&quot;&gt;contact us&lt;/a&gt; 
+		if you have any questions
       &lt;/footer&gt;
     &lt;/div&gt;
   &lt;/body&gt;
@@ -7196,10 +7269,22 @@ which tool, in the order in which you should use them when positioning
 an element.</p>
 
 <ol type="1">
-  <li><p>Use padding and margin whenever you can. This will keep things simple in relation to the box model and the overall flow of elements in relation to one another.</p></li>
-  <li><p>The float property is necessary when you want two block elements to share horizontal space. It can be easy to overuse the float property, keep in mind that if elements aren't floating the way you want them to you might want to adjust their order in the HTML instead of applying float to more and more elements.</p></li>
-  <li><p>If the above tools aren't getting your element where it should be, you can use relative positioning and directly set the box offsets (top, bottom, left, right). This makes things a bit more complicated especially when you try to inspect the box model around your element, but sometimes this is unavoidable because of collapsing margins. </p></li>
-  <li><p>If all that is not enough, there are advanced CSS features such as flexbox, table layout, absolute positioning and grid layout.</p></li>
+  <li><p>Use padding and margin whenever you can. This will keep 
+  things simple in relation to the box model and the overall flow 
+  of elements in relation to one another.</p></li>
+  <li><p>The float property is necessary when you want two block 
+  elements to share horizontal space. It can be easy to overuse 
+  the float property, keep in mind that if elements aren't floating 
+  the way you want them to you might want to adjust their order in 
+  the HTML instead of applying float to more and more elements.</p></li>
+  <li><p>If the above tools aren't getting your element where it 
+  should be, you can use relative positioning and directly set the 
+  box offsets (top, bottom, left, right). This makes things a bit 
+  more complicated especially when you try to inspect the box model 
+  around your element, but sometimes this is unavoidable because of 
+  collapsing margins. </p></li>
+  <li><p>If all that is not enough, there are advanced CSS features 
+  such as flexbox, table layout, absolute positioning and grid layout.</p></li>
 </ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-6-2">4.6.2 Module 4 project - My resume</h3>
@@ -7251,7 +7336,9 @@ on the page when you resize the browser window. </p>
 
 <pre>/*
 Project 4 Module 4.6.2
-At times I use the number 2 at the beginning of an element to disable it. The number 2 is just random. So when you see that in my code, that is all this is about.
+At times I use the number 2 at the beginning of an element to disable it. 
+The number 2 is just random. So when you see that in my code, that is all 
+this is about.
 */
 body {
   background-color: white;
@@ -7494,16 +7581,19 @@ a:hover, img:active {
         &lt;h3 class=&quot;year&quot;&gt;2019&lt;/h3&gt;
           &lt;h3 class=&quot;textColorOffset workPosition&quot;&gt;USPS Delivery Supervisor&lt;/h3&gt;
           &lt;p&gt;
-            Supervise mail carrier and clerk personnel rotating to 18 different offices as needed in San Diego, California. Able to open close and do both.
+            Supervise mail carrier and clerk personnel rotating to 18 different 
+			offices as needed in San Diego, California. Able to open close and do both.
           &lt;/p&gt;
         &lt;h3 class=&quot;year&quot;&gt;2017&lt;/h3&gt;
-        &lt;h3 class=&quot;textColorOffset workPosition&quot;&gt;USPS Project Tasks for Area Manager&lt;/h3&gt;
+        &lt;h3 class=&quot;textColorOffset workPosition&quot;&gt;USPS Project Tasks 
+		for Area Manager&lt;/h3&gt;
         &lt;p&gt;
           Provide customized reporting on multiple functions within delivery operations 
           pertaining to status of all 12 offices under the Area Managers scope.
         &lt;/p&gt;
         &lt;h3 class=&quot;year&quot;&gt;2016&lt;/h3&gt;
-        &lt;h3 class=&quot;textColorOffset workPosition&quot;&gt;USPS Supervisor Customer Services&lt;/h3&gt;
+        &lt;h3 class=&quot;textColorOffset workPosition&quot;&gt;USPS Supervisor 
+		Customer Services&lt;/h3&gt;
         &lt;p&gt;
           Supervise, schedule, support, and provide reporting about team of 45 people.
         &lt;/p&gt;
@@ -7518,9 +7608,13 @@ a:hover, img:active {
       &lt;section id=&quot;objective&quot;&gt;
         &lt;h2&gt;Objective&lt;/h2&gt;
         &lt;p class=&quot;objectiveSizing&quot;&gt;
-          &lt;span&gt;F&lt;/span&gt;ocus on providing effective Front End Web Development design services for Small to Medium sized Businesses.&lt;/p&gt;
+          &lt;span&gt;F&lt;/span&gt;ocus on providing effective Front End Web 
+		  Development design services for Small to Medium sized Businesses.&lt;/p&gt;
         &lt;p class=&quot;objectiveSizing&quot;&gt;
-          &lt;span&gt;A&lt;/span&gt;fter mastering Front End Web Development, I would like to learn Back End Development. Then help small and medium sized businesses with data usage, create front facing web pages that are effective, insightful, and practical that meet business goals and user needs.
+          &lt;span&gt;A&lt;/span&gt;fter mastering Front End Web Development, 
+		  I would like to learn Back End Development. Then help small and medium 
+		  sized businesses with data usage, create front facing web pages that are 
+		  effective, insightful, and practical that meet business goals and user needs.
         &lt;/p&gt;
       &lt;/section&gt;
       &lt;!-- Education Section --&gt;
@@ -7558,7 +7652,8 @@ a:hover, img:active {
     &lt;section&gt;
       &lt;h3 class=&quot;textColorOffset&quot;&gt;Create&lt;/h3&gt;
       &lt;p class=&quot;leadershipParagraph&quot;&gt;
-        Create customized reporting for management team members to help make informed and efficient decisions.
+        Create customized reporting for management team members to help make 
+		informed and efficient decisions.
       &lt;/p&gt;
     &lt;/section&gt;
   &lt;/section&gt;
@@ -7567,13 +7662,25 @@ a:hover, img:active {
     &lt;section&gt;
       &lt;h3 class=&quot;textColorOffset charityWork&quot;&gt;College Ave Baptist Church&lt;/h3&gt;
       &lt;p class=&quot;charityWorkPargraph&quot;&gt;
-        &lt;span&gt;H&lt;/span&gt;elp where needed. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus asperiores voluptatibus est error fugit accusantium nobis aspernatur, id dolorum veniam debitis hic architecto voluptate ipsum maiores tempore libero distinctio consequatur!
+        &lt;span&gt;H&lt;/span&gt;elp where needed. Lorem ipsum, dolor sit amet 
+		consectetur adipisicing elit. Ducimus asperiores voluptatibus est error 
+		fugit accusantium nobis aspernatur, id dolorum veniam debitis hic architecto 
+		voluptate ipsum maiores tempore libero distinctio consequatur!
       &lt;/p&gt;
     &lt;/section&gt;
   &lt;section&gt;
-    &lt;h3 class=&quot;textColorOffset charityWork&quot;&gt;Inter-Faith Shelter, San Diego, CA&lt;/h3&gt;
-    &lt;p class=&quot;charityWorkPargraph&quot;&gt;&lt;span&gt;P&lt;/span&gt;rovide designated food, serve meals to single people and families, talk with adults and children, clean kitchen and     eating area afterwards.&lt;/p&gt;
-      &lt;p class=&quot;charityWorkPargraph&quot;&gt;&lt;span&gt;I&lt;/span&gt;nter-Faith Shelter is a community effort to help people get back on their feet with a plan to obtain training or work. Congregations involved from many different faiths as many as 80 join on a rotational basis to house and feed people in need of getting back on their feet to be self sustaining. Their is accountability and rules to abide by out of respect for others to remain in this care situation. All is done on a volunteer basis.
+    &lt;h3 class=&quot;textColorOffset charityWork&quot;&gt;Inter-Faith Shelter, 
+	San Diego, CA&lt;/h3&gt;
+    &lt;p class=&quot;charityWorkPargraph&quot;&gt;&lt;span&gt;P&lt;/span&gt;rovide 
+	designated food, serve meals to single people and families, talk with adults 
+	and children, clean kitchen and     eating area afterwards.&lt;/p&gt;
+      &lt;p class=&quot;charityWorkPargraph&quot;&gt;&lt;span&gt;I&lt;/span&gt;nter-Faith 
+	  Shelter is a community effort to help people get back on their feet with a plan 
+	  to obtain training or work. Congregations involved from many different faiths 
+	  as many as 80 join on a rotational basis to house and feed people in need of 
+	  getting back on their feet to be self sustaining. Their is accountability and 
+	  rules to abide by out of respect for others to remain in this care situation. 
+	  All is done on a volunteer basis.
     &lt;/p&gt;
     &lt;/section&gt;
   &lt;/section&gt;
@@ -7583,10 +7690,12 @@ a:hover, img:active {
       Connect with me on:
     &lt;/p&gt;
     &lt;a href=&quot;mailto:ncccontact23@gmail.com&quot; target=&quot;_blank&quot;&gt;
-    &lt;!-- &lt;img src=&quot;https://edxuploads.s3.amazonaws.com/162309585670190256428.png&quot; alt=&quot;picture of a letter for contacting via email&quot;&gt; --&gt;Gmail&lt;/a&gt; &lt;a href=&quot;https://facebook.com&quot; target=&quot;_blank&quot;&gt;
+    &lt;!-- &lt;img src=&quot;https://edxuploads.s3.amazonaws.com/162309585670190256428.png&quot; 
+	alt=&quot;picture of a letter for contacting via email&quot;&gt; --&gt;Gmail&lt;/a&gt; &lt;a href=&quot;https://facebook.com&quot; target=&quot;_blank&quot;&gt;
     &lt;!-- &lt;img src=&quot;https://edxuploads.s3.amazonaws.com/1623095892121252315507.png&quot;
       alt=&quot;picture of a phone to signify contacting via phone&quot;&gt; --&gt;Facebook&lt;/a&gt;
-      &lt;a href=&quot;#top&quot;&gt;&lt;img class=&quot;arrow&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arrow_top.png/640px-Arrow_top.png&quot; alt=&quot;picture of an arrow symbol pointing up for going back up to top of page&quot; title=&quot;Back to Top of Page&quot;&gt;&lt;/a&gt;
+      &lt;a href=&quot;#top&quot;&gt;&lt;img class=&quot;arrow&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arrow_top.png/640px-Arrow_top.png&quot; 
+	  alt=&quot;picture of an arrow symbol pointing up for going back up to top of page&quot; title=&quot;Back to Top of Page&quot;&gt;&lt;/a&gt;
   &lt;/footer&gt;
   &lt;/body&gt;
 &lt;/html&gt;</pre>
@@ -7599,8 +7708,10 @@ a:hover, img:active {
 
 <ul>
   <li><p>Control exactly where an HTML element is placed on a page</p></li>
-  <li><p>Design the layout of your HTML elements such that they stay aligned as the window grows and shrinks</p></li>
-  <li><p>Employ the alignment, float and position properties when appropriate for optimal page structure</p></li>
+  <li><p>Design the layout of your HTML elements such that they stay aligned as the 
+  window grows and shrinks</p></li>
+  <li><p>Employ the alignment, float and position properties when appropriate for 
+  optimal page structure</p></li>
 </ul>
 
 <h4>In the next module (5), we’ll…</h4>
@@ -7631,54 +7742,51 @@ now, so you can understand how to keep your Web page looking modern.</p>
 <h4>In this module (5), we will:</h4>
 
 <ul>
-  <li><p>Learn how to apply basic design principals based on the context of your HTML elements,</p></li>
-  <li><p>Explore CSS and HTML's accessibility features and how you can design your page to accommodate a diverse audience,</p></li>
-  <li><p>Introduce you to features to help internationalize your page and make it easier for those viewing it in different languages,</p></li>
-  <li><p>Discuss the lessons learned from historical Web design trends and give you the new tech we use instead,</p></li>
-  <li><p>Meet the newest fashions in Web design to help you give your Web pages a modern look and feel.</p></li>
+  <li><p>Learn how to apply basic design principals based on the context of 
+  your HTML elements,</p></li>
+  <li><p>Explore CSS and HTML's accessibility features and how you can design 
+  your page to accommodate a diverse audience,</p></li>
+  <li><p>Introduce you to features to help internationalize your page and make 
+  it easier for those viewing it in different languages,</p></li>
+  <li><p>Discuss the lessons learned from historical Web design trends and give 
+  you the new tech we use instead,</p></li>
+  <li><p>Meet the newest fashions in Web design to help you give your Web 
+  pages a modern look and feel.</p></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-1-3">5.1.3 The importance of design</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Have you ever visited a Web site before?</p>
-<p>And you left feeling really frustrated?</p>
-<p>A lot of times, people don't really put a lot of thought into their
+<p>Have you ever visited a Web site before?  And you left feeling really 
+frustrated?  A lot of times, people don't really put a lot of thought into their
 audience when they're designing their Web site.</p>
 <p>For example, they can put things that you're really looking for in a
-place that's hard to find them.</p>
-<p>Or they can forget that you're going to be looking at this Web site
-on a mobile phone.</p>
+place that's hard to find them.  Or they can forget that you're going to be 
+looking at this Web site on a mobile phone.</p>
 <p>When Web design goes wrong, it's really memorable and it doesn't
-leave a lot of room for error.</p>
-<p>But you can avoid a lot of these mistakes with one simple thing.</p>
-<p>Keeping in mind your audience.</p>
-<p>Thinking about things like what devices your audience is going to use
-to access your page, what information is most important for them to
-find, and making sure that you're always designing for an inclusive
-audience will keep your user frustration low.</p>
+leave a lot of room for error.  But you can avoid a lot of these mistakes 
+with one simple thing.  Keeping in mind your audience.  Thinking about things 
+like what devices your audience is going to use to access your page, what 
+information is most important for them to find, and making sure that you're 
+always designing for an inclusive audience will keep your user frustration low.</p>
 <p>For example, let's say you build a beautiful Web site that looks
-great on your big monitor.</p>
-<p>You're going to want to look at it on a phone. Because a lot of Web
-traffic these days, comes through a mobile phone.</p>
-<p>And it's actually pretty easy to adjust your screen so that it adapts
+great on your big monitor.  You're going to want to look at it on a phone. 
+Because a lot of Web traffic these days, comes through a mobile phone.
+And it's actually pretty easy to adjust your screen so that it adapts
 to the mobile phone size.</p>
 <p>You're also going to want to keep in mind what information your users
 really looking for in your page, and use CSS to highlight that
 information and make it very visible. For example, don't hide your pay
-button! Make it sure your user knows exactly how to give you money.</p>
-<p>And then, with inclusive design you're going to want to keep in mind
+button! Make it sure your user knows exactly how to give you money.
+And then, with inclusive design you're going to want to keep in mind
 users that are low visioned or colorblind.</p>
 <p>For example, if you're using color to indicate something, you want to
-combine that with shape.</p>
-<p>That it's really clear what you are trying to say in case color isn't
-a really clear factor for your user.</p>
-<p>And with low vision, you're going to want to keep in mind that a lot
-of people access your Web site with a screen reader.</p>
-<p>You're always going to want to fill out the alt tag for your images
-and follow through and make sure that when your Web site is read aloud,
-it still makes sense.</p>
-<p>Just these simple tweaks can make sure that your user leaves very
-happy after accessing your Web site.</p>
+combine that with shape.  That it's really clear what you are trying to say 
+in case color isn't a really clear factor for your user.  And with low vision, 
+you're going to want to keep in mind that a lot of people access your Web site 
+with a screen reader.  You're always going to want to fill out the alt tag for 
+your images and follow through and make sure that when your Web site is read aloud,
+it still makes sense.  Just these simple tweaks can make sure that your user 
+leaves very happy after accessing your Web site.</p>
 
 <h4>Web stats</h4>
 
@@ -7693,11 +7801,12 @@ Web design is. Here are a few interesting stats to guide you:</p>
 <h3 id="ch5-1-4">5.1.4 CSS best practices</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>You will find below an excerpt of CSS best practices (see the <a
-href="https://fantasai.inkedblade.net/style/talks/best-practices/#title" target="_blank" rel="noopener noreferrer">full
-slide set</a>) that were written by  Elika J. Etemad (also known as <a
-href="https://fantasai.inkedblade.net/" target="_blank" rel="noopener noreferrer">fantasai</a>). Elika is an
-expert on the <a href="https://www.w3.org/Style/CSS/" target="_blank" rel="noopener noreferrer">W3C CSS Working
-Group</a> (since 2004!) and a longtime contributor to the Mozilla
+href="https://fantasai.inkedblade.net/style/talks/best-practices/#title" 
+target="_blank" rel="noopener noreferrer">full slide set</a>) that were 
+written by  Elika J. Etemad (also known as <a href="https://fantasai.inkedblade.net/" 
+target="_blank" rel="noopener noreferrer">fantasai</a>). Elika is an expert on the 
+<a href="https://www.w3.org/Style/CSS/" target="_blank" rel="noopener noreferrer">
+W3C CSS Working Group</a> (since 2004!) and a longtime contributor to the Mozilla
 Project. In addition to editing many of the CSS3 specifications, she’s
 worked on layout engine testing and development for Gecko and managing
 the CSS test suites at W3C.</p>
@@ -7705,13 +7814,21 @@ the CSS test suites at W3C.</p>
 <h4>Executive summary</h4>
 
 <ul>
-  <li><p><strong>Logical source order:</strong><br >The order of the HTML content should make sense even without the CSS: for accessibility, mobile optimization, device adaptability, and long-term maintainability.</p></li>
-  <li><p><strong>Liquid layouts and relativity:</strong><br >Use smart relative sizing: to optimize layouts while minimizing media query code forks.</p></li>
-  <li><p><strong>Media queries:</strong><br > Adapt to screen size changes; get font size adaptation free by using ems.</p></li>
-  <li><p><strong>Prevent zombie code:</strong><br > Dead code may come alive as CSS changes. Delete it before it does, and ruins your layout.</p></li>
-  <li><p><strong>Test in multiple browsers:</strong><br > Your favorite browser is not always right.</p></li>
-  <li><p><strong>Don't use proprietary features!</strong><br > Keep the Web open to everyone! Don't rely on the latest -WebKit- invention.</p></li>
-  <li><p><strong>Turn off CSS:</strong><br > A well-coded page will be understandable without it.</p></li>
+  <li><p><strong>Logical source order:</strong><br >The order of the HTML 
+  content should make sense even without the CSS: for accessibility, mobile 
+  optimization, device adaptability, and long-term maintainability.</p></li>
+  <li><p><strong>Liquid layouts and relativity:</strong><br >Use smart relative 
+  sizing: to optimize layouts while minimizing media query code forks.</p></li>
+  <li><p><strong>Media queries:</strong><br > Adapt to screen size changes; get 
+  font size adaptation free by using ems.</p></li>
+  <li><p><strong>Prevent zombie code:</strong><br > Dead code may come alive as 
+  CSS changes. Delete it before it does, and ruins your layout.</p></li>
+  <li><p><strong>Test in multiple browsers:</strong><br > Your favorite browser 
+  is not always right.</p></li>
+  <li><p><strong>Don't use proprietary features!</strong><br > Keep the Web open 
+  to everyone! Don't rely on the latest -WebKit- invention.</p></li>
+  <li><p><strong>Turn off CSS:</strong><br > A well-coded page will be understandable 
+  without it.</p></li>
 </ul>
 
 <h4>Foundations</h4>
@@ -7721,17 +7838,27 @@ the CSS test suites at W3C.</p>
   <li><p>Learn how to code CSS before relying on frameworks (such as Bootstrap, etc.)</p></li>
   <li><p><strong>Separate content and style</strong></p>
   <ul>
-    <li><p>Use semantic markup, ie., "classes for meaning, not for show".<br > The following article is helpful to understand this concept: <a href="https://alistapart.com/article/meaningful-css-style-like-you-mean-it/" target="_blank" rel="noopener noreferrer">Meaningful CSS: Style Like You Mean It</a> (Tim Baxter, May 2016 - A list apart). It is also fully described in the <a href="https://www.edx.org/course/html5-and-css-fundamentals" target="_blank" rel="noopener noreferrer">HTML5&amp;CSS Fundamentals course</a>.</p></li>
-    <li><p>Use &lt;table&gt; for tabular data: don't use tables for layout, but if your content is tabular like a catalog, a calendar, or a price list, then the table element is the correct markup.</p></li>
+    <li><p>Use semantic markup, ie., "classes for meaning, not for show".<br > 
+	The following article is helpful to understand this concept: <a href="https://alistapart.com/article/meaningful-css-style-like-you-mean-it/" 
+	target="_blank" rel="noopener noreferrer">Meaningful CSS: Style Like You Mean 
+	It</a> (Tim Baxter, May 2016 - A list apart). It is also fully described in the <a href="https://www.edx.org/course/html5-and-css-fundamentals" target="_blank" 
+	rel="noopener noreferrer">HTML5&amp;CSS Fundamentals course</a>.</p></li>
+    <li><p>Use &lt;table&gt; for tabular data: don't use tables for layout, but 
+	if your content is tabular like a catalog, a calendar, or a price list, then 
+	the table element is the correct markup.</p></li>
   </ul></li>
-  <li><p><strong>Linearized logical source order<br > </strong>The order of the HTML content should make sense even without the CSS.<br >Benefits are numerous as it <em>works best</em>:</p>
+  <li><p><strong>Linearized logical source order<br > </strong>The order of the 
+  HTML content should make sense even without the CSS.<br >Benefits are numerous 
+  as it <em>works best</em>:</p>
   <ul>
     <li><p>for long-term site maintainability</p></li>
     <li><p>for mobile</p></li>
     <li><p>for accessibility</p></li>
     <li><p>as a foundation for device adaptation (media queries)</p></li>
   </ul></li>
-  <li><p><strong>Linguistic variations</strong>: set the language correctly for better typography (see the section later in this module entitled "why Internationalization is important")</p></li>
+  <li><p><strong>Linguistic variations</strong>: set the language correctly for 
+  better typography (see the section later in this module entitled "why 
+  Internationalization is important")</p></li>
 </ul>
 
 <h4>Testing</h4>
@@ -7744,7 +7871,8 @@ the CSS test suites at W3C.</p>
   alt="Big red test button." >
 
 <ul>
-  <li><p><strong>Test without CSS</strong>: turn off CSS, and if the page makes no sense, fix your markup.</p></li>
+  <li><p><strong>Test without CSS</strong>: turn off CSS, and if the page 
+  makes no sense, fix your markup.</p></li>
   <li><p><strong>Test in multiple environments</strong>:</p>
   <ul>
     <li><p>Resize the window</p></li>
@@ -7753,20 +7881,24 @@ the CSS test suites at W3C.</p>
     <li><p>Navigate by keyboard</p></li>
   </ul>
   </li>
-  <li><p><strong>Test in multiple browsers</strong>: remember that just testing in Chrome does not work for everyone!  ;)</p></li>
+  <li><p><strong>Test in multiple browsers</strong>: remember that just 
+  testing in Chrome does not work for everyone!  ;)</p></li>
 </ul>
 
 <h4>Adaptability</h4>
 
 <ul>
-  <li><p><strong>Media queries</strong>: set media query breakpoints in em or ch, not always in px.</p></li>
-  <li><p><strong>Liquid layouts and relativity</strong>: what is your sizing based on?</p></li>
+  <li><p><strong>Media queries</strong>: set media query breakpoints in 
+  em or ch, not always in px.</p></li>
+  <li><p><strong>Liquid layouts and relativity</strong>: what is your 
+  sizing based on?</p></li>
   <li><p>Containing block size? → Use percents.</p></li>
   <li><p>Viewport size? → Use viewport units: vw, vh, vmin, vmax</p></li>
   <li><p>Font height? → Use em or rem.</p></li>
   <li><p>Font pitch? → Use em or ch.</p></li>
   <li><p>Content size? → Use auto or min-content/max-content.</p></li>
-  <li><p>Combination of the above? → Use the appropriate layout formulas: flex, min-width, max-width, etc.</p></li>
+  <li><p>Combination of the above? → Use the appropriate layout formulas: 
+  flex, min-width, max-width, etc.</p></li>
 </ul>
 
 <p>Absolute units are usually the wrong answer.</p>
@@ -7778,13 +7910,18 @@ the CSS test suites at W3C.</p>
   <li><p>Use !important to define overriding rules, not for fixups</p></li>
   <li><p>Duplicate selectors if you need to increase specificity, or</p></li>
   <li><p>Simplify selectors if you need to decrease specificity</p></li>
-  <li><p><strong>Don't over-escalate</strong>: understand your code, and don't overkill.</p></li>
-  <li><p>For example, avoid: . z-index: 9999999999999999999999999999999999999;<br >. position: absolute; left: -10000000000px</p></li>
-  <li><p><strong>Drop dead code</strong>: you tried something and it didn't work? Delete it right away!</p></li>
+  <li><p><strong>Don't over-escalate</strong>: understand your code, and 
+  don't overkill.</p></li>
+  <li><p>For example, avoid: . z-index: 9999999999999999999999999999999999999;<br >. 
+  position: absolute; left: -10000000000px</p></li>
+  <li><p><strong>Drop dead code</strong>: you tried something and it didn't work? 
+  Delete it right away!</p></li>
   <li><p>Code to Standard</p></li>
   <li><p>Don't rely on proprietary extensions</p></li>
-  <li><p>Don't use experimental features in production <em>or</em> commit to keeping up-to-date.</p></li>
-  <li><p>Provide fallbacks / use <span class="citation" data-cites="supports">@supports</span>.</p></li>
+  <li><p>Don't use experimental features in production <em>or</em> commit to 
+  keeping up-to-date.</p></li>
+  <li><p>Provide fallbacks / use <span class="citation" data-cites="supports">
+  @supports</span>.</p></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-2-1">5.2.1 Applying basic design principals</h3>
@@ -7813,11 +7950,13 @@ page. </p>
 all fonts, so it can be difficult to get your font looking exactly the
 way you want on all platforms. While you’re starting out, it’s best to
 stick to the most popular and commonly used fonts. <a
-href="https://www.w3.org/Style/Examples/007/fonts.en.html" target="_blank" rel="noopener noreferrer">Here is a
+href="https://www.w3.org/Style/Examples/007/fonts.en.html" target="_blank" 
+rel="noopener noreferrer">Here is a
 good list </a>of fonts for English pages and the appropriate fall-backs
 to get you started. On the Web, you can find other lists of available
 system fonts for non-Latin scripts, such as <a
-href="https://r12a.github.io/scripts/fontlist/" target="_blank" rel="noopener noreferrer">this one</a>.</p>
+href="https://r12a.github.io/scripts/fontlist/" target="_blank" rel="noopener 
+noreferrer">this one</a>.</p>
 <p>As you get more comfortable, you can branch out to more exotic fonts.
 Remember that, when you are building your font-family set, you will want
 to always include a Web safe font alternative for an exotic font in case
@@ -7838,26 +7977,51 @@ what category of font to use. There are 5 basic categories of font: </p>
   alt="Example of 5 different font categories." >
 
 <ul>
-  <li><b>sans-serif</b> – These are the most popular fonts for Web pages. This means the letters do not have added flourishes, so the typefaces are simpler. Their simplicity makes them easier to display on computer screens as their resolution is much lower than a printed document. It is often suggested you choose a sans-serif font for large blocks of digital text.</li>
+  <li><b>sans-serif</b> – These are the most popular fonts for Web pages. 
+  This means the letters do not have added flourishes, so the typefaces 
+  are simpler. Their simplicity makes them easier to display on computer 
+  screens as their resolution is much lower than a printed document. It 
+  is often suggested you choose a sans-serif font for large blocks of 
+  digital text.</li>
 </ul>
 
 <h4>Examples: Helvetica, Verdana, Arial, Tahoma</h4>
 
 <ul>
-  <li><p><b>serif</b> - These fonts are the second most popular typefaces. "Serif" refers to the small flourish lines at the edges of letters and symbols. "Serifs" make each character more distinct, making text easier to read in print. This is why these fonts might remind you of a text from a typewriter, or of the fonts you see in printed books, newspapers or magazines. These typefaces can often be used effectively for titles or emphasis.</p></li>
-  <li><p><b>monospace</b> - These fonts guarantee that all letters have the same fixed width. This is similar to a manual typewriter, or how computer code appears in editors. These fonts were designed for the ease of the technology, not humans, so they should be used sparingly. The most effective time to use these is when showing snippets of code. </p></li>
+  <li><p><b>serif</b> - These fonts are the second most popular typefaces. 
+  "Serif" refers to the small flourish lines at the edges of letters and 
+  symbols. "Serifs" make each character more distinct, making text easier 
+  to read in print. This is why these fonts might remind you of a text from 
+  a typewriter, or of the fonts you see in printed books, newspapers or 
+  magazines. These typefaces can often be used effectively for titles or 
+  emphasis.</p></li>
+  <li><p><b>monospace</b> - These fonts guarantee that all letters have 
+  the same fixed width. This is similar to a manual typewriter, or how 
+  computer code appears in editors. These fonts were designed for the 
+  ease of the technology, not humans, so they should be used sparingly. 
+  The most effective time to use these is when showing snippets of code.</p></li>
 </ul>
 
 <h4>Example: Courier New</h4>
 
 <ul>
-  <li><b>cursive</b> - These fonts mimic human handwriting often by joining letters or having an italic slant. For some languages, these fonts are extra effective such as Arabic. Other than for specific languages, these fonts in English can be rather complex so they are best use extremely sparingly.</li>
+  <li><b>cursive</b> - These fonts mimic human handwriting often by 
+  joining letters or having an italic slant. For some languages, 
+  these fonts are extra effective such as Arabic. Other than for 
+  specific languages, these fonts in English can be rather complex 
+  so they are best use extremely sparingly.</li>
 </ul>
 
 <h4>Example: Comic Sans MS</h4>
 
 <ul>
-  <li><b>fantasy</b> - This is the most diverse category of fonts and includes all of those that are particularly decorative. These can make really great top headers as they can give your Web page a very distinct visual identity. Rarely will you want to use these for anything other than titles. It is also good to note that few of these are widely supported, so to use these you'll probably want to download them from a font service to make them available for your user.</li>
+  <li><b>fantasy</b> - This is the most diverse category of fonts and includes 
+  all of those that are particularly decorative. These can make really great 
+  top headers as they can give your Web page a very distinct visual identity. 
+  Rarely will you want to use these for anything other than titles. It is also 
+  good to note that few of these are widely supported, so to use these you'll 
+  probably want to download them from a font service to make them available 
+  for your user.</li>
 </ul>
 
 <h4>Example: Impact</h4>
@@ -7865,7 +8029,9 @@ what category of font to use. There are 5 basic categories of font: </p>
 <h4>External resource</h4>
 
 <ul>
-  <li>Here is the W3C documentation for all of CSS's font properties: <a href="https://www.w3.org/TR/css-fonts-3/" target="_blank" rel="noopener noreferrer">CSS Fonts Module Level 3</a>.</li>
+  <li>Here is the W3C documentation for all of CSS's font properties: 
+  <a href="https://www.w3.org/TR/css-fonts-3/" target="_blank" 
+  rel="noopener noreferrer">CSS Fonts Module Level 3</a>.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-2-3">5.2.3 Color</h3>
@@ -7895,18 +8061,34 @@ color wheel:</p>
 <h3>Colors make other colors</h3>
 
 <ul>
-  <li><p>The historical color wheel is organized around the three <b>primary</b> colors: red, yellow and blue.</p></li>
-  <li><p>The <b>secondary</b> colors are the combinations of these primary colors: orange, green and purple.</p></li>
-  <li><p>You can follow this pattern of varying the amount of each primary color to create infinite intermediary colors.</p></li>
-  <li><p>However, as you've seen for the Web, we define all colors as combinations of <a href="https://en.wikipedia.org/wiki/RGB_color_space" target="_blank" rel="noopener noreferrer">Red, Green and Blue</a> (green, not yellow). The short answer for this is because that is how the human eye perceives color, something that was unknown when the historical color wheel was made.</p></li>
+  <li><p>The historical color wheel is organized around the three 
+  <b>primary</b> colors: red, yellow and blue.</p></li>
+  <li><p>The <b>secondary</b> colors are the combinations of these 
+  primary colors: orange, green and purple.</p></li>
+  <li><p>You can follow this pattern of varying the amount of each 
+  primary color to create infinite intermediary colors.</p></li>
+  <li><p>However, as you've seen for the Web, we define all colors 
+  as combinations of <a href="https://en.wikipedia.org/wiki/RGB_color_space" 
+  target="_blank" rel="noopener noreferrer">Red, Green and Blue</a> (green, 
+  not yellow). The short answer for this is because that is how the human eye 
+  perceives color, something that was unknown when the historical color wheel 
+  was made.</p></li>
 </ul>
 
 <h3 id="build-a-palette-based-on-the-color-wheel">Build a palette based on the color wheel</h3>
 
 <ul>
-  <li><p>Colors that are across the wheel are called "complementary", blue and orange, red and green, etc.</p></li>
-  <li><p>Colors that are next to one another are considered  "analogous" like navy, blue and teal or lime, green and hunter.</p></li>
-  <li><p>When picking a color palette, you should generally pick between one that is comprised mostly of analogous colors, or mostly of complementary colors. Thankfully, there are lots of wonderful tools to help you do this! One we suggest is <a href="https://www.paletton.com/" target="_blank" rel="noopener noreferrer">Palleton</a>, where you can choose a starting color. It will generate for you a set of other colors that according to color theory will look pleasing together.</p></li>
+  <li><p>Colors that are across the wheel are called "complementary", 
+  blue and orange, red and green, etc.</p></li>
+  <li><p>Colors that are next to one another are considered  "analogous" like navy, 
+  blue and teal or lime, green and hunter.</p></li>
+  <li><p>When picking a color palette, you should generally pick between one that 
+  is comprised mostly of analogous colors, or mostly of complementary colors. 
+  Thankfully, there are lots of wonderful tools to help you do this! One we 
+  suggest is <a href="https://www.paletton.com/" target="_blank" rel="noopener 
+  noreferrer">Palleton</a>, where you can choose a starting color. It will 
+  generate for you a set of other colors that according to color theory will 
+  look pleasing together.</p></li>
 </ul>
 
 <p>In your 4 colors, you'll want to keep a consistent tone so that your
@@ -7920,8 +8102,12 @@ section.</p>
 <h4>External resources</h4>
 
 <ul>
-  <li><p>Here is a good article that goes into detail about <a href="https://www.w3.org/wiki/Colour_theory" target="_blank" rel="noopener noreferrer">color theory.</a></p></li>
-  <li><p><a href="http://lea.verou.me/2020/04/lch-colors-in-css-what-why-and-how/" target="_blank" rel="noopener noreferrer">LCH colors in CSS: what, why and how?</a>, by Lea Verou (April 2020)</p></li>
+  <li><p>Here is a good article that goes into detail about 
+  <a href="https://www.w3.org/wiki/Colour_theory" target="_blank" 
+  rel="noopener noreferrer">color theory.</a></p></li>
+  <li><p><a href="http://lea.verou.me/2020/04/lch-colors-in-css-what-why-and-how/" 
+  target="_blank" rel="noopener noreferrer">LCH colors in CSS: what, why and how?</a>, 
+  by Lea Verou (April 2020)</p></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-2-4">5.2.4 White space</h3>
@@ -7953,7 +8139,8 @@ of the following design guidelines:</p>
   <li><p>Displays text wider than 50-75 characters across</p></li>
 </ol>
 
-<p>Once you have found a site, please share it in the discussion and answer the following questions:</p>
+<p>Once you have found a site, please share it in the discussion and answer 
+the following questions:</p>
 
 <ol type="1">
   <li><p>Which of the 3 design guidelines are violated? More than 1 guideline?</p></li>
@@ -8005,10 +8192,14 @@ learning and cognitive, neurological, physical, speech, and visual
 disabilities. Some examples of Web accessibility features include:</p>
 
 <ul>
-  <li><p><em>Captions</em> on audio and multimedia content for people who are hard of hearing;</p></li>
-  <li><p><em>Clear and consistent layout</em> for people with learning and cognitive disabilities;</p></li>
-  <li><p><em>Keyboard support</em> for people who do not use their mouse, for example, people with physical disabilities;</p></li>
-  <li><p><em>Text alternatives</em> for people with visual disabilities and using screen readers.</p></li>
+  <li><p><em>Captions</em> on audio and multimedia content for people who are 
+  hard of hearing;</p></li>
+  <li><p><em>Clear and consistent layout</em> for people with learning and 
+  cognitive disabilities;</p></li>
+  <li><p><em>Keyboard support</em> for people who do not use their mouse, 
+  for example, people with physical disabilities;</p></li>
+  <li><p><em>Text alternatives</em> for people with visual disabilities 
+  and using screen readers.</p></li>
 </ul>
 
 <h4>Web accessibility benefits people with and without disabilities</h4>
@@ -8039,8 +8230,10 @@ example excerpts are provided below on this page but you can find more
 tips and information from W3C/WAI:</p>
 
 <ul>
-  <li><p><a href="https://www.w3.org/WAI/gettingstarted/tips/" target="_blank" rel="noopener noreferrer">Tips for Getting Started with Web Accessibility</a></p></li>
-  <li><p><a href="https://www.w3.org/WAI/eval/preliminary" target="_blank" rel="noopener noreferrer">Easy Checks - A First Review of Web Accessibility</a></p></li>
+  <li><p><a href="https://www.w3.org/WAI/gettingstarted/tips/" target="_blank" 
+  rel="noopener noreferrer">Tips for Getting Started with Web Accessibility</a></p></li>
+  <li><p><a href="https://www.w3.org/WAI/eval/preliminary" target="_blank" 
+  rel="noopener noreferrer">Easy Checks - A First Review of Web Accessibility</a></p></li>
 </ul>
 
 <h4>Example 1: page title</h4>
@@ -8109,7 +8302,8 @@ users can still read your page. To do this:</p>
   multiple supplementary colors, try to pick one from the yellows group (warmer colors) 
   and one from the blues group (cooler colors). This way, a color-blind user is likely to 
   only have difficulty seeing one of these, not both.</p></li>
-  <li><p>Select an accent color that is a totally different color from the previously chosen colors.</p></li>
+  <li><p>Select an accent color that is a totally different color from the 
+  previously chosen colors.</p></li>
 </ol>
 
 <p>Even with a carefully chosen palette, it might still be difficult for
@@ -8351,11 +8545,10 @@ too much fun, we realized that when you make your Web page really busy,
 it’s really hard to get your user to focus on exactly what you want them
 focus on. So those things went out of style.</p>
 <p>We then moved into the HTML ‘tabled’ era.</p>
-<p>That's where people were using tables to structure their Web
-page.</p>
-<p>Which makes sense because an HTML table is essentially just a
-backbone and you can put all of your information in it.</p>
-<p>The problem is, it was a really rigid backbone, and it didn't let you
+That's where people were using tables to structure their Web page.
+Which makes sense because an HTML table is essentially just a
+backbone and you can put all of your information in it.
+The problem is, it was a really rigid backbone, and it didn't let you
 really grow or shrink your Web page, and so as we got more screens
 involved and more Web browsers and more users, we needed to grow out of
 such a rigid backbone and let us just organize our Web site using
@@ -8367,13 +8560,12 @@ really nice, and then it really only worked for desktop machines.</p>
 have the data to download these giant flash sort of Web sites.</p>
 <p>Thanks to CSS3, we now have animations built into CSS, so we can have
 a little bit of interactivity, but in a much lower impact on our data
-usage.</p>
-<p>These design trends still pop up every now and then, so it's not
+usage. These design trends still pop up every now and then, so it's not
 necessarily a bad thing to use an HTML table, especially if you want to
-display a table.</p>
-<p>And it's not necessarily a bad thing to use Flash, but you just have
-a whole lot more tools at your disposal.</p>
-<p>It's really fun to go and look back at historical Web sites, and pay
+display a table.
+And it's not necessarily a bad thing to use Flash, but you just have
+a whole lot more tools at your disposal.
+It's really fun to go and look back at historical Web sites, and pay
 attention to what they were using, but why they were using it, and
 wonder if maybe now there's a better technology.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
