@@ -8476,7 +8476,7 @@ Hopefully at this point you feel comfortable with all the basics of CSS, but, as
    <li>JavaScript Introduction</li>
 </ol>
 
-<h3>Last Updated: 10.23.2022 2:37pm</h3>
+<h3>Last Updated: 7.10.2023 3:57pm</h3>
 <!---
 <p align="center" width="100%">
 <img src="./images/image.png?raw=true"
