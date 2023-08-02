@@ -14,7 +14,7 @@ w3cx-1of5-css.0x: Coursera - Front-End Web Development - CSS Basics
    width="35%"
    alt="W3C logo" />
 </p>
-<h1 align="center" width="100%">Welcome to the CSS Basics course!</h1>
+<h3 align="center">W3Cx-1of5-CSS.0x - CSS Basics</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. css basics course visual (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
