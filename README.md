@@ -10,7 +10,7 @@ w3cx-1of5-css.0x: Coursera - Front-End Web Development - CSS Basics
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ w3cx logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/w3c-logo.jpg?raw=true"
+<img src="./images/w3c-logo.webp?raw=true"
    width="35%"
    alt="W3C logo" />
 </p>
@@ -19,7 +19,7 @@ w3cx-1of5-css.0x: Coursera - Front-End Web Development - CSS Basics
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. css basics course visual (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image001.png?raw=true"
+<img src="./images/image001.webp?raw=true"
    width="50%"
    alt="CSS Basics course visual." />
 </p>
@@ -134,7 +134,7 @@ Thank you for joining this course, where you will learn how to take your Web pag
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 02. illustration of a css property (03) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p id="chb" align="center" width="100%">
-<img src="./images/image002.png?raw=true"
+<img src="./images/image002.webp?raw=true"
    width="40%"
    alt="Illustration of a CSS Property." />
 </p>
@@ -145,7 +145,7 @@ Thank you for joining this course, where you will learn how to take your Web pag
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. css basics course visual (03) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image003.png?raw=true"
+<img src="./images/image003.webp?raw=true"
    width="50%"
    alt="Diagram of the structure of an HTML page." />
 </p>
