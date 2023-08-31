@@ -15,6 +15,10 @@ font-family: Bahnschrift, Inter, Consolas, "Andale Mono WT", "Andale Mono", "Luc
     padding: 10px; 
     line-height: 130%;
   }
+  ul li { 
+    padding: 10px; 
+    line-height: 130%;
+  }
   p { 
     font-size: 14.5px;
     font-family: Bahnschrift, Inter, Helvetic, sans-serif;
