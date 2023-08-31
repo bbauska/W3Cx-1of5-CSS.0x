@@ -120,7 +120,7 @@ Right click menu in Edge Web browser:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 20. inspect element and view source ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="../images/image020.png"
+<img src="../images/image020.webp"
   width="100%"
   alt="Inspect Element: Inspect and view source." />
 </p>
@@ -182,7 +182,7 @@ Here is the HTML part:
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 21. hello beautiful world in blue helvetica ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="../images/image021.png"
+<img src="../images/image021.webp"
   width="35%"
   alt="Blue Helvetica text 'Hello Beautiful World' in a browser window." />
 </p>
@@ -206,7 +206,7 @@ As you can see, you can put as much text between the open and close symbols as y
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. visual studio code comments ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="../images/image022.png"
+<img src="../images/image022.webp"
   width="35%"
   alt="An image of visual studio code comments." />
 </p>
@@ -238,7 +238,7 @@ Once you have your HTML document view it in a Web browser. It should look like t
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 23. hello beautiful world in black text ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="../images/image023.png"
+<img src="../images/image023.webp"
   width="35%"
   alt="An image of 'Hello Beautiful World' in a web browser with black text." />
 </p>
@@ -270,7 +270,7 @@ Now change the HTML and CSS files so that it says “Hello <your name>, welcome 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. hello kasey in green text ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="../images/image024.png"
+<img src="../images/image024.webp"
   width="35%"
   alt="An image of Hello Kasey in green text." />
 </p>
