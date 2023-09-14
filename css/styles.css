@@ -13,23 +13,23 @@ font-family: Bahnschrift, Inter, Consolas, "Andale Mono WT", "Andale Mono", "Luc
 */
   ol li { 
     padding: 10px; 
-    line-height: 130%;
+    line-height: 110%;
   }
   ul li { 
     padding: 10px; 
-    line-height: 130%;
+    line-height: 110%;
   }
   p { 
     font-size: 14.5px;
     font-family: Bahnschrift, Inter, Helvetic, sans-serif;
     text-align: left; 
-    margin-left: 10px;
+    margin-left: 20px;
   }
 
   pre, code {
     font-family: monospace, monospace;
     font-size: 10px;
-    margin-left: 10px;
+    margin-left: 20px;
   }
 
   pre {
@@ -38,7 +38,7 @@ font-family: Bahnschrift, Inter, Consolas, "Andale Mono WT", "Andale Mono", "Luc
 
   pre > code {
     display: block;
-    margin-left: 10px;
+    margin-left: 20px;
     padding: 1rem;
     word-wrap: normal;
   }
@@ -83,27 +83,27 @@ font-family: Bahnschrift, Inter, Consolas, "Andale Mono WT", "Andale Mono", "Luc
   h2 { 
     font-size: 18px;
     font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
-    padding: 10px;
+    padding: 20px;
   }
   h3 { 
     font-size: 17px;
     font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
-    margin-left: 10px;  
+    margin-left: 20px;  
   }
   h4 { 
     font-size: 16px;
     font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
-    margin-left: 10px;
+    margin-left: 20px;
   }
   h5 { 
     font-size: 15px;
     font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
-    margin-left: 10px;
+    margin-left: 20px;
   }
   h6 { 
     font-size: 10px;
     font-family: Bahnschrift, Inter, Helvetic, sans-serif;
-    margin-left: 10px;
+    margin-left: 20px;
   }
 
 details {
@@ -118,11 +118,11 @@ details > summary {
   border: none;
   box-shadow: 3px 3px 4px #00008b;  /* dark blue */
   cursor: pointer;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 details > p {
-  border-radius: 0 0 10px 10px;
+  border-radius: 0 0 20px 20px;
   background-color: #fff;  /* white */
   padding: 2px 6px;
   margin: 0;
@@ -142,7 +142,7 @@ body {
   color: #000000;  /* black */
   text-align: left;
   padding: 10px;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 #myBtn {
