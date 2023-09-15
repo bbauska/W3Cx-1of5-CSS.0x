@@ -7,27 +7,21 @@
     border-width: 1px;
     border-color: #778899;  /* dark grayish blue */
     border-style: solid; }
-/*
-font-family: Bahnschrift, Inter, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", 
-  "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
-*/
-  ol li { 
-    padding: 10px; 
+
+  ol,ul li { 
+
     line-height: 130%;
   }
-  ul li { 
-    padding: 10px; 
-    line-height: 130%;
-  }
+
   p { 
-    font-size: 14.5px;
+    font-size: 13.5px;
     font-family: Bahnschrift, Inter, Helvetic, sans-serif;
     text-align: left; 
     margin-left: 10px;
   }
 
   pre, code {
-    font-family: monospace, monospace;
+    font-family: Consolas, monospace, monospace;
     font-size: 10px;
     margin-left: 10px;
   }
@@ -43,24 +37,14 @@ font-family: Bahnschrift, Inter, Consolas, "Andale Mono WT", "Andale Mono", "Luc
     word-wrap: normal;
   }
 
-  a:link {
-    color: 013220;  /* very dark green */
-	background-color: transparent;
-	text-decoration: none;
-	}
-  a:visited {
-    color: #a5682a;  /* brown */
-	background-color: transparent;
-	text-decoration: none;
-  a:hover {
-    color: #000000;
-	background-color:#ffff00;  /* yellow */
-	text-decoration: underline;
-	}
+  a {
+    text-decoration: none; 
+  }
 
-  pre[href]:hover {
-    text-decoration: none;
-	}
+  a[href]:hover {
+    text-decoration: underline; 
+  }
+
   pre:hover, pre:focus { width: min-content; }
 
   p.em1 {
@@ -88,25 +72,29 @@ font-family: Bahnschrift, Inter, Consolas, "Andale Mono WT", "Andale Mono", "Luc
   h3 { 
     font-size: 17px;
     font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
-    margin-left: 10px;  
+	margin-left: 10px;  
   }
   h4 { 
     font-size: 16px;
     font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
-    margin-left: 10px;
+	margin-left: 10px;
   }
   h5 { 
     font-size: 15px;
     font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
-    margin-left: 10px;
+	margin-left: 10px;
   }
   h6 { 
     font-size: 10px;
     font-family: Bahnschrift, Inter, Helvetic, sans-serif;
-    margin-left: 10px;
+	margin-left: 10px;
   }
 
 details {
+  font: 13px Inter, sans-serif, Bahnschrift, Calibri;
+  width: 65%;
+}
+summary {
   font: 13px Inter, sans-serif, Bahnschrift, Calibri;
   width: 65%;
 }
