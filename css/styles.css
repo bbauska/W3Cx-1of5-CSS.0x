@@ -1,30 +1,4 @@
 /* styles.css of w3cx-1of5 */
-img.container {
-    width: 80%;
-    height: 80%;
-    position: absolute;    
-    margin:auto;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    background-color: #aaa;
-    }
-img.responsive {
-  max-width: 100%;
-  height: auto;
-}
-<!-- img {
-    max-width: 100%;
-    max-height: 100%;  
-    position: absolute;
-    margin:auto;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    }
--->
 img.displayed {
     display: block;
     margin: 0 auto; }
