@@ -10,6 +10,10 @@
     right:0;
     background-color: #aaa;
     }
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
 img {
     max-width: 100%;
     max-height: 100%;  
