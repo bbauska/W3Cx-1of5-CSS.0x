@@ -22,11 +22,13 @@ img {
     }
   .displayed {
     display: block;
-    margin: 0 auto; }
+    margin: 0 auto; 
+  }
   .border {
     border-width: 1px;
     border-color: #778899;  /* dark grayish blue */
-    border-style: solid; }
+    border-style: solid; 
+  }
 
   ol,ul li { 
     line-height: 130%;
@@ -76,7 +78,8 @@ img {
     margin-left: 4em; }
 
   div {
-    float: left; }
+    float: left; 
+  }
 
   h1 { 
     font-size: 21px;
