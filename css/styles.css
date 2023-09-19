@@ -1,5 +1,5 @@
 /* styles.css of w3cx-1of5 */
-.container {
+img.container {
     width: 80%;
     height: 80%;
     position: absolute;    
@@ -10,11 +10,11 @@
     right:0;
     background-color: #aaa;
     }
-.responsive {
+img.responsive {
   max-width: 100%;
   height: auto;
 }
-img {
+<!-- img {
     max-width: 100%;
     max-height: 100%;  
     position: absolute;
@@ -24,17 +24,17 @@ img {
     left:0;
     right:0;
     }
+-->
 img.displayed {
     display: block;
     margin: 0 auto; }
 
-  .border {
+img.border {
     border-width: 1px;
     border-color: #778899;  /* dark grayish blue */
     border-style: solid; }
 
   ol,ul li { 
-
     line-height: 130%;
   }
 
