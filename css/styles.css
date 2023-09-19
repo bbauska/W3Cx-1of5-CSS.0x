@@ -34,7 +34,7 @@ img {
     line-height: 130%;
   }
 
-  p { 
+  * { 
     font-size: 13.5px;
     font-family: Bahnschrift, Inter, Helvetic, sans-serif;
     text-align: left; 
