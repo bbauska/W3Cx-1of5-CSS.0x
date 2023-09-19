@@ -3,114 +3,107 @@ img.displayed {
   display: block;
   margin: 0 auto; 
 }
-  .border {
-    border-width: 1px;
-    border-color: #778899;  /* dark grayish blue */
-    border-style: solid; 
-  }
-  .responsive {
-    width: 80%;
-    height: 80%;
-    position: relative;  /* absolute */
-    margin:auto;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    background-color: #778899;  /* dark grayish blue */
-  }
+.border {
+  border-width: 1px;
+  border-color: #778899;  /* dark grayish blue */
+  border-style: solid; 
+}
 
-  ol,ul li { 
-    line-height: 130%;
-  }
+/*
+font-family: Bahnschrift, Inter, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", 
+  "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+*/
+ul li {
+  padding: 10px;
+  line-height:110%;
+}
+ol li {
+  padding: 10px;
+  line-height:110%;
+}
 
-  * { 
-    font-size: 13.5px;
-    font-family: Bahnschrift, Inter, Helvetic, sans-serif;
-    text-align: left; 
-    margin-left: 10px;
-  }
+p { 
+  font-size: 14.5px;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
+  text-align: left;
+  margin-left: 15px;  /* 10px */
+}
 
-  pre, code {
-    font-family: Consolas, monospace, monospace;
-    font-size: 10px;
-    margin-left: 10px;
+pre, code {
+  font-family: monospace, monospace;
+  font-size: 10px;
+  margin-left: 15px;  /* 10px */
   }
+pre {
+  overflow: auto;
+}
+pre > code {
+  display: block;
+  margin-left: 15px;  /* 10px */
+  padding: 1rem;
+  word-wrap: normal;
+}
 
-  pre {
-    overflow: auto;
-  }
+a:link {
+  color: #013220;  /* very dark green */
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #a5682a;  /* brown */
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #00000;
+  background-color: #ffff00;  /* yellow */
+  text-decoration: underline;
+}
 
-  pre > code {
-    display: block;
-    margin-left: 10px;
-    padding: 1rem;
-    word-wrap: normal;
-  }
+pre[href]:hover  {
+  text-decoration: none;
+}
+pre:hover, pre:focus { width: min-content; }
 
-  a {
-    text-decoration: none; 
-  }
+div {
+  float: left;
+}
 
-  a[href]:hover {
-    text-decoration: underline; 
-  }
-
-  pre:hover, pre:focus { width: min-content; }
-
-  p.em1 {
-    margin-left: 1em; }
-  p.em2 {
-    margin-left: 2em; }
-  p.em3 {
-    margin-left: 3em; }
-  p.em4 {
-    margin-left: 4em; }
-
-  div {
-    float: left; 
-  }
-
-  h1 { 
-    font-size: 21px;
-    font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas;
-    text-align: center;
-  }
-  h2 { 
-    font-size: 18px;
-    font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
-    padding: 10px;
-  }
-  h3 { 
-    font-size: 17px;
-    font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
-	margin-left: 10px;  
-  }
-  h4 { 
-    font-size: 16px;
-    font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
-	margin-left: 10px;
-  }
-  h5 { 
-    font-size: 15px;
-    font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
-	margin-left: 10px;
-  }
-  h6 { 
-    font-size: 10px;
-    font-family: Bahnschrift, Inter, Helvetic, sans-serif;
-	margin-left: 10px;
-  }
+h1 {
+  font-size: 21px;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas;
+  text-align: center;
+}
+h2 {
+  font-size: 18px;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas;
+  margin-left: 15px;  /* 10px */
+}
+h3 {
+  font-size: 17px;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas;
+  margin-left: 15px;
+}
+h4 { 
+  font-size: 16px;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
+  margin-left: 15px;
+}
+h5 { 
+  font-size: 15px;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif, Consolas; 
+  margin-left: 15px;
+}
+h6 { 
+  font-size: 10px;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
+  margin-left: 15px;
+}
 
 details {
-  font: 13px Inter, sans-serif, Bahnschrift, Calibri;
+  font: 14px Bahnschrift, Inter, sans-serif, Calibri;
   width: 65%;
 }
-summary {
-  font: 13px Inter, sans-serif, Bahnschrift, Calibri;
-  width: 65%;
-}
-
 details > summary {
   padding: 2px 6px;
   width: 15em;  /* 12em */
@@ -118,9 +111,8 @@ details > summary {
   border: none;
   box-shadow: 3px 3px 4px #00008b;  /* dark blue */
   cursor: pointer;
-  margin-left: 10px;
+  margin-left: 15px;  /* 10px */
 }
-
 details > p {
   border-radius: 0 0 10px 10px;
   background-color: #fff;  /* white */
@@ -128,7 +120,6 @@ details > p {
   margin: 0;
   box-shadow: 3px 3px 4px #00008b;  /* dark blue*/
 }
-
 details[open] > summary {
   background-color: yellow;
 }
@@ -142,7 +133,7 @@ body {
   color: #000000;  /* black */
   text-align: left;
   padding: 10px;
-  margin-left: 10px;
+  margin: 15px;  /* was margin-left: 10px; */
 }
 
 #myBtn {
@@ -160,7 +151,6 @@ body {
   padding: 10px;
   border-radius: 1px;
 }
-
 #myBtn:hover {
   background-color: #555;  /* very dark gray */
 }
@@ -172,12 +162,10 @@ body {
   font-size: 11px;  /* 12px */
   border: none;
 }
-
 .dropdown {
   position: relative;
   display: inline-block;
 }
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -187,7 +175,6 @@ body {
   font-size: 10px;  /* 11px */
   z-index: 1;
 }
-
 .dropdown-content a {
   color: #00b300;  /* dark green */
   padding: 8px 10px;  /* 12px 16px */
@@ -197,7 +184,14 @@ body {
 }
 
 .dropdown-content a:hover {background-color: #d9ead3;}  /* light grayish green */
-
 .dropdown:hover .dropdown-content {display: block;}
-
 .dropdown:hover .dropbtn {background-color: #398e41;} /* dark moderate lime green */
+
+@media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
+  div.example {
+    font-size: 50px;
+    padding: 50px;
+    border: 8px solid black;
+    background: yellow;
+  }
+}
