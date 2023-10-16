@@ -65,8 +65,6 @@ Stands for "Hypertext Transfer Protocol". It is a protocol managed by the W3C to
 
 Stands for "Hypertext Transfer Protocol Secure". It  is the secure version of HTTP, the protocol over which data is sent between your browser and the Web site that you are connected to. It means all communications between your browser and the Web site are encrypted. Some examples of sites that use HTTPS include the W3C and Microsoft Web sites: <a href="https://www.microsoft.com/">microsoft web site</a> - <a href="https://www.w3.org/">w3 org</a>.
 
-<h1>Module 1: Getting started with CSS</h1>
-
 <h2>1.2 What is CSS?</h2>
 
 <h3>Activity 1.2 - The Web before CSS</h3>
@@ -213,7 +211,7 @@ As you can see, you can put as much text between the open and close symbols as y
 
 Generally, it is a good idea to put a comment at the top of each CSS rule, or at the very least at the top of sets of rules that apply to a single category or section of your Web page. 
 
-<h2>Module 1 project - Hello your world</h2>
+<h2>1.4 Module 1 project - Hello your world</h2>
 
 It's finally time to write your own CSS! Open your code editor of choice and save the following code as a new HTML document.
 
