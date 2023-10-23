@@ -24,7 +24,7 @@ ol li {
 
 p { 
   font-size: 14.5px;
-  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
+  font-family: "Bahnschrift", Inter, Helvetic, sans-serif;
   text-align: left;
   margin-left: 15px;  /* 10px */
 }
@@ -33,7 +33,7 @@ pre, code {
   font-family: monospace, monospace;
   font-size: 10px;
   margin-left: 15px;  /* 10px */
-  }
+}
 pre {
   overflow: auto;
 }
