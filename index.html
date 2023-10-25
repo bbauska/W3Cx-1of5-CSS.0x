@@ -4491,8 +4491,7 @@ like this "Bad Image" example:</p>
 <img class="displayed"
   src="./images/image068.webp?raw=true"
   style="width:40%;"
-<!--  style="width:5.0in;height:1.2087084426946633in" -->
-  alt="Bad image example for text in image." >
+  alt="Bad image example for text in image." />
 <!-- {width="5.0in";height="1.2087084426946633in"} -->
 
 <h4>HTML</h4>
@@ -4508,22 +4507,21 @@ like this "Bad Image" example:</p>
   &lt;/head&gt;
   &lt;body&gt;
     &lt;div id=&quot;badImg&quot;&gt;
-    &lt;p&gt;</pre>
-         
-</details>
-
-<p>Here is an image that is unformatted, so the surrounding text
-directly touches it.</p>
-
-<p><img src="https://www.w3c.fr/wp-content/uploads/2016/12/26420235490_7ae150d467_b.jpg" 
-width="300" alt="rows of people sitting in a theatre and wearing virtual reality devices." ></p>
-<p>It also doesn't integrate well with the text content, so it does not
-flow with your other content.</p>
-
-<pre>         &lt;/p&gt;
-      &lt;/div&gt;
-   &lt;/body&gt;
+      &lt;p&gt;
+        Here is an image that is unformatted, so the surrounding text
+        directly touches it.
+	  &lt;/p&gt;
+      &lt;p&gt;
+	    &lt;img src="https://www.w3c.fr/wp-content/uploads/2016/12/26420235490_7ae150d467_b.jpg" 
+        width="300" alt="rows of people sitting in a theatre and wearing virtual reality devices." &gt;&lt;/p&gt;
+        &lt;p&gt;It also doesn't integrate well with the text content, so it does not
+        flow with your other content.&lt;/p&gt;
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
 &lt;/html&gt;</pre>
+
+</details>
 
 <h4>CSS</h4>
 
@@ -4543,10 +4541,9 @@ flow with your other content.</p>
 
 <h4>Image #1</h4>
 
-<p>This design shows some of the basics in properly incorporating
-images. It uses the colors from the image in the design of the overall
-page to help the image look as if it belongs. It also uses padding to
-give the image a "polaroid-style" border.</p>
+<p>This design shows some of the basics in properly incorporating images. It uses 
+the colors from the image in the design of the overall page to help the image look 
+as if it belongs. It also uses padding to give the image a "polaroid-style" border.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 69. sample image with polaroid-style (117) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4640,14 +4637,24 @@ photos.</p>
 7.   &lt;body&gt;
 8.     &lt;div id=&quot;images2&quot;&gt;
 9.       &lt;p&gt;
-10.         Here is a group of images in a grid, similar to how you would want to display them in a gallery. You can see how important it is to add proper white space around the images. In this case we have added padding, a border as well as margin to give the images a nice flow. There is also a good spacing between the images and the text.
+10.         Here is a group of images in a grid, similar to how you would want to display them in 
+            a gallery. You can see how important it is to add proper white space around the images. 
+			In this case we have added padding, a border as well as margin to give the images a nice 
+			flow. There is also a good spacing between the images and the text.
 11.       &lt;/p&gt;
-12.       &lt;img src=&quot;https://www.w3.org/comm/assets/graphics/w3cx-accessibility-intro.jpg&quot; alt=&quot;man and woman looking at a computer screen&quot; /&gt;
-13.       &lt;img src=&quot;https://www.w3.org/WAI/content-images/wai-std-gl-overview/specs.png&quot; alt=&quot;illustration showing the WAI guidelines for the different components, detailed description at https://www.w3.org/WAI/intro/components-desc.html#guide&quot; /&gt;
-14.       &lt;img src=&quot;https://www.w3.org/WAI/images/WCAG21/small-1024x512@1x.png&quot; alt=&quot;WCAG 2.1&quot; /&gt;
-15.       &lt;img src=&quot;https://www.w3.org/International/questions/qa-indic-graphemes-data/jhilli_codepoints.png&quot; alt=&quot;Code points that make up the Bengali word &#39;jhilli&#39;.&quot; /&gt;
-16.       &lt;img src=&quot;https://www.w3.org/International/logos/mlw-notext-500-white.png&quot; alt=&quot;logo of the W3C Internationalization Activity&quot; /&gt;
-17.       &lt;img src=&quot;https://www.w3.org/TR/2020/WD-simple-ruby-20200609/img/fig06.svg&quot; alt=&quot;Example of horizontal ruby&quot; /&gt;
+12.       &lt;img src=&quot;https://www.w3.org/comm/assets/graphics/w3cx-accessibility-intro.jpg&quot; 
+            alt=&quot;man and woman looking at a computer screen&quot; /&gt;
+13.       &lt;img src=&quot;https://www.w3.org/WAI/content-images/wai-std-gl-overview/specs.png&quot; 
+            alt=&quot;illustration showing the WAI guidelines for the different components, detailed 
+			description at https://www.w3.org/WAI/intro/components-desc.html#guide&quot; /&gt;
+14.       &lt;img src=&quot;https://www.w3.org/WAI/images/WCAG21/small-1024x512@1x.png&quot; 
+            alt=&quot;WCAG 2.1&quot; /&gt;
+15.       &lt;img src=&quot;https://www.w3.org/International/questions/qa-indic-graphemes-data/jhilli_codepoints.png&quot; 
+            alt=&quot;Code points that make up the Bengali word &#39;jhilli&#39;.&quot; /&gt;
+16.       &lt;img src=&quot;https://www.w3.org/International/logos/mlw-notext-500-white.png&quot; 
+            alt=&quot;logo of the W3C Internationalization Activity&quot; /&gt;
+17.       &lt;img src=&quot;https://www.w3.org/TR/2020/WD-simple-ruby-20200609/img/fig06.svg&quot; 
+            alt=&quot;Example of horizontal ruby&quot; /&gt;
 18.     &lt;/div&gt;
 19.   &lt;/body&gt;
 20. &lt;/html&gt;</pre>
@@ -4684,9 +4691,9 @@ photos.</p>
 
 <h5>Images 3</h5>
 
-<p>This design demonstrates the use of an image both as a background and
-as a link. When using images as design elements, it is best to use
-simple images to let your content still be easily consumable.</p>
+<p>This design demonstrates the use of an image both as a background and as a link. 
+When using images as design elements, it is best to use simple images to let your 
+content still be easily consumable.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 71. sample image as background and link (121) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4708,11 +4715,16 @@ simple images to let your content still be easily consumable.</p>
 6.   &lt;/head&gt;
 7.   &lt;body&gt;
 8.     &lt;div id=&quot;images3&quot;&gt;
-9.       &lt;p&gt; Here is some body text that is now on top of an image because it is set as the background. When using an image as a background try to pick an image that is not overly busy, this can make your text or other images difficult to read when placed on top of.
+9.       &lt;p&gt; Here is some body text that is now on top of an image because it is set 
+           as the background. When using an image as a background try to pick an image that 
+		   is not overly busy, this can make your text or other images difficult to read when 
+		   placed on top of.
 10.       &lt;/p&gt;
 11.     &lt;div id=&quot;navBox&quot;&gt;
-12.       &lt;div id=&quot;clickHere&quot;&gt; &lt;a href=&quot;https://www.w3.org&quot;&gt;Click The Image&lt;/a&gt; &lt;/div&gt;
-13.         &lt;a href=&quot;www.w3.org&quot;&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Font_Awesome_5_solid_arrow-circle-right.svg/512px-Font_Awesome_5_solid_arrow-circle-right.svg.png&quot; width=&quot;80&quot; alt=&quot;A solid-weight icon from Font Awesome, a free web icon font&quot; /&gt;&lt;/a&gt;
+12.       &lt;div id=&quot;clickHere&quot;&gt; &lt;a href=&quot;https://www.w3.org&quot;&gt;Click 
+            The Image&lt;/a&gt; &lt;/div&gt;
+13.         &lt;a href=&quot;www.w3.org&quot;&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Font_Awesome_5_solid_arrow-circle-right.svg/512px-Font_Awesome_5_solid_arrow-circle-right.svg.png&quot; 
+  width=&quot;80&quot; alt=&quot;A solid-weight icon from Font Awesome, a free web icon font&quot; /&gt;&lt;/a&gt;
 14.       &lt;/div&gt;
 15.     &lt;/div&gt;
 16.   &lt;/body&gt;
@@ -9750,7 +9762,7 @@ Certificate</a> program:</p>
   <li>JavaScript Introduction.</li>
 </ol>
 
-<p>Last Updated: 10.22.2023 Sun 8:02pm</p>
+<p>Last Updated: 10.24.2023 Tue 5:06pm</p>
 
 </body>
 
