@@ -23,7 +23,7 @@ w3cx-1of5-css.0x: Coursera - Front-End Web Development - CSS Basics
   alt="CSS Basics course visual." />
 </p>
 
-## [Table of Contents](#table-of-contents)
+## [Table of Contents](#toc)
 
 ## [**About W3C and the Web**](#cha)
 >### - [**About W3C and the Web**](#cha-1)
@@ -3862,11 +3862,11 @@ div {
     <div id="images1">
       <p>
         One thing that can make a website look cohesive is to choose images that match the design's
-		existing color palette. Sometimes this can be difficult if you have a lot of content images with
-		lots of colors, but whenever possible try to match images to the colors surrounding it.
+          existing color palette. Sometimes this can be difficult if you have a lot of content images with
+          lots of colors, but whenever possible try to match images to the colors surrounding it.
       </p>
       <img src="https://www.w3.org/blog/wp-content/uploads/2021/03/group_calendar-768x627.png"
-	    alt="snapshot of the Dataset Exchange Working Group Calendar" />
+         alt="snapshot of the Dataset Exchange Working Group Calendar" />
     </div>
   </body>
 </html>
@@ -3908,11 +3908,11 @@ This design is an example of an image gallery design. This gives all the images 
       <img src="https://www.w3.org/WAI/content-images/wai-std-gl-overview/specs.png" alt="illustration showing the WAI guidelines for the different components, detailed description at https://www.w3.org/WAI/intro/components-desc.html#guide" />
       <img src="https://www.w3.org/WAI/images/WCAG21/small-1024x512@1x.png" alt="WCAG 2.1" />
       <img src="https://www.w3.org/International/questions/
-	    qa-indic-graphemes-data/jhilli_codepoints.png"  alt="Code points that make up the Bengali word 'jhilli'." />
+         qa-indic-graphemes-data/jhilli_codepoints.png"  alt="Code points that make up the Bengali word 'jhilli'." />
       <img src="https://www.w3.org/International/logos/mlw-notext-500-white.png" 
-	    alt="logo of the W3C Internationalization Activity" />
+         alt="logo of the W3C Internationalization Activity" />
       <img src="https://www.w3.org/TR/2020/WD-simple-ruby-20200609/img/fig06.svg" 
-	    alt="Example of horizontal ruby" />
+         alt="Example of horizontal ruby" />
     </div>
   </body>
 </html>
@@ -6783,213 +6783,213 @@ Project 4 Module 4.6.2
 At times I use the number 2 at the beginning of an element to disable it. The number 2 is just random. So when you see that in my code, that is all this is about.
 */
 body {
-background-color: white;
-margin: auto;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #resume {
-position: relative;
+  position: relative;
 }
 header {
-border-bottom: solid;
+  border-bottom: solid;
 }
 header li {
-text-align: right;
+  text-align: right;
 }
 header, #resume {
-width: 75%;
-margin: 10px auto;
-min-width: 480px;
-background-color: white;
+  width: 75%;
+  margin: 10px auto;
+  min-width: 480px;
+  background-color: white;
 }
 h1 {
-font-weight: bold;
-font-size: 2.5em;
-position: relative;
-width: auto;
+  font-weight: bold;
+  font-size: 2.5em;
+  position: relative;
+  width: auto;
 }
 header ul {
-float: right;
-clear: right;
-margin: -75px 0px 20px 10px;
-width: 0 auto;
-text-align: right;
+  float: right;
+  clear: right;
+  margin: -75px 0px 20px 10px;
+  width: 0 auto;
+  text-align: right;
 }
 #contact {
-font-size: .75em;
-font-weight: bold;
+  font-size: .75em;
+  font-weight: bold;
 }
 #workExperience {
-min-width: 200px;
-width: 52%;
-background-color: rgb(224, 224, 224);
-float: left;
-clear: both;
-margin-bottom: 10px;
+  min-width: 200px;
+  width: 52%;
+  background-color: rgb(224, 224, 224);
+  float: left;
+  clear: both;
+  margin-bottom: 10px;
 }
 #workExperience p {
-width: 90%;
+  width: 90%;
 }
 #objective {
-width: 45%;
-background-color: rgb(224, 224, 224);
-float: right;
-clear: right;
+  width: 45%;
+  background-color: rgb(224, 224, 224);
+  float: right;
+  clear: right;
 }
 #education {
-width: 45%;
-background-color: rgb(224, 224, 224);
-float: right;
-clear: right;
-margin-top: 10px;
-margin-bottom: 10px;
+  width: 45%;
+  background-color: rgb(224, 224, 224);
+  float: right;
+  clear: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 #leadership {
-width: 52%;
-background-color: rgb(224, 224, 224);
-margin-top: 10px;
-clear: left;
+  width: 52%;
+  background-color: rgb(224, 224, 224);
+  margin-top: 10px;
+  clear: left;
 }
 .leadershipParagraph {
-width: 90%;
-padding-bottom: 10px;
+  width: 90%;
+  padding-bottom: 10px;
 }
 #charity {
-min-width: 200px;
-width: 100%;
-background-color: rgb(224, 224, 224);
-float: left;
-margin-top: px;
-clear: both;
+  min-width: 200px;
+  width: 100%;
+  background-color: rgb(224, 224, 224);
+  float: left;
+  margin-top: px;
+  clear: both;
 }
 .charityWorkParagraph {
-margin: 0 10px 0 0;
+  margin: 0 10px 0 0;
 }
 .objectiveSizing p {
-width: 90%;
-margin: 0 10px 0 0;
+  width: 90%;
+  margin: 0 10px 0 0;
 }
 span {
-font-size: 1.40em;
+  font-size: 1.40em;
 }
 .textColorOffset {
-color: #60c5af;
-font-weight: bold;
-font-size: 1em;
-padding-left: 10px;
+  color: #60c5af;
+  font-weight: bold;
+  font-size: 1em;
+  padding-left: 10px;
 }
 .year {
-float: left;
-padding: 1px 10px 8px 10px;
-clear: both;
-font-size: .85em;
-2border-right: solid black;
-2height: 25px;
+  float: left;
+  padding: 1px 10px 8px 10px;
+  clear: both;
+  font-size: .85em;
+  2border-right: solid black;
+  2height: 25px;
 }
 .workPosition {
-margin-left: 10px;
-font-size: .85em;
+  margin-left: 10px;
+  font-size: .85em;
 }
 p {
-position: relative;
-left: 10px;
-text-align: left;
-font-size: .78em;
-padding: 0 20px 10px 5px;
-font-weight: light;
+  position: relative;
+  left: 10px;
+  text-align: left;
+  font-size: .78em;
+  padding: 0 20px 10px 5px;
+  font-weight: light;
 }
 h2 {
-padding: 10px 0 3px 10px;
-border-bottom: solid;
+  padding: 10px 0 3px 10px;
+  border-bottom: solid;
 }
 h3 {
-font-size: .65em;
-margin: 0;
+  font-size: .65em;
+  margin: 0;
 }
 #2favoriteQuote {
-2font-family: "Times New Roman", Times, serif;
-2padding: 20px;
-2margin-top: 0;
-2margin-bottom: 0px;
-2color: black;
-2font-style: italic;
-2text-align: center;
-2float: left;
-2clear: both;
+  2font-family: "Times New Roman", Times, serif;
+  2padding: 20px;
+  2margin-top: 0;
+  2margin-bottom: 0px;
+  2color: black;
+  2font-style: italic;
+  2text-align: center;
+  2float: left;
+  2clear: both;
 }
 header ul li {
-list-style: none;
-padding: 1px;
+  list-style: none;
+  padding: 1px;
 }
 ul {
-margin: 5px 5px 5px -20px ;
-2padding: 10px;
-list-style: none;
+  margin: 5px 5px 5px -20px ;
+  2padding: 10px;
+  list-style: none;
 }
 li {
-margin: 0;
-padding: 0 0 12px 2px;
-font-size: .85em;
+  margin: 0;
+  padding: 0 0 12px 2px;
+  font-size: .85em;
 }
 .firstChoice {
-font-weight: bold;
+  font-weight: bold;
 }
 .degree,
 .courseWork {
-list-style: none;
-font-size: 0.75em;
-font-style: italic;
+  list-style: none;
+  font-size: 0.75em;
+  font-style: italic;
 }
 a:link {
-color: blue;
+  color: blue;
 }
 a:visited {
-color: blueviolet;
+  color: blueviolet;
 }
 a:hover {
-color: crimson;
-text-decoration: underline;
-text-decoration-thickness: 0.05em;
+  color: crimson;
+  text-decoration: underline;
+  text-decoration-thickness: 0.05em;
 }
 a:active {
-color: #1da185;
+  color: #1da185;
 }
 footer {
-background-color: white;
+  background-color: white;
 }
 footer p {
-2position:relative;
-2top: 43px;
-2left: 30px;
-font-size: .75em;
-clear: left;
-padding-top: 10px;
+  2position:relative;
+  2top: 43px;
+  2left: 30px;
+  font-size: .75em;
+  clear: left;
+  padding-top: 10px;
 }
 footer a {
-padding-left: 10px;
-position:relative;
-left: 180px;
-top: -54px;
-font-size: .75em;
-text-decoration: none;
+  padding-left: 10px;
+  position:relative;
+  left: 180px;
+  top: -54px;
+  font-size: .75em;
+  text-decoration: none;
 }
 footer img {
-width: 30px;
-position: relative;
-left: 20px;
-top: 10px;
-2clear: left;
-2float: left;
-2display: block;
-2margin-left: auto;
-2margin-right: auto;
-2padding-top: 0px;
+  width: 30px;
+  position: relative;
+  left: 20px;
+  top: 10px;
+  2clear: left;
+  2float: left;
+  2display: block;
+  2margin-left: auto;
+  2margin-right: auto;
+  2padding-top: 0px;
 }
 img:hover {
-transform: scale(1.35);
+  transform: scale(1.35);
 }
 a:hover, img:active {
-opacity: 50%;
+  opacity: 50%;
 }
 ```
 
@@ -7003,127 +7003,145 @@ opacity: 50%;
 ```
 <!Doctype html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <title>My Online Resume</title>
-      <link rel="stylesheet" href="css/style.css">
-   </head>
-   <body>
-<!-- Header Section -->
-      <header>
-         <h1><span class="textColorOffset">Matt</span> Norris</h1>
-         <ul id="contact">
-            <li><span class="textColorOffset">email- </span>ncccontact23@gmail.com</li>
-            <li><span class="textColorOffset">geo- </span>San Diego, California</li>
-            <li><span class="textColorOffset">cell- </span>123-456-7890</li>
-         </ul>
-      </header>
-      <section id="resume">
-<!-- Work Experience Section -->
+  <head>
+    <meta charset="UTF-8">
+    <title>My Online Resume</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+<!-- header section -->
+    <header>
+      <h1><span class="textColorOffset">Matt</span> Norris</h1>
+      <ul id="contact">
+        <li><span class="textColorOffset">email- </span>ncccontact23@gmail.com</li>
+        <li><span class="textColorOffset">geo- </span>San Diego, California</li>
+        <li><span class="textColorOffset">cell- </span>123-456-7890</li>
+      </ul>
+    </header>
+    <!-- resume section -->
+    <section id="resume">
+      <!-- work experience section -->
       <section id="workExperience">
-         <h2>Work Experience</h2>
-<h3 class="year">2019</h3>
-<h3 class="textColorOffset workPosition">USPS Delivery Supervisor</h3>
-<p>
-Supervise mail carrier and clerk personnel rotating to 18 different offices as needed in San Diego,
-California. Able to open close and do both.
-</p>
-<h3 class="year">2017</h3>
-<h3 class="textColorOffset workPosition">USPS Project Tasks for Area Manager</h3>
-<p>
-Provide customized reporting on multiple functions within delivery operations pertaining to status
-of all 12 offices under the Area Managers scope.
-</p>
-<h3 class="year">2016</h3>
-<h3 class="textColorOffset workPosition">USPS Supervisor Customer Services</h3>
-<p>
-Supervise, schedule, support, and provide reporting about team of 45 people.
-</p>
-<h3 class="year">2015-2000</h3>
-<h3 class="textColorOffset workPosition">Norris Computer Consulting</h3>
-<p>
-Provide computer services for home based and small businesses in San Diego, California.
-This is a business that I did successfully part-time.
-</p>
-</section>
-<!-- Ojective Section -->
-<section id="objective">
-<h2>Objective</h2>
-<p class="objectiveSizing">
-<span>F</span>ocus on providing effective Front End Web Development design services for Small to Medium sized Businesses.</p>
-<p class="objectiveSizing">
-<span>A</span>fter mastering Front End Web Development, I would like to learn Back End Development. Then help small and medium sized businesses with data usage, create front facing web pages that are effective, insightful, and practical that meet business goals and user needs.
-</p>
-</section>
-<!-- Education Section -->
-<section id="education">
-<h2>Education</h2>
-<section>
-<h3 class="textColorOffset">University</h3>
-<ul>
-<li>Christian Heritage College</li>
-<li class="degree">Bachelor of Science Business Management</li>
-<li>Carnegie Mellon University</li>
-<li class="courseWork">Course Work in Information Systems</li>
-<li>San Diego Community College</li>
-<li class="courseWork">Course Work in Math and Information Sustems</li>
-</ul>
-</section>
-<section>
-<h3 class="textColorOffset">Certifications</h3>
-<ul>
-<li>Microsoft Certified Professional</li>
-<li>CompTia A+</li>
-<li>Front End Web Developer Professional Certificate - W3C,Microsoft (In Progress)</li>
-</ul>
-</section>
-</section>
-<!-- Leadership and Charity Section -->
-<section id="leadership">
-<h2>Leadership</h2>
-<section>
-<h3 class="textColorOffset">Problem Solve</h3>
-<p class="leadershipParagraph">
-Provide problem solving and decision making on a daily basis with delivery team and customers.
-</p>
-</section>
-<section>
-<h3 class="textColorOffset">Create</h3>
-<p class="leadershipParagraph">
-Create customized reporting for management team members to help make informed and efficient decisions.
-</p>
-</section>
-</section>
-<section id="charity">
-<h2>Charity Work</h2>
-<section>
-<h3 class="textColorOffset charityWork">College Ave Baptist Church</h3>
-<p class="charityWorkPargraph">
-<span>H</span>elp where needed. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus asperiores voluptatibus est error fugit accusantium nobis aspernatur, id dolorum veniam debitis hic architecto voluptate ipsum maiores tempore libero distinctio consequatur!
-      </p>
+        <h2>Work Experience</h2>
+        <h3 class="year">2019</h3>
+        <h3 class="textColorOffset workPosition">USPS Delivery Supervisor</h3>
+        <p>
+          Supervise mail carrier and clerk personnel rotating to 18 different offices 
+            as needed in San Diego, California. Able to open close and do both.
+        </p>
+        <h3 class="year">2017</h3>
+        <h3 class="textColorOffset workPosition">USPS Project Tasks for Area Manager</h3>
+        <p>
+          Provide customized reporting on multiple functions within delivery operations 
+            pertaining to status of all 12 offices under the Area Managers scope.
+        </p>
+        <h3 class="year">2016</h3>
+        <h3 class="textColorOffset workPosition">USPS Supervisor Customer Services</h3>
+        <p>
+          Supervise, schedule, support, and provide reporting about team of 45 people.
+        </p>
+        <h3 class="year">2015-2000</h3>
+        <h3 class="textColorOffset workPosition">Norris Computer Consulting</h3>
+        <p>
+          Provide computer services for home based and small businesses in San Diego, California.
+          This is a business that I did successfully part-time.
+        </p>
+      </section>
+      <!-- objective section -->
+      <section id="objective">
+        <h2>Objective</h2>
+        <p class="objectiveSizing">
+          <span>F</span>ocus on providing effective Front End Web Development design 
+              services for Small to Medium sized Businesses.</p>
+        <p class="objectiveSizing">
+          <span>A</span>fter mastering Front End Web Development, I would like to 
+            learn Back End Development. Then help small and medium sized businesses 
+            with data usage, create front facing web pages that are effective, insightful, 
+            and practical that meet business goals and user needs.
+        </p>
+      </section>
+      <!-- education section -->
+      <section id="education">
+        <h2>Education</h2>
+        <section>
+          <h3 class="textColorOffset">University</h3>
+          <ul>
+            <li>Christian Heritage College</li>
+            <li class="degree">Bachelor of Science Business Management</li>
+            <li>Carnegie Mellon University</li>
+            <li class="courseWork">Course Work in Information Systems</li>
+            <li>San Diego Community College</li>
+            <li class="courseWork">Course Work in Math and Information Sustems</li>
+          </ul>
+        </section>
+      <section>
+        <h3 class="textColorOffset">Certifications</h3>
+        <ul>
+          <li>Microsoft Certified Professional</li>
+          <li>CompTia A+</li>
+          <li>Front End Web Developer Professional Certificate - W3C,Microsoft (In Progress)</li>
+        </ul>
+      </section>
+    </section>
+    <!-- leadership and charity section -->
+    <section id="leadership">
+      <h2>Leadership</h2>
+      <section>
+        <h3 class="textColorOffset">Problem Solve</h3>
+        <p class="leadershipParagraph">
+          Provide problem solving and decision making on a daily basis with delivery 
+            team and customers.
+        </p>
       </section>
       <section>
-         <h3 class="textColorOffset charityWork">Inter-Faith Shelter, San Diego, CA</h3>
-         <p class="charityWorkPargraph"><span>P</span>rovide designated food, serve meals to single people and families, talk with adults and children, clean kitchen and eatting area afterwards.</p>
-   <p class="charityWorkPargraph"><span>I</span>nter-Faith Shelter is a community effort to help people get back on their feet with a plan to obtain training or work. Congregations involved from many different faiths as many as 80 join on a rotational basis to house and feed people in need of getting back on their feet to be self sustaining. Their is accountability and rules to abide by out of respect for others to remain in this care situation. All is done on a volunteer basis.
-   </p>
+        <h3 class="textColorOffset">Create</h3>
+        <p class="leadershipParagraph">
+          Create customized reporting for management team members to help make informed 
+            and efficient decisions.
+        </p>
       </section>
-         </section>
-         <!-- Footer with Contact Info Section -->
-         <footer>
-         <p>
-            Connect with me on:
-         </p>
-         <a href="mailto:ncccontact23@gmail.com" target="_blank">
-<!-- <img
-src="https://edxuploads.s3.amazonaws.com/162309585670190256428.png"
-alt="picture of a letter for contacting via email"> -->Gmail</a>
-<a href="https://facebook.com" target="_blank">
-<!-- <img
-src="https://edxuploads.s3.amazonaws.com/1623095892121252315507.png"
-alt="picture of a phone to signify contacting via phone"> -->Facebook</a>
-<a href="#top"><img class="arrow" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arrow_top.png/640px-Arrow_top.png"alt="picture of an arrow symbol pointing up for going back up to top of page" title="Back to
-     Top of Page"></a>
+    </section>
+    <section id="charity">
+      <h2>Charity Work</h2>
+      <section>
+        <h3 class="textColorOffset charityWork">College Ave Baptist Church</h3>
+        <p class="charityWorkPargraph">
+          <span>H</span>elp where needed. Lorem ipsum, dolor sit amet consectetur adipisicing 
+            elit. Ducimus asperiores voluptatibus est error fugit accusantium nobis aspernatur, 
+            id dolorum veniam debitis hic architecto voluptate ipsum maiores tempore libero 
+            distinctio consequatur!
+        </p>
+      </section>
+      <section>
+        <h3 class="textColorOffset charityWork">Inter-Faith Shelter, San Diego, CA</h3>
+        <p class="charityWorkPargraph"><span>P</span>rovide designated food, serve meals 
+		  to single people and families, talk with adults and children, clean kitchen 
+          and eatting area afterwards.</p>
+        <p class="charityWorkPargraph"><span>I</span>nter-Faith Shelter is a community 
+          effort to help people get back on their feet with a plan to obtain training 
+          or work. Congregations involved from many different faiths as many as 80 join 
+          on a rotational basis to house and feed people in need of getting back on their 
+          feet to be self sustaining. Their is accountability and rules to abide by out 
+          of respect for others to remain in this care situation. All is done on a 
+          volunteer basis.
+        </p>
+      </section>
+    </section>
+    <!-- footer with contact info section -->
+    <footer>
+      <p>
+        Connect with me on:
+      </p>
+      <a href="mailto:ncccontact23@gmail.com" target="_blank">
+      <!-- <img
+        src="https://edxuploads.s3.amazonaws.com/162309585670190256428.png"
+        alt="picture of a letter for contacting via email"> -->Gmail</a>
+        <a href="https://facebook.com" target="_blank">
+      <!-- <img
+        src="https://edxuploads.s3.amazonaws.com/1623095892121252315507.png"
+        alt="picture of a phone to signify contacting via phone"> -->Facebook</a>
+        <a href="#top"><img class="arrow" 
+		src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arrow_top.png/640px-Arrow_top.png"alt="picture of an arrow symbol pointing up for going back up to top of page" title="Back to Top of Page"></a>
     </footer>
   </body>
 </html>
@@ -7131,7 +7149,7 @@ alt="picture of a phone to signify contacting via phone"> -->Facebook</a>
 
 </details>
 
-<h3>Module 4 learnings</h3>
+<h3>Summary Layout &amp; Positioning</h3>
 
 <h4>After Module 4, you should be able to...</h4>
 
@@ -7141,7 +7159,7 @@ alt="picture of a phone to signify contacting via phone"> -->Facebook</a>
 
 -   Employ the alignment, float and position properties when appropriate for optimal page structure
 
-<h4>In the next module, we'll...</h4>
+<h4>In the next module (5), we'll...</h4>
 
 -   Learn about how to design your Web page to meet your user&#39;s needs
 
@@ -7150,7 +7168,7 @@ alt="picture of a phone to signify contacting via phone"> -->Facebook</a>
 -   Explore current Web design styles and learn how to best use them
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-1-1">5.1.1 Welcome to Module 5</h3>
+<h3 id="ch5-1-1">5.1.1 Intro to Designing Your Website</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 In our final module, we&#39;re going to be talking about design. It&#39;s one thing to know how to use CSS properties and selectors.
 
@@ -7742,7 +7760,7 @@ Don&#39;t use CSS to apply direction for bidirectional or right-to-left scripts
 5.  <b>Use start and end:</b> Using these values, where possible, rather than left and right makes it easier to convert content between languages that use right-to-left and left-to-right scripts.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-4-1">5.4.1 The history of Web design</h3>
+<h3 id="ch5-4-1">5.4.1 Historical Web Design Trends</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 The way Web pages look has changed a lot over the years, mostly because the technology has come a really long way. But as Web sites change, we can look at them as a brief history of the development of technology and also the development of design.
@@ -7869,7 +7887,7 @@ Just for fun, I went looking for sites with animation. This one has some animati
 Also has some animation, but not much. [https://web.archive.org/web/20131021205646/http://www.wikihow.com/Main-Page](https://web.archive.org/web/20131021205646/http:/www.wikihow.com/Main-Page)
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-5-1">5.5.1 The current state of Web design</h3>
+<h3 id="ch5-5-1">5.5.1 Current Web Design Trends</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Now, it&#39;s 2016. And I say the year because the design trends I am going to talk about are really specific to this time period now.
 
