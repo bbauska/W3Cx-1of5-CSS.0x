@@ -83,18 +83,18 @@ There are 3 methods;
 1. HTML & CSS in the same file
 filename: index.html
 
-```&lt;html&gt;
-&lt;head&gt;
-  &lt;title&gt;Home&lt;/title&gt;
-  &lt;style&gt;
+```<html>
+<head>
+  <title>Home</title>
+  <style>
     p
       {color:green;}
-  &lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;p&gt;Peter is a good man&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+  </style>
+</head>
+<body>
+  <p>Peter is a good man</p>
+</body>
+</html>
 ```
 
 2. CSS code inserted directly in HTML tags
@@ -114,20 +114,21 @@ filename : index.html
 
 HTML file: index.html
 
-```&lt;html&gt;
-&lt;head&gt;
-  &lt;title&gt;Home&lt;/title&gt;
-  &lt;link href=&ldquo;style.css&rdquo; rel=&ldquo;stylesheet&rdquo; type=&ldquo;text/css&rdquo; &gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;p&gt;Peter is a good man&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+```<html>
+<head>
+  <title>Home</title>
+  <link href="style.css" rel="stylesheet" type="text/css" >
+</head>
+<body>
+  <p>Peter is a good man</p
+</body>
+</html>
 ```
 
 CSS file: style.css
 
-```p
+```
+p
 {color:green;}
 ```
 
