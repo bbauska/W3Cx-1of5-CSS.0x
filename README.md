@@ -80,12 +80,12 @@ w3cx-1of5-css.0x: Coursera - Front-End Web Development - CSS Basics
 
 There are 3 methods;
 
-1\) HTML & CSS in the same file
+1) HTML & CSS in the same file
 filename: index.html &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;
-&lt;html&gt;\
-&lt;head&gt;\
-&lt;title&gt;Home&lt;/title&gt;\
-&lt;style&gt;\
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Home&lt;/title&gt;
+&lt;style&gt;
 p
 {color:green;}
 &lt;/style&gt;
@@ -95,14 +95,14 @@ p
 &lt;/body&gt;
 &lt;/html&gt;
 
-2\) CSS code inserted directly in HTML tags
+2) CSS code inserted directly in HTML tags
 file name : index.html &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;
 &lt;html&gt;
 &lt;head&gt;
 &lt;title&gt;Home&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
-&lt;p style=&ldquo;color:green;&rdquo;&gt;Peter is a good man&lt;/p&gt;\
+&lt;p style=&ldquo;color:green;&rdquo;&gt;Peter is a good man&lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 
@@ -457,9 +457,11 @@ In April 1995, [Inria](https://www.inria.fr/) became the first European W3C ho
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 16/17. picture of sr tim berners-lee (17) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img alt="Picture of Sir Tim Berners-Lee" src="./images/image016.jpeg?raw=true" width="45%">
+  <img alt="Picture of Sir Tim Berners-Lee" 
+    src="./images/image016.webp?raw=true" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Turing award" src="./images/image017.webp?raw=true"45%">
+  <img alt="Turing award" 
+    src="./images/image017.webp?raw=true"45%">
 </p>
 
 On 4 April 2017, the ACM, the Association for Computing Machinery, named Sir Tim Berners-Lee, inventor of the Web and Director of the World Wide Web Consortium, as the recipient of the 2016 [ACM A.M. Turing Award](https://amturing.acm.org/). The Turing award is recognized as the highest distinction in Computer Science and is often referred to as the "Nobel Prize of Computing".
@@ -687,9 +689,9 @@ A global system of computer networks that connect to one another so that billion
 
 A collection of documents linked together by hypertext links, addressed using Uniform Resource Locators (URLs) accessible on the Internet. The World Wide Web is an application of the internet. 
 
-*abbreviated as WWW or &ldquo;the Web&rdquo;*
+<i>abbreviated as WWW or &ldquo;the Web&rdquo;</i>
 
-**Web browser** • /wɛb ˈbraʊzər/ • *noun *
+<b>Web browser</b> • /wɛb ˈbraʊzər/ • <i>noun</i>
 
 A software application for retrieving, presenting and traversing information resources on the World Wide Web.
 
@@ -701,7 +703,7 @@ Stands for &ldquo;**H**yper**t**ext **T**ransfer **P**rotocol&rdquo;. It is a 
 
 <h4>HTTPS</h4>
 
-Stands for &ldquo;**H**yper**t**ext **T**ransfer **P**rotocol **S**ecure&rdquo;. It  is the secure version of **HTTP**, the protocol over which data is sent between your browser and the Web site that you are connected to. It means all communications between your browser and the Web site are encrypted. A vast majority of Web site are now served by [https](https://en.wikipedia.org/wiki/HTTPS).
+Stands for &ldquo;**H**yper**t**ext **T**ransfer **P**rotocol **S**ecure&rdquo;. It  is the secure version of **HTTP**, the protocol over which data is sent between your browser and the Web site that you are connected to. It means all communications between your browser and the Web site are encrypted. A vast majority of Web site are now served by <a href="https://en.wikipedia.org/wiki/HTTPS">https</a>.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-5">1.2.5 Activity - The Web before CSS</h3>
@@ -743,7 +745,10 @@ From the history of CSS, we learned why CSS came about, but the short answer is 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-2">1.3.2 Meet CSS Zen Garden</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-In 2003, [Dave Shea](http://daveshea.com/projects/zen/) began a legendary project called [CSS Zen Garden](http://www.csszengarden.com/) that provided a demonstration of &ldquo;what can be accomplished through CSS-based design&rdquo;, until submissions stopped in 2013.
+In 2003, <a href="http://daveshea.com/projects/zen/">Dave Shea</a> began a legendary 
+project called <a href="http://www.csszengarden.com/">CSS Zen Garden</a> that provided 
+a demonstration of &ldquo;what can be accomplished through CSS-based design&rdquo;, 
+until submissions stopped in 2013.
 
 In July 2020, Stephanie Eckles ([ModernCSS](https://moderncss.dev/)) launched [Style Stage](https://stylestage.dev/), a modern CSS showcase styled by community contributions. Meaning that CSS practitioners of any skill level (you!) are welcome to join as a [contributor](https://stylestage.dev/#contribute) and submit a stylesheet! Visit the [&ldquo;All Styles&rdquo;](https://stylestage.dev/styles/) directory page and re-style by submitting an alternate style sheet.
 
@@ -852,7 +857,8 @@ As you work in your own sites, you might want to use both of these features of y
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-3">1.3.3 Activity - CSS Zen Garden critique</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Now that you've gotten a good idea of what CSS Zen Garden is, take a closer look. Please browse some of the designs, starting from &ldquo;[Garments]&rdquo;(http://www.csszengarden.com/220/) (note that the link to &ldquo;all designs&rdquo; is now broken\...). Look through the different CSS Zen Garden designs for inspiration. Which is your favorite design? Pick one design and share your critiques with the discussion. 
+Now that you've gotten a good idea of what CSS Zen Garden is, take a closer look. 
+Please browse some of the designs, starting from <a href="http://www.csszengarden.com/220/">Garments</a> (note that the link to &ldquo;all designs&rdquo; is now broken...). Look through the different CSS Zen Garden designs for inspiration. Which is your favorite design? Pick one design and share your critiques with the discussion. 
 
 For your chosen design, please answer the following questions:
 
@@ -996,7 +1002,7 @@ p {
 }
 ```
 
-\... and here is the &ldquo;output&rdquo;:
+... and here is the &ldquo;output&rdquo;:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 21. 'hello beautiful world' in blue helvetica text (34) ~~~~~~~~~~~~~~~~~~~-->
@@ -2824,7 +2830,7 @@ In summary, here are [three different ways to style buttons you can play around
 
 Now that you know a bit more about how CSS is written, you will start to understand and notice more of the design elements as you navigate around the Web. 
 
-In this module&#39;s style studies section, you learned some effective ways to style titles and buttons. You also learned about some design choices that make your titles and buttons not as effective\...
+In this module&#39;s style studies section, you learned some effective ways to style titles and buttons. You also learned about some design choices that make your titles and buttons not as effective...
 
 -   Titles shouldn&#39;t be overly styled. They should only have a few properties set to help them stand out from body text, but not too many otherwise they will be too busy.
 
@@ -3197,7 +3203,7 @@ Let's take a look at the different pseudo-classes and how you can design a reall
 
 Pseudo-classes are a way to select HTML elements based on their state as opposed to their HTML structure.
 
-Pseudo-classes must always be applied to an existing selector. Their &ldquo;flag character&rdquo; is the colon (&ldquo;:&rdquo;).\
+Pseudo-classes must always be applied to an existing selector. Their &ldquo;flag character&rdquo; is the colon (&ldquo;:&rdquo;).
 Here are some of the most popular pseudo-classes.
 
 <h4>:link and :visited</h4>
@@ -3606,7 +3612,7 @@ Cascading order can be difficult to manage.
   alt="Managing cascading order." />
 </p>
 
-<b>\... and specifically, its CSS code:</b>
+<b>... and specifically, its CSS code:</b>
 
 <details>
   <summary>CSS code list!</summary>
@@ -5554,7 +5560,7 @@ div {
 
 </details>
 
-As you can see the layout is pretty messy. Your job in this activity is to decide which elements deserve a float property (such as the navigation!). The main focus of the task is about understanding floats, but as before, try to ensure your page also works well when the window is resized.\
+As you can see the layout is pretty messy. Your job in this activity is to decide which elements deserve a float property (such as the navigation!). The main focus of the task is about understanding floats, but as before, try to ensure your page also works well when the window is resized.
 You might also need to adjust some widths, margins and paddings to get everything looking like the final image below:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5903,7 +5909,7 @@ p {
 
 </details>
 
-Your task is to add CSS so that you achieve this final layout:\
+Your task is to add CSS so that you achieve this final layout:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 94. blue on light grey sample web page (170) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6715,7 +6721,8 @@ Now that we are at the end of Module 4, you have a long list of different ways t
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 In Modules 2 and 3, you&#39;ve been building your profile as a Web page. For this module project, we are going to continue to build on that work and turn the profile into a &ldquo;resume&rdquo; or &ldquo;CV&rdquo;, as a kind of online portfolio.
 
-In some countries, traditional printed resumes typically are required to fit on a single piece of paper (A4 or Letter sizes), which means they need to make very effective use of the space available.\
+In some countries, traditional printed resumes typically are required to fit on a single piece of paper (A4 or Letter sizes), which means they need to make very effective use of the space available.
+
 For this project, you are going to try to reproduce a typical resume layout but with HTML and CSS.
 
 Here is what my Web resume looks like:
@@ -7213,25 +7220,25 @@ You will find below an excerpt of CSS best practices (see the [full slide set](
 
 <h4>Executive summary</h4>
 
--   **Logical source order:**\
+-   **Logical source order:**<br>
     The order of the HTML content should make sense even without the CSS: for accessibility, mobile optimization, device adaptability, and long-term maintainability.
 
--   **Liquid layouts and relativity:**\
+-   **Liquid layouts and relativity:**<br>
     Use smart relative sizing: to optimize layouts while minimizing media query code forks.
 
--   **Media queries:**\
+-   **Media queries:**<br>
     Adapt to screen size changes; get font size adaptation free by using ems.
 
--   **Prevent zombie code:**\
+-   **Prevent zombie code:**<br>
     Dead code may come alive as CSS changes. Delete it before it does, and ruins your layout.
 
--   **Test in multiple browsers:**\
+-   **Test in multiple browsers:**<br>
     Your favorite browser is not always right.
 
--   **Don&#39;t use proprietary features!**\
+-   **Don&#39;t use proprietary features!**<br>
     Keep the Web open to everyone! Don&#39;t rely on the latest -WebKit- invention.
 
--   **Turn off CSS:**\
+-   **Turn off CSS:**<br>
     A well-coded page will be understandable without it.
 
 <h4>Foundations</h4>
@@ -7319,7 +7326,7 @@ Absolute units are usually the wrong answer.
 -   **Don&#39;t over-escalate**: understand your code, and don&#39;t overkill.
 
 -   For example, avoid:
-    . z-index: 9999999999999999999999999999999999999;\
+    . z-index: 9999999999999999999999999999999999999;<br>
         . position: absolute; left: -10000000000px
 
 -   **Drop dead code**: you tried something and it didn&#39;t work? Delete it right away!
@@ -7696,7 +7703,7 @@ These are just a few examples. There are many more.
 
 -   If text wraps to a new line, by default it does so differently dependent on whether you are dealing with Chinese or Japanese.
 
--   And we could continue\...
+-   And we could continue...
 
 Therefore, you should always ensure that the correct language is specified in the lang attribute on the html tag, to indicate the default language of the page. And if you have passages in another language inside the page, you should put a lang attribute on markup that surrounds them, too.
 
@@ -8080,7 +8087,7 @@ dimensions: to elements on the same line and to elements in the same column.
 
 Grid doesn&#39;t replace Flexbox. There is some flexibility when placing elements in one line 
 that you lose when you add a second dimension. At the same time there are layouts that were 
-difficult or impossible even with Flexbox and are now easy with Grid.\
+difficult or impossible even with Flexbox and are now easy with Grid.
 
 The Grid module is only a first step. Level 1 has a number of limitations (just like Flexbox), 
 due to issues around complexity and performance. For example, you can currently only align 
