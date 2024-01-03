@@ -94,7 +94,8 @@ filename: index.html
 &lt;body&gt;
   &lt;p&gt;Peter is a good man&lt;/p&gt;
 &lt;/body&gt;
-&lt;/html&gt;```
+&lt;/html&gt;
+```
 
 2. CSS code inserted directly in HTML tags
 filename : index.html
@@ -106,7 +107,8 @@ filename : index.html
 &lt;body&gt;
   &lt;p style=&ldquo;color:green;&rdquo;&gt;Peter is a good man&lt;/p&gt;
 &lt;/body&gt;
-&lt;/html&gt;```
+&lt;/html&gt;
+```
 
 3. CSS & HTML separated but in the same folder
 
@@ -120,12 +122,14 @@ HTML file: index.html
 &lt;body&gt;
   &lt;p&gt;Peter is a good man&lt;/p&gt;
 &lt;/body&gt;
-&lt;/html&gt;```
+&lt;/html&gt;
+```
 
 CSS file: style.css
 
 ```p
-{color:green;}```
+{color:green;}
+```
 
 
 Hello,
