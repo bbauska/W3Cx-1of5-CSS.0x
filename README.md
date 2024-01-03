@@ -36,7 +36,7 @@ w3cx-1of5-css.0x: Coursera - Front-End Web Development - CSS Basics
 >### * [**Course tools**](#chb-3)
 
 ## [**Module 1: Getting Started with CSS**](#ch1)
->### - [**1.1 Introduction to CSS**](#ch1-1-1)
+>### - [**1.1 Introduction to CSS Basics**](#ch1-1-1)
 >### - [**1.2 What is CSS?**](#ch1-2-1)
 >### - [**1.3 Why CSS is important**](#ch1-3-1)
 >### - [**1.4 Project 1 - Your first CSS**](#ch1-4-1)
@@ -53,7 +53,7 @@ w3cx-1of5-css.0x: Coursera - Front-End Web Development - CSS Basics
 >### - [**2.8 Summary Building CSS Rules**](#ch2-8-1)
 
 ## [**Module 3: Specific HTML Element Targeting with CSS Selectors**](#ch3)
->### - [**3.1 Introduction to Targeting with CSS Selector**](#ch3-1-1)
+>### - [**3.1 Introduction to Targeting with CSS Selectors**](#ch3-1-1)
 >### - [**3.2 Using HTML Classes and IDs**](#ch3-2-1)
 >### - [**3.3 CSS pseudo-classes**](#ch3-3-1)
 >### - [**3.4 Combining selectors**](#ch3-4-1)
@@ -72,7 +72,7 @@ w3cx-1of5-css.0x: Coursera - Front-End Web Development - CSS Basics
 
 ## [**Module 5: Designing your Website for your Audience**](#ch5)
 >### - [**5.1 Introduction to Designing Your Website**](#ch5-1-1)
->### - [**5.2 The basics of design**](#ch5-2-1)
+>### - [**5.2 Applying Basic Design Principles**](#ch5-2-1)
 >### - [**5.3 Designing for your audience**](#ch5-3-1)
 >### - [**5.4 Historical Web design trends**](#ch5-4-1)
 >### - [**5.5 Current Web design trends**](#ch5-5-1)
@@ -409,7 +409,7 @@ To help developers make these decisions consciously rather than accidentally, [
 -   [Caniuse and MDN compatibility data collaboration](https://hacks.mozilla.org/2019/09/caniuse-and-mdn-compat-data-collaboration/)
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch1-1-1">1.1.1 Welcome to Module 1</h3>
+<h3 id="ch1-1-1">1.1.1 Introduction to CSS Basics</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Hi! Welcome to the world of CSS or Cascading Style Sheets.
 
@@ -1142,7 +1142,7 @@ In next module, you will:
 -   Finally, for your module project, you&#39;ll get a get a chance to build the CSS for an HTML page from scratch
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-1-1">2.1.1 Welcome to Module 2</h3>
+<h3 id="ch2-1-1">2.1.1 Introduction to Building CSS Rules</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 In this module, we&#39;re going to focus on building out your CSS toolbox.
@@ -4647,7 +4647,7 @@ For reference here is what my solution looks like:
 -   Learn about the flow property
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch4-1-1">4.1.1 Welcome to Module 4</h3>
+<h3 id="ch4-1-1">4.1.1 Introduction to Layout &amp; Positioning</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 In this module, we&#39;re going to talk about layout and positioning using CSS.
 
