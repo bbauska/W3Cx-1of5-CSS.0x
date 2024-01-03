@@ -80,46 +80,53 @@ w3cx-1of5-css.0x: Coursera - Front-End Web Development - CSS Basics
 
 There are 3 methods;
 
-1) HTML & CSS in the same file
-filename: index.html &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;
-&lt;html&gt;
+1. HTML & CSS in the same file
+filename: index.html
+
+```&lt;html&gt;
 &lt;head&gt;
-&lt;title&gt;Home&lt;/title&gt;
-&lt;style&gt;
-p
-{color:green;}
-&lt;/style&gt;
+  &lt;title&gt;Home&lt;/title&gt;
+  &lt;style&gt;
+    p
+      {color:green;}
+  &lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
-&lt;p&gt;Peter is a good man&lt;/p&gt;
+  &lt;p&gt;Peter is a good man&lt;/p&gt;
 &lt;/body&gt;
-&lt;/html&gt;
+&lt;/html&gt;```
 
-2) CSS code inserted directly in HTML tags
-file name : index.html &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;
-&lt;html&gt;
+2. CSS code inserted directly in HTML tags
+filename : index.html
+
+```&lt;html&gt;
 &lt;head&gt;
-&lt;title&gt;Home&lt;/title&gt;
+  &lt;title&gt;Home&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
-&lt;p style=&ldquo;color:green;&rdquo;&gt;Peter is a good man&lt;/p&gt;
+  &lt;p style=&ldquo;color:green;&rdquo;&gt;Peter is a good man&lt;/p&gt;
 &lt;/body&gt;
-&lt;/html&gt;
+&lt;/html&gt;```
 
-3\) CSS & HTML separated but in the same folder\
-Html file: index.html &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-\
-&lt;html&gt;\
-&lt;head&gt;\
-&lt;title&gt;Home&lt;/title&gt;\
-&lt;link href=&ldquo;style.css&rdquo; rel=&ldquo;stylesheet&rdquo; type=&ldquo;text/css&rdquo; &gt;\
-&lt;/head&gt;\
-&lt;body&gt;\
-&lt;p&gt;Peter is a good man&lt;/p&gt;\
-&lt;/body&gt;\
-&lt;/html&gt;\
+3. CSS & HTML separated but in the same folder
+
+HTML file: index.html
+
+```&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Home&lt;/title&gt;
+  &lt;link href=&ldquo;style.css&rdquo; rel=&ldquo;stylesheet&rdquo; type=&ldquo;text/css&rdquo; &gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;Peter is a good man&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;```
+
 CSS file: style.css
-p\
-{color:green;}
+
+```p
+{color:green;}```
+
 
 Hello,
 
@@ -182,8 +189,7 @@ Once you have a passing score (70% or higher), your certificate will be automati
 
 W3Cx, as non-profit, relies on verified certificates to help fund future W3Cx courses for everyone globally.
 
- &ldquo;Front-End Web Developer&rdquo; Professional Certificate
-
+<p align="center">&ldquo;Front-End Web Developer&rdquo; Professional Certificate</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. image of fewd certificate (05) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -243,7 +249,6 @@ Professional Certificate programs are series of courses designed by industry lea
    alt="Banner image for the FEWD professional certificate program." />
 </p>
 
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 W3C has designed a <a href="https://www.edx.org/professional-certificate/w3cx-front-end-web-developer" target="_blank">"Front-End Web Developer" (FEWD) Professional
 Certificate</a> where you will learn all of the necessary skills needed to build interactive
 and responsive user experiences on the Web. This program will deepen
@@ -259,7 +264,6 @@ courses:
    <li><a href="https://github.com/bbauska/W3Cx-5of5-JS.0x" target="_blank">JavaScript Introduction</a> -
     introductory level.</li>
 </ol>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 To get a W3C FEWD professional certificate, you must successfully pass and receive a Verified Certificate in the five courses above. Note that the [dashboard link to Front-End Web Developer Program](https://courses.edx.org/dashboard/programs/98b7344e-cd44-4a99-9542-09dfdb11d31b/) displays upgrade links to all of the courses in the program AND offer the option to &ldquo;upgrade all remaining courses&rdquo; in bulk.
 
@@ -291,7 +295,7 @@ VS Code supports a large array of different Web technologies, but for this cours
    alt="Codepen logo." />
 </p>
 
-In this course, we&#39;ll also use [[Codepen]](https://www.codepen.io/).\
+In this course, we&#39;ll also use <a href="https://www.codepen.io/">Codepen</a>.
 Codepen incorporates editors and a preview service into a single Web application. This is a great service to get you started quickly as it doesn&#39;t require you to download anything and you can access the service, along with your saved projects from any Web browser.
 
 Other than these two there are plenty of different programs you can use.
@@ -314,9 +318,13 @@ Here are a few possibilities for Web editors:
 
 -   [Vim](https://www.vim.org/) or [Emacs](https://www.gnu.org/software/emacs/) - great editors on which the Internet was built, but if you&#39;re not already familiar with these, this isn&#39;t the time to try.
 
-## W3C validators
+<h3>W3C validators</h3>
 
-The W3C develops and hosts [[free]** **and** **[open source]** **tools](https://w3c.github.io/developers/) used every day by **millions of Web developers and Web designers**. All the tools listed below are Web-based, and are available as downloadable sources or as free services on the [W3C Developers tools ](https://w3c.github.io/developers/tools/)site.
+The W3C develops and hosts <a href="https://w3c.github.io/developers/">
+free and open source tools</a> used every day by <b>millions of Web developers 
+and Web designers</b>. All the tools listed below are Web-based, and are available 
+as downloadable sources or as free services on the 
+<a href="https://w3c.github.io/developers/tools/">W3C Developers tools</a> site.
 
 <h4>W3C Validator</h4>
 
@@ -338,7 +346,7 @@ The [W3C Internationalization Checker](https://validator.w3.org/i18n-checker/)�
 
 The [W3C Link Checker](https://validator.w3.org/checklink) looks for issues in links, anchors and referenced objects in a Web page, CSS style sheet, or recursively on a whole Web site. For best results, it is recommended to first ensure that the documents checked use valid [(X)HTML Markup](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/).
 
-## W3C cheatsheet
+<h3>W3C cheatsheet</h3>
 
 The [W3C cheatsheet](https://www.w3.org/2009/cheatsheet/) provides quick access to useful information from a variety of specifications published by W3C. It aims at giving in a very compact and mobile-friendly format a compilation of useful knowledge extracted from W3C specifications, completed by summaries of guidelines developed at W3C, in particular Web accessibility guidelines, the Mobile Web Best Practices, and a number of internationalization tips.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -354,7 +362,7 @@ Its main feature is a lookup search box, where one can start typing a keyword an
 
 The W3C cheat sheet is only available as a [pure Web application](https://dev.w3.org/2009/cheatsheet/doc/).
 
-## Browser compatibility
+<h3>Browser compatibility</h3>
 
 The term browser compatibility refers to the ability of a given Web site to appear fully functional on the browsers available in the market.
 
@@ -420,6 +428,7 @@ And then finally by the end of the module you write your own first piece of CSS.
 
 4.  Help you write your first CSS styles
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-1">1.2.1 What is W3C?</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 14. w3c logo (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -437,7 +446,7 @@ W3C&#39;s primary activity is to develop protocols and guidelines that ensure lo
 <!--~~~~~~~~~~~~~~~~~~~ 15. tim berners-lee at his desk in CERN, 1994 (16) ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image015.jpeg?raw=true"
+<img src="./images/image015.webp?raw=true"
    width="25%"
    alt="Tim Berners-Lee at his desk in CERN, 1994." />
 </p>
@@ -2175,11 +2184,10 @@ You can see these color properties in action using all three approaches to setti
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 38. color palette (69) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image038.jpeg?raw=true"
+<img src="./images/image038.webp?raw=true"
    width="25%"
    alt="Color palette." />
 </p>
-<!--- ![color palette](images/media/image39.jpeg){width="2.6041666666666665in" height="1.9791666666666667in"} --->
 
 -   We will discuss how to pick a good color palette for your site in Module 5, but in the meantime, [here is a good wiki article from the W3C](https://www.w3.org/wiki/Colour_theory) discussing the general use of colors on the Web.
 
@@ -4700,10 +4708,11 @@ We discussed how to adjust the white space of these areas in Module 2.5, but in 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 76. anatomy of the box model (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image105.jpeg?raw=true"
+<img src="./images/image076.webp?raw=true"
    width="50%"
    alt="Anatomy of the box model." />
 </p>
+<!-- 105? -->
 
 -   **element** - This is [always]{.underline} contained within a rectangle, even if it is a text block with jagged edges or a transparent image that isn&#39;t rectangular. Web browsers will impose a rectangle around the smallest area the HTML element&#39;s content actually occupies. Until now we&#39;ve allowed the Web browser to determine the size of the element based solely on the content, but later in this section we&#39;ll learn how to adjust this sizing.
 
@@ -7411,7 +7420,7 @@ When getting into design, it&#39;s a good idea to brush up on the basics of colo
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 38. color wheel: primary & 2ndary (208) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image038.jpeg?raw=true"
+<img src="./images/image038.webp?raw=true"
   width="50%"
   alt="Color Wheel: the primary and 2ndary colors, and their hex equivalent." />
 </p>
