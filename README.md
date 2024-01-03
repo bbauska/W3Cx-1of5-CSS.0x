@@ -4947,13 +4947,16 @@ For example, if we set the width of a paragraph to 30% as you resize the browser
 
 Things are a bit more complicated with using a percentage to set an element&#39;s height. This is because typically the body&#39;s height is not specified, so if you use a percentage the size won&#39;t adjust.
 
-<h4>min-width, max-width, min-height, max-height
+<h4>min-width, max-width, min-height, max-height</h4>
 
-&lbrack;*Documentation*: [max and min width](https://www.w3.org/TR/CSS22/visudet.html#min-max-widths) and [max and min height](https://www.w3.org/TR/CSS22/visudet.html#min-max-heights)&rbrack;
+&lbrack;<i>Documentation</i>: <a href="https://www.w3.org/TR/CSS22/visudet.html#min-max-widths">max and min width</a> and <a href="https://www.w3.org/TR/CSS22/visudet.html#min-max-heights">max and min height</a>&rbrack;
 
 Setting width and height with percentages will save you work because your design will automatically optimize for the user&#39;s screen size. However, some elements can&#39;t grow and shrink as dynamically as text can.
 
-For example, images will get &ldquo;pixelated&rdquo; if you let them grow too large, and they can look really distorted. Thankfully, you can set max and min width and heights. This way, you can set a range for your image to grow and shrink where you know it will still look good. 
+For example, images will get &ldquo;pixelated&rdquo; if you let them grow too large, 
+and they can look really distorted. Thankfully, you can set max and min width and 
+heights. This way, you can set a range for your image to grow and shrink where you 
+know it will still look good. 
 
 ```
 img {
@@ -5451,7 +5454,7 @@ div {
 
 One of the toughest parts of layouts with CSS is figuring out which elements to apply a float property to.
 
-<h4>Here is [some HTML and CSS](https://codepen.io/techie4good/pen/xEbWrp):</h4>
+<h4>Here is <a href="https://codepen.io/techie4good/pen/xEbWrp">some HTML and CSS</a>:</h4>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 89. float example (159) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7264,9 +7267,9 @@ You will find below an excerpt of CSS best practices (see the [full slide set](
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 105. big red test button (204) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image105.jpeg?raw=true"
-   width="50%"
-   alt="Big red test button." />
+<img src="./images/image105.webp?raw=true"
+  width="50%"
+  alt="Big red test button." />
 </p>
 
 -   **Test without CSS**: turn off CSS, and if the page makes no sense, fix your markup.
@@ -7362,8 +7365,8 @@ When choosing your font, probably the biggest choice you'll make is what categor
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image106.webp?raw=true"
-   width="50%"
-   alt="Example of 5 different font categories." />
+  width="50%"
+  alt="Example of 5 different font categories." />
 </p>
 
 -   <b>sans-serif</b> -- These are the most popular fonts for Web pages. This means the letters do not have added flourishes, so the typefaces are simpler. Their simplicity makes them easier to display on computer screens as their resolution is much lower than a printed document. It is often suggested you choose a sans-serif font for large blocks of digital text.
@@ -7402,8 +7405,8 @@ When getting into design, it&#39;s a good idea to brush up on the basics of colo
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image038.jpeg?raw=true"
-   width="50%"
-   alt="Color Wheel: the primary and 2ndary colors, and their hex equivalent." />
+  width="50%"
+  alt="Color Wheel: the primary and 2ndary colors, and their hex equivalent." />
 </p>
 
 <h3>Colors make other colors</h3>
