@@ -7,19 +7,17 @@ w3cx-1of5-css.0x: Coursera - Front-End Web Development - CSS Basics
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ readme.md of W3Cx-1of5-CSS.0x ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ w3cx logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/w3c-logo.webp?raw=true"
-  width="35%"
+  style="width:35%"
   alt="W3C logo" />
 </p>
 <h3 align="center">W3Cx-1of5-CSS.0x - CSS Basics</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. css basics course visual (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image001.webp?raw=true"
-  width="50%"
+  style="width:50%"
   alt="CSS Basics course visual." />
 </p>
 
@@ -143,10 +141,9 @@ Thank you for joining this course, where you will learn how to take your Web pag
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 02. illustration of a css property (03) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p id="chb" align="center" width="100%">
 <img src="./images/image002.webp?raw=true"
-   width="40%"
+   style="width:40%"
    alt="Illustration of a CSS Property." />
 </p>
 
@@ -154,10 +151,9 @@ Thank you for joining this course, where you will learn how to take your Web pag
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. css basics course visual (03) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image003.webp?raw=true"
-   width="50%"
+   style="width:50%"
    alt="Diagram of the structure of an HTML page." />
 </p>
 
@@ -165,10 +161,9 @@ Thank you for joining this course, where you will learn how to take your Web pag
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. image of the css box model (04) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image004.webp?raw=true"
-   width="50%"
+   style="width:50%"
    alt="Image of the CSS box model." />
 </p>
 
@@ -183,10 +178,9 @@ Thank you for joining this course, where you will learn how to take your Web pag
 W3C provides a [W3Cx Verified Certificate for this course](https://ecommerce.edx.org/basket/add/?sku=35F2C9C) that lets you demonstrate to employers, colleagues, and professional organizations that you successfully completed a course that increased your mastery of CSS. This certificate can be used to highlight newly acquired skills on your resume or [LinkedIn profile](https://support.edx.org/hc/en-us/articles/206501938-How-can-I-add-my-certificate-to-my-LinkedIn-profile-).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 05. a sample of a verified certificate from edx (05) ~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image005.webp?raw=true"
-   width="25%"
+   style="width:25%"
    alt="A sample of a verified certificate from edx." />
 </p>
 
@@ -197,10 +191,9 @@ W3Cx, as non-profit, relies on verified certificates to help fund future W3Cx co
 <p align="center">&ldquo;Front-End Web Developer&rdquo; Professional Certificate</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. image of fewd certificate (05) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image006.webp?raw=true"
-   width="15%"
+   style="width:15%"
    alt="FEWD certificate image." />
 </p>
 
@@ -220,10 +213,9 @@ We sincerely hope that you will enjoy this W3Cx course.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. css basics course visual (06) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image007.webp?raw=true"
-   width="50%"
+   style="width:50%"
    alt="CSS Basics course visual." />
 </p>
 
@@ -247,10 +239,9 @@ Professional Certificate programs are series of courses designed by industry lea
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 08. banner image for the fewd professional certificate program (08) ~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image008.webp?raw=true"
-   width="40%"
+   style="width:40%"
    alt="Banner image for the FEWD professional certificate program." />
 </p>
 
@@ -284,7 +275,7 @@ One caveat, you need to make sure that whatever editor you choose will save to a
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image009.webp?raw=true"
-   width="8%"
+   style="width:8%"
    alt="Visual studio code logo." />
 </p>
 
@@ -296,7 +287,7 @@ VS Code supports a large array of different Web technologies, but for this cours
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image010.webp?raw=true"
-   width="10%"
+   style="width:10%"
    alt="Codepen logo." />
 </p>
 
@@ -359,7 +350,7 @@ The [W3C cheatsheet](https://www.w3.org/2009/cheatsheet/) provides quick acces
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image011.webp?raw=true"
-   width="40%"
+   style="width:40%"
    alt="W3C cheatsheet snapshot image." />
 </p>
 
@@ -386,7 +377,7 @@ We are then providing references to the browser support of HTML5 features presen
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image012.webp?raw=true"
-   width="50%"
+   style="width:50%"
    alt="Example of a CanIUse browser support table (using CSS3 colors)." />
 </p>
 
@@ -396,7 +387,7 @@ We are then providing references to the browser support of HTML5 features presen
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image013.webp?raw=true"
-   width="30%"
+   style="width:30%"
    alt="Logo of MDN Web Docs." />
 </p>
 
@@ -440,7 +431,7 @@ And then finally by the end of the module you write your own first piece of CSS.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image014.webp?raw=true"
-   width="58%"
+   style="width:58%"
    alt="W3C logo." />
 </p>
 
@@ -452,7 +443,7 @@ W3C&#39;s primary activity is to develop protocols and guidelines that ensure lo
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image015.webp?raw=true"
-   width="25%"
+   style="width:25%"
    alt="Tim Berners-Lee at his desk in CERN, 1994." />
 </p>
 
@@ -549,7 +540,7 @@ In 1996, see what it looked like (or check it [online](https://web.archive.org/
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image018.webp?raw=true"
-  width="40%"
+  style="width:40%"
   alt="Image of MSN.COM from 1996." />
 </p>
 
@@ -578,7 +569,7 @@ In the video below, you will hear from Bert Bos, the co-creator of CSS, about ho
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image018b.webp?raw=true"
-   width="40%"
+   style="width:40%"
    alt="CSS Intro logo." />
 </p>
 
@@ -847,7 +838,7 @@ Here is what it looks like when I view the source of [W3C&#39;s Web site](https
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image019.webp?raw=true"
-   width="50%"
+   style="width:50%"
    alt="Edge Web browser with view source window open." />
 </p>
 
@@ -860,7 +851,7 @@ You can also get more specific and look at individual HTML elements with the &ld
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image020.webp?raw=true"
-   width="50%"
+   style="width:50%"
    alt="Edge inspect element view highlighting a specific title." />
 </p>
 
@@ -1023,7 +1014,7 @@ p {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image021.webp?raw=true"
-   width="29%"
+   style="width:29%"
    alt="'Hello Beautiful World' in blue helvetica text." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1048,7 +1039,7 @@ As you can see, you can put as much text between the open and close symbols as y
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image022.webp?raw=true"
-   width="45%"
+   style="width:45%"
    alt="Comments in green with visual studio and notepad++." />
 </p>
 
@@ -1080,7 +1071,7 @@ Once you have your HTML document view it in a Web browser. It should look like t
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image023.webp?raw=true"
-   width="44%"
+   style="width:44%"
    alt="An image of Hello Beautiful World in a web browser with black text." />
 </p>
 
@@ -1112,7 +1103,7 @@ Now change the HTML and CSS files so that it says "Hello &lt;your name&gt;, welc
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image024.webp?raw=true"
-   width="36%"
+   style="width:36%"
    alt="An image of Hello Kasey in green text." />
 </p>
 
@@ -1178,47 +1169,29 @@ And then finally, at the end of the module, you get to write your first CSS styl
 <h3 id="ch2-2-1">2.2.1 HTML to get you started</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 In this course, we&#39;re talking about CSS.
-
 But CSS is only one aspect of a Web page.
-
 And actually, you can&#39;t have CSS unless you have something to attach it to you.
-
 In this case, that&#39;s HTML. HTML stands for Hyper Text Markup Language, and really the key is that M for markup.
 
 What this means is that HTML is a way of tagging your existing content, so that the browser or screen readers or search engines know exactly what that content is.
-
-For example, you might want the browser to know, this is a title or this is the button or this is an image, that way it knows how to display it.
-
-But the problem is that HTML does a really bad job with style.
-
+For example, you might want the browser to know, this is a title or this is the button or this is an image, that way it knows how to display it. But the problem is that HTML does a really bad job with style.
 That&#39;s where CSS comes in. Once you&#39;ve tagged all of your content as a specific type, you can use CSS to attach to that HTML.
 
-In this course, we&#39;re always going give you the HTML but let&#39;s take a look at some sample code, so you know what it&#39;s looks like.
-
-Here is just some basic text content.
-
+In this course, we&#39;re always going give you the HTML but let&#39;s take a look at some sample code, so you know what it&#39;s looks like. Here is just some basic text content.
 I&#39;ve got some titles and I&#39;ve got a couple paragraphs.
 
 I want the browser to know: this text is a little more important than the rest of the text, say a title, so that I can display it differently using my CSS.
-
 I&#39;m going to tell the browser this is the title by using something called the tag.
-
 It starts with an angle bracket and then it has a name, and then another angle bracket on the other side.
-
 And then, I put that in front of the content, and then I also have to add a closing tag at the end of the content.
 
 Here, I&#39;ve used the h1 tag for my title that stands for header 1. It means this is a very important title.
-
 I can also use the p, or paragraph tag, to tell the browser: this is a block of body text.
-
 Not only can use HTML to categorize existing text content, but you can use it to insert new elements into your page.
-
 Elements like images or videos, buttons, drop-downs, all of that can be inserted with special HTML tags.
-
 For example, here&#39;s the text so that you can add an image.
 
 Now that you&#39;ve seen what HTML looks like, it will make more sense when we start writing the CSS that corresponds to it.
-
 Because the HTML has to come first.
 
 In this course, we&#39;re just talking about CSS, but if you&#39;re not familiar with HTML I really encourage you to look online, and learn a bit more because a well-structured HTML document is going to make your CSS a lot nicer.
@@ -1257,10 +1230,10 @@ Tags can be nested inside of other tags. This creates a parent/child relationshi
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 25. the minimal structure of an html5 document (36) ~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image025.webp?raw=true"
-  width="50%"
+  style="width:50%"
+  title="The minimal structure of an HTML5 document"
   alt="The minimal structure of an HTML5 document." />
 </p>
 
@@ -1511,10 +1484,9 @@ You can pass any URL on the Web into the validator, and it will tell you how the
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 26. html validator output for w3.org (43) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image026.webp?raw=true"
-   width="50%"
+   style="width:50%"
    alt="HTML validator output for w3.org." />
 </p>
 
@@ -1525,10 +1497,9 @@ One of the more common errors is using an HTML tag that is considered obsolete. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 27. image of obsolete html error (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image027.webp?raw=true"
-   width="50%"
+   style="width:50%"
    alt="Image of obsolete HTML error." />
 </p>
 
@@ -1576,10 +1547,9 @@ This rule tells the browser to make all text within a paragraph tag blue. A CSS 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 28. css selector rule (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image028.webp?raw=true"
-   width="65%"
+   style="width:65%"
    alt="CSS selector rule." />
 </p>
 
@@ -1593,10 +1563,9 @@ This is the portion of the rule between the two curly braces. This is what tell
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 28b. property anatomy (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image028b.webp?raw=true"
-   width="65%"
+   style="width:65%"
    alt="Anatomy of property: how to style a tag." />
 </p>
 
@@ -1637,10 +1606,10 @@ Your goal is to get this HTML to look like the following image in the browser:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 29. codepen resulting image (activity 2.3) (49) ~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image029.webp?raw=true"
-  width="65%"
+  style="width:65%"
+  title="CodePen resulting image (Activity 2.3)"
   alt="CodePen resulting image (Activity 2.3)." />
 </p>
 
@@ -1685,7 +1654,7 @@ It is possible to independently target every HTML element on the page using sele
 
 ```
 a {
-/* style for a tags */
+  /* style for a tags */
 }
 ```
 
@@ -1709,11 +1678,11 @@ This would apply style to the body tag as well as allow the elements inside the 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 30. body style (51) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image030.webp?raw=true"
-   width="65%"
-   alt="Body style." />
+  style="width:65%"
+  title="Body style"
+  alt="Body style." />
 </p>
 
 <h4>HTML</h4>
@@ -1815,11 +1784,11 @@ This is basic structure from the way I have formatted the tags with tabbing, but
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 31. html inheritance structure (54) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image031.webp?raw=true"
-   width="40%"
-   alt="HTML Inheritance Structure." />
+  style="width:40%"
+  title="HTML Inheritance Structure"
+  alt="HTML Inheritance Structure." />
 </p>
 
 Through inheritance, CSS property values set on one element will be transferred down the tree to that element&#39;s children. In this example, every element gets the same font because we applied it to the body tag. Since the body element is a common parent for all visible elements is a convenient selector for when you want to set stylistic rules for the entire document.
@@ -1845,11 +1814,11 @@ Not every property is inherited, but many are. The CSS specification tell you, f
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 32. inheritance example image (55) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image032.webp?raw=true"
-   width="70%"
-   alt="Example using inheritance." />
+  style="width:70%"
+  title="Example using inheritance"
+  alt="Example using inheritance." />
 </p>
 
 <h4>HTML</h4>
@@ -1914,11 +1883,11 @@ Here is a [CodePen](https://codepen.io/w3devcampus/pen/PVJLEm) that explores u
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 33. comma to combine selectors (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image033.webp?raw=true"
-   width="70%"
-   alt="Example using comma to combine selector." />
+  style="width:70%"
+  title="Example using comma to combine selector"
+  alt="Example using comma to combine selector." />
 </p>
 
 <h4>CSS code:</h4>
@@ -2045,11 +2014,11 @@ You will need to figure out which selectors belong on top of each of the 5 rules
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 34. final result after you apply your own selector image (59) ~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image034.webp?raw=true"
-   width="50%"
-   alt="Final result after you apply your own selector." />
+  style="width:50%"
+  title="Final result after you apply your own selector"
+  alt="Final result after you apply your own selector." />
 </p>
 
 <b>HINT</b>: Some of the rules require multiple comma separated selectors.
@@ -2077,10 +2046,10 @@ The above style is put into action in the [following CodePen](https://codepen.i
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 35. sample with different property values (60) ~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image035.webp?raw=true"
-  width="70%"
+  style="width:70%"
+  title="Examples of properties that each accept a different style of value"
   alt="Examples of properties that each accept a different style of value." />
 </p>
 
@@ -2088,22 +2057,22 @@ Make sure to look up what the available values are before using a property, beca
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36. color options (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image036.webp?raw=true"
-   width="60%"
-   alt="Color options." />
+  style="width:60%"
+  title="Color options"
+  alt="Color options." />
 </p>
 
 Sometimes the easiest way to learn about different properties is to explore the style on one of your favorite Web sites. You can use your browser tool to inspect an HTML element. Here is an example of inspecting a title:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 37. dom explorer (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image037.webp?raw=true"
-   width="70%"
-   alt="Browser tool to inspect an HTML element." />
+  style="width:70%"
+  title="Browser tool to inspect an HTML element"
+  alt="Browser tool to inspect an HTML element." />
 </p>
 
 If you are not sure how to do this, please refer to the demo in unit 1.3 to see this in action while inspecting CSS Zen Garden designs. 
@@ -2113,7 +2082,9 @@ As you can see, the browser tools display the value of the properties, and if yo
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-2">2.5.2 Color properties</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Color is one of the first things you&#39;ll want to explore when designing your Web site. Thankfully, CSS provides a wide array of tools for you to control the color of different HTML elements. There are basic color properties:
+Color is one of the first things you&#39;ll want to explore when designing your Web site. 
+Thankfully, CSS provides a wide array of tools for you to control the color of different 
+HTML elements. There are basic color properties:
 
 <h4>color</h4>
 
@@ -2185,11 +2156,11 @@ You can see these color properties in action using all three approaches to setti
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 38. color palette (64) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image038.webp?raw=true"
-   width="25%"
-   alt="Color palette." />
+  style="width:25%"
+  title="Color palette"
+  alt="Color palette." />
 </p>
 
 -   We will discuss how to pick a good color palette for your site in Module 5, but in the meantime, [here is a good wiki article from the W3C](https://www.w3.org/wiki/Colour_theory) discussing the general use of colors on the Web.
@@ -2296,10 +2267,10 @@ Here is a [CodePen exploring each of these styles](https://codepen.io/w3devcamp
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. text-decoration example (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image039.webp?raw=true"
-  width="70%"
+  style="width:70%"
+  title="Example using text-decoration"
   alt="Example using text-decoration." />
 </p>
 
@@ -2371,13 +2342,12 @@ When you view an element in your browser tools you can see the white space aroun
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 40. margin padding border (70) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image040.webp?raw=true"
-   width="40%"
-   alt="Margin padding border." />
+  style="width:40%"
+  title="Margin padding border"
+  alt="Margin padding border." />
 </p>
-<!--- {width="4.239583333333333in" height="2.625in"} --->
 
 The above image is called the &ldquo;box model&rdquo;, which we will get into more detail about in Module 4. For now, you can see that the space around the content is broken into three distinct regions. 
 
@@ -2427,11 +2397,11 @@ Here is a [CodePen exploring padding, border and margin](https://codepen.io/tec
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 41. example using padding, border and margin (71) ~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image041.webp?raw=true"
-   width="70%"
-   alt="Example using padding, border and margin." />
+  style="width:70%"
+  title="Example using padding, border and margin"
+  alt="Example using padding, border and margin." />
 </p>
 
 <h4>CSS code:</h4>
@@ -2476,11 +2446,11 @@ Here is some HTML and CSS, but as you can see the CSS rules have selectors but n
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 42. Example using selectors but no properties (72) ~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image042.webp?raw=true"
-   width="70%"
-   alt="Example using selectors but no properties." />
+  style="width:70%"
+  title="Example using selectors but no properties"
+  alt="Example using selectors but no properties." />
 </p>
 
 <h4>HTML code:</h4>
@@ -2534,11 +2504,11 @@ These CSS rules have selectors, but no properties. For this activity, it is up t
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 43. adding properties (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image043.webp?raw=true"
-   width="60%"
-   alt="Final image of web site with proper CSS properties applied." />
+  style="width:60%"
+  title="Final image of web site with proper CSS properties applied"
+  alt="Final image of web site with proper CSS properties applied." />
 </p>
 
 Here are the color HEX code used above:
@@ -2591,11 +2561,11 @@ However, you should only alter a few of these following aspects at a time to pre
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~ 44. example using too many different aspects of font for emphasis (77) ~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image044.webp?raw=true"
-   width="70%"
-   alt="Example using too many different aspects of font for emphasis." />
+  style="width:70%"
+  title="Example using too many different aspects of font for emphasis"
+  alt="Example using too many different aspects of font for emphasis." />
 </p>
 
 <h4>CSS code:</h4>
@@ -2619,11 +2589,11 @@ This title uses soft clean colors based on print media, so we chose a serif font
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 45. example using soft clean colors (77) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image045.webp?raw=true"
-   width="70%"
-   alt="Example using solft clean colors and make title more prominent in size." />
+  style="width:70%"
+  title="Example using soft clean colors and make title more prominent in size"
+  alt="Example using soft clean colors and make title more prominent in size." />
 </p>
 
 <h4>CSS code:</h4>
@@ -2654,10 +2624,10 @@ This design is intended to look futuristic, so it only uses sans-serif, thin fon
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. example looking futuristic (78) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image046.webp?raw=true"
-  width="70%"
+  style="width:70%"
+  title="Futuristic example"
   alt="Futuristic example." />
 </p>
 
@@ -2687,10 +2657,10 @@ This design is based on pastel primary colors and uses color as a highlight agai
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 47. example using pastel (79) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image047.webp?raw=true"
-  width="70%"
+  style="width:70%"
+  title="Pastel example"
   alt="Pastel example." />
 </p>
 
@@ -2731,11 +2701,11 @@ Here is an example of a button where it&#39;s not immediately clear that it is 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 48. button semi-hidden example (80) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image048.webp?raw=true"
-   width="70%"
-   alt="Button semi-hidden in plain sight." />
+  style="width:70%"
+  title="Button semi-hidden in plain sight"
+  alt="Button semi-hidden in plain sight." />
 </p>
 
 More examples of buttons are described below.
@@ -2746,11 +2716,11 @@ This design is a pretty traditional button where it has a distinct background-co
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49. traditional button (80) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image049.webp?raw=true"
-   width="70%"
-   alt="Traditional button." />
+  style="width:70%"
+  title="Traditional button"
+  alt="Traditional button." />
 </p>
 
 <h4>CSS code:</h4>
@@ -2777,11 +2747,11 @@ This is a more modern button design where there is no distinct border, but just 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 50. modern button with no distinct border (81) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image050.webp?raw=true"
-   width="70%"
-   alt="Modern button with no distinct border." />
+  style="width:70%"
+  title="Modern button with no distinct border"
+  alt="Modern button with no distinct border." />
 </p>
 
 <h4>CSS Code:</h4>
@@ -2808,11 +2778,11 @@ This is a big graphic button that uses border-radius to give the button rounded�
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 51. big graphic button using border-radius (82) ~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image051.webp?raw=true"
-   width="70%"
-   alt="Big graphic button using border-radius." />
+  style="width:70%"
+  title="Big graphic button using border-radius"
+  alt="Big graphic button using border-radius." />
 </p>
 
 <h4>CSS code:</h4>
@@ -2897,11 +2867,11 @@ For example, here is what my page looks like:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 52. Example image module 2 project (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image052.webp?raw=true"
-   width="70%"
-   alt="Codepen resulting image (Module 2 project)." />
+  style="width:70%"
+  title="Codepen resulting image (Module 2 project)"
+  alt="Codepen resulting image (Module 2 project)." />
 </p>
 
 Note that you are welcome to look up other styles and apply them however you like as long as you at least have the above requirements met. We&#39;ve set up a discussion forum below, in case you want to share your work!
@@ -2933,9 +2903,7 @@ Remember that if you want to post an assignment without personal information o
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 In this module, we&#39;re going to be talking about selectors.
-
 At this point, we&#39;ve seen basic selectors, but we&#39;re starting to have a slightly more complex HTML document,
-
 We're going to need a lot more tools than just the HTML tag name.
 
 In this module, we&#39;re going to talk about classes and IDs, pseudo-classes, contextual selectors, and then how you combine all these selectors together and understand the Cascading part of Cascading style sheets.
@@ -2959,34 +2927,24 @@ In this module, we&#39;ll learn:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 In our last module, we learned about something called Selectors.
-
 This entire module is all about exactly that: Selectors.
-
 Because so far, we&#39;ve actually seen pretty simple ones.
-
 They probably look something like this, and as you can see, this portion before the open curly brace, that&#39;s what we call Selector.
-
 And so far, we&#39;ve only used ones that match the name of the HTML tag, which is totally fine. If you want every single paragraph to look exactly the same, or say you only have one header on your page.
 
 As our Web pages get a lot more complicated, we have a lot more of the same HTML element and chances are we&#39;re going to want them to look different from one another.
-
 Thankfully, there&#39;s a whole list of different types of Selectors that we can use to specifically target each one of these HTML elements.
 
 In this module, we&#39;re going to talk about things like classes, IDs, contextual selectors, pseudo-classes.
-
 All those things are going to help us really narrow our CSS.
-
 For example, we&#39;ve probably written some CSS like this for this HTML page.
-
 But, as you can see, every single one of the paragraphs ends up looking exactly the same. Because as long as I use the selector P for paragraph, it applies to every paragraph.
 
 Here is a preview of some of the things we&#39;re going to learn in this module.
-
 Now, I have three different rules, for each of my three paragraphs. And they all look completely different which makes my Web site a lot more dynamic.
-
 So, learning to properly select your HTML elements through CSS is crucially important to making sure that you get the most out of CSS.
 
-The CSS code mentioned in above video:
+<h4>The CSS code mentioned in above lesson:</h4>
 
 ```
 p {
@@ -3086,10 +3044,9 @@ ID names have the same rules as class names: start with a letter, can include nu
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 53. classes and ids example (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image053.webp?raw=true"
-   width="70%"
+   style="width:70%"
    alt="Classes and IDs example." />
 </p>
 
@@ -3180,10 +3137,9 @@ As you can note, it&#39;s not too interesting because not all of the styles are 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 54. more class and id examples (91) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image054.webp?raw=true"
-   width="70%"
+   style="width:70%"
    alt="More examples of class and id." />
 </p>
 
@@ -3191,10 +3147,9 @@ In this activity, your job is to add the HTML id and class attributes to the cor
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 55. welcome to my page (92) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image055.webp?raw=true"
-   width="70%"
+   style="width:70%"
    alt="Third example using class and id." />
 </p>
 
@@ -3205,15 +3160,12 @@ In this activity, your job is to add the HTML id and class attributes to the cor
 Sometimes, you&#39;ll want to adjust the style of an element, based on how the user has interacted with it. The best example of this is links.
 
 Often times, you&#39;ll notice a link is blue, and then after you click on it it turns purple.
-
 This is the default style for the pseudo class visited.
 
 There&#39;s also a bunch of other pseudo-classes that let you manipulate whether the user is hovering over it with their cursor, or they&#39;re focusing on it and other such activity.
 
 Let's take a look at the different pseudo-classes and how you can design a really interactive Web site.
-
 Pseudo-classes are a way to select HTML elements based on their state as opposed to their HTML structure.
-
 Pseudo-classes must always be applied to an existing selector. Their &ldquo;flag character&rdquo; is the colon (&ldquo;:&rdquo;).
 Here are some of the most popular pseudo-classes.
 
@@ -3264,11 +3216,11 @@ You can read more about pseudo-classes in this [MDN &ldquo;Pseudo-classes&rdquo
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 56. pseudo-classes (94) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image056.webp?raw=true"
-   width="70%"
-   alt="Pseudo-classes example." />
+  style="width:70%"
+  title="Pseudo-classes example"
+  alt="Pseudo-classes example." />
 </p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3352,10 +3304,9 @@ The resulting output should look like this when the user has not interacted with
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 57. resulting my page in green (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image057.webp?raw=true"
-  width="70%"
+  style="width:70%"
   alt="Resulting 'my page' in green." />
 </p>
 
@@ -3410,11 +3361,10 @@ Below is a diagram of the given HTML with the two imgs that will be styled by th
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 58. diagram pointing out which img tags will be styled (98) ~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image058.webp?raw=true"
-   width="50%"
-   alt="Diagram pointing out which img tags will be styled." />
+  style="width:50%"
+  alt="Diagram pointing out which img tags will be styled." />
 </p>
 
 As your web pages get more complex, contextual selectors become more important, because it becomes increasingly unmanageable and inefficient to apply classes and IDs to each individual item, as a page scales up. Contextual selection becomes especially useful when you structure your HTML with section tags like header, section, article and footer. 
@@ -3423,10 +3373,9 @@ Pay attention to the styles of the paragraphs and lists in the following example
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 59. example styles for paragraphs & lists (98) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image059.webp?raw=true"
-  width="70%"
+  style="width:70%"
   alt="Example styles for paragraphs and lists." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3436,10 +3385,9 @@ For practice, we are going to learn how to better scope CSS without the crutch o
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 60. scoping css w/o classes & ids (99) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image060.webp?raw=true"
-  width="70%"
+  style="width:70%"
   alt="Scoping CSS without classes and id's." />
 </p>
 
@@ -3492,64 +3440,65 @@ So, there are CSS rules with duplicate selectors. You&#39;ll need to add some ex
 <b>Your final site should look like this:</b>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 61. contextual selectors part 1 of 3 (100) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image061.webp?raw=true"
-  width="50%"
+  style="width:50%"
+  title="Contextual selectors result part 1"
   alt="Contextual selectors result part 1." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 62. contextual selectors part 2 of 3 (100) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image062.webp?raw=true"
-  width="50%"
+  style="width:50%"
+  title="Contextual selectors result part 2"
   alt="Contextual selectors result part 2." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 63. contextual selectors part 3 of 3 (100) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image063.webp?raw=true"
-  width="50%"
+  style="width:50%"
+  title="Contextual selectors result part 3"
   alt="Contextual selectors result part 3." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-3">3.4.3 Cascading styles</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Hopefully, at this point, it&#39;s become very clear why what we&#39;re working on is called a style sheet.
-
-But where is the cascading part coming? CSS has a very specific hierarchy of style.
-
-So that you can write multiple rules that apply to the same HTML tag but the browser will still know how to make it look.
-
-But how does the browser decide when there&#39;s multiple rules?
+Hopefully, at this point, it&#39;s become very clear why what we&#39;re working on is 
+called a style sheet. But where is the cascading part coming? CSS has a very specific 
+hierarchy of style. So that you can write multiple rules that apply to the same HTML 
+tag but the browser will still know how to make it look. But how does the browser 
+decide when there&#39;s multiple rules?
 
 The answer: the most specific rule wins.
-
 But then, why would you want to have multiple rules for the same tag?
-
 A lot of times, you&#39;re going to have multiple style sheets.
 
-Imagine you have one parent style sheet that applies to your whole Web site, but then you have individual smaller style sheets that apply to the different pieces of it, like say, your blog or your gallery.
+Imagine you have one parent style sheet that applies to your whole Web site, but then 
+you have individual smaller style sheets that apply to the different pieces of it, 
+like say, your blog or your gallery. Imagine, you want to highlight a specific piece 
+of text. You could either write individual rules for each piece of text in your whole Web site 
+---most of which will be very similar and then one would be different--- or, you can 
+write one style apply it to the body tag, so that every single piece of text is 
+affected and then use an ID to target the exceptions. Because the ID tag is so much more 
+specific than the body that rule wins. As you can imagine this is going to save you a 
+lot of time and a lot of typing. And I&#39;m sure you know computer scientists are all 
+about efficiency.
 
-Imagine, you want to highlight a specific piece of text.
+So, now let&#39;s take a closer look at how you can use the cascading nature of CSS to 
+optimize your style. Now that you&#39;ve learned all these different selectors, you&#39;ve 
+probably noticed that there is nothing preventing one from creating rules that overlap, 
+meaning creating rules that apply style to the same HTML elements. In fact, it&#39;s 
+very common for HTML elements on a page to have multiple CSS rules competing for importance. 
 
-You could either write individual rules for each piece of text
-
-in your whole Web site ---most of which will be very similar and then one would be different--- or, you can write one style apply it to the body tag, so that every single piece of text is affected and then use an ID to target the exceptions.
-
-Because the ID tag is so much more specific than the body that rule wins.
-
-As you can imagine this is going to save you a lot of time and a lot of typing.
-
-And I&#39;m sure you know computer scientists are all about efficiency.
-
-So, now let&#39;s take a closer look at how you can use the cascading nature of CSS to optimize your style.
-
-Now that you&#39;ve learned all these different selectors, you&#39;ve probably noticed that there is nothing preventing one from creating rules that overlap, meaning creating rules that apply style to the same HTML elements. In fact, it&#39;s very common for HTML elements on a page to have multiple CSS rules competing for importance. 
-
-Thanks to the &ldquo;cascading&rdquo; part of &ldquo;Cascading Style Sheets&rdquo;, this isn&#39;t a problem. That is because CSS has a way to figure out which rule &ldquo;wins&rdquo; when styles are conflicting. CSS actually computes a &ldquo;weight&rdquo; for each style rule and the one with the greatest weight wins. If you want all the specifics on how this weight is computed you can read more [here](https://www.w3.org/TR/CSS22/cascade.html). For simplicity&#39;s sake, the most specific rule wins! 
+Thanks to the &ldquo;cascading&rdquo; part of &ldquo;Cascading Style Sheets&rdquo;, 
+this isn&#39;t a problem. That is because CSS has a way to figure out which rule 
+&ldquo;wins&rdquo; when styles are conflicting. CSS actually computes a 
+&ldquo;weight&rdquo; for each style rule and the one with the greatest weight wins. 
+If you want all the specifics on how this weight is computed you can read more 
+[here](https://www.w3.org/TR/CSS22/cascade.html). For simplicity&#39;s sake, 
+the most specific rule wins! 
 
 -   A rule is generally more specific if it applies to a fewer number of elements than another rule that encompasses those elements. The more facets a rule has the more specific it is.
 
@@ -3566,10 +3515,9 @@ Thanks to the &ldquo;cascading&rdquo; part of &ldquo;Cascading Style Sheets&rdqu
 Look at the corresponding HTML and CSS, where code showing how Cascading order applies with many overlapping rules:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 64. overlapping rules example (102) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image064.webp?raw=true"
-  width="70%"
+  style="width:70%"
   alt="Overlapping rules example with cascading order." />
 </p>
 
@@ -3616,10 +3564,9 @@ Cascading order can be difficult to manage.
 <b>Consider the following pen:</b>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 65. managing cascading order (103) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image065.webp?raw=true"
-  width="70%"
+  style="width:70%"
   alt="Managing cascading order." />
 </p>
 
@@ -3658,10 +3605,9 @@ Note that there are a lot of repeat CSS rules. For this activity, you cannot cha
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 66. cascading order solution (105) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image066.webp?raw=true"
-  width="70%"
+  style="width:70%"
   alt="Cascading order final solution, no interaction." />
 </p>
 
@@ -3698,10 +3644,9 @@ p:hover {
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 67. five paragraph examples - cascading (106) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image067.webp?raw=true"
-  width="50%"
+  style="width:50%"
   alt="5 paragraphs with cascading style practice with hover." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3753,10 +3698,9 @@ It is best to overlay real text rather than use pixelated text. This makes it po
 As you can see, there are a lot of things to consider, and if you do not plan your images carefully, they can end up looking very disruptive, like this &ldquo;Bad Image&rdquo; example:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 69. bad color image layout example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image069.webp?raw=true"
-   width="50%"
+   style="width:50%"
    alt="Bad example of colors in image display." />
 </p>
 
@@ -3802,10 +3746,9 @@ colors from the image in the design of the overall page to help the image look a
 if it belongs. It also uses padding to give the image a &ldquo;polaroid-style&rdquo; border.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 70. images in a gride 3 wide 2 up with padding (xxx) ~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image070.webp?raw=true"
-  width="50%"
+  style="width:50%"
    alt="Images in a grid 3 wide, 2 up with padding." />
 </p>
 
@@ -3875,11 +3818,11 @@ This design is an example of an image gallery design. This gives all the images 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 71. body text over cloud background  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image071.webp?raw=true"
-   width="50%"
-   alt="Text body over cloud image background." />
+  style="width:50%"
+  title="Text body over cloud image background"
+  alt="Text body over cloud image background." />
 </p>
 
 <h4>HTML</h4>
@@ -3953,7 +3896,7 @@ This design demonstrates the use of an image both as a background and as a link.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image072.webp?raw=true"
-   width="50%"
+   style="width:50%"
    alt="Sign up example, simple black and white." />
 </p>
 
@@ -4042,7 +3985,7 @@ Forms can be a surprisingly tricky element to style because you are asking for a
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image073.webp?raw=true"
-   width="50%"
+   style="width:50%"
    alt="Sign up example on purple background." />
 </p>
 
@@ -4111,7 +4054,7 @@ The first form design uses basic layout to give each input element a clear label
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image074.webp?raw=true"
-   width="50%"
+   style="width:50%"
    alt="Sign up example on darker purple." />
 </p>
 
@@ -4207,10 +4150,10 @@ form {
 This form design is more minimalist, using the clear and consistent design and layout to help the user feel like the form is extra short.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 74. sign-up form for minimalists (128) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image074.webp?raw=true"
-  width="50%"
+  style="width:50%"
+  title="Sign-up form for minimalists"
   alt="Sign-up form for minimalists." />
 </p>
 
@@ -4298,11 +4241,11 @@ This form design leaves lots of white space to help it feel clean and simple. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 75. sign-up form with white space (130) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image075.webp?raw=true"
-   width="50%"
-   alt="Sign-up form with white space." />
+  style="width:50%"
+  title="Sign-up form with white space"
+  alt="Sign-up form with white space." />
 </p>
 
 <h4>HTML</h4>
@@ -4615,10 +4558,10 @@ For reference here is what my solution looks like:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 76. kasey champion resume solution (137) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image076.webp?raw=true"
-  width="50%"
+  style="width:50%"
+  title="Kasey Champion's resume solution part 1"
   alt="Kasey Champion's resume solution part 1." />
 </p>
 
@@ -4706,13 +4649,12 @@ We discussed how to adjust the white space of these areas in Module 2.5, but in 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 76. anatomy of the box model (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image076.webp?raw=true"
-   width="50%"
-   alt="Anatomy of the box model." />
+  style="width:50%"
+  title="Anatomy of the box model"
+  alt="Anatomy of the box model." />
 </p>
-<!-- 105? -->
 
 -   **element** - This is [always]{.underline} contained within a rectangle, even if it is a text block with jagged edges or a transparent image that isn&#39;t rectangular. Web browsers will impose a rectangle around the smallest area the HTML element&#39;s content actually occupies. Until now we&#39;ve allowed the Web browser to determine the size of the element based solely on the content, but later in this section we&#39;ll learn how to adjust this sizing.
 
@@ -4724,19 +4666,18 @@ We discussed how to adjust the white space of these areas in Module 2.5, but in 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 77. margin & padding example (140) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image077.webp?raw=true"
-   width="50%"
-   alt="Margin and padding example." />
+  style="width:50%"
+  title="Margin and padding example"
+  alt="Margin and padding example." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 78. padding, border, & margin example (141) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image078.webp?raw=true"
-   width="50%"
-   alt="Padding, border & margin example: 100,100,100." />
+  style="width:50%"
+  alt="Padding, border & margin example: 100,100,100." />
 </p>
 
 <h4>HTML</h4>
@@ -4839,10 +4780,9 @@ See below for examples of what each of these values will do to your text:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 79. text-align example (143) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image079.webp?raw=true"
-   width="50%"
+   style="width:50%"
    alt="Example of the text-align options: 'left', 'right', 'center' and 'justify'." />
 </p>
 
@@ -4865,7 +4805,7 @@ You may have noticed that the text-align property sets the content&#39;s alignme
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image080.webp?raw=true"
-   width="50%"
+   style="width:50%"
    alt="Line-height example." />
 </p>
 
@@ -4985,7 +4925,7 @@ img {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image081.webp?raw=true"
-   width="50%"
+   style="width:50%"
    alt="Set max image width in css." />
 </p>
 
@@ -5093,7 +5033,7 @@ img {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image082.webp?raw=true"
-   width="50%"
+   style="width:50%"
    alt="Display: block example." />
 </p>
 
@@ -5168,7 +5108,7 @@ Here is what the above code looks like in a wide window:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image083.webp?raw=true"
-   width="50%"
+   style="width:50%"
    alt="Centered elements with margin wide example." />
 </p>
 
@@ -5179,7 +5119,7 @@ Now, if you resize the window, the elements remain centered no matter what. Here
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image084.webp?raw=true"
-   width="30%"
+   style="width:30%"
    alt="Dynamically centered element narrow example." />
 </p>
 
@@ -5200,7 +5140,7 @@ For this activity, you are going to practice some of the basic alignment propert
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image085.webp?raw=true"
-   width="50%"
+   style="width:50%"
    alt="Practice with alighment." />
 </p>
 
@@ -5297,7 +5237,7 @@ The resulted HTML and CSS codes produce a Web page where elements are not very w
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image086.webp?raw=true"
-   width="50%"
+   style="width:50%"
    alt="Practice with alignment after picture." />
 </p>
 
@@ -5359,7 +5299,7 @@ Elements underneath a floating object will automatically wrap themselves around 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image087.webp?raw=true"
-   width="55%"
+   style="width:55%"
    alt="Example of floating img and surrounding text." />
 </p>
 
@@ -5382,7 +5322,7 @@ p {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image088.webp?raw=true"
-   width="70%"
+   style="width:70%"
    alt="Too many colors." />
 </p>
 
@@ -5476,7 +5416,7 @@ One of the toughest parts of layouts with CSS is figuring out which elements to 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image089.webp?raw=true"
-   width="50%"
+   style="width:50%"
    alt="Float example." />
 </p>
 
@@ -5577,7 +5517,7 @@ You might also need to adjust some widths, margins and paddings to get everythin
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image090.webp?raw=true"
-   width="50%"
+   style="width:50%"
    alt="Sample web page, yellow, green & red." />
 </p>
 
@@ -5756,7 +5696,7 @@ Note that position is not an inherited property so you will have to apply it ind
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image091.webp?raw=true"
-   width="50%"
+   style="width:50%"
    alt="Use alignment &/or float rather than position." />
 </p>
 
@@ -5830,7 +5770,7 @@ h3 {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image092.webp?raw=true"
-  width="50%"
+  style="width:50%"
   alt="Relative positioning example with overlap." />
 </p>
 
@@ -5883,7 +5823,7 @@ Here is [some HTML and CSS:](https://codepen.io/techie4good/pen/KgwRwg)
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image093.webp?raw=true"
-  width="50%"
+  style="width:50%"
   alt="Blue on light grey sample web page." />
 </p>
 <!-- {width="5.0in" height="3.1431430446194226in"} -->
@@ -5924,7 +5864,7 @@ Your task is to add CSS so that you achieve this final layout:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image094.webp?raw=true"
-  width="70%"
+  style="width:70%"
   alt="Blue on light grey sample web page." />
 </p>
 <!-- {width="6.9375in" height="1.7673611111111112in"} -->
@@ -5986,7 +5926,7 @@ One of the most important aspects of any Web site is the navigation menu. Over 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image095.webp?raw=true"
-   width="50%"
+   style="width:50%"
    alt="Web page starter sample." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5994,7 +5934,7 @@ One of the most important aspects of any Web site is the navigation menu. Over 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image096.webp?raw=true"
-   width="50%"
+   style="width:50%"
    alt="Footer for web page starter sample." />
 </p>
 
@@ -6052,7 +5992,7 @@ This menu design uses a vertical arrangement but still floats the overall menu 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image097.webp?raw=true"
-   width="70%"
+   style="width:70%"
    alt="Full pink menu." />
 </p>
 
@@ -6161,7 +6101,7 @@ This third design employs hover as a way to expose secondary links. This lets yo
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image098.webp?raw=true"
-   width="70%"
+   style="width:70%"
    alt="Menu with contact, blog, about and home categories." />
 </p>
 
@@ -6268,10 +6208,9 @@ You will want your footer to flow with your overall page design, but to be disti
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 99. full footer example (178) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image099.webp?raw=true"
-   width="70%"
+   style="width:70%"
    alt="Full footer example." />
 </p>
 
@@ -6447,10 +6386,10 @@ This is a basic footer that uses background color to help it stand out from the 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 100. basic footing with background color (182) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image100.webp?raw=true"
-  width="70%"
+  style="width:70%"
+  title="Basic Footing with background color"
   alt="Basic Footing with background color." />
 </p>
 
@@ -6461,33 +6400,33 @@ This is a basic footer that uses background color to help it stand out from the 
 
 ```
 div {
-font-family: Arial;
+  font-family: Arial;
 }
 #footer1 {
-background-color: #F4F4F4;
-height: 150px;
-margin-bottom: 50px;
+  background-color: #F4F4F4;
+  height: 150px;
+  margin-bottom: 50px;
 }
 #footer1 section{
-height: 60%;
-color: #373737;
-width: 85%;
-margin-left: auto;
-margin-right: auto;
+  height: 60%;
+  color: #373737;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
 }
 #footer1 footer {
-background-color: #C0B283;
-color: #DCD0C0;
-height: 40%;
-text-align: center;
-padding: 15px;
+  background-color: #C0B283;
+  color: #DCD0C0;
+  height: 40%;
+  text-align: center;
+  padding: 15px;
 }
 #footer1 footer a {
-color: #373737;
-padding: 5px 20px;
+  color: #373737;
+  padding: 5px 20px;
 }
 #footer1 footer a:hover {
-color: #F4F4F4;
+  color: #F4F4F4;
 }
 ```
 
@@ -6503,24 +6442,24 @@ color: #F4F4F4;
 <!--It's a best practice to always declare DOCTYPE!-->
 <html lang="en">
 <head>
-<title>Style studies: footer 1</title>
-<meta charset="utf-8">
+  <title>Style studies: footer 1</title>
+  <meta charset="utf-8">
 </head>
 <body>
-<div id="footer1">
-<section>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</section>
-<footer>
-<div class="contacts">
-<a href="">email</a>
-<a href="">twitter</a>
-<a href="">instagram</a>
-<a href="">facebook</a>
-</div>
-<p>design and code by me</p>
-</footer>
-</div>
+  <div id="footer1">
+    <section>
+      4 lines of information.  Latin and boring as hell.
+    </section>
+    <footer>
+      <div class="contacts">
+        <a href="">email</a>
+        <a href="">twitter</a>
+        <a href="">instagram</a>
+        <a href="">facebook</a>
+      </div>
+      <p>design and code by me</p>
+    </footer>
+  </div>
 </body>
 </html>
 ```
@@ -6533,11 +6472,11 @@ This footer provides navigation links. Because the footer is at the bottom of th
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 101. full thorough footer sample (184) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image101.webp?raw=true"
-   width="70%"
-   alt="Full thorough footer sample." />
+  style="width:70%"
+  title="Full thorough footer sample"
+  alt="Full thorough footer sample." />
 </p>
 
 <h4>CSS</h4>
@@ -6547,39 +6486,39 @@ This footer provides navigation links. Because the footer is at the bottom of th
 
 ```
 div {
-font-family: Arial;
+  font-family: Arial;
 }
 #footer2 {
-background-color: #0E0B16;
-color: #FFFFFF;
-height: 350px;
-margin-bottom: 50px;
+  background-color: #0E0B16;
+  color: #FFFFFF;
+  height: 350px;
+  margin-bottom: 50px;
 }
 #footer2 section {
-width: 85%;
-margin-left: auto;
-margin-right: auto;
-padding-bottom: 30px;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
 }
 #footer2 footer {
-width: 75%;
-margin-left: auto;
-margin-right: auto;
-color: #FFFFFF;
-border-top: 1px #A239CA solid;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #FFFFFF;
+  border-top: 1px #A239CA solid;
 }
 #footer2 ul {
-float: left;
-width: 30%;
-list-style: none;
-padding: 0px;
+  float: left;
+  width: 30%;
+  list-style: none;
+  padding: 0px;
 }
 #footer2 li {
-padding: 5px;
+  padding: 5px;
 }
 #footer2 .topLevel {
-font-size: 1.2em;
-font-variant: small-caps;
+  font-size: 1.2em;
+  font-variant: small-caps;
 }
 ```
 
@@ -6636,10 +6575,9 @@ This final design flows with the overall structure of the page, but limits the c
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 102. final footer sample (186) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image102.webp?raw=true"
-  width="70%"
+  style="width:70%"
   alt="Final Footer Sample." />
 </p>
 
@@ -6740,7 +6678,7 @@ Here is what my Web resume looks like:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image103.webp?raw=true"
-   width="50%"
+   style="width:50%"
    alt="Kasey's web resume." />
 </p>
 
@@ -6763,7 +6701,7 @@ For this project you must at least:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image104.webp?raw=true"
-   width="50%"
+   style="width:50%"
    alt="." />
 </p>
 
@@ -7302,7 +7240,7 @@ You will find below an excerpt of CSS best practices (see the [full slide set](
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image105.webp?raw=true"
-  width="50%"
+  style="width:50%"
   alt="Big red test button." />
 </p>
 
@@ -7399,7 +7337,7 @@ When choosing your font, probably the biggest choice you'll make is what categor
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image106.webp?raw=true"
-  width="50%"
+  style="width:50%"
   alt="Example of 5 different font categories." />
 </p>
 
@@ -7439,7 +7377,7 @@ When getting into design, it&#39;s a good idea to brush up on the basics of colo
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image038.webp?raw=true"
-  width="50%"
+  style="width:50%"
   alt="Color Wheel: the primary and 2ndary colors, and their hex equivalent." />
 </p>
 
@@ -7642,7 +7580,7 @@ support the international features that they will need.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image107.webp?raw=true"
-   width="50%"
+   style="width:50%"
    alt="W3C internationalization activity logo." />
 </p>
 
@@ -7663,7 +7601,7 @@ Here are some examples of things that can be done with CSS.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image108.webp?raw=true"
-   width="25%"
+   style="width:25%"
    alt="Vertically set Mongolian text." />
 </p>
 
@@ -7674,7 +7612,7 @@ Here are some examples of things that can be done with CSS.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image110.webp?raw=true"
-   width="17%"
+   style="width:17%"
    alt="Georgian counter styles." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7682,7 +7620,7 @@ Here are some examples of things that can be done with CSS.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image110.webp?raw=true"
-   width="19%"
+   style="width:19%"
    alt="Georgian counter styles." />
 </p>
 
@@ -7693,7 +7631,7 @@ Here are some examples of things that can be done with CSS.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image111.webp?raw=true"
-   width="35%"
+   style="width:35%"
    alt="Arabic justification." />
 </p>
 
@@ -7706,7 +7644,7 @@ Some scripts allow words to be hyphenated in order to improve the visual effect 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image112.webp?raw=true"
-   width="15%"
+   style="width:15%"
    alt="Emphasis in Japanese." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7714,7 +7652,7 @@ Some scripts allow words to be hyphenated in order to improve the visual effect 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image113.webp?raw=true"
-   width="17%"
+   style="width:17%"
    alt="Skipping descenders in Burmese." />
 </p>
 
@@ -7958,7 +7896,7 @@ This can be accomplished with something called &ldquo;internal links&rdquo;. Thi
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image115.webp?raw=true"
-   width="50%"
+   style="width:50%"
    alt="Sample 'internal link'." />
 </p>
 
@@ -8012,26 +7950,203 @@ section {
   </nav>
 <section id="section1">
   <h1>Section 1</h1>
-  <p>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis, sem ut vulputate tempus, leo urna fringilla dolor, sed mattis leo sem id ligula. Integer efficitur, nulla eu scelerisque aliquam, arcu erat maximus ante, nec maximus urna ligula vel purus. Cras a tortor ac nisl sollicitudin ullamcorper. Nullam pulvinar magna mi, eu volutpat metus pretium quis. In faucibus, leo in blandit ultricies, urna metus eleifend leo, et vestibulum dolor mi ut urna. Nulla eu neque nec justo cursus condimentum. Donec pellentesque tempus iaculis. Nunc augue justo, tincidunt in euismod vitae, feugiat sed eros. Integer molestie sapien id aliquam fermentum. Duis rutrum sed orci ac aliquet. Nulla volutpat posuere nibh ut ullamcorper. Suspendisse facilisis felis massa, vel egestas ex faucibus a. Nunc vestibulum volutpat eros eu laoreet.
+  <p>A horse is a horse, of course, of course,
+And no one can talk to a horse of course
+That is, of course, unless the horse is the famous Mr. Ed.
+
+Go right to the source and ask the horse
+He'll give you the answer that you'll endorse.
+He's always on a steady course.
+Talk to Mr. Ed.
+
+A horse is a horse, of course, of course,
+And no one can talk to a horse of course
+That is, of course, unless the horse is the famous Mr. Ed.
+
+Go right to the source and ask the horse
+He'll give you the answer that you'll endorse.
+He's always on a steady course.
+Talk to Mr. Ed.
+
+People yakkity yak a streak and waste your time of day
+But Mister Ed will never speak unless he has something to say.
+
+A horse is a horse, of course, of course,
+And this one'll talk 'til his voice is hoarse.
+You never heard of a talking horse?
+
+Well listen to this.
+
+I am Mister Ed.
+
   </p>
   <p>
-  Fusce sed pellentesque tellus, vitae accumsan elit. Vivamus porta in risus interdum varius. Phasellus auctor bibendum dignissim. Pellentesque ut nulla arcu. Aenean id tellus augue. Nunc egestas scelerisque fringilla. Suspendisse potenti. Cras tempus diam lectus, a tempus eros maximus nec. Etiam facilisis erat turpis, in tincidunt leo condimentum sit amet. Fusce eleifend nisi sed enim pharetra molestie. Curabitur dictum, libero eget congue porta, est massa bibendum enim, sed semper arcu orci et arcu. Praesent in cursus turpis. Fusce condimentum dictum purus nec porta. Aenean a velit in augue convallis malesuada non a mauris. Donec auctor risus quis libero accumsan suscipit. Fusce nec diam dolor.
+  Come and listen to my story about a man named Jed
+A poor mountaineer, barely kept his family fed,
+And then one day he was shootin at some food,
+And up through the ground come a bubblin crude.
+
+Oil that is, black gold, Texas tea.
+
+Well the first thing you know ol Jed's a millionaire,
+The kinfolk said "Jed move away from there"
+Said "Californy is the place you ought to be"
+So they loaded up the truck and they moved to Beverly
+
+Hills, that is. Swimmin pools, movie stars.
+
+Old Jed bought a mansion, lordy it was swank
+Next door neighbor's the president of the bank.
+Lotta folks complaining but the banker found no fault
+'Cause all Jed's millions, was a-sitting in the vault!
+
+Redemption funds. Stocks and bonds.
+
+Well now it's time to say good bye to Jed and all his kin.
+And they would like to thank you folks fer kindly droppin in.
+You're all invited back next week to this locality
+To have a heapin helpin of their hospitality
+
+Hillbilly that is. Set a spell, Take your shoes off.
+
+Y'all come back now, y'hear?
+
   </p>
   <p>
-  Proin aliquet, diam ultricies dignissim lacinia, libero lectus semper est, in lacinia eros augue ut risus. Maecenas sit amet metus finibus augue congue sagittis nec mattis leo. Quisque venenatis a erat nec gravida. Nulla sit amet pharetra risus. Nam sit amet nulla tellus. Pellentesque libero ex, ultrices eu tristique ut, mattis eget augue. Cras ac dolor convallis, convallis tortor nec, rutrum eros. Nunc nisl est, efficitur sit amet lorem at, egestas vulputate augue. Nunc sed ornare orci. Suspendisse potenti. Fusce risus dolor, pellentesque ac commodo a, pretium vel enim. Phasellus finibus aliquam purus sit amet ultricies. Vestibulum vitae libero scelerisque, maximus ex nec, pharetra orci. Nulla cursus volutpat nisl in dictum.
+  Spiderman, Spiderman, does whatever a spider can
+Spins a web, any size, catches thieves just like flies
+Look Out! Here comes the Spiderman.
+
+Is he strong? Listen, bud, he’s got radioactive blood.
+Can he swing from a thread, take a look overhead
+Hey there, there goes the Spiderman.
+
+In the chill of night at the scene of a crime
+Like a streak of light, he arrives just in time.
+
+Spiderman, Spiderman. Friendly neighborhood Spiderman
+Wealth and fame, he’s ignored Action is his reward.
+To him, life is a great big bang up whenever there’s a hang-up you’ll find the Spiderman
+
   </p>
   <p>
-  Phasellus quis lobortis orci. Nunc tincidunt lacus in sapien tristique, dignissim pretium eros varius. Praesent dapibus tincidunt lectus, id tristique arcu iaculis id. Mauris euismod placerat pellentesque. Proin ultricies porttitor porttitor. Suspendisse vehicula arcu a finibus dapibus. Nam non urna nulla. Vivamus aliquet, ipsum et convallis blandit, mauris lacus malesuada dolor, vitae vestibulum velit lectus vel lacus. Phasellus eget ipsum ultrices ipsum sodales interdum. Pellentesque in viverra nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In aliquam convallis lorem vel pellentesque. Curabitur id ante ac risus condimentum accumsan. Aliquam venenatis facilisis fermentum.
+  "Simple Twist Of Fate"<br>
+
+They sat together in the park<br>
+As the evening sky grew dark<br>
+She looked at him and he felt a spark tingle to his bones<br>
+It was then he felt alone and wished that he'd gone straight<br>
+And watched out for a simple twist of fate.<br>
+<br>
+They walked alone by the old canal<br>
+A little confused I remember well<br>
+And stopped into a strange hotel with a neon burning bright<br>
+He felt the heat of the night hit him like a freight train<br>
+Moving with a simple twist of fate.<br>
+<br>
+A saxophone someplace far off played<br>
+As she was walking on by the arcade<br>
+As the light bust through a-beat-up shade where he was waking up<br>
+She dropped a coin into the cup of a blind man at the gate<br>
+And forgot about a simple twist of fate.<br>
+<br>
+He woke up the room was bare<br>
+He didn't see her anywhere<br>
+He told himself he didn't care pushed the window open wide<br>
+Felt an emptiness inside to which he just could not relate<br>
+Brought on by a simple twist of fate.<br>
+<br>
+He hears the ticking of the clocks<br>
+And walks along with a parrot that talks<br>
+Hunts her down by the waterfront docks where the sailers all come in<br>
+Maybe she'll pick him out again how long must he wait<br>
+One more time for a simple twist of fate.<br>
+<br>
+People tell me it's a sin<br>
+To know and feel too much within<br>
+I still believe she was my twin but I lost the ring<br>
+She was born in spring but I was born too late<br>
+Blame it on a simple twist of fate.<br>
+<br>
+
+Someone’s got it in for me<br>
+They’re planting stories in the press<br>
+Whoever it is I wish they’d cut it out quick<br>
+But when they will I can only guess<br>
+They say I shot a man named Gray<br>
+And took his wife to Italy<br>
+She inherited a million bucks<br>
+And when she died it came to me<br>
+I can’t help it if I’m lucky<br>
+<br>
+People see me all the time<br>
+And they just can’t remember how to act<br>
+Their minds are filled with big ideas<br>
+Images and distorted facts<br>
+Even you, yesterday<br>
+You had to ask me where it was at<br>
+I couldn’t believe after all these years<br>
+You didn’t know me any better than that<br>
+Sweet lady<br>
+<br>
+[Chorus]
+Idiot wind<br>
+Blowing every time you move your mouth<br>
+Blowing down the backroads heading south<br>
+Idiot wind<br>
+Blowing every time you move your teeth<br>
+You’re an idiot, babe<br>
+It’s a wonder that you still know how to breathe<br>
+
   </p>
   <p>
-  Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla in sapien ac dolor venenatis fermentum et porttitor lacus. Curabitur eu venenatis urna. Nam auctor orci id dui condimentum convallis. Nunc ut nisl rhoncus, elementum tortor sit amet, rutrum tellus. Morbi placerat neque id urna maximus interdum. Sed volutpat, nisl ut tempor bibendum, ipsum mi egestas sem, a tempus sem orci et mi. Nullam sit amet consectetur mi.
+  Tony Stark makes you feel<br>
+He’s a cool exec with a heart of steel.<br>
+<br>
+As Iron Man, all jets ablaze,<br>
+He’s fighting and smiting with repulsor rays!<br>
+
+Amazing armor! That’s Iron Man!<br>
+A blazing power! That’s Iron Man!<br>
   </p>
   <section>
     <section id="section2">
     <h1>Section 2</h1>
     <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis, sem ut vulputate tempus, leo urna fringilla dolor, sed mattis leo sem id ligula. Integer efficitur, nulla eu scelerisque aliquam, arcu erat maximus ante, nec maximus urna ligula vel purus. Cras a tortor ac nisl sollicitudin ullamcorper. Nullam pulvinar magna mi, eu volutpat metus pretium quis. In faucibus, leo in blandit ultricies, urna metus eleifend leo, et vestibulum dolor mi ut urna. Nulla eu neque nec justo cursus condimentum. Donec pellentesque tempus iaculis. Nunc augue justo, tincidunt in euismod vitae, feugiat sed eros. Integer molestie sapien id aliquam fermentum. Duis rutrum sed orci ac aliquet. Nulla volutpat posuere nibh ut ullamcorper. Suspendisse facilisis felis massa, vel egestas ex faucibus a. Nunc vestibulum volutpat eros eu laoreet.
+	Meet George Jetson.
+His Boy Elroy.
+Daughter Judy.
+Jane his wife.
+
+Flinstones<br>
+Yabba-dabba-doo!<br>
+
+Flintstones, meet the Flintstones<br>
+They're the modern stone-age family<br>
+From the town of Bedrock<br>
+They're a page right out of history<br>
+<br>
+Let's ride with the family down the street<br>
+Through the courtesy of Fred's two feet<br>
+<br>
+When you're with the Flintstones<br>
+Have a yabba-dabba-doo time<br>
+A dabba-doo time<br>
+We'll have a gay old time<br>
+<br>
+Flintstones, meet the Flintstones<br>
+They're the modern Stone Age Family<br>
+From the town of Bedrock<br>
+They're a page right out of history<br>
+<br>
+Someday, maybe Fred will win the fight<br>
+Then the cat will stay out for the night<br>
+<br>
+When you're with the Flintstones<br>
+Have a yabba-dabba-doo time<br>
+A dabba-doo time<br>
+We'll have a gay old time<br>
+
 </p>
 <p>
 Fusce sed pellentesque tellus, vitae accumsan elit. Vivamus porta in risus interdum varius. Phasellus auctor bibendum dignissim. Pellentesque ut nulla arcu. Aenean id tellus augue. Nunc egestas scelerisque fringilla. Suspendisse potenti. Cras tempus diam lectus, a tempus eros maximus nec. Etiam facilisis erat turpis, in tincidunt leo condimentum sit amet. Fusce eleifend nisi sed enim pharetra molestie. Curabitur dictum, libero eget congue porta, est massa bibendum enim, sed semper arcu orci et arcu. Praesent in cursus turpis. Fusce condimentum dictum purus nec porta. Aenean a velit in augue convallis malesuada non a mauris. Donec auctor risus quis libero accumsan suscipit. Fusce nec diam dolor.
@@ -8101,11 +8216,10 @@ beginnings of something professional designers have long been waiting for: 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 115. css flexbox and grid layout differences (232) ~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image115.webp?raw=true"
-   width="29%"
-   alt="CSS flexbox and grid layout differences." />
+  style="width:29%"
+  alt="CSS flexbox and grid layout differences." />
 </p>
 
 It&#39;s been a few years now that the CSS Flexbox module gives advanced control over alignment 
@@ -8156,11 +8270,10 @@ into, you can change their order, they can span more than one row or column, and
 you can leave some slots empty.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 116. grid module (234) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image116.webp?raw=true"
-   width="48%"
-   alt="Grid module." />
+  style="width:48%"
+  alt="Grid module." />
 </p>
 
 The Grid module provides several different ways to define such a grid and to place 
@@ -8244,10 +8357,9 @@ Post a link to it in the discussion along with the answers to the following ques
 3.  Is this Web page accessible?
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 117. students sample web page shortcuts (236) ~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image117.webp?raw=true"
-   width="50%"
+   style="width:50%"
    alt="Sample web pages from students." />
 </p>
 
@@ -8319,11 +8431,10 @@ I like this webpage because of the smooth design of the different panels. I like
 <h4>Continue your studies</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 6. w3cx fewd program image (239) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image006.webp?raw=true"
-   width="20%"
-   alt="W3Cx FEWD program image." />
+  style="width:20%"
+  alt="W3Cx FEWD program image." />
 </p>
 
 Hopefully at this point you feel comfortable with all the basics of CSS, but, as mentioned throughout this course, there is still a lot more to learn. Here are some courses we recommend you check out next as part of the [W3C &ldquo;Front-End Web Developer&rdquo; Professional Certificate](https://www.edx.org/professional-certificate/w3cx-front-end-web-developer) program:
@@ -8334,5 +8445,5 @@ Hopefully at this point you feel comfortable with all the basics of CSS, but, as
    <li>JavaScript Introduction</li>
 </ol>
 
-<h5>Last Updated: 1.2.2024 8:36pm</h5>
+<h5>Last Updated: 2.17.2024 2:05am</h5>
 
