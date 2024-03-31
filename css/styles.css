@@ -24,7 +24,7 @@ ol li {
 
 p { 
   font-size: 14.5px;
-  font-family: "Bahnschrift", Inter, Helvetic, sans-serif;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   text-align: left;
   margin-left: 15px;  /* 10px */
 }
