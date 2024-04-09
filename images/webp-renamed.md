@@ -1,1 +1,0 @@
-webp-renamed.md
