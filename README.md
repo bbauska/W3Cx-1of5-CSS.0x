@@ -8,7 +8,7 @@ w3cx-1of5-css.0x: Coursera - Front-End Web Development - CSS Basics
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ w3cx logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/w3c-logo.jpg"
+<img src="./images/w3c-logo.png"
   style="width:35%"
   title="W3C logo"
   alt="W3C logo." />
@@ -2159,7 +2159,7 @@ You can see these color properties in action using all three approaches to setti
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 38. color palette (64) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image038.png"
+<img src="./images/image038.jpeg"
   style="width:25%"
   title="Color palette"
   alt="Color palette." />
@@ -3898,8 +3898,9 @@ This design demonstrates the use of an image both as a background and as a link.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image072.png"
-   style="width:50%"
-   alt="Sign up example, simple black and white." />
+  style="width:50%"
+  title="Sign up example, simple black and white"
+  alt="Sign up example, simple black and white." />
 </p>
 
 <h4>HTML</h4>
