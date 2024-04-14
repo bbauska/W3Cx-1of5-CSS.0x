@@ -10,14 +10,16 @@ w3cx-1of5-css.0x: Coursera - Front-End Web Development - CSS Basics
 <p align="center" width="100%">
 <img src="./images/w3c-logo.png"
   style="width:35%"
-  alt="W3C logo" />
+  title="W3C logo"
+  alt="W3C logo." />
 </p>
 <h3 align="center">W3Cx-1of5-CSS.0x - CSS Basics</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. css basics course visual (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image001.webp?raw=true"
+<img src="./images/image001.png"
   style="width:50%"
+  title="CSS Basics course visual"
   alt="CSS Basics course visual." />
 </p>
 
@@ -142,7 +144,7 @@ Thank you for joining this course, where you will learn how to take your Web pag
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 02. illustration of a css property (03) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p id="chb" align="center" width="100%">
-<img src="./images/image002.webp?raw=true"
+<img src="./images/image002.png"
    style="width:40%"
    alt="Illustration of a CSS Property." />
 </p>
@@ -152,7 +154,7 @@ Thank you for joining this course, where you will learn how to take your Web pag
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. css basics course visual (03) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image003.webp?raw=true"
+<img src="./images/image003.png"
    style="width:50%"
    alt="Diagram of the structure of an HTML page." />
 </p>
@@ -162,7 +164,7 @@ Thank you for joining this course, where you will learn how to take your Web pag
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. image of the css box model (04) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image004.webp?raw=true"
+<img src="./images/image004.png"
    style="width:50%"
    alt="Image of the CSS box model." />
 </p>
@@ -179,7 +181,7 @@ W3C provides a [W3Cx Verified Certificate for this course](https://ecommerce.ed
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 05. a sample of a verified certificate from edx (05) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image005.webp?raw=true"
+<img src="./images/image005.png"
    style="width:25%"
    alt="A sample of a verified certificate from edx." />
 </p>
@@ -192,7 +194,7 @@ W3Cx, as non-profit, relies on verified certificates to help fund future W3Cx co
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. image of fewd certificate (05) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image006.webp?raw=true"
+<img src="./images/image006.png"
    style="width:15%"
    alt="FEWD certificate image." />
 </p>
@@ -214,7 +216,7 @@ We sincerely hope that you will enjoy this W3Cx course.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. css basics course visual (06) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image007.webp?raw=true"
+<img src="./images/image007.png"
    style="width:50%"
    alt="CSS Basics course visual." />
 </p>
@@ -240,7 +242,7 @@ Professional Certificate programs are series of courses designed by industry lea
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 08. banner image for the fewd professional certificate program (08) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image008.webp?raw=true"
+<img src="./images/image008.png"
    style="width:40%"
    alt="Banner image for the FEWD professional certificate program." />
 </p>
@@ -274,7 +276,7 @@ One caveat, you need to make sure that whatever editor you choose will save to a
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. visual studio code logo (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image009.webp?raw=true"
+<img src="./images/image009.png"
    style="width:8%"
    alt="Visual studio code logo." />
 </p>
@@ -286,7 +288,7 @@ VS Code supports a large array of different Web technologies, but for this cours
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10. codepen logo (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image010.webp?raw=true"
+<img src="./images/image010.png"
    style="width:10%"
    alt="Codepen logo." />
 </p>
@@ -349,7 +351,7 @@ The [W3C cheatsheet](https://www.w3.org/2009/cheatsheet/) provides quick acces
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. w3c cheatsheet snapshot image (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image011.webp?raw=true"
+<img src="./images/image011.png"
    style="width:40%"
    alt="W3C cheatsheet snapshot image." />
 </p>
@@ -376,7 +378,7 @@ We are then providing references to the browser support of HTML5 features presen
 <!--~~~~~~~~~ 12. example of a caniuse browser support table (using css3 colors) (13) ~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image012.webp?raw=true"
+<img src="./images/image012.png"
    style="width:50%"
    alt="Example of a CanIUse browser support table (using CSS3 colors)." />
 </p>
@@ -386,7 +388,7 @@ We are then providing references to the browser support of HTML5 features presen
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 13. logo of mdn web docs (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image013.webp?raw=true"
+<img src="./images/image013.png"
    style="width:30%"
    alt="Logo of MDN Web Docs." />
 </p>
@@ -430,7 +432,7 @@ And then finally by the end of the module you write your own first piece of CSS.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 14. w3c logo (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image014.webp?raw=true"
+<img src="./images/image014.png"
    style="width:58%"
    alt="W3C logo." />
 </p>
@@ -442,7 +444,7 @@ W3C&#39;s primary activity is to develop protocols and guidelines that ensure lo
 <!--~~~~~~~~~~~~~~~~~~~ 15. tim berners-lee at his desk in CERN, 1994 (15) ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image015.webp?raw=true"
+<img src="./images/image015.png"
    style="width:25%"
    alt="Tim Berners-Lee at his desk in CERN, 1994." />
 </p>
@@ -463,10 +465,10 @@ In April 1995, [Inria](https://www.inria.fr/) became the first European W3C ho
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img alt="Picture of Sir Tim Berners-Lee" 
-    src="./images/image016.webp?raw=true" width="45%">
+    src="./images/image016.png" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
   <img alt="Turing award" 
-    src="./images/image017.webp?raw=true"45%">
+    src="./images/image017.png"45%">
 </p>
 
 On 4 April 2017, the ACM, the Association for Computing Machinery, named Sir Tim Berners-Lee, inventor of the Web and Director of the World Wide Web Consortium, as the recipient of the 2016 [ACM A.M. Turing Award](https://amturing.acm.org/). The Turing award is recognized as the highest distinction in Computer Science and is often referred to as the "Nobel Prize of Computing".
@@ -539,7 +541,7 @@ In 1996, see what it looked like (or check it [online](https://web.archive.org/
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. image of msn.com from 1996 (17) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image018.webp?raw=true"
+<img src="./images/image018.png"
   style="width:40%"
   alt="Image of MSN.COM from 1996." />
 </p>
@@ -568,7 +570,7 @@ In the video below, you will hear from Bert Bos, the co-creator of CSS, about ho
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18b. css intro logo (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image018b.webp?raw=true"
+<img src="./images/image018b.png"
    style="width:40%"
    alt="CSS Intro logo." />
 </p>
@@ -837,7 +839,7 @@ Here is what it looks like when I view the source of [W3C&#39;s Web site](https
 <!--~~~~~~~~~~~~~~~~~ 19. edge web browser with view source window open (25) ~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image019.webp?raw=true"
+<img src="./images/image019.png"
    style="width:50%"
    alt="Edge Web browser with view source window open." />
 </p>
@@ -850,7 +852,7 @@ You can also get more specific and look at individual HTML elements with the &ld
 <!--~~~~~~~~~~~~ 20. edge inspect element view highlighting a specific title (26) ~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image020.webp?raw=true"
+<img src="./images/image020.png"
    style="width:50%"
    alt="Edge inspect element view highlighting a specific title." />
 </p>
@@ -1013,7 +1015,7 @@ p {
 <!--~~~~~~~~~~~~~~~~ 21. 'hello beautiful world' in blue helvetica text (30) ~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image021.webp?raw=true"
+<img src="./images/image021.png"
    style="width:29%"
    alt="'Hello Beautiful World' in blue helvetica text." />
 </p>
@@ -1038,7 +1040,7 @@ As you can see, you can put as much text between the open and close symbols as y
 <!--~~~~~~~~~~~~~~~~~~ 22. comments in green (visual studio/notepad++) (30) ~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image022.webp?raw=true"
+<img src="./images/image022.png"
    style="width:45%"
    alt="Comments in green with visual studio and notepad++." />
 </p>
@@ -1070,7 +1072,7 @@ Once you have your HTML document view it in a Web browser. It should look like t
 <!--~~~~~~~ 23. an image of hello beautiful world in a web browser with black text (31) ~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image023.webp?raw=true"
+<img src="./images/image023.png"
    style="width:44%"
    alt="An image of Hello Beautiful World in a web browser with black text." />
 </p>
@@ -1102,7 +1104,7 @@ Now change the HTML and CSS files so that it says "Hello &lt;your name&gt;, welc
 <!--~~~~~~~~~~~~~~~~~~~~~~ 24. an image of hello kasey in green text (32) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image024.webp?raw=true"
+<img src="./images/image024.png"
    style="width:36%"
    alt="An image of Hello Kasey in green text." />
 </p>
@@ -1231,7 +1233,7 @@ Tags can be nested inside of other tags. This creates a parent/child relationshi
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 25. the minimal structure of an html5 document (36) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image025.webp?raw=true"
+<img src="./images/image025.png"
   style="width:50%"
   title="The minimal structure of an HTML5 document"
   alt="The minimal structure of an HTML5 document." />
@@ -1485,7 +1487,7 @@ You can pass any URL on the Web into the validator, and it will tell you how the
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 26. html validator output for w3.org (43) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image026.webp?raw=true"
+<img src="./images/image026.png"
    style="width:50%"
    alt="HTML validator output for w3.org." />
 </p>
@@ -1498,7 +1500,7 @@ One of the more common errors is using an HTML tag that is considered obsolete. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 27. image of obsolete html error (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image027.webp?raw=true"
+<img src="./images/image027.png"
    style="width:50%"
    alt="Image of obsolete HTML error." />
 </p>
@@ -1548,7 +1550,7 @@ This rule tells the browser to make all text within a paragraph tag blue. A CSS 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 28. css selector rule (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image028.webp?raw=true"
+<img src="./images/image028.png"
    style="width:65%"
    alt="CSS selector rule." />
 </p>
@@ -1564,7 +1566,7 @@ This is the portion of the rule between the two curly braces. This is what tell
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 28b. property anatomy (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image028b.webp?raw=true"
+<img src="./images/image028b.png"
    style="width:65%"
    alt="Anatomy of property: how to style a tag." />
 </p>
@@ -1607,7 +1609,7 @@ Your goal is to get this HTML to look like the following image in the browser:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 29. codepen resulting image (activity 2.3) (49) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image029.webp?raw=true"
+<img src="./images/image029.png"
   style="width:65%"
   title="CodePen resulting image (Activity 2.3)"
   alt="CodePen resulting image (Activity 2.3)." />
@@ -1679,7 +1681,7 @@ This would apply style to the body tag as well as allow the elements inside the 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 30. body style (51) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image030.webp?raw=true"
+<img src="./images/image030.png"
   style="width:65%"
   title="Body style"
   alt="Body style." />
@@ -1785,7 +1787,7 @@ This is basic structure from the way I have formatted the tags with tabbing, but
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 31. html inheritance structure (54) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image031.webp?raw=true"
+<img src="./images/image031.png"
   style="width:40%"
   title="HTML Inheritance Structure"
   alt="HTML Inheritance Structure." />
@@ -1815,7 +1817,7 @@ Not every property is inherited, but many are. The CSS specification tell you, f
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 32. inheritance example image (55) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image032.webp?raw=true"
+<img src="./images/image032.png"
   style="width:70%"
   title="Example using inheritance"
   alt="Example using inheritance." />
@@ -1884,7 +1886,7 @@ Here is a [CodePen](https://codepen.io/w3devcampus/pen/PVJLEm) that explores u
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 33. comma to combine selectors (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image033.webp?raw=true"
+<img src="./images/image033.png"
   style="width:70%"
   title="Example using comma to combine selector"
   alt="Example using comma to combine selector." />
@@ -2015,7 +2017,7 @@ You will need to figure out which selectors belong on top of each of the 5 rules
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 34. final result after you apply your own selector image (59) ~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image034.webp?raw=true"
+<img src="./images/image034.png"
   style="width:50%"
   title="Final result after you apply your own selector"
   alt="Final result after you apply your own selector." />
@@ -2047,7 +2049,7 @@ The above style is put into action in the [following CodePen](https://codepen.i
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 35. sample with different property values (60) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image035.webp?raw=true"
+<img src="./images/image035.png"
   style="width:70%"
   title="Examples of properties that each accept a different style of value"
   alt="Examples of properties that each accept a different style of value." />
@@ -2058,7 +2060,7 @@ Make sure to look up what the available values are before using a property, beca
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36. color options (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image036.webp?raw=true"
+<img src="./images/image036.png"
   style="width:60%"
   title="Color options"
   alt="Color options." />
@@ -2069,7 +2071,7 @@ Sometimes the easiest way to learn about different properties is to explore the 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 37. dom explorer (61) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image037.webp?raw=true"
+<img src="./images/image037.png"
   style="width:70%"
   title="Browser tool to inspect an HTML element"
   alt="Browser tool to inspect an HTML element." />
@@ -2157,7 +2159,7 @@ You can see these color properties in action using all three approaches to setti
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 38. color palette (64) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image038.webp?raw=true"
+<img src="./images/image038.png"
   style="width:25%"
   title="Color palette"
   alt="Color palette." />
@@ -2268,7 +2270,7 @@ Here is a [CodePen exploring each of these styles](https://codepen.io/w3devcamp
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. text-decoration example (68) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image039.webp?raw=true"
+<img src="./images/image039.png"
   style="width:70%"
   title="Example using text-decoration"
   alt="Example using text-decoration." />
@@ -2343,7 +2345,7 @@ When you view an element in your browser tools you can see the white space aroun
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 40. margin padding border (70) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image040.webp?raw=true"
+<img src="./images/image040.png"
   style="width:40%"
   title="Margin padding border"
   alt="Margin padding border." />
@@ -2398,7 +2400,7 @@ Here is a [CodePen exploring padding, border and margin](https://codepen.io/tec
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 41. example using padding, border and margin (71) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image041.webp?raw=true"
+<img src="./images/image041.png"
   style="width:70%"
   title="Example using padding, border and margin"
   alt="Example using padding, border and margin." />
@@ -2447,7 +2449,7 @@ Here is some HTML and CSS, but as you can see the CSS rules have selectors but n
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 42. Example using selectors but no properties (72) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image042.webp?raw=true"
+<img src="./images/image042.png"
   style="width:70%"
   title="Example using selectors but no properties"
   alt="Example using selectors but no properties." />
@@ -2505,7 +2507,7 @@ These CSS rules have selectors, but no properties. For this activity, it is up t
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 43. adding properties (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image043.webp?raw=true"
+<img src="./images/image043.png"
   style="width:60%"
   title="Final image of web site with proper CSS properties applied"
   alt="Final image of web site with proper CSS properties applied." />
@@ -2562,7 +2564,7 @@ However, you should only alter a few of these following aspects at a time to pre
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~ 44. example using too many different aspects of font for emphasis (77) ~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image044.webp?raw=true"
+<img src="./images/image044.png"
   style="width:70%"
   title="Example using too many different aspects of font for emphasis"
   alt="Example using too many different aspects of font for emphasis." />
@@ -2590,7 +2592,7 @@ This title uses soft clean colors based on print media, so we chose a serif font
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 45. example using soft clean colors (77) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image045.webp?raw=true"
+<img src="./images/image045.png"
   style="width:70%"
   title="Example using soft clean colors and make title more prominent in size"
   alt="Example using soft clean colors and make title more prominent in size." />
@@ -2625,7 +2627,7 @@ This design is intended to look futuristic, so it only uses sans-serif, thin fon
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. example looking futuristic (78) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image046.webp?raw=true"
+<img src="./images/image046.png"
   style="width:70%"
   title="Futuristic example"
   alt="Futuristic example." />
@@ -2658,7 +2660,7 @@ This design is based on pastel primary colors and uses color as a highlight agai
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 47. example using pastel (79) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image047.webp?raw=true"
+<img src="./images/image047.png"
   style="width:70%"
   title="Pastel example"
   alt="Pastel example." />
@@ -2702,7 +2704,7 @@ Here is an example of a button where it&#39;s not immediately clear that it is 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 48. button semi-hidden example (80) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image048.webp?raw=true"
+<img src="./images/image048.png"
   style="width:70%"
   title="Button semi-hidden in plain sight"
   alt="Button semi-hidden in plain sight." />
@@ -2717,7 +2719,7 @@ This design is a pretty traditional button where it has a distinct background-co
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49. traditional button (80) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image049.webp?raw=true"
+<img src="./images/image049.png"
   style="width:70%"
   title="Traditional button"
   alt="Traditional button." />
@@ -2748,7 +2750,7 @@ This is a more modern button design where there is no distinct border, but just 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 50. modern button with no distinct border (81) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image050.webp?raw=true"
+<img src="./images/image050.png"
   style="width:70%"
   title="Modern button with no distinct border"
   alt="Modern button with no distinct border." />
@@ -2779,7 +2781,7 @@ This is a big graphic button that uses border-radius to give the button rounded�
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 51. big graphic button using border-radius (82) ~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image051.webp?raw=true"
+<img src="./images/image051.png"
   style="width:70%"
   title="Big graphic button using border-radius"
   alt="Big graphic button using border-radius." />
@@ -2868,7 +2870,7 @@ For example, here is what my page looks like:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 52. Example image module 2 project (84) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image052.webp?raw=true"
+<img src="./images/image052.png"
   style="width:70%"
   title="Codepen resulting image (Module 2 project)"
   alt="Codepen resulting image (Module 2 project)." />
@@ -3045,7 +3047,7 @@ ID names have the same rules as class names: start with a letter, can include nu
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 53. classes and ids example (89) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image053.webp?raw=true"
+<img src="./images/image053.png"
    style="width:70%"
    alt="Classes and IDs example." />
 </p>
@@ -3138,7 +3140,7 @@ As you can note, it&#39;s not too interesting because not all of the styles are 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 54. more class and id examples (91) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image054.webp?raw=true"
+<img src="./images/image054.png"
    style="width:70%"
    alt="More examples of class and id." />
 </p>
@@ -3148,7 +3150,7 @@ In this activity, your job is to add the HTML id and class attributes to the cor
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 55. welcome to my page (92) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image055.webp?raw=true"
+<img src="./images/image055.png"
    style="width:70%"
    alt="Third example using class and id." />
 </p>
@@ -3217,7 +3219,7 @@ You can read more about pseudo-classes in this [MDN &ldquo;Pseudo-classes&rdquo
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 56. pseudo-classes (94) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image056.webp?raw=true"
+<img src="./images/image056.png"
   style="width:70%"
   title="Pseudo-classes example"
   alt="Pseudo-classes example." />
@@ -3305,7 +3307,7 @@ The resulting output should look like this when the user has not interacted with
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 57. resulting my page in green (96) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image057.webp?raw=true"
+<img src="./images/image057.png"
   style="width:70%"
   alt="Resulting 'my page' in green." />
 </p>
@@ -3362,7 +3364,7 @@ Below is a diagram of the given HTML with the two imgs that will be styled by th
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 58. diagram pointing out which img tags will be styled (98) ~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image058.webp?raw=true"
+<img src="./images/image058.png"
   style="width:50%"
   alt="Diagram pointing out which img tags will be styled." />
 </p>
@@ -3374,7 +3376,7 @@ Pay attention to the styles of the paragraphs and lists in the following example
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 59. example styles for paragraphs & lists (98) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image059.webp?raw=true"
+<img src="./images/image059.png"
   style="width:70%"
   alt="Example styles for paragraphs and lists." />
 </p>
@@ -3386,7 +3388,7 @@ For practice, we are going to learn how to better scope CSS without the crutch o
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 60. scoping css w/o classes & ids (99) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image060.webp?raw=true"
+<img src="./images/image060.png"
   style="width:70%"
   alt="Scoping CSS without classes and id's." />
 </p>
@@ -3441,7 +3443,7 @@ So, there are CSS rules with duplicate selectors. You&#39;ll need to add some ex
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 61. contextual selectors part 1 of 3 (100) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image061.webp?raw=true"
+<img src="./images/image061.png"
   style="width:50%"
   title="Contextual selectors result part 1"
   alt="Contextual selectors result part 1." />
@@ -3449,7 +3451,7 @@ So, there are CSS rules with duplicate selectors. You&#39;ll need to add some ex
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 62. contextual selectors part 2 of 3 (100) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image062.webp?raw=true"
+<img src="./images/image062.png"
   style="width:50%"
   title="Contextual selectors result part 2"
   alt="Contextual selectors result part 2." />
@@ -3457,7 +3459,7 @@ So, there are CSS rules with duplicate selectors. You&#39;ll need to add some ex
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 63. contextual selectors part 3 of 3 (100) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image063.webp?raw=true"
+<img src="./images/image063.png"
   style="width:50%"
   title="Contextual selectors result part 3"
   alt="Contextual selectors result part 3." />
@@ -3516,7 +3518,7 @@ Look at the corresponding HTML and CSS, where code showing how Cascading order a
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 64. overlapping rules example (102) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image064.webp?raw=true"
+<img src="./images/image064.png"
   style="width:70%"
   alt="Overlapping rules example with cascading order." />
 </p>
@@ -3565,7 +3567,7 @@ Cascading order can be difficult to manage.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 65. managing cascading order (103) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image065.webp?raw=true"
+<img src="./images/image065.png"
   style="width:70%"
   alt="Managing cascading order." />
 </p>
@@ -3606,7 +3608,7 @@ Note that there are a lot of repeat CSS rules. For this activity, you cannot cha
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 66. cascading order solution (105) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image066.webp?raw=true"
+<img src="./images/image066.png"
   style="width:70%"
   alt="Cascading order final solution, no interaction." />
 </p>
@@ -3645,7 +3647,7 @@ p:hover {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 67. five paragraph examples - cascading (106) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image067.webp?raw=true"
+<img src="./images/image067.png"
   style="width:50%"
   alt="5 paragraphs with cascading style practice with hover." />
 </p>
@@ -3699,7 +3701,7 @@ As you can see, there are a lot of things to consider, and if you do not plan yo
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 69. bad color image layout example (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image069.webp?raw=true"
+<img src="./images/image069.png"
    style="width:50%"
    alt="Bad example of colors in image display." />
 </p>
@@ -3747,7 +3749,7 @@ if it belongs. It also uses padding to give the image a &ldquo;polaroid-style&rd
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 70. images in a gride 3 wide 2 up with padding (xxx) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image070.webp?raw=true"
+<img src="./images/image070.png"
   style="width:50%"
    alt="Images in a grid 3 wide, 2 up with padding." />
 </p>
@@ -3819,7 +3821,7 @@ This design is an example of an image gallery design. This gives all the images 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 71. body text over cloud background  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image071.webp?raw=true"
+<img src="./images/image071.png"
   style="width:50%"
   title="Text body over cloud image background"
   alt="Text body over cloud image background." />
@@ -3895,7 +3897,7 @@ This design demonstrates the use of an image both as a background and as a link.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 72. sign up example black 'n white (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image072.webp?raw=true"
+<img src="./images/image072.png"
    style="width:50%"
    alt="Sign up example, simple black and white." />
 </p>
@@ -3984,7 +3986,7 @@ Forms can be a surprisingly tricky element to style because you are asking for a
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 73. sign up example purple background (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image073.webp?raw=true"
+<img src="./images/image073.png"
    style="width:50%"
    alt="Sign up example on purple background." />
 </p>
@@ -4053,7 +4055,7 @@ The first form design uses basic layout to give each input element a clear label
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 74. sign up example on darker purple (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image074.webp?raw=true"
+<img src="./images/image074.png"
    style="width:50%"
    alt="Sign up example on darker purple." />
 </p>
@@ -4151,7 +4153,7 @@ This form design is more minimalist, using the clear and consistent design and l
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 74. sign-up form for minimalists (128) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image074.webp?raw=true"
+<img src="./images/image074.png"
   style="width:50%"
   title="Sign-up form for minimalists"
   alt="Sign-up form for minimalists." />
@@ -4242,7 +4244,7 @@ This form design leaves lots of white space to help it feel clean and simple. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 75. sign-up form with white space (130) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image075.webp?raw=true"
+<img src="./images/image075.png"
   style="width:50%"
   title="Sign-up form with white space"
   alt="Sign-up form with white space." />
@@ -4559,7 +4561,7 @@ For reference here is what my solution looks like:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 76. kasey champion resume solution (137) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image076.webp?raw=true"
+<img src="./images/image076.png"
   style="width:50%"
   title="Kasey Champion's resume solution part 1"
   alt="Kasey Champion's resume solution part 1." />
@@ -4650,7 +4652,7 @@ We discussed how to adjust the white space of these areas in Module 2.5, but in 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 76. anatomy of the box model (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image076.webp?raw=true"
+<img src="./images/image076.png"
   style="width:50%"
   title="Anatomy of the box model"
   alt="Anatomy of the box model." />
@@ -4667,7 +4669,7 @@ We discussed how to adjust the white space of these areas in Module 2.5, but in 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 77. margin & padding example (140) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image077.webp?raw=true"
+<img src="./images/image077.png"
   style="width:50%"
   title="Margin and padding example"
   alt="Margin and padding example." />
@@ -4675,7 +4677,7 @@ We discussed how to adjust the white space of these areas in Module 2.5, but in 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 78. padding, border, & margin example (141) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image078.webp?raw=true"
+<img src="./images/image078.png"
   style="width:50%"
   alt="Padding, border & margin example: 100,100,100." />
 </p>
@@ -4781,7 +4783,7 @@ See below for examples of what each of these values will do to your text:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 79. text-align example (143) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image079.webp?raw=true"
+<img src="./images/image079.png"
    style="width:50%"
    alt="Example of the text-align options: 'left', 'right', 'center' and 'justify'." />
 </p>
@@ -4804,7 +4806,7 @@ You may have noticed that the text-align property sets the content&#39;s alignme
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 80. line-height example (144) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image080.webp?raw=true"
+<img src="./images/image080.png"
    style="width:50%"
    alt="Line-height example." />
 </p>
@@ -4924,7 +4926,7 @@ img {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 81. set max img width (147) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image081.webp?raw=true"
+<img src="./images/image081.png"
    style="width:50%"
    alt="Set max image width in css." />
 </p>
@@ -5032,7 +5034,7 @@ img {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 82.  display: block example (150) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image082.webp?raw=true"
+<img src="./images/image082.png"
    style="width:50%"
    alt="Display: block example." />
 </p>
@@ -5107,7 +5109,7 @@ Here is what the above code looks like in a wide window:
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 83. centered with margin wide example (151) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image083.webp?raw=true"
+<img src="./images/image083.png"
    style="width:50%"
    alt="Centered elements with margin wide example." />
 </p>
@@ -5118,7 +5120,7 @@ Now, if you resize the window, the elements remain centered no matter what. Here
 <!--~~~~~~~~~~~~~~~~~~~~~ 84. dynamically centered in narrow window (151) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image084.webp?raw=true"
+<img src="./images/image084.png"
    style="width:30%"
    alt="Dynamically centered element narrow example." />
 </p>
@@ -5139,7 +5141,7 @@ For this activity, you are going to practice some of the basic alignment propert
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 85.  practice with alignment (152) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image085.webp?raw=true"
+<img src="./images/image085.png"
    style="width:50%"
    alt="Practice with alighment." />
 </p>
@@ -5236,7 +5238,7 @@ The resulted HTML and CSS codes produce a Web page where elements are not very w
 <!--~~~~~~~~~~~~~~~~~~~~~ 86. practice with alignment after picture (154) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image086.webp?raw=true"
+<img src="./images/image086.png"
    style="width:50%"
    alt="Practice with alignment after picture." />
 </p>
@@ -5298,7 +5300,7 @@ Elements underneath a floating object will automatically wrap themselves around 
 <!--~~~~~~~~~~~~~~~~~ 87. example of floating img and surrounding text (156) ~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image087.webp?raw=true"
+<img src="./images/image087.png"
    style="width:55%"
    alt="Example of floating img and surrounding text." />
 </p>
@@ -5321,7 +5323,7 @@ p {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 88. too many colors (157) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image088.webp?raw=true"
+<img src="./images/image088.png"
    style="width:70%"
    alt="Too many colors." />
 </p>
@@ -5415,7 +5417,7 @@ One of the toughest parts of layouts with CSS is figuring out which elements to 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 89. float example (159) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image089.webp?raw=true"
+<img src="./images/image089.png"
    style="width:50%"
    alt="Float example." />
 </p>
@@ -5516,7 +5518,7 @@ You might also need to adjust some widths, margins and paddings to get everythin
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 90. web page: yellow, green & red (161) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image090.webp?raw=true"
+<img src="./images/image090.png"
    style="width:50%"
    alt="Sample web page, yellow, green & red." />
 </p>
@@ -5695,7 +5697,7 @@ Note that position is not an inherited property so you will have to apply it ind
 <!--~~~~~~~~~~~~~~~~~~~~ 91. use alignment &/or float over position (166) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image091.webp?raw=true"
+<img src="./images/image091.png"
    style="width:50%"
    alt="Use alignment &/or float rather than position." />
 </p>
@@ -5769,7 +5771,7 @@ h3 {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 92. relative positioning example (168) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image092.webp?raw=true"
+<img src="./images/image092.png"
   style="width:50%"
   alt="Relative positioning example with overlap." />
 </p>
@@ -5822,7 +5824,7 @@ Here is [some HTML and CSS:](https://codepen.io/techie4good/pen/KgwRwg)
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 93. blue on light grey sample (169) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image093.webp?raw=true"
+<img src="./images/image093.png"
   style="width:50%"
   alt="Blue on light grey sample web page." />
 </p>
@@ -5863,7 +5865,7 @@ Your task is to add CSS so that you achieve this final layout:
 <!--~~~~~~~~~~~~~~~~~~~~~~ 94. blue on light grey sample web page (170) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image094.webp?raw=true"
+<img src="./images/image094.png"
   style="width:70%"
   alt="Blue on light grey sample web page." />
 </p>
@@ -5925,7 +5927,7 @@ One of the most important aspects of any Web site is the navigation menu. Over 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 95. web page starter sample (171) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image095.webp?raw=true"
+<img src="./images/image095.png"
    style="width:50%"
    alt="Web page starter sample." />
 </p>
@@ -5933,7 +5935,7 @@ One of the most important aspects of any Web site is the navigation menu. Over 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 96. footing image (171) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image096.webp?raw=true"
+<img src="./images/image096.png"
    style="width:50%"
    alt="Footer for web page starter sample." />
 </p>
@@ -5991,7 +5993,7 @@ This menu design uses a vertical arrangement but still floats the overall menu 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 97. full pink menu (173) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image097.webp?raw=true"
+<img src="./images/image097.png"
    style="width:70%"
    alt="Full pink menu." />
 </p>
@@ -6100,7 +6102,7 @@ This third design employs hover as a way to expose secondary links. This lets yo
 <!--~~~~~~~~~~~~~~~~~~~~ 98. hover with contact blog about home (175) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image098.webp?raw=true"
+<img src="./images/image098.png"
    style="width:70%"
    alt="Menu with contact, blog, about and home categories." />
 </p>
@@ -6209,7 +6211,7 @@ You will want your footer to flow with your overall page design, but to be disti
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 99. full footer example (178) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image099.webp?raw=true"
+<img src="./images/image099.png"
    style="width:70%"
    alt="Full footer example." />
 </p>
@@ -6387,7 +6389,7 @@ This is a basic footer that uses background color to help it stand out from the 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 100. basic footing with background color (182) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image100.webp?raw=true"
+<img src="./images/image100.png"
   style="width:70%"
   title="Basic Footing with background color"
   alt="Basic Footing with background color." />
@@ -6473,7 +6475,7 @@ This footer provides navigation links. Because the footer is at the bottom of th
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 101. full thorough footer sample (184) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image101.webp?raw=true"
+<img src="./images/image101.png"
   style="width:70%"
   title="Full thorough footer sample"
   alt="Full thorough footer sample." />
@@ -6576,7 +6578,7 @@ This final design flows with the overall structure of the page, but limits the c
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 102. final footer sample (186) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image102.webp?raw=true"
+<img src="./images/image102.png"
   style="width:70%"
   alt="Final Footer Sample." />
 </p>
@@ -6677,7 +6679,7 @@ Here is what my Web resume looks like:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 103. kasey champion resume example (189) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image103.webp?raw=true"
+<img src="./images/image103.png"
    style="width:50%"
    alt="Kasey's web resume." />
 </p>
@@ -6700,7 +6702,7 @@ For this project you must at least:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 104. matt norris sample resume (190) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image104.webp?raw=true"
+<img src="./images/image104.png"
    style="width:50%"
    alt="." />
 </p>
@@ -7239,7 +7241,7 @@ You will find below an excerpt of CSS best practices (see the [full slide set](
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 105. big red test button (204) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image105.webp?raw=true"
+<img src="./images/image105.png"
   style="width:50%"
   alt="Big red test button." />
 </p>
@@ -7336,7 +7338,7 @@ When choosing your font, probably the biggest choice you'll make is what categor
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 106. example of 5 font categories (206) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image106.webp?raw=true"
+<img src="./images/image106.png"
   style="width:50%"
   alt="Example of 5 different font categories." />
 </p>
@@ -7376,7 +7378,7 @@ When getting into design, it&#39;s a good idea to brush up on the basics of colo
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 38. color wheel: primary & 2ndary (208) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image038.webp?raw=true"
+<img src="./images/image038.png"
   style="width:50%"
   alt="Color Wheel: the primary and 2ndary colors, and their hex equivalent." />
 </p>
@@ -7579,7 +7581,7 @@ support the international features that they will need.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 107. w3c internationalization logo (214) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image107.webp?raw=true"
+<img src="./images/image107.png"
    style="width:50%"
    alt="W3C internationalization activity logo." />
 </p>
@@ -7600,7 +7602,7 @@ Here are some examples of things that can be done with CSS.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 108. vertically set mongolian text (215) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image108.webp?raw=true"
+<img src="./images/image108.png"
    style="width:25%"
    alt="Vertically set Mongolian text." />
 </p>
@@ -7611,7 +7613,7 @@ Here are some examples of things that can be done with CSS.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 109. georgian counter styles (216) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image110.webp?raw=true"
+<img src="./images/image110.png"
    style="width:17%"
    alt="Georgian counter styles." />
 </p>
@@ -7619,20 +7621,21 @@ Here are some examples of things that can be done with CSS.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 110. japanese counter styles (216) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image110.webp?raw=true"
-   style="width:19%"
-   alt="Georgian counter styles." />
+<img src="./images/image110.png"
+  style="width:19%"
+  title="Georgian counter styles"
+  alt="Georgian counter styles." />
 </p>
 
 -   When you want to justify text so that the lines are straight on both sides of your column, different strategies are used for different scripts. Most Western typography puts an emphasis on adjusting inter-word spaces, but Chinese doesn&#39;t use spaces between words, so you generally do *inter-character* spacing. In text written using the arabic script it is common to stretch the baseline that joins letters, or use other techniques to balance the line.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 111. arabic justification (216) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image111.webp?raw=true"
-   style="width:35%"
-   alt="Arabic justification." />
+<img src="./images/image111.png"
+  style="width:35%"
+  title="Arabic justification"
+  alt="Arabic justification." />
 </p>
 
 Some scripts allow words to be hyphenated in order to improve the visual effect of a paragraph, but note that the way in which words are hyphenated depends on the language. (And in arabic script, the CSS specification requires that both parts of the word retain their joining line during hyphenation.)
@@ -7641,19 +7644,19 @@ Some scripts allow words to be hyphenated in order to improve the visual effect 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 112. emphasis (in japanese) (217) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image112.webp?raw=true"
-   style="width:15%"
-   alt="Emphasis in Japanese." />
+<img src="./images/image112.png"
+  style="width:15%"
+  title="Emphasis in Japanese"
+  alt="Emphasis in Japanese." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 113. skipping descenders (in burmese) (217) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image113.webp?raw=true"
-   style="width:17%"
-   alt="Skipping descenders in Burmese." />
+<img src="./images/image113.png"
+  style="width:17%"
+  title="Skipping descenders in Burmese"
+  alt="Skipping descenders in Burmese." />
 </p>
 
 These are just a few examples. There are many more.
@@ -7877,9 +7880,12 @@ the current trend &#34;flat design&#34;.
 
 -   *low load times* - better for mobile network connections
 
--   *responsiveness* - when there are a small number of elements, it is easier to manage their relationships so that the overall layout can grow and shrink to accommodate different screen sizes
+-   *responsiveness* - when there are a small number of elements, it is easier to 
+    manage their relationships so that the overall layout can grow and shrink to 
+    accommodate different screen sizes
 
--   *intuitive experience* - research has shown that the cleaner a site, the easier it is for a user to find the information they are looking for
+-   *intuitive experience* - research has shown that the cleaner a site, the 
+    easier it is for a user to find the information they are looking for
 
 <h4>External resource</h4>
 
@@ -7887,17 +7893,25 @@ the current trend &#34;flat design&#34;.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-5-3">5.5.3 Long scrolling</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+In the past, Web sites were comprised of many separate pages that you would 
+navigate to, leaving behind the page you came from. These days, you&#39;ll 
+often find pages that are comprised of a single long scrolling page with 
+links that just jump to different portions of the page. The reason for this is 
+less about fashion and more about technological developments. Especially on 
+touch devices, scrolling is a more natural human way to interact with a page.
 
-In the past, Web sites were comprised of many separate pages that you would navigate to, leaving behind the page you came from. These days, you&#39;ll often find pages that are comprised of a single long scrolling page with links that just jump to different portions of the page. The reason for this is less about fashion and more about technological developments. Especially on touch devices, scrolling is a more natural human way to interact with a page.
-
-This can be accomplished with something called &ldquo;internal links&rdquo;. This is where you load the entire page as one long site and the links at the top simply jump to different locations within the site. To do this, you need to give the section you want to jump to an id, and then you use the id selector as the href setting on the anchor tag. 
+This can be accomplished with something called &ldquo;internal links&rdquo;. 
+This is where you load the entire page as one long site and the links at the 
+top simply jump to different locations within the site. To do this, you need 
+to give the section you want to jump to an id, and then you use the id selector 
+as the href setting on the anchor tag. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 114. sample 'internal link' (226) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image115.webp?raw=true"
-   style="width:50%"
-   alt="Sample 'internal link'." />
+<img src="./images/image115.png"
+  style="width:50%"
+  title="Sample 'internal link'"
+  alt="Sample 'internal link'." />
 </p>
 
 <h4>CSS</h4>
@@ -8217,8 +8231,9 @@ beginnings of something professional designers have long been waiting for: 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 115. css flexbox and grid layout differences (232) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image115.webp?raw=true"
+<img src="./images/image115.png"
   style="width:29%"
+  title="CSS flexbox and grid layout differences"
   alt="CSS flexbox and grid layout differences." />
 </p>
 
@@ -8271,8 +8286,9 @@ you can leave some slots empty.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 116. grid module (234) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image116.webp?raw=true"
+<img src="./images/image116.png"
   style="width:48%"
+  title="Grid module"
   alt="Grid module." />
 </p>
 
@@ -8358,9 +8374,10 @@ Post a link to it in the discussion along with the answers to the following ques
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 117. students sample web page shortcuts (236) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image117.webp?raw=true"
-   style="width:50%"
-   alt="Sample web pages from students." />
+<img src="./images/image117.png"
+  style="width:50%"
+  title="Sample web pages from students"
+  alt="Sample web pages from students." />
 </p>
 
 <h4>A wonderful web page</h4>
@@ -8432,8 +8449,9 @@ I like this webpage because of the smooth design of the different panels. I like
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 6. w3cx fewd program image (239) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image006.webp?raw=true"
+<img src="./images/image006.png"
   style="width:20%"
+  title="W3Cx FEWD program image"
   alt="W3Cx FEWD program image." />
 </p>
 
