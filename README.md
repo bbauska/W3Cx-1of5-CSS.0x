@@ -8,7 +8,7 @@ w3cx-1of5-css.0x: Coursera - Front-End Web Development - CSS Basics
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ w3cx logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/w3c-logo.png"
+<img src="./images/w3c-logo.jpg"
   style="width:35%"
   title="W3C logo"
   alt="W3C logo." />
