@@ -310,27 +310,27 @@ It's amazing what a different just some colors and fonts can make!
 And the attached CSS file (style.css):
 ```[css]
 body {
-    background-color: #83AF9B;
+    background-color: #83AF9B;  /* mostly desaturated dark cyan - lime green */
     text-align: center;
     font-family: Arial;
     padding: 0;
     margin: 0;
 }
 h1 {
-    background-color: #FE4365;
-    color: #F9CDAD;
+    background-color: #FE4365;  /* bright red */
+    color: #F9CDAD;  /* very soft orange */
     font-size: 8em;
     padding: 50px;
 }
 h2 {
-    color: #FE4365;
-    background-color: #F9CDAD;
+    color: #FE4365;  /* bright red */
+    background-color: #F9CDAD;  /* very soft orange */
 }
 img {
     height: 250px;
 }
 p {
-    background-color: #FC9D9A;
+    background-color: #FC9D9A;  /* very soft red */
     color: white;
     padding: 50px;
     font-size: 2em;
@@ -605,7 +605,7 @@ HTML code:
 CSS code:
 ```[css]
 body {
-    color: #660099;
+    color: #660099;  /* dark violet */
 }
  
 h1,h2,h3 {
@@ -644,13 +644,13 @@ c
 CSS code:
 ```[css]
 /*selector here*/  {
-    background-color: #ccffcc;
-    color: #336600;
+    background-color: #ccffcc;  /* very pale lime green */
+    color: #336600;  /* very dark green */
 }
  
 /*selector here*/  {
-    background-color: #336600;
-    color: #ccffcc;
+    background-color: #336600;  /* very dark green */
+    color: #ccffcc;  /* very pale lime green */
 }
  
 /*selector here*/  {
@@ -658,7 +658,7 @@ CSS code:
 }
  
 /*selector here*/  {
-    background-color: #ffff99;
+    background-color: #ffff99;  /* very light yellow */
 }
  
 /*selector here*/  {
@@ -687,7 +687,7 @@ Here are some examples of properties that each accept a different style of value
 ```[css]
 body {
     background-color: purple; /* key word */
-    color: #FFFFFF; /* HEX code */
+    color: #FFFFFF; /* HEX code white */
     width: 60%; /* percentage */
     font-size: 20pt; /* numerical value */
 }
@@ -733,7 +733,7 @@ keyword
 Probably the simplest and least flexible way to set colors is using a keyword. A keyword is one of the predefined colors like "blue" or "green". 
 ```[css]
 body {
-   background-color: teal; 
+   background-color: teal;  /* #008080 */
 }
 ```
 There are 16 predefined colors based on keywords: aqua, black, blue, fuchsia,gray, green, lime, maroon, navy, olive, purple, red, silver, teal, yellow, white and orange. You can read more about these keyword colors here
@@ -973,28 +973,28 @@ HTML code:
 CSS code:
 ```[css]
 body {
-    background-color: #99ffff;
+    background-color: #99ffff;  /* very light cyan */
     margin-top: 20px;
     margin-left: 70px;
 }
 h1 {
-    background-color: #ff6699;
-    border-bottom: 20px #ff0066 solid;
+    background-color: #ff6699;  /* light pink */
+    border-bottom: 20px #ff0066 solid;  /* pure pink */
     margin-bottom: 10px;
     padding: 5px;
 }
 ul {
-    background-color: #ff9933;
+    background-color: #ff9933;  /* vivid orange */
     border-left: 5px black dashed;
     margin: 50px;
 }
 li {
-    background-color: #ffcc66;
+    background-color: #ffcc66;  /* light orange */
     margin: 10px;
     padding: 10px;
 }
 p {
-    background-color: #ccff99;
+    background-color: #ccff99;  /* very light green */
     border: 10px white double;
     padding: 0px;
     margin: 0px;
