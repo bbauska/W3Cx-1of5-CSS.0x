@@ -1131,12 +1131,12 @@ This title uses soft clean colors based on print media, so we chose a serif font
 title 1
 ```[css]
 #design1 {
-    background-color: #F4F4F4;
+    background-color: #F4F4F4;  /* very light gray (mostly white) */
     font-family: "Lucidia Sans Unicode", sans-serif;
 }
  
 #design1 h1 {
-    color: #C0B283;
+    color: #C0B283;  /* slightly desaturated yellow */
     font-size: 4em;
     font-weight: 700;
     font-family: Garamond;
@@ -1144,7 +1144,7 @@ title 1
 }
  
 #design1 p {
-    color: #373737;
+    color: #373737;  /* very dark gray */
     font-size: 1.2em;
 }
 ```
