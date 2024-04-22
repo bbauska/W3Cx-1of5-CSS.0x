@@ -1156,18 +1156,18 @@ title 2
 ```[css]
 #design2 {
     font-family: Century Gothic, sans-serif;
-    background-color: #0E0B16;
+    background-color: #0E0B16;  /* very dark (mostly black) violet */
 }
  
 #design2 h1 {
     font-weight: 400;
     font-size: 2.3em;
-    color: #A239CA;
+    color: #A239CA;  /* moderate violet */
     font-style: italic;
 }
  
 #design2 p {
-    color: #E7DFDD;
+    color: #E7DFDD;  /* light grayish red */
 }
 ```
 Title 3
@@ -1177,22 +1177,22 @@ This design is based on pastel primary colors and uses color as a highlight agai
 title 3
 ```[css]
 #design3 {
-    color: #DF744A;
+    color: #DF744A;  /* soft orange */
     font-family: Arial, sans-serif;
 }
  
 #design3 h1 {
-    background-color: #BFD8D2;
+    background-color: #BFD8D2;  /* grayish cyan */
     text-align: center;
     font-size: 4em;
     font-weight: 100;
     padding: 30px;
-    border-bottom: 5px #DCB239 solid;
+    border-bottom: 5px #DCB239 solid;  /* bright orange */
     font-family: Helvetica, sans-serif;
 }
  
 #design3 p {
-    background-color: #FEDCD2;
+    background-color: #FEDCD2;  /* light grayish red */
     padding: 50px;
 }
 ```
