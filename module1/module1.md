@@ -13,7 +13,7 @@ Stands for "Cascading Style Sheets". A style sheet language for describing how t
 Sample CSS document:
 ```[css] 
 body {
-   background-color: #d0e4fe;
+   background-color: #d0e4fe;  /* light grayish blue */
 }
 h1 {
    color: orange;
@@ -116,10 +116,10 @@ In the above demo, you saw me using what is called the "developer tool" within m
 Right click menu in Edge Web browser:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 20. inspect element and view source ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="../images/image020.webp"
   width="100%"
+  title="Inspect Element: Inspect and view source"
   alt="Inspect Element: Inspect and view source." />
 </p>
 
@@ -178,10 +178,10 @@ Here is the HTML part:
 ... and here is the "output":
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 21. hello beautiful world in blue helvetica ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="../images/image021.webp"
   width="35%"
+  title="Blue Helvetica text 'Hello Beautiful World' in a browser window"
   alt="Blue Helvetica text 'Hello Beautiful World' in a browser window." />
 </p>
 
@@ -202,10 +202,10 @@ and the following two symbols end my comment */
 As you can see, you can put as much text between the open and close symbols as you need, you can even have multiple lines. If you are working in an editor like Visual Studio code, you will notice that when you turn text into a comment, it turns green to indicate that the computer ignores that code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. visual studio code comments ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="../images/image022.webp"
   width="35%"
+  title="An image of visual studio code comments"
   alt="An image of visual studio code comments." />
 </p>
 
@@ -234,10 +234,10 @@ Remember: to do this, you will need to give it a .html file extension when you a
 Once you have your HTML document view it in a Web browser. It should look like this:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 23. hello beautiful world in black text ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="../images/image023.webp"
   width="35%"
+  title="An image of 'Hello Beautiful World' in a web browser with black text"
   alt="An image of 'Hello Beautiful World' in a web browser with black text." />
 </p>
 
@@ -266,10 +266,10 @@ To do this:
 Now change the HTML and CSS files so that it says “Hello <your name>, welcome to my first CSS Web page” in your favorite color! Here’s what mine looks like:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. hello kasey in green text ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="../images/image024.webp"
   width="35%"
+  title="An image of Hello Kasey in green text"
   alt="An image of Hello Kasey in green text." />
 </p>
 
