@@ -145,8 +145,9 @@ Thank you for joining this course, where you will learn how to take your Web pag
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 02. illustration of a css property (03) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p id="chb" align="center" width="100%">
 <img src="./images/image002.png"
-   style="width:40%"
-   alt="Illustration of a CSS Property." />
+  style="width:40%"
+  title="Illustration of a CSS Property"
+  alt="Illustration of a CSS Property." />
 </p>
 
 -   In <b>Module 2</b>, we will first review HTML and then learn how to build CSS rules with some basic properties that adjust your HTML document&#39;s color, font or spacing. 
@@ -155,8 +156,9 @@ Thank you for joining this course, where you will learn how to take your Web pag
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. css basics course visual (03) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image003.png"
-   style="width:50%"
-   alt="Diagram of the structure of an HTML page." />
+  style="width:50%"
+  title="Diagram of the structure of an HTML page"
+  alt="Diagram of the structure of an HTML page." />
 </p>
 
 -   In <b>Module 3</b>, we are going to build slightly more complex Web pages using contextual selectors, IDs, classes and pseudo-classes. The idea is to combine some selectors together into one or more CSS rules. And thanks to the &ldquo;cascading&rdquo; part of *Cascading Style Sheets*, it won&#39;t be a problem to have multiple CSS rules competing for importance. Even with multiple rules that apply to the same HTML tag, the browser will know how to make it look!
@@ -165,8 +167,9 @@ Thank you for joining this course, where you will learn how to take your Web pag
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. image of the css box model (04) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image004.png"
-   style="width:50%"
-   alt="Image of the CSS box model." />
+  style="width:50%"
+  title="Image of the CSS box model"
+  alt="Image of the CSS box model." />
 </p>
 
 -   <b>Module 4</b> is about layout and positioning using CSS. You will start by understanding the box model - the foundation of layout on the Web.
@@ -182,8 +185,9 @@ W3C provides a [W3Cx Verified Certificate for this course](https://ecommerce.ed
 <!--~~~~~~~~~~~~~~~~~~ 05. a sample of a verified certificate from edx (05) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image005.png"
-   style="width:25%"
-   alt="A sample of a verified certificate from edx." />
+  style="width:25%"
+  title="A sample of a verified certificate from edx"
+  alt="A sample of a verified certificate from edx." />
 </p>
 
 Once you have a passing score (70% or higher), your certificate will be automatically generated and accessible from your progress page. Please write to <billing@edx.org> if you encounter an issue with the payment of your certificate.
@@ -195,8 +199,9 @@ W3Cx, as non-profit, relies on verified certificates to help fund future W3Cx co
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. image of fewd certificate (05) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image006.png"
-   style="width:15%"
-   alt="FEWD certificate image." />
+  style="width:15%"
+  title="FEWD certificate image"
+  alt="FEWD certificate image." />
 </p>
 
 This CSS Basics course is part of the [Front-End Web Developer (FEWD) Professional Certificate](https://www.edx.org/professional-certificate/w3cx-front-end-web-developer) program. To get this FEWD certificate, you will need to successfully pass all 5 courses that compose that program. Find out more on [w3cx.org](https://w3cx.org/)!
@@ -217,8 +222,9 @@ We sincerely hope that you will enjoy this W3Cx course.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. css basics course visual (06) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image007.png"
-   style="width:50%"
-   alt="CSS Basics course visual." />
+  style="width:50%"
+  title="CSS Basics course visual"
+  alt="CSS Basics course visual." />
 </p>
 
 This course is designed for anyone, no prerequisites required.
@@ -243,8 +249,9 @@ Professional Certificate programs are series of courses designed by industry lea
 <!--~~~~~~~~~~~ 08. banner image for the fewd professional certificate program (08) ~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image008.png"
-   style="width:40%"
-   alt="Banner image for the FEWD professional certificate program." />
+  style="width:40%"
+  title="Banner image for the FEWD professional certificate program"
+  alt="Banner image for the FEWD professional certificate program." />
 </p>
 
 W3C has designed a <a href="https://www.edx.org/professional-certificate/w3cx-front-end-web-developer" target="_blank">"Front-End Web Developer" (FEWD) Professional
@@ -274,11 +281,11 @@ While any text editor, like NotePad or TextEdit, can be used to create Web pages
 One caveat, you need to make sure that whatever editor you choose will save to a &ldquo;plain text&rdquo; format (&ldquo;.txt&rdquo;). Some editors will save to other formats by default (.rtf, .doc, etc.) so you need to make sure you save your source code as plain text.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. visual studio code logo (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image009.png"
-   style="width:8%"
-   alt="Visual studio code logo." />
+  style="width:8%"
+  title="Visual studio code logo"
+  alt="Visual studio code logo." />
 </p>
 
 For my demos, I will be using a software program called [Visual Studio Code](https://code.visualstudio.com/). You can download it for free, and for any operating system.
@@ -286,11 +293,11 @@ For my demos, I will be using a software program called [Visual Studio Code](ht
 VS Code supports a large array of different Web technologies, but for this course we will be using it to develop our HTML and CSS. It also includes a feature called *intellisense* which you might have used in other code editors. It will suggest code for you to use, highlight keywords and a lot of other cool features you&#39;ll see me use throughout the course.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10. codepen logo (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image010.png"
-   style="width:10%"
-   alt="Codepen logo." />
+  style="width:10%"
+  title="Codepen logo"
+  alt="Codepen logo." />
 </p>
 
 In this course, we&#39;ll also use <a href="https://www.codepen.io/">Codepen</a>.
@@ -349,11 +356,11 @@ The [W3C Link Checker](https://validator.w3.org/checklink) looks for issues in
 The [W3C cheatsheet](https://www.w3.org/2009/cheatsheet/) provides quick access to useful information from a variety of specifications published by W3C. It aims at giving in a very compact and mobile-friendly format a compilation of useful knowledge extracted from W3C specifications, completed by summaries of guidelines developed at W3C, in particular Web accessibility guidelines, the Mobile Web Best Practices, and a number of internationalization tips.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. w3c cheatsheet snapshot image (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image011.png"
-   style="width:40%"
-   alt="W3C cheatsheet snapshot image." />
+  style="width:40%"
+  title="W3C cheatsheet snapshot image"
+  alt="W3C cheatsheet snapshot image." />
 </p>
 
 Its main feature is a lookup search box, where one can start typing a keyword and get a list of matching properties/elements/attributes/functions in the above-mentioned specifications, and further details on those when selecting the one of interest.
@@ -376,21 +383,21 @@ We are then providing references to the browser support of HTML5 features presen
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~ 12. example of a caniuse browser support table (using css3 colors) (13) ~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image012.png"
-   style="width:50%"
-   alt="Example of a CanIUse browser support table (using CSS3 colors)." />
+  style="width:50%"
+  title="Example of a CanIUse browser support table (using CSS3 colors)"
+  alt="Example of a CanIUse browser support table (using CSS3 colors)." />
 </p>
 
 <h4>MDN Web Docs</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 13. logo of mdn web docs (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image013.png"
-   style="width:30%"
-   alt="Logo of MDN Web Docs." />
+  style="width:30%"
+  title="Logo of MDN Web Docs"
+  alt="Logo of MDN Web Docs." />
 </p>
 
 To help developers make these decisions consciously rather than accidentally, [MDN Web Docs](https://developer.mozilla.org/) provides browser compatibility tables in its documentation pages, so that when looking up a feature you're considering for your project, you know exactly which browsers will support it.
@@ -411,11 +418,9 @@ In this module, we&#39;re going go over exactly what CSS is, and introduce you t
 We&#39;re going to cover the Web before CSS, and how it came about. Show you awesome examples of all the powerful things you can do with CSS. Walk you through setting up your machine so that you can write and test your own HTML CSS Web sites.
 
 And then finally by the end of the module you write your own first piece of CSS.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-1-2">1.1.2 Module 1 outline</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <h4>In this module, we will:</h4>
 
 1.  Answer the question &ldquo;What is CSS?&rdquo;
@@ -433,8 +438,9 @@ And then finally by the end of the module you write your own first piece of CSS.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image014.png"
-   style="width:58%"
-   alt="W3C logo." />
+  style="width:58%"
+  title="W3C logo"
+  alt="W3C logo." />
 </p>
 
 <h4>As steward of global Web standards, W3C&#39;s mission is to safeguard the openness, accessibility, and freedom of the World Wide Web from a technical perspective.</h4>
@@ -444,9 +450,10 @@ W3C&#39;s primary activity is to develop protocols and guidelines that ensure lo
 <!--~~~~~~~~~~~~~~~~~~~ 15. tim berners-lee at his desk in CERN, 1994 (15) ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image015.png"
-   style="width:25%"
-   alt="Tim Berners-Lee at his desk in CERN, 1994." />
+<img src="./images/image015.webp"
+  style="width:25%"
+  title="Tim Berners-Lee at his desk in CERN, 1994"
+  alt="Tim Berners-Lee at his desk in CERN, 1994." />
 </p>
 
 Tim Berners-Lee at his desk in CERN, 1994
@@ -6104,11 +6111,11 @@ This third design employs hover as a way to expose secondary links. This lets yo
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 98. hover with contact blog about home (175) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image098.png"
-   style="width:70%"
-   alt="Menu with contact, blog, about and home categories." />
+  style="width:70%"
+  title="Menu with contact, blog, about and home categories"
+  alt="Menu with contact, blog, about and home categories." />
 </p>
 
 <h4>CSS</h4>
