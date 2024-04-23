@@ -579,7 +579,7 @@ In the video below, you will hear from Bert Bos, the co-creator of CSS, about ho
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18b. css intro logo (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image018b.png"
+<img src="./images/image018b.webp"
    style="width:40%"
    title="CSS Intro logo"
    alt="CSS Intro logo." />
