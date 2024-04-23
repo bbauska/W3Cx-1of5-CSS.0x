@@ -464,10 +464,12 @@ In April 1995, [Inria](https://www.inria.fr/) became the first European W3C ho
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 16/17. picture of sr tim berners-lee (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
-  <img alt="Picture of Sir Tim Berners-Lee" 
-    src="./images/image016.png" width="45%">
+  <img alt="Picture of Sir Tim Berners-Lee."
+    title="Picture of Sir Tim Berners-Lee"
+    src="./images/image016.webp" width="45%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Turing award" 
+  <img alt="Turing award." 
+    title="Turing award"
     src="./images/image017.png"45%">
 </p>
 
@@ -546,7 +548,7 @@ In 1996, see what it looked like (or check it [online](https://web.archive.org/
   alt="Image of MSN.COM from 1996." />
 </p>
 
-For a fun time, warp check out an [archived version of that link above](https://web.archive.org/web/19961026005907/http:/msn.com/tutorial/default.html) for anyone &ldquo;new to the internet&rdquo;. See how this [MSN Web site](https://www.msn.com/)  (made with lots of CSS) looks like now!
+For a fun time, warp check out an <a href="https://web.archive.org/web/19961026005907/">archived version of that link above</a> for anyone &ldquo;new to the internet&rdquo;. See how this <a href="https://www.msn.com/">MSN Web site</a> (made with lots of CSS) looks like now!
 
 <h3>Before and after CSS</h3>
 
@@ -572,6 +574,7 @@ In the video below, you will hear from Bert Bos, the co-creator of CSS, about ho
 <p align="center" width="100%">
 <img src="./images/image018b.png"
    style="width:40%"
+   title="CSS Intro logo"
    alt="CSS Intro logo." />
 </p>
 
@@ -672,13 +675,13 @@ Stands for &ldquo;**H**yper**T**ext **M**arkup **L**anguage&rdquo;, and it is 
 ```
 <!DOCTYPE html>
 <html lang="en">
-     <head>
-        <meta charset="utf-8">
-       <title>My HTML page</title>
-    </head>
-    <body>
-        <p> This is an HTML document </p>
-    </body>
+  <head>
+    <meta charset="utf-8">
+    <title>My HTML page</title>
+  </head>
+  <body>
+    <p> This is an HTML document </p>
+  </body>
 </html>
 ```
 
