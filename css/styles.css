@@ -14,11 +14,11 @@ font-family: Bahnschrift, Inter, Consolas, "Andale Mono WT", "Andale Mono", "Luc
   "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
 */
 ul li {
-  padding: 10px;
+  padding: 14.5px;  /* 10px */
   line-height:110%;
 }
 ol li {
-  padding: 10px;
+  padding: 14.5px;  /* 10px */
   line-height:110%;
 }
 
