@@ -4690,6 +4690,7 @@ We discussed how to adjust the white space of these areas in Module 2.5, but in 
 <p align="center" width="100%">
 <img src="./images/image078.png"
   style="width:50%"
+  title="Padding, border & margin example: 100,100,100"
   alt="Padding, border & margin example: 100,100,100." />
 </p>
 
@@ -4795,8 +4796,9 @@ See below for examples of what each of these values will do to your text:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 79. text-align example (143) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image079.png"
-   style="width:50%"
-   alt="Example of the text-align options: 'left', 'right', 'center' and 'justify'." />
+  style="width:50%"
+  title="Example of the text-align options: 'left', 'right', 'center' and 'justify'"
+  alt="Example of the text-align options: 'left', 'right', 'center' and 'justify'." />
 </p>
 
 Note that this property can only apply to block elements like paragraphs, divs and headers.
@@ -4815,11 +4817,11 @@ You may have noticed that the text-align property sets the content&#39;s alignme
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 80. line-height example (144) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image080.png"
-   style="width:50%"
-   alt="Line-height example." />
+  style="width:50%"
+  title="Line-height example"
+  alt="Line-height example." />
 </p>
 
 <h4>HTML</h4>
@@ -4935,11 +4937,11 @@ img {
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 81. set max img width (147) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image081.png"
-   style="width:50%"
-   alt="Set max image width in css." />
+  style="width:50%"
+  title="Set max image width in css"
+  alt="Set max image width in css." />
 </p>
 
 <h4>HTML</h4>
@@ -5043,11 +5045,11 @@ img {
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 82.  display: block example (150) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image082.png"
-   style="width:50%"
-   alt="Display: block example." />
+  style="width:50%"
+  title="Display: block example"
+  alt="Display: block example." />
 </p>
 
 <h4>HTML</h4>
@@ -5118,22 +5120,22 @@ Here is what the above code looks like in a wide window:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 83. centered with margin wide example (151) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image083.png"
-   style="width:50%"
-   alt="Centered elements with margin wide example." />
+  style="width:50%"
+  title="Centered elements with margin wide example"
+  alt="Centered elements with margin wide example." />
 </p>
 
 Now, if you resize the window, the elements remain centered no matter what. Here is the above code in a narrow window:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 84. dynamically centered in narrow window (151) ~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image084.png"
-   style="width:30%"
-   alt="Dynamically centered element narrow example." />
+  style="width:30%"
+  title="Dynamically centered element narrow example"
+  alt="Dynamically centered element narrow example." />
 </p>
 
 <h4>External resources:</h4>
@@ -5150,11 +5152,11 @@ For this activity, you are going to practice some of the basic alignment propert
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 85.  practice with alignment (152) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image085.png"
-   style="width:50%"
-   alt="Practice with alighment." />
+  style="width:50%"
+  title="Practice with alighment"
+  alt="Practice with alighment." />
 </p>
 
 <h4>Here is some HTML and CSS:</h4>
@@ -5247,11 +5249,11 @@ The resulted HTML and CSS codes produce a Web page where elements are not very w
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 86. practice with alignment after picture (154) ~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image086.png"
-   style="width:50%"
-   alt="Practice with alignment after picture." />
+  style="width:50%"
+  title="Practice with alignment after picture"
+  alt="Practice with alignment after picture." />
 </p>
 
 <h4>To do this you will need to:</h4>
@@ -5309,11 +5311,11 @@ Elements underneath a floating object will automatically wrap themselves around 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 87. example of floating img and surrounding text (156) ~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image087.png"
-   style="width:55%"
-   alt="Example of floating img and surrounding text." />
+  style="width:55%"
+  title="Example of floating img and surrounding text"
+  alt="Example of floating img and surrounding text." />
 </p>
 
 You&#39;ll often want to set the width of a floating object so that you have tighter control over the space that object occupies. Remember that, by default, block HTML elements occupy the entire width of the page, even if there isn&#39;t actual content that extends that far. In this case, you&#39;ll want to set the width so that your element&#39;s size more accurately represents its content and you don&#39;t have unnecessary white space. 
@@ -5332,11 +5334,11 @@ p {
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 88. too many colors (157) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image088.png"
-   style="width:70%"
-   alt="Too many colors." />
+  style="width:70%"
+  title="Too many colors"
+  alt="Too many colors." />
 </p>
 
 <details>
@@ -5426,11 +5428,11 @@ One of the toughest parts of layouts with CSS is figuring out which elements to 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 89. float example (159) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image089.png"
-   style="width:50%"
-   alt="Float example." />
+  style="width:50%"
+  title="Float example"
+  alt="Float example." />
 </p>
 
 <h4>HTML</h4>
@@ -5527,11 +5529,11 @@ You might also need to adjust some widths, margins and paddings to get everythin
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 90. web page: yellow, green & red (161) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image090.png"
-   style="width:50%"
-   alt="Sample web page, yellow, green & red." />
+  style="width:50%"
+  title="Sample web page, yellow, green & red"
+  alt="Sample web page, yellow, green & red." />
 </p>
 
 **HINT**: Pay close attention to the IDs applied to the HTML elements
@@ -5706,11 +5708,11 @@ Note that position is not an inherited property so you will have to apply it ind
 <h4>Example 1:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ 91. use alignment &/or float over position (166) ~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image091.png"
-   style="width:50%"
-   alt="Use alignment &/or float rather than position." />
+  style="width:50%"
+  title="Use alignment &/or float rather than position"
+  alt="Use alignment &/or float rather than position." />
 </p>
 
 <h4>HTML</h4>
@@ -5780,10 +5782,10 @@ h3 {
 <h4>Example 2:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 92. relative positioning example (168) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image092.png"
   style="width:50%"
+  title="Relative positioning example with overlap"
   alt="Relative positioning example with overlap." />
 </p>
 
@@ -5833,13 +5835,12 @@ Here is [some HTML and CSS:](https://codepen.io/techie4good/pen/KgwRwg)
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 93. blue on light grey sample (169) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image093.png"
   style="width:50%"
+  title="Blue on light grey sample web page"
   alt="Blue on light grey sample web page." />
 </p>
-<!-- {width="5.0in" height="3.1431430446194226in"} -->
 
 <h4>CSS</h4>
 
@@ -5874,13 +5875,12 @@ p {
 Your task is to add CSS so that you achieve this final layout:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 94. blue on light grey sample web page (170) ~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image094.png"
   style="width:70%"
+  title="Blue on light grey sample web page"
   alt="Blue on light grey sample web page." />
 </p>
-<!-- {width="6.9375in" height="1.7673611111111112in"} -->
 
 You can do this with padding and margins, but limit yourself to only add position, top and left properties. Try resizing your browser window, and if you&#39;ve implemented everything correctly all the elements will stay in the same position relative to one another. 
 
@@ -5936,19 +5936,19 @@ One of the most important aspects of any Web site is the navigation menu. Over 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 95. web page starter sample (171) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image095.png"
-   style="width:50%"
-   alt="Web page starter sample." />
+  style="width:50%"
+  title="Web page starter sample"
+  alt="Web page starter sample." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 96. footing image (171) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image096.png"
-   style="width:50%"
-   alt="Footer for web page starter sample." />
+  style="width:50%"
+  title="Footer for web page starter sample"
+  alt="Footer for web page starter sample." />
 </p>
 
 <h4>Menu 1</h4>
@@ -6002,11 +6002,11 @@ color: #0E0B16;
 This menu design uses a vertical arrangement but still floats the overall menu object so it can sit level with your content. You can also see a tabbed format here where the page you are currently viewing directly connects to the menu item representing it. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 97. full pink menu (173) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image097.png"
-   style="width:70%"
-   alt="Full pink menu." />
+  style="width:70%"
+  title="Full pink menu"
+  alt="Full pink menu." />
 </p>
 
 <h4>CSS</h4>
