@@ -243,7 +243,9 @@ Have fun!
 
 ## W3C &ldquo;Front-End Web Developer&rdquo; professional certificate
 
-Professional Certificate programs are series of courses designed by industry leaders and/or top universities to build and enhance critical professional skills needed to succeed in today&#39;s most in-demand fields.
+Professional Certificate programs are series of courses designed by industry 
+leaders and/or top universities to build and enhance critical professional 
+skills needed to succeed in today&#39;s most in-demand fields.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~ 08. banner image for the fewd professional certificate program (08) ~~~~~~~~~~~~-->
@@ -254,31 +256,46 @@ Professional Certificate programs are series of courses designed by industry lea
   alt="Banner image for the FEWD professional certificate program." />
 </p>
 
-W3C has designed a <a href="https://www.edx.org/professional-certificate/w3cx-front-end-web-developer" target="_blank">"Front-End Web Developer" (FEWD) Professional
+W3C has designed a <a href="https://www.edx.org/professional-certificate/w3cx-front-end-web-developer" 
+target="_blank">"Front-End Web Developer" (FEWD) Professional
 Certificate</a> where you will learn all of the necessary skills needed to build interactive
 and responsive user experiences on the Web. This program will deepen
 your knowledge of the 3 foundational languages that power the Web:
 HTML5, CSS and JavaScript. The W3C FEWD program is composed of 5
 courses:
 <ol type="1">
-   <li><b>This course: <a href="https://github.com/bbauska/W3Cx-1of5-CSS.0x" target="_blank">CSS Basics</a> - introductory level</b>,<br/>&nbsp;</li>
-   <li><a href="https://github.com/bbauska/W3Cx-2of5-HTML5.0x" target="_blank">HTML5 and CSS Fundamentals</a> - introductory level,</b><br/>&nbsp;</li>
-   <li><a href="https://github.com/bbauska/W3Cx-3of5-HTML5.1x" target="_blank">HTML5 Coding Essentials and Best Practices</a> - intermediate level,<br/>&nbsp;</li>
-   <li><a href="https://github.com/bbauska/W3Cx-4of5-HTML5.2x" target="_blank">HTML5 Apps and Games</a> - advanced
-    level,<br/>&nbsp;</li>
-   <li><a href="https://github.com/bbauska/W3Cx-5of5-JS.0x" target="_blank">JavaScript Introduction</a> -
-    introductory level.</li>
+   <li><b>This course: <a href="https://github.com/bbauska/W3Cx-1of5-CSS.0x" target="_blank">
+     CSS Basics</a> - introductory level</b>,<br/>&nbsp;</li>
+   <li><a href="https://github.com/bbauska/W3Cx-2of5-HTML5.0x" target="_blank">
+     HTML5 and CSS Fundamentals</a> - introductory level,</b><br/>&nbsp;</li>
+   <li><a href="https://github.com/bbauska/W3Cx-3of5-HTML5.1x" target="_blank">
+     HTML5 Coding Essentials and Best Practices</a> - intermediate level,<br/>&nbsp;</li>
+   <li><a href="https://github.com/bbauska/W3Cx-4of5-HTML5.2x" target="_blank">
+     HTML5 Apps and Games</a> - advanced level,<br/>&nbsp;</li>
+   <li><a href="https://github.com/bbauska/W3Cx-5of5-JS.0x" target="_blank">
+     JavaScript Introduction</a> - introductory level.</li>
 </ol>
 
-To get a W3C FEWD professional certificate, you must successfully pass and receive a Verified Certificate in the five courses above. Note that the [dashboard link to Front-End Web Developer Program](https://courses.edx.org/dashboard/programs/98b7344e-cd44-4a99-9542-09dfdb11d31b/) displays upgrade links to all of the courses in the program AND offer the option to &ldquo;upgrade all remaining courses&rdquo; in bulk.
+To get a W3C FEWD professional certificate, you must successfully pass and 
+receive a Verified Certificate in the five courses above. Note that the 
+[dashboard link to Front-End Web Developer Program](https://courses.edx.org/dashboard/programs/98b7344e-cd44-4a99-9542-09dfdb11d31b/) 
+displays upgrade links to all of the courses in the program AND offer the option to 
+&ldquo;upgrade all remaining courses&rdquo; in bulk.
 
-<b><i>IMPORTANT:</i> If you already have a verified certificate in one or more of these courses, you do NOT need to re-take that course.</b>
+<b><i>IMPORTANT:</i> If you already have a verified certificate in one or more 
+of these courses, you do NOT need to re-take that course.</b>
 
 <h3>Web editors</h3>
 
-While any text editor, like NotePad or TextEdit, can be used to create Web pages, they don&#39;t necessarily offer a lot of help towards that end. Other options offer more facilities for error checking, syntax coloring and saving some typing by filling things out for you.
+While any text editor, like NotePad or TextEdit, can be used to create Web pages, 
+they don&#39;t necessarily offer a lot of help towards that end. Other options 
+offer more facilities for error checking, syntax coloring and saving some typing 
+by filling things out for you.
 
-One caveat, you need to make sure that whatever editor you choose will save to a &ldquo;plain text&rdquo; format (&ldquo;.txt&rdquo;). Some editors will save to other formats by default (.rtf, .doc, etc.) so you need to make sure you save your source code as plain text.
+One caveat, you need to make sure that whatever editor you choose will save to 
+a &ldquo;plain text&rdquo; format (&ldquo;.txt&rdquo;). Some editors will save 
+to other formats by default (.rtf, .doc, etc.) so you need to make sure you save 
+your source code as plain text.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. visual studio code logo (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -288,9 +305,15 @@ One caveat, you need to make sure that whatever editor you choose will save to a
   alt="Visual studio code logo." />
 </p>
 
-For my demos, I will be using a software program called [Visual Studio Code](https://code.visualstudio.com/). You can download it for free, and for any operating system.
+For my demos, I will be using a software program called 
+[Visual Studio Code](https://code.visualstudio.com/). You can download it for 
+free, and for any operating system.
 
-VS Code supports a large array of different Web technologies, but for this course we will be using it to develop our HTML and CSS. It also includes a feature called *intellisense* which you might have used in other code editors. It will suggest code for you to use, highlight keywords and a lot of other cool features you&#39;ll see me use throughout the course.
+VS Code supports a large array of different Web technologies, but for this 
+course we will be using it to develop our HTML and CSS. It also includes a 
+feature called *intellisense* which you might have used in other code editors. 
+It will suggest code for you to use, highlight keywords and a lot of other 
+cool features you&#39;ll see me use throughout the course.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10. codepen logo (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -309,19 +332,31 @@ Here are a few possibilities for Web editors:
 
 -   [Notepad](https://notepad-plus-plus.org/) - on Windows PC&#39;s
 
--   [Visual Studio Code](https://code.visualstudio.com/) - a free open-source editor that can run on any operating system. Many developers are already familiar with Visual Studio Code. Many coding videos in this course are demonstrated using Visual Studio Code.
+-   [Visual Studio Code](https://code.visualstudio.com/) - a free open-source 
+editor that can run on any operating system. Many developers are already familiar 
+with Visual Studio Code. Many coding videos in this course are demonstrated using 
+Visual Studio Code.
 
 -   [XCode](https://developer.apple.com/xcode/) - Mac developers may be familiar with XCode
 
--   TextEdit - this is available on Macs, but be sure you&#39;re [saving as plain text](https://discussions.apple.com/thread/1058381?answerId=5014514022#5014514022), not as a &ldquo;.rtf&rdquo; or &ldquo;.doc&rdquo; file.
+-   TextEdit - this is available on Macs, but be sure you&#39;re 
+[saving as plain text](https://discussions.apple.com/thread/1058381?answerId=5014514022#5014514022), 
+not as a &ldquo;.rtf&rdquo; or &ldquo;.doc&rdquo; file.
 
--   [Sublime Text](https://www.sublimetext.com/) - it is quite popular with developers, though there can be a bit of a learning curve to use its many features.
+-   [Sublime Text](https://www.sublimetext.com/) - it is quite popular with 
+developers, though there can be a bit of a learning curve to use its many features.
 
--   [BlueGriffon](http://bluegriffon.org/) - a WYSIWYG (&ldquo;What You See Is What You Get&rdquo;) content editor for the World Wide Web. Powered by Gecko, the rendering engine of Firefox, it&#39;s a modern and robust solution to edit Web pages in conformance to the latest Web Standards.
+-   [BlueGriffon](http://bluegriffon.org/) - a WYSIWYG (&ldquo;What You See 
+Is What You Get&rdquo;) content editor for the World Wide Web. Powered by Gecko, 
+the rendering engine of Firefox, it&#39;s a modern and robust solution to edit 
+Web pages in conformance to the latest Web Standards.
 
--   [Atom](https://atom.io/) - another cross platform editor, created by [GitHub](https://github.com/).
+-   [Atom](https://atom.io/) - another cross platform editor, created by 
+[GitHub](https://github.com/).
 
--   [Vim](https://www.vim.org/) or [Emacs](https://www.gnu.org/software/emacs/) - great editors on which the Internet was built, but if you&#39;re not already familiar with these, this isn&#39;t the time to try.
+-   [Vim](https://www.vim.org/) or [Emacs](https://www.gnu.org/software/emacs/) - 
+great editors on which the Internet was built, but if you&#39;re not already 
+familiar with these, this isn&#39;t the time to try.
 
 <h3>W3C validators</h3>
 
@@ -435,7 +470,6 @@ And then finally by the end of the module you write your own first piece of CSS.
 <h3 id="ch1-2-1">1.2.1 What is W3C?</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 14. w3c logo (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image014.png"
   style="width:58%"
@@ -443,12 +477,13 @@ And then finally by the end of the module you write your own first piece of CSS.
   alt="W3C logo." />
 </p>
 
-<h4>As steward of global Web standards, W3C&#39;s mission is to safeguard the openness, accessibility, and freedom of the World Wide Web from a technical perspective.</h4>
+<h4>As steward of global Web standards, W3C&#39;s mission is to safeguard the 
+openness, accessibility, and freedom of the World Wide Web from a technical 
+perspective.</h4>
 
 W3C&#39;s primary activity is to develop protocols and guidelines that ensure long-term growth for the Web. The widely adopted Web standards define key parts of what actually makes the World Wide Web work.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 15. tim berners-lee at his desk in CERN, 1994 (15) ~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image015.webp"
   style="width:25%"
@@ -460,11 +495,24 @@ Tim Berners-Lee at his desk in CERN, 1994
 
 <h4>A few history bits</h4>
 
-[Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/) wrote a [proposal](https://www.w3.org/History/1989/proposal.html) in 1989 for a system called the World Wide Web. He then created the first Web browser, server, and Web page. He wrote the first specifications for URLs, HTTP, and HTML.
+[Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/) wrote 
+a [proposal](https://www.w3.org/History/1989/proposal.html) in 
+1989 for a system called the World Wide Web. He then created the 
+first Web browser, server, and Web page. He wrote the first specifications 
+for URLs, HTTP, and HTML.
 
-In October 1994, Tim Berners-Lee founded the World Wide Web Consortium (W3C) at the Massachusetts Institute of Technology, Laboratory for Computer Science &lbrack;MIT/LCS&rbrack; in collaboration with [CERN](https://home.cern/), where the Web originated (see information on the [original CERN Server](https://www.w3.org/Daemon/)), with support from DARPA and the [European Commission](https://ec.europa.eu/index_en.htm).
+In October 1994, Tim Berners-Lee founded the World Wide Web Consortium (W3C) 
+at the Massachusetts Institute of Technology, Laboratory for Computer Science 
+&lbrack;MIT/LCS&rbrack; in collaboration with [CERN](https://home.cern/), 
+where the Web originated (see information on the 
+[original CERN Server](https://www.w3.org/Daemon/)), with support from DARPA 
+and the [European Commission](https://ec.europa.eu/index_en.htm).
 
-In April 1995, [Inria](https://www.inria.fr/) became the first European W3C host, followed by [Keio University of Japan](https://www.keio.ac.jp/) (Shonan Fujisawa Campus) in Asia in 1996. In 2003, [ERCIM](https://www.ercim.eu/) took over the role of European W3C Host from Inria. In 2013, W3C announced [Beihang University](https://ev.buaa.edu.cn/) as the fourth Host.
+In April 1995, [Inria](https://www.inria.fr/) became the first European W3C 
+host, followed by [Keio University of Japan](https://www.keio.ac.jp/) (Shonan 
+Fujisawa Campus) in Asia in 1996. In 2003, [ERCIM](https://www.ercim.eu/) 
+took over the role of European W3C Host from Inria. In 2013, W3C announced 
+[Beihang University](https://ev.buaa.edu.cn/) as the fourth Host.
 
 <h4>Sir Tim Berners-Lee named recipient of the ACM A.M. Turing Award</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -480,9 +528,16 @@ In April 1995, [Inria](https://www.inria.fr/) became the first European W3C ho
     src="./images/image017.png"45%">
 </p>
 
-On 4 April 2017, the ACM, the Association for Computing Machinery, named Sir Tim Berners-Lee, inventor of the Web and Director of the World Wide Web Consortium, as the recipient of the 2016 [ACM A.M. Turing Award](https://amturing.acm.org/). The Turing award is recognized as the highest distinction in Computer Science and is often referred to as the "Nobel Prize of Computing".
+On 4 April 2017, the ACM, the Association for Computing Machinery, named Sir 
+Tim Berners-Lee, inventor of the Web and Director of the World Wide Web 
+Consortium, as the recipient of the 2016 [ACM A.M. Turing Award](https://amturing.acm.org/). 
+The Turing award is recognized as the highest distinction in Computer Science 
+and is often referred to as the "Nobel Prize of Computing".
 
-Sir Tim is being given this award for inventing the World Wide Web, the first Web browser, and the fundamental protocols and algorithms allowing the Web to scale. The Web is considered one of the most influential computing innovations in history.
+Sir Tim is being given this award for inventing the World Wide Web, the first 
+Web browser, and the fundamental protocols and algorithms allowing the Web to 
+scale. The Web is considered one of the most influential computing innovations 
+in history.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-2">1.2.2 The Web is amazing!</h3>
