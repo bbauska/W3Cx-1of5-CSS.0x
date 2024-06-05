@@ -721,6 +721,7 @@ Web is a car, the email is a bicycle, etc.  Read <a
 href="https://www.lifewire.com/difference-between-the-internet-and-the-web-2483335" 
 target="_blank" rel="noopener noreferrer">this article</a> for more details about 
 the difference between Internet and the Web.</p>
+
 <p>The W3C community is passionate about creating free and open Web
 standards. This course discusses one of these Web standards, CSS, in
 detail. The next video, created in partnership with Microsoft, explains
@@ -1042,6 +1043,7 @@ rel="noopener noreferrer">Dave Shea</a> began a legendary project called <a
 href="http://www.csszengarden.com/" target="_blank" rel="noopener noreferrer">CSS Zen Garden</a> that provided a
 demonstration of "what can be accomplished through CSS-based design",
 until submissions stopped in 2013.</p>
+
 <p>In July 2020, Stephanie Eckles (<a
 href="https://moderncss.dev/" target="_blank" rel="noopener noreferrer">ModernCSS</a>) launched <a
 href="https://stylestage.dev/" target="_blank" rel="noopener noreferrer">Style Stage</a>, a modern CSS showcase
@@ -1051,6 +1053,7 @@ href="https://stylestage.dev/#contribute" target="_blank" rel="noopener noreferr
 stylesheet! Visit the <a href="https://stylestage.dev/styles/" target="_blank" rel="noopener noreferrer">"All
 Styles"</a> directory page and re-style by submitting an alternate style
 sheet.</p>
+
 <p>The videos below introduce you to the "<a
 href="http://www.csszengarden.com/" target="_blank" rel="noopener noreferrer">CSS Zen Garden</a>" Web project.</p>
 
@@ -1250,7 +1253,7 @@ Serif. If I add in this extra rule, I can hit save, and now when I refresh, I ca
 changes.</p>
 
 <p>Here is the <a
-href="https://codepen.io/techie4good/pen/oxQaVN" target="_blank" rel="noopener noreferrer">code</a> we wrote in
+href="https://codepen.io/techie4good/pen/oxQaVN" target="_blank" rel="noopener noreferrer">CodePen code</a> we wrote in
 this demo.</p>
 
 <h4>Here is the HTML part:</h4>
@@ -3995,7 +3998,6 @@ target="_blank" rel="noopener noreferrer">MDN "Pseudo-classes"</a> document.</p
   style="width:45%;"
   title="Pseudo-classes example"
   alt="Pseudo-classes example." />
-<!-- {width="6.9375in" height="3.0243055555555554in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-3-2">3.3.2 Activity - Applying pseudo classes</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4081,7 +4083,6 @@ need to have pseudo classes applied.</p>
   style="width:45%;"
   title="Resulting 'my page' in green"
   alt="Resulting 'my page' in green." />
-<!-- {width="6.9375in" height="4.472222222222222in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-1">3.4.1 Combining contextual selectors</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4136,7 +4137,6 @@ above rule are indicated by the red arrows.</p>
   style="width:45%;"
   title="Diagram pointing out which image tags will be styled"
   alt="Diagram pointing out which image tags will be styled." />
-<!-- {width="5.0in" height="3.765153105861767in"} -->
 
 <p>As your web pages get more complex, contextual selectors become more
 important, because it becomes increasingly unmanageable and inefficient
@@ -4152,7 +4152,6 @@ HTML with section tags like header, section, article and footer.</p>
   style="width:45%;"
   title="Example styles for paragraph and lists"
   alt="Example styles for paragraph and lists." />
-<!-- (width="6.9375in" height="2.9819444444444443in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-2">3.4.2 Activity - Contextual selectors</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4166,7 +4165,6 @@ the crutch of classes and IDs. </p>
   style="width:45%;"
   title="Scoping CSS without classes and id's"
   alt="Scoping CSS without classes and id's." />
-<!-- {width="6.9375in" height="2.673611111111111in"} -->
 
 <p><b>Look carefully at the CSS code:</b></p>
 
@@ -4223,7 +4221,6 @@ HTML elements based on the structure of the HTML.</p>
   style="width:45%;"
   title="Contextual selectors result part 1"
   alt="Contextual selectors result part 1." />
-<!-- {width="5.0in" height="1.4284284776902887in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 62. contextual selectors part 2 of 3 (108) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed border"
@@ -4232,7 +4229,6 @@ HTML elements based on the structure of the HTML.</p>
   style="width:45%;"
   title="Contextual selectors result part 2"
   alt="Contextual selectors result part 2." />
-<!-- {width="5.0in" height="3.7172167541557304in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 63. contextual selectors part 3 of 3 (109) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed border"
@@ -4241,43 +4237,57 @@ HTML elements based on the structure of the HTML.</p>
   style="width:45%;"
   title="Contextual selectors result part 3"
   alt="Contextual selectors result part 3." />
-<!-- {width="5.0in" height="1.16416447944007in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-3">3.4.3 Cascading styles</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Hopefully, at this point, it's become very clear why what we're
-working on is called a style sheet.</p>
+<p>Hopefully, at this point, it's become very clear why what we're working on 
+is called a style sheet.</p>
+
 <p>But where is the cascading part coming? CSS has a very specific
 hierarchy of style.</p>
+
 <p>So that you can write multiple rules that apply to the same HTML tag
 but the browser will still know how to make it look.</p>
+
 <p>But how does the browser decide when there's multiple rules?</p>
+
 <p>The answer: the most specific rule wins.</p>
+
 <p>But then, why would you want to have multiple rules for the same
 tag?</p>
+
 <p>A lot of times, you're going to have multiple style sheets.</p>
+
 <p>Imagine you have one parent style sheet that applies to your whole
 Web site, but then you have individual smaller style sheets that apply
 to the different pieces of it, like say, your blog or your gallery.</p>
+
 <p>Imagine, you want to highlight a specific piece of text.</p>
+
 <p>You could either write individual rules for each piece of text</p>
+
 <p>in your whole Web site —most of which will be very similar and then
 one would be different— or, you can write one style apply it to the body
 tag, so that every single piece of text is affected and then use an ID
 to target the exceptions.</p>
+
 <p>Because the ID tag is so much more specific than the body that rule
 wins.</p>
+
 <p>As you can imagine this is going to save you a lot of time and a lot
 of typing.</p>
-<p>And I'm sure you know computer scientists are all about
-efficiency.</p>
-<p>So, now let's take a closer look at how you can use the cascading
-nature of CSS to optimize your style.</p>
+
+<p>And I'm sure you know computer scientists are all about efficiency.</p>
+
+<p>Now let's take a closer look at how you can use the cascading nature of CSS 
+to optimize your style.</p>
+
 <p>Now that you've learned all these different selectors, you've
 probably noticed that there is nothing preventing one from creating
 rules that overlap, meaning creating rules that apply style to the same
 HTML elements. In fact, it's very common for HTML elements on a page to
-have multiple CSS rules competing for importance. </p>
+have multiple CSS rules competing for importance.</p>
+
 <p>Thanks to the "cascading" part of "Cascading Style Sheets", this
 isn't a problem. That is because CSS has a way to figure out which rule
 "wins" when styles are conflicting. CSS actually computes a "weight" for
@@ -4314,7 +4324,6 @@ Cascading order applies with many overlapping rules:</p>
   style="width:45%;"
   title="Overlapping rules example with cascading order"
   alt="Overlapping rules example with cascading order." />
-<!-- {width="6.9375in" height="2.9819444444444443in"} -->
 <br><br>
 <details open>
   <summary>CSS code extract!</summary>
@@ -4362,7 +4371,6 @@ Cascading order applies with many overlapping rules:</p>
   style="width:45%;"
   title="Managing cascading order"
   alt="Managing cascading order." />
-<!-- {width="5.0in" height="2.765265748031496in"} -->
 
 <p><b>... and specifically, its CSS code:</b></p>
 
@@ -4405,7 +4413,6 @@ specific so that you achieve this final result:</p>
   style="width:45%;"
   title="Cascading order final solution, no interaction"
   alt="Cascading order final solution, no interaction." />
-<!-- (images/media/image67.webp){width="5.0in" height="3.7007010061242345in"} -->
 
 <p>The image below shows when you hover "paragraph 4". The same hover should apply to ALL p tags.</p>
 
@@ -4443,7 +4450,6 @@ specific so that you achieve this final result:</p>
   style="width:45%;"
   title="Cascading style practice with hover"
   alt="Cascading style practice with hover." />
-<!-- (images/media/image68.webp){width="5.0in" height="3.7062062554680666in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-5-1">3.5.1 Images</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4535,7 +4541,6 @@ like this "Bad Image" example:</p>
   style="width:40%;"
   title="Bad image example for text in image"
   alt="Bad image example for text in image." />
-<!-- {width="5.0in";height="1.2087084426946633in"} -->
 
 <h4>HTML</h4>
 
@@ -4861,7 +4866,6 @@ to keep in mind when designing forms:</p>
   style="width:45%;"
   title="Sample sign-up form"
   alt="Sample sign-up form." />
-<!-- {width="3.7604166666666665in" height="1.84375in"} -->
 
 <h4>HTML</h4>
 
@@ -4932,7 +4936,6 @@ see in action in the Code Pen below:</p>
   style="width:45%;"
   title="Sample sign up form"
   alt="Sample sign up form." />
-<!-- {width="5.0in" height="3.136142825896763in"} -->
 
 <h4>HTML</h4>
 
@@ -5030,7 +5033,6 @@ short.</p>
   style="width:45%;"
   title="Sign-up form for minimalists"
   alt="Sign-up form for minimalists." />
-<!-- {width="5.0in" height="3.136142825896763in"} -->
 
 <h4>HTML</h4>
 
@@ -5118,7 +5120,6 @@ simple. </p>
   style="width:45%;"
   title="Sign-up form with white space"
   alt="Sign-up form with white space." />
-<!-- {width="5.0in" height="1.9464468503937007in"} -->
 
 <h4>HTML</h4>
 
@@ -5429,7 +5430,6 @@ must have each of the following:</p>
   style="width:45%;"
   title="Kasey Champion's resume solution part 1"
   alt="Kasey Champion's resume solution part 1." />
-<!-- {width="5.0in" height="3.950450568678915in"} -->
 
 <h3 id="ch3-7-1">Module 3 summary</h3>
 
@@ -5526,8 +5526,6 @@ position elements on a page.</p>
   style="width:55%;"
   title="Anatomy of the box model"
   alt="Anatomy of the box model." />
-<!--  style="width:546px;height:356px;" -->
-<!-- {width="5.0in" height="1.9959962817147856in"} -->
 
 <ul>
   <li><strong>element</strong> - This is <u>always</u> contained within a rectangle, 
@@ -5557,8 +5555,6 @@ position elements on a page.</p>
   style="height:25%;"
   title="Margin and padding example"
   alt="Margin and padding example." />
-<!--  style="height:3.0in;" -->
-<!-- {width="5.0in" height="2.8143143044619423in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 78. padding, border, & margin example (141) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -5567,7 +5563,6 @@ position elements on a page.</p>
   style="width:45%"
   title="Padding, border & margin example: 100,100,100"
   alt="Padding, border & margin example: 100,100,100." />
-<!-- (width="5.0in" height="2.8143143044619423in"} -->
 
 <h4>HTML</h4>
 
@@ -5649,10 +5644,9 @@ margin: 10px;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch4-2-1">4.2.1 The alignment property</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>One of the simplest ways to align content is to use the
-direct text-align property. This can help you set the alignment of text
-or inline content within the context of their containing HTML
-element.</p>
+<p>One of the simplest ways to align content is to use the direct text-align 
+property. This can help you set the alignment of text or inline content within 
+the context of their containing HTML element.</p>
 
 <h4>text-align</h4>
 
@@ -5777,19 +5771,19 @@ h4 {
 
 <h4>International considerations</h4>
 
-<p>Please do not use text-align indiscriminately. If there's a
-possibility that your site will need to be translated into a language
-that uses the Arabic, Hebrew, or Thaana scripts (which read from right
-to left), it creates difficulties to have to change all the
- right values to left and vice versa.</p>
-<p>Most, but not yet all, major browsers support the
-values start and end. The start value aligns text with the side of the
-line where you start reading, whether that's on the left for English or
-the right for Urdu. They also make more sense for use with vertical
-text, such as for Japanese and Mongolian. Once these values are widely
-supported by browsers, they will often be a better choice
-than right and left, since there's no need to change the values for
+<p>Please do not use text-align indiscriminately. If there's a possibility that 
+your site will need to be translated into a language that uses the Arabic, Hebrew, 
+or Thaana scripts (which read from right to left), it creates difficulties to have 
+to change all the right values to left and vice versa.</p>
+
+<p>Most, but not yet all, major browsers support the values start and end. The 
+start value aligns text with the side of the line where you start reading, 
+whether that's on the left for English or the right for Urdu. They also make 
+more sense for use with vertical text, such as for Japanese and Mongolian. Once 
+these values are widely supported by browsers, they will often be a better 
+choice than right and left, since there's no need to change the values for
 pages as the language changes.</p>
+
 <p>Also, note that CSS will in the future provide better support for
 justification in languages where words are not separated by spaces, such
 as Chinese and Thai, or languages where words are separated by special
@@ -5819,6 +5813,7 @@ height property</a>]</p>
 <p>You can use pixel values for both width and height, but you'll most
 often want to use percentages to set these so that your elements grow
 and shrink as appropriate based on the screen size.</p>
+
 <p>For example, if we set the width of a paragraph to 30% as you resize
 the browser window, you'll see how that element dynamically resizes.
 That's because when you use percentages, the size is computed based on
@@ -5828,21 +5823,24 @@ target="_blank" rel="noopener noreferrer">containing block</a>",
 or the element that contains the one you're styling. If your element is
 just within the body tag, the width is computed based on the
 relationship with the screen width.</p>
+
 <p>Things are a bit more complicated with using a percentage to set an
 element's height. This is because typically the body's height is not
 specified, so if you use a percentage the size won't adjust.</p>
+
 <p>min-width, max-width, min-height, max-height</p>
+
 <p>[<em>Documentation</em>: <a
 href="https://www.w3.org/TR/CSS22/visudet.html#min-max-widths" 
-target="_blank" rel="noopener noreferrer">max and
-min width</a> and <a
+target="_blank" rel="noopener noreferrer">max and min width</a> and <a
 href="https://www.w3.org/TR/CSS22/visudet.html#min-max-heights" 
-target="_blank" rel="noopener noreferrer">max and
-min height</a>]</p>
+target="_blank" rel="noopener noreferrer">max and min height</a>]</p>
+
 <p>Setting width and height with percentages will save you work because
 your design will automatically optimize for the user's screen size.
 However, some elements can't grow and shrink as dynamically as text
 can.</p>
+
 <p>For example, images will get "pixelated" if you let them grow too
 large, and they can look really distorted. Thankfully, you can set max
 and min width and heights. This way, you can set a range for your image
@@ -6361,7 +6359,7 @@ div {
 elements to apply a float property to.</p>
 
 <h4>Here is <a href="https://codepen.io/techie4good/pen/xEbWrp" target="_blank" 
-rel="noopener noreferrer">some HTML and CSS</a>:</h4>
+rel="noopener noreferrer">CodePen with some HTML and CSS</a>:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 89. float example (159) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6800,8 +6798,9 @@ h3 {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>For this activity, we are going to focus on using relative
 positioning to adjust how items sit on the page.</p>
+
 <p>Here is <a href="https://codepen.io/techie4good/pen/KgwRwg" target="_blank"
-  rel="noopener noreferrer">some HTML and CSS:</a></p>
+  rel="noopener noreferrer">CodePen with some HTML and CSS:</a></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 93. blue on light grey sample (169) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -8350,12 +8349,14 @@ the CSS test suites at W3C.</p>
 or "bad", most of that is subjective. Instead, it's better to think of
 individual pieces of a design as "effective" or "ineffective" according
 to the demographic and the task they are trying to achieve. </p>
+
 <p>Web sites can become pretty complicated if you add many design
 elements, and it can be intimidating to figure out how to get started
 when thinking about how to present your Web page. One of the best ways
 to get started is to think about each of the individual HTML elements
 we've learned how to style so far, and how to style according to your
-specific goals. </p>
+specific goals.</p>
+
 <p>In this module, we'll discuss how to style the three most fundamental
 design aspects of a Web page: typography, color, and white space.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8366,17 +8367,18 @@ than two different typefaces per page. Typically, this means that you
 select 1 bold typeface for titles or other eye-catching pieces of text,
 and a neutral typeface for large blocks or the body text of your
 page. </p>
+
 <p>There is no official taxonomy of fonts, and not all browsers support
 all fonts, so it can be difficult to get your font looking exactly the
 way you want on all platforms. While you’re starting out, it’s best to
 stick to the most popular and commonly used fonts. <a
 href="https://www.w3.org/Style/Examples/007/fonts.en.html" target="_blank" 
 rel="noopener noreferrer">Here is a
-good list </a>of fonts for English pages and the appropriate fall-backs
+good list of fonts for English pages</a> and the appropriate fall-backs
 to get you started. On the Web, you can find other lists of available
-system fonts for non-Latin scripts, such as <a
-href="https://r12a.github.io/scripts/fontlist/" target="_blank" rel="noopener 
-noreferrer">this one</a>.</p>
+system fonts for <a href="https://r12a.github.io/scripts/fontlist/" 
+target="_blank" rel="noopener noreferrer"">non-Latin scripts</a>.</p>
+
 <p>As you get more comfortable, you can branch out to more exotic fonts.
 Remember that, when you are building your font-family set, you will want
 to always include a Web safe font alternative for an exotic font in case
@@ -8507,7 +8509,7 @@ color wheel:</p>
   is comprised mostly of analogous colors, or mostly of complementary colors. 
   Thankfully, there are lots of wonderful tools to help you do this! One we 
   suggest is <a href="https://www.paletton.com/" target="_blank" rel="noopener 
-  noreferrer">Palleton</a>, where you can choose a starting color. It will 
+  noreferrer">Paletton</a>, where you can choose a starting color. It will 
   generate for you a set of other colors that according to color theory will 
   look pleasing together.</li>
 </ul>
@@ -8579,16 +8581,16 @@ and again, especially because their craft is so amazing. Just try out
 any goldsmith-website at your location and let me know if you have
 similar experiences. Would be happy if you share them with me :) Here is
 one example close to my location: <a href="http://1a-trauring-area.de/"
-class="uri" target="_blank" rel="noopener noreferrer">http://1a-trauring-area.de/</a></p>
+class="uri" target="_blank" rel="noopener noreferrer">1a trauring area</a></p>
 <p>I tried checking those around my area, I found this <a
 href="https://www.kolanus.de/"
-class="uri" target="_blank" rel="noopener noreferrer">https://www.kolanus.de/</a> and this <a
+class="uri" target="_blank" rel="noopener noreferrer">kolanus.</a> and this <a
 href="https://www.trauringstudio-bayreuth.de/"
-class="uri" target="_blank" rel="noopener noreferrer">https://www.trauringstudio-bayreuth.de/</a> and I think they
+class="uri" target="_blank" rel="noopener noreferrer">trauringstudio bayreuth</a> and I think they
 are okay, but I think this <a href="https://schmuckwerkstatt-robert.de/"
-class="uri" target="_blank" rel="noopener noreferrer">https://schmuckwerkstatt-robert.de/</a> and this <a
+class="uri" target="_blank" rel="noopener noreferrer">schmuckwerkstatt robert</a> and this <a
 href="https://juwelier-boehnlein.de/ueber-uns/bayreuth-trend/"
-class="uri" target="_blank" rel="noopener noreferrer">https://juwelier-boehnlein.de/ueber-uns/bayreuth-trend/</a>.</p>
+class="uri" target="_blank" rel="noopener noreferrer">juwelier-boehnlein bayreuth-trend</a>.</p>
 <p>I gave up searching for the nicht sehr gut ones. Cheers!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-3-1">5.3.1 Web accessibility</h3>
@@ -8635,13 +8637,12 @@ disabilities. Some examples of Web accessibility features include:</p>
   <li>People who are not fluent in the language of your particular website.</li>
 </ul>
 
-<p>The Web is an increasingly important resource in many aspects of
-life: education, employment, government, commerce, health care,
-recreation, and more. When Web pages, Web technologies, Web tools, or
-Web applications are badly designed, they can create barriers that
-exclude people from using the Web. More information is available in
-the <a href="https://www.w3.org/standards/webdesign/accessibility" target="_blank" rel="noopener noreferrer">W3C
-Accessibility</a> overview.</p>
+<p>The Web is an increasingly important resource in many aspects of life: education, 
+employment, government, commerce, health care, recreation, and more. When Web pages, 
+Web technologies, Web tools, or Web applications are badly designed, they can create 
+barriers that exclude people from using the Web. More information is available in the 
+<a href="https://www.w3.org/standards/webdesign/accessibility" target="_blank" rel="noopener noreferrer">
+W3C Accessibility</a> overview.</p>
 
 <h4>First steps in Web accessibility</h4>
 
@@ -8652,7 +8653,7 @@ tips and information from W3C/WAI:</p>
 
 <ul>
   <li><a href="https://www.w3.org/WAI/gettingstarted/tips/" target="_blank" 
-  rel="noopener noreferrer">Tips for Getting Started with Web Accessibility, and</a><br></li>
+  rel="noopener noreferrer">Tips for Getting Started with Web Accessibility</a>, and<br></li>
   <li><a href="https://www.w3.org/WAI/eval/preliminary" target="_blank" 
   rel="noopener noreferrer">Easy Checks - A First Review of Web Accessibility.</a></li>
 </ul>
@@ -8733,6 +8734,7 @@ have two buttons, one that is green for "agree" and one that is red for
 "disagree", it can be almost impossible for some users to decide which
 to click! In this case, you'll want to make sure they are both clearly
 labeled, or the shapes of the buttons are distinctly different.</p>
+
 <p>Thankfully, The Paciello Group has created a "<a
 href="https://www.tpgi.com/color-contrast-checker/" target="_blank" rel="noopener noreferrer">
 Color Contrast Analyser (CCA)</a>" tool you can download to check if your chosen colors
@@ -8755,9 +8757,8 @@ different. These users will typically do one of two things:</p>
   especially difficult to scroll through to read.</li>
 </ul>
 
-<p>In general, you will want to make sure your font size is at least
-1em. By using em you can let the text size grow based on the user's
-browser settings. </p>
+<p>In general, you will want to make sure your font size is at least 1em. By using 
+em you can let the text size grow based on the user's browser settings.</p>
 
 <h4>External resources</h4>
 
@@ -8778,6 +8779,7 @@ from cultures different to your own, or who use different languages or
 writing systems, but you have to ensure that any content or application
 that you design or develop is ready to support the international
 features that they will need.</p>
+
 <p>'Internationalization' is sometimes abbreviated to 'i18n' in English,
 because there are 18 characters between the 'i' and the 'n'.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8793,21 +8795,25 @@ because there are 18 characters between the 'i' and the 'n'.</p>
 Internationalization Activity</a> works with W3C working groups and
 liaises with other organizations to make it possible to use Web
 technologies with different languages, scripts, and cultures.</p>
+
 <p>People who use non-Latin writing systems or use the Latin script for
 certain languages, often have specific typographic needs that differ
 from text in, say, English. As you learn more about CSS, you will find
 that it provides many features to support those needs.</p>
+
 <p>Whereas HTML markup provides structure for the content of your page,
 CSS bring the expressive power to make the page look the way a person
 from a particular culture would expect.</p>
+
 <h3 id="examples">Examples</h3>
+
 <p>Here are some examples of things that can be done with CSS;</p>
 
 <ul>
   <li>It is already possible to make text run vertically in CSS for languages such 
     as Chinese, Japanese, Korean and Mongolian. For  more information see 
 	<a href="https://www.w3.org/International/articles/vertical-text/" target="_blank" 
-	rel="noopener noreferrer"> Styling vertical Chinese, Japanese, Korean and Mongolian 
+	rel="noopener noreferrer">Styling vertical Chinese, Japanese, Korean and Mongolian 
 	text</a>,</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8932,8 +8938,7 @@ However, this works best when you keep the distinction between semantics
 <p>Don't use CSS to apply direction for bidirectional or right-to-left
 scripts, such as content in Arabic, Hebrew, Persian, Urdu, Divehi,
 etc. <a href="https://www.w3.org/International/questions/qa-bidi-css-markup" 
-target="_blank" rel="noopener noreferrer">Use
-HTML markup instead</a>.</p>
+target="_blank" rel="noopener noreferrer">Use HTML markup instead</a>.</p>
 
 <h4>Internationalization quick tips:</h4>
 
@@ -9108,12 +9113,12 @@ find some older Web pages where these elements were more prevalent.</p>
 <p>discussion posted 2 months ago by <a
 href="https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2020/discussion/forum/users/6016861" 
 target="_blank" rel="noopener noreferrer"><b>blither</b></a></p>
-<p><a
-href="https://web.archive.org/web/20000125012558/http:/www.paypal.com/cgi-bin/webscr?cmd=index" 
-target="_blank" rel="noopener noreferrer">PayPal
-site from 1999</a> uses a table for layouts. This would now be achieved
+
+<p><a href="https://web.archive.org/web/20000125012558/http:/www.paypal.com/cgi-bin/webscr?cmd=index" 
+target="_blank" rel="noopener noreferrer">PayPal site from 1999</a> uses a table for layouts. This would now be achieved
 using divs or the newer HTML5 tags such as section, article, header,
 footer etc.</p>
+
 <p>I also found the <a
 href="https://web.archive.org/web/19970412141359/http:/www.abc.net.au/" target="_blank" 
 rel="noopener noreferrer">ABC News (Australia) in 1997</a>, which uses frames and has some very dated
@@ -9126,71 +9131,88 @@ only change colour when hovered over, rather than having the animation run conti
 <p>discussion posted a day ago by <a
 href="https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2020/discussion/forum/users/2254953" 
 target="_blank" rel="noopener noreferrer"><b>AllaPetr</b></a></p>
+
 <p><a
 href="https://web.archive.org/web/20040617105540/http:/shopndrop.com/crinfo.php?seqtag=1" 
 target="_blank" rel="noopener noreferrer">
-https://web.archive.org/web/20040617105540/http://shopndrop.com/crinfo.php?seqtag=1</a> This
-is an old version of the website of the Library of Congress. I think it has a very rigid design 
-with lots of tables.</p>
+shopndrop.com</a> This is an old version of the website of the Library of Congress. 
+I think it has a very rigid design with lots of tables.</p>
+
 <p>For improvement, I would try to vary the presentation of the content
 by adding some color, images and different fonts. A menu bar would be
 more attractive and better organized as a structure.</p>
-<h4>
-activity
-</h4>
+
+<h4>activity</h4>
+
 <p>discussion posted about a month ago by <a
 href="https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2020/discussion/forum/users/24574149" 
 target="_blank" rel="noopener noreferrer"><b>Naenae3</b></a></p>
+
 <p>I suppose it's boring, but this site also uses a table for layout. <a
 href="https://web.archive.org/web/19961227203847/http:/ubl.com/" target="_blank" rel="noopener 
-noreferrer">https://web.archive.org/web/19961227203847/http://ubl.com/</a> You
-could easily fix that problem using divs or flex box.</p>
+noreferrer">ubl.com</a> You could easily fix that problem using divs or flex box.</p>
+
 <p>Just for fun, I went looking for sites with animation. This one has
 some animation, but not heavily. <a
 href="https://web.archive.org/web/19961223105317/http:/www.feedmag.com/" target="_blank" 
-rel="noopener noreferrer">https://web.archive.org/web/19961223105317/http://www.feedmag.com/</a></p>
+rel="noopener noreferrer">Feed Mag</a></p>
+
 <p>Also has some animation, but not much. <a
 href="https://web.archive.org/web/20131021205646/http:/www.wikihow.com/Main-Page" target="_blank" 
-rel="noopener noreferrer">https://web.archive.org/web/20131021205646/http://www.wikihow.com/Main-Page</a></p>
+rel="noopener noreferrer">Wiki How Main Page</a></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-5-1">5.5.1 The current state of Web design</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Now, it's 2016. And I say the year because the design trends I am
 going to talk about are really specific to this time period now.</p>
+
 <p>Like anything, design grows with time. And something new will come
 along pretty soon.</p>
+
 <p>But I want to talk about current design trends so you have a snapshot
 of where we are at now and where we might be going.</p>
+
 <p>These days, the big ticket item is flat design, minimalism. We just
 came out of the era of a lot of drop shadows, and beveled edges, and now
 everybody wants very nice clean Web sites.</p>
+
 <p>You'll also see a lot of very simplistic interaction models.</p>
+
 <p>A lot of Web pages are just one long scroll.</p>
+
 <p>That's because, if you think about your Web page on any screen, a
 long scroll does a really good job adapting, because it optimizes for
 vertical space, which works on your mobile phone or your desktop, and it
 doesn't put a lot of pressure on horizontal space, which can be so
 varied based on the screen.</p>
+
 <p>When you're designing your Web site, you might want to go out and
 look at some example sites and you're going to see a lot of
 patterns.</p>
+
 <p>You're going to see a lot of simple clean color schemes, you're not
 going to see very many drop shadows, and you're going to see a lot of
 long scrolling Web pages.</p>
+
 <p>You don't have to design your Web pages this way, but that's where
 things are going, and if you want a nice modern look, it's a good idea
 to kind of focus on these principals.</p>
+
 <p>The other thing that has come really into popularity is a focus on
 typography.</p>
+
 <p>These days, we have a lot of options for what fonts you can use on a
 page, not only are there the Web safe fonts we've been talking about all
 along, but there's a lot of new services that give you access to even
 more fonts.</p>
+
 <p>Now, don't go crazy, you're going to only want to pick one, maybe two
 fonts, for your page, but picking a nice font can have a real impact on
 how the user consumes your content.</p>
+
 <p>And you'll see that a lot of people sort of pick signature fonts
 especially for their title, or for their logo.</p>
+
 <p>If you keep these basic ideas in mind, long scrolling, flat designing
 and typography, you're probably going to end up with a really nice
 modern page.</p>
@@ -9237,6 +9259,7 @@ page with links that just jump to different portions of the page. The
 reason for this is less about fashion and more about technological
 developments. Especially on touch devices, scrolling is a more natural
 human way to interact with a page.</p>
+
 <p>This can be accomplished with something called "internal links". This
 is where you load the entire page as one long site and the links at the
 top simply jump to different locations within the site. To do this, you
@@ -9609,18 +9632,7 @@ layout system, optimized for user interface design. In the grid layout
 model, the children of an element (the ‘grid container’) can be
 positioned into arbitrary slots in a predefined flexible or fixed-size
 layout grid.</p>
-If that sounds a bit too abstract, here is another way of looking at it.
-The idea behind the Grid module is that you split the <a
-href="https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2020/jump_to_id/61920cda43ca49cca2fcf26e763bbe16" 
-target="_blank" rel="noopener noreferrer">box</a> that
-makes up an element into many individual ‘slots’, arranged in a matrix,
-and separated from each other by (invisible) horizontal and vertical
-lines. You do that with a property called 'grid', which contains the
-desired number of rows and columns and/or their sizes. Each child
-element goes into a slot, so that they end up aligned as in a table. But
-you have full control over which slot they go into, you can change their
-order, they can span more than one row or column, and you can leave some
-slots empty.
+
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 116. grid module (234) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -9632,6 +9644,7 @@ slots empty.
 
 <p>The Grid module provides several different ways to define such a grid
 and to place the child elements. Too many, in fact, to present here.</p>
+
 <p>Because they can refer to a previously defined grid of horizontal and
 vertical lines, the properties from the CSS Grid module provide more
 control over the alignment of elements than most other properties in
@@ -9640,26 +9653,27 @@ properties, while also allowing elements to be displayed out of order.
 As such they are especially appreciated for (Web) applications with user
 interfaces that are made with HTML and CSS. The Grid module is not yet
 the ‘<a
-href="https://en.wikipedia.org/wiki/Grid_(graphic_design)" target="_blank" rel="noopener noreferrer">design
-grid</a>’ that typographers want for the layout of magazines and books,
+href="https://en.wikipedia.org/wiki/Grid_(graphic_design)" target="_blank" rel="noopener noreferrer">
+design grid</a>’ that typographers want for the layout of magazines and books,
 but it is a first step. (E.g., one obvious thing to do, applying grid
 properties to an HTML table, doesn't work, because the properties do not
 handle nested elements yet.) Even though this is only level 1 of the
 module, it is well worth trying out.</p>
+
 <p>The properties from the Grid module have only been available in major
 browsers since mid 2017 (see the <a
-href="https://caniuse.com/css-grid" target="_blank" rel="noopener noreferrer">status of browser support</a>). But
-the ideas behind the Grid module aren't new. From the start of CSS,
-there have been proposals to use CSS properties to define a template or
-matrix to guide the layout of elements, e.g.: <a
-href="http://www.w3.org/TR/WD-layout" target="_blank" rel="noopener noreferrer">Frame-based layout</a>, <a
-href="http://www.w3.org/TR/2005/WD-css3-layout-20051215/" target="_blank" rel="noopener noreferrer">Advanced
-Layout</a> (later called <a
-href="http://www.w3.org/TR/css-template-3/" target="_blank" rel="noopener noreferrer">Template Layout</a>), <a
-href="https://github.com/gss" target="_blank" rel="noopener noreferrer">Grid Style Sheets</a> and <a
-href="https://constraints.cs.washington.edu/web/ccss-uwtr.pdf" target="_blank" rel="noopener noreferrer">Constraint
-CSS</a>. But only recently has technology become good enough to support
-some (not all!) of those ideas.</p>
+href="https://caniuse.com/css-grid" target="_blank" rel="noopener noreferrer">
+status of browser support</a>). But the ideas behind the Grid module aren't new. 
+From the start of CSS, there have been proposals to use CSS properties to define 
+a template or matrix to guide the layout of elements, e.g.: 
+<a href="http://www.w3.org/TR/WD-layout" target="_blank" rel="noopener noreferrer">Frame-based layout</a>, 
+<a href="http://www.w3.org/TR/2005/WD-css3-layout-20051215/" target="_blank" rel="noopener noreferrer">
+Advanced Layout</a> (later called 
+<a href="http://www.w3.org/TR/css-template-3/" target="_blank" rel="noopener noreferrer">
+Template Layout</a>), <a href="https://github.com/gss" target="_blank" rel="noopener noreferrer">
+Grid Style Sheets</a> and <a href="https://constraints.cs.washington.edu/web/ccss-uwtr.pdf" 
+target="_blank" rel="noopener noreferrer">Constraint CSS</a>. But only recently has 
+technology become good enough to support some (not all!) of those ideas.</p>
 
 <h3>A few resources</h3>
 
@@ -9736,8 +9750,9 @@ the answers to the following questions:</p>
 <p>discussion posted about 20 hours ago by <a
 href="https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2020/discussion/forum/users/2254953" 
 target="_blank" rel="noopener noreferrer"><b>AllaPetr</b></a></p>
+
 <p><a href="https://www.joshwcomeau.com/"
-class="uri" target="_blank" rel="noopener noreferrer">https://www.joshwcomeau.com/</a> I 
+class="uri" target="_blank" rel="noopener noreferrer">Josh W Comeau</a> I 
 just discovered this web page among the comments below. I think this is one of the most
 attractive and balanced websites I have seen. I like the choice of
 colors because it is both simple and warm. Sometimes web pages can feel
@@ -9752,7 +9767,7 @@ minimalist design of the page. Yes, I think it is accessible.</p>
 <p>discussion posted a day ago by <a
 href="https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2020/discussion/forum/users/42009473" 
 target="_blank" rel="noopener noreferrer"><b>LauraLucie</b></a></p>
-<p><a href="https://www.apple.com/" target="_blank" rel="noopener noreferrer">https://www.apple.com</a> 
+<p><a href="https://www.apple.com/" target="_blank" rel="noopener noreferrer">Apple.com</a> 
 For me they are doing the best - as one of the first, they simplified their website, as much as their 
 products. I would love to have my website as simply and clean designed.</p>
 
@@ -9761,9 +9776,10 @@ products. I would love to have my website as simply and clean designed.</p>
 <p>discussion posted 23 days ago by <a
 href="https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2020/discussion/forum/users/9451919" 
 target="_blank" rel="noopener noreferrer"><b>therockitscientist</b></a></p>
+
 <p><a href="https://www.joshwcomeau.com/blog/how-i-built-my-blog/" class="uri" target="_blank" 
-rel="noopener noreferrer">https://www.joshwcomeau.com/blog/how-i-built-my-blog/</a></p>
-<p>always have great advice on how he design his own site.</p>
+rel="noopener noreferrer">Josh W Comeau How I Built My Blog</a> always have great advice on how 
+he design his own site.</p>
 
 <h4>Milk! Records</h4>
 
@@ -9837,8 +9853,8 @@ target="_blank" rel="noopener noreferrer"><b>MattN77</b></a></p>
 mentioned throughout this course, there is still a lot more to learn. Here are some 
 courses we recommend you check out next as part of the 
 <a href="https://www.edx.org/professional-certificate/w3cx-front-end-web-developer" 
-target="_blank" rel="noopener noreferrer" aria-label="W3C 'Front-end Web Developer' Professional Certificate program">W3C "Front-End Web Developer" Professional 
-Certificate</a> program:</p>
+target="_blank" rel="noopener noreferrer" aria-label="W3C 'Front-end Web Developer' Professional Certificate program">
+W3C "Front-End Web Developer" Professional Certificate</a> program:</p>
 
 <ol type="1" start="2">
   <li>HTML5 &amp; CSS Fundamentals,<br></li>
