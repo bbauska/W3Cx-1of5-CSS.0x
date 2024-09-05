@@ -11,11 +11,13 @@ img.displayed {
 
 ul li {
   font-size: 14.5px;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   padding: 14.5px;  /* 10px */
   line-height:110%;
 }
 ol li {
   font-size: 14.5px;
+  font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   padding: 14.5px;  /* 10px */
   line-height:110%;
 }
@@ -48,7 +50,7 @@ a:link {
   text-decoration: none;
 }
 a:visited {
-  color: #90ee90;  /* light green, next: 0000ff: pure (or mostly pure) blue, was: dark red: #a5682a */
+  color: #037d50;  /* green, next: 0000ff: pure (or mostly pure) blue, was: dark red: #a5682a */
   background-color: transparent;
   text-decoration: none;
 }
