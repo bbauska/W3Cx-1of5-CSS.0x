@@ -43,12 +43,12 @@ pre > code {
 }
 
 a:link {
-  color: #013220;  /* very dark green */
+  color: #90ee90;  /* very dark green: #013220 */
   background-color: transparent;
   text-decoration: none;
 }
 a:visited {
-  color: #a5682a;  /* brown */
+  color: #90ee90;  /* light green, next: 0000ff: pure (or mostly pure) blue, was: dark red: #a5682a */
   background-color: transparent;
   text-decoration: none;
 }
