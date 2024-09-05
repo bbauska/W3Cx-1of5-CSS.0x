@@ -59,7 +59,10 @@ a:hover {
   background-color: #ffff00;  /* yellow */
   text-decoration: underline;
 }
-
+a[href]:hover {
+  text-decoration: underline; 
+  text-decoration-color: 0000ff;
+}
 pre[href]:hover  {
   text-decoration: none;
 }
