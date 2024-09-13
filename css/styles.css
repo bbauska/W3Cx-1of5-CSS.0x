@@ -45,7 +45,7 @@ pre > code {
 }
 
 a:link {
-  color: #90ee90;  /* very dark green: #013220 */
+  color: #013220;  /* very dark green */
   background-color: transparent;
   text-decoration: none;
 }
