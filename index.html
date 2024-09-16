@@ -59,8 +59,8 @@ function scrollFunction() {
 /* when the user clicks on the button, scroll to the top of the document. 0,0 or to 
 top of menu button (approx 2120 each),  in this case to table of contents at 400 (approx) */
 function topFunction() {
-  document.body.scrollTop = 1400;
-  document.documentElement.scrollTop = 1000;
+  document.body.scrollTop = 400;
+  document.documentElement.scrollTop = "course-info";
 }
 </script>
 
@@ -88,7 +88,7 @@ target="_blank" rel="noopener noreferrer">
   style="width:45%;" />
 </a>
 
-<h2 id="#course-info"><strong>Course information</strong></h2>
+<h2 id="course-info"><strong>Course information</strong></h2>
 
 <blockquote>
 <h3>* <a href="#cha-1"><strong>Course outline "CSS Basics"</strong></a></h3>
@@ -135,11 +135,11 @@ target="_blank" rel="noopener noreferrer">
 
 <blockquote>
 <h3>- <a href="#ch4-1-1"><strong>4.1 Introduction to Layout and Positioning</strong></a></h3>
-<h3>- <a href="#ch4-2-1"><strong>4.2 The Basics of Layout</strong></a></h3>
-<h3>- <a href="#ch4-3-1"><strong>4.3 Floating Elements</strong></a></h3>
+<h3>- <a href="#ch4-2-1"><strong>4.2 The Alignment Property</strong></a></h3>
+<h3>- <a href="#ch4-3-1"><strong>4.3 The Float Property</strong></a></h3>
 <h3>- <a href="#ch4-4-1"><strong>4.4 Relative Positioning</strong></a></h3>
-<h3>- <a href="#ch4-5-1"><strong>4.5 Style Studies</strong></a></h3>
-<h3>- <a href="#ch4-6-1"><strong>4.6 Project 4 - My Resume</strong></a></h3>
+<h3>- <a href="#ch4-5-1"><strong>4.5 Menus</strong></a></h3>
+<h3>- <a href="#ch4-6-1"><strong>4.6 Project 4 - My Resume (When to use what?)</strong></a></h3>
 <h3>- <a href="#ch4-7-1"><strong>4.7 Summary Layout and Positioning</strong></a></h3>
 </blockquote>
 
@@ -148,7 +148,7 @@ target="_blank" rel="noopener noreferrer">
 <blockquote>
 <h3>- <a href="#ch5-1-1"><strong>5.1 Introduction to Designing Your Website</strong></a></h3>
 <h3>- <a href="#ch5-2-1"><strong>5.2 Basic Design Principles</strong></a></h3>
-<h3>- <a href="#ch5-3-1"><strong>5.3 Designing for your Audience</strong></a></h3>
+<h3>- <a href="#ch5-3-1"><strong>5.3 Web Accessibility by ALL!</strong></a></h3>
 <h3>- <a href="#ch5-4-1"><strong>5.4 Historical Web Design Trends</strong></a></h3>
 <h3>- <a href="#ch5-5-1"><strong>5.5 Current Web Design Trends</strong></a></h3>
 </blockquote>
@@ -204,7 +204,7 @@ the concepts in a beautiful way, use relative positioning, and much
 more. Bring your HTML knowledge, and plan to spend 5 to 7 hours on each
 of five modules, including lots of hands-on practice.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ a1. css basics course visual (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="cha-1">Course outline</h3>
+<h3 id="cha-1">a.1 Course outline</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ a1. css basics course visual (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li>The first set of lessons are available in <b>"Module 1: Getting started with CSS"</b>, 
@@ -339,7 +339,7 @@ target="_blank" rel="noopener noreferrer">
 
 <p>This course is designed for anyone, no prerequisites required.</p>
 
-<h4 id="cha-2">What you will learn in this "CSS Basics" course:</h4>
+<h4 id="cha-2">a.2 What you will learn in this "CSS Basics" course:</h4>
 
 <ul>
   <li>Basic selection of CSS properties,</li>
@@ -391,7 +391,7 @@ the option to "upgrade all remaining courses" in bulk.</p>
 <p><em><strong>IMPORTANT:</strong> If you already have a verified certificate in 
 one or more of these courses, you do NOT need to re-take that course.</em></p>
 
-<h2 id="cha-3">Web editors</h2>
+<h2 id="cha-3">a.3 Web editors</h2>
 
 <p>While any text editor, like NotePad or TextEdit, can be used to create Web pages, 
 they don't necessarily offer a lot of help towards that end. Other options offer more 
@@ -602,12 +602,11 @@ for "CSS3 colors".</p>
   title="Logo of MDN Web Docs"
   alt="Logo of MDN Web Docs." />
 
-<p>To help developers make these decisions consciously rather than
-accidentally, <a href="https://developer.mozilla.org/" target="_blank" 
-rel="noopener noreferrer">MDN Web Docs</a> provides browser compatibility 
-tables in its documentation pages, so that when looking up a feature 
-you’re considering for your project, you know exactly which browsers will 
-support it.</p>
+<p>To help developers make these decisions consciously rather than accidentally, 
+<a href="https://developer.mozilla.org/" target="_blank" rel="noopener noreferrer">
+MDN Web Docs</a> provides browser compatibility tables in its documentation pages, so that 
+when looking up a feature you’re considering for your project, you know exactly which browsers 
+will support it.</p>
 
 <h4>External resources</h4>
 
@@ -623,16 +622,14 @@ support it.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Hi! Welcome to the world of CSS or Cascading Style Sheets.</p>
 
-<p>In this module, we're going go over exactly what CSS is, and introduce you to 
-how important it is and making effective Web sites.</p>
+<p>In this module, we're going go over exactly what CSS is, and introduce you to how important 
+it is and making effective Web sites.</p>
 
-<p>We're going to cover the Web before CSS, and how it came about. Show you 
-awesome examples of all the powerful things you can do with CSS. Walk you 
-through setting up your machine so that you can write and test your own HTML 
-CSS Web sites.</p>
+<p>We're going to cover the Web before CSS, and how it came about. Show you awesome examples 
+of all the powerful things you can do with CSS. Walk you through setting up your machine 
+so that you can write and test your own HTML CSS Web sites.</p>
 
-<p>And then finally by the end of the module you write your own first piece of 
-CSS.</p>
+<p>And then finally by the end of the module you write your own first piece of CSS.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1.1.2 module 1 outline ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-1-2">1.1.2 Module 1 outline</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -655,12 +652,12 @@ CSS.</p>
   title="W3C logo"
   alt="W3C logo." />
 
-<h4>As steward of global Web standards, W3C's mission is to safeguard the openness, 
-accessibility, and freedom of the World Wide Web from a technical perspective.</h4>
+<h4>As steward of global Web standards, W3C's mission is to safeguard the openness, accessibility, 
+and freedom of the World Wide Web from a technical perspective.</h4>
 
-<p>W3C's primary activity is to develop protocols and guidelines that
-ensure long-term growth for the Web. The widely adopted Web standards
-define key parts of what actually makes the World Wide Web work.</p>
+<p>W3C's primary activity is to develop protocols and guidelines that ensure long-term growth 
+for the Web. The widely adopted Web standards define key parts of what actually makes the 
+World Wide Web work.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 15. tim berners-lee at his desk in CERN, 1994 (16) ~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -675,28 +672,26 @@ define key parts of what actually makes the World Wide Web work.</p>
 <h4>A few history bits</h4>
 
 <p><a href="https://www.w3.org/People/Berners-Lee/" target="_blank" rel="noopener noreferrer">Tim
-Berners-Lee</a> wrote a <a
-href="https://www.w3.org/History/1989/proposal.html" target="_blank" rel="noopener noreferrer">proposal</a> in
-1989 for a system called the World Wide Web. He then created the first
-Web browser, server, and Web page. He wrote the first specifications for
+Berners-Lee</a> wrote a <a href="https://www.w3.org/History/1989/proposal.html" target="_blank" 
+rel="noopener noreferrer">proposal</a> in 1989 for a system called the World Wide Web. He then 
+created the first Web browser, server, and Web page. He wrote the first specifications for
 URLs, HTTP, and HTML.</p>
 
-<p>In October 1994, Tim Berners-Lee founded the World Wide Web
-Consortium (W3C) at the Massachusetts Institute of Technology,
-Laboratory for Computer Science [MIT/LCS] in collaboration with <a
-href="https://home.cern/" target="_blank" rel="noopener noreferrer">CERN</a>, where the Web originated (see
-information on the <a href="https://www.w3.org/Daemon/" target="_blank" rel="noopener noreferrer">original CERN
-Server</a>), with support from DARPA and the <a
-href="https://ec.europa.eu/index_en.htm" target="_blank" rel="noopener noreferrer">European Commission</a>.</p>
+<p>In October 1994, Tim Berners-Lee founded the World Wide Web Consortium (W3C) at the Massachusetts 
+Institute of Technology, Laboratory for Computer Science [MIT/LCS] in collaboration with 
+<a href="https://home.cern/" target="_blank" rel="noopener noreferrer">CERN</a>, where the 
+Web originated (see information on the <a href="https://www.w3.org/Daemon/" target="_blank" 
+rel="noopener noreferrer">original CERN Server</a>), with support from DARPA and the 
+<a href="https://ec.europa.eu/index_en.htm" target="_blank" rel="noopener noreferrer">
+European Commission</a>.</p>
 
-<p>In April 1995, <a href="https://www.inria.fr/" target="_blank" rel="noopener noreferrer">Inria</a> became the
-first European W3C host, followed by <a
-href="https://www.keio.ac.jp/" target="_blank" rel="noopener noreferrer">Keio University of Japan</a> (Shonan
-Fujisawa Campus) in Asia in 1996. In 2003, <a
-href="https://www.ercim.eu/" target="_blank" rel="noopener noreferrer">ERCIM</a> took over the role of European
-W3C Host from Inria. In 2013, W3C announced <a
-href="https://ev.buaa.edu.cn/" target="_blank" rel="noopener noreferrer">Beihang University</a> as the fourth
-Host.</p>
+<p>In April 1995, <a href="https://www.inria.fr/" target="_blank" rel="noopener noreferrer">
+Inria</a> became the first European W3C host, followed by <a href="https://www.keio.ac.jp/" 
+target="_blank" rel="noopener noreferrer">Keio University of Japan</a> (Shonan Fujisawa Campus) 
+in Asia in 1996. In 2003, <a href="https://www.ercim.eu/" target="_blank" rel="noopener noreferrer">
+ERCIM</a> took over the role of European W3C Host from Inria. In 2013, W3C announced 
+<a href="https://ev.buaa.edu.cn/" target="_blank" rel="noopener noreferrer">Beihang University</a> 
+as the fourth Host.</p>
 
 <h4>Sir Tim Berners-Lee named recipient of the ACM A.M. Turing Award</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -805,7 +800,7 @@ version of that link above</a> for anyone "new to the internet". See how
 this <a href="https://www.msn.com/" target="_blank" rel="noopener noreferrer">MSN Web 
 site</a> (made with lots of CSS) looks like now!</p>
 
-<h3 id="ch1-2-3-2">Before and after CSS</h3>
+<h3 id="ch1-2-3-2">Before and After CSS</h3>
 
 <h4>Before CSS:</h4>
 
@@ -841,28 +836,23 @@ how he and Håkon Lie developed CSS.</p>
 
 <h4>The history of CSS, by Bert Bos, co-inventor of CSS with Håkon Lie</h4>
 
-<p>In 1994, it was not possible for an author to style HTML documents.
-Several browsers had style sheets, but only for the user.
-On the one hand, that was an advantage: authors didn't have to worry
-about the style, unlike when they were writing in a word processor.
-They could concentrate on the contents.
-HTML viewers automatically laid out each document in a way adapted to
-the user's preferences.
-The author didn't have to know anything about screen size, or if the
-screen had colors, or even whether the device has a screen at all.</p>
+<p>In 1994, it was not possible for an author to style HTML documents. Several browsers 
+had style sheets, but only for the user. On the one hand, that was an advantage: authors 
+didn't have to worry about the style, unlike when they were writing in a word processor.
+They could concentrate on the contents. HTML viewers automatically laid out each document 
+in a way adapted to the user's preferences. The author didn't have to know anything about 
+screen size, or if the screen had colors, or even whether the device has a screen at all.</p>
 
-<p>But then designers came to the Web, and they found it was also a
-disadvantage.  A document from company A looked exactly the same as one 
-from company B.  They had to be a way for the author to add some style 
-if he wanted to.</p>
+<p>But then designers came to the Web, and they found it was also a disadvantage.  A document 
+from company A looked exactly the same as one from company B.  They had to be a way for the 
+author to add some style if he wanted to.</p>
 
-<p>The new Netscape browser, which was quickly becoming the most popular
-browser on the Web in 1994, added some proprietary HTML elements for
-style and spacing.
-But most people agreed that wasn't the best solution.</p>
+<p>The new Netscape browser, which was quickly becoming the most popular browser on the Web 
+in 1994, added some proprietary HTML elements for style and spacing. But most people agreed 
+that wasn't the best solution.</p>
 
-<p>When Håkon Lie and I decided to combine our two proposals, in October
-1994, it quickly became the most popular.</p>
+<p>When Håkon Lie and I decided to combine our two proposals, in October 1994, it quickly 
+became the most popular.</p>
 
 <p>We called it CSS.</p>
 
@@ -896,20 +886,17 @@ and still work the same.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1.2.4 definitions ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-4">1.2.4 Definitions</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>CSS, or <strong>C</strong>ascading <strong>S</strong>tyle Sheets, is
-a style sheet language used to describe the way an HTML or XML document
-should look to a user. CSS is where you specify the color, size,
-spacing, font and other visual aspects of the content that you create in
-your markup language document.</p>
+<p>CSS, or <strong>C</strong>ascading <strong>S</strong>tyle Sheets, is a style sheet language 
+used to describe the way an HTML or XML document should look to a user. CSS is where you specify 
+the color, size, spacing, font and other visual aspects of the content that you create in your 
+markup language document.</p>
 
-<p>Most often you will see CSS used alongside HTML to describe the way a
-Web page looks and feels. You can have a Web page without CSS, but it
-would be very difficult to make it look the way you want with just HTML.
-This is why almost every Web page is a combination of HTML and CSS.</p>
+<p>Most often you will see CSS used alongside HTML to describe the way a Web page looks and 
+feels. You can have a Web page without CSS, but it would be very difficult to make it look 
+the way you want with just HTML. This is why almost every Web page is a combination of HTML 
+and CSS.</p>
 
-<h3>
-CSS • /si-ɛs-ɛs/ • noun
-</h3>
+<h3>CSS • /si-ɛs-ɛs/ • noun</h3>
 
 <p>Stands for "<strong>C</strong>ascading <strong>S</strong>tyle <strong>S</strong>heets".
 A style sheet language for describing how to display an HTML document.</p>
@@ -928,15 +915,13 @@ A style sheet language for describing how to display an HTML document.</p>
 10.   font-size: 20px;
 11. }</pre>
 
-<h3>
-HTML • /eɪʧ-ti-ɛm-ɛl/ • noun
-</h3>
+<h3>HTML • /eɪʧ-ti-ɛm-ɛl/ • noun</h3>
 
-<p>Stands for "<strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage",
-and is the primary document format on the Web. It is a standardized system for 
-tagging content on a web page so that a web browser knows how to present it 
-properly to the viewer. It is a standardized way to describe a document's 
-structure and the roles of the different parts of that document.</p>
+<p>Stands for "<strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup 
+<strong>L</strong>anguage", and is the primary document format on the Web. It is a standardized 
+system for tagging content on a web page so that a web browser knows how to present it properly 
+to the viewer. It is a standardized way to describe a document's structure and the roles of the 
+different parts of that document.</p>
 
 <h4>Sample HTML document:</h4>
 
@@ -959,22 +944,19 @@ structure and the roles of the different parts of that document.</p>
 
 <h4>Internet</h4>
 
-<p>A global system of computer networks that connect to one another so
-that billions of different devices all over the world can share data.
-The internet is a collection of smaller networks that all combined
-create one large, all-inclusive global network.</p>
+<p>A global system of computer networks that connect to one another so that billions of different 
+devices all over the world can share data. The internet is a collection of smaller networks 
+that all combined create one large, all-inclusive global network.</p>
 
 <h4>World Wide Web</h4>
 
-<p>A collection of documents linked together by hypertext links,
-addressed using Uniform Resource Locators (URLs) accessible on the
-Internet. The World Wide Web is an application of the internet.</p>
+<p>A collection of documents linked together by hypertext links, addressed using Uniform 
+Resource Locators (URLs) accessible on the Internet. The World Wide Web is an application 
+of the internet.</p>
 
 <p><em>Abbreviated as WWW or "the Web"</em></p>
 
-<h3>
-Web browser • /wɛb ˈbraʊzər/ • noun
-</h3>
+<h3>Web browser • /wɛb ˈbraʊzər/ • noun</h3>
 
 <p>A software application for retrieving, presenting and traversing
 information resources on the World Wide Web.</p>
@@ -992,11 +974,11 @@ start of many Web addresses.</p>
 
 <p>Stands for "<strong>H</strong>yper<strong>t</strong>ext <strong>T</strong>ransfer 
 <strong>P</strong>rotocol <strong>S</strong>ecure". It  is the secure version of 
-<strong>HTTP</strong>, the protocol over
-which data is sent between your browser and the Web site that you are connected 
-to. It means all communications between your browser and the Web site are encrypted. 
-A vast majority of Web site are now served by <a href="https://en.wikipedia.org/wiki/HTTPS" 
-target="_blank" rel="noopener noreferrer">https</a>.</p>
+<strong>HTTP</strong>, the protocol over which data is sent between your browser and the 
+Web site that you are connected to. It means all communications between your browser and 
+the Web site are encrypted. A vast majority of Web site are now served by 
+<a href="https://en.wikipedia.org/wiki/HTTPS" target="_blank" rel="noopener noreferrer">
+https</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1.2.5 activity - the web before css ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-5">1.2.5 Activity - The Web before CSS</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1004,47 +986,42 @@ target="_blank" rel="noopener noreferrer">https</a>.</p>
 job is to find examples of Web sites before and after CSS.</p>
 
 <p>A great place to start is at <a
-href="https://archive.org/" target="_blank" rel="noopener noreferrer">archive.org</a> (aka, the "WayBack machine")
-which stores copies of web pages throughout history. You can search for
-some of your favorite websites and see if they have stored copies older
-than 1996. You should find that any Web page made before 1996 will look
-very different than Web sites we typically see today. When you find a
-real retro gem, please share it in this week's discussion (see
-below).</p>
+href="https://archive.org/" target="_blank" rel="noopener noreferrer">archive.org</a> (aka, 
+the "WayBack machine") which stores copies of web pages throughout history. You can search 
+for some of your favorite websites and see if they have stored copies older than 1996. You 
+should find that any Web page made before 1996 will look very different than Web sites we 
+typically see today. When you find a real retro gem, please share it in this week's discussion 
+(see below).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1.3.1 why css is important ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-1">1.3.1 Why CSS is important (Separating content from presentation)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Up until now, we have been discussing CSS's role within a Web site as
-the "presentation" component, but what is that and why is it so
-important?</p>
+<p>Up until now, we have been discussing CSS's role within a Web site as the "presentation" 
+component, but what is that and why is it so important?</p>
 
-<p>From the history of CSS, we learned why CSS came about, but the short
-answer is simply because HTML was never designed to describe the way a
-Web page was supposed to look. When we use HTML for what it was intended
-to do, describe content, it leaves space for CSS to properly control a
-page's visuals. This makes it very easy to update or add content without
+<p>From the history of CSS, we learned why CSS came about, but the short answer is simply 
+because HTML was never designed to describe the way a Web page was supposed to look. When 
+we use HTML for what it was intended to do, describe content, it leaves space for CSS to 
+properly control a page's visuals. This makes it very easy to update or add content without
 having to even touch the style.</p>
 
 <h4>Some benefits of CSS:</h4>
 
 <ul>
-  <li>CSS has a host of specialized tools to give you powerful control over the 
-    look and feel of your Web site, much more powerful than the tools provided by HTML,<br></li>
-  <li>Designers can style many HTML pages with a single CSS document for a 
-    consistent look and feel across an entire Web page and less code to maintain.<br></li>
-  <li>Separation of content and presentation makes Web site maintenance much 
-    simpler as you can address updates in isolation,<br></li>
-  <li>Over time more and more devices have become internet-capable, and now 
-    there are so many different orientations in which your user can view your 
-    content. With CSS, you can specifically cater the style to each device to 
-    ensure an optimal experience,<br></li>
-  <li>Some users have specific presentation needs based on personal or 
-    technological limitations or preferences. Separating content from 
-   presentation allows these users the option to control how they view 
-   content, and<br></li>
-  <li>Before CSS visual elements were almost always achieved with static 
-    images, which can have a big affect on network performance. CSS provides 
-    an optimized way to style your page so it can load complex visuals quickly.</li>
+  <li>CSS has a host of specialized tools to give you powerful control over the look and 
+    feel of your Web site, much more powerful than the tools provided by HTML,<br></li>
+  <li>Designers can style many HTML pages with a single CSS document for a consistent look 
+    and feel across an entire Web page and less code to maintain.<br></li>
+  <li>Separation of content and presentation makes Web site maintenance much simpler as you 
+    can address updates in isolation,<br></li>
+  <li>Over time more and more devices have become internet-capable, and now there are so 
+    many different orientations in which your user can view your content. With CSS, you can 
+	specifically cater the style to each device to ensure an optimal experience,<br></li>
+  <li>Some users have specific presentation needs based on personal or technological limitations 
+    or preferences. Separating content from presentation allows these users the option to 
+	control how they view content, and<br></li>
+  <li>Before CSS visual elements were almost always achieved with static images, which can 
+    have a big affect on network performance. CSS provides an optimized way to style your 
+	page so it can load complex visuals quickly.</li>
 </ul>
 
 <h4>External resources:</h4>
@@ -1062,88 +1039,70 @@ having to even touch the style.</p>
 <h3 id="ch1-3-2">1.3.2 Meet CSS Zen Garden</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>In 2003, <a href="http://daveshea.com/projects/zen/" target="_blank" 
-rel="noopener noreferrer">Dave Shea</a> began a legendary project called <a
-href="http://www.csszengarden.com/" target="_blank" rel="noopener noreferrer">CSS Zen Garden</a> that provided a
-demonstration of "what can be accomplished through CSS-based design",
-until submissions stopped in 2013.</p>
+rel="noopener noreferrer">Dave Shea</a> began a legendary project called 
+<a href="http://www.csszengarden.com/" target="_blank" rel="noopener noreferrer">
+CSS Zen Garden</a> that provided a demonstration of "what can be accomplished through CSS-based 
+design", until submissions stopped in 2013.</p>
 
-<p>In July 2020, Stephanie Eckles (<a
-href="https://moderncss.dev/" target="_blank" rel="noopener noreferrer">Modern CSS</a>) launched <a
-href="https://stylestage.dev/" target="_blank" rel="noopener noreferrer">Style Stage</a>, a modern CSS showcase
-styled by community contributions. Meaning that CSS practitioners of any
-skill level (you!) are welcome to join as a <a
-href="https://stylestage.dev/#contribute" target="_blank" rel="noopener noreferrer">contributor</a> and submit a
-stylesheet! Visit the <a href="https://stylestage.dev/styles/" target="_blank" rel="noopener noreferrer">"All
-Styles"</a> directory page and re-style by submitting an alternate style
-sheet.</p>
+<p>In July 2020, Stephanie Eckles (<a href="https://moderncss.dev/" target="_blank" 
+rel="noopener noreferrer">Modern CSS</a>) launched <a href="https://stylestage.dev/" 
+target="_blank" rel="noopener noreferrer">Style Stage</a>, a modern CSS showcase
+styled by community contributions. Meaning that CSS practitioners of any skill level (you!) 
+are welcome to join as a <a href="https://stylestage.dev/#contribute" target="_blank" 
+rel="noopener noreferrer">contributor</a> and submit a stylesheet! Visit the 
+<a href="https://stylestage.dev/styles/" target="_blank" rel="noopener noreferrer">
+"All Styles"</a> directory page and re-style by submitting an alternate style sheet.</p>
 
-<p>The videos below introduce you to the "<a
-href="http://www.csszengarden.com/" target="_blank" rel="noopener noreferrer">CSS Zen Garden</a>" Web project.</p>
+<p>The videos below introduce you to the "<a href="http://www.csszengarden.com/" 
+target="_blank" rel="noopener noreferrer">CSS Zen Garden</a>" Web project.</p>
 
 <h4>Video: Meet CSS Zen Garden</h4>
 
-<p>Now that we know exactly how CSS came about, let's talk about how
-people are using it today.</p>
+<p>Now that we know exactly how CSS came about, let's talk about how people are using it 
+today.</p>
 
-<p>CSS has empowered people to separate the content, the text, image,
-videos, all of the stuff that you've created from the way it's
-presented: the fonts, the colors, the spacing, the backgrounds, so that
-you can make as many design decisions in your style sheets and keep them
-separate from all of your content.</p>
+<p>CSS has empowered people to separate the content, the text, image, videos, all of the 
+stuff that you've created from the way it's presented: the fonts, the colors, the spacing, 
+the backgrounds, so that you can make as many design decisions in your style sheets and keep 
+them separate from all of your content.</p>
 
-<p>There's a particular online community, called CSS ZEN GARDEN, that
-really likes to play up this advantage.
-What they do is, they take a single HTML page and they'll create many
-different CSS interpretations how to present it.
-Let's take a look.</p>
+<p>There's a particular online community, called CSS ZEN GARDEN, that really likes to play 
+up this advantage. What they do is, they take a single HTML page and they'll create many 
+different CSS interpretations how to present it. Let's take a look.</p>
 
 <h4>Live coding video: CSS Zen Garden Demo</h4>
 
 <p>This is the homepage for CSS Zen Garden.<br>
-This design was submitted by someone just like you, somewhere out on
-the Internet, and they chose it to be their homepage.
-In fact, the homepage rotates between different designs. Let's take a closer look. 
-If I right-click, I can view the source and I can actually look at the HTML behind 
-this Web page.
-I can even comment here and inspect all of the different items, and
-if I click through, I can find this h1 tag.
-That's where the text, CSS Zen Garden, is coming from.</p>
+This design was submitted by someone just like you, somewhere out on the Internet, and they 
+chose it to be their homepage. In fact, the homepage rotates between different designs. Let's 
+take a closer look. If I right-click, I can view the source and I can actually look at the 
+HTML behind this Web page. I can even comment here and inspect all of the different items, 
+and if I click through, I can find this h1 tag. That's where the text, CSS Zen Garden, is 
+coming from.</p>
 
-<p>The HTML is here on the left, and here on the right, there's a ton of
-style associated with it.
-In fact, if I scroll through, I can even find the color.
-Just to be sure that this h1 tag is corresponding to this title,
-let's change the color. Let's try purple.
-Oh yeah! That's looks alright. Not great.
-But I definitely am sure that this text corresponds to this HTML tag
-corresponds to this CSS.</p>
+<p>The HTML is here on the left, and here on the right, there's a ton of style associated 
+with it. In fact, if I scroll through, I can even find the color. Just to be sure that this 
+h1 tag is corresponding to this title, let's change the color. Let's try purple. Oh yeah! 
+That's looks alright. Not great. But I definitely am sure that this text corresponds to this 
+HTML tag corresponds to this CSS.</p>
 
-<p>In fact, let's take a look at what it’s like without any CSS.
-If I come here to the head, I can actually delete the link to the
-CSS, and now I have a pure HTML Web site. In fact, look at how my style
-is deleted.</p>
+<p>In fact, let's take a look at what it’s like without any CSS. If I come here to the head, 
+I can actually delete the link to the CSS, and now I have a pure HTML Web site. In fact, 
+look at how my style is deleted.</p>
 
-<p>This is what your Web site would look like without any CSS.
-Not super-exciting.
-Well in fact, let's get back to the CSS.
-Much better! Well, except for that purple text.</p>
+<p>This is what your Web site would look like without any CSS. Not super-exciting. Well in 
+fact, let's get back to the CSS. Much better! Well, except for that purple text.</p>
 
-<p>Let's take a look at some other designs.
-These are the designs from all over the Internet.
-Here, we see another completely different design, but that same
-text!
-In fact, if I inspect this element, I can see that it's in that same
-h1 type.
-But look at all the style is different.
-If I scroll down, I can even find the color.
-Purple doesn't look much better on this page either.
-In fact, if I get rid of it, all the HTML, or if I give up all the
-CSS again, it takes me back to that same core text.</p>
+<p>Let's take a look at some other designs. These are the designs from all over the Internet.
+Here, we see another completely different design, but that same text! In fact, if I inspect 
+this element, I can see that it's in that same h1 type. But look at all the style is different.
+If I scroll down, I can even find the color. Purple doesn't look much better on this page either.
+In fact, if I get rid of it, all the HTML, or if I give up all the CSS again, it takes me 
+back to that same core text.</p>
 
-<p>Now you can have a better idea between what part is HTML and what
-part is CSS.
-In fact, now you should look through a few of the different designs,
-so you can understand what CSS is and get inspired!</p>
+<p>Now you can have a better idea between what part is HTML and what part is CSS. In fact, 
+now you should look through a few of the different designs, so you can understand what CSS 
+is and get inspired!</p>
 
 <h4>View source and browser tools</h4>
 
@@ -1154,8 +1113,7 @@ it. This <a href="https://en.wikipedia.org/wiki/Web_development_tools#Web_devel
 target="_blank" rel="noopener noreferrer">feature</a> exists in most modern browsers.</p>
 
 <p>Here is what it looks like when I view the source of <a href="https://www.w3.org/" 
-target="_blank" rel="noopener noreferrer">W3C's Web site</a> 
-(snapshot taken in Sept. 2016):</p>
+target="_blank" rel="noopener noreferrer">W3C's Web site</a> (snapshot taken in Sept. 2016):</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 19. edge web browser with view source window open (29) ~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -1165,13 +1123,11 @@ target="_blank" rel="noopener noreferrer">W3C's Web site</a> 
   title="Edge Web browser with view source window open"
   alt="Edge Web browser with view source window open." />
 
-<p>You can see a window that popped up from the bottom with all the HTML
-code for that site. Other Web browsers might pop this up in a separate
-window.</p>
+<p>You can see a window that popped up from the bottom with all the HTML code for that site. 
+Other Web browsers might pop this up in a separate window.</p>
 
-<p>You can also get more specific and look at individual HTML elements
-with the "Inspect element" option. Here is what it looks like in Edge
-when I inspect a specific title:</p>
+<p>You can also get more specific and look at individual HTML elements with the "Inspect 
+element" option. Here is what it looks like in Edge when I inspect a specific title:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~ 20. edge inspect element view highlighting a specific title (30) ~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -1314,28 +1270,23 @@ this demo.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1.4.2 comments ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-2">1.4.2 Comments</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>As you write your CSS, you might end up with a pretty large document
-that can be hard to manage, or you might find yourself working on a team
-and having to read CSS someone else has written. In these cases, it
-helps to leave "notes" for the humans that read the file.</p>
+<p>As you write your CSS, you might end up with a pretty large document that can be hard 
+to manage, or you might find yourself working on a team and having to read CSS someone else 
+has written. In these cases, it helps to leave "notes" for the humans that read the file.</p>
 
-<p>There is a way to leave notes that the Web browser will ignore when
-it is reading your CSS code, they're called "comments". In fact, leaving
-comments in your code is considered a best practice by developers and is
-a habit we highly recommend you develop now.</p>
+<p>There is a way to leave notes that the Web browser will ignore when it is reading your 
+CSS code, they're called "comments". In fact, leaving comments in your code is considered 
+a best practice by developers and is a habit we highly recommend you develop now.</p>
 
-<p>To add comments to your CSS file, you need to surround any text you
-want the computer to ignore with a set
-of <em>slashes</em> and <em>asterisks</em> like so:</p>
+<p>To add comments to your CSS file, you need to surround any text you want the computer 
+to ignore with a set of <em>slashes</em> and <em>asterisks</em> like so:</p>
 
-<pre>/* those two symbols start my comment block
-I can have more comment text here
-and the following two symbols end my comment */</pre>
+<pre>/&ast; those two symbols start my comment block I can have more comment text here and the 
+following two symbols end my comment &ast;/</pre>
 
-<p>As you can see, you can put as much text between the open and close
-symbols as you need, you can even have multiple lines. If you are
-working in an editor like Visual Studio code, you will notice that when
-you turn text into a comment, it turns green to indicate that the
+<p>As you can see, you can put as much text between the open and close symbols as you need, 
+you can even have multiple lines. If you are working in an editor like Visual Studio code, 
+you will notice that when you turn text into a comment, it turns green to indicate that the
 computer ignores that code.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 22. comments in green (visual studio/notepad++) (35) ~~~~~~~~~~~~~~~~~~~~-->
@@ -1419,14 +1370,13 @@ Here’s what mine looks like:</p>
   title="An image of Hello Kasey in green text"
   alt="An image of Hello Kasey in green text." />
 
-<p><strong>HINT</strong>: Is your favorite color not working? Not all
-color names are recognized by CSS. Sometimes the best way is to use
-HEX. We'll talk in more detail about colors in the next module, but here
-is a list of colors you can use: <a
-href="https://www.w3.org/TR/css-color/#color-keywords" target="_blank" rel="noopener noreferrer">extended color
-keywords</a> (from W3C's specification) or <a
-href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value" target="_blank" rel="noopener noreferrer">color
-keywords</a> (from MDN's documentation).</p>
+<p><strong>HINT</strong>: Is your favorite color not working? Not all color names are recognized 
+by CSS. Sometimes the best way is to use HEX. We'll talk in more detail about colors in the next 
+module, but here is a list of colors you can use: 
+<a href="https://www.w3.org/TR/css-color/#color-keywords" target="_blank" 
+rel="noopener noreferrer">extended color keywords</a> (from W3C's specification) or 
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value" target="_blank" 
+rel="noopener noreferrer">color keywords</a> (from MDN's documentation).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1.5.1 module 1 summary ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-1">1.5.1 Module 1 summary</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1472,9 +1422,11 @@ style specifically for a given HTML Web site.</p>
 <ol type="1">
   <li>Review the basics of HTML,<br></li>
   <li>Introduce you to the anatomy of a CSS "rule",<br></li>
-  <li>Introduce you to the concept of a property and give you a set of properties to get started,<br></li>
+  <li>Introduce you to the concept of a property and give you a set of properties to get 
+    started,<br></li>
   <li>Introduce you to selectors and how you can directly attach them to HTML tags, and<br></li>
-  <li>Finally, for your module project, you'll get a get a chance to build the CSS for an HTML page from scratch.</li>
+  <li>Finally, for your module project, you'll get a get a chance to build the CSS for an 
+    HTML page from scratch.</li>
 </ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-2-1">2.2.1 HTML to get you started</h3>
@@ -1516,20 +1468,17 @@ HTML document is going to make your CSS a lot nicer.</p>
 
 <h4>HTML 101</h4>
 
-<p>HTML
-(<strong>H</strong>yper <strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage)
-documents are made up of content and tags. These tags describe the
-content so that the web browser understands the structure of the page.
-HTML tags typically come in pairs, an opening tag before and a closing
-tag after content like so:</p>
+<p>HTML (<strong>H</strong>yper <strong>T</strong>ext <strong>M</strong>arkup 
+<strong>L</strong>anguage) documents are made up of content and tags. These tags describe 
+the content so that the web browser understands the structure of the page. HTML tags typically 
+come in pairs, an opening tag before and a closing tag after content like so:</p>
 
-<pre>
-&lt;tagname&gt;
+<pre>&lt;tagname&gt;
   My content
 &lt;/tagname&gt;</pre>
 
-<p>When these three pieces are combined (start tag, content, and end
-tag), you have what is called an HTML <strong>element</strong>.</p>
+<p>When these three pieces are combined (start tag, content, and end tag), you have what 
+is called an HTML <strong>element</strong>.</p>
 
 <p>Here is a sample HTML doc:</p>
 
@@ -1550,15 +1499,13 @@ tag), you have what is called an HTML <strong>element</strong>.</p>
 
 </details>
 
-<p><em>*NOTE: In the code above, the text contained within the &lt;!--
-and --&gt; start and end sequences are comments. Each of them is
-explaining each tag.</em></p>
+<p><em>*NOTE: In the code above, the text contained within the &lt;!--and --&gt; start and 
+end sequences are comments. Each of them is explaining each tag.</em></p>
 
-<p>Tags can be nested inside of other tags. This creates a parent/child
-relationship between HTML elements and forms the overall structure of
-your HTML document into a tree. This structure has a big effect on your
-CSS as styles are typically inherited from parent to child. We will take
-a closer look at style inheritance later in this unit.</p>
+<p>Tags can be nested inside of other tags. This creates a parent/child relationship between 
+HTML elements and forms the overall structure of your HTML document into a tree. This structure 
+has a big effect on your CSS as styles are typically inherited from parent to child. We will 
+take a closer look at style inheritance later in this unit.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 25. the minimal structure of an html5 document (41) ~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -1568,30 +1515,28 @@ a closer look at style inheritance later in this unit.</p>
   title="The minimal structure of an HTML5 document"
   alt="The minimal structure of an HTML5 document." />
 
-<p>There are other types of tags that are called "self-closing", meaning
-they don't come in an open/close pair. Typically, self-closing tags
-insert content into your page as opposed to surround content. They look
-like this:</p>
+<p>There are other types of tags that are called "self-closing", meaning they don't come 
+in an open/close pair. Typically, self-closing tags insert content into your page as opposed 
+to surround content. They look like this:</p>
 
 <pre>&lt;img src=&quot;images/pic1.png&quot; alt=&quot;pic1&quot; /&gt;</pre>
 
-<p>These types of tags rely on "attributes", these are added modifiers
-on the tag that have their own values. In the above example, we use the
-src attribute to set the source for the image.</p>
+<p>These types of tags rely on "attributes", these are added modifiers on the tag that have 
+their own values. In the above example, we use the src attribute to set the source for the 
+image.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-2-2">2.2.2 Common HTML tags</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>There are many HTML tags to choose from depending on what elements
-you want to structure on your page. You can always check what are the <a
-href="https://www.w3.org/TR/html52/" target="_blank" rel="noopener noreferrer">current defined HTML tags</a>.</p>
+<p>There are many HTML tags to choose from depending on what elements you want to structure 
+on your page. You can always check what are the <a href="https://www.w3.org/TR/html52/" 
+target="_blank" rel="noopener noreferrer">current defined HTML tags</a>.</p>
 
-<p>Here is a short list of some of the most common HTML tags, ones
-you'll see us use throughout this course.</p>
+<p>Here is a short list of some of the most common HTML tags, ones you'll see us use throughout 
+this course.</p>
 
 <h4>&lt;html&gt;</h4>
 
-<p>[<a
-href="https://www.w3.org/TR/html52/semantics.html#the-html-element" target="_blank" 
+<p>[<a href="https://www.w3.org/TR/html52/semantics.html#the-html-element" target="_blank" 
 rel="noopener noreferrer"><em>Documentation</em></a>]</p>
 
 <p>The root element of a document is &lt;html&gt;, and this is the first
@@ -1600,18 +1545,16 @@ your other HTML tags should go inside this one, meaning all HTML
 documents should start with &lt;html&gt; at the top and end with
 &lt;/html&gt; at the bottom.</p>
 
-<p>You'll notice in the below code that we set the language to English
-(&lt;html lang="en"&gt;) . You can <a
-href="https://www.w3.org/International/tutorials/language-decl/#Slide0140" 
-target="_blank" rel="noopener noreferrer">set another language</a> of the text in 
-your page using language attributes (see also <a
-href="https://www.w3.org/International/questions/qa-html-language-declarations" 
-target="_blank" rel="noopener noreferrer">this resource</a>).</p>
+<p>You'll notice in the below code that we set the language to English (&lt;html lang="en"&gt;) . 
+You can <a href="https://www.w3.org/International/tutorials/language-decl/#Slide0140" 
+target="_blank" rel="noopener noreferrer">set another language</a> of the text in your page 
+using language attributes (see also 
+<a href="https://www.w3.org/International/questions/qa-html-language-declarations" target="_blank" 
+rel="noopener noreferrer">this resource</a>).</p>
 
-<p>It is important that you take care to use the lang attribute to
-indicate the actual language of text in your page because many CSS
-features will function differently, depending on what language is
-declared here.</p>
+<p>It is important that you take care to use the lang attribute to indicate the actual language 
+of text in your page because many CSS features will function differently, depending on what 
+language is declared here.</p>
 
 <pre>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
@@ -1626,8 +1569,8 @@ declared here.</p>
 href="https://www.w3.org/TR/html52/document-metadata.html#the-head-element" 
 target="_blank" rel="noopener noreferrer"><em>Documentation</em></a>]</p>
 
-<p>This is the element that contains all the metadata for your site,
-such as your link to your CSS, the page's title and links to other
+<p>This is the element that contains all the metadata for your site, such as your link to 
+your CSS, the page's title and links to other
 files. This should be the first tag in your document, and there should
 only be one per document.</p>
 
@@ -3617,7 +3560,7 @@ below, answer the following questions:</p>
   <li>What would you change about their title or button design to be more effective?</li>
 </ul>
 
-<h3 id="ch2-7-1">2.7 Module 2 project - About me page</h3>
+<h3 id="ch2-7-1">2.7.1 Module 2 project - About me page</h3>
 
 <p>Now that you have played around with applying selectors and
 properties, you have the tools to make a much more sophisticated Web
@@ -3671,7 +3614,7 @@ incorporate the required code features. For example, you could instead
 create a profile page for an imagined character, or a brief biography of
 someone you admire.</p>
 
-<h3 id="ch2-8-1">Module 2 learnings</h3>
+<h3 id="ch2-8-1">2.8.1 Module 2 learnings</h3>
 
 <h4>After this module you should be able to:</h4>
 
@@ -3776,49 +3719,37 @@ crucially important to making sure that you get the most out of CSS.</p>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch3-2-1">3.2.1 Classes and IDs</h3>
+<h3 id="ch3-2-1">3.2.1 Using HTML Classes and IDs</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Often, a single page will have a whole bunch of the same html tag,
-but that doesn't necessarily mean you want each tag of that type to look
-exactly the same.
-Say, for example, you have lots of different links on your page.
-Things that take you to different pages, things that take you back,
-and things that navigate you around the site. You might want to make the
-ones that take you back to your home page a little more noticeable. But
-how do you do that?</p>
+<p>Often, a single page will have a whole bunch of the same html tag, but that doesn't necessarily 
+mean you want each tag of that type to look exactly the same. Say, for example, you have 
+lots of different links on your page. Things that take you to different pages, things that 
+take you back, and things that navigate you around the site. You might want to make the ones 
+that take you back to your home page a little more noticeable. But how do you do that?</p>
 
-<p>They're all link tags. The answer? Classes and IDs!
-Classes and IDs are special names that you create and you assign to
-specific HTML tags.
-Once you've got these names attached, you can use those as selectors
-for your CSS rules.
-Assign an element ID when you're only going to assign it to a single
-thing.</p>
+<p>They're all link tags. The answer? Classes and IDs! Classes and IDs are special names 
+that you create and you assign to specific HTML tags. Once you've got these names attached, 
+you can use those as selectors for your CSS rules. Assign an element ID when you're only 
+going to assign it to a single thing.</p>
 
-<p>Say for example, you have lots of buttons on your page but you want
-to make the one that charges the user's credit card extra
-noticeable.
-You can use that by giving it an id of say "pay button", and then you
-can make sure you user knows exactly what that button is going to do
-when they click it.
-Assign a class when you want a whole group of elements to all look
+<p>Say for example, you have lots of buttons on your page but you want to make the one that 
+charges the user's credit card extra noticeable. You can use that by giving it an id of say 
+"pay button", and then you can make sure you user knows exactly what that button is going 
+to do when they click it. Assign a class when you want a whole group of elements to all look
 the same.</p>
 
-<p>Say for example, you want your navigation bar to be filled with links
-that all look very similar.
-If you assign a class, that then say puts them all in the same place
-and gives them the same font, your user will know which links are
-actually navigating them around the site, and which ones are going to
-take them away from your site to a different one.
-Now, let’s take a look at a whole bunch of different examples of how
-you can use classes and ids to target exactly what you want.</p>
+<p>Say for example, you want your navigation bar to be filled with links that all look very 
+similar. If you assign a class, that then say puts them all in the same place and gives them 
+the same font, your user will know which links are actually navigating them around the site, 
+and which ones are going to take them away from your site to a different one. Now, let’s 
+take a look at a whole bunch of different examples of how you can use classes and ids to 
+target exactly what you want.</p>
 
 <h4>Classes and IDs</h4>
 
-<p>Classes and IDs are "attribute selectors". This means that you can
-attach style to HTML elements based on that element's attributes. This
-empowers you to apply different style to items of the same HTML
-type.</p>
+<p>Classes and IDs are "attribute selectors". This means that you can attach style to HTML 
+elements based on that element's attributes. This empowers you to apply different style to 
+items of the same HTML type.</p>
 
 <h4>Classes</h4>
 
@@ -3973,8 +3904,8 @@ p,h2 {
 
 </details>
 
-<p>As you can note, it's not too interesting because not all of the
-styles are applied to the HTML as shown in the pen below:</p>
+<p>As you can note, it's not too interesting because not all of the styles are applied to 
+the HTML as shown in the pen below:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54. more class and id examples (98) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -4176,22 +4107,18 @@ need to have pseudo classes applied.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-1">3.4.1 Combining contextual selectors</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>In the last section, we actually combined two selectors into one rule.
-By adding a pseudo-class onto an existing selector, we are further
-targeting a specific HTML element.
-There's actually lots of situations in which you want to combine
-multiple selectors. You can actually use all of the selectors, we've
-seen so far into a single rule.
-You do this by putting them in a specific order separated by spaces.
-You would call this approach contextual selection, because each selector
-is referencing the hierarchy it's been placed in.</p>
+<p>In the last section, we actually combined two selectors into one rule. By adding a pseudo-class 
+onto an existing selector, we are further targeting a specific HTML element. There's actually 
+lots of situations in which you want to combine multiple selectors. You can actually use 
+all of the selectors, we've seen so far into a single rule. You do this by putting them in 
+a specific order separated by spaces. You would call this approach contextual selection, 
+because each selector is referencing the hierarchy it's been placed in.</p>
 
-<p>Now, let's take a look at how you can order all the selectors you
-have in your toolbox to really target that specific HTML element.
-When you use two selectors separated by a space on a rule, you scope
-the rule to the elements that correspond to the selector on the right
-that are INSIDE the elements that correspond to the selector on the
-left. Let's say we have the following HTML:</p>
+<p>Now, let's take a look at how you can order all the selectors you have in your toolbox 
+to really target that specific HTML element. When you use two selectors separated by a space 
+on a rule, you scope the rule to the elements that correspond to the selector on the right 
+that are INSIDE the elements that correspond to the selector on the left. Let's say we have 
+the following HTML:</p>
 
 <pre>1. &lt;!DOCTYPE html&gt;
 2. &lt;html lang=&quot;en&quot;&gt;
@@ -4210,16 +4137,15 @@ left. Let's say we have the following HTML:</p>
 15.   &lt;/body&gt;
 16. &lt;/html&gt;</pre>
 
-<p>If we applied the following CSS rule then the images INSIDE the paragraph would 
-be set to a width of 100px, but that rule would not apply to the images outside the 
-paragraph.</p>
+<p>If we applied the following CSS rule then the images INSIDE the paragraph would be set 
+to a width of 100px, but that rule would not apply to the images outside the paragraph.</p>
 
 <pre>p img {
   width: 100px;
 }</pre>
 
-<p>Below is a diagram of the given HTML with the two images that will be styled by the 
-above rule are indicated by the red arrows.</p>
+<p>Below is a diagram of the given HTML with the two images that will be styled by the above 
+rule are indicated by the red arrows.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 58. diagram pointing out which img tags will be styled (106) ~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -4229,12 +4155,11 @@ above rule are indicated by the red arrows.</p>
   title="Diagram pointing out which image tags will be styled"
   alt="Diagram pointing out which image tags will be styled." />
 
-<p>As your web pages get more complex, contextual selectors become more
-important, because it becomes increasingly unmanageable and inefficient
-to apply classes and IDs to each individual item, as a page scales up.
-Contextual selection becomes especially useful when you structure your
-HTML with section tags like header, section, article and footer.
-Pay attention to the styles of the paragraphs and lists in the following example:</p>
+<p>As your web pages get more complex, contextual selectors become more important, because 
+it becomes increasingly unmanageable and inefficient to apply classes and IDs to each individual 
+item, as a page scales up. Contextual selection becomes especially useful when you structure 
+your HTML with section tags like header, section, article and footer. Pay attention to the 
+styles of the paragraphs and lists in the following example:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 59. example styles for paragraphs & lists (106) ~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed border"
@@ -4246,8 +4171,8 @@ Pay attention to the styles of the paragraphs and lists in the following example
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-2">3.4.2 Activity - Contextual selectors</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>For practice, we are going to learn how to better scope CSS without
-the crutch of classes and IDs. </p>
+<p>For practice, we are going to learn how to better scope CSS without the crutch of classes 
+and IDs.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 60. scoping css w/o classes & ids (107) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed border"
@@ -4299,10 +4224,9 @@ ol {
 
 </details>
 
-<p>So, there are CSS rules with duplicate selectors. You'll need to add
-some extra selectors to the existing CSS rules so that instead of
-duplicate rules, you have rules that address different instances of the
-HTML elements based on the structure of the HTML.</p>
+<p>So, there are CSS rules with duplicate selectors. You'll need to add some extra selectors 
+to the existing CSS rules so that instead of duplicate rules, you have rules that address 
+different instances of the HTML elements based on the structure of the HTML.</p>
 
 <p><b>Your final site should look like this:</b></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4332,59 +4256,52 @@ HTML elements based on the structure of the HTML.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-3">3.4.3 Cascading styles</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Hopefully, at this point, it's become very clear why what we're working on 
-is called a style sheet.
-But where is the cascading part coming? CSS has a very specific
-hierarchy of style.
-So that you can write multiple rules that apply to the same HTML tag
-but the browser will still know how to make it look.</p>
+<p>Hopefully, at this point, it's become very clear why what we're working on is called a 
+style sheet. But where is the cascading part coming? CSS has a very specific hierarchy of 
+style. So that you can write multiple rules that apply to the same HTML tag but the browser 
+will still know how to make it look.</p>
 
-<p>But how does the browser decide when there's multiple rules?
-The answer: the most specific rule wins.
-But then, why would you want to have multiple rules for the same
-tag?</p>
+<p>But how does the browser decide when there's multiple rules? The answer: the most specific 
+rule wins. But then, why would you want to have multiple rules for the same tag?</p>
 
-<p>A lot of times, you're going to have multiple style sheets.
-Imagine you have one parent style sheet that applies to your whole
-Web site, but then you have individual smaller style sheets that apply
-to the different pieces of it, like say, your blog or your gallery.</p>
+<p>A lot of times, you're going to have multiple style sheets. Imagine you have one parent 
+style sheet that applies to your whole Web site, but then you have individual smaller style 
+sheets that apply to the different pieces of it, like say, your blog or your gallery.</p>
 
-<p>Imagine, you want to highlight a specific piece of text.
-You could either write individual rules for each piece of text
-in your whole Web site —most of which will be very similar and then
-one would be different— or, you can write one style apply it to the body
-tag, so that every single piece of text is affected and then use an ID
-to target the exceptions.</p>
+<p>Imagine, you want to highlight a specific piece of text. You could either write individual 
+rules for each piece of text in your whole Web site —most of which will be very similar and 
+then one would be different— or, you can write one style apply it to the body tag, so that 
+every single piece of text is affected and then use an ID to target the exceptions.</p>
 
 <p>Because the ID tag is so much more specific than the body that rule
 wins. As you can imagine this is going to save you a lot of time and a lot
 of typing. And I'm sure you know computer scientists are all about efficiency.</p>
 
-<p>Now let's take a closer look at how you can use the cascading nature of CSS 
-to optimize your style.
-Now that you've learned all these different selectors, you've
-probably noticed that there is nothing preventing one from creating
-rules that overlap, meaning creating rules that apply style to the same
-HTML elements. In fact, it's very common for HTML elements on a page to
-have multiple CSS rules competing for importance.</p>
+<p>Now let's take a closer look at how you can use the cascading nature of CSS to optimize 
+your style. Now that you've learned all these different selectors, you've probably noticed 
+that there is nothing preventing one from creating rules that overlap, meaning creating rules 
+that apply style to the same HTML elements. In fact, it's very common for HTML elements on 
+a page to have multiple CSS rules competing for importance.</p>
 
-<p>Thanks to the "cascading" part of "Cascading Style Sheets", this
-isn't a problem. That is because CSS has a way to figure out which rule
-"wins" when styles are conflicting. CSS actually computes a "weight" for
-each style rule and the one with the greatest weight wins. If you want
-all the specifics on how this weight is computed you can read more <a
-href="https://www.w3.org/TR/CSS22/cascade.html" target="_blank" rel="noopener noreferrer">here</a>. For
-simplicity's sake, the most specific rule wins! </p>
+<p>Thanks to the "cascading" part of "Cascading Style Sheets", this isn't a problem. That 
+is because CSS has a way to figure out which rule "wins" when styles are conflicting. CSS 
+actually computes a "weight" for each style rule and the one with the greatest weight wins. 
+If you want all the 
+<a href="https://www.w3.org/TR/CSS22/cascade.html" target="_blank" rel="noopener noreferrer">
+specifics on how this weight is computed you can read more here</a>. For simplicity's sake, 
+the most specific rule wins!</p>
 
 <ul>
   <li>A rule is generally more specific if it applies to a fewer number of elements than 
-    another rule that encompasses those elements. The more facets a rule has the more specific it is,<br>
+    another rule that encompasses those elements. The more facets a rule has the more specific 
+	it is,<br>
   <ul>
     <li>When pseudo-classes are applied this is more specific than without the pseudo-class. 
-     For example, p:hover will win over just p,<br></li>
+      For example, p:hover will win over just p,<br></li>
     <li>Contextual selection is more specific because it scopes the rule to elements within 
-      a certain subset of those on the page. For example, a rule that applies to all the paragraphs 
-     within articles is more specific than a rule that applies to all the paragraphs on the page,<br></li>
+      a certain subset of those on the page. For example, a rule that applies to all the 
+	  paragraphs within articles is more specific than a rule that applies to all the paragraphs 
+	  on the page,<br></li>
     <li>IDs are most specific because you are directly applying them to the desired HTML element. 
      The rule based on an ID will always win over other rules.<br></li>
   </ul></li>
@@ -4394,8 +4311,8 @@ simplicity's sake, the most specific rule wins! </p>
     style will be applied. This is a way for you to override the calculated weight.</li>
 </ul>
 
-<p>Look at the corresponding HTML and CSS, where code showing how Cascading 
-order applies with many overlapping rules:</p>
+<p>Look at the corresponding HTML and CSS, where code showing how Cascading order applies 
+with many overlapping rules:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 64. overlapping rules example (111) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed border"
@@ -4988,7 +4905,7 @@ form {
   padding: 30px;
   width: 500px;
 }
-/* Bad Design */
+/&ast; Bad Design &ast;/
 #uglyForm input {
   border: 0px;
 }
@@ -5477,7 +5394,7 @@ width: 225px;
 
 </details>
 
-<h3 id="ch3-6-1">Module 3 project - My profile</h3>
+<h3 id="ch3-6-1">3.6.1 Module 3 project - My profile</h3>
 
 <p>Now that you have a host of new selectors available, you can style
 much more complicated HTML. Take your "about me page" from Module 2, and
@@ -5513,16 +5430,17 @@ must have each of the following:</p>
   title="Kasey Champion's resume solution part 1"
   alt="Kasey Champion's resume solution part 1." />
 
-<h3 id="ch3-7-1">Module 3 summary</h3>
+<h3 id="ch3-7-1">3.7.1 Summary Targetting with CSS Selectors</h3>
 
-<h4>After this module you should know how to…</h4>
+<h4>After this module (3) you should know how to…</h4>
 
 <ul>
   <li>Specifically style any single element on a page using IDs,<br></li>
   <li>Group HTML elements with similar style using classes,<br></li>
   <li>Employ pseudo classes to make HTML elements more dynamic,<br></li>
   <li>Scope CSS rules using contextual selection, and<br></li>
-  <li>Build CSS rule sets with intention leveraging the cascading nature of CSS to manage conflicting rules.</li>
+  <li>Build CSS rule sets with intention leveraging the cascading nature of CSS to manage 
+    conflicting rules.</li>
 </ul>
 
 <h4>In the next module (4), you will:</h4>
@@ -5534,7 +5452,7 @@ must have each of the following:</p>
   <li>Learn about the flow property.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch4-1-1">4.1.1 Intro to Layout and Positioning</h3>
+<h3 id="ch4-1-1">4.1.1 Introduction to Layout and Positioning</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li>In this module (4), we're going to talk about layout and positioning using CSS,<br></li>
@@ -5728,7 +5646,7 @@ margin: 10px;
     Box model definition</a> in the W3C's CSS2.2 specification</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch4-2-1">4.2.1 The alignment property</h3>
+<h3 id="ch4-2-1">4.2.1 The Alignment Property</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>One of the simplest ways to align content is to use the direct text-align 
 property. This can help you set the alignment of text or inline content within 
@@ -5756,7 +5674,6 @@ between words so that the overall block fits in a perfect rectangle.</p>
 text:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 79. text-align example (143) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image079.webp?raw=true"
   loading="lazy"
@@ -6282,7 +6199,7 @@ CSS rules so that the final page looks like this:</p>
     section of 30px. The footer should be centered.<br></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch4-3-1">4.3.1 The float property</h3>
+<h3 id="ch4-3-1">4.3.1 The Float Property</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>After when you look at other Web pages, you'll see multiple HTML
 elements sitting side-by-side. When you look at our Web pages, there's only
@@ -6703,7 +6620,7 @@ div {
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch4-4-1">4.4.1 Relative positioning</h3>
+<h3 id="ch4-4-1">4.4.1 Relative Positioning</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Up and till now, you've probably noticed that all the Web sites you've been 
 making: a lot of content on the left and a lot of white space on the right.
@@ -7765,7 +7682,7 @@ limits the content to a single simple contact link.</p>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch4-6-1">4.6.1 When to use what?</h3>
+<h3 id="ch4-6-1">4.6.1 My Resume (When to use what?)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Now that we are at the end of Module 4, you have a long list of
 different ways to move HTML elements around your page using CSS. With so
@@ -7844,12 +7761,12 @@ on the page when you resize the browser window.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>/*
+<pre>/&ast;
 Project 4 Module 4.6.2
 At times I use the number 2 at the beginning of an element to disable it. 
 The number 2 is just random. So when you see that in my code, that is all 
 this is about.
-*/
+&ast;/
 body {
   background-color: white;
   margin: auto;
@@ -8212,7 +8129,7 @@ a:hover, img:active {
 
 </details>
 
-<h3>Module 4 learnings</h3>
+<h3 id="ch4-7-1">Summary Layout and Positioning</h3>
 
 <h4>After Module 4, you should be able to…</h4>
 
@@ -8679,42 +8596,37 @@ the following questions:</p>
 
 <h5>Goldsmith &amp; handcraft websites - do you have similar experiences?</h5>
 
-<p>I made a research about crafts and goldsmiths in germany for my
-bachelor thesis a few months back and already knew that they are mostly
-violating all the design guidelines because they don’t spend effort on
-building a decent website. It just hurts my eyes to look at them again
-and again, especially because their craft is so amazing. Just try out
-any goldsmith-website at your location and let me know if you have
-similar experiences. Would be happy if you share them with me :) Here is
-one example close to my location: <a href="http://1a-trauring-area.de/"
-class="uri" target="_blank" rel="noopener noreferrer">1a trauring area</a></p>
+<p>I made a research about crafts and goldsmiths in germany for my bachelor thesis a few 
+months back and already knew that they are mostly violating all the design guidelines because 
+they don’t spend effort on building a decent website. It just hurts my eyes to look at them 
+again and again, especially because their craft is so amazing. Just try out any goldsmith-
+website at your location and let me know if you have similar experiences. Would be happy 
+if you share them with me :) Here is one example close to my location: 
+<a href="http://1a-trauring-area.de/" class="uri" target="_blank" rel="noopener noreferrer">
+1a trauring area</a></p>
 
-<p>I tried checking those around my area, I found this <a
-href="https://www.kolanus.de/"
-class="uri" target="_blank" rel="noopener noreferrer">kolanus.</a> and this <a
-href="https://www.trauringstudio-bayreuth.de/"
-class="uri" target="_blank" rel="noopener noreferrer">trauringstudio bayreuth</a> and I think they
-are okay, but I think this <a href="https://schmuckwerkstatt-robert.de/"
-class="uri" target="_blank" rel="noopener noreferrer">schmuckwerkstatt robert</a> and this <a
-href="https://juwelier-boehnlein.de/ueber-uns/bayreuth-trend/"
-class="uri" target="_blank" rel="noopener noreferrer">juwelier-boehnlein bayreuth-trend</a>.</p>
+<p>I tried checking those around my area, I found this <a href="https://www.kolanus.de/" 
+class="uri" target="_blank" rel="noopener noreferrer">kolanus.</a> and this 
+<a href="https://www.trauringstudio-bayreuth.de/" class="uri" target="_blank" 
+rel="noopener noreferrer">trauringstudio bayreuth</a> and I think they are okay, but I think 
+this <a href="https://schmuckwerkstatt-robert.de/" class="uri" target="_blank" 
+rel="noopener noreferrer">schmuckwerkstatt robert</a> and this 
+<a href="https://juwelier-boehnlein.de/ueber-uns/bayreuth-trend/" class="uri" target="_blank" 
+rel="noopener noreferrer">juwelier-boehnlein bayreuth-trend</a>.</p>
 
 <p>I gave up searching for the nicht sehr gut ones. Cheers!</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-3-1">5.3.1 Web accessibility</h3>
+<h3 id="ch5-3-1">5.3.1 Web Accessibility by ALL!</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p><cite><q>The power of the Web is in its universality. Access by
-everyone regardless of disability is an essential aspect.</q></cite> <b>
-- Tim Berners-Lee, W3C Director and inventor of the World Wide
-Web</b></p>
+<p><cite><q>The power of the Web is in its universality. Access by everyone regardless of 
+disability is an essential aspect.</q></cite><b>
+- Tim Berners-Lee, W3C Director and inventor of the World Wide Web</b></p>
 
-<p>The Web has become an essential aspect of our daily lives, and
-everyone should have access to this technology. Web accessibility
-focuses on ensuring equivalent access for people with disabilities. It
-is increasingly important to many organizations and governments from
-around the world, and has many business benefits. Access to information,
-including on the Web, is also recognized by the UN Convention on the
-Rights of Persons with Disabilities (CRPD).</p>
+<p>The Web has become an essential aspect of our daily lives, and everyone should have access 
+to this technology. Web accessibility focuses on ensuring equivalent access for people with 
+disabilities. It is increasingly important to many organizations and governments from around 
+the world, and has many business benefits. Access to information, including on the Web, is 
+also recognized by the UN Convention on the Rights of Persons with Disabilities (CRPD).</p>
 
 <h4>Who is impacted?</h4>
 
@@ -8749,34 +8661,31 @@ disabilities. Some examples of Web accessibility features include:</p>
 employment, government, commerce, health care, recreation, and more. When Web pages, 
 Web technologies, Web tools, or Web applications are badly designed, they can create 
 barriers that exclude people from using the Web. More information is available in the 
-<a href="https://www.w3.org/standards/webdesign/accessibility" target="_blank" rel="noopener noreferrer">
-W3C Accessibility</a> overview.</p>
+<a href="https://www.w3.org/standards/webdesign/accessibility" target="_blank" 
+rel="noopener noreferrer">W3C Accessibility</a> overview.</p>
 
 <h4>First steps in Web accessibility</h4>
 
-<p>There are many simple Web accessibility improvements that you can
-implement and check right away, even when you are new to this topic. Two
-example excerpts are provided below on this page but you can find more
-tips and information from W3C/WAI:</p>
+<p>There are many simple Web accessibility improvements that you can implement and check 
+right away, even when you are new to this topic. Two example excerpts are provided below 
+on this page but you can find more tips and information from W3C/WAI:</p>
 
 <ul>
   <li><a href="https://www.w3.org/WAI/gettingstarted/tips/" target="_blank" 
-  rel="noopener noreferrer">Tips for Getting Started with Web Accessibility</a>, and<br></li>
+    rel="noopener noreferrer">Tips for Getting Started with Web Accessibility</a>, and<br></li>
   <li><a href="https://www.w3.org/WAI/eval/preliminary" target="_blank" 
-  rel="noopener noreferrer">Easy Checks - A First Review of Web Accessibility.</a></li>
+    rel="noopener noreferrer">Easy Checks - A First Review of Web Accessibility.</a></li>
 </ul>
 
 <h4>Example 1: page title</h4>
 
-<p>Good page titles are particularly important for orientation — to help
-people know where they are and move between pages open in their browser.
-The first thing screen readers say when the user goes to a different Web
-page is the page title. In the Web page markup, they are the
-&lt;title&gt; within the &lt;head&gt;.</p>
+<p>Good page titles are particularly important for orientation — to help people know where 
+they are and move between pages open in their browser. The first thing screen readers say 
+when the user goes to a different Web page is the page title. In the Web page markup, they 
+are the &lt;title&gt; within the &lt;head&gt;.</p>
 
-<p><b><em>Check #1</em>: There is a title that adequately and briefly
-describes the content of a page, and that it distinguishes the page from
-other Web pages.</b></p>
+<p><b><em>Check #1</em>: There is a title that adequately and briefly describes the content 
+of a page, and that it distinguishes the page from other Web pages.</b></p>
 
 <h4>Example</h4>
 
@@ -9076,7 +8985,7 @@ target="_blank" rel="noopener noreferrer">Use HTML markup instead</a>.</p>
    that use right-to-left and left-to-right scripts.</li>
 </ol>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch5-4-1">5.4.1 The history of Web design</h3>
+<h3 id="ch5-4-1">5.4.1 The History of Web Design</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>The way Web pages look has changed a lot over the years, mostly
 because the technology has come a really long way. But as Web sites
@@ -10005,6 +9914,7 @@ W3C "Front-End Web Developer" Professional Certificate</a> program:</p>
 <p>Last Updated: 4.23.2024 Tue 12:33pm</p>
 <p>Last Updated: 6.16.2024 Sun 1:04am</p>
 <p>Last Updated: 7.22.2024 Thu 3:35pm</p>
+<p>Last Updated: 9.16.2024 Mon 12:10pm</p>
 
 </body>
 
