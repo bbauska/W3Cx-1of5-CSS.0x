@@ -45,7 +45,7 @@ w3cx-1of5-css.0x: Coursera - Front-End Web Development - CSS Basics
 ## [**Module 2: Building CSS Rules**](#ch2)
 >### - [**2.1 Introduction to Building CSS Rules**](#ch2-1-1)
 >### - [**2.2 HTML review**](#ch2-2-1)
->### - [**2.3 Building a CSS rule**](#ch2-3-1)
+>### - [**2.3 Anatomy of a CSS rule**](#ch2-3-1)
 >### - [**2.4 Attaching CSS to HTML using selectors**](#ch2-4-1)
 >### - [**2.5 Applying styles using CSS properties**](#ch2-5-1)
 >### - [**2.6 Style studies**](#ch2-6-1)
@@ -986,11 +986,13 @@ Now that we&#39;ve got that, I can open the Explorer and it will show me which f
 
 In fact, I can right click on this file and I can copy the path.
 
-If I go to my Web browser and I add in the path: that&#39;s just the location of the file where this HTML is, on my own personal machine.
+If I go to my Web browser and I add in the path: that&#39;s just 
+the location of the file where this HTML is, on my own personal machine.
 
 It&#39;s not on the Internet yet.
 
-But if I go to it, my browser is smart enough to look at that HTML page and render it, or display it the same way it what is it was online.
+But if I go to it, my browser is smart enough to look at that HTML page and render it, 
+or display it the same way it what is it was online.
 
 There are my words: 'Hello World'.
 
@@ -1004,11 +1006,13 @@ Now that I&#39;ve got some text, let&#39;s actually add some style.
 
 I&#39;m going to open a new file that's going to store my CSS.
 
-For the purposes of this class, I&#39;m going to keep my CSS in a separate file from my HTML, keeps things cleaner.
+For the purposes of this class, I&#39;m going to keep my CSS in a separate file from 
+my HTML, keeps things cleaner.
 
 I'm going to write something really basic.
 
-I&#39;m going to write a role for the P or paragraph tag. For any rule, I need to set up open and closing curly braces, and then between them, I&#39;m going to add the property.
+I&#39;m going to write a role for the P or paragraph tag. For any rule, I need to set 
+up open and closing curly braces, and then between them, I&#39;m going to add the property.
 
 And then the style I have to type what I&#39;m thinking blue... that&#39;s a good color ;)
 
@@ -1022,19 +1026,22 @@ It made a lot of assumptions about my code.
 
 The P turned yellow to say, 'hey, I recognize this is attached to HTML',
 
-the property color changed to a different color, it even gives me this cute little color picker so I know exactly which color I&#39;m choosing.
+the property color changed to a different color, it even gives me this cute little color 
+picker so I know exactly which color I&#39;m choosing.
 
 Now that I&#39;ve got this I can come to my HTML refresh and see the text turn blue, right?
 
 Ah, nothing happened. That&#39;s because my HTML doesn&#39;t actually know that my CSS exists yet.
 
-You have to tell the HTML where the CSS file is. So, because I&#39;m a terrible typist, I already have this copied out, I&#39;m going to add the special tag to the header of my HTML.
+You have to tell the HTML where the CSS file is. So, because I&#39;m a terrible typist, 
+I already have this copied out, I&#39;m going to add the special tag to the header of my HTML.
 
 This tells my HTML where to find my CSS.
 
 And really, what&#39;s important, is you need to make sure that you set the name for the link.
 
-And because my CSS is in the same folder as my HTML, I can just give it 'style.css' and we&#39;ll know where to find it.
+And because my CSS is in the same folder as my HTML, I can just give it 'style.css' and 
+we&#39;ll know where to find it.
 
 Now if I hit save (and make my white dot go away), if I come over here and I refresh, hey magic!
 
@@ -1087,11 +1094,18 @@ p {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-2">1.4.2 Comments</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-As you write your CSS, you might end up with a pretty large document that can be hard to manage, or you might find yourself working on a team and having to read CSS someone else has written. In these cases, it helps to leave &ldquo;notes&rdquo; for the humans that read the file. 
+As you write your CSS, you might end up with a pretty large document that can be hard 
+to manage, or you might find yourself working on a team and having to read CSS someone 
+else has written. In these cases, it helps to leave &ldquo;notes&rdquo; for the humans 
+that read the file. 
 
-There is a way to leave notes that the Web browser will ignore when it is reading your CSS code, they&#39;re called &ldquo;comments&rdquo;. In fact, leaving comments in your code is considered a best practice by developers and is a habit we highly recommend you develop now. 
+There is a way to leave notes that the Web browser will ignore when it is reading your 
+CSS code, they&#39;re called &ldquo;comments&rdquo;. In fact, leaving comments in your 
+code is considered a best practice by developers and is a habit we highly recommend you 
+develop now. 
 
-To add comments to your CSS file, you need to surround any text you want the computer to ignore with a set of *slashes* and *asterisks* like so:
+To add comments to your CSS file, you need to surround any text you want the computer 
+to ignore with a set of *slashes* and *asterisks* like so:
 
 ```
 /* those two symbols start my comment block
@@ -1099,7 +1113,10 @@ I can have more comment text here
 and the following two symbols end my comment */
 ```
 
-As you can see, you can put as much text between the open and close symbols as you need, you can even have multiple lines. If you are working in an editor like Visual Studio code, you will notice that when you turn text into a comment, it turns green to indicate that the computer ignores that code.
+As you can see, you can put as much text between the open and close symbols as you 
+need, you can even have multiple lines. If you are working in an editor like Visual 
+Studio code, you will notice that when you turn text into a comment, it turns green 
+to indicate that the computer ignores that code.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 22. comments in green (visual studio/notepad++) (30) ~~~~~~~~~~~~~~~~~~~~-->
@@ -1114,9 +1131,11 @@ Generally, it is a good idea to put a comment at the top of each CSS rule, or at
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch-1-4-3">1.4.3 Module 1 project - Hello your world</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-It&#39;s finally time to write your own CSS! Open your code editor of choice and save the following code as a new HTML document.
+It&#39;s finally time to write your own CSS! Open your code editor of choice and save 
+the following code as a new HTML document.
 
-*Remember*: to do this, you will need to give it a .html file extension when you are saving it. For example, you could call it index.html
+*Remember*: to do this, you will need to give it a .html file extension when you are 
+saving it. For example, you could call it index.html
 
 ```
 <!DOCTYPE html>
@@ -1142,7 +1161,9 @@ Once you have your HTML document view it in a Web browser. It should look like t
    alt="An image of Hello Beautiful World in a web browser with black text." />
 </p>
 
-Now it's time to add some CSS. Here is the CSS we wrote in the &ldquo;Hello Beautiful World&rdquo; demo. Make a new file with this css and save it with a .css file extension. For example, you can call it styles.css
+Now it's time to add some CSS. Here is the CSS we wrote in the &ldquo;Hello Beautiful 
+World&rdquo; demo. Make a new file with this css and save it with a .css file extension. 
+For example, you can call it styles.css
 
 ```
 p {
@@ -1154,17 +1175,21 @@ This won't change the look of your HTML until you link the two files with this H
 
 *To do this*:
 
--   remember it should be placed in the header, that is between the &lt;head&gt; and &lt;/head&gt; tags in the HTML file. 
+-   remember it should be placed in the header, that is between the &lt;head&gt; and 
+  &lt;/head&gt; tags in the HTML file. 
 
 -   place the HTML and CSS files in the same folder on your computer
 
--   add the linking code to the HTML header (that means after the &lt;head&gt; tag and before the &lt;/head&gt; tag). If your css is called &ldquo;styles.css&rdquo;, here is what it would look like:
+-   add the linking code to the HTML header (that means after the &lt;head&gt; tag 
+  and before the &lt;/head&gt; tag). If your css is called &ldquo;styles.css&rdquo;, 
+  here is what it would look like:
 
 ```
 <link rel="stylesheet" href="styles.css">
 ```
 
-Now change the HTML and CSS files so that it says "Hello &lt;your name&gt;, welcome to my first CSS Web page" in your favorite color! Here's what mine looks like:
+Now change the HTML and CSS files so that it says "Hello &lt;your name&gt;, welcome 
+to my first CSS Web page" in your favorite color! Here's what mine looks like:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 24. an image of hello kasey in green text (32) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1174,7 +1199,12 @@ Now change the HTML and CSS files so that it says "Hello &lt;your name&gt;, welc
    alt="An image of Hello Kasey in green text." />
 </p>
 
-**HINT**: Is your favorite color not working? Not all color names are recognized by CSS. Sometimes the best way is to use HEX. We&#39;ll talk in more detail about colors in the next module, but here is a list of colors you can use: [extended color keywords](https://www.w3.org/TR/css-color/#color-keywords) (from W3C&#39;s specification) or [color keywords](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value) (from MDN&#39;s documentation).
+**HINT**: Is your favorite color not working? Not all color names are recognized by CSS. 
+Sometimes the best way is to use HEX. We&#39;ll talk in more detail about colors in the 
+next module, but here is a list of colors you can use: 
+[extended color keywords](https://www.w3.org/TR/css-color/#color-keywords) 
+(from W3C&#39;s specification) or [color keywords](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value) 
+(from MDN&#39;s documentation).
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5-1">Module 1 learnings</h3>
@@ -1197,7 +1227,8 @@ In next module, you will:
 
 -   Get to know selectors and how you can directly attach them to HTML tags
 
--   Finally, for your module project, you&#39;ll get a get a chance to build the CSS for an HTML page from scratch
+-   Finally, for your module project, you&#39;ll get a get a chance to build the CSS 
+  for an HTML page from scratch
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-1-1">2.1.1 Introduction to Building CSS Rules</h3>
@@ -1207,15 +1238,20 @@ In this module, we&#39;re going to focus on building out your CSS toolbox.
 
 First, we&#39;ll start with a simple review of HTML.
 
-Don&#39;t worry! In this course, we&#39;re always going to give you the HTML, but we want you to know what&#39;s going on.
+Don&#39;t worry! In this course, we&#39;re always going to give you the HTML, but we 
+want you to know what&#39;s going on.
 
-Then, we&#39;re going to meet the CSS rule and break down the pieces so you can start writing around.
+Then, we&#39;re going to meet the CSS rule and break down the pieces so you can start 
+writing around.
 
 We&#39;ll start with the first part of the CSS rule, the property.
 
-The property is the part that helps control the look and feel: the font, the color,... things like that and then we&#39;ll meet the selector, the piece that attaches your CSS rule to a specific HTML element.
+The property is the part that helps control the look and feel: the font, the color,... 
+things like that and then we&#39;ll meet the selector, the piece that attaches your 
+CSS rule to a specific HTML element.
 
-And then finally, at the end of the module, you get to write your first CSS style specifically for a given HTML Web site.
+And then finally, at the end of the module, you get to write your first CSS style 
+specifically for a given HTML Web site.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-1-2">2.1.2 Module 2 outline</h3>
@@ -1231,18 +1267,23 @@ And then finally, at the end of the module, you get to write your first CSS styl
 
 4.  Introduce you to selectors and how you can directly attach them to HTML tags
 
-5.  Finally, for your module project, you&#39;ll get a get a chance to build the CSS for an HTML page from scratch
+5.  Finally, for your module project, you&#39;ll get a get a chance to build 
+  the CSS for an HTML page from scratch
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-2-1">2.2.1 HTML to get you started</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-In this course, we&#39;re talking about CSS.
-But CSS is only one aspect of a Web page.
+In this course, we&#39;re talking about CSS. But CSS is only one aspect of a Web page.
 And actually, you can&#39;t have CSS unless you have something to attach it to you.
-In this case, that&#39;s HTML. HTML stands for Hyper Text Markup Language, and really the key is that M for markup.
+In this case, that&#39;s HTML. HTML stands for Hyper Text Markup Language, and really 
+the key is that M for markup.
 
-What this means is that HTML is a way of tagging your existing content, so that the browser or screen readers or search engines know exactly what that content is.
-For example, you might want the browser to know, this is a title or this is the button or this is an image, that way it knows how to display it. But the problem is that HTML does a really bad job with style.
-That&#39;s where CSS comes in. Once you&#39;ve tagged all of your content as a specific type, you can use CSS to attach to that HTML.
+What this means is that HTML is a way of tagging your existing content, so that the 
+browser or screen readers or search engines know exactly what that content is.
+For example, you might want the browser to know, this is a title or this is the 
+button or this is an image, that way it knows how to display it. But the problem 
+is that HTML does a really bad job with style. That&#39;s where CSS comes in. 
+Once you&#39;ve tagged all of your content as a specific type, you can use CSS 
+to attach to that HTML.
 
 In this course, we&#39;re always going give you the HTML but let&#39;s take a look at some sample code, so you know what it&#39;s looks like. Here is just some basic text content.
 I&#39;ve got some titles and I&#39;ve got a couple paragraphs.
@@ -1553,24 +1594,30 @@ You can pass any URL on the Web into the validator, and it will tell you how the
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 26. html validator output for w3.org (43) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image026.png"
-   style="width:50%"
-   alt="HTML validator output for w3.org." />
+  style="width:50%"
+  title="HTML validator output for w3.org"
+  alt="HTML validator output for w3.org." />
 </p>
 
 If you start to try out other URLs, you might find this is a very rare result ;)
-Try passing in your favorite Web address and see what comes up. For example, If you pass in https://www.microsoft.com/en-us/, you get 567 warnings and errors! 
+Try passing in your favorite Web address and see what comes up. For example, 
+If you pass in https://www.microsoft.com/en-us/, you get 567 warnings and errors! 
 
-One of the more common errors is using an HTML tag that is considered obsolete. Often the error points you to this wiki page &ldquo;[Use CSS instead](https://wiki.whatwg.org/wiki/Presentational_elements_and_attributes)&rdquo;.
-
+One of the more common errors is using an HTML tag that is considered obsolete. 
+Often the error points you to this wiki page 
+&ldquo;[Use CSS instead](https://wiki.whatwg.org/wiki/Presentational_elements_and_attributes)&rdquo;.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 27. image of obsolete html error (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image027.png"
-   style="width:50%"
-   alt="Image of obsolete HTML error." />
+  style="width:50%"
+  title="Image of obsolete HTML error"
+  alt="Image of obsolete HTML error." />
 </p>
 
-For this activity, please try out some of your favorite Web addresses in this validator and see what happens. Find a page that has one of these types of errors and answer the following questions in the discussion board:
+For this activity, please try out some of your favorite Web addresses in this 
+validator and see what happens. Find a page that has one of these types of errors 
+and answer the following questions in the discussion board:
 
 -   What URL gave you errors?
 
@@ -1579,22 +1626,24 @@ For this activity, please try out some of your favorite Web addresses in this va
 -   What HTML attribute does it use when it should use CSS instead?
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="ch2-3-1">2.3.1 The anatomy of a CSS rule</h3>
+<h3 id="ch2-3-1">2.3.1 Anatomy of a CSS rule</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 In this module, we&#39;re going to focus on building out your CSS toolbox.
 
 First, we&#39;ll start with a simple review of HTML.
 
-Don&#39;t worry! In this course, we&#39;re always going to give you the HTML, but we want you to know what&#39;s going on.
+Don&#39;t worry! In this course, we&#39;re always going to give you the HTML, but 
+we want you to know what&#39;s going on.
 
-Then, we&#39;re going to meet the CSS rule and break down the pieces so you can start writing around.
+Then, we&#39;re going to meet the CSS rule and break down the pieces so you can 
+start writing around.
 
 We&#39;ll start with the first part of the CSS rule, the property.
 
 The property is the part that helps control the look and feel:
 
-the font, the color,... things like that and then we&#39;ll meet the selector, the piece that attaches your CSS rule to a specific HTML element.
+the font, the color,... things like that and then we&#39;ll meet the selector, 
+the piece that attaches your CSS rule to a specific HTML element.
 
 And then finally, at the end of the module, you get to write your first CSS style specifically for a given HTML Web site.
 
@@ -1622,21 +1671,33 @@ This rule tells the browser to make all text within a paragraph tag blue. A CSS 
 
 <h4>Selector</h4>
 
-This is the portion of the rule before the first open curly brace ( &ldquo;{&rdquo; character). This is what tells the browser what HTML tags this rule applies to. Often, you&#39;ll just see a selector that matches an HTML tag, like in this instance- our selector is just &ldquo;p&rdquo;. However, as we get further into this course, you&#39;ll find that there are many ways to target specific HTML elements and many different ways to structure selectors so that you are targeting exactly the part of your site you want to style.
+This is the portion of the rule before the first open curly brace ( &ldquo;{&rdquo; character). 
+This is what tells the browser what HTML tags this rule applies to. Often, you&#39;ll just see 
+a selector that matches an HTML tag, like in this instance- our selector is just &ldquo;p&rdquo;. 
+However, as we get further into this course, you&#39;ll find that there are many ways to target 
+specific HTML elements and many different ways to structure selectors so that you are targeting 
+exactly the part of your site you want to style.
 
 <h4>Property</h4>
 
-This is the portion of the rule between the two curly braces. This is what tells the browser how to style the HTML tag that has been selected. This can be as many lines of code as you choose, each of which has two parts- the property and the value you want that property to be. For our example, &ldquo;color&rdquo; is the property and &ldquo;blue&rdquo; is the value, but we could also have had a value of &ldquo;black&rdquo; or &ldquo;#FFFFFF&rdquo; (which is HEX code for white). Each property line is constructed so:
+This is the portion of the rule between the two curly braces. This is what tells the 
+browser how to style the HTML tag that has been selected. This can be as many lines 
+of code as you choose, each of which has two parts- the property and the value you 
+want that property to be. For our example, &ldquo;color&rdquo; is the property and 
+&ldquo;blue&rdquo; is the value, but we could also have had a value of &ldquo;black&rdquo; 
+or &ldquo;#FFFFFF&rdquo; (which is HEX code for white). Each property line is constructed so:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 28b. property anatomy (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image028b.png"
-   style="width:65%"
-   alt="Anatomy of property: how to style a tag." />
+  style="width:65%"
+  title="Anatomy of property: how to style a tag"
+  alt="Anatomy of property: how to style a tag." />
 </p>
 
-The style for your page will consist of a list of many CSS rules put together. As we move through this course we will help you build up these rules to style your entire page.
+The style for your page will consist of a list of many CSS rules put together. As we move 
+through this course we will help you build up these rules to style your entire page.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-3-3">2.3.3 Activity - Building your first CSS rule set</h3>
@@ -8506,7 +8567,6 @@ discussion posted about a month ago by [<b>MattN77</b>](https://courses.edx.o
 <h4>Activity</h4>
 
 Discussion posted about a month ago by <a href="https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2020/discussion/forum/users/24574149">Naenae3</a>
-
 <https://www.squarespace.com/>
 
 I like this webpage because of the smooth design of the different panels. I like the way that the videos/animations are activated by a scroll. I think that I would use that in my own websites. Although they do have a language declaration, good contrast in colors and labled buttons, they do not have alt tags for many of their images, which could detract from the accessibility. It makes sense that this would be the best website I could find, because their business is designing websites!
@@ -8521,7 +8581,10 @@ I like this webpage because of the smooth design of the different panels. I like
   alt="W3Cx FEWD program image." />
 </p>
 
-Hopefully at this point you feel comfortable with all the basics of CSS, but, as mentioned throughout this course, there is still a lot more to learn. Here are some courses we recommend you check out next as part of the [W3C &ldquo;Front-End Web Developer&rdquo; Professional Certificate](https://www.edx.org/professional-certificate/w3cx-front-end-web-developer) program:
+Hopefully at this point you feel comfortable with all the basics of CSS, but, as 
+mentioned throughout this course, there is still a lot more to learn. Here are 
+some courses we recommend you check out next as part of the [W3C &ldquo;Front-End 
+Web Developer&rdquo; Professional Certificate](https://www.edx.org/professional-certificate/w3cx-front-end-web-developer) program:
 <ol type="1" start="2">
    <li>HTML5 & CSS Fundamentals</li>
    <li>HTML5 Coding Essentials and Best Practices</li>
@@ -8530,4 +8593,5 @@ Hopefully at this point you feel comfortable with all the basics of CSS, but, as
 </ol>
 
 <h5>Last Updated: 2.17.2024 2:05am</h5>
+<h5>Last Updated: 9.17.2024 1:16pm</h5>
 
