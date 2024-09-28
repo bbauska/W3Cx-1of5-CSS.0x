@@ -3660,40 +3660,32 @@ sheets.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-1-3">3.1.3 The power of selectors</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>In our last module (2), we learned about something called Selectors.
-This entire module is all about exactly that: Selectors.
-Because so far, we've actually seen pretty simple ones.
-They probably look something like this, and as you can see, this
-portion before the open curly brace, that's what we call Selector.
-And so far, we've only used ones that match the name of the HTML tag,
-which is totally fine. If you want every single paragraph to look
-exactly the same, or say you only have one header on your page.</p>
+<p>In our last module (2), we learned about something called Selectors. This entire module 
+is all about exactly that: Selectors. Because so far, we've actually seen pretty simple 
+ones. They probably look something like this, and as you can see, this portion before the 
+open curly brace, that's what we call Selector. And so far, we've only used ones that 
+match the name of the HTML tag, which is totally fine. If you want every single paragraph 
+to look exactly the same, or say you only have one header on your page.</p>
 
-<p>As our Web pages get a lot more complicated, we have a lot more of
-the same HTML element and chances are we're going to want them to look
-different from one another.
-Thankfully, there's a whole list of different types of Selectors that
-we can use to specifically target each one of these HTML elements.</p>
+<p>As our Web pages get a lot more complicated, we have a lot more of the same HTML 
+element and chances are we're going to want them to look different from one another.
+Thankfully, there's a whole list of different types of Selectors that we can use to 
+specifically target each one of these HTML elements.</p>
 
-<p>In this module, we're going to talk about things like classes, IDs,
-contextual selectors, pseudo-classes.
-All those things are going to help us really narrow our CSS.
-For example, we've probably written some CSS like this for this HTML
-page.</p>
+<p>In this module, we're going to talk about things like classes, IDs, contextual 
+selectors, pseudo-classes. All those things are going to help us really narrow our CSS.
+For example, we've probably written some CSS like this for this HTML page.</p>
 
-<p>But, as you can see, every single one of the paragraphs ends up
-looking exactly the same. Because as long as I use the selector P for
-paragraph, it applies to every paragraph.
-Here is a preview of some of the things we're going to learn in this
-module.</p>
+<p>But, as you can see, every single one of the paragraphs ends up looking exactly the 
+same. Because as long as I use the selector P for paragraph, it applies to every paragraph.
+Here is a preview of some of the things we're going to learn in this module.</p>
 
-<p>Now, I have three different rules, for each of my three paragraphs.
-And they all look completely different which makes my Web site a lot
-more dynamic.
-So, learning to properly select your HTML elements through CSS is
-crucially important to making sure that you get the most out of CSS.</p>
+<p>Now, I have three different rules, for each of my three paragraphs. And they all look 
+completely different which makes my Web site a lot more dynamic. Learning to properly 
+select your HTML elements through CSS is crucially important to making sure that you get 
+the most out of CSS.</p>
 
-<p>The CSS code mentioned in above video:</p>
+<p>The CSS code mentioned in above lesson:</p>
 
 <details>
   <summary>CSS code extract!</summary>
@@ -3764,11 +3756,9 @@ You can use the class name as the selector, like so:</p>
 
 <pre>&lt;p class=&quot;className&quot;&gt;The intro paragraph&lt;/p&gt;</pre>
 
-<p>Class names must be single words, but you can include digits and
-dashes as long as the name begins with a letter. Note that names are
-case sensitive.
-To apply a CSS rule to a class, you must precede its name by a period
-("."), like in the code below:</p>
+<p>Class names must be single words, but you can include digits and dashes as long as the 
+name begins with a letter. Note that names are case sensitive. To apply a CSS rule to a 
+class, you must precede its name by a period ("."), like in the code below:</p>
 
 <pre>.className {
   color: blue;
@@ -3781,19 +3771,17 @@ target="_blank" rel="noopener noreferrer">Definition</a> and 
 <a href="https://www.w3.org/TR/html52/dom.html#element-attrdef-global-id" 
 target="_blank" rel="noopener noreferrer">documentation</a>]</p>
 
-<p>An ID is an HTML attribute that specifies a name or unique identifier
-for a particular HTML element. They are like classes with a very
-important distinction: the value of the ID attribute must be unique
-throughout the document. This lets you target a single HTML element for
-styling. You set the id of an HTML element like so:</p>
+<p>An ID is an HTML attribute that specifies a name or unique identifier for a particular 
+HTML element. They are like classes with a very important distinction: the value of the 
+ID attribute must be unique throughout the document. This lets you target a single HTML 
+element for styling. You set the id of an HTML element like so:</p>
 
 <pre>&lt;p id=&quot;MyFirstId&quot;&gt; This is an extra special paragraph &lt;/p&gt;</pre>
 
-<p>ID names have the same rules as class names: start with a letter, can
-include numbers and dashes, no spaces. The way to create a selector for
-an ID is also similar to how you create a selector for a class, except
-you replace the period with a hash symbol ("#") like in the code
-below:</p>
+<p>ID names have the same rules as class names: start with a letter, can include numbers 
+and dashes, no spaces. The way to create a selector for an ID is also similar to how you 
+create a selector for a class, except you replace the period with a hash symbol ("#") 
+like in the code below:</p>
 
 <pre>#MyFirstId {
   color: blue;
@@ -3915,9 +3903,8 @@ the HTML as shown in the pen below:</p>
   alt="More examples of class and id." />
 <!-- ![](images/media/image55.webp){width="6.9375in" height="2.609027777777778in"} -->
 
-<p>In this activity, your job is to add the HTML id and class attributes
-to the correct elements so that you get a final result that looks like
-this:</p>
+<p>In this activity, your job is to add the HTML id and class attributes to the correct 
+elements so that you get a final result that looks like this:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 55. welcome to my page (99) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -3930,22 +3917,18 @@ this:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-3-1">3.3.1 CSS pseudo-classes</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Sometimes, you'll want to adjust the style of an element, based on
-how the user has interacted with it. The best example of this is
-links. Often times, you'll notice a link is blue, and then after you click
-on it it turns purple.</p>
+<p>Sometimes, you'll want to adjust the style of an element, based on how the user has 
+interacted with it. The best example of this is links. Often times, you'll notice a link 
+is blue, and then after you click on it it turns purple.</p>
 
-<p>This is the default style for the pseudo class visited.
-There's also a bunch of other pseudo-classes that let you manipulate
-whether the user is hovering over it with their cursor, or they're
-focusing on it and other such activity.</p>
+<p>This is the default style for the pseudo class visited. There's also a bunch of other 
+pseudo-classes that let you manipulate whether the user is hovering over it with their 
+cursor, or they're focusing on it and other such activity.</p>
 
-<p>Let’s take a look at the different pseudo-classes and how you can
-design a really interactive Web site.
-Pseudo-classes are a way to select HTML elements based on their state
-as opposed to their HTML structure.
-Pseudo-classes must always be applied to an existing selector. Their
-"flag character" is the colon (":").</p>
+<p>Let’s take a look at the different pseudo-classes and how you can design a really 
+interactive Web site. Pseudo-classes are a way to select HTML elements based on their 
+state as opposed to their HTML structure. Pseudo-classes must always be applied to an 
+existing selector. Their "flag character" is the colon (":").</p>
 
 <p>Here are some of the most popular pseudo-classes:</p>
 
@@ -3960,15 +3943,14 @@ rel="noopener noreferrer">Documentation</a>]</p>
   font-style: italic;
 }</pre>
 
-<p>These pseudo classes are the ones you are probably most familiar
-with. Even on this page you've probably noticed that <a
-href="http://www.edx.org/" target="_blank" rel="noopener noreferrer">links have 
-different style</a> than paragraph text. The &lt;a&gt; tag by default sets the 
-text color to blue with an underline, but have you ever seen a purple link? 
-This is the "visited" pseudo-class that applies a different style to links 
-that the user has already clicked. The opposite of visited is "link" which 
-is a link a user has not yet clicked. These two states are mutually exclusive,
-meaning a link cannot be both at the same time.</p>
+<p>These pseudo classes are the ones you are probably most familiar with. Even on this 
+page you've probably noticed that 
+<a href="http://www.edx.org/" target="_blank" rel="noopener noreferrer">
+links have different style</a> than paragraph text. The &lt;a&gt; tag by default sets the 
+text color to blue with an underline, but have you ever seen a purple link? This is the 
+"visited" pseudo-class that applies a different style to links that the user has already 
+clicked. The opposite of visited is "link" which is a link a user has not yet clicked. 
+These two states are mutually exclusive, meaning a link cannot be both at the same time.</p>
 
 <h4>:hover, :focus and :active</h4>
 
@@ -4302,7 +4284,7 @@ the most specific rule wins!</p>
 	  paragraphs within articles is more specific than a rule that applies to all the paragraphs 
 	  on the page,<br></li>
     <li>IDs are most specific because you are directly applying them to the desired HTML element. 
-     The rule based on an ID will always win over other rules.<br></li>
+      The rule based on an ID will always win over other rules.<br></li>
   </ul></li>
   <li>If two rules have the exact same weight, the one that comes later in the CSS document is 
     what is applied, and<br></li>
@@ -4357,8 +4339,7 @@ section:hover section:hover section:hover {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-4">3.4.4 Activity - Cascading order</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Cascading order can be difficult to manage.
-<b>Consider the following pen:</b></p>
+<p>Cascading order can be difficult to manage. <b>Consider the following pen:</b></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 65. managing cascading order (112) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed border"
@@ -4397,10 +4378,9 @@ p {
 
 </details>
 
-<p>Note that there are a lot of repeat CSS rules. For this activity, you
-cannot change any of the HTML (meaning you cannot add any IDs),
-but you'll need to change the CSS to make some of the rules more
-specific so that you achieve this final result:</p>
+<p>Note that there are a lot of repeat CSS rules. For this activity, you cannot change 
+any of the HTML (meaning you cannot add any IDs), but you'll need to change the CSS to 
+make some of the rules more specific so that you achieve this final result:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 66. cascading order solution (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed border"
@@ -4416,24 +4396,24 @@ specific so that you achieve this final result:</p>
   <summary>CSS code extract!</summary>
 
 <pre>body {
-  background-color: #F8EEE7;
+  background-color: #f8eee7;
 }
 p {
-  background-color: #F4DECB;
+  background-color: #f4decb;
 }
 section p {
-  background-color: #94618E;
+  background-color: #94618e;
   color: #F8EEE7;
 }
 article p {
-  background-color: #49274A;
+  background-color: #49274a;
 }
 #specific {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: #49274A;
 }
 p:hover {
-  background-color: #B4DBC0 !important;
+  background-color: #b4dbc0 !important;
   border: 2px dashed black;
 }</pre>
 
@@ -9914,6 +9894,7 @@ W3C "Front-End Web Developer" Professional Certificate</a> program:</p>
 <p>Last Updated: 6.16.2024 Sun 1:04am</p>
 <p>Last Updated: 7.22.2024 Thu 3:35pm</p>
 <p>Last Updated: 9.16.2024 Mon 12:10pm</p>
+<p>Last Updated: 9.28.2024 Sat 1:57pm</p>
 
 </body>
 
