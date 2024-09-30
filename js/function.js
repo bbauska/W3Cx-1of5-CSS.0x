@@ -7,9 +7,9 @@ var mybutton = document.getElementById("myBtn");
 
 window.onscroll = function() {scrollFunction()};
 
-// When the user scrolls down 20px from the top of the document, show the button.  10 and 20.
+// When the user scrolls down 10px from the top of the document, show the "go to" (myBtn) button.
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
@@ -17,7 +17,12 @@ function scrollFunction() {
 }
 
 // When the user clicks on the button, scroll to the top of the document, 0.
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
+/* function topFunction() { */
+/*  document.body.scrollTop = 0; */
+/*  document.documentElement.scrollTop = 0; */
+/* } */
+
+// when the user clicks on the button, scroll to the table of contents near top of document.
+  function topFunction() {
+    document.getElementById('table-of-contents').scrollIntoView();
+  }
