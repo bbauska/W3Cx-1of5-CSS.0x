@@ -63,10 +63,6 @@ a[href]:hover {
   text-decoration: underline; 
   text-decoration-color: 0000ff;
 }
-pre[href]:hover  {
-  text-decoration: none;
-}
-pre:hover, pre:focus { width: min-content; }
 
 div {
   float: left;
@@ -172,23 +168,28 @@ pre .line-number {
   color:black;
   display:block;
 }
-
 pre .line-number {
   float:left;
   margin:0 1em 0 -1em;
   border-right:1px solid;
   text-align:right;
 }
-
 pre .line-number span {
   display:block;
   padding:0 .5em 0 1em;
 }
-
 pre .cl {
   display:block;
   clear:both;
 }
+pre[href]:hover  {
+  text-decoration: none;
+}
+pre:hover, pre:focus { width: min-content; }
+pre {
+  overflow: auto;
+}
+
 @media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
   div.example {
     font-size: 50px;
