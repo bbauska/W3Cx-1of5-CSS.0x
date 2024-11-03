@@ -919,17 +919,17 @@ A style sheet language for describing how to display an HTML document.</p>
 
 <h4>Sample CSS document:</h4>
 
-<pre id="test1">1. body {
-2.   background-color: #d0e4fe;
-3. }
-4. h1 {
-5.   color: orange;
-6.   text-align: center;
-7. }
-8. p {
-9.   font-family: &quot;Times New Roman&quot;;
-10.   font-size: 20px;
-11. }</pre>
+<pre><code>body {
+  background-color: #d0e4fe;
+}
+h1 {
+  color: orange;
+  text-align: center;
+}
+p {
+  font-family: &quot;Times New Roman&quot;;
+  font-size: 20px;
+}</code></pre>
 
 <h3>HTML • /eɪʧ-ti-ɛm-ɛl/ • noun</h3>
 
@@ -1252,25 +1252,25 @@ this demo.</p>
 
 <h4>Here is the HTML part:</h4>
 
-<pre>1. &lt;!DOCTYPE html&gt;
-2. &lt;html lang=&quot;en&quot;&gt;
-3.   &lt;head&gt;
-4.     &lt;meta charset=&quot;utf-8&quot;&gt;
-5.     &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
-6.   &lt;/head&gt;
-7.   &lt;body&gt;
-8.     &lt;p&gt;
-9.       Hello Beautiful World
-10.     &lt;/p&gt;
-11.   &lt;/body&gt;
-12. &lt;/html&gt;</pre>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+     Hello Beautiful World
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
 
 <h4>… and the CSS file (style.css) is:</h4>
 
-<pre>p {
+<pre><code>p {
   color: blue;
   font-family:Helvetica;
-}</pre>
+}</code></pre>
 
 <p>... and here is the "output":</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1295,8 +1295,8 @@ a best practice by developers and is a habit we highly recommend you develop now
 <p>To add comments to your CSS file, you need to surround any text you want the computer 
 to ignore with a set of <i>slashes</i> and <i>asterisks</i> like so:</p>
 
-<pre>/&ast; those two symbols start my comment block I can have more comment text here and the 
-following two symbols end my comment &ast;/</pre>
+<pre><code>/&ast; those two symbols start my comment block I can have more comment text here and the 
+following two symbols end my comment &ast;/</code></pre>
 
 <p>As you can see, you can put as much text between the open and close symbols as you need, 
 you can even have multiple lines. If you are working in an editor like Visual Studio code, 
@@ -1324,17 +1324,17 @@ choice and save the following code as a new HTML document.</p>
 extension when you are saving it. For example, you could call
 it index.html</p>
 
-<pre>1. &lt;!DOCTYPE html&gt;
-2. &lt;html lang=&quot;en&quot;&gt;
-3.   &lt;head&gt;
-4.     &lt;meta charset=&quot;utf-8&quot;&gt;
-5.   &lt;/head&gt;
-6.   &lt;body&gt;
-7.     &lt;p&gt;
-8.       Hello Beautiful World
-9.     &lt;/p&gt;
-10.   &lt;/body&gt;
-11. &lt;/html&gt;</pre>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      Hello Beautiful World
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
 
 <p>Once you have your HTML document view it in a Web browser. It should
 look like this:</p>
@@ -1351,9 +1351,9 @@ look like this:</p>
 Beautiful World" demo. Make a new file with this css and save it with a
 .css file extension. For example, you can call it styles.css</p>
 
-<pre>p {
+<pre><code>p {
   color: blue;
-}</pre>
+}</code></pre>
 
 <p>This won’t change the look of your HTML until you link the two files
 with this HTML tag.</p>
@@ -1487,9 +1487,9 @@ HTML document is going to make your CSS a lot nicer.</p>
 the content so that the web browser understands the structure of the page. HTML tags typically 
 come in pairs, an opening tag before and a closing tag after content like so:</p>
 
-<pre>&lt;tagname&gt;
+<pre><code>&lt;tagname&gt;
   My content
-&lt;/tagname&gt;</pre>
+&lt;/tagname&gt;</code></pre>
 
 <p>When these three pieces are combined (start tag, content, and end tag), you have what 
 is called an HTML <b>element</b>.</p>
@@ -1499,7 +1499,7 @@ is called an HTML <b>element</b>.</p>
 <details>
   <summary>HTML code extract!</summary>
   
-<pre>&lt;!DOCTYPE html&gt; &lt;!-- Doctype declares the document to be HTML 5 type--&gt;
+<pre><code>&lt;!DOCTYPE html&gt; &lt;!-- Doctype declares the document to be HTML 5 type--&gt;
 &lt;html lang=&quot;en&quot;&gt; &lt;!--All your HTML content must be within this tag--&gt;
   &lt;head&gt; &lt;!--Anything in the header provides information about the document, no content here--&gt;
     &lt;meta charset=&quot;utf-8&quot;&gt;
@@ -1509,7 +1509,7 @@ is called an HTML <b>element</b>.</p>
     &lt;h1&gt;My First Heading&lt;/h1&gt; &lt;!--content in a h1 tag is a &quot;heading&quot; of the top level--&gt;
     &lt;p&gt;My first paragraph.&lt;/p&gt; &lt;!--content in a p tag is normal or &quot;paragraph&quot; level text--&gt;
   &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -1570,12 +1570,12 @@ rel="noopener noreferrer">this resource</a>).</p>
 of text in your page because many CSS features will function differently, depending on what 
 language is declared here.</p>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;body&gt;
     &lt;p&gt; Hello World&lt;/p&gt;
   &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 <h4>&lt;head&gt;</h4>
 
@@ -1597,7 +1597,7 @@ alphabet.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;utf-8&quot;&gt;
@@ -1606,7 +1606,7 @@ alphabet.</p>
   &lt;body&gt;
     &lt;p&gt; Hello World&lt;/p&gt;
   &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -1623,7 +1623,7 @@ tag per document and it should come after the head tag.</p>
 <details>
   <summary>HTML code extract!</summary>
   
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;utf-8&quot;&gt;
@@ -1633,7 +1633,7 @@ tag per document and it should come after the head tag.</p>
   &lt;body&gt;
     &lt;p&gt; Hello World&lt;/p&gt;
   &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -1647,10 +1647,10 @@ target="_blank" rel="noopener noreferrer"><i>Documentation</i></a>]</p>
 physically separated from adjacent blocks through blank lines. This is
 the most basic way to group text content.</p>
 
-<pre>&lt;p&gt;
+<pre><code>&lt;p&gt;
   This is my introductory paragraph to my Web page! This text will wrap around in a single block 
   and then after the paragraph is done there will be a line of white space.
-&lt;/p&gt;</pre>
+&lt;/p&gt;</code></pre>
 
 <h4>&lt;a&gt;</h4>
 
@@ -1692,11 +1692,11 @@ the framework for you to add list elements inside it. You will want to add
 your elements within the ul tag each surrounded your content with <b>l</b>ist 
 <b>i</b>tem or "&lt;li&gt;" tags like in the below example.</p>
 
-<pre>&lt;ul&gt;
+<pre><code>&lt;ul&gt;
   &lt;li&gt;This is one element in the list&lt;/li&gt;
   &lt;li&gt;One of the elements&lt;/li&gt;
   &lt;li&gt;Another element&lt;/li&gt;
-&lt;/ul&gt;</pre>
+&lt;/ul&gt;</code></pre>
 
 <h4>&lt;ol&gt;</h4>
 
@@ -1709,11 +1709,11 @@ element order matters. OL stands for "<b>o</b>rdered <b>l</b>ist" and by
 default, the list element items are displayed with a number preceding
 them.</p>
 
-<pre>&lt;ol&gt;
+<pre><code>&lt;ol&gt;
   &lt;li&gt;This is the first element&lt;/li&gt;
   &lt;li&gt;The second element&lt;/li&gt;
   &lt;li&gt;Finally, this is the third element&lt;/li&gt;
-&lt;/ol&gt;</pre>
+&lt;/ol&gt;</code></pre>
 
 <h4>&lt;br /&gt;</h4>
 
@@ -1730,11 +1730,11 @@ target="_blank" rel="noopener noreferrer">
 is most evident when placed in a block of text as it essentially
 represents a carriage return or hitting the "enter" key.  Useful for poems.</p>
 
-<pre>&lt;p&gt;
+<pre><code>&lt;p&gt;
   this is my text.
   &lt;br /&gt;
   this text will appear on the next line down.
-&lt;/p&gt;</pre>
+&lt;/p&gt;</code></pre>
 
 <h4>&lt;header&gt;</h4>
 
@@ -1746,12 +1746,12 @@ other HTML elements according to their role on their page. The header element
 contains all the introductory content on the page typically a title and tagline 
 or navigational elements.</p>
 
-<pre>&lt;body&gt;
+<pre><code>&lt;body&gt;
   &lt;header&gt;
     &lt;h1&gt; Welcome to my page!&lt;/h1&gt;
     &lt;h2&gt; My very first web page&lt;/h2&gt;
   &lt;/header&gt;
-&lt;/body&gt;</pre>
+&lt;/body&gt;</code></pre>
 
 <h4>&lt;section&gt;</h4>
 
@@ -1765,14 +1765,14 @@ This typically will come after a header tag and before a footer tag.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;body&gt;
+<pre><code>&lt;body&gt;
   &lt;header&gt;
     &lt;h1&gt; My Page &lt;/h1&gt;
   &lt;/header&gt;
   &lt;section&gt;
     &lt;h2&gt; My Blog &lt;/h2&gt;
   &lt;/section&gt;
-&lt;/body&gt;</pre>
+&lt;/body&gt;</code></pre>
 
 </details>
 
@@ -1787,7 +1787,7 @@ the final content on the page such as the credits or contact info. </p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;body&gt;
+<pre><code>&lt;body&gt;
   &lt;header&gt;
     &lt;h1&gt;My Page&lt;/h1&gt;
   &lt;/header&gt;
@@ -1799,7 +1799,7 @@ the final content on the page such as the credits or contact info. </p>
       copyright 2016
     &lt;/p&gt;
   &lt;/footer&gt;
-&lt;/body&gt;</pre>
+&lt;/body&gt;</code></pre>
 
 </details>
 
@@ -1814,12 +1814,12 @@ considered a last resort, for when no other element is suitable but is
 often used to collect together large portions of a site that contain
 multiple different types of content. </p>
 
-<pre>&lt;div&gt;
+<pre><code>&lt;div&gt;
   &lt;h1&gt; Title for Content &lt;/h1&gt;
   &lt;img src=&quot;images/contentImage.jpg&quot; /&gt;
   &lt;p&gt; This is a paragraph explaining this section of content associated with the above image 
     and title&lt;/p&gt;
-&lt;/div&gt;</pre>
+&lt;/div&gt;</code></pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-2-3">2.2.3 Next steps - learn more HTML</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1929,9 +1929,9 @@ first CSS style specifically for a given HTML Web site.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Here is an example CSS "rule":</p>
 
-<pre>p {
+<pre><code>p {
   color: blue;
-}</pre>
+}</code></pre>
 
 <p>This rule tells the browser to make all text within a paragraph tag blue.</p>
 
@@ -1988,7 +1988,7 @@ you will style:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;utf-8&quot;&gt;
@@ -2008,7 +2008,7 @@ you will style:</p>
       &lt;li&gt;Item 4 completes the list&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -2080,22 +2080,22 @@ selectors, but for this module we are going to stick to basics and only use
 selectors that match the HTML tag name. For example, here are some example 
 selectors we'll use in this module:</p>
 
-<pre>a {
+<pre><code>a {
 /* style for a tags */
-}</pre>
+}</code></pre>
 
 <p>This would affect the style of all link tags on the page.</p>
 
-<pre>p {
+<pre><code>p {
 /* style for p tags */
-}</pre>
+}</code></pre>
 
 <p>This would affect the style of all paragraph tags on the page and the style 
 of elements contained within the paragraph tag.</p>
 
-<pre>body {
+<pre><code>body {
 /* style for all elements in the body */
-}</pre>
+}</code></pre>
 
 <p>This would apply style to the body tag as well as allow the elements inside 
 the body tag to inherit certain styles applied here (check the 
@@ -2116,7 +2116,7 @@ related CodePen online</a>).</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;html lang=&quot;en&quot;&gt;
+<pre><code>&lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;utf-8&quot;&gt;
     &lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot;&gt;
@@ -2137,7 +2137,7 @@ related CodePen online</a>).</p>
       &lt;li&gt;when you don&#39;t want every single HTML element of a particular type to have 
         identical style&lt;/li&gt;
     &lt;/ul&gt;
-    &lt;p&gt;</pre>
+    &lt;p&gt;</code></pre>
  
 </details>
 
@@ -2159,7 +2159,7 @@ tag name. For example, here are some example selectors we’ll use in this modul
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>  &lt;/p&gt;
+<pre><code>  &lt;/p&gt;
     &lt;ol&gt;
       &lt;li&gt;This would affect the style of all link tags on the page&lt;/li&gt;
       &lt;li&gt;This would affect the style of all paragraph tags on the page&lt;/li&gt;
@@ -2169,7 +2169,7 @@ tag name. For example, here are some example selectors we’ll use in this modul
         applied here.&lt;/li&gt;
     &lt;/ol&gt;
   &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -2178,7 +2178,7 @@ tag name. For example, here are some example selectors we’ll use in this modul
 <details>
   <summary>CSS code extract!</summary>
   
-<pre>body {
+<pre><code>body {
   color: red; /* every element inherits this except a tags, which don&#39;t inherit by default */
  }
 ul {
@@ -2189,7 +2189,7 @@ p {
 }
 li {
   text-decoration: line-through; /* applies to all li elements, in both ul and ol tags */
-}</pre>
+}</code></pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2207,7 +2207,7 @@ Code Pen</a>):</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;utf-8&quot;&gt;
@@ -2228,7 +2228,7 @@ Code Pen</a>):</p>
       &lt;/ul&gt;
     &lt;/section&gt;
   &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -2262,7 +2262,7 @@ directly to that tag.</p>
 <details>
   <summary>CSS code extract!</summary>
   
-<pre>body {
+<pre><code>body {
   font-family: &quot;Century Gothic&quot;, sans-serif;
 }
 header {
@@ -2273,7 +2273,7 @@ section {
 }
 ul {
   color: green;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -2296,7 +2296,7 @@ styles to the top most element and save yourself extra CSS code.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;html lang=&quot;en&quot;&gt;
+<pre><code>&lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;utf-8&quot;&gt;
     &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
@@ -2315,7 +2315,7 @@ styles to the top most element and save yourself extra CSS code.</p>
       &lt;/ul&gt;
     &lt;/section&gt;
   &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -2324,7 +2324,7 @@ styles to the top most element and save yourself extra CSS code.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>body {
+<pre><code>body {
   font-family: &quot;Century Gothic&quot;, sans-serif;
 }
 header {
@@ -2335,7 +2335,7 @@ section {
 }
 ul {
   color: green;
-}</pre>
+}</code></pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2353,10 +2353,10 @@ across many elements? You would have to change it in many places.
 Instead, you can combine multiple selectors on the same rule like
 so:</p>
 
-<pre>p, ul, ol {
+<pre><code>p, ul, ol {
   color: blue;
   background-color: pink;
-}</pre>
+}</code></pre>
 
 <p>The comma means that each of these elements should have the same,
 duplicated style. No need to have repeated style! Of course, you could
@@ -2383,7 +2383,7 @@ explores using the comma to combine selectors.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>body {
+<pre><code>body {
   color: #660099;
 }
 h1,h2,h3 {
@@ -2397,7 +2397,7 @@ h2,ul {
 }
 h3,ol {
   text-decoration: underline;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -2406,7 +2406,7 @@ h3,ol {
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;html lang=&quot;en&quot;&gt;
+<pre><code>&lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
   &lt;meta charset=&quot;utf-8&quot;&gt;
   &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
@@ -2426,7 +2426,7 @@ h3,ol {
     &lt;li&gt;and the tags inside of them are their children in the following tree representation&lt;/li&gt;
   &lt;/ol&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2442,7 +2442,7 @@ href="http://codepen.io/w3devcampus/pen/RoKLKE/" target="_blank" rel="noopener n
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
   &lt;meta charset=&quot;utf-8&quot;&gt;
@@ -2451,7 +2451,7 @@ href="http://codepen.io/w3devcampus/pen/RoKLKE/" target="_blank" rel="noopener n
 &lt;/head&gt;
 &lt;body&gt;
   &lt;h1&gt;Main Title&lt;/h1&gt;
-  &lt;p&gt;</pre>
+  &lt;p&gt;</code></pre>
  
 </details>
 
@@ -2476,7 +2476,7 @@ aspects of an HTML element in mind</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;/p&gt;
+<pre><code>&lt;/p&gt;
   &lt;h2&gt;Sub Title 1&lt;/h2&gt;
   &lt;ul&gt;
     &lt;li&gt;How many of these HTML elements are on my page?&lt;/li&gt;
@@ -2490,7 +2490,7 @@ aspects of an HTML element in mind</p>
     &lt;li&gt;and does this style make sense in that context?&lt;/li&gt;
   &lt;/ol&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -2499,7 +2499,7 @@ aspects of an HTML element in mind</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>  /*selector here*/  {
+<pre><code>  /*selector here*/  {
   background-color: #ccffcc;
   color: #336600;
 }
@@ -2515,7 +2515,7 @@ aspects of an HTML element in mind</p>
 }
   /*selector here*/  {
   text-decoration: underline;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -2549,12 +2549,12 @@ input, some specific keywords, some numerical input, etc.</p>
 <p>Here are some examples of properties that each accept a different style of 
 value:</p>
 
-<pre>body {
+<pre><code>body {
   background-color: purple; /* key word */
   color: #FFFFFF; /* HEX code */
   width: 60%; /* percentage */
   font-size: 20pt; /* numerical value */
-}</pre>
+}</code></pre>
 
 <p>The above style is put into action in the 
 <a href="https://codepen.io/techie4good/pen/bwbLJP" target="_blank" rel="noopener noreferrer">
@@ -2650,9 +2650,9 @@ different ways you can define that color: keyword, a HEX code or an rgb value.<
 <p>Probably the simplest and least flexible way to set colors is using a keyword. 
 A keyword is one of the predefined colors like "blue" or "green".</p>
 
-<pre>body {
+<pre><code>body {
    background-color: teal; 
-}</pre>
+}</code></pre>
 
 <p>The list of color keywords is: aqua, black, blue, fuchsia, gray, green, lime, 
 maroon, navy, olive, orange, purple, red, silver, teal, white, and yellow. You 
@@ -2672,17 +2672,17 @@ represents pure white.</p>
 <p>When using a hex code in CSS you must put a hash character in front
 of the 6 characters like so:</p>
 
-<pre>body {
+<pre><code>body {
    background-color: #00CC00; /* green */
-}</pre>
+}</code></pre>
 
 <h4>decimal</h4>
 
 <p>You can also specify colors using rgb in decimal form like so:</p>
 
-<pre>body {
+<pre><code>body {
    background-color: rgb(0,204,0); /*same green as above*/
-}</pre>
+}</code></pre>
 
 <p>This will give you the same range as HEX values. This method is a less common, 
 but it's up to you which method of specifying colors you prefer.</p>
@@ -2747,9 +2747,9 @@ cursive</a></b> and <b><a href="https://www.w3.org/TR/css-fonts/#fantasy-def"
 target="_blank" rel="noopener noreferrer">
 fantasy</a>.</b></p>
 
-<pre>p {
+<pre><code>p {
   font-family: Helvetica, Verdana, sans-serif;
-}</pre>
+}</code></pre>
 
 <p>This property sets the font face. There is a collection of Web safe
 fonts that generally each browser has agreed to support, but there are
@@ -2775,9 +2775,9 @@ quick reference</a> listing what the fonts look like with different properties.
 surround the entire name with quotes so the browser understands that is a single 
 font name like so:</p>
 
-<pre>p {
+<pre><code>p {
   font-family: &quot;Times New Roman&quot;, &quot;New Century Schoolbook&quot;, serif;
-}</pre>
+}</code></pre>
 
 <h4>font-size</h4>
 
@@ -2785,9 +2785,9 @@ font name like so:</p>
 href="https://www.w3.org/TR/css-fonts-4/#font-size-prop" target="_blank" 
 rel="noopener noreferrer"><i>Documentation</i></a>]</p>
 
-<pre>h1 {
+<pre><code>h1 {
   font-size: 2.5em;
-}</pre>
+}</code></pre>
 
 <p>CSS offers a number of different units for expressing length. Font-size sets 
 the overall scale of your text. You can use a lot of different units to set the 
@@ -2836,9 +2836,9 @@ font sizing tips and tricks</a>.</p>
 <p>[<a href="https://www.w3.org/TR/css-fonts-4/#font-weight-prop" 
 target="_blank" rel="noopener noreferrer"><i>Documentation</i></a>]</p>
 
-<pre>p {
+<pre><code>p {
    font-weight: bold;
-}</pre>
+}</code></pre>
 
 <p>The weight of a font is the thickness of the letters. You can set
 this property using keywords with which you might be familiar: bold,
@@ -2859,9 +2859,9 @@ this Codepen</a> to see how they look at each weight setting.</p>
 href="https://www.w3.org/TR/css-fonts-4/#font-style-prop" target="_blank" 
 rel="noopener noreferrer"><i>Documentation</i></a>]</p>
 
-<pre>p {
+<pre><code>p {
   font-style: italic;
-}</pre>
+}</code></pre>
 
 <p>The font style property adjusts the angle of the letters in relation to the 
 horizontal plane. Italic forms are generally cursive in nature while oblique 
@@ -2873,9 +2873,9 @@ faces are typically sloped versions of the regular face.</p>
 href="https://www.w3.org/TR/css-text-decor-3/#text-decoration-property" target="_blank" 
   rel="noopener noreferrer"><i>Documentation</i></a>]</p>
 
-<pre>p {
+<pre><code>p {
   text-decoration: underline;
-}</pre>
+}</code></pre>
 
 <p>Text-decoration adds a line across your text. You can set this line to be 
 underneath your text, <i>underline</i>, through your text, <i>line-through</i>, 
@@ -2901,7 +2901,7 @@ or on top, <i>overline</i>.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;utf-8&quot;&gt;
@@ -2924,7 +2924,7 @@ or on top, <i>overline</i>.</p>
       elit at ornare vulputate.
     &lt;/p&gt;
   &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -2933,7 +2933,7 @@ or on top, <i>overline</i>.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>body {
+<pre><code>body {
   font-family: Helvetica, Verdana, sans-serif;
   font-size: 12pt;
 }
@@ -2947,7 +2947,7 @@ h2 {
 }
 p {
   font-weight: bold;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -3003,9 +3003,9 @@ around the content is broken into three distinct regions. </p>
 href="https://www.w3.org/TR/CSS2/box.html#propdef-padding-top" 
 target="_blank" rel="noopener noreferrer"><i>Documentation</i></a>]</p>
 
-<pre>p {
+<pre><code>p {
   padding: 20px;
-}</pre>
+}</code></pre>
 
 <p>"Padding" is the white space that sits closest to an HTML element.
 Many elements already have a default padding defined. For
@@ -3028,9 +3028,9 @@ to set padding</a>.</p>
 href="https://www.w3.org/TR/css3-background/#borders" target="_blank" 
 rel="noopener noreferrer"><i>Documentation</i></a>]</p>
 
-<pre>p {
+<pre><code>p {
   border: 1px black solid;
-}</pre>
+}</code></pre>
 
 <p>The "border" is the area outside the padding of an HTML element. By
 default, borders are set to be empty, but you can set their width,
@@ -3047,9 +3047,9 @@ into a single simple property and value set.</p>
 href="https://www.w3.org/TR/CSS2/box.html#propdef-margin" target="_blank" 
 rel="noopener noreferrer"><i>Documentation</i></a>]</p>
 
-<pre>p {
+<pre><code>p {
   margin-bottom: 50px;
-}</pre>
+}</code></pre>
 
 <p>An HTML element's "margin" is the white space that sits outside the
 border. Margins of HTML elements interact with one another on the page
@@ -3084,7 +3084,7 @@ rel="noopener noreferrer">
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>body {
+<pre><code>body {
   background-color: #99ffff;
   margin-top: 20px;
   margin-left: 70px;
@@ -3110,7 +3110,7 @@ p {
   border: 10px white double;
   padding: 0px;
   margin: 0px;
-}</pre>
+}</code></pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3138,7 +3138,7 @@ Codepen</a>:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
   &lt;meta charset=&quot;utf-8&quot;&gt;
@@ -3170,7 +3170,7 @@ Codepen</a>:</p>
      space it will even give you some of the different value options and you can even change them and watch the Web site update dynamically.
   &lt;/p&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -3179,7 +3179,7 @@ Codepen</a>:</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>body {
+<pre><code>body {
 }
 h1 {
 }
@@ -3190,7 +3190,7 @@ ol {
 li {
 }
 p {
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -3282,7 +3282,7 @@ too many different aspects of font for emphasis:</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>#busyTitle h1{
+<pre><code>#busyTitle h1{
   font-size: 2em;
   font-family: Impact;
   color: yellow;
@@ -3291,7 +3291,7 @@ too many different aspects of font for emphasis:</p>
   font-variant: small-caps;
   font-weight: bold;
   text-decoration: underline;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -3314,7 +3314,7 @@ appear more prominent than the body text. </p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>#design1 {
+<pre><code>#design1 {
   background-color: #F4F4F4;
   font-family: &quot;Lucida Sans Unicode&quot;, sans-serif;
 }
@@ -3330,7 +3330,7 @@ appear more prominent than the body text. </p>
 #design1 p {
   color: #373737;
   font-size: 1.2em;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -3352,7 +3352,7 @@ font with high contrast colors.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>#design2 {
+<pre><code>#design2 {
   font-family: Century Gothic, sans-serif;
   background-color: #0E0B16;
 }
@@ -3366,7 +3366,7 @@ font with high contrast colors.</p>
  
 #design2 p {
   color: #E7DFDD;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -3392,7 +3392,7 @@ target="_blank" rel="noopener noreferrer">
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>#design3 {
+<pre><code>#design3 {
   color: #DF744A;
   font-family: Arial, sans-serif;
 }
@@ -3408,7 +3408,7 @@ target="_blank" rel="noopener noreferrer">
 #design3 p {
   background-color: #FEDCD2;
   padding: 50px;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -3462,7 +3462,7 @@ background and the body text.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>#design1 {
+<pre><code>#design1 {
   background-color: #94618E;
   color: #F8EEE7;
   font-family: Corbel;
@@ -3474,7 +3474,7 @@ background and the body text.</p>
   color: #49274A;
   font-weight: bold;
   font-size: 1.2em;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -3500,7 +3500,7 @@ tips for designing</a>).</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>#design2 {
+<pre><code>#design2 {
   background-color: #D9D9D9;
   color: white;
   font-family: &quot;Century Gothic&quot;, sans-serif;
@@ -3512,7 +3512,7 @@ tips for designing</a>).</p>
   padding: 10px 50px;
   font-family: Impact, sans-serif;
   font-size: 1.3em;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -3534,7 +3534,7 @@ button rounded corners.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>#design3 {
+<pre><code>#design3 {
   font-family: Impact, sans-serif;
   font-size: 2em;
 }
@@ -3546,7 +3546,7 @@ button rounded corners.</p>
   border: 7px #EC576B solid;
   border-radius: 20px;
   font-size: 0.8em;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -3715,7 +3715,7 @@ the most out of CSS.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>p {
+<pre><code>p {
   color: white;
   background-color: midnightblue;
   font-size: large;
@@ -3731,7 +3731,7 @@ the most out of CSS.</p>
   background-color: transparent;
   color: black;
   font-family: &#39;Franklin Gothic Medium&#39;;
-}</pre>
+}</code></pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3785,9 +3785,9 @@ You can use the class name as the selector, like so:</p>
 name begins with a letter. Note that names are case sensitive. To apply a CSS rule to a 
 class, you must precede its name by a period ("."), like in the code below:</p>
 
-<pre>.className {
+<pre><code>.className {
   color: blue;
-}</pre>
+}</code></pre>
 
 <h4>IDs</h4>
 
@@ -3808,9 +3808,9 @@ and dashes, no spaces. The way to create a selector for an ID is also similar to
 create a selector for a class, except you replace the period with a hash symbol ("#") 
 like in the code below:</p>
 
-<pre>#MyFirstId {
+<pre><code>#MyFirstId {
   color: blue;
-}</pre>
+}</code></pre>
 
 <h4>Example</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3828,7 +3828,7 @@ like in the code below:</p>
 <details>
   <summary>HTML code extract!</summary>
   
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
   &lt;meta charset=&quot;utf-8&quot;&gt;
@@ -3866,13 +3866,13 @@ like in the code below:</p>
     with a hash symbol (&quot;#&quot;).
   &lt;/p&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
 <h4>CSS code:</h4>
 
-<pre>#intro {
+<pre><code>#intro {
   color: green;
 }
 .odd {
@@ -3880,7 +3880,7 @@ like in the code below:</p>
 }
 .even {
   color: red;
-}</pre>
+}</code></pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-2-2">3.2.2 Activity - Add your own classes and ids</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3889,7 +3889,7 @@ like in the code below:</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>body {
+<pre><code>body {
   background-color: #00ccff;
   color: white;
   font-family: Helvetica, sans-serif;
@@ -3912,7 +3912,7 @@ p,h2 {
 }
 #unimportantItem {
   color: gray;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -3963,10 +3963,10 @@ existing selector. Their "flag character" is the colon (":").</p>
 href="https://www.w3.org/TR/CSS22/selector.html#link-pseudo-classes" target="_blank" 
 rel="noopener noreferrer">Documentation</a>]</p>
 
-<pre>a:visited {
+<pre><code>a:visited {
   color: gray;
   font-style: italic;
-}</pre>
+}</code></pre>
 
 <p>These pseudo classes are the ones you are probably most familiar with. Even on this 
 page you've probably noticed that 
@@ -3990,26 +3990,26 @@ support this, such as touch devices or pen surfaces. This is a really
 good way to encourage a user to click a link and you will often see it
 used in navigation bars.</p>
 
-<pre>li:hover {
+<pre><code>li:hover {
   background-color: yellow;
-}</pre>
+}</code></pre>
 
 <p>The focus pseudo class applies when a user has chosen to begin
 interacting with an element, such as when they click into a form input
 field so that the input field is then ready to accept keyboard
 input.</p>
 
-<pre>input:focus {
+<pre><code>input:focus {
   background-color: blue;
-}</pre>
+}</code></pre>
 
 <p>The active pseudo-class applies when an element is activated. This
 happens in the time between when the user clicks their mouse and they
 release it.</p>
 
-<pre>p:active {
+<pre><code>p:active {
   color: red;
-}</pre>
+}</code></pre>
 
 <p>You can read more about pseudo-classes in this <a
 href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes" 
@@ -4035,7 +4035,7 @@ Pseudoclasses</a>) and the CSS code:</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>body {
+<pre><code>body {
   background-color: #006666;
   color: white;
 }
@@ -4077,7 +4077,7 @@ a {
 }
 a {
   color: #33cc99;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -4127,29 +4127,29 @@ on a rule, you scope the rule to the elements that correspond to the selector on
 that are INSIDE the elements that correspond to the selector on the left. Let's say we have 
 the following HTML:</p>
 
-<pre>1. &lt;!DOCTYPE html&gt;
-2. &lt;html lang=&quot;en&quot;&gt;
-3.   &lt;head&gt;
-4.     &lt;meta charset=&quot;utf-8&quot;&gt;
-5.   &lt;/head&gt;
-6.   &lt;body&gt;
-7.     &lt;img src=&quot;images/pic1.jpg&quot; alt=&quot;pic 1&quot; /&gt;
-8.     &lt;p&gt;
-9.       This is my paragraph full of useful information
-10.       &lt;img src=&quot;images/pic2.jpg&quot; alt=&quot;pic 2&quot; /&gt;
-11.       Since there is text around these images, they should be styled a little differently.
-12.       &lt;img src=&quot;images/pic3.jpg&quot; alt=&quot;pic 3&quot; /&gt;
-13.     &lt;/p&gt;
-14.     &lt;img src=&quot;images/pic4.jpg&quot; alt=&quot;pic 4&quot; /&gt;
-15.   &lt;/body&gt;
-16. &lt;/html&gt;</pre>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;img src=&quot;images/pic1.jpg&quot; alt=&quot;pic 1&quot; /&gt;
+    &lt;p&gt;
+      This is my paragraph full of useful information
+      &lt;img src=&quot;images/pic2.jpg&quot; alt=&quot;pic 2&quot; /&gt;
+      Since there is text around these images, they should be styled a little differently.
+      &lt;img src=&quot;images/pic3.jpg&quot; alt=&quot;pic 3&quot; /&gt;
+    &lt;/p&gt;
+    &lt;img src=&quot;images/pic4.jpg&quot; alt=&quot;pic 4&quot; /&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
 
 <p>If we applied the following CSS rule then the images INSIDE the paragraph would be set 
 to a width of 100px, but that rule would not apply to the images outside the paragraph.</p>
 
-<pre>p img {
+<pre><code>p img {
   width: 100px;
-}</pre>
+}</code></pre>
 
 <p>Below is a diagram of the given HTML with the two images that will be styled by the above 
 rule are indicated by the red arrows.</p>
@@ -4194,7 +4194,7 @@ and IDs.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>body {
+<pre><code>body {
   font-family: Tahoma, sans-serif;
 }
 header, article, footer {
@@ -4227,7 +4227,7 @@ ol {
 }
 ol {
   border: 5px solid #E24E43;  /* bright red */
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -4332,7 +4332,7 @@ with many overlapping rules:</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>section {
+<pre><code>section {
   color: red;
 }
 section section {
@@ -4352,7 +4352,7 @@ section:hover section:hover {
 }
 section:hover section:hover section:hover {
   color: yellow;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -4380,7 +4380,7 @@ section:hover section:hover section:hover {
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>body {
+<pre><code>body {
   background-color: #F8EEE7;
 }
 p {
@@ -4400,7 +4400,7 @@ p {
 p {
   background-color: #B4DBC0 !important;
   border: 2px dashed black;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -4421,7 +4421,7 @@ make some of the rules more specific so that you achieve this final result:</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>body {
+<pre><code>body {
   background-color: #f8eee7;
 }
 p {
@@ -4441,7 +4441,7 @@ article p {
 p:hover {
   background-color: #b4dbc0 !important;
   border: 2px dashed black;
-}</pre>
+}</code></pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4487,10 +4487,10 @@ download the full image even if you've chosen to display it smaller than
 it is. You can resize images using the width or height properties of CSS
 like so:</p>
 
-<pre>img {
+<pre><code>img {
   width: 100px;
   height: 100px;
-}</pre>
+}</code></pre>
 
 <p>In Module 4, we will discuss width and height in detail, but for the
 purpose of images, know that if you only set one of these two properties
@@ -4551,7 +4551,7 @@ like this "Bad Image" example:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -4571,7 +4571,7 @@ like this "Bad Image" example:</p>
       &lt;/p&gt;
     &lt;/div&gt;
   &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -4580,14 +4580,14 @@ like this "Bad Image" example:</p>
 <details>
   <summary>CSS code extract!</summary>
   
-<pre>div {
+<pre><code>div {
   margin-bottom: 50px;
 }
 #badImg {
   background-color: gray;
   padding: 10px;
   color: white;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -4610,7 +4610,7 @@ as if it belongs. It also uses padding to give the image a "polaroid-style" bord
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>div {
+<pre><code>div {
   margin-bottom: 50px;
 }
 #images1 {
@@ -4631,7 +4631,7 @@ as if it belongs. It also uses padding to give the image a "polaroid-style" bord
   width: 250px;
   padding: 15px 15px 50px 15px;
   background-color: white;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -4640,7 +4640,7 @@ as if it belongs. It also uses padding to give the image a "polaroid-style" bord
 <details>
   <summary>HTML code extract!</summary>
   
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -4658,7 +4658,7 @@ as if it belongs. It also uses padding to give the image a "polaroid-style" bord
         alt=&quot;snapshot of the Dataset Exchange Working Group Calendar&quot; /&gt;
     &lt;/div&gt;
   &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -4682,7 +4682,7 @@ photos.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -4711,7 +4711,7 @@ photos.</p>
         alt=&quot;Example of horizontal ruby&quot; /&gt;
     &lt;/div&gt;
   &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -4720,7 +4720,7 @@ photos.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>div {
+<pre><code>div {
   margin-bottom: 50px;
 }
 #images2 {
@@ -4739,7 +4739,7 @@ photos.</p>
   border: 2px #88BBD6 solid;
   margin: 5px;
   background-color: white;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -4762,7 +4762,7 @@ content still be easily consumable.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -4783,7 +4783,7 @@ content still be easily consumable.</p>
       &lt;/div&gt;
     &lt;/div&gt;
   &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -4792,7 +4792,7 @@ content still be easily consumable.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>div {
+<pre><code>div {
   margin-bottom: 50px;
 }
 #images3 {
@@ -4816,7 +4816,7 @@ content still be easily consumable.</p>
 }
 #clickHere a {
   color: white;
-}</pre>
+}</code></pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4876,7 +4876,7 @@ to keep in mind when designing forms:</p>
 <details>
   <summary>HTML code extract!</summary>
   
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -4893,7 +4893,7 @@ to keep in mind when designing forms:</p>
     &lt;/form&gt;
   &lt;/div&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -4902,7 +4902,7 @@ to keep in mind when designing forms:</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>div {
+<pre><code>div {
   margin-bottom: 50px;
   height: 400px;
 }
@@ -4917,7 +4917,7 @@ form {
 #uglyForm button {
   background-color: white;
   border: 0px;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -4946,7 +4946,7 @@ see in action in the Code Pen below:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -4972,7 +4972,7 @@ see in action in the Code Pen below:</p>
     &lt;/form&gt;
   &lt;/div&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -4981,7 +4981,7 @@ see in action in the Code Pen below:</p>
 <details>
   <summary>CSS code extract!</summary>
   
-<pre>div {
+<pre><code>div {
   margin-bottom: 50px;
   height: 400px;
 }
@@ -5020,7 +5020,7 @@ form {
 #form1 button:hover {
   background-color: #DBC3D0;
   color: white;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -5043,7 +5043,7 @@ short.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -5061,7 +5061,7 @@ short.</p>
       &lt;/form&gt;
     &lt;/div&gt;
   &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -5070,7 +5070,7 @@ short.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>div {
+<pre><code>div {
   margin-bottom: 50px;
   height: 400px;
 }
@@ -5108,7 +5108,7 @@ form {
   padding: 10px 20px;
   font-variant: small-caps;
   width: 225px;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -5130,7 +5130,7 @@ simple. </p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -5147,7 +5147,7 @@ simple. </p>
       &lt;/div&gt;
     &lt;/div&gt;
   &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -5156,7 +5156,7 @@ simple. </p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>div {
+<pre><code>div {
   margin-bottom: 50px;
   height: 400px;
 }
@@ -5203,7 +5203,7 @@ form {
   margin: 20px;
   width: 85%;
 font-family: &#39;Century Gothic&#39;;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -5214,7 +5214,7 @@ font-family: &#39;Century Gothic&#39;;
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -5268,7 +5268,7 @@ font-family: &#39;Century Gothic&#39;;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -5277,7 +5277,7 @@ font-family: &#39;Century Gothic&#39;;
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>div {
+<pre><code>div {
   margin-bottom: 50px;
   height: 400px;
 }
@@ -5395,7 +5395,7 @@ width: 225px;
   margin: 20px;
   width: 85%;
   font-family: &#39;Century Gothic&#39;;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -5578,7 +5578,7 @@ position elements on a page.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
@@ -5606,7 +5606,7 @@ position elements on a page.</p>
     margin 100px &lt;br /&gt;
   &lt;/p&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -5615,7 +5615,7 @@ position elements on a page.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>body {
+<pre><code>body {
   background-color: #7CDBD5;
 }
 p {
@@ -5640,7 +5640,7 @@ margin: 10px;
   padding: 100px;
   border: 100px #F53240 solid;
   margin: 100px;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -5663,9 +5663,9 @@ the context of their containing HTML element.</p>
 href="https://www.w3.org/TR/CSS22/text.html#alignment-prop" target="_blank" 
 rel="noopener noreferrer"><i>Documentation</i></a>]</p>
 
-<pre>h1 {
+<pre><code>h1 {
   text-align: center;
-}</pre>
+}</code></pre>
 
 <p>If you have used a text editor before, like Microsoft Word, you've
 probably used the different text-align properties: left (default for
@@ -5695,9 +5695,9 @@ divs and headers.</p>
 href="https://www.w3.org/TR/CSS22/visudet.html#line-height" target="_blank" 
 rel="noopener noreferrer"><i>Documentation</i></a>]</p>
 
-<pre>h1 {
+<pre><code>h1 {
   line-height: 1.2;
-}</pre>
+}</code></pre>
 
 <p>You may have noticed that the text-align property sets the content's
 alignment horizontally, but it leaves its vertical alignment
@@ -5722,7 +5722,7 @@ within it.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -5742,7 +5742,7 @@ within it.</p>
     &lt;h4&gt;this header is aligned to the baseline of the line height within a stretched 
       containing box&lt;/h4&gt;
   &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -5751,7 +5751,7 @@ within it.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>h1 {
+<pre><code>h1 {
   background-color: red;
   width: 500px;
   text-align: center;
@@ -5774,7 +5774,7 @@ h4 {
   background-color: pink;
   height: 200px;
   line-height:4;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -5816,9 +5816,9 @@ width property</a> and <a
 href="https://www.w3.org/TR/CSS22/visudet.html#the-height-property" target="_blank" rel="noopener noreferrer">the
 height property</a>]</p>
 
-<pre>p {
+<pre><code>p {
   width: 30%;
-}</pre>
+}</code></pre>
 
 <p>You can use pixel values for both width and height, but you'll most
 often want to use percentages to set these so that your elements grow
@@ -5856,10 +5856,10 @@ large, and they can look really distorted. Thankfully, you can set max
 and min width and heights. This way, you can set a range for your image
 to grow and shrink where you know it will still look good. </p>
 
-<pre>img {
+<pre><code>img {
   width: 100%;
   max-width: 1024px;
-}</pre>
+}</code></pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 81. set max img width (147) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -5874,7 +5874,7 @@ to grow and shrink where you know it will still look good. </p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -5902,7 +5902,7 @@ to grow and shrink where you know it will still look good. </p>
       &lt;/p&gt;
     &lt;/div&gt;
   &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -5911,7 +5911,7 @@ to grow and shrink where you know it will still look good. </p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>#width50 {
+<pre><code>#width50 {
   background-color:red;
   width: 50%;
 }
@@ -5931,7 +5931,7 @@ to grow and shrink where you know it will still look good. </p>
 }
 #containingBlock {
   height: 500px;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -5959,23 +5959,23 @@ most commonly used margin settings is "auto". That is because if you set
 an element's left and right margin to auto it will be dynamically
 centered within its containing block.</p>
 
-<pre>div {
+<pre><code>div {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-}</pre>
+}</code></pre>
 
 <p>Note however, that this only works for block HTML elements like
 paragraphs, divs and headers. If you want to use this to position an
 inline element, such as img or a, you will need to tell CSS to treat
 them as block elements by setting display: block;</p>
 
-<pre>img {
+<pre><code>img {
   display: block;
   width: 200px;
   margin-left: auto;
   margin-right: auto;
-}</pre>
+}</code></pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 82. display: block example (150) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -5990,7 +5990,7 @@ them as block elements by setting display: block;</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
@@ -6009,7 +6009,7 @@ them as block elements by setting display: block;</p>
          and here is text in a centered section below the inner div
       &lt;/section&gt;
    &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -6018,7 +6018,7 @@ them as block elements by setting display: block;</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>h1 {
+<pre><code>h1 {
   background-color: red;
   width: 50%;
   margin: 0 auto;
@@ -6041,7 +6041,7 @@ div {
   background-color: pink;
   width: 50%;
   margin: 0 auto;
-}</pre>
+}</code></pre>
 
 </details>
 <p>Here is what the above code looks like in a wide window:</p>
@@ -6094,7 +6094,7 @@ properties you've learned in this unit.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
    &lt;head&gt;
@@ -6123,7 +6123,7 @@ properties you've learned in this unit.</p>
          thank you and please visit again soon!
       &lt;/footer&gt;
    &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -6132,7 +6132,7 @@ properties you've learned in this unit.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>body {
+<pre><code>body {
   font-family: Tahoma;
 }
 header {
@@ -6165,7 +6165,7 @@ footer {
   background-color: #4EC5C1;
   border-top: 5px #FEDC3D solid;
   color: white;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -6228,10 +6228,10 @@ tools you can master when learning CSS.</p>
 href="https://www.w3.org/TR/CSS22/visuren.html#float-position" 
 target="_blank" rel="noopener noreferrer">Documentation</a>]</i></p>
 
-<pre>h1 {
+<pre><code>h1 {
   width: 20em;
   float: right;
-}</pre>
+}</code></pre>
 
 <p>Up until now, we haven't moved elements very far from wherever the
 web browser automatically places them, but as you've probably noticed
@@ -6276,9 +6276,9 @@ href="https://www.w3.org/TR/CSS22/visuren.html#propdef-clear" target="_blank"
 rel="noopener noreferrer" title="The clear property specifies what should 
 happen with the element that is next to a floating element.">Documentation</a>]</i></p>
 
-<pre>p {
+<pre><code>p {
   clear: both;
-}</pre>
+}</code></pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 88. too many colors (157) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -6291,7 +6291,7 @@ happen with the element that is next to a floating element.">Documentation</a>]<
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -6322,7 +6322,7 @@ happen with the element that is next to a floating element.">Documentation</a>]<
       so nothing can overlap.
     &lt;/div&gt;
   &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -6331,7 +6331,7 @@ happen with the element that is next to a floating element.">Documentation</a>]<
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>body {
+<pre><code>body {
   font-size: 24pt;
   font-family: helvetica, sans-serif;
 }
@@ -6361,7 +6361,7 @@ div {
   background-color: blue;
   width: 30%;
   float: right;
-}</pre>
+}</code></pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6388,7 +6388,7 @@ rel="noopener noreferrer">
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -6434,7 +6434,7 @@ rel="noopener noreferrer">
       &lt;/div&gt;
     &lt;/section&gt;
   &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -6443,7 +6443,7 @@ rel="noopener noreferrer">
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>body {
+<pre><code>body {
   background-color: #4ABDAC;
   color: #FFFFFF;
   font-family: Georgia, serif;
@@ -6475,7 +6475,7 @@ div {
   height: 150px;
   padding: 10px;
   margin: 20px;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -6503,7 +6503,7 @@ everything looking like the final image below:</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -6549,7 +6549,7 @@ everything looking like the final image below:</p>
       &lt;/div&gt;
     &lt;/section&gt;
   &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -6558,7 +6558,7 @@ everything looking like the final image below:</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>body {
+<pre><code>body {
   background-color: #4ABDAC;
   color: #FFFFFF;
   font-family: Georgia, serif;
@@ -6623,7 +6623,7 @@ div {
 }
 #bottomLeft {
   margin-bottom: 0px;
-}</pre>
+}</code></pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6664,9 +6664,9 @@ elements are placed on the page.</p>
 	truly dynamic.</li>
 </ul>
 
-<pre>div {
+<pre><code>div {
   position: relative;
-}</pre>
+}</code></pre>
 
 <p>[<a href="https://www.w3.org/TR/CSS22/visuren.html#position-props" 
 target="_blank" rel="noopener noreferrer">
@@ -6682,10 +6682,10 @@ and the corner of the box that we are specifying.</p>
 element 30px to the right away from the left of where it was placed by
 default.</p>
 
-<pre>p {
+<pre><code>p {
   position: relative;
   left: 10px;
-}</pre>
+}</code></pre>
 
 <p>Note that position is not an inherited property so you will have to apply it 
 individually to each element. Because of this it is best to use this approach to 
@@ -6707,7 +6707,7 @@ your desired layout with alignment or floating.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -6723,7 +6723,7 @@ your desired layout with alignment or floating.</p>
       &lt;h3&gt;a shifted header in a shifted footer&lt;/h3&gt;
     &lt;/footer&gt;
   &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -6732,7 +6732,7 @@ your desired layout with alignment or floating.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>h1 {
+<pre><code>h1 {
   background-color: red;
   width: 300px;
   position: relative;
@@ -6758,7 +6758,7 @@ h3 {
   position: relative;
   top: 50px;
   left: 10px;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -6778,7 +6778,7 @@ CSS code as a second example:</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>h1 {
+<pre><code>h1 {
   background-color: red;
   width: 300px;
   position: relative;
@@ -6804,7 +6804,7 @@ h3 {
   position: relative;
   top: 50px;
   left: 10px;
-}</pre>
+}</code></pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6831,7 +6831,7 @@ items sit on the page.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>body {
+<pre><code>body {
   background-color: #EFEFEF;
   color: #A9A9A9;
   font-family: &quot;Book Antiqua&quot;, serif;
@@ -6850,7 +6850,7 @@ h3 {
 }
 p {
   width: 90%;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -6874,7 +6874,7 @@ another. </p>
 <details>
   <summary>CSS code extract!</summary>
   
-<pre>body {
+<pre><code>body {
   background-color: #EFEFEF;
   color: #A9A9A9;
   font-family: &quot;Book Antiqua&quot;, serif;
@@ -6902,7 +6902,7 @@ h3 {
 p {
   width: 90%;
   padding-left: 25px;
-}</pre>
+}</code></pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6947,7 +6947,7 @@ viewing.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>div {
+<pre><code>div {
   clear: both;
   margin-bottom: 50px;
   padding: 30px;
@@ -6978,7 +6978,7 @@ a {
 }
 #menu1 .currentPage a {
   color: #0E0B16;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -7002,7 +7002,7 @@ directly connects to the menu item representing it. </p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>div {
+<pre><code>div {
   clear: both;
   margin-bottom: 50px;
   padding: 30px;
@@ -7054,7 +7054,7 @@ a {
 }
 #menu2 p {
   padding: 30px;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -7063,7 +7063,7 @@ a {
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -7097,7 +7097,7 @@ a {
       &lt;/section&gt;
     &lt;/div&gt;
   &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -7121,7 +7121,7 @@ header.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>div {
+<pre><code>div {
   clear: both;
   margin-bottom: 50px;
   padding: 30px;
@@ -7169,7 +7169,7 @@ a {
 }
 #menu3 #about:hover .subitems {
   display: block;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -7178,7 +7178,7 @@ a {
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -7201,7 +7201,7 @@ a {
       &lt;/ul&gt;
     &lt;/div&gt;
   &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7229,7 +7229,7 @@ to be distinct from your content.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>div {
+<pre><code>div {
   font-family: Arial;
 }
 #footer1 {
@@ -7317,7 +7317,7 @@ to be distinct from your content.</p>
 }
 #footer3 a:hover {
   color: #f4decb;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -7326,7 +7326,7 @@ to be distinct from your content.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -7403,7 +7403,7 @@ to be distinct from your content.</p>
       &lt;/footer&gt;
     &lt;/div&gt;
   &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -7426,7 +7426,7 @@ reference to the designer of the page.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>div {
+<pre><code>div {
   font-family: Arial;
 }
 #footer1 {
@@ -7454,7 +7454,7 @@ reference to the designer of the page.</p>
 }
 #footer1 footer a:hover {
   color: #f4f4f4;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -7463,7 +7463,7 @@ reference to the designer of the page.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -7490,7 +7490,7 @@ reference to the designer of the page.</p>
       &lt;/footer&gt;
     &lt;/div&gt;
   &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -7513,7 +7513,7 @@ because limiting area isn't as important as in the top level header.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>div {
+<pre><code>div {
   font-family: Arial;
 }
 #footer2 {
@@ -7547,7 +7547,7 @@ because limiting area isn't as important as in the top level header.</p>
 #footer2 .topLevel {
   font-size: 1.2em;
   font-variant: small-caps;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -7556,7 +7556,7 @@ because limiting area isn't as important as in the top level header.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -7599,7 +7599,7 @@ because limiting area isn't as important as in the top level header.</p>
       &lt;/footer&gt;
     &lt;/div&gt;
   &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -7621,7 +7621,7 @@ limits the content to a single simple contact link.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>div {
+<pre><code>div {
   font-family: Arial;
 }
 #footer3 {
@@ -7651,7 +7651,7 @@ limits the content to a single simple contact link.</p>
 }
 #footer3 a:hover {
   color: #f4decb;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -7660,7 +7660,7 @@ limits the content to a single simple contact link.</p>
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -7687,7 +7687,7 @@ limits the content to a single simple contact link.</p>
       &lt;/footer&gt;
     &lt;/div&gt;
   &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7770,7 +7770,7 @@ on the page when you resize the browser window.</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>/&ast;
+<pre><code>/&ast;
 Project 4 Module 4.6.2
 At times I use the number 2 at the beginning of an element to disable it. 
 The number 2 is just random. So when you see that in my code, that is all 
@@ -7984,7 +7984,7 @@ img:hover {
 }
 a:hover, img:active {
   opacity: 50%;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -7993,7 +7993,7 @@ a:hover, img:active {
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!Doctype html&gt;
+<pre><code>&lt;!Doctype html&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
@@ -8134,7 +8134,7 @@ a:hover, img:active {
     alt=&quot;picture of an arrow symbol pointing up for going back up to top of page&quot; title=&quot;Back to Top of Page&quot;&gt;&lt;/a&gt;
   &lt;/footer&gt;
   &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
@@ -8410,9 +8410,9 @@ Remember that, when you are building your font-family set, you will want
 to always include a Web safe font alternative for an exotic font in case
 the user’s device doesn’t support it. </p>
 
-<pre>Body {
+<pre><code>Body {
   font-family: &quot;Segoe UI&quot;, Helvetica, sans-serif;
-}</pre>
+}</code></pre>
 
 <p>When choosing your font, probably the biggest choice you’ll make is
 what category of font to use. There are 5 basic categories of font: </p>
@@ -8696,11 +8696,11 @@ of a page, and that it distinguishes the page from other Web pages.</h4>
 
 <h4>Example</h4>
 
-<pre>&lt;head&gt;
+<pre><code>&lt;head&gt;
 ...
   &lt;title&gt;Web Accessibility Initiative (WAI) - home page&lt;/title&gt;
 ...
-&lt;/head&gt;</pre>
+&lt;/head&gt;</code></pre>
 
 <h4>Example 2: image text alternatives (“alt text”)</h4>
 
@@ -8719,10 +8719,10 @@ alternative text.</h4>
 points to the W3C Web site. The text alternative is going to be a brief
 description of the link target.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<pre>&lt;a href=&quot;https://w3.org&quot;&gt;
+<pre><code>&lt;a href=&quot;https://w3.org&quot;&gt;
   &lt;img src=&quot;images/w3c_home.png&quot; width=&quot;72&quot; height=&quot;48&quot; 
   alt=&quot;W3C Web site&quot;&gt;
-&lt;/a&gt;</pre>
+&lt;/a&gt;</code></pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-3-2">5.3.2 Inclusive design</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9325,7 +9325,7 @@ the id selector as the href setting on the anchor tag. </p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>body {
+<pre><code>body {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -9340,7 +9340,7 @@ ul li {
 }
 section {
   clear: both;
-}</pre>
+}</code></pre>
 
 </details>
 
@@ -9349,7 +9349,7 @@ section {
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre><code>&lt;!DOCTYPE html&gt;
 &lt;!--It&#39;s a best practice to always declare DOCTYPE!--&gt;
 &lt;html lang=&quot;en&quot;&gt;
   &lt;head&gt;
@@ -9612,7 +9612,7 @@ section {
       &lt;/p&gt;
     &lt;/section&gt;
   &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;</code></pre>
 
 </details>
 
