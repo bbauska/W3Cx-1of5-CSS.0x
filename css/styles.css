@@ -158,19 +158,37 @@ body {
   background-color: #555;  /* very dark gray */
 }
 
-pre.test1 {
-	counter-reset: linecounter;
-}
-pre.test1 span.line{
-	counter-increment: linecounter;
-}
-pre.test1 span.line:before{
-	content: counter(linecounter);
-	width: 2em;
-	display: inline-block;
-	border-right: 1px solid black;
+pre {
+  background-color:#eee;
+  overflow:auto;
+  margin:0 0 1em;
+  padding:.5em 1em;
 }
 
+pre code,
+pre .line-number {
+  /* Ukuran line-height antara teks di dalam tag <code> dan <span class="line-number"> harus sama! */
+  font:normal normal 10px/12px consolas,Courier,Monospace;
+  color:black;
+  display:block;
+}
+
+pre .line-number {
+  float:left;
+  margin:0 1em 0 -1em;
+  border-right:1px solid;
+  text-align:right;
+}
+
+pre .line-number span {
+  display:block;
+  padding:0 .5em 0 1em;
+}
+
+pre .cl {
+  display:block;
+  clear:both;
+}
 @media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
   div.example {
     font-size: 50px;
