@@ -185,7 +185,8 @@ pre .cl {
 pre[href]:hover  {
   text-decoration: none;
 }
-pre:hover, pre:focus { width: min-content; }
+/* pre:hover, pre:focus { width: min-content; } */
+pre:hover, pre:focus { width: 105px; }
 pre {
   overflow: auto;
 }
