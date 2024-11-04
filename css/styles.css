@@ -181,7 +181,9 @@ pre .cl {
 pre[href]:hover  {
   text-decoration: none;
 }
-pre:hover, pre:focus { width: max-content; }
+pre:hover, pre:focus { 
+  width: 45%; 
+}
 pre {
   overflow: auto;
 }
