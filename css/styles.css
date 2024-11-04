@@ -146,13 +146,14 @@ pre > code {
   word-wrap: normal;
 }
 pre {
+  font:normal normal 10px/12px consolas,Courier,Monospace;
   background-color:#eee;
   overflow:auto;
   margin:0 0 1em;
   padding:.5em 1em;
   white-space: pre-wraps;
   overflow-x: auto;
-  width: max-content;
+  width: 45%;
 }
 pre code,
 pre .line-number {
@@ -162,10 +163,12 @@ pre .line-number {
   display:block;
 }
 pre .line-number {
+  font:normal normal 10px/12px consolas,Courier,Monospace;
   float:left;
   margin:0 1em 0 -1em;
   border-right:1px solid;
   text-align:right;
+  color: red;
 }
 pre .line-number span {
   display:block;
@@ -178,7 +181,7 @@ pre .cl {
 pre[href]:hover  {
   text-decoration: none;
 }
-pre:hover, pre:focus { width: min-content; }
+pre:hover, pre:focus { width: max-content; }
 pre {
   overflow: auto;
 }
