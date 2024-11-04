@@ -29,21 +29,6 @@ p {
   margin-left: 15px;  /* 10px */
 }
 
-/* pre, code { */
-/*   font-family: monospace, monospace; */
-/*   font-size: 10px; */
-/*   margin-left: 15px; */  /* 10px */
-/* } */
-/* pre { */
-/*   overflow: auto; */
-/* } */
-/* pre > code { */
-/*   display: block; */
-/*   margin-left: 15px;   */ /* 10px */
-/*   padding: 1rem; */
-/*   word-wrap: normal; */
-/* } */
-
 a:link {
   color: #013220;  /* very dark green */
   background-color: transparent;
@@ -154,6 +139,12 @@ body {
   background-color: #555;  /* very dark gray */
 }
 
+pre > code {
+  display: block;
+  margin-left: 15px;  /* 10px */
+  padding: 1rem;
+  word-wrap: normal;
+}
 pre {
   background-color:#eee;
   overflow:auto;
