@@ -153,7 +153,6 @@ pre {
   padding:.5em 1em;
   white-space: pre-wraps;
   overflow-x: auto;
-  width: 45%;
 }
 pre code,
 pre .line-number {
@@ -182,7 +181,7 @@ pre[href]:hover  {
   text-decoration: none;
 }
 pre:hover, pre:focus { 
-  width: 100%; 
+  width: 110%; 
 }
 pre {
   overflow: auto;
