@@ -159,6 +159,7 @@ pre {
   overflow:auto;
   margin:0 0 1em;
   padding:.5em 1em;
+  white-space: pre-wraps;
 }
 
 pre code,
@@ -185,8 +186,7 @@ pre .cl {
 pre[href]:hover  {
   text-decoration: none;
 }
-/* pre:hover, pre:focus { width: min-content; } */
-pre:hover, pre:focus { width: 105px; }
+pre:hover, pre:focus { width: min-content; }
 pre {
   overflow: auto;
 }
