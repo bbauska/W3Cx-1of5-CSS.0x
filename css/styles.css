@@ -160,8 +160,8 @@ pre {
   margin:0 0 1em;
   padding:.5em 1em;
   white-space: pre-wraps;
+  overflow-x: auto;
 }
-
 pre code,
 pre .line-number {
   /* Ukuran line-height antara teks di dalam tag <code> dan <span class="line-number"> harus sama! */
