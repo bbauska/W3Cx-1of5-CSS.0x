@@ -90,7 +90,7 @@ details {
 }
 details > summary {
   padding: 2px 6px;
-  width: 400px;  /* 12em; */
+  width: 12em;  /* 12em; */
   background-color: #eee;  /* very light gray */
   border: none;
   box-shadow: 3px 3px 4px #00008b;  /* dark blue */
