@@ -42,10 +42,10 @@
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ script function: scrollFunction() ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <script>
-  <!-- get the button -->
+  <!-- Get the button -->
   var mybutton = document.getElementById("myBtn");
 
-  <!-- when the user scrolls down 10px from the top of the document, show the button -->
+  <!-- When the user scrolls down 10px from the top of the document, show the button -->
   window.onscroll = function() {scrollFunction()};
 
   function scrollFunction() {
@@ -56,7 +56,7 @@
     }
   }
 
-  // when the user clicks on the button, scroll to the table of contents near top of document.
+  // When the user clicks on the button, scroll to the table of contents near top of document.
   function topFunction() {
     document.getElementById('table-of-contents').scrollIntoView();
   }
@@ -1486,8 +1486,7 @@ is called an HTML <b>element</b>.</p>
 <details>
   <summary>HTML code extract!</summary>
   
-<pre>
-&lt;!DOCTYPE html&gt; &lt;!-- Doctype declares the document to be HTML 5 type--&gt;
+<pre>&lt;!DOCTYPE html&gt; &lt;!-- Doctype declares the document to be HTML 5 type--&gt;
 &lt;html lang=&quot;en&quot;&gt; &lt;!--All your HTML content must be within this tag--&gt;
   &lt;head&gt; &lt;!--Anything in the header provides information about the document, no content here--&gt;
     &lt;meta charset=&quot;utf-8&quot;&gt;
@@ -1497,8 +1496,7 @@ is called an HTML <b>element</b>.</p>
     &lt;h1&gt;My First Heading&lt;/h1&gt; &lt;!--content in a h1 tag is a &quot;heading&quot; of the top level--&gt;
     &lt;p&gt;My first paragraph.&lt;/p&gt; &lt;!--content in a p tag is normal or &quot;paragraph&quot; level text--&gt;
   &lt;/body&gt;
-&lt;/html&gt;
-</pre>
+&lt;/html&gt;</pre>
 
 </details>
 
@@ -2070,20 +2068,20 @@ selectors that match the HTML tag name. For example, here are some example
 selectors we'll use in this module:</p>
 
 <pre>a {
-/* style for a tags */
+/* Style for a tags. */
 }</pre>
 
 <p>This would affect the style of all link tags on the page.</p>
 
 <pre>p {
-/* style for p tags */
+/* Style for p tags. */
 }</pre>
 
 <p>This would affect the style of all paragraph tags on the page and the style 
 of elements contained within the paragraph tag.</p>
 
 <pre>body {
-/* style for all elements in the body */
+/* Style for all elements in the body. */
 }</pre>
 
 <p>This would apply style to the body tag as well as allow the elements inside 
@@ -2168,16 +2166,16 @@ tag name. For example, here are some example selectors we’ll use in this modul
   <summary>CSS code extract!</summary>
   
 <pre>body {
-  color: red; /* every element inherits this except a tags, which don&#39;t inherit by default */
+  color: red; /* Every element inherits this except a tags, which don&#39;t inherit by default. */
  }
 ul {
-  color: blue; /* li elements inherit this color */
+  color: blue; /* li elements inherit this color. */
 }
 p {
-  font-style: italic; /*this even the a tags inherit within the paragraphs */
+  font-style: italic; /* This even the a tags inherit within the paragraphs. */
 }
 li {
-  text-decoration: line-through; /* applies to all li elements, in both ul and ol tags */
+  text-decoration: line-through; /* Applies to all li elements, in both ul and ol tags. */
 }</pre>
 
 </details>
@@ -2488,21 +2486,21 @@ aspects of an HTML element in mind</p>
 <details>
   <summary>CSS code extract!</summary>
 
-<pre>  /*selector here*/  {
+<pre>  /* Selector here */  {
   background-color: #ccffcc;
   color: #336600;
 }
-  /*selector here*/  {
+  /* Selector here */  {
   background-color: #336600;
   color: #ccffcc;
 }
-  /*selector here*/  {
+  /* Selector here */  {
   border: 3px solid;
 }
-  /*selector here*/  {
+  /* Selector here */  {
   background-color: #ffff99;
 }
-  /*selector here*/  {
+  /* Selector here */  {
   text-decoration: underline;
 }</pre>
 
@@ -2539,10 +2537,10 @@ input, some specific keywords, some numerical input, etc.</p>
 value:</p>
 
 <pre>body {
-  background-color: purple; /* key word */
+  background-color: purple; /* Key word */
   color: #FFFFFF; /* HEX code */
-  width: 60%; /* percentage */
-  font-size: 20pt; /* numerical value */
+  width: 60%; /* Percentage */
+  font-size: 20pt; /* Numerical value */
 }</pre>
 
 <p>The above style is put into action in the 
@@ -2662,7 +2660,7 @@ represents pure white.</p>
 of the 6 characters like so:</p>
 
 <pre>body {
-   background-color: #00CC00; /* green */
+   background-color: #00CC00; /* Green */
 }</pre>
 
 <h4>decimal</h4>
@@ -2670,7 +2668,7 @@ of the 6 characters like so:</p>
 <p>You can also specify colors using rgb in decimal form like so:</p>
 
 <pre>body {
-   background-color: rgb(0,204,0); /*same green as above*/
+   background-color: rgb(0,204,0); /* Same green as above. */
 }</pre>
 
 <p>This will give you the same range as HEX values. This method is a less common, 
@@ -9912,6 +9910,7 @@ Last Updated: 7.22.2024 Thu 3:35pm<br/>
 Last Updated: 9.16.2024 Mon 12:10pm<br/>
 Last Updated: 9.28.2024 Sat 1:57pm<br/>
 Last Updated: 10.01.2024 Tue 11:33am</p>
+Last Updated: 11.05.2024 Tue 12:41am</p>
 
 <script src="js/scripts.js"></script>
 </body>
