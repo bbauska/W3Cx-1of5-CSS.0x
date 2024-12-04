@@ -178,14 +178,14 @@ pre .cl {
   clear:both;
 }
 pre {
-  width: 500px;
   overflow: auto;
+/*  width: 500px; */
 }
 pre[href]:hover  {
   text-decoration: none;
 }
 pre:hover, pre:focus { 
-  width: 500px; 
+  width: min-content; 
 }
 
 @media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
