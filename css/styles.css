@@ -85,18 +85,19 @@ h6 {
 }
 
 details {
-  font: 12px Bahnschrift, Inter, sans-serif, Calibri;
+  font: 11px Inter, sans-serif, Bahnschrift, Calibri;
 }
 /*  width: 24em; */
   /* max-content; */
 details > summary {
   padding: 2px 6px;
-  width: 12em;  /* 12em; */
   background-color: #eee;  /* very light gray */
   border: none;
   box-shadow: 3px 3px 4px #00008b;  /* dark blue */
   cursor: pointer;
 }
+/*  width: 12em;  */
+
 /*  margin-left: 15px;  was: 10px */
 details > p {
   border-radius: 0 0 10px 10px;
