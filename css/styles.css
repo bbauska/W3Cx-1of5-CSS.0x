@@ -87,8 +87,6 @@ h6 {
 details {
   font: 10px Inter, sans-serif, Bahnschrift, Calibri;
 }
-/*  width: 24em; */
-  /* max-content; */
 details > summary {
   padding: 2px 6px;
   background-color: #eee;  /* very light gray */
@@ -96,9 +94,7 @@ details > summary {
   box-shadow: 3px 3px 4px #00008b;  /* dark blue */
   cursor: pointer;
 }
-/*  width: 12em;  */
 
-/*  margin-left: 15px;  was: 10px */
 details > p {
   border-radius: 0 0 10px 10px;
   background-color: #fff;  /* white */
@@ -147,8 +143,6 @@ pre > code {
   padding: 1rem;
   word-wrap: normal;
 }
-/*  width: min-content;  */
-
 pre {
   font:normal normal 10px/12px consolas,Courier,Monospace;
   background-color:#eee;
@@ -160,7 +154,6 @@ pre {
 }
 pre code,
 pre .line-number {
-  /* Ukuran line-height antara teks di dalam tag <code> dan <span class="line-number"> harus sama! */
   font:normal normal 10px/12px consolas,Courier,Monospace;
   color:black;
   display:block;
@@ -183,7 +176,6 @@ pre .cl {
 }
 pre {
   overflow: auto;
-/*  width: 500px; */
 }
 pre[href]:hover  {
   text-decoration: none;
