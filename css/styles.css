@@ -86,6 +86,7 @@ h6 {
 
 details {
   font: 10px Inter, sans-serif, Bahnschrift, Calibri;
+  width: 65%;
 }
 details > summary {
   width: 12em;
