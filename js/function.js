@@ -16,12 +16,6 @@ function scrollFunction() {
   }
 }
 
-// When the user clicks on the button, scroll to the top of the document, 0.
-/* function topFunction() { */
-/*  document.body.scrollTop = 0; */
-/*  document.documentElement.scrollTop = 0; */
-/* } */
-
 // when the user clicks on the button, scroll to the table of contents near top of document.
   function topFunction() {
     document.getElementById('table-of-contents').scrollIntoView();
