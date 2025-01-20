@@ -13,13 +13,13 @@ ul li {
   font-size: 14.5px;
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   padding: 14.5px;  /* 10px */
-  line-height:110%;
+  line-height: 110%;
 }
 ol li {
   font-size: 14.5px;
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   padding: 14.5px;  /* 10px */
-  line-height:110%;
+  line-height: 110%;
 }
 
 p { 
@@ -96,7 +96,6 @@ details > summary {
   box-shadow: 3px 3px 4px #00008b;  /* dark blue */
   cursor: pointer;
 }
-
 details > p {
   border-radius: 0 0 10px 10px;
   background-color: #fff;  /* white */
@@ -185,7 +184,6 @@ pre[href]:hover  {
 pre:hover, pre:focus {
   width: fit-content;  /* min-content */
 }
-/* min-content */
 
 @media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
   div.example {
