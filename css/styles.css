@@ -183,7 +183,7 @@ pre[href]:hover  {
   text-decoration: none;
 }
 pre:hover, pre:focus {
-  width: min-content; 
+  width: fit-content;  /* min-content */
 }
 /* min-content */
 
