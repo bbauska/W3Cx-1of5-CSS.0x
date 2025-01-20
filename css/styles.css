@@ -146,35 +146,35 @@ pre > code {
   word-wrap: normal;
 }
 pre {
-  font:normal normal 10px/12px consolas,Courier,Monospace;
-  background-color:#eee;
-  overflow:auto;
-  margin:0 0 1em;
-  padding:.5em 1em;
+  font: normal normal 10px/12px consolas,Courier,Monospace;
+  background-color: #eee;
+  overflow: auto;
+  margin: 0 0 1em;
+  padding: .5em 1em;
   white-space: pre-wraps;
   overflow-x: auto;
 }
 pre code,
 pre .line-number {
-  font:normal normal 10px/12px consolas,Courier,Monospace;
-  color:black;
-  display:block;
+  font: normal normal 10px/12px consolas,Courier,Monospace;
+  color: black;
+  display: block;
 }
 pre .line-number {
-  font:normal normal 10px/12px consolas,Courier,Monospace;
-  float:left;
-  margin:0 1em 0 -1em;
-  border-right:1px solid;
-  text-align:right;
+  font: normal normal 10px/12px consolas,Courier,Monospace;
+  float: left;
+  margin: 0 1em 0 -1em;
+  border-right: 1px solid;
+  text-align: right;
   color: red;
 }
 pre .line-number span {
-  display:block;
-  padding:0 .5em 0 1em;
+  display: block;
+  padding: 0 .5em 0 1em;
 }
 pre .cl {
-  display:block;
-  clear:both;
+  display: block;
+  clear: both;
 }
 pre {
   overflow: auto;
@@ -182,7 +182,7 @@ pre {
 pre[href]:hover  {
   text-decoration: none;
 }
-pre:hover, pre:focus { 
+pre:hover, pre:focus {
   width: min-content; 
 }
 /* min-content */
